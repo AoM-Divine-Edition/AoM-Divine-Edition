@@ -44,6 +44,8 @@ As the mod is very large, hosting it on Steam Workshop is not practical. As such
 - Many histories, particualrly the Roman histories, are not yet written.
 - The culture-specific music that plays at the start of matches is considered a sound and so is unaffected by adjusting the music volume.
 - The UI is almost completely untouched.
+- The Roman titan is the Greek titan.
+- Some units buildings lack player color.
 - For some relatively low-specs systems, there may be a moment of lag when clicking on "Random Map" or "Multiplayer" after playing several successive matches.
 - Balance. There _will_ be severe, glaring balance issues. Please inform us of any you identify in the above discord! 
 - Broken interactions. Despite our best efforts, there are almost certainly dozens of cross-civilization interactions which either do not work properly or are flagrantly overpowered. Once again, please inform us of any you identify in the above discord.
