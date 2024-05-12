@@ -50,7 +50,7 @@ define Head
 {
 	SetSelector
 	{
-		TechLogic none/Medium Barracks/Heavy Barracks/Champion Barracks
+		TechLogic none/Medium Infantry/Heavy Infantry/Champion Infantry
 		set hotspot
 		{
 			version

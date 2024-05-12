@@ -1032,6 +1032,53 @@
 
 	</keymapgroup>
 
+	<keymapgroup name="Lakota Building Construction" displayname="$$120804$$Lakota Building Construction">
+		<keymapdata>
+			<name>Build Guild Fire</name>
+			<displayname>$$120805$$Build Guild Fire</displayname>
+			<event>g</event>
+			<context>BuildGreekAccel</context>
+			<command>tis("Guild Fire")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Build Lakota Temple</name>
+			<displayname>$$120806$$Build Lakota Temple</displayname>
+			<event>l</event>
+			<context>BuildGreekAccel</context>
+			<command>tis("Lakota Temple")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Build Ribbon Tree</name>
+			<displayname>$$120807$$Build Ribbon Tree</displayname>
+			<event>u</event>
+			<context>BuildGreekAccel</context>
+			<command>tis("Ribbon Tree")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Build Sodhouse</name>
+			<displayname>$$120808$$Build Sodhouse</displayname>
+			<event>m</event>
+			<context>BuildGreekAccel</context>
+			<command>tis("Temple Sodhouse")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Build Outpost Settlement</name>
+			<displayname>$$120809$$Build Outpost Settlement</displayname>
+			<event>s</event>
+			<context>BuildGreekAccel</context>
+			<command>tis("Outpost Settlement")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Thikceya</name>
+			<displayname>$$120810$$Thikceya</displayname>
+			<event>c</event>
+			<context>SettlementAccel</context>
+			<command>tis("Packed Thikceya")</command>
+		</keymapdata>
+		
+
+	</keymapgroup>
+
 	<keymapgroup name="Egyptian Building Construction" displayname="$$60146$$Egyptian Building Construction">
 		<keymapdata>
 			<name>Build Granary</name>
@@ -1161,14 +1208,14 @@
 			<displayname>$$21445$$Villager</displayname>
 			<event>v</event>
 			<context>SettlementAccel</context>
-			<command>tis("Villager Norse") tis("Villager Egyptian") tis("Villager Greek") tis("Villager Atlantean") tis("Villager Chinese") tis("Townsfolk") tis("Villager Roman")</command>
+			<command>tis("Villager Norse") tis("Villager Egyptian") tis("Villager Greek") tis("Villager Atlantean") tis("Villager Chinese") tis("Townsfolk") tis("Villager Roman") tis("Villager Lakota")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Multiple Villager</name>
 			<displayname>$$21452$$Multiple Villager</displayname>
 			<event>shift-v</event>
 			<context>SettlementAccel</context>
-			<command>tis("Villager Norse",5) tis("Villager Egyptian",5) tis("Villager Greek",5) tis("Villager Atlantean",5) tis("Villager Chinese",5), tis("Townsfolk", 5) tis("Villager Roman", 5)</command>
+			<command>tis("Villager Norse",5) tis("Villager Egyptian",5) tis("Villager Greek",5) tis("Villager Atlantean",5) tis("Villager Chinese",5) tis("Townsfolk", 5) tis("Villager Roman", 5) tis("Villager Lakota", 5)</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Ring Town Bell</name>
@@ -1385,14 +1432,14 @@
 			<displayname>$$21476$$Caravan</displayname>
 			<event>c</event>
 			<context>MarketAccel</context>
-			<command>tis("Caravan Greek") tis("Caravan Egyptian") tis("Caravan Norse") tis("Caravan Atlantean") tis("Caravan Chinese")</command>
+			<command>tis("Caravan Greek") tis("Caravan Egyptian") tis("Caravan Norse") tis("Caravan Atlantean") tis("Caravan Chinese") tis("Caravan Roman") tis("Caravan Eldritch") tis("Caravan Lakota Horse")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Multiple Caravan</name>
 			<displayname>$$21477$$Multiple Caravan</displayname>
 			<event>shift-c</event>
 			<context>MarketAccel</context>
-			<command>tis("Caravan Greek",5) tis("Caravan Egyptian",5) tis("Caravan Norse",5) tis("Caravan Atlantean",5) tis("Caravan Chinese",5)</command>
+			<command>tis("Caravan Greek",5) tis("Caravan Egyptian",5) tis("Caravan Norse",5) tis("Caravan Atlantean",5) tis("Caravan Chinese",5) tis("Caravan Roman",5) tis("Caravan Eldritch",5) tis("Caravan Lakota Horse",5)</command>
 		</keymapdata>
 	</keymapgroup>
 	<keymapgroup name="Dock Divider" displayname="$$60000$$Divider"></keymapgroup>
@@ -2541,6 +2588,237 @@
 			<command>tis("Penguin-Fletched",5)</command>
 		</keymapdata>
 	</keymapgroup>
+
+
+	<keymapgroup name="Lakota Divider" displayname="$$60000$$Divider"></keymapgroup>
+	<keymapgroup name="Lakota Units" displayname="$$120811$$Lakota Unit Training">
+		<keymapdata>
+			<name>Wakhukeza</name>
+			<displayname>$$120812$$Wakhukeza</displayname>
+			<event>j</event>
+			<context>Game</context>
+			<command>tis("Wakhukeza Iktomi") tis("Wakhukeza Wani") tis("Wakhukeza Capa")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Wakhukeza</name>
+			<displayname>$$120812$$Wakhukeza</displayname>
+			<event>j</event>
+			<context>GreekAcademyAccel</context>
+			<command>tis("Wakhukeza Iktomi") tis("Wakhukeza Wani") tis("Wakhukeza Capa")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Wakhukeza</name>
+			<displayname>$$120813$$Multiple Wakhukeza</displayname>
+			<event>shift-j</event>
+			<context>Game</context>
+			<command>tis("Wakhukeza Iktomi",5) tis("Wakhukeza Wani",5) tis("Wakhukeza Capa",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Wakhukeza</name>
+			<displayname>$$120813$$Multiple Wakhukeza</displayname>
+			<event>shift-j</event>
+			<context>GreekAcademyAccel</context>
+			<command>tis("Wakhukeza Iktomi",5) tis("Wakhukeza Wani",5) tis("Wakhukeza Capa",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Waoka</name>
+			<displayname>$$120814$$Waoka</displayname>
+			<event>p</event>
+			<context>Game</context>
+			<command>tis("Waoka Anung Ite") tis("Waoka Tate") tis("Waoka Wakinyan")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Waoka</name>
+			<displayname>$$120814$$Waoka</displayname>
+			<event>p</event>
+			<context>GreekAcademyAccel</context>
+			<command>tis("Waoka Anung Ite") tis("Waoka Tate") tis("Waoka Wakinyan")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Waoka</name>
+			<displayname>$$120815$$Multiple Waoka</displayname>
+			<event>shift-p</event>
+			<context>Game</context>
+			<command>tis("Waoka Anung Ite",5) tis("Waoka Tate",5) tis("Waoka Wakinyan",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Waoka</name>
+			<displayname>$$120815$$Multiple Waoka</displayname>
+			<event>shift-p</event>
+			<context>GreekAcademyAccel</context>
+			<command>tis("Waoka Anung Ite",5) tis("Waoka Tate",5) tis("Waoka Wakinyan",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Canpi</name>
+			<displayname>$$120816$$Canpi</displayname>
+			<event>c</event>
+			<context>Game</context>
+			<command>tis("Canpi Unk") tis("Canpi Anpao and Han") tis("Canpi Wophe")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Canpi</name>
+			<displayname>$$120816$$Canpi</displayname>
+			<event>c</event>
+			<context>GreekAcademyAccel</context>
+			<command>tis("Canpi Unk") tis("Canpi Anpao and Han") tis("Canpi Wophe")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Canpi</name>
+			<displayname>$$120817$$Multiple Canpi</displayname>
+			<event>shift-c</event>
+			<context>Game</context>
+			<command>tis("Canpi Unk",5) tis("Canpi Anpao and Han",5) tis("Canpi Wophe",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Canpi</name>
+			<displayname>$$120817$$Multiple Canpi</displayname>
+			<event>shift-c</event>
+			<context>GreekAcademyAccel</context>
+			<command>tis("Canpi Unk",5) tis("Canpi Anpao and Han",5) tis("Canpi Wophe",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Classical Myth</name>
+			<displayname>$$120818$$Classical Myth</displayname>
+			<event>z</event>
+			<context>Game</context>
+			<command>tis("Tathanka Gnaskiyan") tis("Zuzeca Zuya") tis("Waawayanka")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Classical Myth</name>
+			<displayname>$$120818$$Classical Myth</displayname>
+			<event>z</event>
+			<context>GreekAcademyAccel</context>
+			<command>tis("Tathanka Gnaskiyan") tis("Zuzeca Zuya") tis("Waawayanka")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Classical Myth</name>
+			<displayname>$$120819$$Multiple Classical Myth</displayname>
+			<event>shift-z</event>
+			<context>Game</context>
+			<command>tis("Tathanka Gnaskiyan",5) tis("Zuzeca Zuya",5) tis("Waawayanka",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Classical Myth</name>
+			<displayname>$$120819$$Multiple Classical Myth</displayname>
+			<event>shift-z</event>
+			<context>GreekAcademyAccel</context>
+			<command>tis("Tathanka Gnaskiyan",5) tis("Zuzeca Zuya",5) tis("Waawayanka",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Heroic Myth</name>
+			<displayname>$$120820$$Heroic Myth</displayname>
+			<event>i</event>
+			<context>Game</context>
+			<command>tis("Deer Woman") tis("Canotila") tis("Thunderbird") tis("Wiwila")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Heroic Myth</name>
+			<displayname>$$120820$$Heroic Myth</displayname>
+			<event>i</event>
+			<context>GreekAcademyAccel</context>
+			<command>tis("Deer Woman") tis("Canotila") tis("Thunderbird") tis("Wiwila")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Heroic Myth</name>
+			<displayname>$$120821$$Multiple Heroic Myth</displayname>
+			<event>shift-i</event>
+			<context>Game</context>
+			<command>tis("Deer Woman",5) tis("Canotila",5) tis("Thunderbird",5) tis("Wiwila",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Heroic Myth</name>
+			<displayname>$$120821$$Multiple Heroic Myth</displayname>
+			<event>shift-i</event>
+			<context>GreekAcademyAccel</context>
+			<command>tis("Deer Woman",5) tis("Canotila",5) tis("Thunderbird",5) tis("Wiwila",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Mythic Myth</name>
+			<displayname>$$120822$$Mythic Myth</displayname>
+			<event>g</event>
+			<context>Game</context>
+			<command>tis("Wi Can") tis("Unktehi Winyela") tis("Unktehi Bloka") tis("Woniya Thanka")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Mythic Myth</name>
+			<displayname>$$120822$$Mythic Myth</displayname>
+			<event>g</event>
+			<context>GreekAcademyAccel</context>
+			<command>tis("Wi Can") tis("Unktehi Winyela") tis("Unktehi Bloka") tis("Woniya Thanka")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Mythic Myth</name>
+			<displayname>$$120823$$Multiple Mythic Myth</displayname>
+			<event>shift-g</event>
+			<context>Game</context>
+			<command>tis("Wi Can",5) tis("Unktehi Winyela",5) tis("Unktehi Bloka",5) tis("Woniya Thanka",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Mythic Myth</name>
+			<displayname>$$120823$$Multiple Mythic Myth</displayname>
+			<event>shift-g</event>
+			<context>GreekAcademyAccel</context>
+			<command>tis("Wi Can",5) tis("Unktehi Winyela",5) tis("Unktehi Bloka",5) tis("Woniya Thanka",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Medicine Woman</name>
+			<displayname>$$120824$$Medicine Woman</displayname>
+			<event>x</event>
+			<context>Game</context>
+			<command>tis("Medicine Woman")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Medicine Woman</name>
+			<displayname>$$120824$$Medicine Woman</displayname>
+			<event>x</event>
+			<context>GreekAcademyAccel</context>
+			<command>tis("Medicine Woman")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Medicine Woman</name>
+			<displayname>$$120825$$Multiple Medicine Woman</displayname>
+			<event>shift-x</event>
+			<context>Game</context>
+			<command>tis("Medicine Woman",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Medicine Woman</name>
+			<displayname>$$120825$$Multiple Medicine Woman</displayname>
+			<event>shift-x</event>
+			<context>GreekAcademyAccel</context>
+			<command>tis("Medicine Woman",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Owl Soldier</name>
+			<displayname>$$120826$$Owl Soldier</displayname>
+			<event>t</event>
+			<context>Game</context>
+			<command>tis("Owl Soldier")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Owl Soldier</name>
+			<displayname>$$120826$$Owl Soldier</displayname>
+			<event>t</event>
+			<context>GreekAcademyAccel</context>
+			<command>tis("Owl Soldier")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Owl Soldier</name>
+			<displayname>$$120827$$Multiple Owl Soldier</displayname>
+			<event>shift-t</event>
+			<context>Game</context>
+			<command>tis("Owl Soldier",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Owl Soldier</name>
+			<displayname>$$120827$$Multiple Owl Soldier</displayname>
+			<event>shift-t</event>
+			<context>GreekAcademyAccel</context>
+			<command>tis("Owl Soldier",5)</command>
+		</keymapdata>
+
+	</keymapgroup>
+	
 
 	<keymapgroup name="Roman Divider" displayname="$$60000$$Divider"></keymapgroup>
 	<keymapgroup name="Roman Legion Barracks" displayname="$$120295$$Roman Legion Barracks Unit Training">

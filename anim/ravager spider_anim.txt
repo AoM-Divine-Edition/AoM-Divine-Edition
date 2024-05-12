@@ -65,7 +65,7 @@ define Head
 {
 	SetSelector
 	{
-		TechLogic none/Medium Stable/Heavy Stable/Champion Stable
+		TechLogic none/Medium Cavalry/Heavy Cavalry/Champion Cavalry
 		set hotspot
 		{
 			version
