@@ -1,0 +1,91 @@
+//==============================================================================
+// axe_anim.txt
+//==============================================================================
+
+//==============================================================================
+define flame
+{
+	Techlogic none/Flaming Weapons
+	set hotspot
+	{
+		version
+		{
+			Visualnone jimmy
+		}
+	}
+	set hotspot
+	{
+		version
+		{
+			Visualparticle SFX A Flaming Axe
+		}
+	}
+}
+
+//==============================================================================
+anim Idle
+{
+	SetSelector
+	{
+		SetSelector
+		{
+			TechLogic none/Copper Weapons/Bronze Weapons/Iron Weapons/Hammer of the Gods/Huntress Axe/Axe of Muspell
+			set hotspot
+			{
+				version
+				{
+					Visual Projectile N Axe Standard
+					connect Attachpoint Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Projectile N Axe Copper
+					connect Attachpoint Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Projectile N Axe Bronze
+					connect Attachpoint Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Projectile N Axe Iron
+					connect Attachpoint Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Attachments N Axe Mjolnir
+					connect Attachpoint Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Attachments N Axe Huntress
+					connect Attachpoint Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Attachments N Axe Muspell
+					connect Attachpoint Flame hotspot
+				}
+			}
+		}
+	}
+}

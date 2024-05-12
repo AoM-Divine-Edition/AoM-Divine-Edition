@@ -1,0 +1,40 @@
+//==============================================================================
+// Lampades Blood_anim.txt
+//==============================================================================
+
+//==============================================================================
+anim Idle
+{
+	SetSelector
+	{
+		EditorModeLogic
+		SetSelector
+		{
+			Techlogic None/Asper Blood
+			set hotspot
+			{
+				version
+				{
+					Visualnone jimmy
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visualparticle Special X Lampades Blood
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visualparticle Special X Lampades Blood
+				}
+			}
+		}
+	}
+}

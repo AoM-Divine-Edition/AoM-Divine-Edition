@@ -1,0 +1,552 @@
+//==============================================================================
+// Huskarl_anim.txt
+//==============================================================================
+
+//import norse_sword_anim.txt
+import Eldritch_Shield_anim.txt
+
+//==============================================================================
+define hammer
+{
+	set hotspot
+	{
+		version
+		{
+			Visual NxEldWarHammer
+		}
+	}
+}//==============================================================================
+define norsesword
+{
+	set hotspot
+	{
+		version
+		{
+			Visual NxEldWarHammer
+		}
+	}
+}
+
+//==============================================================================
+define head
+{
+	SetSelector
+	{
+		TechLogic none/Medium Infantry/Heavy Infantry/Champion Infantry
+		set hotspot
+		{
+			version
+			{
+				Visual Infantry G Hoplite Head Standard
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Special E Priest Head 
+	    			ReplaceTexture Special E Priest Head/Brutal Head
+
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Special E Priest Head 
+	    			ReplaceTexture Special E Priest Head/Brutal Head Heavy
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Special E Priest Head 
+	    			ReplaceTexture Special E Priest Head/Brutal Head Champion
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Bored
+{
+	SetSelector
+	{
+		CinematicLogic
+		SetSelector
+		{
+			TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+			SetSelector
+			{
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Huskarl_Headless-boredA
+						connect RightHand NorseSword hotspot
+						connect LeftForearm EldritchShield hotspot
+						connect TopOfHead Head hotspot
+					}
+				}
+			}
+			SetSelector
+			{
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Huskarl_Headless-boredA
+						ReplaceTexture Infantry N Huskarl Standard/Brutal Medium
+						connect RightHand NorseSword hotspot
+						connect LeftForearm EldritchShield hotspot
+						connect TopOfHead Head hotspot
+					}
+				}
+			}
+			SetSelector
+			{
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Huskarl_Headless-boredA
+						ReplaceTexture Infantry N Huskarl Standard/Brutal Heavy
+						connect RightHand NorseSword hotspot
+						connect LeftForearm EldritchShield hotspot
+						connect TopOfHead Head hotspot
+					}
+				}
+			}
+			SetSelector
+			{
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Huskarl_Headless-boredA
+						ReplaceTexture Infantry N Huskarl Standard/Brutal Champion
+						connect RightHand NorseSword hotspot
+						connect LeftForearm EldritchShield hotspot
+						connect TopOfHead Head hotspot
+					}
+				}
+			}
+		}
+		SetSelector 
+		{
+			set hotspot
+			{
+				version
+				{
+					VisualGranny NHuskarl_IdleA
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Idle
+{
+	SetSelector
+	{
+		CinematicLogic
+		SetSelector 
+		{
+			TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+			SetSelector
+			{
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Huskarl_Headless-IdleA
+						ReplaceTexture Infantry N Huskarl Standard/Brutal Standard
+						connect RightHand NorseSword hotspot
+						connect LeftForearm EldritchShield hotspot
+						connect TopOfHead Head hotspot
+
+						ReplaceTexture infantry n huskarl cape/brutal cape
+					}
+				}
+			}
+			SetSelector
+			{
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Huskarl_Headless-IdleA
+						ReplaceTexture Infantry N Huskarl Standard/Brutal Medium
+						connect RightHand NorseSword hotspot
+						connect LeftForearm EldritchShield hotspot
+						connect TopOfHead Head hotspot
+
+						ReplaceTexture infantry n huskarl cape/brutal cape
+					}
+				}
+			}
+			SetSelector
+			{
+				set hotspot
+				{
+					version
+						{
+						Visual Infantry N Huskarl_Headless-IdleA
+						ReplaceTexture Infantry N Huskarl Standard/Brutal Heavy
+						connect RightHand NorseSword hotspot
+						connect LeftForearm EldritchShield hotspot
+						connect TopOfHead Head hotspot
+
+						ReplaceTexture infantry n huskarl cape/brutal cape
+					}
+				}
+			}
+			SetSelector
+			{
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Huskarl_Headless-IdleA
+						ReplaceTexture Infantry N Huskarl Standard/Brutal Champion
+						connect RightHand NorseSword hotspot
+						connect LeftForearm EldritchShield hotspot
+						connect TopOfHead Head hotspot
+
+						ReplaceTexture infantry n huskarl cape/brutal cape
+					}
+				}
+			}
+		}
+		SetSelector 
+		{
+			set hotspot
+			{
+				version
+				{
+					VisualGranny NHuskarl_IdleA
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Walk
+{
+	SetSelector
+	{
+		CinematicLogic
+		SetSelector 
+		{
+			TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+			SetSelector
+			{
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Huskarl_Headless-WalkA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.30 true	
+						tag FootstepRight 0.70 true	
+//-- end auto generated section
+						connect RightHand NorseSword hotspot
+						connect LeftForearm EldritchShield hotspot
+						connect TopOfHead Head hotspot
+
+
+						ReplaceTexture Infantry N Huskarl Standard/Brutal Standard
+						ReplaceTexture infantry n huskarl cape/brutal cape
+					}
+				}
+			}
+			SetSelector
+			{
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Huskarl_Headless-WalkA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.30 true	
+						tag FootstepRight 0.70 true	
+//-- end auto generated section
+						ReplaceTexture Infantry N Huskarl Standard/Brutal Medium
+						connect RightHand NorseSword hotspot
+						connect LeftForearm EldritchShield hotspot
+						connect TopOfHead Head hotspot
+					}
+				}
+			}
+			SetSelector
+			{
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Huskarl_Headless-WalkA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.30 true	
+						tag FootstepRight 0.70 true	
+//-- end auto generated section
+						ReplaceTexture Infantry N Huskarl Standard/Brutal Heavy
+						connect RightHand NorseSword hotspot
+						connect LeftForearm EldritchShield hotspot
+						connect TopOfHead Head hotspot
+					}
+				}
+			}
+			SetSelector
+			{
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Huskarl_Headless-WalkA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.30 true	
+						tag FootstepRight 0.70 true	
+//-- end auto generated section
+						ReplaceTexture Infantry N Huskarl Standard/Brutal Champion
+						connect RightHand NorseSword hotspot
+						connect LeftForearm EldritchShield hotspot
+						connect TopOfHead Head hotspot
+					}
+				}
+			}
+		}
+		SetSelector 
+		{
+			set hotspot
+			{
+				version
+				{
+					VisualGranny NHuskarl_WalkA
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Attack
+{
+	SetSelector 
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Huskarl_Headless-AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag Attack 0.67 true	
+//-- end auto generated section
+					connect RightHand NorseSword hotspot
+					connect LeftForearm EldritchShield hotspot
+						connect TopOfHead Head hotspot
+						ReplaceTexture Infantry N Huskarl Standard/Brutal Standard
+						ReplaceTexture infantry n huskarl cape/brutal cape
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Huskarl_Headless-AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag Attack 0.67 true	
+//-- end auto generated section
+					ReplaceTexture Infantry N Huskarl Standard/Brutal Medium
+					connect RightHand NorseSword hotspot
+					connect LeftForearm EldritchShield hotspot
+						connect TopOfHead Head hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Huskarl_Headless-AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag Attack 0.67 true	
+//-- end auto generated section
+					ReplaceTexture Infantry N Huskarl Standard/Brutal Heavy
+					connect RightHand NorseSword hotspot
+					connect LeftForearm EldritchShield hotspot
+						connect TopOfHead Head hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Huskarl_Headless-AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag Attack 0.67 true	
+//-- end auto generated section
+					ReplaceTexture Infantry N Huskarl Standard/Brutal Champion
+					connect RightHand NorseSword hotspot
+					connect LeftForearm EldritchShield hotspot
+						connect TopOfHead Head hotspot
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Death
+{
+	SetSelector 
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Huskarl_Headless-DeathA
+					connect RightHand NorseSword hotspot
+					connect LeftForearm EldritchShield hotspot
+						connect TopOfHead Head hotspot
+						ReplaceTexture Infantry N Huskarl Standard/Brutal Standard
+						ReplaceTexture infantry n huskarl cape/brutal cape
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Huskarl_Headless-DeathA
+					ReplaceTexture Infantry N Huskarl Standard/Brutal Medium
+						connect TopOfHead Head hotspot
+					connect RightHand NorseSword hotspot
+					connect LeftForearm EldritchShield hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Huskarl_Headless-DeathA
+					ReplaceTexture Infantry N Huskarl Standard/Brutal Heavy
+						connect TopOfHead Head hotspot
+					connect RightHand NorseSword hotspot
+					connect LeftForearm EldritchShield hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Huskarl_Headless-DeathA
+					ReplaceTexture Infantry N Huskarl Standard/Brutal Champion
+						connect TopOfHead Head hotspot
+					connect RightHand NorseSword hotspot
+					connect LeftForearm EldritchShield hotspot
+						ReplaceTexture Infantry N Huskarl Standard/Brutal Standard
+						ReplaceTexture infantry n huskarl cape/brutal cape
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Flail
+{
+	SetSelector 
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Huskarl_Headless-FlailA
+					connect RightHand NorseSword hotspot
+					connect LeftForearm EldritchShield hotspot
+						connect TopOfHead Head hotspot
+						ReplaceTexture Infantry N Huskarl Standard/Brutal Standard
+						ReplaceTexture infantry n huskarl cape/brutal cape
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Huskarl_Headless-FlailA
+					ReplaceTexture Infantry N Huskarl Standard/Brutal Medium
+						connect TopOfHead Head hotspot
+					connect RightHand NorseSword hotspot
+					connect LeftForearm EldritchShield hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Huskarl_Headless-FlailA
+					ReplaceTexture Infantry N Huskarl Standard/Brutal Heavy
+						connect TopOfHead Head hotspot
+					connect RightHand NorseSword hotspot
+					connect LeftForearm EldritchShield hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Huskarl_Headless-FlailA
+					ReplaceTexture Infantry N Huskarl Standard/Brutal Champion
+						connect TopOfHead Head hotspot
+					connect RightHand NorseSword hotspot
+					connect LeftForearm EldritchShield hotspot
+				}
+			}
+		}
+	}
+}

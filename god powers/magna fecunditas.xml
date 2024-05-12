@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<power name="MagnaFecunditas" type="flamingweapons" techname="Magna Fecunditas">
+	<placement>skip</placement>
+	<activetime>180</activetime>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">ExaminationBirth</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<powerplayerrelation>player</powerplayerrelation>
+	<tech>Venus Fecunditas</tech>
+	<particlesfxnode>
+		<unittype>SettlementsThatTrainVillagers</unittype>
+		<sfx>Imperial Examination</sfx>
+	</particlesfxnode>
+	<abstracttype>
+		<type>SettlementsThatTrainVillagers</type>
+		<sfxtype1>Imperial Examination</sfxtype1>
+	</abstracttype>
+	<icon>roman icon magna fecunditas</icon>
+	<usedicon>roman icon magna fecunditas used</usedicon>
+</power>

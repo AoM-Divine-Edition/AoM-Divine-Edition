@@ -1,0 +1,186 @@
+//==============================================================================
+// Scorpion Man_anim.txt
+// Fixed missing eclpise SFX()~WarriorMario
+//==============================================================================
+
+//==============================================================================
+define eclipseSFX
+{
+   SetSelector
+   {
+		TechLogic none/Eclipse Active
+		set hotspot
+		{
+			version
+			{
+			  Visualnone jimmy
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+			  Visualparticle Eldritch_Eclipse
+			}
+		}		    
+   }
+}
+
+//==============================================================================
+define egyptbirthSFX
+{
+   set hotspot
+   {
+      version
+      {
+         VisualParticle Eldritch_MythBirthEffect
+      }
+   }
+}
+
+//==============================================================================
+anim Birth
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+            Visual Spider_Birth
+				connect HOTSPOT egyptbirthSFX hotspot
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim Idle
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+            Visual Spider_Idle
+				connect hotspot eclipseSFX hotspot
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim bored
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+            Visual Spider_Bored
+				connect hotspot eclipseSFX hotspot
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim Attack
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+		Visual Spider_AttackB
+
+            tag Attack 0.52 true   
+            tag GenericSound 0.40 true   
+            tag SpecificSoundSet 0.43 false SwordSwing checkVisible
+			
+		connect hotspot eclipseSFX hotspot		
+         }
+			
+      }
+   }
+}
+
+
+//==============================================================================
+anim whirlwindAttack
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         
+	version
+         {
+		Visual Spider_AttackA
+
+            tag Attack 0.95 true   
+            tag GenericSound 0.40 true   
+            tag SpecificSoundSet 0.25 false SwordSwing checkVisible
+	    tag SpecificSoundSet 0.35 false SwordSwing checkVisible
+	    tag SpecificSoundSet 0.51 false SwordSwing checkVisible
+	    tag SpecificSoundSet 0.60 false SwordSwing checkVisible 
+
+		connect hotspot eclipseSFX hotspot		
+				
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim Death
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+            Visual Spider_Death
+		
+		connect hotspot eclipseSFX hotspot
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim walk
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+            Visual Spider_Walk
+				connect hotspot eclipseSFX hotspot
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim Flail
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+            Visual Nerubian_walk
+				connect hotspot eclipseSFX hotspot
+         }
+      }
+   }
+}
+

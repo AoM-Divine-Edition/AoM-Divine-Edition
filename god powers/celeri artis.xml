@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="celeriartis" type="tempunit" techname="Celeri Artis">
+	<activetime>-1</activetime>
+	<placement forceonmap="1">skip</placement>
+	<createunit quantity="1" radius="5.0" delay="0.0" norotate="">MinervaGP</createunit>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<icon>roman icon celeri artis</icon>
+	<usedicon>roman icon celeri artis used</usedicon>
+
+	<recharges>0</recharges>
+	<rechargetime>45 </rechargetime>
+</power>

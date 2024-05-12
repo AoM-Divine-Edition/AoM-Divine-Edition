@@ -1,0 +1,41 @@
+//==============================================================================
+// Farm Plot_anim.txt
+//==============================================================================
+
+//==============================================================================
+anim Idle
+{
+	SetSelector
+	{
+      ConstructionLogic 0 33 66
+		set hotspot
+		{
+			version
+			{
+				Visual Farm CornII
+			}
+		}
+      set hotspot
+      {
+         version
+         {
+				VisualNone World A Farm Cabbage01
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				VisualNone World A Farm Cabbage02
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				VisualNone World A Farm Cabbage03
+         }
+      }
+   }	
+}
+

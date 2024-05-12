@@ -1,0 +1,62 @@
+//==============================================================================
+// Hero Birth_anim.txt
+//==============================================================================
+
+
+//==============================================================================
+define LargeDebris
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle GP X Tartarian Gate Firecrack
+      }
+   }
+}
+
+//==============================================================================
+define SmallDebris
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle GP X Tartarian Gate Firecrack
+      }
+   }
+}
+
+
+//==============================================================================
+anim Idle
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+            Visualnone Jimmy
+				connect hotspot smallDebris hotspot
+         }
+      }
+   }
+}
+
+
+//==============================================================================
+anim Bored
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+            Visualnone Jimmy
+				connect hotspot largeDebris hotspot
+         }
+      }
+   }
+}

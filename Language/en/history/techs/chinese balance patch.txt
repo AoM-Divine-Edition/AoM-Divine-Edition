@@ -1,0 +1,35 @@
+Here are all the changes.
+
+Rebirths:
+
+All human soldiers (including fire lancers), myth units, and heroes can be reborn. While the rebirth process is being trained, the unit acts normally. If the unit dies while the rebirth is being trained, the cost is refunded. 
+
+Reborn units have 90% hp, except for heroes, who suffer no penalty. 
+
+Full table:
+
+Peasant: 2 favor, 14 seconds
+Scout Cavalry, Halberdier, Chu Ko Nu, Mounted Archer: 5 favor, 30 seconds
+Cataphract, War Chariot: 7 favor, 20 seconds
+Fire Lance: 6 favor, 30 seconds
+General: 15 favor, 10 seconds
+Immortal: 5 favor, 1 second
+Monk: 2 favor, 5 seconds
+Myth Units (aside from Qilin and Terracotta Soldier): 50% favor, 100% training time
+Qilin: 100% favor, 100% training time
+Terracotta Soldier: 100% favor, 100% training time
+
+Major God Bonuses:
+
+Fu Xi: Blessed Construction as before. Towers and Castles 25% more expensive to compensate for the Fu Xi tower/castle bug. Heroes stronger (10%). Unit line upgrades cheaper, as before.
+Nu Wa: All rebirths cost one fewer favor. Gardens generate favor faster and grant +1 population, as before. Markets can be built in the Classical Age, as before.
+Shennong: Rebirths take half as long. Monks can convert Myth Units and heal faster, as before. Siege weapons deal more damage, as before.
+ 
+Other Changes:
+
+All units have 90% hp.  This stacks with the 90% from rebirth, making 81% hp.
+General build limit removed.
+Immortals cost 3 population and do 25% less damage. However, they gain experience the more units they kill, like a Hydra. They get a point light on 50% and an empower light on 100% experience.
+Monks may now empower gardens for 50% more gain.
+Scout Cavalry take up two population, and have their bonus vs villagers halved, but have 50% more hitpoints and have their bonus vs archers doubled.
+Peasants gather resources at 92.5% their previous rate.

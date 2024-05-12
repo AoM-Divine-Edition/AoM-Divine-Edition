@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="RitualOfTheBlackFlame" type="Volcano" techname="Ritual of the Black Flame">
+	<activetime>-1</activetime>
+	<radius>15.0 </radius>
+	<initialbuckletime>0.0 </initialbuckletime>
+	<numterrainbuckles>0 </numterrainbuckles>
+	<deathraintimedelay>2.0 </deathraintimedelay>
+	<deathchunkintervalmin>0.1 </deathchunkintervalmin>
+	<deathchunkintervalmax>0.2 </deathchunkintervalmax>
+	<deathchunkvelocity>15.0 </deathchunkvelocity>
+	<numdeathchunks>100 </numdeathchunks>
+	<deathchunkimpactlocationradiusmin>0.0 </deathchunkimpactlocationradiusmin>
+	<deathchunkimpactlocationradiusmax>30.0 </deathchunkimpactlocationradiusmax>
+	<initialbuckleshakestrength>0.10 </initialbuckleshakestrength>
+	<camerashake duration="1.0" strength="0.50"></camerashake>
+	<rumbleheight>0.25</rumbleheight>
+	<rumblewidth>2.0</rumblewidth>
+	<rumblespeed>15.0</rumblespeed>
+	<rumbletime>5.0</rumbletime>
+	<rumblefadetime>2.0</rumblefadetime>
+	<attackproto>Smoke Giant Temp</attackproto>
+	<attackinterval>0.25</attackinterval>
+	<deathchunkattackproto>Meteorite</deathchunkattackproto>
+	<fireballlauncheffectproto>Fireball Launch Damage Effect</fireballlauncheffectproto>
+	<attackunitaccuracy>0.85</attackunitaccuracy>
+	<attackbuildingaccuracy>0.95</attackbuildingaccuracy>
+	<playsbattlemusic></playsbattlemusic>
+	<attacktreeaccuracy>0.95</attacktreeaccuracy>
+	<abstractattacktargettype>LogicalTypeVolcanoAttack</abstractattacktargettype>
+	<gpdamagemodel>
+		<playerrelation>enemy</playerrelation>
+		<basedamagepercentunit>0.90</basedamagepercentunit>
+		<basedamagepercentvillager>0.90</basedamagepercentvillager>
+		<basedamagepercentbuilding>1.8</basedamagepercentbuilding>
+		<minhpdamageunit>800</minhpdamageunit>
+		<minhpdamagevillager>100</minhpdamagevillager>
+		<minhpdamagebuilding>9500</minhpdamagebuilding>
+		<maxhpdamageunit>15000</maxhpdamageunit>
+		<maxhpdamagevillager>1000</maxhpdamagevillager>
+		<maxhpdamagebuilding>120000</maxhpdamagebuilding>
+	</gpdamagemodel>
+	<gpdamagemodel>
+		<playerrelation>ally</playerrelation>
+		<basedamagepercentunit>0.20</basedamagepercentunit>
+		<basedamagepercentvillager>0.20</basedamagepercentvillager>
+		<basedamagepercentbuilding>0.8</basedamagepercentbuilding>
+		<minhpdamageunit>800</minhpdamageunit>
+		<minhpdamagevillager>100</minhpdamagevillager>
+		<minhpdamagebuilding>9500</minhpdamagebuilding>
+		<maxhpdamageunit>15000</maxhpdamageunit>
+		<maxhpdamagevillager>1000</maxhpdamagevillager>
+		<maxhpdamagebuilding>120000</maxhpdamagebuilding>
+	</gpdamagemodel>
+	<dustsmallproto>Dust Small</dustsmallproto>
+	<dustmediumproto>Dust Medium</dustmediumproto>
+	<dustlargeproto>Dust Large</dustlargeproto>
+	<powerblocker>30</powerblocker>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<fireballlaunchsoundset>VolcanoLaunch</fireballlaunchsoundset>
+	<fireballfallsoundset>VolcanoFireFalls</fireballfallsoundset>
+	<placement forceonmap="1" losprotounit="Volcano">skip</placement>
+	<placementprotounitid>Volcano</placementprotounitid>
+	<createunit quantity="1" radius="0.0" delay="0.0">Volcano</createunit>
+	<reveallos radius="30.0">Revealer To Player</reveallos>
+	<unitaitype>Earthquake</unitaitype>
+</power>

@@ -1,0 +1,109 @@
+//==============================================================================
+define EgyptianSpearmanShield
+{
+	SetSelector
+	{
+		TechLogic none/Copper shields/Bronze shields/Iron shields/Leather Frame Shield
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					visualnone jimmy
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic Medium Spearmen/Heavy Spearmen/Champion Spearmen
+			set hotspot
+			{
+				version
+				{
+					visual Attachments E Shield Large Copper
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Attachments E Shield Large Bronze
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Attachments E Shield Large Iron
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic Medium Spearmen/Heavy Spearmen/Champion Spearmen
+			set hotspot
+			{
+				version
+				{
+					visual Attachments E Shield Large Copper
+					ReplaceTexture Attachments E Shield Copper/Attachments E Shield Bronze
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Attachments E Shield Large Bronze
+					ReplaceTexture Attachments E Shield Copper/Attachments E Shield Bronze
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Attachments E Shield Large Iron
+					ReplaceTexture Attachments E Shield Copper/Attachments E Shield Bronze
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic Medium Spearmen/Heavy Spearmen/Champion Spearmen
+			set hotspot
+			{
+				version
+				{
+					visual Attachments E Shield Large Copper
+					ReplaceTexture Attachments E Shield Copper/Attachments E Shield Iron
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Attachments E Shield Large Bronze
+					ReplaceTexture Attachments E Shield Copper/Attachments E Shield Iron
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Attachments E Shield Large Iron
+					ReplaceTexture Attachments E Shield Copper/Attachments E Shield Iron
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					visual Attachments E Shield Leather Frame
+				}
+			}
+		}
+	}
+}

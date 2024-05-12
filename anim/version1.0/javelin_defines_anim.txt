@@ -1,0 +1,66 @@
+//==============================================================================
+define Flame
+{
+	SetSelector
+	{
+		TechLogic none/Flaming Weapons Active
+		set hotspot
+		{
+			version
+			{
+				Visualnone jimmy
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visualparticle SFX A Flaming Spear
+			}
+		}
+	}
+}
+
+//==============================================================================
+define Javelin
+{
+	SetSelector
+	{		
+		TechLogic none/Copper Weapons/Bronze Weapons/Iron Weapons
+		set hotspot
+		{
+			version
+			{
+				Visual Attachments A Javelin
+				connect hotspot Flame hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Attachments A Javelin
+				connect hotspot Flame hotspot
+				replaceTexture Attachments A Spear Standard/Attachments A Spear Copper
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Attachments A Javelin
+				connect hotspot Flame hotspot
+				replaceTexture Attachments A Spear Standard/Attachments A Spear Bronze
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Attachments A Javelin
+				connect hotspot Flame hotspot
+				replaceTexture Attachments A Spear Standard/Attachments A Spear Iron
+			}
+		}
+	}
+}

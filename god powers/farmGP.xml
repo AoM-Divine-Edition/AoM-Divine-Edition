@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="farmGP" type="TempUnit" techname="farmGP">
+	<activetime>-1</activetime>
+	<placement forceonmap="1" matchtype="AbstractSettlement" allowgaia="" usetargetunitpositionforplacement="">unit</placement>
+	<minimapeventtime sendalertto="ally">10.0</minimapeventtime>
+	<abstractplacementtargettype>Settlement Level 1</abstractplacementtargettype>
+	<abstractplacementtargettype>Citadel Center</abstractplacementtargettype>
+	<!--<attachproto>Sentinel Base</attachproto>-->
+	<createunit quantity="4" minradius="1" maxradius="15" pattern="symmetric" norotate="" delay="0.0">Farm</createunit>
+	<icon>god power sentinel icon</icon>
+	<usedicon>god power sentinel icon done</usedicon>
+	<messagealertplayerrelation>ally</messagealertplayerrelation>
+</power>

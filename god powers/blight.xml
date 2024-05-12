@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<power name="Blight" type="swapunit" techname="Blight">
+	<activetime>120.0</activetime>
+	<radius>2.0</radius>
+	<rangeindicatorprotoid radius="2.0" indicatorcount="5" speed="0.2">UI Range Indicator Greek SFX</rangeindicatorprotoid>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="ExistSound" listenertype="IfOnScreenAll" playdelay="10.0">Timelapse</soundset>
+	<cricketsound>Timelapse</cricketsound>
+	<placement forceonmap="1">full</placement>
+	<convertusingminmax minswapamount="1" maxswapamount="1"></convertusingminmax>
+	<powerplayerrelation>enemy</powerplayerrelation>
+	<gpdamagemodel>
+		<playerrelation>enemy</playerrelation>
+		<basedamagepercentunit>0.4</basedamagepercentunit>
+		<basedamagepercentvillager>0.25</basedamagepercentvillager>
+		<basedamagepercentbuilding>0.0</basedamagepercentbuilding>
+		<minhpdamageunit>450</minhpdamageunit>
+		<minhpdamagevillager>250</minhpdamagevillager>
+		<minhpdamagebuilding>500</minhpdamagebuilding>
+		<maxhpdamageunit>675</maxhpdamageunit>
+		<maxhpdamagevillager>450</maxhpdamagevillager>
+		<maxhpdamagebuilding>500</maxhpdamagebuilding>
+	</gpdamagemodel>
+	<abstracttype swapto="Blight Curse">Farm</abstracttype>
+	<illegalabstracttype>Hero</illegalabstracttype>
+	<swapdelay>0.5</swapdelay>
+	<rainspotproto>Farm</rainspotproto>
+	<smallsfx>Blight Debuff</smallsfx>
+	<smallrainspotproto>Farm</smallrainspotproto>
+	<sfx>Blight Debuff</sfx>
+	<swapenemyonly></swapenemyonly>
+	<icon>improvement blight icon</icon>
+	<usedicon>improvement blight used icon</usedicon>
+</power>

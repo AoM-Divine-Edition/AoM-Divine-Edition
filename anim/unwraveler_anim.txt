@@ -1,0 +1,134 @@
+//==============================================================================
+// Unraveler.txt
+//==============================================================================
+
+
+//==============================================================================
+define greekbirthSFX
+{
+   set hotspot
+   {
+      version
+      {
+         VisualParticle Eldritch_MythBirthEffect
+      }
+   }
+}
+
+
+//=============================================================================
+anim Birth
+{
+   SetSelector 
+   {
+      set hotspot
+      {
+         version
+         {		
+            Visual Unraveler_Birth
+				connect HOTSPOT greekbirthSFX hotspot
+         }         
+      }
+   }
+}
+
+//=============================================================================
+anim Idle
+{
+   SetSelector 
+   {
+      set hotspot
+      {
+         version
+         {		
+            Visual Unraveler_Idle
+         }         
+      }
+   }
+}
+
+//==============================================================================
+anim Bored
+{
+   SetSelector 
+   {
+      set hotspot
+      {
+         version
+         {		
+            Visual Unraveler_Bored
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim Eat
+{
+   SetSelector 
+   {
+      set hotspot
+      {
+         version
+         {
+            Visual Unraveler_Eat
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim Death
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+            Visual Unraveler_Death
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim Walk
+{
+   SetSelector
+   {
+      
+      set hotspot
+      {
+         version
+         {		
+		Visual Unraveler_Walk
+         }
+      }
+      
+   }
+}
+
+
+
+//=============================================================================
+anim Flail
+{
+   SetSelector 
+   {
+      set hotspot
+      {
+         version
+         {
+		ReplaceTexture Special g colossus map/unwraveler map
+		ReplaceTexture Special g colossus sword/unwraveler sword
+            Visual Special G Colossus_FlailA
+         }         
+      }
+   }
+}
+
+
+
+
+

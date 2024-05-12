@@ -1,0 +1,36 @@
+//==============================================================================
+// bush_anim.txt
+//==============================================================================
+
+
+//==============================================================================
+anim None
+{
+	SetSelector none 
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual CocobolaPurpleA
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual CocobolaPurpleB
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual CocobolaPurpleC
+			}
+		}
+	}
+}
+
+

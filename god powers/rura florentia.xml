@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<power name="RuraFlorentia" type="flamingweapons" techname="Rura Florentia">
+	<placement>skip</placement>
+	<activetime>30</activetime>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">ExaminationBirth</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<powerplayerrelation>player</powerplayerrelation>
+	<tech>Ceres Florentia</tech>
+	<particlesfxnode>
+		<unittype>Farm</unittype>
+		<sfx>Imperial Examination</sfx>
+	</particlesfxnode>
+	<abstracttype>
+		<type>Farm</type>
+		<sfxtype1>Imperial Examination</sfxtype1>
+	</abstracttype>
+	<icon>roman icon rura florentia</icon>
+	<usedicon>roman icon rura florentia used</usedicon>
+</power>

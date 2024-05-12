@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Incarnation" type="swapunit" techname="Incarnation">
+	<activetime>2</activetime>
+	<radius>1.0</radius>
+	<placement forceonmap="1" matchtype="Voice of Nyarlathotep" ally="">unit</placement>
+	<powerplayerrelation>player</powerplayerrelation>
+	<minimapeventtime sendalertto="all">10.0</minimapeventtime>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">SOOPBirth</soundset>
+	<overallchance>1.0</overallchance>
+	<abstracttype swapto="Incarnation of Nyarlathotep">Voice of Nyarlathotep</abstracttype>
+	<sfx>Osiris SFX</sfx>
+	<mutate></mutate>
+	<unittarget></unittarget>
+	<icon>improvement incarnation icon</icon>
+	<usedicon>improvement incarnation icon done</usedicon>
+</power>

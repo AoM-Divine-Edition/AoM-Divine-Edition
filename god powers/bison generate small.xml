@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="BisonGenerateSmall" type="TempUnit" techname="Bison Generate Small">
+	<activetime>-1</activetime>
+	<placement forceonmap="1">skip</placement>
+	<messagealertplayerrelation>ally</messagealertplayerrelation>
+	<rangeindicatorprotoid radius="16.0" indicatorcount="8" speed="0.2">UI Range Indicator Egypt SFX</rangeindicatorprotoid>
+	
+	<createunit quantity="3"   minradius="25" maxradius="30" pattern="random" delay="0.0">Bison</createunit>
+	
+	<icon>god power ancestors icon</icon>
+	<usedicon>god power ancestors icon done</usedicon>
+</power>

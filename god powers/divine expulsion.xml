@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="DivineExpulsion" type="Tremor" techname="Divine Expulsion">
+	<activetime>10 </activetime>
+	<powerblocker>10 </powerblocker>
+	<radius>15.0</radius>
+	<rangeindicatorprotoid radius="5.0" indicatorcount="3" speed="0.3">UI Range Indicator Atlantean SFX</rangeindicatorprotoid>
+	<stunlength>1.0 </stunlength>
+	<rumbleheight>1.2</rumbleheight>
+	<rumblewidth>1.0</rumblewidth>
+	<rumblespeed>25.0</rumblespeed>
+	<rumblefadetime>0.2</rumblefadetime>
+	<minthrowdistance>30 </minthrowdistance>
+	<maxthrowdistance>40 </maxthrowdistance>
+	<minthrowheight>1 </minthrowheight>
+	<maxthrowheight>2.0 </maxthrowheight>
+	<minthrowvelocity>12 </minthrowvelocity>
+	<maxthrowvelocity>13 </maxthrowvelocity>
+	<attackproto>Tremor</attackproto>
+	<attackinterval>0.25</attackinterval>
+	<attacktreeaccuracy>0.25</attacktreeaccuracy>
+	<abstractattacktargettype>LogicalTypeMythUnitNotTitan</abstractattacktargettype>
+	<gpdamagemodel>
+		<playerrelation>enemy</playerrelation>
+		<basedamagepercentunit>1.0</basedamagepercentunit>
+		<basedamagepercentvillager>0.30</basedamagepercentvillager>
+		<basedamagepercentbuilding>0.20</basedamagepercentbuilding>
+		<minhpdamageunit>800</minhpdamageunit>
+		<minhpdamagevillager>100</minhpdamagevillager>
+		<minhpdamagebuilding>9500</minhpdamagebuilding>
+		<maxhpdamageunit>1500</maxhpdamageunit>
+		<maxhpdamagevillager>100</maxhpdamagevillager>
+		<maxhpdamagebuilding>12000</maxhpdamagebuilding>
+	</gpdamagemodel>
+	<gpdamagemodel>
+		<playerrelation>ally</playerrelation>
+		<basedamagepercentunit>0.0</basedamagepercentunit>
+		<basedamagepercentvillager>0.0</basedamagepercentvillager>
+		<basedamagepercentbuilding>0.0</basedamagepercentbuilding>
+		<minhpdamageunit>0</minhpdamageunit>
+		<minhpdamagevillager>0</minhpdamagevillager>
+		<minhpdamagebuilding>0</minhpdamagebuilding>
+		<maxhpdamageunit>0</maxhpdamageunit>
+		<maxhpdamagevillager>0</maxhpdamagevillager>
+		<maxhpdamagebuilding>0</maxhpdamagebuilding>
+	</gpdamagemodel>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">shockwave</soundset>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<placement forceonmap="1">full</placement>
+	<camerashake duration="0.10" strength="0.10"></camerashake>
+	<reveallos radius="5.0">Revealer To Player</reveallos>
+	<unitaitype>Earthquake</unitaitype>
+	<recharges>2</recharges>
+	<rechargetime>30 </rechargetime>
+</power>

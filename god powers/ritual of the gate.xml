@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="RitualoftheGate" type="sandstorm" techname="Ritual of the Gate">
+	<activetime>5</activetime>
+	<placementsearchradius>5 </placementsearchradius>
+	<minimapeventtime sendalertto="ally">10.0</minimapeventtime>
+	<rangeindicatorprotoid radius="10.0" indicatorcount="10" speed="0.2">UI Range Indicator Egypt SFX</rangeindicatorprotoid>
+	<startsoundset>GodPowerStart</startsoundset>
+	<endsoundset>GodPowerEnd</endsoundset>
+	<placement forceonmap="1">skip</placement>
+	<dualpowermindistance>40.0</dualpowermindistance>
+	<abstractattacktargettype>LogicalTypeValidShiftingSandsTarget</abstractattacktargettype>
+	<gpdamagemodel>
+		<playerrelation>enemy</playerrelation>
+		<basedamagepercentunit>0.40</basedamagepercentunit>
+		<basedamagepercentvillager>0.25</basedamagepercentvillager>
+		<basedamagepercentbuilding>0.0</basedamagepercentbuilding>
+		<minhpdamageunit>40000</minhpdamageunit>
+		<minhpdamagevillager>7000</minhpdamagevillager>
+		<minhpdamagebuilding>0</minhpdamagebuilding>
+		<maxhpdamageunit>300000</maxhpdamageunit>
+		<maxhpdamagevillager>7000</maxhpdamagevillager>
+		<maxhpdamagebuilding>0</maxhpdamagebuilding>
+	</gpdamagemodel>
+	<inportal>Shifting Sands In</inportal>
+	<outportal>Shifting Sands Out</outportal>
+	<radius>10.0</radius>
+	<icon>god power shifting sands icon</icon>
+	<usedicon>god power shifting sands icon done</usedicon>
+</power>

@@ -1,0 +1,568 @@
+//==============================================================================
+// Hippikon_anim.txt
+//==============================================================================
+
+import Greek_Sword_anim.txt
+import Greek_Cavalry_Shield_anim.txt
+
+//==============================================================================
+define Head
+{
+	SetSelector
+	{
+		TechLogic none/Medium Cavalry/Heavy Cavalry/Champion Cavalry
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hippikon Head Standard
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hippikon Head Copper
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hippikon Head Bronze
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hippikon Head Iron
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Bored
+{
+
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hippikon_BoredA
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry G Hippikon_BoredB
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hippikon_BoredA
+				ReplaceTexture Cavalry G Hippikon Standard/Cavalry G Hippikon Copper
+				ReplaceTexture Cavalry G Hippikon Horse Standard/Cavalry G Hippikon Horse Copper
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry G Hippikon_BoredB
+				ReplaceTexture Cavalry G Hippikon Standard/Cavalry G Hippikon Copper
+				ReplaceTexture Cavalry G Hippikon Horse Standard/Cavalry G Hippikon Horse Copper
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hippikon_BoredA
+				ReplaceTexture Cavalry G Hippikon Standard/Cavalry G Hippikon Bronze
+				ReplaceTexture Cavalry G Hippikon Horse Standard/Cavalry G Hippikon Horse Bronze
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry G Hippikon_BoredB
+				ReplaceTexture Cavalry G Hippikon Standard/Cavalry G Hippikon Bronze
+				ReplaceTexture Cavalry G Hippikon Horse Standard/Cavalry G Hippikon Horse Bronze
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hippikon_BoredA
+				ReplaceTexture Cavalry G Hippikon Standard/Cavalry G Hippikon Iron
+				ReplaceTexture Cavalry G Hippikon Horse Standard/Cavalry G Hippikon Horse Iron
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry G Hippikon_BoredB
+				ReplaceTexture Cavalry G Hippikon Standard/Cavalry G Hippikon Iron
+				ReplaceTexture Cavalry G Hippikon Horse Standard/Cavalry G Hippikon Horse Iron
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Walk
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		set hotspot
+		{
+			version
+			{  
+			Visual Cavalry G Hippikon_WalkA
+			connect RightHand greekSword hotspot
+			connect LeftForearm GreekCavalryShield hotspot
+			Connect TopOfHead Head hotspot
+			tag FootstepLeft 0.60 true	
+			tag FootstepRight 0.00 true	
+			tag FootstepLeft 0.95 true	
+			tag FootstepRight 0.55 true 
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+			Visual Cavalry G Hippikon_WalkA
+			ReplaceTexture Cavalry G Hippikon Standard/Cavalry G Hippikon Copper
+			ReplaceTexture Cavalry G Hippikon Horse Standard/Cavalry G Hippikon Horse Copper
+			connect RightHand greekSword hotspot
+			connect LeftForearm GreekCavalryShield hotspot
+			Connect TopOfHead Head hotspot
+			tag FootstepLeft 0.60 true	
+			tag FootstepRight 0.00 true	
+			tag FootstepLeft 0.95 true	
+			tag FootstepRight 0.55 true
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+			Visual Cavalry G Hippikon_WalkA
+			ReplaceTexture Cavalry G Hippikon Standard/Cavalry G Hippikon Bronze
+			ReplaceTexture Cavalry G Hippikon Horse Standard/Cavalry G Hippikon Horse Bronze
+			connect RightHand greekSword hotspot
+			connect LeftForearm GreekCavalryShield hotspot
+			Connect TopOfHead Head hotspot
+			tag FootstepLeft 0.60 true	
+			tag FootstepRight 0.00 true	
+			tag FootstepLeft 0.95 true	
+			tag FootstepRight 0.55 true
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+			Visual Cavalry G Hippikon_WalkA
+			ReplaceTexture Cavalry G Hippikon Standard/Cavalry G Hippikon Iron
+			ReplaceTexture Cavalry G Hippikon Horse Standard/Cavalry G Hippikon Horse Iron
+			connect RightHand greekSword hotspot
+			connect LeftForearm GreekCavalryShield hotspot
+			Connect TopOfHead Head hotspot
+			tag FootstepLeft 0.60 true	
+			tag FootstepRight 0.00 true	
+			tag FootstepLeft 0.95 true	
+			tag FootstepRight 0.55 true
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Death
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hippikon_DeathA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+							tag SpecificSoundSet 0.60 false HeavyFall checkVisible 
+//-- end auto generated section
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hippikon_DeathA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+							tag SpecificSoundSet 0.60 false HeavyFall checkVisible 
+//-- end auto generated section
+				ReplaceTexture Cavalry G Hippikon Standard/Cavalry G Hippikon Copper
+				ReplaceTexture Cavalry G Hippikon Horse Standard/Cavalry G Hippikon Horse Copper
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hippikon_DeathA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+							tag SpecificSoundSet 0.60 false HeavyFall checkVisible 
+//-- end auto generated section
+				ReplaceTexture Cavalry G Hippikon Standard/Cavalry G Hippikon Bronze
+				ReplaceTexture Cavalry G Hippikon Horse Standard/Cavalry G Hippikon Horse Bronze
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hippikon_DeathA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+							tag SpecificSoundSet 0.60 false HeavyFall checkVisible 
+//-- end auto generated section
+				ReplaceTexture Cavalry G Hippikon Standard/Cavalry G Hippikon Iron
+				ReplaceTexture Cavalry G Hippikon Horse Standard/Cavalry G Hippikon Horse Iron
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Idle
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hippikon_IdleA
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hippikon_IdleA
+				ReplaceTexture Cavalry G Hippikon Standard/Cavalry G Hippikon Copper
+				ReplaceTexture Cavalry G Hippikon Horse Standard/Cavalry G Hippikon Horse Copper
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hippikon_IdleA
+				ReplaceTexture Cavalry G Hippikon Standard/Cavalry G Hippikon Bronze
+				ReplaceTexture Cavalry G Hippikon Horse Standard/Cavalry G Hippikon Horse Bronze
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hippikon_IdleA
+				ReplaceTexture Cavalry G Hippikon Standard/Cavalry G Hippikon Iron
+				ReplaceTexture Cavalry G Hippikon Horse Standard/Cavalry G Hippikon Horse Iron
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Attack
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hippikon_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+							tag Attack 0.53 true	
+							tag GenericSound 0.40 true	
+//-- end auto generated section
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry G Hippikon_AttackB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+							tag Attack 0.70 true	
+							tag GenericSound 0.40 true	
+//-- end auto generated section
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry G Hippikon_AttackC
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+							tag Attack 0.61 true	
+							tag GenericSound 0.40 true	
+//-- end auto generated section
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hippikon_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+							tag Attack 0.53 true	
+							tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry G Hippikon Standard/Cavalry G Hippikon Copper
+				ReplaceTexture Cavalry G Hippikon Horse Standard/Cavalry G Hippikon Horse Copper
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry G Hippikon_AttackB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+							tag Attack 0.70 true	
+							tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry G Hippikon Standard/Cavalry G Hippikon Copper
+				ReplaceTexture Cavalry G Hippikon Horse Standard/Cavalry G Hippikon Horse Copper
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry G Hippikon_AttackC
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+							tag Attack 0.61 true	
+							tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry G Hippikon Standard/Cavalry G Hippikon Copper
+				ReplaceTexture Cavalry G Hippikon Horse Standard/Cavalry G Hippikon Horse Copper
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hippikon_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+							tag Attack 0.53 true	
+							tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry G Hippikon Standard/Cavalry G Hippikon Bronze
+				ReplaceTexture Cavalry G Hippikon Horse Standard/Cavalry G Hippikon Horse Bronze
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry G Hippikon_AttackB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+							tag Attack 0.70 true	
+							tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry G Hippikon Standard/Cavalry G Hippikon Bronze
+				ReplaceTexture Cavalry G Hippikon Horse Standard/Cavalry G Hippikon Horse Bronze
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry G Hippikon_AttackC
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+							tag Attack 0.61 true	
+							tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry G Hippikon Standard/Cavalry G Hippikon Bronze
+				ReplaceTexture Cavalry G Hippikon Horse Standard/Cavalry G Hippikon Horse Bronze
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hippikon_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+							tag Attack 0.53 true	
+							tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry G Hippikon Standard/Cavalry G Hippikon Iron
+				ReplaceTexture Cavalry G Hippikon Horse Standard/Cavalry G Hippikon Horse Iron
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry G Hippikon_AttackB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+							tag Attack 0.70 true	
+							tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry G Hippikon Standard/Cavalry G Hippikon Iron
+				ReplaceTexture Cavalry G Hippikon Horse Standard/Cavalry G Hippikon Horse Iron
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry G Hippikon_AttackC
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+							tag Attack 0.61 true	
+							tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry G Hippikon Standard/Cavalry G Hippikon Iron
+				ReplaceTexture Cavalry G Hippikon Horse Standard/Cavalry G Hippikon Horse Iron
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Flail
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hippikon_FlailA
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hippikon_FlailA
+				ReplaceTexture Cavalry G Hippikon Standard/Cavalry G Hippikon Copper
+				ReplaceTexture Cavalry G Hippikon Horse Standard/Cavalry G Hippikon Horse Copper
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				  Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hippikon_FlailA
+				ReplaceTexture Cavalry G Hippikon Standard/Cavalry G Hippikon Bronze
+				ReplaceTexture Cavalry G Hippikon Horse Standard/Cavalry G Hippikon Horse Bronze
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hippikon_FlailA
+				ReplaceTexture Cavalry G Hippikon Standard/Cavalry G Hippikon Iron
+				ReplaceTexture Cavalry G Hippikon Horse Standard/Cavalry G Hippikon Horse Iron
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+	}
+}

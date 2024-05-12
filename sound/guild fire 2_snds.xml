@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<protounitsounddef>
+	<protounit name="Guild Fire 2">
+		<soundtype name="Select">
+			<soundset name="Armory"></soundset>
+		</soundtype>
+		<soundtype name="Hit">
+			<damagetypelogic>
+				<choice name="Hack">
+					<soundset name="HackWood"></soundset>
+				</choice>
+				<choice name="Pierce">
+					<soundset name="PierceWood"></soundset>
+				</choice>
+				<choice name="Crush">
+					<soundset name="CrushWood"></soundset>
+				</choice>
+			</damagetypelogic>
+		</soundtype>
+		<soundtype name="Death">
+			<soundset name="BuildingDeath"></soundset>
+		</soundtype>
+		<soundtype name="Creation">
+			<soundset name="Armory"></soundset>
+		</soundtype>
+	</protounit>
+</protounitsounddef>

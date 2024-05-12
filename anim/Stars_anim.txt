@@ -1,0 +1,42 @@
+//==============================================================================
+// Courtyard Plants_anim.txt
+//==============================================================================
+
+//==============================================================================
+define starry
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle starry trail new
+      }
+   }
+}
+
+
+//==============================================================================
+anim none
+{
+	SetSelector
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visualparticle starry trail
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Dark Lady
+				connect attachpoint starry hotspot
+				
+			}
+		}
+	}
+}

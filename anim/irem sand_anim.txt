@@ -1,0 +1,53 @@
+//==============================================================================
+// Locust_anim.txt
+//==============================================================================
+
+
+//==============================================================================
+define sanddriftdune
+{
+   set hotspot
+   {
+      version
+      {
+		Visualparticle SFX A Sand Drift Dune
+      }
+   }
+}
+
+
+
+//==============================================================================
+anim Idle
+{
+   SetSelector none
+   {
+     set hotspot
+     {
+            version
+            {
+			Visual SFX A Sand Drift Main
+			connect ATTACHPOINT sanddriftdune HOTSPOT
+            }
+      }
+   }
+}
+
+
+//==============================================================================
+anim attack
+{
+   SetSelector
+   {
+      VariationLogic
+      set hotspot
+      {
+         version
+         {
+			Visual SFX A Sand Dust Devil_idle
+            tag Attack 0.5 true   
+			connect ATTACHPOINT dust HOTSPOT
+         }
+      }
+   }
+}

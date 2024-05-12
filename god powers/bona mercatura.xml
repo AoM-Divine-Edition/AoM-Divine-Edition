@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<power name="BonaMercatura" type="flamingweapons" techname="Bona Mercatura">
+	<placement>skip</placement>
+	<activetime>120</activetime>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">ExaminationBirth</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<powerplayerrelation>player</powerplayerrelation>
+	<tech>Mercury Mercatura</tech>
+	<particlesfxnode>
+		<unittype>Market</unittype>
+		<sfx>Imperial Examination</sfx>
+	</particlesfxnode>
+	<abstracttype>
+		<type>Market</type>
+		<sfxtype1>Imperial Examination</sfxtype1>
+	</abstracttype>
+	<icon>roman icon bona mercatura</icon>
+	<usedicon>roman icon bona mercatura used</usedicon>
+</power>

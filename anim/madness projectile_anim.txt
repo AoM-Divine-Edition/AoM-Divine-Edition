@@ -1,0 +1,34 @@
+//==============================================================================
+// Endymion Insonia Debuff_anim.txt
+//==============================================================================
+
+
+//==============================================================================
+define dust
+{
+   set hotspot
+   {
+      version
+      {
+		Visualparticle  Galactic mist
+      }
+   }
+}
+
+
+//==============================================================================
+anim idle
+{
+   SetSelector
+   {
+      VariationLogic
+      set hotspot
+      {
+         version
+         {
+			Visual SFX A Sand Dust Devil_idle
+			connect ATTACHPOINT dust HOTSPOT
+         }
+      }
+   }
+}

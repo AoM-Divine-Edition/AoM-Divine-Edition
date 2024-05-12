@@ -1,0 +1,135 @@
+//===========================================================================
+//Atlantis Pit Animation of it collapsing
+//=======================================================================
+
+//==============================================================================
+define smokesmall
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle scenario A pit smoke small
+      }
+   }
+}
+
+//==============================================================================
+define smokelarge
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle scenario A pit smoke large
+		 timeoffset 0
+      }
+   }
+}
+
+//==============================================================================
+define group01
+{
+   set hotspot
+   {
+      version
+      {
+		Visual Scenario A Pit Fall Group01
+		 timeoffset 0
+      }
+   }
+}
+
+//==============================================================================
+define group02
+{
+   set hotspot
+   {
+      version
+      {
+		Visual Scenario A Pit Fall Group02
+		 timeoffset 0
+      }
+   }
+}
+
+//==============================================================================
+define group03
+{
+   set hotspot
+   {
+      version
+      {
+		Visual Scenario A Pit Fall Group03
+		 timeoffset 0
+      }
+   }
+}
+
+//==============================================================================
+define group04
+{
+   set hotspot
+   {
+      version
+      {
+		Visual Scenario A Pit Fall Group04
+		 timeoffset 0
+      }
+   }
+}
+
+//==============================================================================
+define group05
+{
+   set hotspot
+   {
+      version
+      {
+		Visual Scenario A Pit Fall Group05
+		 timeoffset 0
+      }
+   }
+}
+
+//==============================================================================
+define group06
+{
+   set hotspot
+   {
+      version
+      {
+		Visual Scenario A Pit Fall Group06
+		 timeoffset 0
+      }
+   }
+}
+
+//==============================================================================
+define group07
+{
+   set hotspot
+   {
+      version
+      {
+		Visual Scenario A Pit Fall Group07
+		 timeoffset 0
+      }
+   }
+}
+
+//==============================================================================
+anim Idle
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+			visual Aztec Tile Death B
+         }
+      }
+	
+   }
+}

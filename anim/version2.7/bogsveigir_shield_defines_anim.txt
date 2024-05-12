@@ -1,0 +1,129 @@
+//==============================================================================
+define NorseArcherShield
+{
+	SetSelector
+	{
+		TechLogic none/Copper shields/Bronze shields/Iron shields/Dragonscale Shields
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					visualnone jimmy
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic Medium Archer/Heavy Archer/Champion Archer
+			set hotspot
+			{
+				version
+				{
+					visual Attachments N Shield Small Copper
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Attachments N Shield Small Bronze
+					ReplaceTexture Attachments N Shield Copper/Attachments N Shield Copper
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Attachments N Shield Small Iron
+					ReplaceTexture Attachments N Shield Copper/Attachments N Shield Copper
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic Medium Archer/Heavy Archer/Champion Archer
+			set hotspot
+			{
+				version
+				{
+					visual Attachments N Shield Small Copper
+					ReplaceTexture Attachments N Shield Copper/Attachments N Shield Bronze
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Attachments N Shield Small Bronze
+					ReplaceTexture Attachments N Shield Copper/Attachments N Shield Bronze
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Attachments N Shield Small Iron
+					ReplaceTexture Attachments N Shield Copper/Attachments N Shield Bronze
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic Medium Archer/Heavy Archer/Champion Archer
+			set hotspot
+			{
+				version
+				{
+					visual Attachments N Shield Small Copper
+					ReplaceTexture Attachments N Shield Copper/Attachments N Shield Iron
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Attachments N Shield Small Bronze
+					ReplaceTexture Attachments N Shield Copper/Attachments N Shield Iron
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Attachments N Shield Small Iron
+					ReplaceTexture Attachments N Shield Copper/Attachments N Shield Iron
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic Medium Archer/Heavy Archer/Champion Archer
+			set hotspot
+			{
+				version
+				{
+					visual Attachments N Shield Small Copper
+					ReplaceTexture Attachments N Shield Copper/Attachments N Shield Dragon
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Attachments N Shield Small Bronze
+					ReplaceTexture Attachments N Shield Copper/Attachments N Shield Dragon
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Attachments N Shield Small Iron
+					ReplaceTexture Attachments N Shield Copper/Attachments N Shield Dragon
+				}
+			}
+		}
+	}
+}

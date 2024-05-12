@@ -1,0 +1,54 @@
+//==============================================================================
+// throne_anim.txt
+//==============================================================================
+// attachpoints:
+// - topofhead (top of the throne)
+// - righthand
+// - lefthand
+//==============================================================================
+//==============================================================================
+define smoke
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Generic Fire Tiny
+      }
+   }
+}
+//==============================================================================
+define zire
+{
+   set hotspot
+   {
+      version
+      {
+	 Visual World A Campfire Small
+      }
+   }
+}
+
+//==============================================================================
+anim idle
+{
+SetSelector
+{
+   VariationLogic
+   set hotspot
+   {
+      version
+      {
+         Visual Throne Queen Underworld
+      }
+   }
+   set hotspot
+   {
+      version
+      {
+         Visual Throne Mictlanto B
+      }
+   }
+}
+}
+

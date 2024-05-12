@@ -1,0 +1,70 @@
+//==============================================================================
+// Spear defines_anim.txt
+//==============================================================================
+
+//==============================================================================
+define Venom
+{
+	SetSelector
+	{
+		TechLogic none/Serpent Spear
+		set hotspot
+		{
+			version
+			{
+				Visualnone jimmy
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visualparticle SFX G Serpent Spear
+			}
+		}
+	}
+}
+
+//==============================================================================
+define Spear
+{
+	SetSelector
+	{
+		SetSelector
+		{
+			TechLogic none/Copper Weapons/Bronze Weapons/Iron Weapons
+			set hotspot
+			{
+				version
+				{
+					Visual Attachments A Spear Standard
+					connect Hotspot Venom hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Attachments A Spear Copper
+					connect Hotspot Venom hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Attachments A Spear Bronze
+					connect Hotspot Venom hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Attachments A Spear Iron
+					connect Hotspot Venom hotspot
+				}
+			}
+		}
+	}
+}

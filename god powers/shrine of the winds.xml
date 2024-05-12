@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="ShrineOfTheWinds" type="TempUnit" techname="Shrine of the Winds">
+	<activetime>-1</activetime>
+	<createunit quantity="1" radius="0.0" delay="0.0" norotate="">Shrine of the Winds</createunit>
+	<placement forceonmap="1" losprotounit="Shrine of the Winds">full</placement>
+	<placementprotounitid>Shrine of the Winds</placementprotounitid>
+	<expandcheckplacementhull></expandcheckplacementhull>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="Caster">HesperidesTree</soundset>
+	<attachproto>Plenty Flare</attachproto>
+	<gatherrate rate="0.0f">favor</gatherrate>
+	<burstdelay>5.0f</burstdelay>
+	<minimapeventtime sendalertto="none">0.0</minimapeventtime>
+</power>
+

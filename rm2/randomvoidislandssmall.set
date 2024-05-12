@@ -1,0 +1,8 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<randomMaps displayName="Void Islands Smaller" imagepath = "ui\ui map void islands all" helpText="Randomly selects from among the void islands maps: Void Islands Smaller, Abyssal Isles Smaller, Plains of Abaddon Smaller, Oblivion Forest Smaller, and Valley of Shadows Smaller. Created by AProperGentleman." cannotReplace="">
+	<map>Void Islands Smaller</map>
+	<map>Abyssal Isles Smaller</map>
+	<map>Plains of Abaddon Smaller</map>
+	<map>Oblivion Forest Smaller</map>
+	<map>Valley of Shadows Smaller</map>
+</randomMaps>

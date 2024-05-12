@@ -1,0 +1,70 @@
+//==============================================================================
+// Whale_anim.txt
+//==============================================================================
+
+
+//==============================================================================
+anim Walk
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+            Visual Animal Eagle_WalkA
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim Idle
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+            Visual Animal Eagle_WalkA
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim Charging
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+            Visual Animal Eagle_WalkA
+	tag Attack 0.5 true
+            tag GenericSound 0.13 true   
+Length 1.0
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim RangedAttack
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+            Visual Animal Eagle_WalkA
+	tag Attack 0.5 true
+            tag GenericSound 0.13 true   
+Length 1.0
+         }
+      }
+   }
+}

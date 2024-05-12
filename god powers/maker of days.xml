@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="MakerOfDays" type="tempunit" techname="Maker of Days">
+	<activetime>90</activetime>
+	<placement forceonmap="1" losprotounit="Maker Tree">all</placement>
+
+
+	<createunit quantity="1" radius="0.0" delay="0.0" norotate="">Maker Tree</createunit>
+	<createunit quantity="1" radius="0.0" delay="1.0" norotate="">Maker Inferno Field</createunit>
+	<createunit quantity="1" radius="0.0" delay="5.0" norotate="">Maker Inferno Fire Ground</createunit>
+	
+	
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<icon>improvement Maker of Days icon</icon>
+	<usedicon>improvement Maker of Days used icon</usedicon>
+
+	<powerblocker>10.0f</powerblocker>
+
+</power>

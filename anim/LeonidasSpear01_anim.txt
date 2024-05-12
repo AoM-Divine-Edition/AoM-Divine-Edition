@@ -1,0 +1,20 @@
+//==============================================================================
+// Leonidas Spear_anim.txt
+// By Cannibalh
+// HOTSPOTS
+// Fire ( Top to Particles )
+//==============================================================================
+
+define LeonidasSpear1
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+            Visual LeonidasSpear01
+         }
+      }         
+   }
+}

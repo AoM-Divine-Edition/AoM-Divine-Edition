@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="FlashFlood" type="tornado" techname="Flash Flood">
+	<builduptime soundset="TornadoBirth">0.1</builduptime>
+	<activetime>23.0</activetime>
+	<shutdowntime soundset="TornadoDeath">0.1</shutdowntime>
+	<minimapeventtime>60.0</minimapeventtime>
+	<rangeindicatorprotoid radius="18.0" indicatorcount="10" speed="0.2">UI Range Indicator aztec</rangeindicatorprotoid>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<playsbattlemusic></playsbattlemusic>
+	<placement forceonmap="1">full</placement>
+	<radius>85.0</radius>
+	<powerblocker>20.0f</powerblocker>
+	<gpdamagemodel>
+		<playerrelation>enemy</playerrelation>
+		<basedamagepercentunit>2.80</basedamagepercentunit>
+		<basedamagepercentvillager>5.30</basedamagepercentvillager>
+		<basedamagepercentbuilding>0.008</basedamagepercentbuilding>
+		<minhpdamageunit>900</minhpdamageunit>
+		<minhpdamagevillager>500</minhpdamagevillager>
+		<minhpdamagebuilding>15000</minhpdamagebuilding>
+		<maxhpdamageunit>1800</maxhpdamageunit>
+		<maxhpdamagevillager>1000</maxhpdamagevillager>
+		<maxhpdamagebuilding>20000</maxhpdamagebuilding>
+	</gpdamagemodel>
+	<gpdamagemodel>
+		<playerrelation>ally</playerrelation>
+		<basedamagepercentunit>4.25</basedamagepercentunit>
+		<basedamagepercentvillager>4.5</basedamagepercentvillager>
+		<basedamagepercentbuilding>4.5</basedamagepercentbuilding>
+		<minhpdamageunit>3000</minhpdamageunit>
+		<minhpdamagevillager>3000</minhpdamagevillager>
+		<minhpdamagebuilding>1500</minhpdamagebuilding>
+		<maxhpdamageunit>1500</maxhpdamageunit>
+		<maxhpdamagevillager>1000</maxhpdamagevillager>
+		<maxhpdamagebuilding>5000</maxhpdamagebuilding>
+	</gpdamagemodel>
+	<tornadosfx>flood II</tornadosfx>
+	<debris>Tornado Debris</debris>
+	<damagetype>LogicalTypeTornadoAttack</damagetype>
+	<scantime>0.5</scantime>
+	<attackgaiaaccuracy>0.5</attackgaiaaccuracy>
+	<minthrowdistance>0.05</minthrowdistance>
+	<maxthrowdistance>0.06</maxthrowdistance>
+	<minthrowheight>1.0</minthrowheight>
+	<maxthrowheight>1.2</maxthrowheight>
+	<minthrowvelocity>1.5</minthrowvelocity>
+	<maxthrowvelocity>1.6</maxthrowvelocity>
+	<dontthrow>Building</dontthrow>
+	<dontthrow>Wood</dontthrow>
+	<dontthrow>Gold</dontthrow>
+	<dontthrow>Fish</dontthrow>
+	<cantsuck>AbstractSettlement</cantsuck>
+	<cantsuck>Farm</cantsuck>
+	<cantsuck>Building</cantsuck>
+	<cantsuck>Gold</cantsuck>
+	<cantsuck>Wave</cantsuck>
+	<numberobjsperbuilding>3</numberobjsperbuilding>
+	<xzvelocity>2.5</xzvelocity>
+	<yvelocity>2.0</yvelocity>
+	<funnelradius>20.5</funnelradius>
+	<funnelheight>5.5</funnelheight>
+	<angularvelocity>0.14</angularvelocity>
+	<funnelspeed>0.8</funnelspeed>
+	<terrainlogic>
+		<terrainuiclass>Snow</terrainuiclass>
+		<texture>SFX A Tornado Snow</texture>
+	</terrainlogic>
+	<icon>god power flood icon 64</icon>
+	<usedicon>god power flood icon 64</usedicon>
+</power>

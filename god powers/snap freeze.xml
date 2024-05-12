@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="SnapFreeze" type="Bronze" techname="Snap Freeze">
+	<activetime>90.0</activetime>
+	<radius>40.0</radius>
+	<rangeindicatorprotoid radius="35.0" indicatorcount="10" speed="0.2">UI Range Indicator Greek SFX</rangeindicatorprotoid>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">Bronze</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<placement forceonmap="1">full</placement>
+	<armor>
+		<abstracttype>Building</abstracttype>
+		<armortype percent="-0.80">Hack</armortype>
+		<armortype percent="-0.65">Pierce</armortype>
+		<armortype percent="-0.50">Crush</armortype>
+		<sfx>Armor Glow Small</sfx>
+		<texture>SFX N Frost Ice Block Unit</texture>
+	</armor>
+	<damagesoundset>HackBronze</damagesoundset>
+
+	<recharges>0</recharges>
+	<rechargetime>45 </rechargetime>
+</power>

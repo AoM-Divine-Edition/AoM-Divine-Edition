@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Maw" type="Carnivora" techname="Maw">
+	<activetime>-1</activetime>
+	<unitproto>Maw</unitproto>
+	<unitbaseproto>Maw Real</unitbaseproto>
+	<unitwaterproto>Maw</unitwaterproto>
+	<unitwaterbaseproto>Maw Real</unitwaterbaseproto>
+	<placement forceonmap="1">full</placement>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="Caster">TartarianGateBirth</soundset>
+	<recharges>0 </recharges>
+	<rechargetime>10 </rechargetime>
+</power>

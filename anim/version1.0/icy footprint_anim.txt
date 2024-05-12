@@ -1,0 +1,31 @@
+//==============================================================================
+// Icy footprint_anim.txt
+//==============================================================================
+
+//==============================================================================
+define Footprint
+{
+	set hotspot
+	{
+		version
+		{
+		 	Visualparticle Special N Frost Footprint
+		}
+	}
+}
+
+//==============================================================================
+anim Idle
+{
+	SetSelector none 
+	{
+		set hotspot
+		{
+			version
+			{
+				visualNone attachments a footstep Giant
+				Connect ATTACHPOINT Footprint hotspot
+			}
+		}
+	}
+}

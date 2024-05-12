@@ -1,0 +1,540 @@
+//==============================================================================
+// hero greek bellerophon_anim.txt
+// Fixed the heroglow ~WarriorMario
+//==============================================================================
+
+//==============================================================================
+
+//import Spear_defines_anim.txt
+//import Eldritch_Shield_anim.txt
+
+//==============================================================================
+define heroglow
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX Eldritch Glow
+
+      }
+   }
+}
+
+//==============================================================================
+define eldritchshield
+{
+   set hotspot
+   {
+      version
+      {
+         Visual nxboneshield
+
+      }
+   }
+}
+
+//==============================================================================
+define spear
+{
+   set hotspot
+   {
+      version
+      {
+         Visual nxsharkteethspear
+
+      }
+   }
+}
+
+//==============================================================================
+define Head
+{
+	SetSelector
+	{
+		TechLogic none/Medium Gaunt-Rider/Heavy Gaunt-Rider/Champion Gaunt-Rider
+		set hotspot
+		{
+			version
+			{
+				Visual Head_Hooded
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Head_Hooded
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Head_Hooded
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Head_Hooded
+			}
+		}
+	}
+}
+
+//==============================================================================
+
+anim Bored
+{
+   SetSelector
+	{
+		TechLogic none/Medium Gaunt-Rider/Heavy Gaunt-Rider/Champion Gaunt-Rider
+		set hotspot
+		{
+			version
+			{
+				Visual GauntRider_Idle
+				Connect TopOfHead Head hotspot
+				connect LeftForearm EldritchShield hotspot
+				connect RIGHTHAND Spear hotspot
+				Connect frontabdomen heroglow hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual GauntRider_Idle
+				ReplaceTexture Gaunt_Rider/Gaunt_Rider_Medium
+				Connect TopOfHead Head hotspot
+				connect LeftForearm EldritchShield hotspot
+				connect RIGHTHAND Spear hotspot
+				Connect frontabdomen heroglow hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual GauntRider_Idle
+				ReplaceTexture Gaunt_Rider/Gaunt_Rider_Heavy
+				Connect TopOfHead Head hotspot
+				connect LeftForearm EldritchShield hotspot
+				connect RIGHTHAND Spear hotspot
+				Connect frontabdomen heroglow hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual GauntRider_Idle
+				ReplaceTexture Gaunt_Rider/Gaunt_Rider_Champion
+				Connect TopOfHead Head hotspot
+				connect LeftForearm EldritchShield hotspot
+				connect RIGHTHAND Spear hotspot
+				Connect frontabdomen heroglow hotspot
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Walk
+{
+   SetSelector
+   {
+		
+		SetSelector
+		{
+			TechLogic none/Medium Gaunt-Rider/Heavy Gaunt-Rider/Champion Gaunt-Rider
+
+			set hotspot
+			{
+				version
+				{
+					Visual GauntRider_Walk
+					tag FootstepLeft 0.05 true   
+					tag FootstepRight 0.00 true   
+					tag FootstepLeft 0.35 true   
+					tag FootstepRight 0.30 true
+
+					Connect TopOfHead Head hotspot
+					connect LeftForearm EldritchShield hotspot
+					connect RIGHTHAND Spear hotspot
+					Connect TopOfHead heroglow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual GauntRider_Walk
+					ReplaceTexture Gaunt_Rider/Gaunt_Rider_Medium
+					tag FootstepLeft 0.05 true   
+					tag FootstepRight 0.00 true   
+					tag FootstepLeft 0.35 true   
+					tag FootstepRight 0.30 true
+
+					Connect TopOfHead Head hotspot
+					connect LeftForearm EldritchShield hotspot
+					connect RIGHTHAND Spear hotspot
+					Connect TopOfHead heroglow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual GauntRider_Walk
+					ReplaceTexture Gaunt_Rider/Gaunt_Rider_Heavy
+					tag FootstepLeft 0.05 true   
+					tag FootstepRight 0.00 true   
+					tag FootstepLeft 0.35 true   
+					tag FootstepRight 0.30 true
+
+					Connect TopOfHead Head hotspot
+					connect LeftForearm EldritchShield hotspot
+					connect RIGHTHAND Spear hotspot
+					Connect TopOfHead heroglow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual GauntRider_Walk
+					ReplaceTexture Gaunt_Rider/Gaunt_Rider_Champion
+					tag FootstepLeft 0.05 true   
+					tag FootstepRight 0.00 true   
+					tag FootstepLeft 0.35 true   
+					tag FootstepRight 0.30 true
+
+					Connect TopOfHead Head hotspot
+					connect LeftForearm EldritchShield hotspot
+					connect RIGHTHAND Spear hotspot
+					Connect TopOfHead heroglow hotspot
+				}
+			}
+		}
+   }
+}
+
+//==============================================================================
+anim Death
+{
+   SetSelector
+   {
+	TechLogic none/Medium Gaunt-Rider/Heavy Gaunt-Rider/Champion Gaunt-Rider
+      	set hotspot
+      	{
+         	version
+         	{
+            		Visual GauntRider_Death
+			
+			Connect TopOfHead Head hotspot
+			connect LeftForearm EldritchShield hotspot
+			connect RIGHTHAND Spear hotspot
+			Connect frontabdomen heroglow hotspot
+
+                     	tag SpecificSoundSet 0.65 false HeavyFall checkVisible
+         	}
+      	}
+	set hotspot
+      	{
+         	version
+         	{
+            		Visual GauntRider_Death
+			ReplaceTexture Gaunt_Rider/Gaunt_Rider_Medium
+			
+			Connect TopOfHead Head hotspot
+			connect LeftForearm EldritchShield hotspot
+			connect RIGHTHAND Spear hotspot
+			Connect frontabdomen heroglow hotspot
+
+                     	tag SpecificSoundSet 0.65 false HeavyFall checkVisible
+         	}
+      	}
+	set hotspot
+      	{
+         	version
+         	{
+            		Visual GauntRider_Death
+			ReplaceTexture Gaunt_Rider/Gaunt_Rider_Heavy
+			
+			Connect TopOfHead Head hotspot
+			connect LeftForearm EldritchShield hotspot
+			connect RIGHTHAND Spear hotspot
+			Connect frontabdomen heroglow hotspot
+
+                     	tag SpecificSoundSet 0.65 false HeavyFall checkVisible
+         	}
+      	}
+	set hotspot
+      	{
+         	version
+         	{
+            		Visual GauntRider_Death
+			ReplaceTexture Gaunt_Rider/Gaunt_Rider_Champion
+			
+			Connect TopOfHead Head hotspot
+			connect LeftForearm EldritchShield hotspot
+			connect RIGHTHAND Spear hotspot
+			Connect frontabdomen heroglow hotspot
+
+                     	tag SpecificSoundSet 0.65 false HeavyFall checkVisible
+         	}
+      	}
+   }
+}
+
+//==============================================================================
+anim Idle
+{
+
+	SetSelector
+	{
+		TechLogic none/Medium Gaunt-Rider/Heavy Gaunt-Rider/Champion Gaunt-Rider
+		set hotspot
+		{
+			version
+			{
+				Visual GauntRider_Idle
+				Connect TopOfHead Head hotspot
+				connect LeftForearm EldritchShield hotspot
+				connect RIGHTHAND Spear hotspot
+				Connect frontabdomen heroglow hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual GauntRider_Idle
+				ReplaceTexture Gaunt_Rider/Gaunt_Rider_Medium
+				Connect TopOfHead Head hotspot
+				connect LeftForearm EldritchShield hotspot
+				connect RIGHTHAND Spear hotspot
+				Connect frontabdomen heroglow hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual GauntRider_Idle
+				ReplaceTexture Gaunt_Rider/Gaunt_Rider_Heavy
+				Connect TopOfHead Head hotspot
+				connect LeftForearm EldritchShield hotspot
+				connect RIGHTHAND Spear hotspot
+				Connect frontabdomen heroglow hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual GauntRider_Idle
+				ReplaceTexture Gaunt_Rider/Gaunt_Rider_Champion
+				Connect TopOfHead Head hotspot
+				connect LeftForearm EldritchShield hotspot
+				connect RIGHTHAND Spear hotspot
+				Connect frontabdomen heroglow hotspot
+			}
+		}
+	}
+
+}
+
+
+//==============================================================================
+anim JumpFly
+{
+	SetSelector
+	{
+		TechLogic none/Medium Gaunt-Rider/Heavy Gaunt-Rider/Champion Gaunt-Rider
+		set hotspot
+		{
+			version
+			{
+				Visual GauntRider_Jump
+				Connect TopOfHead Head hotspot
+				connect LeftForearm EldritchShield hotspot
+				connect RIGHTHAND Spear hotspot
+				Connect frontabdomen heroglow hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual GauntRider_Jump
+				ReplaceTexture Gaunt_Rider/Gaunt_Rider_Medium
+				Connect TopOfHead Head hotspot
+				connect LeftForearm EldritchShield hotspot
+				connect RIGHTHAND Spear hotspot
+				Connect frontabdomen heroglow hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual GauntRider_Jump
+				ReplaceTexture Gaunt_Rider/Gaunt_Rider_Heavy
+				Connect TopOfHead Head hotspot
+				connect LeftForearm EldritchShield hotspot
+				connect RIGHTHAND Spear hotspot
+				Connect frontabdomen heroglow hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual GauntRider_Jump
+				ReplaceTexture Gaunt_Rider/Gaunt_Rider_Champion
+				Connect TopOfHead Head hotspot
+				connect LeftForearm EldritchShield hotspot
+				connect RIGHTHAND Spear hotspot
+				Connect frontabdomen heroglow hotspot
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Attack
+{
+   SetSelector
+   {
+	TechLogic none/Medium Gaunt-Rider/Heavy Gaunt-Rider/Champion Gaunt-Rider
+      	set hotspot
+      	{
+         	version
+         	{
+			Visual GauntRider_Attack
+			
+			Connect TopOfHead Head hotspot
+			connect LeftForearm EldritchShield hotspot
+			connect RIGHTHAND Spear hotspot
+			Connect frontabdomen heroglow hotspot
+
+                     	tag Attack 0.60 true   
+                     	tag GenericSound 0.50 true			
+        	}
+	}
+	set hotspot
+	{
+		version
+         	{
+			Visual GauntRider_Attack
+			ReplaceTexture Gaunt_Rider/Gaunt_Rider_Medium
+			
+			Connect TopOfHead Head hotspot
+			connect LeftForearm EldritchShield hotspot
+			connect RIGHTHAND Spear hotspot
+			Connect frontabdomen heroglow hotspot
+
+                     	tag Attack 0.60 true   
+                     	tag GenericSound 0.50 true			
+        	}
+	}
+	set hotspot
+	{
+		version
+         	{
+			Visual GauntRider_Attack
+			ReplaceTexture Gaunt_Rider/Gaunt_Rider_Heavy
+			
+			Connect TopOfHead Head hotspot
+			connect LeftForearm EldritchShield hotspot
+			connect RIGHTHAND Spear hotspot
+			Connect frontabdomen heroglow hotspot
+
+                     	tag Attack 0.60 true   
+                     	tag GenericSound 0.50 true			
+        	}
+	}
+	set hotspot
+	{
+		version
+         	{
+			Visual GauntRider_Attack
+			ReplaceTexture Gaunt_Rider/Gaunt_Rider_Champion
+			
+			Connect TopOfHead Head hotspot
+			connect LeftForearm EldritchShield hotspot
+			connect RIGHTHAND Spear hotspot
+			Connect frontabdomen heroglow hotspot
+
+                     	tag Attack 0.60 true   
+                     	tag GenericSound 0.50 true			
+        	}
+      	}
+   }
+}
+
+
+//==============================================================================
+anim Flail
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         TechLogic none/Medium Gaunt-Rider/Heavy Gaunt-Rider/Champion Gaunt-Rider
+		set hotspot
+		{
+			version
+			{
+				Visual GauntRider_Idle
+				Connect TopOfHead Head hotspot
+				connect LeftForearm EldritchShield hotspot
+				connect RIGHTHAND Spear hotspot
+				Connect frontabdomen heroglow hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual GauntRider_Idle
+				ReplaceTexture Gaunt_Rider/Gaunt_Rider_Medium
+				Connect TopOfHead Head hotspot
+				connect LeftForearm EldritchShield hotspot
+				connect RIGHTHAND Spear hotspot
+				Connect frontabdomen heroglow hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual GauntRider_Idle
+				ReplaceTexture Gaunt_Rider/Gaunt_Rider_Heavy
+				Connect TopOfHead Head hotspot
+				connect LeftForearm EldritchShield hotspot
+				connect RIGHTHAND Spear hotspot
+				Connect frontabdomen heroglow hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual GauntRider_Idle
+				ReplaceTexture Gaunt_Rider/Gaunt_Rider_Champion
+				Connect TopOfHead Head hotspot
+				connect LeftForearm EldritchShield hotspot
+				connect RIGHTHAND Spear hotspot
+				Connect frontabdomen heroglow hotspot
+			}
+		}
+
+      }
+   }
+}
+

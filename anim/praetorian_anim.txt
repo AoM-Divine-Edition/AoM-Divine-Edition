@@ -1,0 +1,414 @@
+//==============================================================================
+// Praetorian Guard_Anim.txt
+//==============================================================================
+
+//==============================================================================
+define shield
+{
+	TechLogic none/Imperial Guard/Batavians
+		set hotspot
+		{
+			version
+			{
+				Visual Infantry X Trident Soldier Shield
+				ReplaceTexture infantry x trident soldier shield iron/principle shield
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Infantry X Trident Soldier Shield
+				ReplaceTexture infantry x trident soldier shield iron/principle shield
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Infantry X Trident Soldier Shield
+				ReplaceTexture Infantry X Trident Soldier Shield Iron/Legate Shield
+			}
+		}
+}
+
+//==============================================================================
+define trident
+{
+   SetSelector
+   {
+		set hotspot
+		{
+			version
+			{
+                                Visual Attachments G Sword copper
+			}
+		}
+	}
+}
+
+//==============================================================================
+define Head
+{
+	TechLogic none/Imperial Guard/Batavians
+      set hotspot
+      {
+         version
+         {
+            Visual Infantry G Hoplite Head Bronze
+	    ReplaceTexture Infantry g hoplite head Bronze/infantry g hoplite head bronze
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+            Visual Infantry G Hoplite Head Bronze
+	    ReplaceTexture Infantry g hoplite head Bronze/infantry g hoplite head bronze
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+            Visual Legate Head
+		ReplaceTexture Infantry G Hoplite Head Bronze/Legate Head
+         }
+      }
+}
+
+//==============================================================================
+anim Bored
+{
+		SetSelector
+		{
+			TechLogic none/Imperial Guard/Batavians
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry X Trident Soldier_BoredA
+					Connect FRONTABDOMEN heroglow hotspot
+					connect RightHand Trident hotspot
+					Connect TopOfHead Head hotspot
+					ReplaceTexture infantry x trident soldier iron/infantry g hoplite bronze
+					ReplaceTexture infantry x trident soldier cape iron/spartiatecape
+					ReplaceTexture infantry x trident soldier shield iron/principle shield
+
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry X Trident Soldier_BoredA
+					Connect FRONTABDOMEN heroglow hotspot
+					connect RightHand Trident hotspot
+					Connect TopOfHead Head hotspot
+					ReplaceTexture infantry x trident soldier iron/infantry g hoplite bronze
+					ReplaceTexture infantry x trident soldier cape iron/spartiatecape
+					ReplaceTexture infantry x trident soldier shield iron/principle shield
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Legate_Idle
+					connect RightHand Trident hotspot
+					Connect TopOfHead Head hotspot
+					ReplaceTexture Infantry X Trident Soldier Shield Iron/Legate Shield
+					ReplaceTexture Infantry X Trident Soldier Iron/Legate Armor
+					ReplaceTexture Infantry X Trident Soldier Cape Iron/Legate Cape
+				}
+			}
+		}
+}
+
+
+//==============================================================================
+anim Idle
+{
+		SetSelector
+		{
+			TechLogic none/Imperial Guard/Batavians
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry X Trident Soldier_IdleA
+					Connect FRONTABDOMEN heroglow hotspot
+					connect RightHand Trident hotspot
+					Connect TopOfHead Head hotspot
+					ReplaceTexture infantry x trident soldier iron/infantry g hoplite bronze
+					ReplaceTexture infantry x trident soldier cape iron/spartiatecape
+					ReplaceTexture infantry x trident soldier shield iron/principle shield
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry X Trident Soldier_IdleA
+					Connect FRONTABDOMEN heroglow hotspot
+					connect RightHand Trident hotspot
+					Connect TopOfHead Head hotspot
+					ReplaceTexture infantry x trident soldier iron/infantry g hoplite bronze
+					ReplaceTexture infantry x trident soldier cape iron/spartiatecape
+					ReplaceTexture infantry x trident soldier shield iron/principle shield
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Legate_Idle
+					connect RightHand Trident hotspot
+					Connect TopOfHead Head hotspot
+					ReplaceTexture Infantry X Trident Soldier Shield Iron/Legate Shield
+					ReplaceTexture Infantry X Trident Soldier Iron/Legate Armor
+					ReplaceTexture Infantry X Trident Soldier Cape Iron/Legate Cape
+				}
+			}
+		}
+}
+
+//==============================================================================
+anim Walk
+{
+		SetSelector
+		{
+			TechLogic none/Imperial Guard/Batavians
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry X Trident Soldier_walkA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+               tag SpecificSoundSet 0.00 false marchingarmy checkVisible 
+               tag FootstepLeft 0.00 true   
+               tag FootstepRight 0.50 true   
+//-- end auto generated section
+					connect RightHand Trident hotspot
+					Connect FRONTABDOMEN heroglow hotspot
+					Connect TopOfHead Head hotspot
+					ReplaceTexture infantry x trident soldier iron/infantry g hoplite bronze
+					ReplaceTexture infantry x trident soldier cape iron/spartiatecape
+					ReplaceTexture infantry x trident soldier shield iron/principle shield
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry X Trident Soldier_walkA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+               tag SpecificSoundSet 0.00 false marchingarmy checkVisible 
+               tag FootstepLeft 0.00 true   
+               tag FootstepRight 0.50 true   
+//-- end auto generated section
+					connect RightHand Trident hotspot
+					Connect TopOfHead Head hotspot
+					Connect FRONTABDOMEN heroglow hotspot
+					ReplaceTexture infantry x trident soldier iron/infantry g hoplite bronze
+					ReplaceTexture infantry x trident soldier cape iron/spartiatecape
+					ReplaceTexture infantry x trident soldier shield iron/principle shield
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Legate_Walk
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+               tag FootstepLeft 0.00 true   
+               tag FootstepRight 0.50 true   
+//-- end auto generated section
+					connect RightHand Trident hotspot
+					Connect TopOfHead Head hotspot
+					ReplaceTexture Infantry X Trident Soldier Shield Iron/Legate Shield
+					ReplaceTexture Infantry X Trident Soldier Iron/Legate Armor
+					ReplaceTexture Infantry X Trident Soldier Cape Iron/Legate Cape
+				}
+			}
+		}
+}
+
+//==============================================================================
+anim Attack
+{
+	SetSelector
+	{
+		TechLogic none/Imperial Guard/Batavians
+		set hotspot
+		{
+			version
+			{
+				Visual Infantry X Trident Soldier_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+               tag Attack 0.50 true   
+               tag GenericSound 0.40 true   
+//-- end auto generated section
+				connect RightHand Trident hotspot
+				Connect TopOfHead Head hotspot
+				Connect FRONTABDOMEN heroglow hotspot
+				ReplaceTexture infantry x trident soldier iron/infantry g hoplite bronze
+				ReplaceTexture infantry x trident soldier cape iron/spartiatecape
+				ReplaceTexture infantry x trident soldier shield iron/principle shield
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Infantry X Trident Soldier_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+               tag Attack 0.50 true   
+               tag GenericSound 0.40 true   
+//-- end auto generated section
+				connect RightHand Trident hotspot
+				Connect TopOfHead Head hotspot
+				Connect FRONTABDOMEN heroglow hotspot
+				ReplaceTexture infantry x trident soldier iron/infantry g hoplite bronze
+					ReplaceTexture infantry x trident soldier cape iron/spartiatecape
+				ReplaceTexture infantry x trident soldier shield iron/principle shield
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Legate_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+               tag Attack 0.50 true   
+               tag GenericSound 0.40 true   
+//-- end auto generated section
+				connect RightHand Trident hotspot
+				Connect TopOfHead Head hotspot
+					ReplaceTexture Infantry X Trident Soldier Shield Iron/Legate Shield
+					ReplaceTexture Infantry X Trident Soldier Iron/Legate Armor
+					ReplaceTexture Infantry X Trident Soldier Cape Iron/Legate Cape
+			}
+			version
+			{
+				Visual Legate_AttackB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+               tag Attack 0.53 true   
+               tag GenericSound 0.40 true   
+//-- end auto generated section
+				connect RightHand Trident hotspot
+				Connect TopOfHead Head hotspot
+					ReplaceTexture Infantry X Trident Soldier Shield Iron/Legate Shield
+					ReplaceTexture Infantry X Trident Soldier Iron/Legate Armor
+					ReplaceTexture Infantry X Trident Soldier Cape Iron/Legate Cape
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Death
+{
+   SetSelector
+   {
+      TechLogic none/Imperial Guard/Batavians
+      set hotspot
+      {
+         version
+         {
+				Visual Infantry X Trident Soldier_DeathA
+				connect RightHand Trident hotspot
+				Connect TopOfHead Head hotspot
+				Connect FRONTABDOMEN heroglow hotspot
+				ReplaceTexture infantry x trident soldier iron/infantry g hoplite bronze
+					ReplaceTexture infantry x trident soldier cape iron/spartiatecape
+				ReplaceTexture infantry x trident soldier shield iron/principle shield
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				Visual Infantry X Trident Soldier_DeathA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+               tag SpecificSoundSet 0.11 false MaleDeath checkVisible 
+//-- end auto generated section
+				connect RightHand Trident hotspot
+				Connect TopOfHead Head hotspot
+				Connect FRONTABDOMEN heroglow hotspot
+				ReplaceTexture infantry x trident soldier iron/infantry g hoplite bronze
+					ReplaceTexture infantry x trident soldier cape iron/spartiatecape
+				ReplaceTexture infantry x trident soldier shield iron/principle shield
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				Visual Legate_Death
+				connect RightHand Trident hotspot
+				Connect TopOfHead Head hotspot
+				ReplaceTexture Infantry X Trident Soldier Shield Iron/Legate Shield
+				ReplaceTexture Infantry X Trident Soldier Iron/Legate Armor
+				ReplaceTexture Infantry X Trident Soldier Cape Iron/Legate Cape
+         }
+      }
+   }
+}
+
+
+//==============================================================================
+anim Flail
+{
+   SetSelector
+   {
+      TechLogic none/Imperial Guard/Batavians
+      set hotspot
+      {
+         version
+         {
+				Visual Infantry X Trident Soldier_FlailA
+				connect RightHand Trident hotspot
+				Connect TopOfHead Head hotspot
+				Connect FRONTABDOMEN heroglow hotspot
+				ReplaceTexture infantry x trident soldier iron/infantry g hoplite bronze
+					ReplaceTexture infantry x trident soldier cape iron/spartiatecape
+				ReplaceTexture infantry x trident soldier shield iron/principle shield
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				Visual Infantry X Trident Soldier_FlailA
+				connect RightHand Trident hotspot
+				Connect TopOfHead Head hotspot
+				Connect FRONTABDOMEN heroglow hotspot
+				ReplaceTexture infantry x trident soldier iron/infantry g hoplite bronze
+					ReplaceTexture infantry x trident soldier cape iron/spartiatecape
+				ReplaceTexture infantry x trident soldier shield iron/principle shield
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				Visual Legate_Flail
+				connect RightHand Trident hotspot
+				Connect TopOfHead Head hotspot
+				ReplaceTexture Infantry X Trident Soldier Shield Iron/Legate Shield
+				ReplaceTexture Infantry X Trident Soldier Iron/Legate Armor
+				ReplaceTexture Infantry X Trident Soldier Cape Iron/Legate Cape
+         }
+      }
+   }
+}
+

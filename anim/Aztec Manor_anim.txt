@@ -1,0 +1,2639 @@
+//===========================================================================
+//Manors
+//==============================================================================
+
+import Construction_defines_anim.txt
+
+
+//==============================================================================
+define Dust
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Building DustA
+      }
+   }  
+}
+
+//==============================================================================
+define nobles1a
+{
+   set hotspot
+   {
+      version
+      {
+            Visual AztecHouseA
+	    
+      }
+   }
+}
+//==============================================================================
+define nobles1b
+{
+   set hotspot
+   {
+      version
+      {
+         Visual AztecHouseB
+      }
+   }
+}
+//==============================================================================
+define nobles1c
+{
+   set hotspot
+   {
+      version
+      {
+         	Visual AztecHouseD
+      }
+   }
+}
+//==============================================================================
+define nobles2a
+{
+   set hotspot
+   {
+      version
+      {
+	 Visual AztecHouseA
+         ReplaceTexture AztHouseA/AztHouseA2
+      }
+   }
+}
+//==============================================================================
+define nobles2b
+{
+   set hotspot
+   {
+      version
+      {
+	 Visual AztecHouseB
+         ReplaceTexture AztHouseB/AztHouseB2
+      }
+   }
+}
+//==============================================================================
+define nobles2c
+{
+   set hotspot
+   {
+      version
+      {
+	 Visual AztecHouseD
+         ReplaceTexture AztHouseD/AztHouseD2
+      }
+   }
+}
+
+//==============================================================================
+define nobles3a
+{
+   set hotspot
+   {
+      version
+      {
+	 Visual AztecHouseA
+         ReplaceTexture AztHouseA/AztHouseA3
+      }
+   }
+}
+//==============================================================================
+define nobles3b
+{
+   set hotspot
+   {
+      version
+      {
+	 Visual AztecHouseB
+         ReplaceTexture AztHouseB/AztHouseB3
+      }
+   }
+}
+
+//==============================================================================
+define nobles3c
+{
+   set hotspot
+   {
+      version
+      {
+	 Visual AztecHouseD
+         ReplaceTexture AztHouseD/AztHouseD3
+      }
+   }
+}
+
+//==============================================================================
+define nobles4a
+{
+   set hotspot
+   {
+      version
+      {
+         Visual AztecHouseA 
+  	 ReplaceTexture AztHouseA/AztHouseA4
+      }
+   }
+}
+//==============================================================================
+define nobles4b
+{
+   set hotspot
+   {
+      version
+      {
+              Visual AztecHouseB
+	      ReplaceTexture AztHouseB/AztHouseB4
+      }
+   }
+}
+//==============================================================================
+define nobles4c
+{
+   set hotspot
+   {
+      version
+      {
+         Visual AztecHouseD
+	 ReplaceTexture AztHouseD/AztHouseD4
+      }
+   }
+}
+
+//==============================================================================
+anim Idle
+{
+		SetSelector
+      {
+			TechLogic none/age 2/age 3/age 4/House Archers
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual AztecHouseA
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual AztecHouseB
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual AztecHouseD
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+			}
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual AztecHouseA
+							ReplaceTexture AztHouseA/AztHouseA2
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual AztecHouseB
+							ReplaceTexture AztHouseB/AztHouseB2
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual AztecHouseD
+							ReplaceTexture AztHouseD/AztHouseD2
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+			}
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual AztecHouseA
+							ReplaceTexture AztHouseA/AztHouseA3
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual AztecHouseB
+							ReplaceTexture AztHouseB/AztHouseB3
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual AztecHouseD
+							ReplaceTexture AztHouseD/AztHouseD3
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+			}
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual AztecHouseA
+							ReplaceTexture AztHouseA/AztHouseA4
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual AztecHouseB
+							ReplaceTexture AztHouseB/AztHouseB4
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual AztecHouseD
+							ReplaceTexture AztHouseD/AztHouseD4
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+			}
+			//===== House Archers
+
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual AztecHouseAR
+							ReplaceTexture AztHouseA/AztHouseA4
+							
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual AztecHouseBR
+							ReplaceTexture AztHouseB/AztHouseB4
+							
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual AztecHouseDR
+							ReplaceTexture AztHouseD/AztHouseD4
+							
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+			}
+      }
+}
+
+
+//==============================================================================
+anim RangedAttack
+{
+		SetSelector
+      {
+			TechLogic none/age 2/age 3/age 4/House Archers
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual AztecHouseA
+							 //- - auto generated by the bang animation tool
+                    					   //- - do not hand edit these values
+                        tag Attack 0.40 true
+                        tag GenericSound 0.40 true
+                        tag SpecificSoundSet 0.00 false Arrow checkVisible
+                        //- - end auto generated section
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual AztecHouseB
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual AztecHouseD
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+			}
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual AztecHouseA
+							ReplaceTexture AztHouseA/AztHouseA2
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual AztecHouseB
+							ReplaceTexture AztHouseB/AztHouseB2
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual AztecHouseD
+							ReplaceTexture AztHouseD/AztHouseD2
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+			}
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual AztecHouseA
+							ReplaceTexture AztHouseA/AztHouseA3
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual AztecHouseB
+							ReplaceTexture AztHouseB/AztHouseB3
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual AztecHouseD
+							ReplaceTexture AztHouseD/AztHouseD3
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+			}
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual AztecHouseA
+							ReplaceTexture AztHouseA/AztHouseA4
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual AztecHouseB
+							ReplaceTexture AztHouseB/AztHouseB4
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual AztecHouseD
+							ReplaceTexture AztHouseD/AztHouseD4
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+			}
+
+			//===== House Archers
+
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual AztecHouseAR
+							ReplaceTexture AztHouseA/AztHouseA4
+							//- - auto generated by the bang animation tool
+                         				//- - do not hand edit these values
+                            tag Attack 0.40 true
+                            tag GenericSound 0.40 true
+                            tag SpecificSoundSet 0.31 false Arrow checkVisible
+                            //- - end auto generated section
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual AztecHouseBR
+							ReplaceTexture AztHouseB/AztHouseB4
+							//- - auto generated by the bang animation tool
+                            //- - do not hand edit these values
+                            tag Attack 0.40 true
+                            tag GenericSound 0.40 true
+                            tag SpecificSoundSet 0.31 false Arrow checkVisible
+                            //- - end auto generated section
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual AztecHouseDR
+							ReplaceTexture AztHouseD/AztHouseD4
+							//- - auto generated by the bang animation tool
+                            //- - do not hand edit these values
+                            tag Attack 0.40 true
+                            tag GenericSound 0.40 true
+                            tag SpecificSoundSet 0.31 false Arrow checkVisible
+                            //- - end auto generated section
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+			}		
+
+      }
+}
+
+//==============================================================================
+anim death
+{
+		SetSelector
+      {
+			TechLogic none/age 2/age 3/age 4/House Archers
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual GenericDestruction
+               	  					connect FOREHEAD nobles1a hotspot
+							connect ATTACHPOINT Dust hotspot
+							connect ATTACHPOINT Dust hotspot
+							connect ATTACHPOINT Dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual GenericDestruction
+               	  					connect FOREHEAD nobles1b hotspot
+							connect ATTACHPOINT Dust hotspot
+							connect ATTACHPOINT Dust hotspot
+							connect ATTACHPOINT Dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual GenericDestruction
+               	  					connect FOREHEAD nobles1c hotspot
+							connect ATTACHPOINT Dust hotspot
+							connect ATTACHPOINT Dust hotspot
+							connect ATTACHPOINT Dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+			}
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual GenericDestruction
+               	  					connect FOREHEAD nobles2a hotspot
+							connect ATTACHPOINT Dust hotspot
+							connect ATTACHPOINT Dust hotspot
+							connect ATTACHPOINT Dust hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual GenericDestruction
+               	  					connect FOREHEAD nobles2b hotspot
+							connect ATTACHPOINT Dust hotspot
+							connect ATTACHPOINT Dust hotspot
+							connect ATTACHPOINT Dust hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual GenericDestruction
+               	  					connect FOREHEAD nobles2c hotspot
+							connect ATTACHPOINT Dust hotspot
+							connect ATTACHPOINT Dust hotspot
+							connect ATTACHPOINT Dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+			}
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual GenericDestruction
+               	  					connect FOREHEAD nobles3a hotspot
+							connect ATTACHPOINT Dust hotspot
+							connect ATTACHPOINT Dust hotspot
+							connect ATTACHPOINT Dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual GenericDestruction
+               	  					connect FOREHEAD nobles3b hotspot
+							connect ATTACHPOINT Dust hotspot
+							connect ATTACHPOINT Dust hotspot
+							connect ATTACHPOINT Dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual GenericDestruction
+               	  					connect FOREHEAD nobles3c hotspot
+							connect ATTACHPOINT Dust hotspot
+							connect ATTACHPOINT Dust hotspot
+							connect ATTACHPOINT Dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+			}
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual GenericDestruction
+               	  					connect FOREHEAD nobles4a hotspot
+							connect ATTACHPOINT Dust hotspot
+							connect ATTACHPOINT Dust hotspot
+							connect ATTACHPOINT Dust hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual GenericDestruction
+               	  					connect FOREHEAD nobles4b hotspot
+							connect ATTACHPOINT Dust hotspot
+							connect ATTACHPOINT Dust hotspot
+							connect ATTACHPOINT Dust hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual GenericDestruction
+               	  					connect FOREHEAD nobles4c hotspot
+							connect ATTACHPOINT Dust hotspot
+							connect ATTACHPOINT Dust hotspot
+							connect ATTACHPOINT Dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+			}
+			//===== House Archers
+
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual GenericDestruction
+               	  					connect FOREHEAD nobles4a hotspot
+							connect ATTACHPOINT Dust hotspot
+							connect ATTACHPOINT Dust hotspot
+							connect ATTACHPOINT Dust hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual GenericDestruction
+               	  					connect FOREHEAD nobles4b hotspot
+							connect ATTACHPOINT Dust hotspot
+							connect ATTACHPOINT Dust hotspot
+							connect ATTACHPOINT Dust hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual GenericDestruction
+               	  					connect FOREHEAD nobles4c hotspot
+							connect ATTACHPOINT Dust hotspot
+							connect ATTACHPOINT Dust hotspot
+							connect ATTACHPOINT Dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+			}
+      }
+}

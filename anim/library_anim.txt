@@ -1,0 +1,547 @@
+//==============================================================================
+// University_anim.txt
+//==============================================================================
+
+import Construction_defines_anim.txt
+
+//==============================================================================
+define empower
+{
+	SetSelector
+	{
+		EmpowerLogic
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visualnone Jimmy
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visualparticle SFX E Pharaoh Empower Large
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+define Dust
+{
+	set hotspot
+	{
+		version
+		{
+			Visualparticle SFX A Building DustA
+		}
+	}  
+}
+//==============================================================================
+define VINEA
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Building VineA
+		}
+	}  
+}
+
+//==============================================================================
+define VINEB
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Building VineB
+		}
+	}  
+}
+
+//==============================================================================
+define CypressA
+{
+	set hotspot
+	{
+		version
+		{
+			visual terrain g cypressA
+		}
+	}
+}
+
+//==============================================================================
+define CypressB
+{
+	set hotspot
+	{
+		version
+		{
+			visual terrain g cypressB
+		}
+	}
+}
+
+//==============================================================================
+anim idle
+{
+	SetSelector
+	{
+		CultureLogic Egyptian/Greek/Norse/Atlantean/Chinese
+//---------------------------------Atlantean---------------------------------------//
+		 //---------------------------Age 3--------------------------------//	 
+		SetSelector
+		{
+			TechLogic age 2/age 3/age 4
+			setSelector
+			{
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building X University Age3
+						connect ATTACHPOINT empower hotspot
+						connect righthand Cypressb hotspot
+						connect lefthand Cypressb hotspot
+						connect rightshoulder CypressA hotspot
+						connect leftshoulder CypressA hotspot
+						connect leftthigh CypressA hotspot
+						connect rightthigh CypressA hotspot
+
+				ReplaceTexture Building X Roof Age0/Building Lib Roof Age0
+				ReplaceTexture Building X Roof Age1/Building Lib Roof Age1
+				ReplaceTexture Building X Roof Age2/Building Lib Roof Age2
+				ReplaceTexture Building X Roof Age3/Building Lib Roof Age3
+				ReplaceTexture Building X Temple Age0/Building Lib Temple Age0
+				ReplaceTexture Building X Temple Age1/Building Lib Temple Age1
+				ReplaceTexture Building X Temple Age2/Building Lib Temple Age2
+				ReplaceTexture Building X Temple Age3/Building Lib Temple Age3
+				ReplaceTexture Building X Wall Age2/Building Lib Wall Age2
+				ReplaceTexture Building X Wall Age3/Building Lib Wall Age3
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Large A
+				  		connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+						connect ATTACHPOINT empower hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Large B
+				  		connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+						connect ATTACHPOINT empower hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building E ConstructionTempleAge1
+				  		connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+						connect ATTACHPOINT empower hotspot
+					}
+				}
+			}
+			setSelector
+			{
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building X University Age3
+						connect ATTACHPOINT empower hotspot
+						connect righthand Cypressb hotspot
+						connect lefthand Cypressb hotspot
+						connect rightshoulder CypressA hotspot
+						connect leftshoulder CypressA hotspot
+						connect leftthigh CypressA hotspot
+						connect rightthigh CypressA hotspot
+				ReplaceTexture Building X Roof Age0/Building Lib Roof Age0
+				ReplaceTexture Building X Roof Age1/Building Lib Roof Age1
+				ReplaceTexture Building X Roof Age2/Building Lib Roof Age2
+				ReplaceTexture Building X Roof Age3/Building Lib Roof Age3
+				ReplaceTexture Building X Temple Age0/Building Lib Temple Age0
+				ReplaceTexture Building X Temple Age1/Building Lib Temple Age1
+				ReplaceTexture Building X Temple Age2/Building Lib Temple Age2
+				ReplaceTexture Building X Temple Age3/Building Lib Temple Age3
+				ReplaceTexture Building X Wall Age2/Building Lib Wall Age2
+				ReplaceTexture Building X Wall Age3/Building Lib Wall Age3
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Large A
+				  		connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+						connect ATTACHPOINT empower hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Large B
+				  		connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+						connect ATTACHPOINT empower hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building E ConstructionTempleAge1
+				  		connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+						connect ATTACHPOINT empower hotspot
+					}
+				}
+			}
+		 //---------------------------Age 4--------------------------------//
+			setSelector
+			{
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building X University Age4
+						connect ATTACHPOINT empower hotspot
+						connect righthand Cypressb hotspot
+						connect lefthand Cypressb hotspot
+						connect rightshoulder CypressA hotspot
+						connect leftshoulder CypressA hotspot
+						connect leftthigh CypressA hotspot
+				ReplaceTexture Building X Roof Age0/Building Lib Roof Age0
+				ReplaceTexture Building X Roof Age1/Building Lib Roof Age1
+				ReplaceTexture Building X Roof Age2/Building Lib Roof Age2
+				ReplaceTexture Building X Roof Age3/Building Lib Roof Age3
+				ReplaceTexture Building X Temple Age0/Building Lib Temple Age0
+				ReplaceTexture Building X Temple Age1/Building Lib Temple Age1
+				ReplaceTexture Building X Temple Age2/Building Lib Temple Age2
+				ReplaceTexture Building X Temple Age3/Building Lib Temple Age3
+				ReplaceTexture Building X Wall Age2/Building Lib Wall Age2
+				ReplaceTexture Building X Wall Age3/Building Lib Wall Age3
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Large A
+				  		connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+						connect ATTACHPOINT empower hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Large B
+				  		connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+						connect ATTACHPOINT empower hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Specialist
+				  		connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+						connect ATTACHPOINT empower hotspot
+					}
+				}
+			}
+		}
+	}
+	}
+}
+
+//==============================================================================
+anim Death
+{
+	SetSelector
+	{
+		CultureLogic Egyptian/Greek/Norse/Atlantean/Chinese
+//---------------------------------Atlantean---------------------------------------//
+		SetSelector
+		{
+		 //---------------------------Age 3--------------------------------//	 
+			TechLogic age 2/age 3/age 4
+			setSelector
+			{
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building X University Age3_Death
+							connect FACE bush hotspot
+							connect Smoke0 Dust hotspot
+							connect Smoke1 Dust hotspot
+							connect Smoke2 Dust hotspot
+							connect Smoke3 Dust hotspot
+							connect Smoke4 Dust hotspot
+							connect Smoke5 Dust hotspot
+				ReplaceTexture Building X Roof Age0/Building Lib Roof Age0
+				ReplaceTexture Building X Roof Age1/Building Lib Roof Age1
+				ReplaceTexture Building X Roof Age2/Building Lib Roof Age2
+				ReplaceTexture Building X Roof Age3/Building Lib Roof Age3
+				ReplaceTexture Building X Temple Age0/Building Lib Temple Age0
+				ReplaceTexture Building X Temple Age1/Building Lib Temple Age1
+				ReplaceTexture Building X Temple Age2/Building Lib Temple Age2
+				ReplaceTexture Building X Temple Age3/Building Lib Temple Age3
+				ReplaceTexture Building X Wall Age2/Building Lib Wall Age2
+				ReplaceTexture Building X Wall Age3/Building Lib Wall Age3
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Large A
+				  		connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+						connect ATTACHPOINT empower hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Large B
+				  	connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+						connect ATTACHPOINT empower hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building E ConstructionTempleAge1
+				  		connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+						connect ATTACHPOINT empower hotspot
+					}
+				}
+			}
+			setSelector
+			{
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building X University Age3_Death
+							connect FACE bush hotspot
+							connect Smoke0 Dust hotspot
+							connect Smoke1 Dust hotspot
+							connect Smoke2 Dust hotspot
+							connect Smoke3 Dust hotspot
+							connect Smoke4 Dust hotspot
+							connect Smoke5 Dust hotspot
+				ReplaceTexture Building X Roof Age0/Building Lib Roof Age0
+				ReplaceTexture Building X Roof Age1/Building Lib Roof Age1
+				ReplaceTexture Building X Roof Age2/Building Lib Roof Age2
+				ReplaceTexture Building X Roof Age3/Building Lib Roof Age3
+				ReplaceTexture Building X Temple Age0/Building Lib Temple Age0
+				ReplaceTexture Building X Temple Age1/Building Lib Temple Age1
+				ReplaceTexture Building X Temple Age2/Building Lib Temple Age2
+				ReplaceTexture Building X Temple Age3/Building Lib Temple Age3
+				ReplaceTexture Building X Wall Age2/Building Lib Wall Age2
+				ReplaceTexture Building X Wall Age3/Building Lib Wall Age3
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Large A
+				  		connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+						connect ATTACHPOINT empower hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Large B
+				  	connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+						connect ATTACHPOINT empower hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building E ConstructionTempleAge1
+				  		connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+						connect ATTACHPOINT empower hotspot
+					}
+				}
+			}
+		 //---------------------------Age 4--------------------------------//
+			setSelector
+			{
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building X University Age4_Death
+							connect FACE bush hotspot
+							connect Smoke0 Dust hotspot
+							connect Smoke1 Dust hotspot
+							connect Smoke2 Dust hotspot
+							connect Smoke3 Dust hotspot
+							connect Smoke4 Dust hotspot
+							connect Smoke5 Dust hotspot
+				ReplaceTexture Building X Roof Age0/Building Lib Roof Age0
+				ReplaceTexture Building X Roof Age1/Building Lib Roof Age1
+				ReplaceTexture Building X Roof Age2/Building Lib Roof Age2
+				ReplaceTexture Building X Roof Age3/Building Lib Roof Age3
+				ReplaceTexture Building X Temple Age0/Building Lib Temple Age0
+				ReplaceTexture Building X Temple Age1/Building Lib Temple Age1
+				ReplaceTexture Building X Temple Age2/Building Lib Temple Age2
+				ReplaceTexture Building X Temple Age3/Building Lib Temple Age3
+				ReplaceTexture Building X Wall Age2/Building Lib Wall Age2
+				ReplaceTexture Building X Wall Age3/Building Lib Wall Age3
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Large A
+				  		connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+						connect ATTACHPOINT empower hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Large B
+				  		connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+						connect ATTACHPOINT empower hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Specialist
+				  		connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+						connect ATTACHPOINT empower hotspot
+					}
+				}
+			}
+		}
+	}
+}
+

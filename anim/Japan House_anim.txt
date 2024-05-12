@@ -1,0 +1,36 @@
+//==============================================================================
+// bush_anim.txt
+//==============================================================================
+
+
+//==============================================================================
+anim None
+{
+	SetSelector none 
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual JapanHouseA
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual JapanHouseB
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual JapanHouseC
+			}
+		}
+	}
+}
+
+

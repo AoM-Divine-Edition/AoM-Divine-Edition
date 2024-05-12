@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<layout >
+	<gadget name="launch-screen" type="gadget" size1024="0 0 1024 768" windowzstyle="">
+		<gadget name="launch-information-Background" type="gadget" size1024="250 65 780 699" background="ui\ui background opaque 1" backgroundalpha=".9" tilebackground="" z="5">
+			<gadget z="10" tilebackgroundhoriz="" name="launch-BordersTop" type="gadget" background="ui\ui border top middle" clampBackgroundV = "" size1024="251 58 768 90"></gadget>
+			<gadget z="10" tilebackgroundhoriz="" name="launch-BordersBottom" type="gadget" background="ui\ui border bottom middle" clampBackgroundV = "" size1024="251 679 768 711"></gadget>
+			<gadget z="10" tilebackgroundvert="" name="launch-BordersLeft" type="gadget" background="ui\ui border left middle" clampBackgroundU = "" size1024="229 110 293 659"></gadget>
+			<gadget z="10" tilebackgroundvert="" name="Launch-BordersRight" type="gadget" background="ui\ui border right middle" clampBackgroundU = "" size1024="747 110 811 659"></gadget>
+			<gadget z="11" name="launch-BordersLeftTop" type="gadget" background="ui\ui border top left corner" clampBackgroundV = "" size1024="229 58 293 186"></gadget>
+			<gadget z="11" name="launch-BordersLeftBottom" type="gadget" background="ui\ui border bottom left corner" clampBackgroundV = "" size1024="229 583 293 711"></gadget>
+			<gadget z="11" name="launch-BordersRightBottom" type="gadget" background="ui\ui border bottom right corner" clampBackgroundV = "" size1024="747 583 811 711"></gadget>
+			<gadget name="launch-BordersRightTop" type="gadget" background="ui\ui border top right corner" clampBackgroundV = "" size1024="747 58 811 186" z="11"></gadget>
+			<gadget background="ui\ui map ghost lake 256x256" size1024="392 77 648 333" name="launch-MapPreviewArea" type="gadget" backgroundcolor="255 255 255" z="11"></gadget>
+			<gadget name="launch-MapDisplay-Border" type="gadget" size1024="392 77 648 333" transparent="" z="12" background="ui\ui map boarder template 256x256"></gadget>
+			<gadget name="Launch-MapName" textcenterhoriz="" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="392 324 648 361" z="11">Ghost Lake</gadget>
+			<gadget name="launch-PlayerContainer" type="formatText" size1024="262 390 769 648" sunkenbevel="" textfont="SPLoadingScreenText" textfontsize="14" textcolor="255 255 255" z="11" textmarkup=""></gadget>
+			<gadget name="launch-ScreenSeparator2" type="gadget" size1024="264 385 774 386" background="ui\ui line yellow" z="11"></gadget>
+			<gadget name="launch-ScreenSeparator3" type="gadget" size1024="264 653 774 654" background="ui\ui line yellow" z="11"></gadget>
+		</gadget>
+		<gadget name="launch-screen-background" type="gadget" z="1">
+			<gadget name=" launch-screen-BG1" type="gadget" size1024="0 0 256 256" clampbackground="" background="ui\screen shot a_01"></gadget>
+			<gadget name="launch-screen-BG2" background="ui\screen shot a_02" type="gadget" size1024="256 0 512 256" clampbackground=""></gadget>
+			<gadget name="launch-screen-BG3" background="ui\screen shot a_03" type="gadget" size1024="512 0 768 256" clampbackground=""></gadget>
+			<gadget name="launch-screen-BG4" background="ui\screen shot a_04" type="gadget" size1024="768 0 1024 256" clampbackground=""></gadget>
+			<gadget name="launch-screen-BG5" background="ui\screen shot a_05" type="gadget" size1024="0 256 256 512" clampbackground=""></gadget>
+			<gadget name="launch-screen-BG6" background="ui\screen shot a_06" type="gadget" size1024="256 256 512 512" clampbackground=""></gadget>
+			<gadget name="launch-screen-BG7" background="ui\screen shot a_07" type="gadget" size1024="512 256 768 512" clampbackground=""></gadget>
+			<gadget name="launch-screen-BG8" background="ui\screen shot a_08" type="gadget" size1024="768 256 1024 512" clampbackground=""></gadget>
+			<gadget name="launch-screen-BG9" background="ui\screen shot a_09" type="gadget" size1024="0 512 256 768" clampbackground=""></gadget>
+			<gadget name="launch-screen-BG10" background="ui\screen shot a_10" type="gadget" size1024="256 512 512 768" clampbackground=""></gadget>
+			<gadget name="launch-screen-BG11" background="ui\screen shot a_11" type="gadget" size1024="512 512 768 768" clampbackground=""></gadget>
+			<gadget name="launch-screen-BG12" background="ui\screen shot a_12" type="gadget" size1024="768 512 1024 768" clampbackground=""></gadget>
+		</gadget>
+	</gadget>
+</layout>

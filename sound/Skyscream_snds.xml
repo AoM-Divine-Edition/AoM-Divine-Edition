@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<protounitsounddef>
+	<protounit name="Skyscream">
+		<soundtype name="Exists">
+			<soundset name="Heavenscream"></soundset>
+		</soundtype>
+		<soundtype name="Select">
+			<soundset name="pigdeath"></soundset>
+		</soundtype>
+		<soundtype name="Creation">
+			<soundset name="lightningstrike4"></soundset>
+		</soundtype>
+		<soundtype name="Hit">
+			<damagetypelogic>
+				<choice name ="Hack">
+					<soundset name ="MetalSlice"></soundset>
+				</choice>
+				<choice name ="Slash">
+					<soundset name ="MetalSlice"></soundset>
+				</choice>
+				<choice name ="Pierce">
+					<soundset name ="PierceFlesh"></soundset>
+				</choice>
+				<choice name ="Crush">
+					<soundset name ="CrushFlesh"></soundset>
+				</choice>
+			</damagetypelogic>
+		</soundtype>
+	</protounit>
+</protounitsounddef>

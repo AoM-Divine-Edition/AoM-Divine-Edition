@@ -1,0 +1,359 @@
+//==============================================================================
+// Farm Plot_anim.txt
+//==============================================================================
+
+//==============================================================================
+define Dust
+{
+	set hotspot
+	{
+		version
+		{
+			Visualparticle SFX A Building DustA
+		}
+	}  
+}
+//==============================================================================
+define nobles1
+{
+   set hotspot
+   {
+      version
+      {
+         		Visual AztecStoreHouseNew
+				ReplaceTexture AztecTownCenter/AztecTownCenterG
+      }
+   }
+}
+//==============================================================================
+define nobles2
+{
+   set hotspot
+   {
+      version
+      {
+         		Visual AztecStoreHouseNew
+				ReplaceTexture AztecTownCenter/AztecTownCenterG2
+      }
+   }
+}
+//==============================================================================
+define nobles3
+{
+   set hotspot
+   {
+      version
+      {
+         		Visual AztecStoreHouseNew
+				ReplaceTexture AztecTownCenter/AztecTownCenterG3
+      }
+   }
+}
+//==============================================================================
+define nobles4
+{
+   set hotspot
+   {
+      version
+      {
+         		Visual AztecStoreHouseNew
+				ReplaceTexture AztecTownCenter/AztecTownCenterx4
+      }
+   }
+}
+
+//==============================================================================
+anim Idle
+{
+    SetSelector
+     {
+	 TechLogic none/age 2/age 3/age 4
+
+	SetSelector
+	{
+                ConstructionLogic 0 33 66
+		set hotspot
+		{
+			version
+			{
+				Visual AztecStoreHouseNew
+				ReplaceTexture AztecTownCenter/AztecTownCenterG
+			}
+		}
+      set hotspot
+      {
+         version
+         {
+				Visual Building Construction3x3 A
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				Visual Building Construction3x3 A
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				Visual Building Construction3x3 A
+         }
+      }
+   }
+   SetSelector
+	{
+                ConstructionLogic 0 33 66
+		set hotspot
+		{
+			version
+			{
+				Visual AztecStoreHouseNew
+				ReplaceTexture AztecTownCenter/AztecTownCenterG2
+			}
+		}
+      set hotspot
+      {
+         version
+         {
+				Visual Building Construction3x3 A
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				Visual Building Construction3x3 A
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				Visual Building Construction3x3 A
+         }
+      }
+   }	
+	SetSelector
+	{
+                ConstructionLogic 0 33 66
+		set hotspot
+		{
+			version
+			{
+				Visual AztecStoreHouseNew
+				ReplaceTexture AztecTownCenter/AztecTownCenterG3
+			}
+		}
+      set hotspot
+      {
+         version
+         {
+				Visual Building Construction3x3 A
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				Visual Building Construction3x3 A
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				Visual Building Construction3x3 A
+         }
+      }
+   }	
+	SetSelector
+	{
+                ConstructionLogic 0 33 66
+		set hotspot
+		{
+			version
+			{
+				Visual AztecStoreHouseNew
+				ReplaceTexture AztecTownCenter/AztecTownCenterx4
+			}
+		}
+      set hotspot
+      {
+         version
+         {
+				Visual Building Construction3x3 A
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				Visual Building Construction3x3 A
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				Visual Building Construction3x3 A
+         }
+      }
+   }
+ }		
+}
+
+//==============================================================================
+anim Death
+{
+    SetSelector
+     {
+	 TechLogic none/age 2/age 3/age 4
+
+	SetSelector
+	{
+                ConstructionLogic 0 33 66
+		set hotspot
+		{
+			version
+			{
+				Visual GenericDestruction
+               	  			connect FOREHEAD nobles1 hotspot
+					connect ATTACHPOINT Dust hotspot
+					connect ATTACHPOINT Dust hotspot
+					connect ATTACHPOINT Dust hotspot
+			}
+		}
+      set hotspot
+      {
+         version
+         {
+				Visual Building Construction3x3 A
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				Visual Building Construction3x3 A
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				Visual Building Construction3x3 A
+         }
+      }
+   }
+   SetSelector
+	{
+                ConstructionLogic 0 33 66
+		set hotspot
+		{
+			version
+			{
+				Visual GenericDestruction
+               	  			connect FOREHEAD nobles2 hotspot
+					connect ATTACHPOINT Dust hotspot
+					connect ATTACHPOINT Dust hotspot
+					connect ATTACHPOINT Dust hotspot
+			}
+		}
+      set hotspot
+      {
+         version
+         {
+				Visual Building Construction3x3 A
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				Visual Building Construction3x3 A
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				Visual Building Construction3x3 A
+         }
+      }
+   }	
+	SetSelector
+	{
+                ConstructionLogic 0 33 66
+		set hotspot
+		{
+			version
+			{
+				Visual GenericDestruction
+               	  			connect FOREHEAD nobles3 hotspot
+					connect ATTACHPOINT Dust hotspot
+					connect ATTACHPOINT Dust hotspot
+					connect ATTACHPOINT Dust hotspot
+			}
+		}
+      set hotspot
+      {
+         version
+         {
+				Visual Building Construction3x3 A
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				Visual Building Construction3x3 A
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				Visual Building Construction3x3 A
+         }
+      }
+   }	
+	SetSelector
+	{
+                ConstructionLogic 0 33 66
+		set hotspot
+		{
+			version
+			{
+				Visual GenericDestruction
+               	  			connect FOREHEAD nobles4 hotspot
+					connect ATTACHPOINT Dust hotspot
+					connect ATTACHPOINT Dust hotspot
+					connect ATTACHPOINT Dust hotspot
+			}
+		}
+      set hotspot
+      {
+         version
+         {
+				Visual Building Construction3x3 A
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				Visual Building Construction3x3 A
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				Visual Building Construction3x3 A
+         }
+      }
+   }
+ }		
+}

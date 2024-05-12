@@ -1,0 +1,50 @@
+//==============================================================================
+// Roadsanim.txt
+//==============================================================================
+
+
+//==============================================================================
+anim None
+{
+	SetSelector none 
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				VisualNone World A Road Straight
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				VisualNone World A Road T Section
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				VisualNone World A Road 4 Intersection
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				VisualNone World A Road Corner
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				VisualNone World A Road End
+			}
+		}
+	}
+}
+
+

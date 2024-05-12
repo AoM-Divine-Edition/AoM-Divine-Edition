@@ -1,0 +1,99 @@
+//==============================================================================
+define EgyptianCamelryShield
+{
+	SetSelector
+	{
+		TechLogic none/Copper shields/Bronze shields/Iron shields
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					visualnone jimmy
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Camelry/Champion Camelry
+			set hotspot
+			{
+				version
+				{
+					visual Attachments E Shield Small Copper
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Attachments E Shield Small Bronze
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Attachments E Shield Small Iron
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Camelry/Champion Camelry
+			set hotspot
+			{
+				version
+				{
+					visual Attachments E Shield Small Copper
+					ReplaceTexture Attachments E Shield Copper/Attachments E Shield Bronze
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Attachments E Shield Small Bronze
+					ReplaceTexture Attachments E Shield Copper/Attachments E Shield Bronze
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Attachments E Shield Small Iron
+					ReplaceTexture Attachments E Shield Copper/Attachments E Shield Bronze
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Camelry/Champion Camelry
+			set hotspot
+			{
+				version
+				{
+					visual Attachments E Shield Small Copper
+					ReplaceTexture Attachments E Shield Copper/Attachments E Shield Iron
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Attachments E Shield Small Bronze
+					ReplaceTexture Attachments E Shield Copper/Attachments E Shield Iron
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Attachments E Shield Small Iron
+					ReplaceTexture Attachments E Shield Copper/Attachments E Shield Iron
+				}
+			}
+		}
+	}
+}

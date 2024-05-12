@@ -1,0 +1,129 @@
+//==============================================================================
+// Greek Trident defines_anim.txt
+//==============================================================================
+
+//==============================================================================
+define Panic
+{
+	SetSelector
+	{
+		set hotspot
+		{
+			version
+			{
+				Visualparticle SFX G Phobos Spear
+			}
+		}
+	}
+}
+
+//==============================================================================
+define Flame
+{
+	SetSelector
+	{
+		TechLogic none/Flaming Weapons Active
+		set hotspot
+		{
+			version
+			{
+				Visualnone jimmy
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visualparticle SFX A Flaming Spear
+			}
+		}
+	}
+}
+
+//==============================================================================
+define Trident
+{
+	SetSelector
+	{
+		TechLogic none/Phobos Spear of Panic
+		SetSelector
+		{
+			TechLogic none/Copper Weapons/Bronze Weapons/Iron Weapons
+			set hotspot
+			{
+				version
+				{
+					Visual Attachments G Trident Standard
+					connect Hotspot Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Attachments G Trident Standard
+					ReplaceTexture Attachments G Trident Standard/Attachments G Trident Copper
+					connect Hotspot Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Attachments G Trident Standard
+					ReplaceTexture Attachments G Trident Standard/Attachments G Trident Bronze
+					connect Hotspot Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Attachments G Trident Standard
+					ReplaceTexture Attachments G Trident Standard/Attachments G Trident Iron
+					connect Hotspot Flame hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Copper Weapons/Bronze Weapons/Iron Weapons
+			set hotspot
+			{
+				version
+				{
+					Visual Attachments A Spear Standard
+					connect Hotspot Panic hotspot
+					connect Hotspot Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Attachments A Spear Copper
+					connect Hotspot Panic hotspot
+					connect Hotspot Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Attachments A Spear Bronze
+					connect Hotspot Panic hotspot
+					connect Hotspot Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Attachments A Spear Iron
+					connect Hotspot Panic hotspot
+					connect Hotspot Flame hotspot
+				}
+			}
+		}
+	}
+}

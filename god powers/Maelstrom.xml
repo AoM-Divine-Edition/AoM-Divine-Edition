@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Maelstrom" type="tornado" techname="Maelstrom">
+	<builduptime soundset="TornadoBirth">0.1</builduptime>
+	<activetime>40.0</activetime>
+	<shutdowntime soundset="TornadoDeath">0.1</shutdowntime>
+	<minimapeventtime>40.0</minimapeventtime>
+	<rangeindicatorprotoid radius="18.0" indicatorcount="10" speed="0.2">UI Range Indicator aztec</rangeindicatorprotoid>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<placement forceonmap="1">full</placement>
+	<radius>10.0</radius>
+	<powerblocker>20.0f</powerblocker>
+	<gpdamagemodel>
+		<playerrelation>enemy</playerrelation>
+		<basedamagepercentunit>0.80</basedamagepercentunit>
+		<basedamagepercentvillager>0.30</basedamagepercentvillager>
+		<basedamagepercentbuilding>0.80</basedamagepercentbuilding>
+		<minhpdamageunit>450</minhpdamageunit>
+		<minhpdamagevillager>150</minhpdamagevillager>
+		<minhpdamagebuilding>500</minhpdamagebuilding>
+		<maxhpdamageunit>500</maxhpdamageunit>
+		<maxhpdamagevillager>150</maxhpdamagevillager>
+		<maxhpdamagebuilding>500</maxhpdamagebuilding>
+	</gpdamagemodel>
+	<gpdamagemodel>
+		<playerrelation>ally</playerrelation>
+		<basedamagepercentunit>0.80</basedamagepercentunit>
+		<basedamagepercentvillager>0.30</basedamagepercentvillager>
+		<basedamagepercentbuilding>0.80</basedamagepercentbuilding>
+		<minhpdamageunit>450</minhpdamageunit>
+		<minhpdamagevillager>150</minhpdamagevillager>
+		<minhpdamagebuilding>500</minhpdamagebuilding>
+		<maxhpdamageunit>500</maxhpdamageunit>
+		<maxhpdamagevillager>150</maxhpdamagevillager>
+		<maxhpdamagebuilding>500</maxhpdamagebuilding>
+	</gpdamagemodel>
+	<tornadosfx>Maelstrom3</tornadosfx>
+	<debris>Tornado Debris</debris>
+	<damagetype>LogicalTypeTornadoAttack</damagetype>
+	<scantime>0.5</scantime>
+	<attackgaiaaccuracy>0.5</attackgaiaaccuracy>
+	<minthrowdistance>9.0</minthrowdistance>
+	<maxthrowdistance>15.0</maxthrowdistance>
+	<minthrowheight>14.0</minthrowheight>
+	<maxthrowheight>15.0</maxthrowheight>
+	<minthrowvelocity>10.0</minthrowvelocity>
+	<maxthrowvelocity>20.0</maxthrowvelocity>
+	<dontthrow>Building</dontthrow>
+	<dontthrow>Wood</dontthrow>
+	<dontthrow>Gold</dontthrow>
+	<dontthrow>Fish</dontthrow>
+	<cantsuck>AbstractSettlement</cantsuck>
+	<cantsuck>Farm</cantsuck>
+	<cantsuck>Building</cantsuck>
+	<cantsuck>Gold</cantsuck>
+	<cantsuck>Wave</cantsuck>
+	<numberobjsperbuilding>3</numberobjsperbuilding>
+	<xzvelocity>6.5</xzvelocity>
+	<yvelocity>3.0</yvelocity>
+	<funnelradius>4.5</funnelradius>
+	<funnelheight>7.0</funnelheight>
+	<angularvelocity>3.14</angularvelocity>
+	<funnelspeed>3.5</funnelspeed>
+	<icon>maelstromIcon</icon>
+	<usedicon>maelstromIcon</usedicon>
+</power>

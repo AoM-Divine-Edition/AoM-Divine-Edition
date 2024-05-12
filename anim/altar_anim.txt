@@ -1,0 +1,197 @@
+//==============================================================================
+// obelisk_anim.txt
+//==============================================================================
+
+//==============================================================================
+define Light
+{
+   set hotspot
+   {
+      version
+      {
+         VisualParticle Building SFX Outpost Light
+      }
+   }  
+}
+
+//==============================================================================
+define buildGlow
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A God Power Summon Sunlight
+      }
+   }
+}
+
+//==============================================================================
+define GroundGlow
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A God Power Summon GroundGlow
+      }
+   }
+}
+//==============================================================================
+define Dust
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Building DustA
+      }
+   }  
+}
+
+//==============================================================================
+define fire
+{
+   set hotspot
+   {
+      version
+      {
+         VisualParticle SFX a generic Fire small
+      }
+   }
+}
+
+//==============================================================================
+define firemed
+{
+   set hotspot
+   {
+      version
+      {
+         VisualParticle SFX a generic Fire medium
+      }
+   }
+}
+
+//==============================================================================
+define smoke
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Generic Smoke Small
+      }
+   }
+}
+
+
+//==============================================================================
+anim idle
+{
+   SetSelector
+   {
+		ConstructionLogic 0 33 95
+		set hotspot
+		{
+			//version
+			//{
+			//	Visual Building E Outpost
+			//	connect Neck Light hotspot
+			//}
+
+         version
+         {
+		Visual TC firepit B_idle
+		connect attachpoint fire hotspot
+		connect attachpoint smoke hotspot
+         }
+
+
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Building E Outpost foundation
+				connect hotspot buildGlow hotspot
+				connect hotspot groundGlow hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Building E Outpost foundation
+				connect hotspot buildGlow hotspot
+				connect hotspot groundGlow hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Building E Outpost foundation
+				connect hotspot buildGlow hotspot
+				connect hotspot groundGlow hotspot
+			}
+		}
+   }
+}
+
+
+//==============================================================================
+anim Death
+{
+   SetSelector
+   {
+		ConstructionLogic 0 33 95
+		set hotspot
+		{
+			//version
+			//{
+               //Visual Building E Outpost_Death
+               //connect Smoke0 Dust hotspot
+			//}
+
+
+
+			version
+			{
+				Visual TC firepit B_death
+				connect attachpoint smoke hotspot
+			}
+
+
+
+
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Building E Outpost foundation
+				connect hotspot buildGlow hotspot
+				connect hotspot groundGlow hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Building E Outpost foundation
+				connect hotspot buildGlow hotspot
+				connect hotspot groundGlow hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Building E Outpost foundation
+				connect hotspot buildGlow hotspot
+				connect hotspot groundGlow hotspot
+			}
+		}
+   }
+}

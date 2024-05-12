@@ -1,0 +1,17 @@
+// Ixion Spear_anim.txt
+// By Cannibalh
+
+//==============================================================================
+define IxionSpear
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+            Visual IxionSpear
+         }
+      }         
+   }
+}

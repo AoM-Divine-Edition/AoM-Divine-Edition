@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="SoulRune" type="animalmagnet" techname="Soul Rune">
+	<placement forceonmap="1" losprotounit="Soul Rune">full</placement>
+	<placementprotounitid>Soul Rune</placementprotounitid>
+	<activetime>-1</activetime>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="ExistSound" listenertype="IfOnScreenAll" playdelay="20.0" positional="">AnimalMagnet</soundset>
+	<attractor>Soul Rune</attractor>
+	<minrange>5.0</minrange>
+	<maxrange>150.0</maxrange>
+	<attractrate>24.0</attractrate>
+	<variance>0.15</variance>
+	<maxfood>100000000000000000000.0</maxfood>
+	<attractiondistancetocountagainstfoodcap>40.0f</attractiondistancetocountagainstfoodcap>
+	<attracttype>Soul Light Wild</attracttype>
+	<minimapeventtime sendalertto="ally">10.0</minimapeventtime>
+	<icon>god power animal magnet icon</icon>
+	<usedicon>god power animal magnet icon done</usedicon>
+	<recharges>9999999</recharges>
+	<rechargetime>120</rechargetime>
+</power>

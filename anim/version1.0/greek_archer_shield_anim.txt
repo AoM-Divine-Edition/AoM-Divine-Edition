@@ -1,0 +1,101 @@
+//==============================================================================
+define GreekArcherShield
+{
+	SetSelector
+	{
+		TechLogic none/Copper shields/Bronze shields/Iron shields
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					visualnone jimmy
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic Medium Archers/Heavy Archers/Champion Archers
+			set hotspot
+			{
+				version
+				{
+					visual Attachments G Shield Small Copper
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Attachments G Shield Small Bronze
+					ReplaceTexture Attachments G Shield Copper/Attachments G Shield Copper
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Attachments G Shield Small Iron
+					ReplaceTexture Attachments G Shield Copper/Attachments G Shield Copper
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic Medium Archers/Heavy Archers/Champion Archers
+			set hotspot
+			{
+				version
+				{
+					visual Attachments G Shield Small Copper
+					ReplaceTexture Attachments G Shield Copper/Attachments G Shield Bronze
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Attachments G Shield Small Bronze
+					ReplaceTexture Attachments G Shield Copper/Attachments G Shield Bronze
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Attachments G Shield Small Iron
+					ReplaceTexture Attachments G Shield Copper/Attachments G Shield Bronze
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic Medium Archers/Heavy Archers/Champion Archers
+			set hotspot
+			{
+				version
+				{
+					visual Attachments G Shield Small Copper
+					ReplaceTexture Attachments G Shield Copper/Attachments G Shield Iron
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Attachments G Shield Small Bronze
+					ReplaceTexture Attachments G Shield Copper/Attachments G Shield Iron
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Attachments G Shield Small Iron
+					ReplaceTexture Attachments G Shield Copper/Attachments G Shield Iron
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<power name="Incaendium" type="tempunit" techname="Incaendium">
+	<activetime>20</activetime>
+	<placement forceonmap="1" matchtype="Settlement Level 1" ally="">unit</placement>
+	<powerplayerrelation>ally</powerplayerrelation>
+	<minimapeventtime sendalertto="ally">10.0</minimapeventtime>
+	<createunit quantity="5" minradius="7" maxradius="25" pattern="random" norotate="" delay="0.0">Incaendium Flame</createunit>
+	<createunit quantity="5" minradius="7" maxradius="25" pattern="random" norotate="" delay="2.0">Incaendium Flame</createunit>
+	<createunit quantity="5" minradius="7" maxradius="25" pattern="random" norotate="" delay="4.0">Incaendium Flame</createunit>
+	<createunit quantity="5" minradius="7" maxradius="25" pattern="random" norotate="" delay="6.0">Incaendium Flame</createunit>
+	<createunit quantity="5" minradius="7" maxradius="25" pattern="random" norotate="" delay="8.0">Incaendium Flame</createunit>
+	<createunit quantity="5" minradius="7" maxradius="25" pattern="random" norotate="" delay="10.0">Incaendium Flame</createunit>
+	<createunit quantity="5" minradius="7" maxradius="25" pattern="random" norotate="" delay="12.0">Incaendium Flame</createunit>
+	<createunit quantity="5" minradius="7" maxradius="25" pattern="random" norotate="" delay="14.0">Incaendium Flame</createunit>
+	<createunit quantity="5" minradius="7" maxradius="25" pattern="random" norotate="" delay="16.0">Incaendium Flame</createunit>
+	<createunit quantity="5" minradius="7" maxradius="25" pattern="random" norotate="" delay="18.0">Incaendium Flame</createunit>
+	<rangeindicatorprotoid radius="25.0" indicatorcount="8" speed="0.2">UI Range Indicator Atlantean SFX</rangeindicatorprotoid>
+
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAlly">SentinelBirth</soundset>
+	<icon>roman icon incaendium</icon>
+	<usedicon>roman icon incaendium used</usedicon>
+
+	<recharges>0</recharges>
+	<rechargetime>5 </rechargetime>
+</power>

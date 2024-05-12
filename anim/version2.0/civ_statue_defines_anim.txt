@@ -1,0 +1,393 @@
+//==============================================================================
+define ZeusStand
+{
+	set hotspot
+	{
+		version
+		{
+			Visual World G Zeus Stand
+		}
+	}
+}
+
+//==============================================================================
+define PoseidonStand
+{
+	set hotspot
+	{
+		version
+		{
+			Visual World G Poseidon Stand
+		}
+	}
+}
+
+//==============================================================================
+define HadesStand
+{
+	set hotspot
+	{
+		version
+		{
+			Visual World G Hades Stand
+		}
+	}
+}
+//==============================================================================
+define IsisStand
+{
+	set hotspot
+	{
+		version
+		{
+			Visual World E Isis Stand
+		}
+	}
+}
+
+//==============================================================================
+define SetStand
+{
+	set hotspot
+	{
+		version
+		{
+			Visual World E Set Stand
+		}
+	}
+}
+
+//==============================================================================
+define RaStand
+{
+	set hotspot
+	{
+		version
+		{
+			Visual World E Ra Stand
+		}
+	}
+}
+//==============================================================================
+define LokiStand
+{
+	set hotspot
+	{
+		version
+		{
+			Visual World N Loki Stand
+		}
+	}
+}
+
+//==============================================================================
+define OdinStand
+{
+	set hotspot
+	{
+		version
+		{
+			Visual World N Odin Stand
+		}
+	}
+}
+
+//==============================================================================
+define ThorStand
+{
+	set hotspot
+	{
+		version
+		{
+			Visual World N Thor Stand
+		}
+	}
+}
+//==============================================================================
+define GaiaStand
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Statue X Gaia Base
+		}
+	}
+}
+
+//==============================================================================
+define OranosStand
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Statue X Oranos Base 
+		}
+	}
+}
+
+//==============================================================================
+define KronosStand
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Statue X Kronos Base
+		}
+	}
+}
+
+//==============================================================================
+define FuxiStand
+{
+	set hotspot
+	{
+		version
+		{
+			Visual World C Statue Fuxi Stand
+		}
+	}
+}
+
+//==============================================================================
+define NuwaStand
+{
+	set hotspot
+	{
+		version
+		{
+			Visual World C Statue Nuwa Stand
+		}
+	}
+}
+
+//==============================================================================
+define ShennongStand
+{
+	set hotspot
+	{
+		version
+		{
+			Visual World C Statue Shennong Stand
+		}
+	}
+}
+
+//==============================================================================
+define Statue
+{
+	
+    TechLogic none/Aztec Civ/Eldritch Civ/Roman Civ/Demeter Triggered/Age 1 Aten/Age 1 Iapetus Real
+	SetSelector
+    {
+		CivilizationLogic isis/ra/set/hades/poseidon/zeus/loki/odin/thor/kronos/gaia/ouranos/fuxi/nuwa/shennong
+		Set Hotspot
+		{
+			version
+			{
+				Visual World E Statue Isis
+				connect hotspot IsisStand hotspot
+
+			}
+		}
+		Set Hotspot
+		{
+			version
+			{
+				Visual World E Statue Ra
+				connect hotspot RaStand hotspot
+			}
+		}
+		Set Hotspot
+		{
+			version
+			{
+				Visual World E Statue Set
+				connect hotspot SetStand hotspot
+			}
+		}
+		Set Hotspot
+		{
+			version
+			{
+				Visual World G Statue Hades
+				connect hotspot HadesStand hotspot
+			}
+		}
+		Set Hotspot
+		{
+			version
+			{
+				Visual World G Statue Poseidon
+				connect hotspot PoseidonStand hotspot
+			}
+		}
+		Set Hotspot
+		{
+			version
+			{
+				Visual World G Statue Zeus
+				connect hotspot ZeusStand hotspot
+			}
+		}
+		Set Hotspot
+		{
+			version
+			{
+				Visual World N Statue Loki
+				connect hotspot LokiStand hotspot
+			}
+		}
+		Set Hotspot
+		{
+			version
+			{
+				Visual World N Statue Odin
+				connect hotspot OdinStand hotspot
+			}
+		}
+		Set Hotspot
+		{
+			version
+			{
+				Visual World N Statue Thor
+				connect hotspot ThorStand hotspot
+			}
+		}
+		Set Hotspot
+		{
+			version
+			{
+				Visual Statue X Kronos
+				connect hotspot KronosStand hotspot
+			}
+		}
+		Set Hotspot
+		{
+			version
+			{
+				Visual Statue X Gaia
+				connect hotspot GaiaStand hotspot
+			}
+		}
+		Set Hotspot
+		{
+			version
+			{
+				Visual Statue X Oranos
+				connect hotspot OranosStand hotspot
+			}
+		}
+		Set Hotspot
+		{
+			version
+			{
+				Visual World C Statue Fuxi
+				connect hotspot FuxiStand hotspot
+			}
+		}
+		Set Hotspot
+		{
+			version
+			{
+				Visual World C Statue Nuwa
+				connect hotspot NuwaStand hotspot
+			}
+		}
+		Set Hotspot
+		{
+			version
+			{
+				Visual World C Statue Shennong
+				connect hotspot ShennongStand hotspot
+			}
+		}
+	}
+	SetSelector
+    {
+		CivilizationLogic fuxi/nuwa/shennong
+		Set Hotspot
+		{
+			version
+			{
+				Visual Aztec God StatueII
+			
+			}
+		}
+		Set Hotspot
+		{
+			version
+			{
+				Visual Aztec God Statue
+			}
+		}
+		Set Hotspot
+		{
+			version
+			{
+				Visual AztecGodStatueHuitzi
+			}
+		}
+	}
+	SetSelector
+	{
+		Set Hotspot
+		{
+			version
+			{
+				Visual world statue eldritch
+				connect hotspot KronosStand hotspot
+			}
+		}
+	}
+	SetSelector
+	{
+		Set Hotspot
+		{
+			version
+			{
+				Visual World Beta G Statue Misenus
+			}
+		}
+	}
+	SetSelector
+	{
+		Set Hotspot
+		{
+			version
+			{
+				Visual FountainStatue
+			}
+		}
+	}
+	SetSelector
+	{
+		Set Hotspot
+		{
+			version
+			{
+				Visual Building E Statue A
+			}
+		}
+
+	}
+
+	SetSelector
+	{
+		Set Hotspot
+		{
+			version
+			{
+				Visual world x statue
+				connect Hotspot KronosStand Hotspot
+			}
+		}
+
+	}
+	
+
+	
+	
+}

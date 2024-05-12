@@ -1,0 +1,95 @@
+//==============================================================================
+// Underworld Passage_anim.txt
+//==============================================================================
+
+
+//==============================================================================
+define fire
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Generic Fire Tiny
+      }
+   }
+}
+
+//==============================================================================
+define smoke
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Generic Smoke Tiny
+      }
+   }
+}
+
+//==============================================================================
+define firebowl
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Generic Fire Tiny Bowl
+      }
+   }
+}
+
+//==============================================================================
+define swirl
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle Galaxy SFX
+      }
+   }
+}
+
+
+
+//==============================================================================
+anim Idle
+{
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual building x signal tower
+					Connect face fire hotspot
+					Connect face firebowl hotspot
+					Connect face smoke hotspot
+Connect ATTACHPOINT swirl hotspot
+				}
+			}
+		}
+}
+
+//==============================================================================
+anim Birth
+{
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual building x signal tower
+					Connect face fire hotspot
+					Connect face firebowl hotspot
+					Connect face smoke hotspot
+Connect ATTACHPOINT swirl hotspot
+				}
+			}
+		}
+}
+
+
+

@@ -1,0 +1,228 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>AFC - Readme</title>
+    <style>
+        body
+        {
+            margin: 0 auto;
+            width: 990px;
+            background: #000000;
+            color: #dddddd;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+        }
+
+        a
+        {
+	        color: #5B9BD5;
+	        text-decoration: none;
+        }
+
+        a:hover
+        {
+	        color: #E6E6E6;
+        }
+
+        div#top
+        {
+            margin: 0 0 10px;
+            padding: 10px;
+            width: auto;
+            background: #000000;
+            border: 2px solid #292929;
+            border-top: none;
+            text-align: center;
+        }
+
+        div.readme-main
+        {
+            margin: 0 0 10px;
+            padding: 10px;
+            width: auto;
+            background: #000000;
+            border: 1px solid #292929;
+        }
+
+        div.red
+        {
+            margin: 0;
+            padding: 5px;
+            background: #900;
+            border: solid #c00;
+        }
+
+        div.yellow
+        {
+            margin: 0;
+            padding: 5px;
+            background: #c90;
+            border: solid #fc0;
+        }
+
+        h1
+        {
+            margin: 0;
+            padding: 0;
+	        color:#CC1B1B;
+            font-family: Georgia, "Times New Roman", Times, serif;
+        }
+
+        h2
+        {
+            margin: 0;
+	        color:#CC1B1B;
+            font-family: Georgia, "Times New Roman", Times, serif;
+            font-size: 1.4em;
+        }
+
+        h3
+        {
+            margin: 0;
+	        color:#CC1B1B;
+            font-family: Georgia, "Times New Roman", Times, serif;
+            font-size: 1.2em;
+        }
+
+        div.red + h2, h2 + div.yellow
+        {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="top">
+        <h1>AoM File Converter</h1>
+        version 1.4.0<br />
+        <p style="font-family: Georgia, 'Times New Roman', Times, serif;"><a href="https://petar.page/l/aom-afc-home">Application Website</a></p>
+    </div>
+    <div class="readme-main">
+        <h2>Contents</h2>
+        <ol>
+            <li><a href="#Reqs">Requirements</a></li>
+            <li><a href="#Inst">Installation</a></li>
+            <li><a href="#ApIn">Application Information</a></li>
+            <li><a href="#Usag">Usage</a></li>
+            <li><a href="#Supp">Support</a></li>
+            <li><a href="#Chan">Changelog</a></li>
+            <li><a href="#Cred">Credits</a></li>
+        </ol>
+    </div>
+    <div class="readme-main">
+        <h2><a id="Reqs"></a>Requirements</h2>
+        <ul>
+            <li>.NET 6.0 Runtime (x64 or x86 depending on your OS)</li>
+        </ul>
+        <h2><a id="Inst"></a>Installation</h2>
+        <p>To install, simply <em>EXTRACT</em> everything from the zip file to a desired location, and drag/drop any supported file on the <em>AoM File Converter.exe</em> file.</p>
+    </div>
+    <div class="readme-main">
+        <h2><a id="ApIn"></a>Application Information</h2>
+        <p>This application converts anim.txt, ddt, bti, cub, prt, mtrl, brg, xmb, scn, and scx files to user friendly formats for the Age of Mythology game.</p>
+        <h2><a id="Usag"></a>Usage</h2>
+        <p>Simply drag, and drop (or use Open With) an anim.txt, prt, xmb, or mtrl file on the EXE to convert it to an Xml file, or the other way around to convert it accordingly.</p>
+        <p>Drag an scn or scx file to either decompress it or compress it depending on its current state.</p>
+        <p>The output file will be in the same location as the input file, but with an added extension.</p>
+        <p>Drag a bar file to extract its contents to a new folder next to it. Drag a folder to create a new bar file next to the folder with the same name + ".bar" extension.</p>
+        <p>Drag a Brg file on the EXE to extract all of its Mtrl files into a materials folder in the same path as the brg file.</p>
+        <h3>Converting bti/cub to ddt</h3>
+        <p>
+            Texture files can be converted by dropping a bti or cub file on the application executable.
+            If a bti file is dropped, the app expects to find a tga/png file with the same name.
+            If a cub file is dropped, the app expects to find bti/tga/png files in the same folder as the cub with the names specified inside of the cub file.
+        </p>
+        <p>
+            The bti file must specify the number of alpha bits, and the format. For example: <span style="background-color:#474747">alpha=1 fmt=BC3</span>
+            Avoid using alpha higher than 1 unless you want the game to render partially transparent models which is computationally more expensive. The following formats are supported:
+        </p>
+        <dl>
+            <dt><strong>BC1, Alpha 0</strong></dt>
+            <dd>RBG 565 with no alpha. Colors use 4 element palette per 4x4 block.</dd>
+            <dt><strong>BC1, Alpha 1</strong></dt>
+            <dd>RBG 565 with alpha 1. Colors use 3 element palette per 4x4 block when the block has alpha, and 4 when it doesn't. Alpha is either on or off.</dd>
+            <dt><strong>BC2, Alpha 4</strong></dt>
+            <dd>RGB 565 with alpha 4. Colors use 4 element palette per 4x4 block. Alpha uses 16 element palette per 4x4 block. Alpha value is 4 bits (16 colors).</dd>
+            <dt><strong>BC3, Alpha 1</strong></dt>
+            <dd>RGB 565 with alpha 1. Colors use 4 element palette per 4x4 block. Use this when you want more accurate colors than BC1, Alpha 1 at the expense of doubling the file size.</dd>
+            <dt><strong>BC3, Alpha 8</strong></dt>
+            <dd>RGB 565 with alpha 8. Colors use 4 element palette per 4x4 block. Alpha uses 8 element palette per 4x4 block. Alpha value is 8 bits (256 colors). Typically prefer this over BC2.</dd>
+            <dt><strong>DeflatedRGB8, Alpha 0</strong></dt>
+            <dd>RGB 888 with no alpha. Each pixel's color components are 8 bits (256 colors). Image compressed with Deflate compression algorithm. Serves as a higher quality version of BC1 alpha 0.</dd>
+            <dt><strong>DeflatedRGBA8, Alpha 0</strong></dt>
+            <dd>RGB 888 with alpha 0. Each pixel's color components (inc. alpha) are 8 bits (256 colors). Image compressed with Deflate compression algorithm. Alpha 0 version effectively throws away alpha version. Prefer DeflatedRGB8 instead.</dd>
+            <dt><strong>DeflatedRGBA8, Alpha 1</strong></dt>
+            <dd>RGB 888 with alpha 1. Each pixel's color components (inc. alpha) are 8 bits (256 colors). Image compressed with Deflate compression algorithm. Serves as a higher quality version of BC1/BC3 alpha 1.</dd>
+            <dt><strong>DeflatedRGBA8, Alpha 8</strong></dt>
+            <dd>RGB 888 with alpha 8. Each pixel's color components (inc. alpha) are 8 bits (256 colors). Image compressed with Deflate compression algorithm. Serves as a higher quality version of BC2/BC3 alpha >1.</dd>
+        </dl>
+        <p>In addition to alpha and format, the following properties can be specified in the bti file:</p>
+        <dl>
+            <dt><strong>nomip</strong></dt>
+            <dd>Disables generation of mip levels.</dd>
+            <dt><strong>noalphatest</strong></dt>
+            <dd>Tells the renderer not to make invisible the parts of the texture where the alpha is 0. This is typically used when the alpha represents where to use player color.</dd>
+        </dl>
+    </div>
+    <div class="readme-main">
+        <h2><a id="Supp"></a>Support</h2>
+        <p>You can get support by asking in the modding channels of the following communities:</p>
+        <ul>
+            <li><a href="https://aom.heavengames.com/cgi-bin/forums/display.cgi?action=t&fn=19" target="_blank">AoM HeavenGames Forum</a></li>
+            <li><a href="https://discord.gg/jPDPukY" target="_blank">Fan Created AoM Discord</a></li>
+            <li><a href="https://discord.gg/rNhDrm5" target="_blank">Official AoM Discord</a></li>
+        </ul>
+        <p>If you think you've found a bug, post an issue <a href="https://petar.page/l/aom-afc-code" target="_blank">here</a> with as much information as possible.</p>
+    </div>
+    <div class="readme-main">
+        <h2><a id="Chan"></a>Changelog</h2>
+        <ul>
+            <li>
+                <strong>1.4.0+20220903</strong>
+                <ul>
+                    <li>Added support for bar file creation and extraction.</li>
+                    <li>Added support for conversion between xml and xmb.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>1.3.1+20210502</strong>
+                <ul>
+                    <li>Fixed bug in prt conversion causing colors to be incorrectly converted.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>1.3.0+20210408</strong>
+                <ul>
+                    <li>Added support for converting ddt to bti/cub/tga.</li>
+                    <li>Added support for converting bti/cub/tga/png to ddt.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>1.2.0+20200629</strong>
+                <ul>
+                    <li>Improved conversion from brg materials to mtrl files.</li>
+                    <li>Fixed xml conversion of additional texture names in mtrl files.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>1.1.0+20190324</strong>
+                <ul>
+                    <li>Added support for version 11 prt files</li>
+                    <li>Changed versioning scheme to semantic versioning 2.0.0</li>
+                </ul>
+            </li>
+            <li>
+                <strong>1.0.2016.0909</strong>
+                <ul>
+                    <li>First Release</li>
+                </ul>
+            </li>
+        </ul>
+        <h2><a id="Cred"></a>Credits</h2>
+        <ul>
+            <li>Petar - <small>For creating the program.</small></li>
+            <li>steves - <small>Providing the program icon. (https://www.deviantart.com/steves/art/10-Age-of-Mythology-XP-Icons-562480)</small></li>
+        </ul>
+    </div>
+</body>
+</html>

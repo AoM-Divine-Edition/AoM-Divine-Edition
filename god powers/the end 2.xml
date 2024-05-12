@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="TheEnd2" type="TempUnit" techname="The End 2">
+	<activetime>15.0</activetime>
+	<placement forceonmap="1">skip</placement>
+<createunit quantity="20" minradius="7" maxradius="7" pattern="symmetric" norotate="" delay="0.0">The End Splash</createunit>
+	<rangeindicatorprotoid radius="20.0" indicatorcount="10" speed="0.2">UI Range Indicator Egypt SFX</rangeindicatorprotoid>
+	<minimapeventtime sendalertto="ally">10.0</minimapeventtime>
+	<icon>god power vision icon</icon>
+	<usedicon>god power vision icon done</usedicon>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="Caster">VisionSwoosh</soundset>
+</power>

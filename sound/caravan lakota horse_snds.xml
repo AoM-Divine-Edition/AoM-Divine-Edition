@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+
+<ProtoUnitSoundDef>
+	<ProtoUnit name ="Caravan Lakota Horse">
+		<SoundType name ="Select">
+			<SoundSet name ="HorseSelect"></SoundSet>
+		</SoundType>
+		<SoundType name ="Grunt">
+			<SoundSet name ="HorseGrunt"></SoundSet>
+		</SoundType>
+		<SoundType name ="Hit">
+			<DamageTypeLogic>
+				<Choice name ="Hack">
+					<SoundSet name ="HackFlesh"></SoundSet>
+				</Choice>
+				<Choice name ="Slash">
+					<SoundSet name ="HackFlesh"></SoundSet>
+				</Choice>
+				<Choice name ="Pierce">
+					<SoundSet name ="PierceFlesh"></SoundSet>
+				</Choice>
+				<Choice name ="Crush">
+					<SoundSet name ="CrushFlesh"></SoundSet>
+				</Choice>
+			</DamageTypeLogic>
+		</SoundType>
+		<SoundType name ="Death">
+			<SoundSet name ="HorseDeath"></SoundSet>
+		</SoundType>
+		<soundtype name="Creation">
+			<soundset name="HorseSelect"></soundset>
+		</soundtype>
+		<SoundType name ="Acknowledge">
+			<SoundSet name ="HorseAcknowledge"></SoundSet>
+		</SoundType>
+	</ProtoUnit>
+</ProtoUnitSoundDef>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<contents>
+	<topic name="Food" titleid="19771" helpfile="Food" icon="icons\icon building farm 64">About Food</topic>
+	<topic name="Favor" titleid="19774" helpfile="Favor" icon="icons\god power lightning icon 64">About Favor</topic>
+	<topic name="stances" titleid="19775" helpfile="stances" icon="icons\improvement guard icon 64">Unit Stances</topic>
+	<topic name="population" titleid="19961" helpfile="population" icon="icons\Villager G Male Icon 64">Unit Stances</topic>
+	<topic name="infantry" titleid="19776" helpfile="infantry" icon="icons\relic weapons icon 64">Infantry</topic>
+	<topic name="cavalry" titleid="19778" helpfile="cavalry" icon="icons\building stable icon 64">Cavalry</topic>
+	<topic name="archers" titleid="19777" helpfile="archers" icon="icons\building archery range icon 64">Archers</topic>
+	<topic name="human soldiers" titleid="19779" helpfile="human soldiers" icon="icons\hero g jason icon 64">Human Soldiers</topic>
+	<topic name="myth units" titleid="19780" helpfile="myth units" icon="icons\hero g chiron icon 64">Myth Units</topic>
+	<topic name="ships" titleid="19786" helpfile="ships" icon="icons\Boat G Transport Icon 64">Ships</topic>
+	<topic name="arrow ships" titleid="21150" helpfile="arrow ships" icon="icons\Boat G Trireme Icon 64">Arrow Ships</topic>
+	<topic name="ramming ships" titleid="21151" helpfile="ramming ships" icon="icons\Boat G Pentekonter Icon 64">Ramming Ships</topic>
+	<topic name="siege ships" titleid="21149" helpfile="siege ships" icon="icons\Boat G Juggernaught Icon 64">Siege Ships</topic>
+	<topic name="History" titleid="19789" helpfile="History" icon="icons\hero n hersir icon 64">History</topic>
+	<topic name="Wood" titleid="19772" helpfile="Wood" icon="icons\building lumbercamp icon 64">About Wood</topic>
+	<topic name="Line of Sight" titleid="19781" helpfile="Line of Sight" icon="icons\god power vision icon 64">Visibility</topic>
+	<topic name="Black Map" titleid="19782" helpfile="Black Map" icon="icons\line of sight">Visibility</topic>
+	<topic name="God Powers" titleid="19784" helpfile="God Powers" icon="icons\icon building temple 64">About God Powers</topic>
+	<topic name="Gold" titleid="19773" helpfile="Gold" icon="icons\building mining camp icon 64">About Gold</topic>
+	<topic name="Fog of War" titleid="19783" helpfile="Fog of War" icon="icons\god power spy icon">Fog of War</topic>
+	<topic name="Buildings" titleid="19785" helpfile="Buildings" icon="icons\icon building greek fortress 64">Buildings</topic>
+	<topic name="Siege Weapons" titleid="19787" helpfile="Siege Weapons" icon="icons\building siege workshop icon 64">Siege Weapons</topic>
+	<topic name="Heroes" titleid="19788" helpfile="Heroes" icon="icons\hero g achilles icon 64">Heroes</topic>
+	<topic name="Greek" titleid="18712" helpfile="Greek" icon="icons\god major zeus icon 64">Greek</topic>
+	<topic name="Norse" titleid="18714" helpfile="Norse" icon="icons\god major odin icon 64">Norse</topic>
+	<topic name="Egyptian" titleid="18713" helpfile="Egyptian" icon="icons\god major ra icon 64">Egyptian</topic>
+	<topic name="Atlantean" titleid="22762" helpfile="Atlantean" icon="icons\god major kronos icons 64">Atlantean</topic>	
+	<topic name="Aztec" titleid="50003" helpfile="Aztec" icon="icons\god major nuwa icon 64">Aztec</topic>
+	<topic name="Hero Death Model" titleid="21564" helpfile="hero death model" icon="icons\special e amanra icon 64">Fallen Heroes</topic>
+</contents>

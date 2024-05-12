@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Bronzelite" type="Bronze" techname="Bronzelite">
+	<activetime>90.0</activetime>
+	<radius>10.0</radius>
+	<rangeindicatorprotoid radius="10.0" indicatorcount="10" speed="0.2">UI Range Indicator Greek SFX</rangeindicatorprotoid>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">Bronze</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<placement forceonmap="1">skip</placement>
+	<armor>
+		<abstracttype>HumanSoldier</abstracttype>
+		<armortype percent="-0.10">Hack</armortype>
+		<armortype percent="-0.10">Pierce</armortype>
+		<sfx>Armor Glow Small</sfx>
+		<texture>SFX A Armor Human</texture>
+	</armor>
+	<armor>
+		<abstracttype>Ship</abstracttype>
+		<armortype percent="-0.10">Hack</armortype>
+		<armortype percent="-0.10">Pierce</armortype>
+		<sfx>Armor Glow Small</sfx>
+		<texture>SFX A Armor Human</texture>
+	</armor>
+	<damagesoundset>HackBronze</damagesoundset>
+</power>

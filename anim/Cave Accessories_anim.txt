@@ -1,0 +1,52 @@
+//==============================================================================
+// Courtyard Plants_anim.txt
+//==============================================================================
+
+//==============================================================================
+anim idle
+{
+	SetSelector
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual Cave AOE entrance
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual cave pool
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cave Stalagmite
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cave StalagmiteB
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cave Stalagtite
+				
+			}
+		}
+	}
+}

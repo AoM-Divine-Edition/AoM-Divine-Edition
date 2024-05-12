@@ -1,0 +1,269 @@
+//==============================================================================
+// granary_anim.txt
+//==============================================================================
+
+import Construction_defines_anim.txt
+
+//==============================================================================
+define empower
+{
+   SetSelector
+   {
+      EmpowerLogic
+      SetSelector
+      {
+         set hotspot
+         {
+            version
+            {
+               Visualnone Jimmy
+            }
+         }
+      }
+      SetSelector
+      {
+         set hotspot
+         {
+            version
+            {
+               Visualparticle SFX E Pharaoh Empower Small
+            }
+         }
+      }
+   }
+}
+//==============================================================================
+define CypressA
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Terrain G Cypressb
+      }
+   }  
+}
+
+//==============================================================================
+define CypressB
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Terrain G CypressB
+      }
+   }  
+}
+//==============================================================================
+anim Idle
+{
+   SetSelector
+   {
+		TechLogic age 3/age 4
+		SetSelector
+		{
+			ConstructionLogic 0 33 66
+			set hotspot
+			{
+				version
+				{
+					Visual Building Beta G Granary
+	            connect Rightear CypressB hotspot
+                          connect Leftear CypressA hotspot
+                          connect Rightfoot CypressB hotspot
+                          connect Leftfoot CypressA hotspot
+					connect ATTACHPOINT empower hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building Construction small A
+					connect ATTACHPOINT empower hotspot
+					connect CHIN E_Small_Brick hotspot
+					connect FACE E_Medium_Brick hotspot
+					connect ATTACHPOINT E_Long_Brick hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building Construction small B
+					connect ATTACHPOINT empower hotspot
+					connect CHIN E_Small_Brick hotspot
+					connect FACE E_Medium_Brick hotspot
+					connect ATTACHPOINT E_Long_Brick hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+                  Visual Building E Granary Construction
+                  connect ATTACHPOINT empower hotspot
+		            connect CHIN E_Small_Brick hotspot
+		            connect FACE E_Medium_Brick hotspot
+		            connect ATTACHPOINT E_Long_Brick hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			ConstructionLogic 0 33 66
+			set hotspot
+			{
+				version
+				{
+					Visual Building Beta G Granary_OlympicAge
+	            connect Rightear CypressB hotspot
+                          connect Leftear CypressA hotspot
+                          connect Rightfoot CypressB hotspot
+                          connect Leftfoot CypressA hotspot
+					connect ATTACHPOINT empower hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building Construction small A
+					connect ATTACHPOINT empower hotspot
+					connect CHIN E_Small_Brick hotspot
+					connect FACE E_Medium_Brick hotspot
+					connect ATTACHPOINT E_Long_Brick hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building Construction small B
+					connect ATTACHPOINT empower hotspot
+					connect CHIN E_Small_Brick hotspot
+					connect FACE E_Medium_Brick hotspot
+					connect ATTACHPOINT E_Long_Brick hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+                  Visual Building E Granary Construction
+                  connect ATTACHPOINT empower hotspot
+		            connect CHIN E_Small_Brick hotspot
+		            connect FACE E_Medium_Brick hotspot
+		            connect ATTACHPOINT E_Long_Brick hotspot
+				}
+			}
+		}
+	}
+}
+//==============================================================================
+anim Death
+{
+   SetSelector
+   {
+		TechLogic age 3/age 4
+		SetSelector
+		{
+			ConstructionLogic 0 33 66
+			set hotspot
+			{
+				version
+				{
+					Visual Building Beta G Granary_Death
+	            connect Rightear CypressB hotspot
+                          connect Leftear CypressA hotspot
+                          connect Rightfoot CypressB hotspot
+                          connect Leftfoot CypressA hotspot
+					connect ATTACHPOINT empower hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building Construction small A
+					connect ATTACHPOINT empower hotspot
+					connect CHIN E_Small_Brick hotspot
+					connect FACE E_Medium_Brick hotspot
+					connect ATTACHPOINT E_Long_Brick hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building Construction small B
+					connect ATTACHPOINT empower hotspot
+					connect CHIN E_Small_Brick hotspot
+					connect FACE E_Medium_Brick hotspot
+					connect ATTACHPOINT E_Long_Brick hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+                  Visual Building E Granary Construction
+                  connect ATTACHPOINT empower hotspot
+		            connect CHIN E_Small_Brick hotspot
+		            connect FACE E_Medium_Brick hotspot
+		            connect ATTACHPOINT E_Long_Brick hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			ConstructionLogic 0 33 66
+			set hotspot
+			{
+				version
+				{
+					Visual Building Beta G Granary_OlympicAgeDeath
+	            connect Rightear CypressB hotspot
+                          connect Leftear CypressA hotspot
+                          connect Rightfoot CypressB hotspot
+                          connect Leftfoot CypressA hotspot
+					connect ATTACHPOINT empower hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building Construction small A
+					connect ATTACHPOINT empower hotspot
+					connect CHIN E_Small_Brick hotspot
+					connect FACE E_Medium_Brick hotspot
+					connect ATTACHPOINT E_Long_Brick hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building Construction small B
+					connect ATTACHPOINT empower hotspot
+					connect CHIN E_Small_Brick hotspot
+					connect FACE E_Medium_Brick hotspot
+					connect ATTACHPOINT E_Long_Brick hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+                  Visual Building E Granary Construction
+                  connect ATTACHPOINT empower hotspot
+		            connect CHIN E_Small_Brick hotspot
+		            connect FACE E_Medium_Brick hotspot
+		            connect ATTACHPOINT E_Long_Brick hotspot
+				}
+			}
+		}
+	}
+}

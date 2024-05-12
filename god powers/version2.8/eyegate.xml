@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Eyegate" type="tempunit" techname="eyegate">
+	<activetime>2.00</activetime>
+	<placement forceonmap="1" losprotounit="Eyegate">full</placement>
+	<createunit quantity="1" radius="5.0" delay="0.0" norotate="">Eyegate</createunit>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<icon>improvement eyegate icon</icon>
+	<usedicon>improvement eyegate icon done</usedicon>
+	<tech>Eyegate Active</tech>
+	<recharges>0</recharges>
+	<rechargetime>1</rechargetime>
+</power>

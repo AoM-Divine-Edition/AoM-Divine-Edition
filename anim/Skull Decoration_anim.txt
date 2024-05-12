@@ -1,0 +1,72 @@
+//==============================================================================
+// bush_anim.txt
+//==============================================================================
+
+
+//==============================================================================
+anim None
+{
+	SetSelector none 
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual Skull Pile
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Skull Pile b
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Skull Pile c
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Skull Pile d
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Skull Pile e
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Skull Pile f
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Skull Pile g
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Skull Pile h
+			}
+		}
+		
+	}
+}
+
+

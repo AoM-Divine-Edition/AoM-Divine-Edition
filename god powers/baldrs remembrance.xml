@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="BaldrsRemembrance" type="swapunit" techname="Baldrs Remembrance">
+	<activetime>0.6</activetime>
+	<radius>20.0</radius>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">RagnarokBirth</soundset>
+	<placement forceonmap="1">skip</placement>
+	<powerplayerrelation>player</powerplayerrelation>
+	<overallchance>1.0</overallchance>
+	<global></global>
+	<abstracttype swapto="Hero After Ragnorok">HumanSoldier</abstracttype>
+	<swapdelay>0.5</swapdelay>
+	<sfx>Ragnorok SFX</sfx>
+	<swapselfonly></swapselfonly>
+	<icon>improvement baldrs remembrance icon</icon>
+	<usedicon>improvement baldrs remembrance used icon</usedicon>
+</power>

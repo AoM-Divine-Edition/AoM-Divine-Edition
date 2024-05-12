@@ -1,0 +1,32 @@
+//==============================================================================
+// Relics_anim.txt
+//==============================================================================
+
+//==============================================================================
+define spark
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle World A Relic Spark
+      }
+   }
+}
+
+//==============================================================================
+anim Idle
+{
+	SetSelector none 
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual World A Relic Standard
+				Connect ATTACHPOINT spark hotspot
+			}
+		}
+	}	
+}

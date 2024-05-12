@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="SolarFlare" type="Bronze" techname="Solar Flare">
+	<activetime>2.0</activetime>
+	<radius>100000.0</radius>
+	<rangeindicatorprotoid radius="10000.0" indicatorcount="10" speed="0.2">UI Range Indicator Greek SFX</rangeindicatorprotoid>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">Bronze</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<placement forceonmap="1">skip</placement>
+	<armor>
+		<abstracttype>Hero</abstracttype>
+		<armortype percent="-0.00">Hack</armortype>
+		<armortype percent="-0.00">Pierce</armortype>
+		<sfx>Solar Flare Pulse</sfx>
+		<texture>sfx n nidhogg fire breath</texture>
+	</armor>
+	<damagesoundset>HackBronze</damagesoundset>
+
+
+	<icon>improvement solar flare icon</icon>
+	<usedicon>improvement solar flare used icon</usedicon>
+</power>

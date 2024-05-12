@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="DefendersOfMaat" type="swapunit" techname="Defenders of Maat">
+	<activetime>0.6</activetime>
+	<radius>80000.0</radius>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">ChangeUnit</soundset>
+	<placement forceonmap="1">full</placement>
+	<convertusingminmax minswapamount="20" maxswapamount="25"></convertusingminmax>
+	<powerplayerrelation>player</powerplayerrelation>
+	
+	<abstracttype swapto="Monument Giant Villager">Monument</abstracttype>
+	<abstracttype swapto="Monument Giant">Monument 2</abstracttype>
+	<abstracttype swapto="Monument Giant Priest">Monument 3</abstracttype>
+	<abstracttype swapto="Monument Giant Isis">Monument 4</abstracttype>
+	<abstracttype swapto="Monument Giant Ra">Monument 5</abstracttype>
+	<swapdelay>0.5</swapdelay>
+	<sfx>Osiris SFX</sfx>
+	<retainhitpointratio></retainhitpointratio>
+	<icon>improvement defenders of maat icon</icon>
+	<usedicon>improvement defenders of maat used icon</usedicon>
+</power>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Invisibility" type="swapunit" techname="Invisibility">
+	<activetime>0.6</activetime>
+	<radius>20.0</radius>
+	<rangeindicatorprotoid radius="18.0" indicatorcount="8" speed="0.2">UI Range Indicator aztec</rangeindicatorprotoid>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">SpyBirth</soundset>
+	<placement forceonmap="1">full</placement>
+	<convertusingminmax minswapamount="15" maxswapamount="20"></convertusingminmax>
+	<powerplayerrelation>ally</powerplayerrelation>
+	<abstracttype swapto="Aztec Female Villager invisible">Aztec Female Villager</abstracttype>
+	<abstracttype swapto="Aztec Male Villager invisible">Aztec Male Villager</abstracttype>
+	<abstracttype swapto="Aztec Female Tlaloque invisible">Aztec Female Tlaloque</abstracttype>
+	<abstracttype swapto="Aztec Male Tlaloque invisible">Aztec Male Tlaloque</abstracttype>
+	<swapdelay>0.5</swapdelay>
+	<swapallyonly></swapallyonly>
+	<sfx>Curse SFX</sfx>
+	<icon>invisibilityIcon</icon>
+	<usedicon>invisibilityIcon</usedicon>
+</power>

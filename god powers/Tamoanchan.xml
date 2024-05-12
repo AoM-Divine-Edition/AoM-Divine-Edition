@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="tamoanchan" type="animalmagnet" techname="tamoanchan">
+	<placement forceonmap="1" losprotounit="Animal Attractor">full</placement>
+	<placementprotounitid>Maya Tree</placementprotounitid>
+	<activetime>-1</activetime>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="ExistSound" listenertype="IfOnScreenAll" playdelay="20.0" positional="">AnimalMagnet</soundset>
+	<attractor>Maya Tree</attractor>
+	<attractrate>-240.0</attractrate>
+	<variance>0.15</variance>
+	<attractiondistancetocountagainstfoodcap>40.0f</attractiondistancetocountagainstfoodcap>
+	<minimapeventtime sendalertto="ally">10.0</minimapeventtime>
+	<icon>god power seed of gaia icons 64</icon>
+	<usedicon>god power seed of gaia icons 64</usedicon>
+</power>

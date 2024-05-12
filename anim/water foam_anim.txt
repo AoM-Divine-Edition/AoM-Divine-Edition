@@ -1,0 +1,34 @@
+//==============================================================================
+// water lilly_anim.txt
+//==============================================================================
+
+
+//==============================================================================
+define WaterLillyRipple
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle Special N Kraken Death
+      }
+   }
+}
+
+//==============================================================================
+anim idle
+{
+   SetSelector none 
+   {
+      VariationLogic
+      set hotspot
+      {
+         version
+         {
+            Visual jimmy
+			Connect LEFTFOOT WaterLillyRipple hotspot
+         }
+      }
+   }
+}
+

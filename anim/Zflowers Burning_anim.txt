@@ -1,0 +1,96 @@
+//==============================================================================
+// bush_anim.txt
+//==============================================================================
+
+//==============================================================================
+define BurntEmbers
+{
+   SetSelector
+   {
+       VariationLogic
+       set hotspot
+       {
+          version
+          {
+             Visualparticle SFX A Forest Fire Embers
+          }
+       }
+   }
+}
+
+//==============================================================================
+define BurntSmoke
+{
+   SetSelector
+   {
+       VariationLogic
+       set hotspot
+       {
+          version
+          {
+             Visualparticle SFX A Forest Fire Tree Smoke
+          }
+       }
+   }
+}
+
+//==============================================================================
+define BurntFire
+{
+   SetSelector
+   {
+       set hotspot
+       {
+          version
+          {
+             Visualparticle SFX A Forest Fire Large
+          }
+          version
+          {
+             Visualparticle SFX A Forest Fire Small
+          }
+       }
+   }
+}
+
+
+//==============================================================================
+anim None
+{
+	SetSelector none 
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual GreatPlainsFlowers
+				connect FIRE BurntFire hotspot
+			connect FIRE BurntSmoke hotspot
+			connect FIRE BurntEmbers hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual ShrubTexas
+				connect FIRE BurntFire hotspot
+			connect FIRE BurntSmoke hotspot
+			connect FIRE BurntEmbers hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual FlowerBunch
+				connect FIRE BurntFire hotspot
+			connect FIRE BurntSmoke hotspot
+			connect FIRE BurntEmbers hotspot
+			}
+		}
+	}
+}
+
+

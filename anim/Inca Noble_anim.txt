@@ -1,0 +1,325 @@
+//==============================================================================
+// Scenario G Athenaena_anim.txt
+//==============================================================================
+
+//==============================================================================
+define SunLight
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A God Power Summon Sunlight
+      }
+   }
+}
+
+
+//==============================================================================
+define GroundGlow
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A God Power Summon GroundGlow
+      }
+   }
+}
+
+//==============================================================================
+define heroglow
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Hero Glow Small
+      }
+   }
+}
+
+//==============================================================================
+define Eyeglow
+{
+   set hotspot
+   {
+      version
+      {
+       Visualparticle scenario g athena eye glow
+      }
+   }
+}
+
+//=============================================================================
+anim Birth
+{
+   SetSelector
+   {
+		CinematicLogic
+		SetSelector 
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Scenario G Athena_idleA
+					Connect FRONTABDOMEN heroglow hotspot
+					connect HOTSPOT sunlight hotspot
+					connect HOTSPOT groundglow hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					VisualGranny Ath_idleA
+					Connect LEFTLEG Eyeglow hotspot
+					Connect RIGHTLEG Eyeglow hotspot
+					connect HOTSPOT sunlight hotspot
+					connect HOTSPOT groundglow hotspot
+				}
+			}
+		}
+   }
+}
+
+//==============================================================================
+anim Idle
+{
+   SetSelector
+   {
+		
+		SetSelector
+		{
+			
+			set hotspot
+			{
+				version
+				{
+					Visual Inca Noble
+					
+				}
+			}
+	
+		}
+		
+   }
+}
+
+//==============================================================================
+/*
+anim Attack
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+            Visual Scenario G Athena_attackA
+				Connect FRONTABDOMEN heroglow hotspot
+
+         }
+      }
+   }
+}
+*/
+
+//==============================================================================
+anim Flail
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+            Visual Scenario G Athena_flailA
+				Connect FRONTABDOMEN heroglow hotspot
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim death
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+            Visual Scenario G Athena_deathA
+				Connect FRONTABDOMEN heroglow hotspot
+
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim Walk
+{
+   SetSelector
+   {
+		
+		SetSelector
+		{
+			
+			set hotspot
+			{
+				version
+				{
+					Visual Inca Noble Walk
+				}
+			}
+		}
+   }
+}
+
+//==============================================================================
+anim Bored
+{
+   SetSelector
+   {
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Inca Noble
+					
+				}
+			}
+		}
+   }
+}
+
+
+//==============================================================================
+anim Cinematic
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         name Ath_CineA01motionleft
+         version
+         {
+            VisualGranny Ath_CineA01motionleft
+				Connect LEFTLEG Eyeglow hotspot
+				Connect RIGHTLEG Eyeglow hotspot
+         }
+      }
+      set hotspot
+      {
+         name Ath_CineA02motionright
+         version
+         {
+            VisualGranny Ath_CineA02motionright
+				Connect LEFTLEG Eyeglow hotspot
+				Connect RIGHTLEG Eyeglow hotspot
+         }
+      }
+		set hotspot
+      {
+         name Ath_cineA1thatlooked
+         version
+         {
+            VisualGranny Ath_cineA1thatlooked
+				Connect LEFTLEG Eyeglow hotspot
+				Connect RIGHTLEG Eyeglow hotspot
+         }
+      }
+		set hotspot
+      {
+         name Ath_cineA1youhave
+         version
+         {
+            VisualGranny Ath_cineA1youhave
+				Connect LEFTLEG Eyeglow hotspot
+				Connect RIGHTLEG Eyeglow hotspot
+         }
+      }
+		set hotspot
+      {
+         name Ath_cineA1isthat
+         version
+         {
+            VisualGranny Ath_cineA1isthat
+				Connect LEFTLEG Eyeglow hotspot
+				Connect RIGHTLEG Eyeglow hotspot
+         }
+      }
+		set hotspot
+      {
+         name Ath_cineA1atlantis
+         version
+         {
+            VisualGranny Ath_cineA1atlantis
+				Connect LEFTLEG Eyeglow hotspot
+				Connect RIGHTLEG Eyeglow hotspot
+         }
+      }
+		set hotspot
+      {
+         name Ath_cineA1theseare
+         version
+         {
+            VisualGranny Ath_cineA1theseare
+				Connect LEFTLEG Eyeglow hotspot
+				Connect RIGHTLEG Eyeglow hotspot
+         }
+      }
+		set hotspot
+      {
+         name Ath_cine192ZeusCannot
+         version
+         {
+            VisualGranny Ath_cine192ZeusCannot
+				Connect LEFTLEG Eyeglow hotspot
+				Connect RIGHTLEG Eyeglow hotspot
+         }
+      }
+		set hotspot
+      {
+         name Ath_cine191zeusisall
+         version
+         {
+            VisualGranny Ath_cine191zeusisall
+				Connect LEFTLEG Eyeglow hotspot
+				Connect RIGHTLEG Eyeglow hotspot
+         }
+      }
+		set hotspot
+      {
+         name Ath_cine352awake
+         version
+         {
+            VisualGranny Ath_cine352awake
+				Connect LEFTLEG Eyeglow hotspot
+				Connect RIGHTLEG Eyeglow hotspot
+         }
+      }
+		set hotspot
+      {
+         name Ath_cine352walkback
+         version
+         {
+            VisualGranny Ath_cine352walkback
+				Connect LEFTLEG Eyeglow hotspot
+				Connect RIGHTLEG Eyeglow hotspot
+         }
+      }
+   }
+}
+
+
+
+

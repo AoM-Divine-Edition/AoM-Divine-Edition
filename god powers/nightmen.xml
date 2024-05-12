@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Nightmen" type="TempUnit" techname="Nightmen">
+	<activetime>180.0</activetime>
+	<placement forceonmap="1">all</placement>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">AncestorsBirth</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<rangeindicatorprotoid radius="16.0" indicatorcount="8" speed="0.2">UI Range Indicator Egypt SFX</rangeindicatorprotoid>
+	<createunit quantity="1" radius="12" delay="0.0">nightman</createunit>
+	<createunit quantity="1" radius="12" delay="0.5">nightman</createunit>
+	<createunit quantity="1" radius="12" delay="1.0">nightman</createunit>
+	<createunit quantity="1" radius="12" delay="1.5">nightman</createunit>
+	<createunit quantity="1" radius="12" delay="2.0">nightman</createunit>
+	<createunit quantity="1" radius="12" delay="2.5">nightman</createunit>
+	<createunit quantity="1" radius="12" delay="3.0">nightman</createunit>
+	<createunit quantity="1" radius="12" delay="3.5">nightman</createunit>
+	<createunit quantity="1" radius="12" delay="4.0">nightman</createunit>
+	<createunit quantity="1" radius="12" delay="4.5">nightman</createunit>
+	<createunit quantity="1" radius="12" delay="5.0">nightman</createunit>
+	<createunit quantity="1" radius="12" delay="5.5">nightman</createunit>
+	<createunit quantity="1" radius="12" delay="6.0">nightman</createunit>
+	<createunit quantity="1" radius="12" delay="6.5">nightman</createunit>
+	<createunit quantity="1" radius="12" delay="7.0">nightman</createunit>
+	<createunit quantity="1" radius="12" delay="7.5">nightman</createunit>
+	<createunit quantity="1" radius="12" delay="8.0">nightman</createunit>
+	<createunit quantity="1" radius="12" delay="8.5">nightman</createunit>
+	<createunit quantity="1" radius="12" delay="9.0">nightman</createunit>
+	<createunit quantity="1" radius="12" delay="9.5">nightman</createunit>
+	<createunit quantity="1" radius="12" delay="10.0">nightman</createunit>
+	<createunit quantity="1" radius="12" delay="10.5">nightman</createunit>
+	<createunit quantity="1" radius="12" delay="11.0">nightman</createunit>
+	<createunit quantity="1" radius="12" delay="11.5">nightman</createunit>
+	<createunit quantity="1" radius="12" delay="12.0">nightman</createunit>
+	<createunit quantity="1" radius="12" delay="12.5">nightman</createunit>
+	<createunit quantity="1" radius="12" delay="13.0">nightman</createunit>
+	<createunit quantity="1" radius="12" delay="13.5">nightman</createunit>
+	<createunit quantity="1" radius="12" delay="14.0">nightman</createunit>
+	<createunit quantity="1" radius="12" delay="14.5">nightman</createunit>
+	<createunit quantity="1" radius="12" delay="15.0">nightman</createunit>
+	<createunit quantity="1" radius="12" delay="15.5">nightman</createunit>
+	<createunit quantity="1" radius="12" delay="16.0">nightman</createunit>
+	<icon>god power ancestors icon</icon>
+	<usedicon>god power ancestors icon done</usedicon>
+	<recharges>0</recharges>
+	<rechargetime>45 </rechargetime>
+</power>

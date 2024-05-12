@@ -1,0 +1,72 @@
+//==============================================================================
+// Rain_anim.txt
+//==============================================================================
+
+
+//==============================================================================
+define clouds
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Rain Clouds
+      }
+   }
+}
+
+//==============================================================================
+define rain
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Rain
+      }
+   }
+}
+
+//==============================================================================
+define sunlight
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Rain Sunlight
+      }
+   }
+}
+
+//==============================================================================
+define rainbow
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Rainbow
+      }
+   }
+}
+
+
+//==============================================================================
+anim Idle
+{
+	SetSelector none 
+	{
+		set hotspot
+		{
+		version
+			{
+			Visual SFX A Rain Main
+			Connect ATTACHPOINT clouds hotspot
+			Connect ATTACHPOINT rain hotspot
+			Connect ATTACHPOINT sunlight hotspot
+			Connect ATTACHPOINT rainbow hotspot
+			}
+		}
+	}
+}

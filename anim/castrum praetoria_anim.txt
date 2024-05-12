@@ -1,0 +1,657 @@
+//==============================================================================
+// fortress_anim.txt
+//==============================================================================
+//==============================================================================
+define Dust
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Building DustA
+      }
+   }  
+}
+
+//==============================================================================
+define VINEA
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Building VineA
+      }
+   }  
+}
+
+//==============================================================================
+define VINEB
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Building VineB
+      }
+   }  
+}
+//==============================================================================
+define G_Long_Brick
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Building Construction G Long Brick
+      }
+   }  
+}
+
+//==============================================================================
+define G_Medium_Brick
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Building Construction G Medium Brick
+      }
+   }  
+}
+
+//==============================================================================
+define G_Small_Brick
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Building Construction G Small Brick
+      }
+   }  
+}
+
+//==============================================================================
+define E_Long_Brick
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Building Construction E Long Brick
+      }
+   }  
+}
+
+//==============================================================================
+define E_Medium_Brick
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Building Construction E Medium Brick
+      }
+   }  
+}
+
+//==============================================================================
+define E_Small_Brick
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Building Construction E Small Brick
+      }
+   }  
+}
+
+//==============================================================================
+define N_Long_Brick
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Building Construction N Long Brick
+      }
+   }  
+}
+
+//==============================================================================
+define N_Medium_Brick
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Building Construction N Medium Brick
+      }
+   }  
+}
+
+//==============================================================================
+define N_Small_Brick
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Building Construction N Small Brick
+      }
+   }  
+}
+
+
+//==============================================================================
+define CypressA
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Terrain G CypressA
+      }
+   }  
+}
+
+
+//==============================================================================
+define CypressB
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Terrain G CypressB
+      }
+   }  
+}
+
+//==============================================================================
+define Oil
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Oil 
+      }
+   }  
+}
+
+//==============================================================================
+define CypressAandB
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Building Beta G Fortress Acc
+connect Rightfoot CypressB hotspot                         
+connect Leftfoot CypressB hotspot
+connect Rightforearm CypressB hotspot                         
+connect Leftforearm CypressA hotspot
+connect Leftleg CypressA hotspot			         
+connect Rightleg CypressB hotspot                       
+connect Leftfoot CypressB hotspot
+connect Leftear CypressA hotspot			         
+connect Rightear CypressB hotspot
+connect Righthand CypressA hotspot                         
+connect Lefthand CypressA hotspot
+      }
+   }  
+}
+
+
+//==============================================================================
+define empower
+{
+   SetSelector
+   {
+      EmpowerLogic
+      SetSelector
+      {
+         set hotspot
+         {
+            version
+            {
+               Visualnone Jimmy
+            }
+         }
+      }
+      SetSelector
+      {
+         set hotspot
+         {
+            version
+            {
+               Visualparticle SFX E Pharaoh Empower Large
+            }
+         }
+      }
+   }
+}
+
+
+//==============================================================================
+anim idle
+{
+   SetSelector
+   {
+      TechLogic none/age 4
+      SetSelector
+		{
+			ConstructionLogic 0 25 50 75
+			set hotspot
+			{
+				version
+				{
+					Visual Building Beta G Fortress
+      connect hotspot CypressAandB hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building Construction Large A
+					connect ATTACHPOINT empower hotspot
+					connect attachpoint E_Long_Brick hotspot
+					connect face E_Long_Brick hotspot
+					connect chin E_Medium_Brick hotspot
+					connect leftfoot E_Medium_Brick hotspot
+					connect lefthand E_Small_Brick hotspot
+					connect leftleg E_Small_Brick hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building Construction Large B
+					connect ATTACHPOINT empower hotspot
+					connect attachpoint E_Long_Brick hotspot
+					connect face E_Long_Brick hotspot
+					connect chin E_Medium_Brick hotspot
+					connect leftfoot E_Medium_Brick hotspot
+					connect lefthand E_Small_Brick hotspot
+					connect leftleg E_Small_Brick hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building E FortressConstruction
+					connect ATTACHPOINT empower hotspot
+					connect attachpoint E_Long_Brick hotspot
+					connect face E_Long_Brick hotspot
+					connect chin E_Medium_Brick hotspot
+					connect leftfoot E_Medium_Brick hotspot
+					connect lefthand E_Small_Brick hotspot
+					connect leftleg E_Small_Brick hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building E Construction Midgol age3 con4
+					connect ATTACHPOINT empower hotspot
+					connect attachpoint E_Long_Brick hotspot
+					connect face E_Long_Brick hotspot
+					connect chin E_Medium_Brick hotspot
+					connect leftfoot E_Medium_Brick hotspot
+					connect lefthand E_Small_Brick hotspot
+					connect leftleg E_Small_Brick hotspot
+				}
+			}
+		}
+      SetSelector
+		{
+			ConstructionLogic 0 25 50 75
+			set hotspot
+			{
+				version
+				{
+					Visual Building Beta G Fortress_OlympicAge
+      connect hotspot CypressAandB hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building Construction Large A
+					connect ATTACHPOINT empower hotspot
+					connect attachpoint E_Long_Brick hotspot
+					connect face E_Long_Brick hotspot
+					connect chin E_Medium_Brick hotspot
+					connect leftfoot E_Medium_Brick hotspot
+					connect lefthand E_Small_Brick hotspot
+					connect leftleg E_Small_Brick hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building Construction Large B
+					connect ATTACHPOINT empower hotspot
+					connect attachpoint E_Long_Brick hotspot
+					connect face E_Long_Brick hotspot
+					connect chin E_Medium_Brick hotspot
+					connect leftfoot E_Medium_Brick hotspot
+					connect lefthand E_Small_Brick hotspot
+					connect leftleg E_Small_Brick hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building E FortressConstruction
+					connect ATTACHPOINT empower hotspot
+					connect attachpoint E_Long_Brick hotspot
+					connect face E_Long_Brick hotspot
+					connect chin E_Medium_Brick hotspot
+					connect leftfoot E_Medium_Brick hotspot
+					connect lefthand E_Small_Brick hotspot
+					connect leftleg E_Small_Brick hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building E Construction Midgol age4 con4
+					connect ATTACHPOINT empower hotspot
+					connect attachpoint E_Long_Brick hotspot
+					connect face E_Long_Brick hotspot
+					connect chin E_Medium_Brick hotspot
+					connect leftfoot E_Medium_Brick hotspot
+					connect lefthand E_Small_Brick hotspot
+					connect leftleg E_Small_Brick hotspot
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim RangedAttack
+{
+   SetSelector
+   {
+      TechLogic none/age 4
+      SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Building Beta G Fortress
+      connect hotspot CypressAandB hotspot
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+               tag Attack 0.40 true   
+               tag GenericSound 0.40 true   
+               tag SpecificSoundSet 0.27 false Arrow checkVisible 
+//-- end auto generated section
+					connect ATTACHPOINT empower hotspot
+					Length 0.5  
+				}
+			}
+		}
+      SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Building Beta G Fortress_OlympicAge
+      connect hotspot CypressAandB hotspot
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+               tag Attack 0.40 true   
+               tag GenericSound 0.40 true   
+               tag SpecificSoundSet 0.41 false Arrow checkVisible 
+//-- end auto generated section
+					connect ATTACHPOINT empower hotspot
+					Length 0.5  
+				}
+			}
+		}
+   }
+}
+
+//==============================================================================
+anim Attack
+{
+   SetSelector
+   {
+      TechLogic none/age 4
+      SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Building Beta G Fortress
+      connect hotspot CypressAandB hotspot
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+               tag Attack 0.40 true   
+               tag GenericSound 0.40 true   
+//-- end auto generated section
+					connect ATTACHPOINT empower hotspot
+					connect face oil hotspot
+					connect neck oil hotspot
+					connect leftear oil hotspot
+					connect leftforearm oil hotspot
+					connect leftthigh oil hotspot
+					connect chin oil hotspot
+					connect pelvis oil hotspot
+					connect rightear oil hotspot
+					connect rightforearm oil hotspot
+					connect rightshoulder oil hotspot
+					connect rightthigh oil hotspot
+					Length 0.5  
+				}
+			}
+		}
+      SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Building Beta G Fortress_OlympicAge
+      connect hotspot CypressAandB hotspot
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+               tag Attack 0.40 true   
+               tag GenericSound 0.40 true   
+//-- end auto generated section
+					connect ATTACHPOINT empower hotspot
+					connect face oil hotspot
+					connect neck oil hotspot
+					connect leftear oil hotspot
+					connect leftforearm oil hotspot
+					connect leftthigh oil hotspot
+					connect chin oil hotspot
+					connect pelvis oil hotspot
+					connect rightear oil hotspot
+					connect rightforearm oil hotspot
+					connect rightshoulder oil hotspot
+					connect rightthigh oil hotspot
+					Length 0.5  
+				}
+			}
+		}
+   }
+}
+
+//==============================================================================
+anim Death
+{
+   SetSelector
+   {
+      TechLogic none/age 4
+      SetSelector
+		{
+			ConstructionLogic 0 25 50 75
+			set hotspot
+			{
+				version
+				{
+					Visual Building Beta G Fortress_Death
+					connect ATTACHPOINT empower hotspot
+               connect Smoke0 Dust hotspot
+					connect Smoke1 Dust hotspot
+					connect Smoke2 Dust hotspot
+					connect Smoke3 Dust hotspot
+					connect Smoke4 Dust hotspot
+					connect Smoke5 Dust hotspot
+					connect Smoke6 Dust hotspot
+					connect Smoke7 Dust hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building Construction Large A
+					connect ATTACHPOINT empower hotspot
+					connect attachpoint E_Long_Brick hotspot
+					connect face E_Long_Brick hotspot
+					connect chin E_Medium_Brick hotspot
+					connect leftfoot E_Medium_Brick hotspot
+					connect lefthand E_Small_Brick hotspot
+					connect leftleg E_Small_Brick hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building Construction Large B
+					connect ATTACHPOINT empower hotspot
+					connect attachpoint E_Long_Brick hotspot
+					connect face E_Long_Brick hotspot
+					connect chin E_Medium_Brick hotspot
+					connect leftfoot E_Medium_Brick hotspot
+					connect lefthand E_Small_Brick hotspot
+					connect leftleg E_Small_Brick hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building E FortressConstruction
+					connect ATTACHPOINT empower hotspot
+					connect attachpoint E_Long_Brick hotspot
+					connect face E_Long_Brick hotspot
+					connect chin E_Medium_Brick hotspot
+					connect leftfoot E_Medium_Brick hotspot
+					connect lefthand E_Small_Brick hotspot
+					connect leftleg E_Small_Brick hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building E Construction Midgol age3 con4
+					connect ATTACHPOINT empower hotspot
+					connect attachpoint E_Long_Brick hotspot
+					connect face E_Long_Brick hotspot
+					connect chin E_Medium_Brick hotspot
+					connect leftfoot E_Medium_Brick hotspot
+					connect lefthand E_Small_Brick hotspot
+					connect leftleg E_Small_Brick hotspot
+				}
+			}
+		}
+      SetSelector
+		{
+			ConstructionLogic 0 25 50 75
+			set hotspot
+			{
+				version
+				{
+					Visual Building Beta G Fortress_OlympicAgeDeath
+					connect ATTACHPOINT empower hotspot
+               connect Smoke0 Dust hotspot
+					connect Smoke1 Dust hotspot
+					connect Smoke2 Dust hotspot
+					connect Smoke3 Dust hotspot
+					connect Smoke4 Dust hotspot
+					connect Smoke5 Dust hotspot
+					connect Smoke6 Dust hotspot
+					connect Smoke7 Dust hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building Construction Large A
+					connect ATTACHPOINT empower hotspot
+					connect attachpoint E_Long_Brick hotspot
+					connect face E_Long_Brick hotspot
+					connect chin E_Medium_Brick hotspot
+					connect leftfoot E_Medium_Brick hotspot
+					connect lefthand E_Small_Brick hotspot
+					connect leftleg E_Small_Brick hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building Construction Large B
+					connect ATTACHPOINT empower hotspot
+					connect attachpoint E_Long_Brick hotspot
+					connect face E_Long_Brick hotspot
+					connect chin E_Medium_Brick hotspot
+					connect leftfoot E_Medium_Brick hotspot
+					connect lefthand E_Small_Brick hotspot
+					connect leftleg E_Small_Brick hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building E FortressConstruction
+					connect ATTACHPOINT empower hotspot
+					connect attachpoint E_Long_Brick hotspot
+					connect face E_Long_Brick hotspot
+					connect chin E_Medium_Brick hotspot
+					connect leftfoot E_Medium_Brick hotspot
+					connect lefthand E_Small_Brick hotspot
+					connect leftleg E_Small_Brick hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building E Construction Midgol age4 con4
+					connect ATTACHPOINT empower hotspot
+					connect attachpoint E_Long_Brick hotspot
+					connect face E_Long_Brick hotspot
+					connect chin E_Medium_Brick hotspot
+					connect leftfoot E_Medium_Brick hotspot
+					connect lefthand E_Small_Brick hotspot
+					connect leftleg E_Small_Brick hotspot
+				}
+			}
+		}
+	}
+}

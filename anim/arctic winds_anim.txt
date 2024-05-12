@@ -1,0 +1,44 @@
+//==============================================================================
+// Snow Storm_anim.txt
+//==============================================================================
+
+//==============================================================================
+define clouds
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Snow Storm Clouds
+      }
+   }
+}
+
+//==============================================================================
+define snow
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Snow Storm
+      }
+   }
+}
+
+//==============================================================================
+anim Idle
+{
+	SetSelector none 
+	{
+		set hotspot
+		{
+		version
+			{
+			Visual SFX A Snow Storm main
+ 			Connect ATTACHPOINT clouds hotspot
+ 			Connect ATTACHPOINT snow hotspot
+			}
+		}
+	}
+}

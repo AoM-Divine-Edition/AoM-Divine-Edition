@@ -1,0 +1,45 @@
+//==============================================================================
+// Curse God Power
+//==============================================================================
+
+define curselight
+{
+   set hotspot
+   {
+      version
+      {
+		Visualparticle Pulsar A
+      }
+   }
+}
+
+//==============================================================================
+anim Idle
+{
+   SetSelector none 
+   {
+	  	set hotspot
+      {
+         version
+         {
+			visualnone jimmy
+			connect ATTACHPOINT curselight HOTSPOT
+         }
+      }
+   }
+}
+
+anim Death
+{
+   SetSelector none 
+   {
+	  	set hotspot
+      {
+         version
+         {
+			visualnone jimmy
+			connect ATTACHPOINT curselight HOTSPOT
+         }
+      }
+   }
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="WalkingWoods" type="swapunit" techname="Walking Woods">
+	<activetime>0.6</activetime>
+	<rangeindicatorprotoid radius="6.0" indicatorcount="6" speed="0.2">UI Range Indicator Norse SFX</rangeindicatorprotoid>
+	<radius>6.0</radius>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">WalkingWoodsBirth</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll" positional="">WalkingWoods</soundset>
+	<placement forceonmap="1" matchtype="Tree">full</placement>
+	<powerplayerrelation>all</powerplayerrelation>
+	<overallchance>1</overallchance>
+	<abstracttype swapto="Walking Woods Pine">Pine</abstracttype>
+	<abstracttype swapto="Walking Woods Oak">Gaia Forest Tree</abstracttype>
+	<abstracttype swapto="Walking Woods Palm">Palm</abstracttype>
+	<abstracttype swapto="Walking Woods Oak">Oak Tree</abstracttype>
+	<abstracttype swapto="Walking Woods Oak">Oak Autumn</abstracttype>
+	<abstracttype swapto="Walking Woods Pine Snow">Pine Snow</abstracttype>
+	<abstracttype swapto="Walking Woods Pine">Pine Dead</abstracttype>
+	<abstracttype swapto="Walking Woods Pine">Ironwood</abstracttype>
+	<abstracttype swapto="Walking Woods Birch">Void Tree</abstracttype>
+	<abstracttype swapto="Walking Woods Savannah">Savannah Tree</abstracttype>
+	<abstracttype swapto="Walking Woods Marsh">Marsh Tree</abstracttype>
+	<abstracttype swapto="Walking Woods Tundra">Tundra Tree</abstracttype>
+	<abstracttype swapto="Walking Woods Jungle Tree">Jungle Tree</abstracttype>
+	<abstracttype swapto="Walking Woods Jungle Palm">Jungle Palm</abstracttype>
+	<abstracttype swapto="Walking Woods Bamboo">Bamboo Tree</abstracttype>
+	<abstracttype swapto="walking woods Birch">Zbirch</abstracttype>
+	<abstracttype swapto="walking woods California">ZCalifornia</abstracttype>
+	<abstracttype swapto="walking woods Maple">ZMaple Tree</abstracttype>
+	<abstracttype swapto="walking woods Palmetto">ZPalmetto</abstracttype>
+	<abstracttype swapto="walking woods PalmI">ZPalm</abstracttype>
+	<abstracttype swapto="walking woods PalmII">ZPalmII</abstracttype>
+
+	<abstracttype swapto="walking woods AmazonBush">ZAmazonBush</abstracttype>
+	<abstracttype swapto="walking woods Borneo">Zborneo</abstracttype>
+	<abstracttype swapto="walking woods bush">Zbush</abstracttype>
+	<abstracttype swapto="walking woods Flower">Zflowers</abstracttype>
+	<abstracttype swapto="walking woods Great Plains">ZGreatPlains</abstracttype>
+	<abstracttype swapto="walking woods Sauguney">ZSauguney</abstracttype>
+	<swapdelay>0.5</swapdelay>
+	<convertunitstogodpowerplayer></convertunitstogodpowerplayer>
+	<convertusingminmax minswapamount="8" maxswapamount="8">Dummy</convertusingminmax>
+	<icon>god power walking woods icon</icon>
+	<usedicon>god power walking woods icon done</usedicon>
+</power>

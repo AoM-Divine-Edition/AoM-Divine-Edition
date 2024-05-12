@@ -1,0 +1,89 @@
+//==============================================================================
+// cow_anim.txt
+//==============================================================================
+
+
+//==============================================================================
+anim Idle
+{
+	SetSelector
+	{
+		VariationLogic
+		set hotspot
+		{
+			Version
+			{
+				Visual Animal Parrot_WalkA
+	    			
+			}
+		}
+		set hotspot
+		{
+			Version
+			{
+				Visual Animal Parrot_WalkA
+	    			ReplaceTexture animal parrot map/macaw01
+			}
+		}
+		set hotspot
+        	{
+			version
+			{
+				Visual Animal Parrot_WalkA
+	    			ReplaceTexture animal parrot map/macaw04
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Animal Parrot_WalkA
+	   			ReplaceTexture animal parrot map/macaw03
+			}
+		}
+	}
+}
+
+
+
+//==============================================================================
+anim Walk
+{
+	SetSelector
+	{
+		VariationLogic
+		set hotspot
+		{
+			Version
+			{
+				Visual Animal Parrot_WalkA
+	    		
+			}
+		}
+		set hotspot
+		{
+			Version
+			{
+				Visual Animal Parrot_WalkA
+	    			ReplaceTexture animal parrot map/macaw01
+			}
+		}
+		set hotspot
+        	{
+			version
+			{
+				Visual Animal Parrot_WalkA
+	    			ReplaceTexture animal parrot map/macaw04
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Animal Parrot_WalkA
+	   			ReplaceTexture animal parrot map/macaw03
+			}
+		}
+	}
+}
+

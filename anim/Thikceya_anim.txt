@@ -1,0 +1,45 @@
+//==============================================================================
+// bush_anim.txt
+//==============================================================================
+
+
+//==============================================================================
+anim idle
+{
+	SetSelector 
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual Tepee
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Teepee2
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Teepee3
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Teepee4
+			}
+		}
+
+		
+	}
+}
+
+

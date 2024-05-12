@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="SpacialFracture" type="Tsunami" techname="Spacial Fracture">
+	<builduptime soundset="TsunamiBirth">0.1</builduptime>
+	<activetime>1.0</activetime>
+	<minimapeventtime>10.0</minimapeventtime>
+	<placementprotounitid>Tsunami Range Indicator</placementprotounitid>
+	<soundset type="StartSound" listenertype="All">WildRushHorn</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<placement forceonmap="1">full</placement>
+	<radius>5.0</radius>
+	<powerblocker>20.0f</powerblocker>
+	<gpdamagemodel>
+		<playerrelation>enemy</playerrelation>
+		<basedamagepercentunit>0.90</basedamagepercentunit>
+		<basedamagepercentvillager>0.95</basedamagepercentvillager>
+		<basedamagepercentbuilding>0.95</basedamagepercentbuilding>
+		<minhpdamageunit>105000</minhpdamageunit>
+		<minhpdamagevillager>5000</minhpdamagevillager>
+		<minhpdamagebuilding>300000</minhpdamagebuilding>
+		<maxhpdamageunit>120000</maxhpdamageunit>
+		<maxhpdamagevillager>6000</maxhpdamagevillager>
+		<maxhpdamagebuilding>600000</maxhpdamagebuilding>
+	</gpdamagemodel>
+	<gpdamagemodel>
+		<playerrelation>ally</playerrelation>
+		<basedamagepercentunit>0.90</basedamagepercentunit>
+		<basedamagepercentvillager>0.95</basedamagepercentvillager>
+		<basedamagepercentbuilding>0.95</basedamagepercentbuilding>
+		<minhpdamageunit>15000</minhpdamageunit>
+		<minhpdamagevillager>5000</minhpdamagevillager>
+		<minhpdamagebuilding>20000</minhpdamagebuilding>
+		<maxhpdamageunit>15000</maxhpdamageunit>
+		<maxhpdamagevillager>5000</maxhpdamagevillager>
+		<maxhpdamagebuilding>20000</maxhpdamagebuilding>
+	</gpdamagemodel>
+
+	<!--Tsunamis are made up on multiple children spaced out-->
+	<childfx>SpacialFracture</childfx>
+	<numchildren>1</numchildren>
+	<childspacing>2.0</childspacing>
+	<!--distance between each child. Damage radius is based on this-->
+
+	<!--General Characteristics of tsunami-->
+	<movementspeed>50.0</movementspeed>
+	<height>0.0</height>
+	<debris>Dust Small</debris>
+	<!--<	<damageovertimeprotounit>Big Splash</damageovertimeprotounit>
+    <dirttexture>SFX A Tornado Dirt</dirttexture>
+	<snowtexture>SFX A Tornado Snow</snowtexture>
+	<watertexture>SFX A Tornado Water</watertexture>
+	<dirttexture>SFX A Tornado Dirt</dirttexture>
+	<snowtexture>SFX A Tornado Snow</snowtexture>
+	<watertexture>SFX A Tornado Water</watertexture>-->
+	<damagetype>LogicalTypeHandUnitsAttack</damagetype>
+	<scantime>0.05</scantime>
+	<attackgaiaaccuracy>0.0</attackgaiaaccuracy>
+	<minthrowdistance>1.0</minthrowdistance>
+	<maxthrowdistance>2.0</maxthrowdistance>
+	<minthrowheight>1.0</minthrowheight>
+	<maxthrowheight>2.0</maxthrowheight>
+	<minthrowvelocity>10.0</minthrowvelocity>
+	<maxthrowvelocity>20.0</maxthrowvelocity>
+	<dontthrow>Building</dontthrow>
+	<dontthrow>Wood</dontthrow>
+	<dontthrow>Gold</dontthrow>
+	<dontthrow>Fish</dontthrow>
+	<dontthrow>Fish</dontthrow>
+	<dontthrow>Unit</dontthrow>
+	<cantsuck>AbstractSettlement</cantsuck>
+	<cantsuck>Farm</cantsuck>
+	<cantsuck>Building</cantsuck>
+	<cantsuck>Gold</cantsuck>
+	<cantsuck>Wave</cantsuck>
+	<cantsuck>Unit</cantsuck>
+	<numberobjsperbuilding>1</numberobjsperbuilding>
+	<xzvelocity>55.5</xzvelocity>
+	<yvelocity>20.0</yvelocity>
+	<angularvelocity>0.5</angularvelocity>
+	<icon>improvement spacial fracture icon</icon>
+	<usedicon>improvement spacial fracture used icon</usedicon>
+
+	<recharges>0</recharges>
+	<rechargetime>120</rechargetime>
+</power>

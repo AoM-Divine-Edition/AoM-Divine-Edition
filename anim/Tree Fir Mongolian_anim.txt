@@ -1,0 +1,44 @@
+//==============================================================================
+// Courtyard Plants_anim.txt
+//==============================================================================
+
+//==============================================================================
+anim idle
+{
+	SetSelector
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual FirMongolianA
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual FirMongolianB
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual FirMongolianC
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual FirMongolianD
+				
+			}
+		}
+	}
+}

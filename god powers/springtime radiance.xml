@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<power name="SpringtimeRadiance" type="flamingweapons" techname="Springtime Radiance">
+	<placement>skip</placement>
+	<activetime>30</activetime>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">ExaminationBirth</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<powerplayerrelation>player</powerplayerrelation>
+	<tech>Springtime Radiance Active</tech>
+	<particlesfxnode>
+		<unittype>Farm</unittype>
+		<sfx>Heavenlight</sfx>
+	</particlesfxnode>
+	<icon>improvement springtime radiance icon</icon>
+	<usedicon>improvement springtime radiance used icon</usedicon>
+</power>

@@ -1,0 +1,131 @@
+//==============================================================================
+// Farm Plot_anim.txt
+//==============================================================================
+
+//==============================================================================
+define shockwave
+{
+   set hotspot
+   {
+      version
+      {
+		Visualparticle SFX G Animal Magnetism Shockwave
+      }
+   }
+}
+
+//==============================================================================
+anim Idle
+{
+	SetSelector
+	{
+    TechLogic none/Aztec Civ/Springtime Radiance Active
+    SetSelector
+    {
+      ConstructionLogic 0 33 66
+		set hotspot
+		{
+			version
+			{
+				VisualNone World A Farm Cabbage04
+			}
+		}
+      set hotspot
+      {
+         version
+         {
+				VisualNone World A Farm Cabbage01
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				VisualNone World A Farm Cabbage02
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				VisualNone World A Farm Cabbage03
+         }
+      }
+   }
+
+    SetSelector
+	{
+      		ConstructionLogic 0 33 66
+		set hotspot
+		{
+			version
+			{
+				Visual Farm CornII
+			}
+		}
+      set hotspot
+      {
+         version
+         {
+				VisualNone World A Farm Cabbage01
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				VisualNone World A Farm Cabbage02
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				VisualNone World A Farm Cabbage03
+         }
+      }
+    }
+
+
+
+    SetSelector
+    {
+      ConstructionLogic 0 33 66
+		set hotspot
+		{
+			version
+			{
+				VisualNone World A Farm Cabbage04
+                connect ATTACHPOINT shockwave HOTSPOT
+			}
+		}
+      set hotspot
+      {
+         version
+         {
+				VisualNone World A Farm Cabbage01
+                connect ATTACHPOINT shockwave HOTSPOT
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				VisualNone World A Farm Cabbage02
+                connect ATTACHPOINT shockwave HOTSPOT
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				VisualNone World A Farm Cabbage03
+                connect ATTACHPOINT shockwave HOTSPOT
+         }
+      }
+   }
+
+
+   }
+}
+

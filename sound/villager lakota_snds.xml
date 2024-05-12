@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<protounitsounddef>
+	<protounit name="Villager Lakota">
+		<soundtype name="Select">
+			<variationlogic>
+				<choice name="0">
+					<soundset name="LakotaVilSelect"></soundset>
+				</choice>
+				<choice name="1">
+					<soundset name="LakotaFemSelect"></soundset>
+				</choice>
+			</variationlogic>
+		</soundtype>
+		<soundtype name="Grunt">
+			<variationlogic>
+				<choice name="0">
+					<soundset name="MaleGrunt"></soundset>
+				</choice>
+				<choice name="1">
+					<soundset name="FemaleGrunt"></soundset>
+				</choice>
+			</variationlogic>
+		</soundtype>
+		<soundtype name="Death">
+			<variationlogic>
+				<choice name="0">
+					<soundset name="MaleDeath"></soundset>
+				</choice>
+				<choice name="1">
+					<soundset name="FemaleDeath"></soundset>
+				</choice>
+			</variationlogic>
+		</soundtype>
+		<soundtype name="Hit">
+			<damagetypelogic>
+				<choice name="Hack">
+					<soundset name="HackFlesh"></soundset>
+				</choice>
+				<choice name="Slash">
+					<soundset name="HackFlesh"></soundset>
+				</choice>
+				<choice name="Pierce">
+					<soundset name="PierceFlesh"></soundset>
+				</choice>
+				<choice name="Crush">
+					<soundset name="CrushFlesh"></soundset>
+				</choice>
+			</damagetypelogic>
+		</soundtype>
+		<soundtype name="Creation">
+			<soundset name="VillagerBirth"></soundset>
+		</soundtype>
+		<soundtype name="Acknowledge">
+			<variationlogic>
+				<choice name="0">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="LakotaVilMove"></soundset>
+						</choice>
+						<choice name="enemy">
+							<soundset name="LakotaVilAttack"></soundset>
+						</choice>
+						<choice name="Berry Bush">
+							<soundset name="LakotaVilBerry"></soundset>
+						</choice>
+						<choice name="Farm">
+							<soundset name="LakotaVilFarm"></soundset>
+						</choice>
+						<choice name="Tree">
+							<soundset name="LakotaVilWood"></soundset>
+						</choice>
+						<choice name="Huntable">
+							<soundset name="LakotaVilFood"></soundset>
+						</choice>
+						<choice name="Building">
+							<soundset name="LakotaVilBuild"></soundset>
+						</choice>
+					</targetlogic>
+				</choice>
+				<choice name="1">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="LakotaFemMove"></soundset>
+						</choice>
+						<choice name="enemy">
+							<soundset name="LakotaFemAttack"></soundset>
+						</choice>
+						<choice name="Berry Bush">
+							<soundset name="LakotaFemBerry"></soundset>
+						</choice>
+						<choice name="Farm">
+							<soundset name="LakotaFemFarm"></soundset>
+						</choice>
+						<choice name="Tree">
+							<soundset name="LakotaFemWood"></soundset>
+						</choice>
+						<choice name="Huntable">
+							<soundset name="LakotaFemFood"></soundset>
+						</choice>
+						<choice name="Building">
+							<soundset name="LakotaFemBuild"></soundset>
+						</choice>
+					</targetlogic>
+				</choice>
+			</variationlogic>
+		</soundtype>
+	</protounit>
+</protounitsounddef>

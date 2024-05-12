@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+
+<ProtoUnitSoundDef>
+	<ProtoUnit name ="bear grizzly">
+		<SoundType name ="Select">
+			<SoundSet name ="AE3 BearSelect"></SoundSet>
+		</SoundType>
+		<SoundType name ="Grunt">
+			<SoundSet name ="AE3 BearGrunt"></SoundSet>
+		</SoundType>
+		<SoundType name ="Hit">
+			<DamageTypeLogic>
+				<Choice name ="Hack">
+					<SoundSet name ="HackFlesh"></SoundSet>
+				</Choice>
+				<Choice name ="Slash">
+					<SoundSet name ="HackFlesh"></SoundSet>
+				</Choice>
+				<Choice name ="Pierce">
+					<SoundSet name ="PierceFlesh"></SoundSet>
+				</Choice>
+				<Choice name ="Crush">
+					<SoundSet name ="CrushFlesh"></SoundSet>
+				</Choice>
+			</DamageTypeLogic>
+		</SoundType>
+		<SoundType name ="Death">
+			<SoundSet name ="AE3 BearDeath"></SoundSet>
+		</SoundType>
+		<soundtype name="Creation">
+			<soundset name="AE3 BearBirth"></soundset>
+		</soundtype>
+		<SoundType name ="Acknowledge">
+			<SoundSet name ="AE3 BearAcknowledge"></SoundSet>
+		</SoundType>
+	</ProtoUnit>
+</ProtoUnitSoundDef>

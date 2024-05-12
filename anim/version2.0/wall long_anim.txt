@@ -1,0 +1,4139 @@
+//==============================================================================
+// Building Wall long_anim.txt
+//==============================================================================
+
+//==============================================================================
+define Dust
+{
+	set hotspot
+	{
+		version
+		{
+			Visualparticle SFX A Building DustA
+		}
+	}  
+}
+//==============================================================================
+define Rubble1
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Building WDStage1 Long
+		}
+	}  
+}
+
+//==============================================================================
+define Rubble2
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Building WDStage2 Long
+		}
+	}  
+}
+
+//==============================================================================
+define Rubble3
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Building WDStage3 Long
+		}
+	}  
+}
+
+//==============================================================================
+define Rubble4
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Building WDTStage1 Long
+		}
+	}  
+}
+
+//==============================================================================
+define Rubble5
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Building WDTStage2 Long
+		}
+	}  
+}
+
+//==============================================================================
+define Rubble6
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Building WDTStage3 Long
+		}
+	}  
+}
+
+//==============================================================================
+define Rubble7
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Building WDTEStage1 Long
+		}
+	}  
+}
+
+//==============================================================================
+define Rubble8
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Building WDTEStage2 Long
+		}
+	}  
+}
+
+//==============================================================================
+define Rubble9
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Building WDTEStage3 Long
+		}
+	}  
+}
+
+//=============================================================================
+define Tage1
+{
+		set hotspot
+		{
+				version
+				{
+						Visual Aztec Wall Long4
+
+					}
+		}
+
+}
+
+
+//==============================================================================
+anim None
+{
+	SetSelector
+	{
+	TechLogic none/Aztec Civ
+    SetSelector
+    {
+		CultureLogic Egyptian/Greek/Norse/Atlantean/Chinese
+//---------------------------------Egyptian------------------------------------------//
+//---------------------------------first wall----------------------------------------//
+		SetSelector
+		{
+			TechLogic none/stone wall/fortified wall/citadel wall
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building Wall long
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongWallA
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongGreekWallB
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongGreekWallB
+					}
+				}
+			}
+//---------------------------------second wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				setSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building E Walllong Age2
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallStone Stage1
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallStone Stage2
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallStone Stage3
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------third wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building E Walllong Age3
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallFort long Stage1
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallFort long Stage2
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallFort long Stage3
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------Fourth wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building E Walllong Age4
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallCit long stage1
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallCit long stage2
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallCit long stage3
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+		}
+//---------------------------------Greek------------------------------------------//
+//---------------------------------first wall----------------------------------------//
+		SetSelector
+		{
+			TechLogic none/stone wall/fortified wall
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building Wall long
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongWallA
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongGreekWallB
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongGreekWallB
+					}
+				}
+			}
+//---------------------------------second wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				setSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building G Wall Long
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G WallStone Stage1
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G WallStone Stage2
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G WallStone Stage3
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+	//---------------------------------third wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				setSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building G fortifiedWall long
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G fwall Long Stage1
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G fwall Long Stage2
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G fwall Long Stage3
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+		}
+//---------------------------------Norse------------------------------------------//
+//---------------------------------first wall----------------------------------------//
+		SetSelector
+		{
+			TechLogic none/stone wall
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building Wall long
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongWallA
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongGreekWallB
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongGreekWallB
+					}
+				}
+			}
+//---------------------------------second wall----------------------------------------//
+			SetSelector
+			{
+				ConstructionLogic 0 33 66
+				SetSelector
+				{
+					damageLogic 0 25 50 75 
+					SetSelector
+					{
+						set hotspot
+						{
+							version
+							{
+								Visual Building N Wall Long
+							}
+						}
+					}
+					SetSelector
+					{
+						set hotspot
+						{
+							version
+							{
+								Visual Building N Wall Long Stage1
+							}
+						}
+					}
+					SetSelector
+					{
+						set hotspot
+						{
+							version
+							{
+								Visual Building N Wall Long Stage2
+							}
+						}
+					}
+					SetSelector
+					{
+						set hotspot
+						{
+							version
+							{
+								Visual Building N Wall Long Stage3
+							}
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+		}
+//---------------------------------Atlantis------------------------------------------//
+//---------------------------------Palisade wall----------------------------------------//
+		SetSelector
+		{
+			TechLogic none/Stone wall/Bronze wall/Iron wall/Oreichalkos wall
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building Wall long
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongWallA
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongGreekWallB
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongGreekWallB
+					}
+				}
+			}
+//---------------------------------Stone wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				setSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Stone Long
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Stone Long Stage 1 Destruction
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Stone Long Stage 2 Destruction
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Stone Long Stage 3 Destruction
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------Bronze wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+				damageLogic 0 25 50 75 
+				set hotspot
+				{
+					version
+					{
+						Visual Building X Wall Bronze Long
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building X Wall Bronze Long Stage 1 Death
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building X Wall Bronze Long Stage 2 Death
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building X Wall Bronze Long Stage 3 Death
+					}
+				}
+				}
+				SetSelector
+				{
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+					}
+				}
+				}
+			}
+//---------------------------------Iron wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Iron Long
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Iron Long Stage 1 Death
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Iron Long Stage 2 Death
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Iron Long Stage 3 Death
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------Oreichalkos wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+				damageLogic 0 25 50 75 
+				set hotspot
+				{
+					version
+					{
+						Visual Building X Wall Oreichalkos Long
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building X Wall Oreichalkos Long Stage 1 Death
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building X Wall Oreichalkos Long Stage 2 Death
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building X Wall Oreichalkos Long Stage 3 Death
+					}
+				}
+				}
+				SetSelector
+				{
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongWallA
+					}
+				}
+				}
+				SetSelector
+				{
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongGreekWallB
+					}
+				}
+				}
+				SetSelector
+				{
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongGreekWallC
+					}
+				}
+				}
+			}
+		}
+//---------------------------------Chinese------------------------------------------//
+//---------------------------------first wall----------------------------------------//
+		SetSelector
+		{
+			TechLogic none/earthen wall/stone wall/fortified wall/great wall
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building Wall long
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongWallA
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongGreekWallB
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongGreekWallB
+					}
+				}
+			}
+//---------------------------------second wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				setSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Earthen Long
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Earthen Long Stage1
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Earthen Long Stage2
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Earthen Long Stage3
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------third wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Stone Long
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Stone Long Stage1
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Stone Long Stage2
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Stone Long Stage3
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------Fourth wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Fortified Long
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Fortified Long stage1
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Fortified Long stage2
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Fortified Long stage3
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------Fifth wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Great Long
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallCit long stage1
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallCit long stage2
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallCit long stage3
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+		}
+	}
+	//---------------------------------first wall----------------------------------------//
+		SetSelector
+		{
+			TechLogic none/earthen wall/stone wall/fortified wall/great wall
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Aztec Wall Long4
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongWallA
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongGreekWallB
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongGreekWallB
+					}
+				}
+			}
+//---------------------------------second wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				setSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Aztec Wall Long4
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Earthen Long Stage1
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Earthen Long Stage2
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Earthen Long Stage3
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------third wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Stone Long
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Stone Long Stage1
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Stone Long Stage2
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Stone Long Stage3
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------Fourth wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Fortified Long
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Fortified Long stage1
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Fortified Long stage2
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Fortified Long stage3
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------Fifth wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Great Long
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallCit long stage1
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallCit long stage2
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallCit long stage3
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Idle
+{
+	SetSelector
+	{
+	TechLogic none/Aztec Civ
+    SetSelector
+    {
+		CultureLogic Egyptian/Greek/Norse/Atlantean/Chinese
+//---------------------------------Egyptian------------------------------------------//
+//---------------------------------first wall----------------------------------------//
+		SetSelector
+		{
+			TechLogic none/stone wall/fortified wall/citadel wall
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building Wall long
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongWallA
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongGreekWallB
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongGreekWallB
+					}
+				}
+			}
+//---------------------------------second wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				setSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building E Walllong Age2
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallStone Stage1
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallStone Stage2
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallStone Stage3
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------third wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building E Walllong Age3
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallFort long Stage1
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallFort long Stage2
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallFort long Stage3
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------Fourth wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building E Walllong Age4
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallCit long stage1
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallCit long stage2
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallCit long stage3
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+		}
+//---------------------------------Greek------------------------------------------//
+//---------------------------------first wall----------------------------------------//
+		SetSelector
+		{
+			TechLogic none/stone wall/fortified wall
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building Wall long
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongWallA
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongGreekWallB
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongGreekWallB
+					}
+				}
+			}
+//---------------------------------second wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				setSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building G Wall Long
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G WallStone Stage1
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G WallStone Stage2
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G WallStone Stage3
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+	//---------------------------------third wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				setSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building G fortifiedWall long
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G fwall Long Stage1
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G fwall Long Stage2
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G fwall Long Stage3
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+		}
+//---------------------------------Norse------------------------------------------//
+//---------------------------------first wall----------------------------------------//
+		SetSelector
+		{
+			TechLogic none/stone wall
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building Wall long
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongWallA
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongGreekWallB
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongGreekWallB
+					}
+				}
+			}
+//---------------------------------second wall----------------------------------------//
+			SetSelector
+			{
+				ConstructionLogic 0 33 66
+				SetSelector
+				{
+					damageLogic 0 25 50 75 
+					SetSelector
+					{
+						set hotspot
+						{
+							version
+							{
+								Visual Building N Wall Long
+							}
+						}
+					}
+					SetSelector
+					{
+						set hotspot
+						{
+							version
+							{
+								Visual Building N Wall Long Stage1
+							}
+						}
+					}
+					SetSelector
+					{
+						set hotspot
+						{
+							version
+							{
+								Visual Building N Wall Long Stage2
+							}
+						}
+					}
+					SetSelector
+					{
+						set hotspot
+						{
+							version
+							{
+								Visual Building N Wall Long Stage3
+							}
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+		}
+//---------------------------------Atlantis------------------------------------------//
+//---------------------------------Palisade wall----------------------------------------//
+		SetSelector
+		{
+			TechLogic none/Stone wall/Bronze wall/Iron wall/Oreichalkos wall
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building Wall long
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongWallA
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongGreekWallB
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongGreekWallB
+					}
+				}
+			}
+//---------------------------------Stone wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				setSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Stone Long
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Stone Long Stage 1 Destruction
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Stone Long Stage 2 Destruction
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Stone Long Stage 3 Destruction
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------Bronze wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+				damageLogic 0 25 50 75 
+				set hotspot
+				{
+					version
+					{
+						Visual Building X Wall Bronze Long
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building X Wall Bronze Long Stage 1 Death
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building X Wall Bronze Long Stage 2 Death
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building X Wall Bronze Long Stage 3 Death
+					}
+				}
+				}
+				SetSelector
+				{
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+					}
+				}
+				}
+			}
+//---------------------------------Iron wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Iron Long
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Iron Long Stage 1 Death
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Iron Long Stage 2 Death
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Iron Long Stage 3 Death
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------Oreichalkos wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+				damageLogic 0 25 50 75 
+				set hotspot
+				{
+					version
+					{
+						Visual Building X Wall Oreichalkos Long
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building X Wall Oreichalkos Long Stage 1 Death
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building X Wall Oreichalkos Long Stage 2 Death
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building X Wall Oreichalkos Long Stage 3 Death
+					}
+				}
+				}
+				SetSelector
+				{
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongWallA
+					}
+				}
+				}
+				SetSelector
+				{
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongGreekWallB
+					}
+				}
+				}
+				SetSelector
+				{
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongGreekWallC
+					}
+				}
+				}
+			}
+		}
+//---------------------------------Chinese------------------------------------------//
+//---------------------------------first wall----------------------------------------//
+		SetSelector
+		{
+			TechLogic none/earthen wall/stone wall/fortified wall/great wall
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building Wall long
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongWallA
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongGreekWallB
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongGreekWallB
+					}
+				}
+			}
+//---------------------------------second wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				setSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Earthen Long
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Earthen Stage1
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Earthen Stage2
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Earthen Stage3
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------third wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Stone Long
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Stone Long Stage1
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Stone Long Stage2
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Stone Long Stage3
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------Fourth wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Fortified Long
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Fortified Long stage1
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Fortified Long stage2
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Fortified Long stage3
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------Fifth wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Great Long
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Great Long Stage1
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Great Long Stage2
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Great Long Stage3
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+		}
+	}
+	//---------------------------------first wall----------------------------------------//
+		SetSelector
+		{
+			TechLogic none/earthen wall/stone wall/fortified wall/great wall
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Aztec Wall Long4
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongWallA
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongGreekWallB
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongGreekWallB
+					}
+				}
+			}
+//---------------------------------second wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				setSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Aztec Wall Long4
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Earthen Stage1
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Earthen Stage2
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Earthen Stage3
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------third wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Stone Long
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Stone Long Stage1
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Stone Long Stage2
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Stone Long Stage3
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------Fourth wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Fortified Long
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Fortified Long stage1
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Fortified Long stage2
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Fortified Long stage3
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------Fifth wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Great Long
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Great Long Stage1
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Great Long Stage2
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Great Long Stage3
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Death
+{
+	SetSelector
+	{
+	TechLogic none/Aztec Civ
+    SetSelector
+    {
+		CultureLogic Egyptian/Greek/Norse/Atlantean/Chinese
+//---------------------------------Egyptian------------------------------------------//
+//---------------------------------first wall----------------------------------------//
+		SetSelector
+		{
+			TechLogic none/stone wall/fortified wall/citadel wall
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building Wall long
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongWallA
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongGreekWallB
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongGreekWallB
+					}
+				}
+			}
+//---------------------------------second wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				setSelector
+				{
+
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallStone Stage3_Death
+							connect hotspot dust hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------third wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallFort long Stage3_Death
+							connect hotspot dust hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------Fourth wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallCit long stage3_Death
+							connect hotspot dust hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+		}
+//---------------------------------Greek------------------------------------------//
+//---------------------------------first wall----------------------------------------//
+		SetSelector
+		{
+			TechLogic none/stone wall/fortified wall
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building Wall long
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongWallA
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongGreekWallB
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongGreekWallB
+					}
+				}
+			}
+//---------------------------------second wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				setSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building G WallStone Stage3_death
+							connect hotspot dust hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+	//---------------------------------third wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				setSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building G fwall Long Stage3_death
+							connect hotspot dust hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+		}
+//---------------------------------Norse------------------------------------------//
+//---------------------------------first wall----------------------------------------//
+		SetSelector
+		{
+			TechLogic none/stone wall
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building Wall long
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongWallA
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongGreekWallB
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongGreekWallB
+					}
+				}
+			}
+//---------------------------------second wall----------------------------------------//
+			SetSelector
+			{
+				ConstructionLogic 0 33 66
+				SetSelector
+				{
+					SetSelector
+					{
+						set hotspot
+						{
+							version
+							{
+								Visual Building N Wall Long Stage3_Death
+								connect hotspot dust hotspot
+							}
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+		}
+//---------------------------------Atlantis------------------------------------------//
+//---------------------------------first wall----------------------------------------//
+		SetSelector
+		{
+			TechLogic none/Stone wall/Bronze wall/Iron wall/Oreichalkos wall
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building Wall long
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongWallA
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongGreekWallB
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongGreekWallB
+					}
+				}
+			}
+//---------------------------------second wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				setSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Stone Long Stage 4 Death
+							connect Smoke0 dust hotspot
+							connect Smoke1 dust hotspot
+							connect Smoke2 dust hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------third wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Bronze Long Stage 4 Death
+							connect Smoke0 dust hotspot
+							connect Smoke1 dust hotspot
+							connect Smoke2 dust hotspot 
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------Fourth wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Iron Long Stage 4 Death
+							connect Smoke0 dust hotspot
+							connect Smoke1 dust hotspot
+							connect Smoke2 dust hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------Fifth wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Oreichalkos Long Stage 4 Death
+							connect Smoke0 dust hotspot
+							connect Smoke1 dust hotspot
+							connect Smoke2 dust hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+		}
+		
+//---------------------------------Chinese------------------------------------------//
+//---------------------------------first wall----------------------------------------//
+		SetSelector
+		{
+			TechLogic none/earthen wall/stone wall/fortified wall/great wall
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building Wall long
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongWallA
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongGreekWallB
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongGreekWallB
+					}
+				}
+			}
+//---------------------------------second wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				setSelector
+				{
+
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Earthen Long Stage3_Death
+							connect hotspot dust hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------third wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Stone Long Stage3_Death
+							connect hotspot dust hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------Fourth wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Fortified Long stage3_Death
+							connect hotspot dust hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------Fifth wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Great Long stage3_Death
+							connect hotspot dust hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+		}
+	}
+	//---------------------------------first wall----------------------------------------//
+		SetSelector
+		{
+			TechLogic none/earthen wall/stone wall/fortified wall/great wall
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual GenericDestruction
+						Connect FOREHEAD Tage1 hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongWallA
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongGreekWallB
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction LongGreekWallB
+					}
+				}
+			}
+//---------------------------------second wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				setSelector
+				{
+
+					set hotspot
+					{
+						version
+						{
+							Visual GenericDestruction
+							Connect FOREHEAD Tage1 hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------third wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Stone Long Stage3_Death
+							connect hotspot dust hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------Fourth wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Fortified Long stage3_Death
+							connect hotspot dust hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------Fifth wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Great Long stage3_Death
+							connect hotspot dust hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction LongGreekWallC
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="BlackHole" type="Implode" techname="Black Hole">
+	<activetime>20 </activetime>
+	<pullradius>25.0 </pullradius>
+	<exploderadius>35.0 </exploderadius>
+	<unitescaperadius>35.0 </unitescaperadius>
+	<rangeindicatorprotoid radius="20.0" indicatorcount="10" speed="0.2">UI Range Indicator Atlantean SFX</rangeindicatorprotoid>
+	<pullstrengthincrement>0.1 </pullstrengthincrement>
+	<maximumpullstrength>2.0 </maximumpullstrength>
+	<pullstrengthoverkillincrement>0.1 </pullstrengthoverkillincrement>
+	<pullstrengthadjustfactor>0.06 </pullstrengthadjustfactor>
+	<baseshearincrement>0.1 </baseshearincrement>
+	<baseshearmax>1.0 </baseshearmax>
+	<unitacceleration>4.0 </unitacceleration>
+	<poweraccumulationincrement>0.1 </poweraccumulationincrement>
+	<maximumaccumulatedpower>1.0 </maximumaccumulatedpower>
+	<spherescalemultiplier>1.2 </spherescalemultiplier>
+	<shearmultiplier>0.2 </shearmultiplier>
+	<unitimplodetimedelaymin>0.3 </unitimplodetimedelaymin>
+	<unitimplodetimedelaymax>0.7 </unitimplodetimedelaymax>
+	<unitimplodeendtimedelaymin>1.01 </unitimplodeendtimedelaymin>
+	<unitimplodeendtimedelaymax>1.1 </unitimplodeendtimedelaymax>
+	<spheretargetheight>3.0 </spheretargetheight>
+	<sphereheightadjustfactor>2.0 </sphereheightadjustfactor>
+	<unitfloatadjustfactor>0.3 </unitfloatadjustfactor>
+	<spheremovementdelay>1.0 </spheremovementdelay>
+	<randomlightninglengthfractionmin>0.3 </randomlightninglengthfractionmin>
+	<randomlightninglengthfractionmax>0.5 </randomlightninglengthfractionmax>
+	<lightningtounitlengthfractionmin>0.5 </lightningtounitlengthfractionmin>
+	<lightningtounitlengthfractionmax>0.9 </lightningtounitlengthfractionmax>
+	<lightningprobability>0.05 </lightningprobability>
+	<mintimeinstagestarting>3.0 </mintimeinstagestarting>
+	<mintimeinstagepullingunits>4.0 </mintimeinstagepullingunits>
+	<mintimeinstageexploding>3.0 </mintimeinstageexploding>
+	<explosiondelay>100.6 </explosiondelay>
+	<shockwavevelocity>15.0 </shockwavevelocity>
+	<outerorbitradiussquared>225.0 </outerorbitradiussquared>
+	<middleorbitradiussquared>100.0 </middleorbitradiussquared>
+	<innerorbitradiussquared>25.0 </innerorbitradiussquared>
+	<outerorbitangularacceleration>0.5 </outerorbitangularacceleration>
+	<middleorbitangularacceleration>2.5 </middleorbitangularacceleration>
+	<innerorbitangularacceleration>14.0 </innerorbitangularacceleration>
+	<sphereeffectrotationmultiplier>0.0 </sphereeffectrotationmultiplier>
+	<minthrowdistance>10 </minthrowdistance>
+	<maxthrowdistance>15 </maxthrowdistance>
+	<minthrowheight>0.5 </minthrowheight>
+	<maxthrowheight>1.5 </maxthrowheight>
+	<minthrowvelocity>15 </minthrowvelocity>
+	<maxthrowvelocity>22 </maxthrowvelocity>
+	<initialrumblecamerashakeduration>3.0 </initialrumblecamerashakeduration>
+	<initialrumblecamerashakestrength>0.05 </initialrumblecamerashakestrength>
+	<unitdeathcamerashakeduration>0.1 </unitdeathcamerashakeduration>
+	<unitdeathcamerashakestrength>0.1 </unitdeathcamerashakestrength>
+	<explosioncamerashakeduration>0.8 </explosioncamerashakeduration>
+	<explosioncamerashakestrength>0.3 </explosioncamerashakestrength>
+	<sphereproto>Implode Sphere</sphereproto>
+	<sphereeffectproto>Implode Sphere Effect</sphereeffectproto>
+	<lightningeffectproto>Implode Lightning Effect</lightningeffectproto>
+	<pulleffectproto>Implode Pull Effect</pulleffectproto>
+	<shockwaveproto>Implode Shockwave</shockwaveproto>
+	<debrisproto>Implode Debris</debrisproto>
+	<playsbattlemusic></playsbattlemusic>
+	<abstractattacktargettype>LogicalTypeImplodeAttack</abstractattacktargettype>
+	<gpdamagemodel>
+		<playerrelation>enemy</playerrelation>
+		<maxhpdamageunit>60000000 </maxhpdamageunit>
+		<maxhpdamagevillager>7000000 </maxhpdamagevillager>
+		<maxhpdamagebuilding>50 </maxhpdamagebuilding>
+	</gpdamagemodel>
+	<gpdamagemodel>
+		<playerrelation>ally</playerrelation>
+		<maxhpdamageunit>60000000 </maxhpdamageunit>
+		<maxhpdamagevillager>7000000 </maxhpdamagevillager>
+		<maxhpdamagebuilding>80 </maxhpdamagebuilding>
+	</gpdamagemodel>
+	<powerblocker>30 </powerblocker>
+	<placement forceonmap="1">skip</placement>
+	<reveallos radius="30.0">Revealer To Player</reveallos>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<soundset type="Manual" listenertype="IfOnScreenAll" loop="1">ImplodeWind</soundset>
+	<soundset type="Manual" listenertype="IfOnScreenAll" loop="1">ImplodeLightning</soundset>
+	<implodestartsoundset>ImplodeStart</implodestartsoundset>
+	<implodeexplodesoundset>ImplodeExplode</implodeexplodesoundset>
+	<implodeexplosionwindupsoundset>ImplodeReverse</implodeexplosionwindupsoundset>
+	<explosionwinduplength>1.396 </explosionwinduplength>
+	<implodehitsoundset>ImplodeHit</implodehitsoundset>
+	<unitaitype>Earthquake</unitaitype>
+</power>

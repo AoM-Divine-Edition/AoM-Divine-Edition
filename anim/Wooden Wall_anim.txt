@@ -1,0 +1,44 @@
+//==============================================================================
+// Courtyard Plants_anim.txt
+//==============================================================================
+
+//==============================================================================
+anim idle
+{
+	SetSelector
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual Wall Wood long
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Wall Wood medium
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Wall Wood Pillar
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Wall Wood short
+				
+			}
+		}
+	}
+}

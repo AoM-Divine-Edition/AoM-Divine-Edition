@@ -1,0 +1,373 @@
+//==============================================================================
+// Sobek (God of the Nile)
+//==============================================================================
+
+
+                           ____________________________________
+                          |                                    |
+                          |      CREATED by WOLLIEWOLTAZ       |
+                          |____________________________________|
+						  
+						  
+						  
+//==============================================================================
+//==============================================================================
+//Particle Attachments
+//==============================================================================
+
+//==============================================================================
+define heroglow
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Hero Glow Small
+      }
+   }
+}
+//==============================================================================
+define birthSFX
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle sfx sobek birth effect
+      }
+   }
+}
+//==============================================================================
+define WaterWhip
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle World A Fountain Water Atlantis Large
+      }
+   }
+}
+//==============================================================================
+define WaterSpray
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle sfx c geyser water
+      }
+   }
+}
+//==============================================================================
+define WaterPrint
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle sfx sobek waterprint
+      }
+   }
+}
+
+//==============================================================================
+define ring
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle sfx a implode ring
+      }
+   }
+}
+
+//==============================================================================
+anim Birth
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+			VisualGranny Sobek_birth
+			Connect PELVIS heroglow hotspot
+			Connect ATTACHPOINT birthSFX hotspot
+			tag SpecificSoundSet 0.0 false sobekbirth checkVisible
+               length 1.2
+         }
+      }
+   }
+}
+//==============================================================================
+anim idle
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+			VisualGranny Sobek_idle
+			Connect PELVIS heroglow hotspot			
+         }
+      }
+   }
+}
+//==============================================================================
+anim Walk
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+			        VisualGranny Sobek_runA
+			Connect PELVIS heroglow hotspot
+				Connect rightfoot WaterPrint hotspot
+				Connect leftfoot WaterPrint hotspot
+                                tag SpecificSoundSet 0.15 false SobekMovementSteps checkVisible
+				tag SpecificSoundSet 0.70 false SobekMovementSteps checkVisible
+               length 1.2
+         }
+			version
+         {
+			        VisualGranny Sobek_runB
+			Connect PELVIS heroglow hotspot
+				Connect rightfoot WaterPrint hotspot
+				Connect leftfoot WaterPrint hotspot
+                tag SpecificSoundSet 0.15 false SobekMovementSteps checkVisible
+				tag SpecificSoundSet 0.70 false SobekMovementSteps checkVisible
+               length 1.2
+        }
+      }
+   }
+}
+//==============================================================================
+anim Bored
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+			        VisualGranny Sobek_boredA
+			Connect PELVIS heroglow hotspot
+                                
+         }
+			version
+         {
+			        VisualGranny Sobek_boredB
+			Connect PELVIS heroglow hotspot
+                                
+         }
+			version
+         {
+			        VisualGranny Sobek_boredC
+			Connect PELVIS heroglow hotspot
+                                
+         }
+			version
+         {
+			        VisualGranny Sobek_boredD
+			Connect PELVIS heroglow hotspot
+                                
+         }
+			version
+         {
+			        VisualGranny Sobek_boredE
+			Connect PELVIS heroglow hotspot
+                                
+         }
+			version
+         {
+			        VisualGranny Sobek_laugh
+			Connect PELVIS heroglow hotspot
+         }
+			version
+         {
+			        VisualGranny Sobek_taunt
+			Connect PELVIS heroglow hotspot
+                                
+         }
+			version
+         {
+			        VisualGranny SobekNW_dance
+			Connect PELVIS heroglow hotspot
+                                
+         }
+      }
+   }
+}
+//==============================================================================
+anim convert
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+			VisualGranny Sobek_laugh
+			Connect PELVIS heroglow hotspot
+         }
+      }
+   }
+}
+//==============================================================================
+anim Attack
+{
+   SetSelector
+   {
+VariationLogic
+      set hotspot
+      {
+         version
+         {
+				VisualGranny Sobek_attackA
+			Connect PELVIS heroglow hotspot
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+               tag Attack 0.35 true   
+               tag GenericSound 0.35 true
+	       tag SpecificSoundSet 0.35 false BigSwing checkVisible
+//-- end auto generated section
+		
+	     }
+			version
+         {
+				VisualGranny Sobek_attackB
+			Connect PELVIS heroglow hotspot
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+               tag Attack 0.40 true   
+               tag SpecificSoundSet 0.40 false BigSwing checkVisible 
+//-- end auto generated section
+
+	    }
+      }
+   }
+}
+//==============================================================================
+anim Death
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+			VisualGranny Sobek_death
+			Connect PELVIS heroglow hotspot
+               length 4.0
+               tag SpecificSoundSet 0.12 false HeavyFall checkVisible	
+               tag SpecificSoundSet 0.52 false sobekgrunt checkVisible	
+               tag SpecificSoundSet 0.56 false sobekgrunt checkVisible			   
+         }
+      }
+   }
+}
+//==============================================================================
+anim Flail
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+			VisualGranny Sobek_flail
+			Connect PELVIS heroglow hotspot
+			
+         }
+      }
+   }
+}
+//==============================================================================
+anim JumpFly
+{
+   SetSelector
+   {
+VariationLogic
+      set hotspot
+      {
+         version
+         {
+				VisualGranny Sobek_attackC
+			Connect PELVIS heroglow hotspot
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+               tag Attack 0.98 true   
+               tag Attack 1.00 true
+               tag SpecificSoundSet 0.42 false BigSwing checkVisible
+               tag SpecificSoundSet 0.58 false BigSwing checkVisible 
+//-- end auto generated section
+               length 1.2
+		
+         }
+      }
+   }
+}
+
+//==============================================================================
+
+anim whirlwindAttack
+{
+   SetSelector
+   {
+VariationLogic
+      set hotspot
+      {
+         version
+         {
+				VisualGranny Sobek_attackD
+			Connect PELVIS heroglow hotspot
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+               tag Attack 0.65 true   
+               tag SpecificSoundSet 0.65 false HeavySwing checkVisible 
+				Connect ATTACHPOINT ring hotspot
+//-- end auto generated section
+               length 1.5
+		
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim Gore
+{
+   SetSelector
+   {
+VariationLogic
+      set hotspot
+      {
+         version
+         {
+				VisualGranny Sobek3_TailWhip
+			Connect PELVIS heroglow hotspot
+				Connect lefthand WaterWhip hotspot
+				Connect righthand WaterWhip hotspot
+				Connect leftforearm WaterWhip hotspot
+				Connect rightforearm WaterWhip hotspot
+				Connect lefthand WaterSpray hotspot
+				Connect righthand WaterSpray hotspot
+				Connect leftforearm WaterSpray hotspot
+				Connect rightforearm WaterSpray hotspot
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+               tag Attack 0.40 true   
+               tag SpecificSoundSet 0.01 false TailWhip checkVisible
+//-- end auto generated section
+               length 2.2		
+         }
+      }
+   }
+}
+
+

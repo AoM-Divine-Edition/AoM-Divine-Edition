@@ -1,0 +1,100 @@
+
+//==============================================================================
+// Hypaspist_anim.txt
+//==============================================================================
+
+import Greek_Large_Shield_anim.txt
+import Atlantis_Sword_anim.txt
+
+//==============================================================================
+define G_Small_Brick
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Building Construction G Small Brick
+      }
+   }  
+}
+
+//==============================================================================
+
+define carryStuff
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Attachments A Resource Fish
+      }
+   }
+}
+//==============================================================================
+anim Idle
+{
+   SetSelector
+   {
+      VariationLogic
+      set hotspot
+      {
+         version
+         {
+		Visual Aztec Travois
+		
+           	
+         }
+      }
+    
+   }
+}
+
+
+//==============================================================================
+anim Walk
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+		Visual Aztec Travois Walk
+		
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim Death
+{
+SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+		Visual Aztec Travois Death
+         }
+      }
+   }
+}
+
+
+//==============================================================================
+anim Bored
+{
+	Visual Aztec Travois
+	
+}
+
+
+//==============================================================================
+anim Flail
+{
+   Visual Aztec Travois Walk
+   
+}
+
+

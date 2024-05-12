@@ -1,0 +1,61 @@
+//==============================================================================
+// Courtyard Plants_anim.txt
+//==============================================================================
+
+import implode sphere effect_anim.txt
+
+
+//==============================================================================
+define mist
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Generic Mist
+      }
+   }
+}
+
+
+//==============================================================================
+define snow
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle world a snow drift
+      }
+   }
+}
+
+
+
+//==============================================================================
+anim idle
+{
+	SetSelector
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual Tikal face
+
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Tikal New
+
+				
+			}
+		}
+	
+	}
+}

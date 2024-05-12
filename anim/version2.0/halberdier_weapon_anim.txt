@@ -1,0 +1,71 @@
+//==============================================================================
+// Ji defines_anim.txt
+//==============================================================================
+
+//==============================================================================
+define Flame
+{
+	SetSelector
+	{
+		TechLogic none/Flaming Weapons Active
+		set hotspot
+		{
+			version
+			{
+				Visualnone jimmy
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visualparticle SFX A Flaming Spear
+			}
+		}
+	}
+}
+
+//==============================================================================
+define Weapon
+{
+	SetSelector
+	{		
+		TechLogic none/Copper Weapons/Bronze Weapons/Iron Weapons
+		set hotspot
+		{
+			version
+			{
+				Visual Attachments C Halberd Standard
+				connect Fire Flame hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Attachments C Ji
+				connect Fire Flame hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Attachments C Ji
+				ReplaceTexture attachments c halberd copper/attachments c halberd Iron
+				ReplaceTexture attachment c halberd head copper/attachment c halberd head Iron
+				connect Fire Flame hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Attachments C Ji
+				ReplaceTexture attachments c halberd copper/attachments c halberd Bronze
+				ReplaceTexture attachment c halberd head copper/attachment c halberd head Bronze
+				connect Fire Flame hotspot
+			}
+		}
+	}
+}

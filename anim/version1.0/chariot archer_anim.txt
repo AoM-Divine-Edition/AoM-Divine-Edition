@@ -1,0 +1,1509 @@
+//==============================================================================
+// Chariot Archer_anim.txt
+//==============================================================================
+
+import Egyptian_bow_defines_anim.txt
+
+//==============================================================================
+define Head
+{
+	TechLogic none/Heavy Chariots/Champion Chariots
+	set hotspot
+	{
+		version
+		{
+			Visual Cavalry E Chariot Archer Head
+		}
+	}
+	set hotspot
+	{
+		version
+		{
+			Visual Cavalry E Chariot Archer Head
+			ReplaceTexture Cavalry E Chariot Archer Head Copper/Cavalry E Chariot Archer Head Bronze
+		}
+	}
+	set hotspot
+	{
+		version
+		{
+			Visual Cavalry E Chariot Archer Head
+			ReplaceTexture Cavalry E Chariot Archer Head Copper/Cavalry E Chariot Archer Head Iron
+		}
+	}
+}
+
+//==============================================================================
+define EgyptianChariotArcherShield
+{
+	SetSelector
+	{
+		TechLogic none/Copper shields/Bronze shields/Iron shields
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					visualnone jimmy
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Chariots/Champion Chariots
+			set hotspot
+			{
+				version
+				{
+					visual Attachments E Shield Small Copper
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Attachments E Shield Small Bronze
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Attachments E Shield Small Iron
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Copper shields/Bronze shields/Iron shields
+			set hotspot
+			{
+				version
+				{
+					visual Attachments E Shield Small Copper
+					ReplaceTexture Attachments E Shield Copper/Attachments E Shield Bronze
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Attachments E Shield Small Bronze
+					ReplaceTexture Attachments E Shield Copper/Attachments E Shield Bronze
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Attachments E Shield Small Iron
+					ReplaceTexture Attachments E Shield Copper/Attachments E Shield Bronze
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Copper shields/Bronze shields/Iron shields
+			set hotspot
+			{
+				version
+				{
+					visual Attachments E Shield Small Copper
+					ReplaceTexture Attachments E Shield Copper/Attachments E Shield Iron
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Attachments E Shield Small Bronze
+					ReplaceTexture Attachments E Shield Copper/Attachments E Shield Iron
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Attachments E Shield Small Iron
+					ReplaceTexture Attachments E Shield Copper/Attachments E Shield Iron
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+define Wheel
+{
+	SetSelector
+	{
+		TechLogic none/Heavy Chariots/Champion Chariots
+		set hotspot
+		{
+			version
+			{
+				Visual attachments a wheel spoked
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Attachments E Wheel Heavy Chariots
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Attachments E Wheel Heavy Chariots
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Bored
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		SetSelector
+		{
+			TechLogic none/Heavy Chariots/Champion Chariots
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-boredA
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Standard
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-boredA
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Standard
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Bronze
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Bronze
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-boredA
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Standard
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Iron
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Iron
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Chariots/Champion Chariots
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-boredA
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-boredA
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Bronze
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Bronze
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-boredA
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Iron
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Iron
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Chariots/Champion Chariots
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-boredA
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Bronze
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-boredA
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Bronze
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Bronze
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Bronze
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-boredA
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Bronze
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Iron
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Iron
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Chariots/Champion Chariots
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-boredA
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Iron
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-boredA
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Iron
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Bronze
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Bronze
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-boredA
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Iron
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Iron
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Iron
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Walk
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		SetSelector
+		{
+			TechLogic none/Heavy Chariots/Champion Chariots
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-walkA
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Standard
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.00 true	
+					tag FootstepLeft 0.80 true	
+					tag FootstepRight 0.10 true 
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-walkA
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Standard
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Bronze
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Bronze
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.00 true	
+					tag FootstepLeft 0.80 true	
+					tag FootstepRight 0.10 true 
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-walkA
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Standard
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Iron
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Iron
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.00 true	
+					tag FootstepLeft 0.80 true	
+					tag FootstepRight 0.10 true 
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Chariots/Champion Chariots
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-walkA
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.00 true	
+					tag FootstepLeft 0.80 true	
+					tag FootstepRight 0.10 true 
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-walkA
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Bronze
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Bronze
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.00 true	
+					tag FootstepLeft 0.80 true	
+					tag FootstepRight 0.10 true 
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-walkA
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Iron
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Iron
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.00 true	
+					tag FootstepLeft 0.80 true	
+					tag FootstepRight 0.10 true 
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Chariots/Champion Chariots
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-walkA
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Bronze
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.00 true	
+					tag FootstepLeft 0.80 true	
+					tag FootstepRight 0.10 true 
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-walkA
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Bronze
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Bronze
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Bronze
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.00 true	
+					tag FootstepLeft 0.80 true	
+					tag FootstepRight 0.10 true 
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-walkA
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Bronze
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Iron
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Iron
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.00 true	
+					tag FootstepLeft 0.80 true	
+					tag FootstepRight 0.10 true 
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Chariots/Champion Chariots
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-walkA
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Iron
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.00 true	
+					tag FootstepLeft 0.80 true	
+					tag FootstepRight 0.10 true 
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-walkA
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Bronze
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Bronze
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Iron
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.00 true	
+					tag FootstepLeft 0.80 true	
+					tag FootstepRight 0.10 true 
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-walkA
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Iron
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Iron
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Iron
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.00 true	
+					tag FootstepLeft 0.80 true	
+					tag FootstepRight 0.10 true 
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Death
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		SetSelector
+		{
+			TechLogic none/Heavy Chariots/Champion Chariots
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-deathA
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Standard
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.13 false SiegeTowerDeath checkVisible 
+					tag SpecificSoundSet 0.69 false HeavyFall checkVisible 
+//-- end auto generated section
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-deathA
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Standard
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Bronze
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Bronze
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.13 false SiegeTowerDeath checkVisible 
+					tag SpecificSoundSet 0.69 false HeavyFall checkVisible 
+//-- end auto generated section
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-deathA
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Standard
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Iron
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Iron
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.13 false SiegeTowerDeath checkVisible 
+					tag SpecificSoundSet 0.69 false HeavyFall checkVisible 
+//-- end auto generated section
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Chariots/Champion Chariots
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-deathA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.13 false SiegeTowerDeath checkVisible 
+					tag SpecificSoundSet 0.69 false HeavyFall checkVisible 
+//-- end auto generated section
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-deathA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.13 false SiegeTowerDeath checkVisible 
+					tag SpecificSoundSet 0.69 false HeavyFall checkVisible 
+//-- end auto generated section
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Bronze
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Bronze
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-deathA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.13 false SiegeTowerDeath checkVisible 
+					tag SpecificSoundSet 0.69 false HeavyFall checkVisible 
+//-- end auto generated section
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Iron
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Iron
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Chariots/Champion Chariots
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-deathA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.13 false SiegeTowerDeath checkVisible 
+					tag SpecificSoundSet 0.69 false HeavyFall checkVisible 
+//-- end auto generated section
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Bronze
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-deathA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.13 false SiegeTowerDeath checkVisible 
+					tag SpecificSoundSet 0.69 false HeavyFall checkVisible 
+//-- end auto generated section
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Bronze
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Bronze
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Bronze
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-deathA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.13 false SiegeTowerDeath checkVisible 
+					tag SpecificSoundSet 0.69 false HeavyFall checkVisible 
+//-- end auto generated section
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Bronze
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Iron
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Iron
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Chariots/Champion Chariots
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-deathA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.13 false SiegeTowerDeath checkVisible 
+					tag SpecificSoundSet 0.69 false HeavyFall checkVisible 
+//-- end auto generated section
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Iron
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-deathA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.13 false SiegeTowerDeath checkVisible 
+					tag SpecificSoundSet 0.69 false HeavyFall checkVisible 
+//-- end auto generated section
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Bronze
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Bronze
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Iron
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-deathA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.13 false SiegeTowerDeath checkVisible 
+					tag SpecificSoundSet 0.69 false HeavyFall checkVisible 
+//-- end auto generated section
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Iron
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Iron
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Iron
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Idle
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		SetSelector
+		{
+			TechLogic none/Heavy Chariots/Champion Chariots
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-idleA
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Standard
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-idleA
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Standard
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Bronze
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Bronze
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-idleA
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Standard
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Iron
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Iron
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Chariots/Champion Chariots
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-idleA
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-idleA
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Bronze
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Bronze
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-idleA
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Iron
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Iron
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Chariots/Champion Chariots
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-idleA
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Bronze
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-idleA
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Bronze
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Bronze
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Bronze
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-idleA
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Bronze
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Iron
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Iron
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Chariots/Champion Chariots
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-idleA
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Iron
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-idleA
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Iron
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Bronze
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Bronze
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-idleA
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Iron
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Iron
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Iron
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim RangedAttack
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		SetSelector
+		{
+			TechLogic none/Heavy Chariots/Champion Chariots
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-attackA
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Standard
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag Attack 0.64 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.66 false Arrow checkVisible 
+	//-- end auto generated section
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-attackA
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Standard
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Bronze
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Bronze
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag Attack 0.92 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.66 false Arrow checkVisible 
+	//-- end auto generated section
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-attackA
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Standard
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Iron
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Iron
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag Attack 0.92 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.66 false Arrow checkVisible 
+	//-- end auto generated section
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Chariots/Champion Chariots
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-attackA
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag Attack 0.64 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.66 false Arrow checkVisible 
+	//-- end auto generated section
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-attackA
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag Attack 0.92 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.66 false Arrow checkVisible 
+	//-- end auto generated section
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Bronze
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Bronze
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-attackA
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag Attack 0.92 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.66 false Arrow checkVisible 
+	//-- end auto generated section
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Iron
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Iron
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Chariots/Champion Chariots
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-attackA
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag Attack 0.64 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.66 false Arrow checkVisible 
+	//-- end auto generated section
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Bronze
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-attackA
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag Attack 0.92 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.66 false Arrow checkVisible 
+	//-- end auto generated section
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Bronze
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Bronze
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Bronze
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-attackA
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag Attack 0.92 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.66 false Arrow checkVisible 
+	//-- end auto generated section
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Bronze
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Iron
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Iron
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Chariots/Champion Chariots
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-attackA
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag Attack 0.64 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.66 false Arrow checkVisible 
+	//-- end auto generated section
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Iron
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-attackA
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag Attack 0.92 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.66 false Arrow checkVisible 
+	//-- end auto generated section
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Iron
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Bronze
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Bronze
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-attackA
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag Attack 0.92 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.66 false Arrow checkVisible 
+	//-- end auto generated section
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Iron
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Iron
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Iron
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Flail
+{
+
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		SetSelector
+		{
+			TechLogic none/Heavy Chariots/Champion Chariots
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-FlailA
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Standard
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-FlailA
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Standard
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Bronze
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Bronze
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-FlailA
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Standard
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Iron
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Iron
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Chariots/Champion Chariots
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-FlailA
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-FlailA
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Bronze
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Bronze
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-FlailA
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Iron
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Iron
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Chariots/Champion Chariots
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-FlailA
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Bronze
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-FlailA
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Bronze
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Bronze
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Bronze
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-FlailA
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Bronze
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Iron
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Iron
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Chariots/Champion Chariots
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-FlailA
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Iron
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-FlailA
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Iron
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Bronze
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Bronze
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E Chariot Archer_Headless-FlailA
+					ReplaceTexture Cavalry E Chariot Archer Copper/Cavalry E Chariot Archer Iron
+					ReplaceTexture Cavalry E Chariot Copper/Cavalry E Chariot Archer Iron
+					ReplaceTexture Cavalry E Chariot Horse Copper/Cavalry E Chariot Archer Iron
+					connect LeftForearm EgyptianChariotArcherShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect TopOfHead Head hotspot
+					Connect LeftHand Bow hotspot
+				}
+			}
+		}
+	}
+}

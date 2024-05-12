@@ -1,0 +1,662 @@
+//==============================================================================
+// Jarl_anim.txt
+//==============================================================================
+
+import norse_sword_anim.txt
+import Norse_Cavalry_Shield_anim.txt
+
+//==============================================================================
+define Head
+{
+
+	SetSelector
+	{		
+		TechLogic none/Medium Cavalry/Heavy Cavalry/Champion Cavalry
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry N Jarl Head Standard
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry N Jarl Head Copper
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry N Jarl Head Bronze
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry N Jarl Head Iron
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Bored
+{
+	SetSelector
+	{
+		CinematicLogic
+		SetSelector
+		{
+			TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+			Set Hotspot
+			{
+				version
+				{
+					Visual Cavalry N Jarl_BoredA
+					connect RightHand norseSword hotspot
+					Connect TopOfHead Head hotspot
+					connect LeftForearm NorseCavalryShield hotspot
+				}
+				version
+				{
+					Visual Cavalry N Jarl_BoredB
+					connect RightHand norseSword hotspot
+					Connect TopOfHead Head hotspot
+					connect LeftForearm NorseCavalryShield hotspot
+				}
+			}
+			Set Hotspot
+			{
+				version
+				{
+					Visual Cavalry N Jarl_BoredA
+					ReplaceTexture Cavalry N Jarl Standard/Cavalry N Jarl Copper
+					ReplaceTexture Cavalry N Jarl Horse Standard/Cavalry N Jarl Horse Copper
+					connect RightHand norseSword hotspot
+					Connect TopOfHead Head hotspot
+					connect LeftForearm NorseCavalryShield hotspot
+				}
+				version
+				{
+					Visual Cavalry N Jarl_BoredB
+					ReplaceTexture Cavalry N Jarl Standard/Cavalry N Jarl Copper
+					ReplaceTexture Cavalry N Jarl Horse Standard/Cavalry N Jarl Horse Copper
+					connect RightHand norseSword hotspot
+					Connect TopOfHead Head hotspot
+					connect LeftForearm NorseCavalryShield hotspot
+				}
+			}
+			Set Hotspot
+			{
+				version
+				{
+					Visual Cavalry N Jarl_BoredA
+					ReplaceTexture Cavalry N Jarl Standard/Cavalry N Jarl Bronze
+					ReplaceTexture Cavalry N Jarl Horse Standard/Cavalry N Jarl Horse Bronze
+					connect RightHand norseSword hotspot
+					Connect TopOfHead Head hotspot
+					connect LeftForearm NorseCavalryShield hotspot
+				}
+				version
+				{
+					Visual Cavalry N Jarl_BoredB
+					ReplaceTexture Cavalry N Jarl Standard/Cavalry N Jarl Bronze
+					ReplaceTexture Cavalry N Jarl Horse Standard/Cavalry N Jarl Horse Bronze
+					connect RightHand norseSword hotspot
+					Connect TopOfHead Head hotspot
+					connect LeftForearm NorseCavalryShield hotspot
+				}
+			}
+			Set Hotspot
+			{
+				version
+				{
+					Visual Cavalry N Jarl_BoredA
+					ReplaceTexture Cavalry N Jarl Standard/Cavalry N Jarl Iron
+					ReplaceTexture Cavalry N Jarl Horse Standard/Cavalry N Jarl Horse Iron
+					connect RightHand norseSword hotspot
+					Connect TopOfHead Head hotspot
+					connect LeftForearm NorseCavalryShield hotspot
+				}
+				version
+				{
+					Visual Cavalry N Jarl_BoredB
+					ReplaceTexture Cavalry N Jarl Standard/Cavalry N Jarl Iron
+					ReplaceTexture Cavalry N Jarl Horse Standard/Cavalry N Jarl Horse Iron
+					connect RightHand norseSword hotspot
+					Connect TopOfHead Head hotspot
+					connect LeftForearm NorseCavalryShield hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					VisualGranny Jarl_idleA
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Walk
+{
+	SetSelector
+	{
+		CinematicLogic
+		SetSelector
+		{
+			TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry N Jarl_WalkB
+					connect RightHand norseSword hotspot
+					connect LeftForearm NorseCavalryShield hotspot
+					Connect TopOfHead Head hotspot
+					tag FootstepLeft 0.60 true	
+					tag FootstepRight 0.05 true	
+					tag FootstepLeft 0.95 true	
+					tag FootstepRight 0.50 true 
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry N Jarl_WalkB
+					ReplaceTexture Cavalry N Jarl Standard/Cavalry N Jarl Copper
+					ReplaceTexture Cavalry N Jarl Horse Standard/Cavalry N Jarl Horse Copper
+					connect RightHand norseSword hotspot
+					connect LeftForearm NorseCavalryShield hotspot
+					Connect TopOfHead Head hotspot
+					tag FootstepLeft 0.60 true	
+					tag FootstepRight 0.05 true	
+					tag FootstepLeft 0.95 true	
+					tag FootstepRight 0.50 true 
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry N Jarl_WalkB
+					ReplaceTexture Cavalry G Normal Standard/Cavalry G Normal Bronze
+					ReplaceTexture Cavalry N Jarl Horse Standard/Cavalry N Jarl Horse Bronze
+					connect RightHand norseSword hotspot
+					connect LeftForearm NorseCavalryShield hotspot
+					Connect TopOfHead Head hotspot
+					tag FootstepLeft 0.60 true	
+					tag FootstepRight 0.05 true	
+					tag FootstepLeft 0.95 true	
+					tag FootstepRight 0.50 true 
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry N Jarl_WalkB
+					ReplaceTexture Cavalry G Normal Standard/Cavalry G Normal Iron
+					ReplaceTexture Cavalry N Jarl Horse Standard/Cavalry N Jarl Horse Iron
+					connect RightHand norseSword hotspot
+					connect LeftForearm NorseCavalryShield hotspot
+					Connect TopOfHead Head hotspot
+					tag FootstepLeft 0.60 true	
+					tag FootstepRight 0.05 true	
+					tag FootstepLeft 0.95 true	
+					tag FootstepRight 0.50 true 
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					VisualGranny Jarl_walkA
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Death
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry N Jarl_DeathA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag SpecificSoundSet 0.60 false HeavyFall checkVisible 
+//-- end auto generated section
+				connect RightHand norseSword hotspot
+				connect LeftForearm NorseCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry N Jarl_DeathA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag SpecificSoundSet 0.60 false HeavyFall checkVisible 
+//-- end auto generated section
+				ReplaceTexture Cavalry N Jarl Standard/Cavalry N Jarl Copper
+				ReplaceTexture Cavalry N Jarl Horse Standard/Cavalry N Jarl Horse Copper
+				connect RightHand norseSword hotspot
+				connect LeftForearm NorseCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry N Jarl_DeathA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag SpecificSoundSet 0.60 false HeavyFall checkVisible 
+//-- end auto generated section
+				ReplaceTexture Cavalry N Jarl Standard/Cavalry N Jarl Bronze
+				ReplaceTexture Cavalry N Jarl Horse Standard/Cavalry N Jarl Horse Bronze
+				connect RightHand norseSword hotspot
+				connect LeftForearm NorseCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry N Jarl_DeathA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag SpecificSoundSet 0.60 false HeavyFall checkVisible 
+//-- end auto generated section
+				ReplaceTexture Cavalry N Jarl Standard/Cavalry N Jarl Iron
+				ReplaceTexture Cavalry N Jarl Horse Standard/Cavalry N Jarl Horse Iron
+				connect RightHand norseSword hotspot
+				connect LeftForearm NorseCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Idle
+{
+	SetSelector
+	{
+		CinematicLogic
+		SetSelector
+		{
+			TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry N Jarl_IdleA
+					connect RightHand norseSword hotspot
+					connect LeftForearm NorseCavalryShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry N Jarl_IdleA
+					ReplaceTexture Cavalry N Jarl Standard/Cavalry N Jarl Copper
+					ReplaceTexture Cavalry N Jarl Horse Standard/Cavalry N Jarl Horse Copper
+					connect RightHand norseSword hotspot
+					connect LeftForearm NorseCavalryShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry N Jarl_IdleA
+					ReplaceTexture Cavalry N Jarl Standard/Cavalry N Jarl Bronze
+					ReplaceTexture Cavalry N Jarl Horse Standard/Cavalry N Jarl Horse Bronze
+					connect RightHand norseSword hotspot
+					connect LeftForearm NorseCavalryShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry N Jarl_IdleA
+					ReplaceTexture Cavalry N Jarl Standard/Cavalry N Jarl Iron
+					ReplaceTexture Cavalry N Jarl Horse Standard/Cavalry N Jarl Horse Iron
+					connect RightHand norseSword hotspot
+					connect LeftForearm NorseCavalryShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					VisualGranny Jarl_idleA
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Attack
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry N Jarl_attackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag Attack 0.50 true	
+						tag GenericSound 0.40 true	
+//-- end auto generated section
+				connect RightHand norseSword hotspot
+				connect LeftForearm NorseCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry N Jarl_attackB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag Attack 0.50 true	
+						tag GenericSound 0.40 true	
+//-- end auto generated section
+				connect RightHand norseSword hotspot
+				connect LeftForearm NorseCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry N Jarl_attackC
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag Attack 0.48 true	
+						tag GenericSound 0.40 true	
+//-- end auto generated section
+				connect RightHand norseSword hotspot
+				connect LeftForearm NorseCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry N Jarl_attackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag Attack 0.50 true	
+						tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry N Jarl Standard/Cavalry N Jarl Copper
+				ReplaceTexture Cavalry N Jarl Horse Standard/Cavalry N Jarl Horse Copper
+				connect RightHand norseSword hotspot
+				connect LeftForearm NorseCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry N Jarl_attackB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag Attack 0.50 true	
+						tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry N Jarl Standard/Cavalry N Jarl Copper
+				ReplaceTexture Cavalry N Jarl Horse Standard/Cavalry N Jarl Horse Copper
+				connect RightHand norseSword hotspot
+				connect LeftForearm NorseCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry N Jarl_attackC
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag Attack 0.48 true	
+						tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry N Jarl Standard/Cavalry N Jarl Copper
+				ReplaceTexture Cavalry N Jarl Horse Standard/Cavalry N Jarl Horse Copper
+				connect RightHand norseSword hotspot
+				connect LeftForearm NorseCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry N Jarl_attackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag Attack 0.50 true	
+						tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry N Jarl Standard/Cavalry N Jarl Bronze
+				ReplaceTexture Cavalry N Jarl Horse Standard/Cavalry N Jarl Horse Bronze
+				connect RightHand norseSword hotspot
+				connect LeftForearm NorseCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry N Jarl_attackB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag Attack 0.50 true	
+						tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry N Jarl Standard/Cavalry N Jarl Bronze
+				ReplaceTexture Cavalry N Jarl Horse Standard/Cavalry N Jarl Horse Bronze
+				connect RightHand norseSword hotspot
+				connect LeftForearm NorseCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry N Jarl_attackC
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag Attack 0.48 true	
+						tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry N Jarl Standard/Cavalry N Jarl Bronze
+				ReplaceTexture Cavalry N Jarl Horse Standard/Cavalry N Jarl Horse Bronze
+				connect RightHand norseSword hotspot
+				connect LeftForearm NorseCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry N Jarl_attackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag Attack 0.50 true	
+						tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry N Jarl Standard/Cavalry N Jarl Iron
+				ReplaceTexture Cavalry N Jarl Horse Standard/Cavalry N Jarl Horse Iron
+				connect RightHand norseSword hotspot
+				connect LeftForearm NorseCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry N Jarl_attackB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag Attack 0.50 true	
+						tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry N Jarl Standard/Cavalry N Jarl Iron
+				ReplaceTexture Cavalry N Jarl Horse Standard/Cavalry N Jarl Horse Iron
+				connect RightHand norseSword hotspot
+				connect LeftForearm NorseCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry N Jarl_attackC
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag Attack 0.48 true	
+						tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry N Jarl Standard/Cavalry N Jarl Iron
+				ReplaceTexture Cavalry N Jarl Horse Standard/Cavalry N Jarl Horse Iron
+				connect RightHand norseSword hotspot
+				connect LeftForearm NorseCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Flail
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry N Jarl_FlailA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag Attack 0.40 true	
+						tag GenericSound 0.40 true	
+//-- end auto generated section
+				connect RightHand norseSword hotspot
+				connect LeftForearm NorseCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry N Jarl_FlailA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag Attack 0.40 true	
+						tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry N Jarl Standard/Cavalry N Jarl Copper
+				ReplaceTexture Cavalry N Jarl Horse Standard/Cavalry N Jarl Horse Copper
+				connect RightHand norseSword hotspot
+				connect LeftForearm NorseCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry N Jarl_FlailA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag Attack 0.40 true	
+						tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry N Jarl Standard/Cavalry N Jarl Bronze
+				ReplaceTexture Cavalry N Jarl Horse Standard/Cavalry N Jarl Horse Bronze
+				connect RightHand norseSword hotspot
+				connect LeftForearm NorseCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry N Jarl_FlailA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag Attack 0.40 true	
+						tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry N Jarl Standard/Cavalry N Jarl Iron
+				ReplaceTexture Cavalry N Jarl Horse Standard/Cavalry N Jarl Horse Iron
+				connect RightHand norseSword hotspot
+				connect LeftForearm NorseCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Cinematic
+{
+	SetSelector
+	{
+		set hotspot
+		{
+			name Jarl_aomsp21niordsir
+			version
+			{
+				VisualGranny Jarl_aomsp21niordsir
+			}
+		}
+		set hotspot
+		{
+			name Jarl_aomsp21aye
+			version
+			{
+				VisualGranny Jarl_aomsp21aye
+			}
+		}
+		set hotspot
+		{
+			name Jarl_aomsp21apocalypse
+			version
+			{
+				VisualGranny Jarl_aomsp21apocalypse
+			}
+		}
+	}
+}

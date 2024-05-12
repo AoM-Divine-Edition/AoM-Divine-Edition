@@ -1,0 +1,43 @@
+//==============================================================================
+// bush_anim.txt
+//==============================================================================
+
+
+//==============================================================================
+anim None
+{
+	SetSelector none 
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual CoastalJapanBush
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual CoastalJapanBush2
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual CoastalJapanBush3
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual CoastalJapanBush4
+			}
+		}
+	}
+}
+
+

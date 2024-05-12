@@ -1,0 +1,67 @@
+//==============================================================================
+// Ball of Fire Promethean_anim.txt
+//==============================================================================
+
+//==============================================================================
+define fire
+{
+	set hotspot
+	{
+		version
+		{
+			Visualparticle SFX A Fire Ball
+		}
+	}
+}
+
+//==============================================================================
+define firetrail
+{
+	set hotspot
+	{
+		version
+		{
+			Visualparticle SFX A Fire Ball Trail
+		}
+	}
+}
+
+//==============================================================================
+define smoke
+{
+	set hotspot
+	{
+		version
+		{
+			Visualparticle SFX A Fire Ball Smoke
+		}
+	}
+}
+
+//==============================================================================
+anim Idle
+{
+	SetSelector
+	{
+		Techlogic none/Alluvial Clay
+		set hotspot
+		{
+			version
+			{
+				Visual MU X Promethean_Balled
+				Connect ATTACHPOINT fire hotspot
+				Connect ATTACHPOINT firetrail hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual MU X Promethean_Balled
+				Connect ATTACHPOINT fire hotspot
+				Connect ATTACHPOINT firetrail hotspot
+				ReplaceTexture MU X Promethean Map/MU X Promethean Upgrade
+			}
+		}
+	}
+}

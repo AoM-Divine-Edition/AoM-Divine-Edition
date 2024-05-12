@@ -1,0 +1,74 @@
+//==============================================================================
+// arrow_anim.txt
+//==============================================================================
+
+//==============================================================================
+
+//==============================================================================
+define Fire
+{
+   TechLogic none/Burning Pitch
+   set hotspot
+   {
+      version
+      {
+         Visualnone jimmy
+      }
+   }   
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Burning Pitch Arrow
+      }
+   }
+}
+
+
+//==============================================================================
+define heroglow
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Hero Glow Small
+      }
+   }
+}
+
+
+//==============================================================================
+anim Idle
+{
+   SetSelector none
+   { 
+      set hotspot
+      {
+         version
+         {
+            Visual nxarrowlight
+connect FIRE Fire hotspot
+Connect FRONTABDOMEN heroglow hotspot
+
+
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim Bored
+{
+   SetSelector
+   { 
+      set hotspot
+      {
+         version
+         {
+            Visual nxarrowlight
+         }
+      }
+   }
+}
+

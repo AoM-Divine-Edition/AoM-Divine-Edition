@@ -1,0 +1,105 @@
+//==============================================================================
+// Farm Plot_anim.txt
+//==============================================================================
+
+//==============================================================================
+define Dust
+{
+	set hotspot
+	{
+		version
+		{
+			Visualparticle SFX A Building DustA
+		}
+	}  
+}
+//==============================================================================
+define nobles4
+{
+   set hotspot
+   {
+      version
+      {
+         		Visual ChinampasPumpkin
+      }
+   }
+}
+
+//==============================================================================
+anim Idle
+{
+	SetSelector
+	{
+      ConstructionLogic 0 33 66
+		set hotspot
+		{
+			version
+			{
+				Visual ChinampasPumpkin
+			}
+		}
+      set hotspot
+      {
+         version
+         {
+				Visual ChinampasConstruct
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				Visual ChinampasConstruct
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				Visual ChinampasConstruct
+         }
+      }
+   }	
+}
+
+//==============================================================================
+anim Death
+{
+	SetSelector
+	{
+      ConstructionLogic 0 33 66
+		set hotspot
+		{
+			version
+			{
+				Visual GenericDestruction
+               	  			connect FOREHEAD nobles4 hotspot
+					connect ATTACHPOINT Dust hotspot
+					connect ATTACHPOINT Dust hotspot
+					connect ATTACHPOINT Dust hotspot
+			}
+		}
+      set hotspot
+      {
+         version
+         {
+				Visual ChinampasConstruct
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				Visual ChinampasConstruct
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				Visual ChinampasConstruct
+         }
+      }
+   }	
+}
+

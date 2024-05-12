@@ -1,0 +1,65 @@
+//==============================================================================
+// bush_anim.txt
+//==============================================================================
+
+
+//==============================================================================
+anim None
+{
+	SetSelector none 
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual Native Basket a
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Native Basket b
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Native Basket c
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Native Basket d
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Native Carpet a
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Native Carpet
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Native Fish
+			}
+		}
+		
+	}
+}
+
+

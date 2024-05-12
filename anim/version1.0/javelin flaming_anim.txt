@@ -1,0 +1,74 @@
+//==============================================================================
+// javelin flaming_anim.txt
+//==============================================================================
+
+//==============================================================================
+define Fire
+{
+	TechLogic none/Burning Pitch/Flaming Weapons Active
+	set hotspot
+	{
+		version
+		{
+			Visualnone jimmy
+		}
+	}	
+	set hotspot
+	{
+		version
+		{
+			Visualparticle SFX A Burning Pitch Spear
+		}
+	}	
+	set hotspot
+	{
+		version
+		{
+			Visualparticle SFX A Burning Pitch Spear
+		}
+	}
+}
+
+//==============================================================================
+anim Idle
+{
+	SetSelector
+	{		
+		TechLogic none/Copper Weapons/Bronze Weapons/Iron Weapons
+		set hotspot
+		{
+			version
+			{
+				Visual Attachments X Javelin
+				connect ATTACHPOINT Fire hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Attachments X Javelin
+				replaceTexture Attachments A Spear Standard/Attachments A Spear Copper
+				connect ATTACHPOINT Fire hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Attachments X Javelin
+				replaceTexture Attachments A Spear Standard/Attachments A Spear Bronze
+				connect ATTACHPOINT Fire hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Attachments X Javelin
+				replaceTexture Attachments A Spear Standard/Attachments A Spear Iron
+				connect ATTACHPOINT Fire hotspot
+			}
+		}
+	}
+}

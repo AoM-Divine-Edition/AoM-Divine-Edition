@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="ThundersJudgement" type="TempUnit" techname="Thunders Judgement">
+	<activetime>8.0</activetime>
+	<!--<placement forceonmap="1">all</placement>-->
+	<placement forceonmap="1">full</placement>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">CinematicThunder</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<playsbattlemusic></playsbattlemusic>
+	
+	<rangeindicatorprotoid radius="10.0" indicatorcount="8" speed="0.2">UI Range Indicator Egypt SFX</rangeindicatorprotoid>
+
+	<createunit quantity="5"  minradius="0" maxradius="0" pattern="symmetric"  delay="0.0">Thunderbird Lightning</createunit>
+	<createunit quantity="10"  minradius="2" maxradius="2" pattern="symmetric"  delay="2.0">Thunderbird Lightning</createunit>
+	<createunit quantity="15"  minradius="4" maxradius="4" pattern="symmetric"  delay="3.0">Thunderbird Lightning</createunit>
+	<createunit quantity="20"  minradius="6" maxradius="6" pattern="symmetric"  delay="4.0">Thunderbird Lightning</createunit>
+	<createunit quantity="25"  minradius="8" maxradius="8" pattern="symmetric"  delay="5.0">Thunderbird Lightning</createunit>
+	<createunit quantity="30"  minradius="10" maxradius="10" pattern="symmetric"  delay="6.0">Thunderbird Lightning</createunit>
+
+	<createunit quantity="5"  minradius="0" maxradius="2" pattern="random"  delay="1.5">Thunderbird Lightning</createunit>
+	<createunit quantity="10"  minradius="2" maxradius="4" pattern="random"  delay="2.5">Thunderbird Lightning</createunit>
+	<createunit quantity="10"  minradius="4" maxradius="6" pattern="random"  delay="3.5">Thunderbird Lightning</createunit>
+	<createunit quantity="10"  minradius="6" maxradius="8" pattern="random"  delay="4.5">Thunderbird Lightning</createunit>
+	<createunit quantity="10"  minradius="8" maxradius="10" pattern="random"  delay="5.5">Thunderbird Lightning</createunit>
+
+
+
+
+
+
+	<powerblocker>30.0f</powerblocker>
+
+	<icon>improvement Thunders Judgement icon</icon>
+	<usedicon>improvement Thunders Judgement used icon</usedicon>
+</power>

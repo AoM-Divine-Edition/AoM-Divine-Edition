@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="NagiAkta" type="swapunit" techname="Nagi Akta">
+	<activetime>0.6</activetime>
+	<rangeindicatorprotoid radius="10.0" indicatorcount="8" speed="0.2">UI Range Indicator Chinese SFX</rangeindicatorprotoid>
+	<radius>10.0</radius>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">Aztec Whistle2</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll" positional="">Aztec Whistle4</soundset>
+	<placement forceonmap="1" matchtype="Owl Soldier Dead Replacement">full</placement>
+	<powerplayerrelation>player</powerplayerrelation>
+	<overallchance>1.00</overallchance>
+	<abstracttype swapto="Owl Soldier 2">Owl Soldier Dead Replacement</abstracttype>
+	<swapdelay>0.5</swapdelay>
+	<convertunitstogodpowerplayer></convertunitstogodpowerplayer>
+	<convertusingminmax minswapamount="4" maxswapamount="4">Owl Soldier Dead Replacement</convertusingminmax>
+	<sfx>Recreation</sfx>
+	<icon>improvement nagi akta icon</icon>
+	<usedicon>improvement nagi akta used icon</usedicon>
+</power>

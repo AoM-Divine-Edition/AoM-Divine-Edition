@@ -1,0 +1,116 @@
+//==============================================================================
+// Oak tree_anim.txt
+//==============================================================================
+
+//==============================================================================
+define BurntEmbers
+{
+   SetSelector
+   {
+       VariationLogic
+       set hotspot
+       {
+          version
+          {
+             Visualparticle SFX A Forest Fire Embers
+          }
+       }
+   }
+}
+
+//==============================================================================
+define BurntSmoke
+{
+   SetSelector
+   {
+       VariationLogic
+       set hotspot
+       {
+          version
+          {
+             Visualparticle SFX A Forest Fire Tree Smoke
+          }
+       }
+   }
+}
+
+//==============================================================================
+define BurntFire
+{
+   SetSelector
+   {
+       set hotspot
+       {
+          version
+          {
+             Visualparticle SFX A Forest Fire Large
+          }
+          version
+          {
+             Visualparticle SFX A Forest Fire Small
+          }
+       }
+   }
+}
+
+//==============================================================================
+anim Idle
+{
+   SetSelector
+   {
+      VariationLogic
+      set hotspot
+      {
+         version
+         {
+            Visual ZSagFlowers
+			connect FIRE BurntFire hotspot
+			connect FIRE BurntSmoke hotspot
+			connect FIRE BurntEmbers hotspot
+         }
+      }      
+      set hotspot
+      {
+         version
+         {
+            Visual ZSagFlowers2
+			connect FIRE BurntFire hotspot
+			connect FIRE BurntSmoke hotspot
+			connect FIRE BurntEmbers hotspot
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+            Visual ZSagFlowers3
+			connect FIRE BurntFire hotspot
+			connect FIRE BurntSmoke hotspot
+			connect FIRE BurntEmbers hotspot
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+            Visual ZSagFlowers4
+			connect FIRE BurntFire hotspot
+			connect FIRE BurntSmoke hotspot
+			connect FIRE BurntEmbers hotspot
+         }
+      }      
+      set hotspot
+      {
+         version
+         {
+            Visual ZSagFlowers5
+			connect FIRE BurntFire hotspot
+			connect FIRE BurntSmoke hotspot
+			connect FIRE BurntEmbers hotspot
+         }
+      }
+     
+   }
+}
+
+

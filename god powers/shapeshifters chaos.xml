@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="ShapeshiftersChaos" type="swapunit" techname="Shapeshifters Chaos">
+	<activetime>0.1 </activetime>
+	<radius>1.0</radius>
+	<placement forceonmap="1" matchtype="HumanSoldier">unit</placement>
+	<powerplayerrelation>enemy</powerplayerrelation>
+	<minimapeventtime sendalertto="all">10.0</minimapeventtime>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">SOOPBirth</soundset>
+	<overallchance>1.0</overallchance>
+	<abstracttype swapto="Tathanka Gnaskiyan Insane">HumanSoldier</abstracttype>
+	<sfx>Osiris SFX</sfx>
+	<mutate></mutate>
+	<unittarget></unittarget>
+	<icon>improvement Shapeshifters Chaos icon</icon>
+	<usedicon>improvement Shapeshifters Chaos used icon</usedicon>
+
+	<recharges>1 </recharges>
+	<rechargetime>120 </rechargetime>
+</power>

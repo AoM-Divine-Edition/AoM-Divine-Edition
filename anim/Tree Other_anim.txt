@@ -1,0 +1,68 @@
+//==============================================================================
+// Courtyard Plants_anim.txt
+//==============================================================================
+
+//==============================================================================
+anim idle
+{
+	SetSelector
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual GreatPlainsTreeA
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual TreeAraucaria
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual TreeIronwood
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual TreelongleafPine
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual TreeOak
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual TreePuya
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual TreeTexas
+				
+			}
+		}
+	}
+}

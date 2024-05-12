@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<layout>
+	<gadget name="SinglePlayerSetup" type="gadget" size1024="0 0 1024 768" background="">
+		<gadget name="SinglePlayerSetup-Background" type="gadget" size1024="25 8 1000 760" background="ui\ui pregame transparency background" tilebackground="">
+			<gadget tilebackgroundhoriz="" name="BasicOptions-BordersTop" type="gadget" background="ui\ui border top middle" clampBackgroundV = "" size1024="25 0 992 32"></gadget>
+			<gadget tilebackgroundhoriz="" name="BasicOptions-BordersBottom" type="gadget" background="ui\ui border bottom middle" clampBackgroundV = "" size1024="25 736 992 768"></gadget>
+			<gadget tilebackgroundvert="" name="BasicOptions-BordersLeft" type="gadget" background="ui\ui border left middle" clampBackgroundU = "" size1024="0 64 64 704"></gadget>
+			<gadget tilebackgroundvert="" name="BasicOptions-BordersRight" type="gadget" background="ui\ui border right middle" clampBackgroundU = "" size1024="960 64 1024 704"></gadget>
+			<gadget name="BasicOptions-BordersLeftTop" type="gadget" background="ui\ui border top left corner" clampBackgroundV = "" size1024="0 0 64 128"></gadget>
+			<gadget name="BasicOptions-BordersLeftBottom" type="gadget" background="ui\ui border bottom left corner" clampBackgroundV = "" size1024="0 640 64 768"></gadget>
+			<gadget name="BasicOptions-BordersRightBottom" type="gadget" background="ui\ui border bottom right corner" clampBackgroundV = "" size1024="960 640 1024 768"></gadget>
+			<gadget name="BasicOptions-BordersRightTop" type="gadget" background="ui\ui border top right corner" clampBackgroundV = "" size1024="960 0 1024 128" z="11"></gadget>
+		</gadget>
+		<gadget name="SinglePlayerSetup-SPRMLabel" textcentervert="" textcolor="255 255 255" textfontsize="22" textfont="PregameHeaders" type="formatText" size1024="52 22 390 47" z="11">$$19802$$Single Player - Random Map</gadget>
+		<gadget name="SinglePlayerSetup-ScreenSeparator" type="gadget" size1024="34 52 990 54" background="ui\ui line yellow" z="11"></gadget>
+		<gadget name="SinglePlayerSetup-PlayersLabel" textcentervert="" textcolor="255 255 255" textfontsize="18" textfont="Pregamelabels" type="formatText" size1024="32 80 160 105" z="11" textjustifyright="">$$19803$$Players:</gadget>
+		<gadget name="SinglePlayerSetup-NumberPlayers" type="scrollList" size1024="168 64 259 118" z="51" textfontsize="16" textfont="ScrollFont" textcolor="1 49 32" background="ui\ui scroll middle tile" tilebackground="" topcapart="ui\ui scroll top tile" bottomcapart="ui\ui scroll bottom tile" leftcapart="ui\ui scroll cap left" rightcapart="ui\ui scroll cap right" border1024="3 0" listitemheight="20" mouseovertext="$$19935$$">
+			<listitem>$$21012$$1v1</listitem>
+			<listitem>$$21013$$1v2</listitem>
+			<listitem>$$21014$$1v3</listitem>
+			<listitem>$$21015$$2v2</listitem>
+			<listitem>$$18757$$Custom</listitem>
+		</gadget>
+		<gadget name="SinglePlayerSetup-OpponentsButton" type="stateButton" size1024="369 77 593 109" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 .875 1" mouseovertext="$$19936$$">$$19810$$Customize Opponents
+			<stateentry background="ui\ui button long 224x32"></stateentry>
+			<stateentry background="ui\ui button long 224X32 clicked"></stateentry>
+			<stateentry background="ui\ui button long 224X32 rollover"></stateentry>
+			<stateentry background=""></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-SelectCivButton" type="stateButton" size1024="66 156 290 188" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 .875 1" mouseovertext="$$19937$$">$$19811$$Select Civilization
+			<stateentry background="ui\ui button long 224x32"></stateentry>
+			<stateentry background="ui\ui button long 224X32 clicked"></stateentry>
+			<stateentry background="ui\ui button long 224X32 rollover"></stateentry>
+			<stateentry background=""></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-SelectMapButton" type="stateButton" size1024="368 156 592 188" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 .875 1" mouseovertext="$$19938$$">$$19812$$Select Map
+			<stateentry background="ui\ui button long 224x32"></stateentry>
+			<stateentry background="ui\ui button long 224X32 clicked"></stateentry>
+			<stateentry background="ui\ui button long 224X32 rollover"></stateentry>
+			<stateentry background=""></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-StartButton" type="stateButton" size1024="315 709 475 741" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 .625 1" mouseovertext="$$19939$$" sound="UI_lightning">$$49136$$Start
+			<stateentry background="ui\ui button long 160x32"></stateentry>
+			<stateentry background="ui\ui button long 160X32 clicked"></stateentry>
+			<stateentry background="ui\ui button long 160X32 rollover"></stateentry>
+			<stateentry background=""></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-QuitButton" type="stateButton" size1024="483 709 643 741" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 .625 1" mouseovertext="$$19940$$">$$18445$$Quit
+			<stateentry background="ui\ui button long 160x32"></stateentry>
+			<stateentry background="ui\ui button long 160X32 clicked"></stateentry>
+			<stateentry background="ui\ui button long 160X32 rollover"></stateentry>
+			<stateentry background=""></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-CivDisplay" type="button" size1024="49 189 305 445" donthighlight="" z="11" background="ui\ui god isis 256x256" mouseovertext="$$19941$$" sound="UI_thunder"></gadget>
+		<gadget name="SinglePlayerSetup-CivDisplay-Azathoth" hidden="" type="stateButton" size1024="49 189 305 445" donthighlight="" statebuttonuseinternalstates="" z="11" background="ui\ui god azathoth 256x256" mouseovertext="$$19941$$" sound="UI_thunder">
+			<stateentry background="ui\ui god azathoth 256x256"></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-CivDisplay-Yog" hidden="" type="stateButton" size1024="49 189 305 445" donthighlight="" statebuttonuseinternalstates="" z="11" background="ui\ui god azathoth 256x256" mouseovertext="$$19941$$" sound="UI_thunder">
+			<stateentry background="ui\ui god yog-sothoth 256x256"></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-CivDisplay-Shub" hidden="" type="stateButton" size1024="49 189 305 445" donthighlight="" statebuttonuseinternalstates="" z="11" background="ui\ui god azathoth 256x256" mouseovertext="$$19941$$" sound="UI_thunder">
+			<stateentry background="ui\ui god shub-niggurath 256x256"></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-CivDisplay-Eldritch" hidden="" type="stateButton" size1024="49 189 305 445" donthighlight="" statebuttonuseinternalstates="" z="11" background="ui\ui god azathoth 256x256" mouseovertext="$$19941$$" sound="UI_thunder">
+			<stateentry background="ui\ui god eldritch 256x256"></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-CivDisplay-Tez" hidden="" type="stateButton" size1024="49 189 305 445" donthighlight="" statebuttonuseinternalstates="" z="11" background="ui\ui god azathoth 256x256" mouseovertext="$$19941$$" sound="UI_thunder">
+			<stateentry background="ui\ui god tezcatlipoca 256x256"></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-CivDisplay-Quet" hidden="" type="stateButton" size1024="49 189 305 445" donthighlight="" statebuttonuseinternalstates="" z="11" background="ui\ui god azathoth 256x256" mouseovertext="$$19941$$" sound="UI_thunder">
+			<stateentry background="ui\ui god quetzalcoatl 256x256"></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-CivDisplay-Huit" hidden="" type="stateButton" size1024="49 189 305 445" donthighlight="" statebuttonuseinternalstates="" z="11" background="ui\ui god azathoth 256x256" mouseovertext="$$19941$$" sound="UI_thunder">
+			<stateentry background="ui\ui god huitzilopochtli 256x256"></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-CivDisplay-Aztec" hidden="" type="stateButton" size1024="49 189 305 445" donthighlight="" statebuttonuseinternalstates="" z="11" background="ui\ui god azathoth 256x256" mouseovertext="$$19941$$" sound="UI_thunder">
+			<stateentry background="ui\ui god aztec 256x256"></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-CivDisplay-Izanagi" hidden="" type="stateButton" size1024="49 189 305 445" donthighlight="" statebuttonuseinternalstates="" z="11" background="ui\ui god azathoth 256x256" mouseovertext="$$19941$$" sound="UI_thunder">
+			<stateentry background="ui\ui god izanagi 256x256"></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-CivDisplay-Izanami" hidden="" type="stateButton" size1024="49 189 305 445" donthighlight="" statebuttonuseinternalstates="" z="11" background="ui\ui god azathoth 256x256" mouseovertext="$$19941$$" sound="UI_thunder">
+			<stateentry background="ui\ui god izanami 256x256"></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-CivDisplay-Kagu" hidden="" type="stateButton" size1024="49 189 305 445" donthighlight="" statebuttonuseinternalstates="" z="11" background="ui\ui god azathoth 256x256" mouseovertext="$$19941$$" sound="UI_thunder">
+			<stateentry background="ui\ui god kagu-tsuchi 256x256"></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-CivDisplay-Japanese" hidden="" type="stateButton" size1024="49 189 305 445" donthighlight="" statebuttonuseinternalstates="" z="11" background="ui\ui god azathoth 256x256" mouseovertext="$$19941$$" sound="UI_thunder">
+			<stateentry background="ui\ui god japanese 256x256"></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-CivDisplay-Khaos" hidden="" type="stateButton" size1024="49 189 305 445" donthighlight="" statebuttonuseinternalstates="" z="11" background="ui\ui god azathoth 256x256" mouseovertext="$$19941$$" sound="UI_thunder">
+			<stateentry background="ui\ui god khaos 256x256"></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-CivDisplay-Chronos" hidden="" type="stateButton" size1024="49 189 305 445" donthighlight="" statebuttonuseinternalstates="" z="11" background="ui\ui god azathoth 256x256" mouseovertext="$$19941$$" sound="UI_thunder">
+			<stateentry background="ui\ui god chronos 256x256"></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-CivDisplay-Ananke" hidden="" type="stateButton" size1024="49 189 305 445" donthighlight="" statebuttonuseinternalstates="" z="11" background="ui\ui god azathoth 256x256" mouseovertext="$$19941$$" sound="UI_thunder">
+			<stateentry background="ui\ui god ananke 256x256"></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-CivDisplay-Proto1" hidden="" type="stateButton" size1024="49 189 305 445" donthighlight="" statebuttonuseinternalstates="" z="11" background="ui\ui god azathoth 256x256" mouseovertext="$$19941$$" sound="UI_thunder">
+			<stateentry background="ui\ui god proto1 256x256"></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-CivDisplay-Nyx" hidden="" type="stateButton" size1024="49 189 305 445" donthighlight="" statebuttonuseinternalstates="" z="11" background="ui\ui god azathoth 256x256" mouseovertext="$$19941$$" sound="UI_thunder">
+			<stateentry background="ui\ui god nyx 256x256"></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-CivDisplay-Tartarus" hidden="" type="stateButton" size1024="49 189 305 445" donthighlight="" statebuttonuseinternalstates="" z="11" background="ui\ui god azathoth 256x256" mouseovertext="$$19941$$" sound="UI_thunder">
+			<stateentry background="ui\ui god tartarus 256x256"></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-CivDisplay-Erebus" hidden="" type="stateButton" size1024="49 189 305 445" donthighlight="" statebuttonuseinternalstates="" z="11" background="ui\ui god azathoth 256x256" mouseovertext="$$19941$$" sound="UI_thunder">
+			<stateentry background="ui\ui god erebus 256x256"></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-CivDisplay-Proto2" hidden="" type="stateButton" size1024="49 189 305 445" donthighlight="" statebuttonuseinternalstates="" z="11" background="ui\ui god azathoth 256x256" mouseovertext="$$19941$$" sound="UI_thunder">
+			<stateentry background="ui\ui god proto2 256x256"></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-CivDisplay-Jupiter" hidden="" type="stateButton" size1024="49 189 305 445" donthighlight="" statebuttonuseinternalstates="" z="11" background="ui\ui god azathoth 256x256" mouseovertext="$$19941$$" sound="UI_thunder">
+			<stateentry background="ui\ui god jupiter 256x256"></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-CivDisplay-Juno" hidden="" type="stateButton" size1024="49 189 305 445" donthighlight="" statebuttonuseinternalstates="" z="11" background="ui\ui god azathoth 256x256" mouseovertext="$$19941$$" sound="UI_thunder">
+			<stateentry background="ui\ui god juno 256x256"></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-CivDisplay-Minerva" hidden="" type="stateButton" size1024="49 189 305 445" donthighlight="" statebuttonuseinternalstates="" z="11" background="ui\ui god azathoth 256x256" mouseovertext="$$19941$$" sound="UI_thunder">
+			<stateentry background="ui\ui god minerva 256x256"></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-CivDisplay-Roman" hidden="" type="stateButton" size1024="49 189 305 445" donthighlight="" statebuttonuseinternalstates="" z="11" background="ui\ui god azathoth 256x256" mouseovertext="$$19941$$" sound="UI_thunder">
+			<stateentry background="ui\ui god roman 256x256"></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-CivDisplay-Ymir" hidden="" type="stateButton" size1024="49 189 305 445" donthighlight="" statebuttonuseinternalstates="" z="11" background="ui\ui god azathoth 256x256" mouseovertext="$$19941$$" sound="UI_thunder">
+			<stateentry background="ui\ui god Ymir 256x256"></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-CivDisplay-Surtr" hidden="" type="stateButton" size1024="49 189 305 445" donthighlight="" statebuttonuseinternalstates="" z="11" background="ui\ui god azathoth 256x256" mouseovertext="$$19941$$" sound="UI_thunder">
+			<stateentry background="ui\ui god surtr 256x256"></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-CivDisplay-Aegir" hidden="" type="stateButton" size1024="49 189 305 445" donthighlight="" statebuttonuseinternalstates="" z="11" background="ui\ui god azathoth 256x256" mouseovertext="$$19941$$" sound="UI_thunder">
+			<stateentry background="ui\ui god aegir 256x256"></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-CivDisplay-Jotunn" hidden="" type="stateButton" size1024="49 189 305 445" donthighlight="" statebuttonuseinternalstates="" z="11" background="ui\ui god azathoth 256x256" mouseovertext="$$19941$$" sound="UI_thunder">
+			<stateentry background="ui\ui god jotunn 256x256"></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-CivDisplay-Hanwi" hidden="" type="stateButton" size1024="49 189 305 445" donthighlight="" statebuttonuseinternalstates="" z="11" background="ui\ui god azathoth 256x256" mouseovertext="$$19941$$" sound="UI_thunder">
+			<stateentry background="ui\ui god hanwi 256x256"></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-CivDisplay-Unci" hidden="" type="stateButton" size1024="49 189 305 445" donthighlight="" statebuttonuseinternalstates="" z="11" background="ui\ui god azathoth 256x256" mouseovertext="$$19941$$" sound="UI_thunder">
+			<stateentry background="ui\ui god unci makha 256x256"></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-CivDisplay-Anpetu" hidden="" type="stateButton" size1024="49 189 305 445" donthighlight="" statebuttonuseinternalstates="" z="11" background="ui\ui god azathoth 256x256" mouseovertext="$$19941$$" sound="UI_thunder">
+			<stateentry background="ui\ui god Anpetu Wi 256x256"></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-CivDisplay-Lakota" hidden="" type="stateButton" size1024="49 189 305 445" donthighlight="" statebuttonuseinternalstates="" z="11" background="ui\ui god azathoth 256x256" mouseovertext="$$19941$$" sound="UI_thunder">
+			<stateentry background="ui\ui god lakota 256x256"></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-CivDisplay-Dagda" hidden="" type="stateButton" size1024="49 189 305 445" donthighlight="" statebuttonuseinternalstates="" z="11" background="ui\ui god azathoth 256x256" mouseovertext="$$19941$$" sound="UI_thunder">
+			<stateentry background="ui\ui god the dagda 256x256"></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-CivDisplay-Lugh" hidden="" type="stateButton" size1024="49 189 305 445" donthighlight="" statebuttonuseinternalstates="" z="11" background="ui\ui god azathoth 256x256" mouseovertext="$$19941$$" sound="UI_thunder">
+			<stateentry background="ui\ui god lugh 256x256"></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-CivDisplay-Morrigan" hidden="" type="stateButton" size1024="49 189 305 445" donthighlight="" statebuttonuseinternalstates="" z="11" background="ui\ui god azathoth 256x256" mouseovertext="$$19941$$" sound="UI_thunder">
+			<stateentry background="ui\ui god the morrigan 256x256"></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-CivDisplay-Celtic" hidden="" type="stateButton" size1024="49 189 305 445" donthighlight="" statebuttonuseinternalstates="" z="11" background="ui\ui god azathoth 256x256" mouseovertext="$$19941$$" sound="UI_thunder">
+			<stateentry background="ui\ui god celtic 256x256"></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-CivDisplay-Enlil" hidden="" type="stateButton" size1024="49 189 305 445" donthighlight="" statebuttonuseinternalstates="" z="11" background="ui\ui god azathoth 256x256" mouseovertext="$$19941$$" sound="UI_thunder">
+			<stateentry background="ui\ui god enlil 256x256"></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-CivDisplay-Inanna" hidden="" type="stateButton" size1024="49 189 305 445" donthighlight="" statebuttonuseinternalstates="" z="11" background="ui\ui god azathoth 256x256" mouseovertext="$$19941$$" sound="UI_thunder">
+			<stateentry background="ui\ui god inanna 256x256"></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-CivDisplay-Marduk" hidden="" type="stateButton" size1024="49 189 305 445" donthighlight="" statebuttonuseinternalstates="" z="11" background="ui\ui god azathoth 256x256" mouseovertext="$$19941$$" sound="UI_thunder">
+			<stateentry background="ui\ui god marduk 256x256"></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-CivDisplay-Babylonian" hidden="" type="stateButton" size1024="49 189 305 445" donthighlight="" statebuttonuseinternalstates="" z="11" background="ui\ui god azathoth 256x256" mouseovertext="$$19941$$" sound="UI_thunder">
+			<stateentry background="ui\ui god babylonian 256x256"></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-CivDisplay-UpButton" type="stateButton" size1024="306 267 332 315" bevelbutton="" z="101" statebuttonuseinternalstates="" mouseovertext="$$19942$$" texturecoords="0 0 .81 .75" sound="ui_thunder">
+			<stateentry background="ui\ui button arrow up 32x64"></stateentry>
+			<stateentry background="ui\ui button arrow up 32x64 clicked"></stateentry>
+			<stateentry background="ui\ui button arrow up 32x64 rollover"></stateentry>
+			<stateentry background=""></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-CivDisplay-DownButton" type="stateButton" size1024="306 316 332 364" bevelbutton="" z="101" statebuttonuseinternalstates="" mouseovertext="$$19942$$" texturecoords="0 0 .81 .75" sound="ui_thunder">
+			<stateentry background="ui\ui button arrow down 32x64"></stateentry>
+			<stateentry background="ui\ui button arrow down 32x64 clicked"></stateentry>
+			<stateentry background="ui\ui button arrow down 32x64 rollover"></stateentry>
+			<stateentry background=""></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-GodName" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="37 437 317 472" z="11" textcenterhoriz="">Isis</gadget>
+		<gadget name="SinglePlayerSetup-GodName-Azathoth" hidden="" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="37 437 317 472" z="11" textcenterhoriz="">Azathoth</gadget>
+		<gadget name="SinglePlayerSetup-GodName-Yog" hidden="" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="37 437 317 472" z="11" textcenterhoriz="">Yog-Sothoth</gadget>
+		<gadget name="SinglePlayerSetup-GodName-Shub" hidden="" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="37 437 317 472" z="11" textcenterhoriz="">Shub-Niggurath</gadget>
+		<gadget name="SinglePlayerSetup-GodName-Eldritch" hidden="" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="37 437 317 472" z="11" textcenterhoriz="">Eldritch</gadget>
+		<gadget name="SinglePlayerSetup-GodName-Tez" hidden="" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="37 437 317 472" z="11" textcenterhoriz="">Tezcatlipoca</gadget>
+		<gadget name="SinglePlayerSetup-GodName-Quet" hidden="" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="37 437 317 472" z="11" textcenterhoriz="">Quetzalcoatl</gadget>
+		<gadget name="SinglePlayerSetup-GodName-Huit" hidden="" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="37 437 317 472" z="11" textcenterhoriz="">Huitzilopochtli</gadget>
+		<gadget name="SinglePlayerSetup-GodName-Aztec" hidden="" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="37 437 317 472" z="11" textcenterhoriz="">Aztec</gadget>
+		<gadget name="SinglePlayerSetup-GodName-Izanagi" hidden="" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="37 437 317 472" z="11" textcenterhoriz="">Izanagi</gadget>
+		<gadget name="SinglePlayerSetup-GodName-Izanami" hidden="" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="37 437 317 472" z="11" textcenterhoriz="">Izanami</gadget>
+		<gadget name="SinglePlayerSetup-GodName-Kagu" hidden="" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="37 437 317 472" z="11" textcenterhoriz="">Kagu-Tsuchi</gadget>
+		<gadget name="SinglePlayerSetup-GodName-Japanese" hidden="" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="37 437 317 472" z="11" textcenterhoriz="">Japanese</gadget>
+		<gadget name="SinglePlayerSetup-GodName-Khaos" hidden="" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="37 437 317 472" z="11" textcenterhoriz="">Demeter</gadget>
+		<gadget name="SinglePlayerSetup-GodName-Chronos" hidden="" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="37 437 317 472" z="11" textcenterhoriz="">Aten</gadget>
+		<gadget name="SinglePlayerSetup-GodName-Ananke" hidden="" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="37 437 317 472" z="11" textcenterhoriz="">Freyr</gadget>
+		<gadget name="SinglePlayerSetup-GodName-Proto1" hidden="" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="37 437 317 472" z="11" textcenterhoriz="">Light Protogenoi</gadget>
+		<gadget name="SinglePlayerSetup-GodName-Nyx" hidden="" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="37 437 317 472" z="11" textcenterhoriz="">Iapetus</gadget>
+		<gadget name="SinglePlayerSetup-GodName-Tartarus" hidden="" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="37 437 317 472" z="11" textcenterhoriz="">The Nameless Mist</gadget>
+		<gadget name="SinglePlayerSetup-GodName-Erebus" hidden="" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="37 437 317 472" z="11" textcenterhoriz="">Erebus</gadget>
+		<gadget name="SinglePlayerSetup-GodName-Proto2" hidden="" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="37 437 317 472" z="11" textcenterhoriz="">Dark Protogenoi</gadget>
+		<gadget name="SinglePlayerSetup-GodName-Jupiter" hidden="" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="37 437 317 472" z="11" textcenterhoriz="">Jupiter</gadget>
+		<gadget name="SinglePlayerSetup-GodName-Juno" hidden="" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="37 437 317 472" z="11" textcenterhoriz="">Juno</gadget>
+		<gadget name="SinglePlayerSetup-GodName-Minerva" hidden="" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="37 437 317 472" z="11" textcenterhoriz="">Minerva</gadget>
+		<gadget name="SinglePlayerSetup-GodName-Roman" hidden="" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="37 437 317 472" z="11" textcenterhoriz="">Roman</gadget>
+		<gadget name="SinglePlayerSetup-GodName-Ymir" hidden="" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="37 437 317 472" z="11" textcenterhoriz="">Yrimr</gadget>
+		<gadget name="SinglePlayerSetup-GodName-Surtr" hidden="" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="37 437 317 472" z="11" textcenterhoriz="">Surtr</gadget>
+		<gadget name="SinglePlayerSetup-GodName-Aegir" hidden="" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="37 437 317 472" z="11" textcenterhoriz="">Aegir</gadget>
+		<gadget name="SinglePlayerSetup-GodName-Jotunn" hidden="" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="37 437 317 472" z="11" textcenterhoriz="">Jotunn</gadget>
+		<gadget name="SinglePlayerSetup-GodName-Hanwi" hidden="" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="37 437 317 472" z="11" textcenterhoriz="">Wi</gadget>
+		<gadget name="SinglePlayerSetup-GodName-Unci" hidden="" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="37 437 317 472" z="11" textcenterhoriz="">Unci Makha</gadget>
+		<gadget name="SinglePlayerSetup-GodName-Anpetu" hidden="" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="37 437 317 472" z="11" textcenterhoriz="">Hihan-Kaga</gadget>
+		<gadget name="SinglePlayerSetup-GodName-Lakota" hidden="" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="37 437 317 472" z="11" textcenterhoriz="">Lakota</gadget>
+		<gadget name="SinglePlayerSetup-GodName-Dagda" hidden="" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="37 437 317 472" z="11" textcenterhoriz="">The Dagda</gadget>
+		<gadget name="SinglePlayerSetup-GodName-Lugh" hidden="" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="37 437 317 472" z="11" textcenterhoriz="">Lugh</gadget>
+		<gadget name="SinglePlayerSetup-GodName-Morrigan" hidden="" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="37 437 317 472" z="11" textcenterhoriz="">The Morrigan</gadget>
+		<gadget name="SinglePlayerSetup-GodName-Celtic" hidden="" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="37 437 317 472" z="11" textcenterhoriz="">Celtic</gadget>
+		<gadget name="SinglePlayerSetup-GodName-Enlil" hidden="" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="37 437 317 472" z="11" textcenterhoriz="">Enlil</gadget>
+		<gadget name="SinglePlayerSetup-GodName-Inanna" hidden="" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="37 437 317 472" z="11" textcenterhoriz="">Inanna</gadget>
+		<gadget name="SinglePlayerSetup-GodName-Marduk" hidden="" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="37 437 317 472" z="11" textcenterhoriz="">Marduk</gadget>
+		<gadget name="SinglePlayerSetup-GodName-Babylonian" hidden="" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="37 437 317 472" z="11" textcenterhoriz="">Babylonian</gadget>
+		<gadget name="SinglePlayerSetup-MapDisplay" type="button" size1024="351 189 607 445" donthighlight="" z="11" background="ui\ui map ghost lake 256x256" mouseovertext="$$19943$$" sound="UI_brick"></gadget>
+		<gadget name="SinglePlayerSetup-MapDisplay-Border" type="gadget" size1024="351 189 607 445" transparent="" z="12" background="ui\ui map boarder template 256x256"></gadget>
+		<gadget name="SinglePlayerSetup-MapDisplay-UpButton" type="stateButton" size1024="608 267 634 315" bevelbutton="" z="101" statebuttonuseinternalstates="" mouseovertext="$$19944$$" texturecoords="0 0 .81 .75" sound="ui_brick">
+			<stateentry background="ui\ui button arrow up 32x64"></stateentry>
+			<stateentry background="ui\ui button arrow up 32x64 clicked"></stateentry>
+			<stateentry background="ui\ui button arrow up 32x64 rollover"></stateentry>
+			<stateentry background=""></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-MapDisplay-DownButton" type="stateButton" size1024="608 316 634 364" bevelbutton="" z="101" statebuttonuseinternalstates="" mouseovertext="$$19944$$" texturecoords="0 0 .81 .75" sound="ui_brick">
+			<stateentry background="ui\ui button arrow down 32x64"></stateentry>
+			<stateentry background="ui\ui button arrow down 32x64 clicked"></stateentry>
+			<stateentry background="ui\ui button arrow down 32x64 rollover"></stateentry>
+			<stateentry background=""></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-MapName" textcenterhoriz="" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="328 437 638 472" z="12">Ghost Lake</gadget>
+		<gadget name="SinglePlayerSetup-NormalMap" type="stateButton" size1024="266 566 358 640" z="101" donthighlight="" sound="ui_earthmove" texturecoords=".26 .13 .98 .70" mouseovertext="$$19945$$">
+			<stateentry background="ui\ui map size select normal"></stateentry>
+			<stateentry background="ui\ui map size select normal clicked"></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-LargeMap" type="stateButton" size1024="371 551 496 650" z="101" donthighlight="" sound="ui_earthmove" texturecoords=".01 .02 .98 .79" mouseovertext="$$19946$$">
+			<stateentry background="ui\ui map size select large"></stateentry>
+			<stateentry background="ui\ui map size select large clicked"></stateentry>
+		</gadget>
+		<gadget name="SinglePlayerSetup-GiantMap" type="stateButton" size1024="507 541 632 640" z="101" donthighlight="" sound="ui_earthmove" texturecoords=".01 .02 .98 .79" mouseovertext="$$61001$$" >
+			<stateentry background="ui\ui map size select giant"></stateentry>
+			<stateentry background="ui\ui map size select giant clicked"></stateentry>
+		</gadget>
+		<gadget name="GiantMap-DisabledOverlay" type="gadget" size1024="507 541 632 640" z="102" background="ui\ui map size giant disabled" transparent="" hidden="" ></gadget>
+		<gadget name="GiantMap-DlcStamp" type="gadget" size1024="580 545 612 577" z="103" background="ui\ui dlc icon 64x64" transparent="" hidden="" ></gadget>
+		<gadget name="SinglePlayerSetup-WorldSizeLabel" textcentervert="" textcolor="255 255 255" textfontsize="18" textfont="Pregamelabels" type="formatText" size1024="375 508 600 528" z="11" textcenterhoriz="">$$19816$$World Size:</gadget>
+		<gadget name="SinglePlayerSetup-WorldSize-NormalLabel" textcentervert="" textcenterhoriz="" textcolor="255 255 255" textfontsize="18" textfont="Pregamelabels" type="formatText" size1024="260 647 361 667" z="11">$$18294$$Normal</gadget>
+		<gadget name="SinglePlayerSetup-WorldSize-LargeLabel" textcentervert="" textcenterhoriz="" textcolor="255 255 255" textfontsize="18" textfont="Pregamelabels" type="formatText" size1024="380 647 481 667" z="11">$$18847$$Large</gadget>
+		<gadget name="SinglePlayerSetup-WorldSize-GiantLabel" textcentervert="" textcenterhoriz="" textcolor="255 255 255" textfontsize="18" textfont="Pregamelabels" type="formatText" size1024="519 647 620 667" z="11">$$61000$$Giant</gadget>
+		<gadget name="SinglePlayerSetup-DifficultySelection" type="radioset" size1024="86 530 349 691" textcolor="255 255 255" textfontsize="18" textfont="Pregamelabels" radiosetbuttonsize1024="125 36" radiosetdefaultbuttonindex="0" z="12" sound="ui_wind" radiocheckedart="ui\ui button check box 32x32 clicked" radiouncheckedart="ui\ui button check box 32x32" radiobtnborder1024="2 2" mouseovertext="$$19947$$" radiohighlightart="ui\ui button check box 32x32 rollover">
+			<button>$$18297$$Easy</button>
+			<button>$$18298$$Moderate</button>
+			<button>$$18299$$Hard</button>
+			<button>$$18300$$Nightmare</button>
+		</gadget>
+		<gadget name="SinglePlayerSetup-DifficultyLabel" textcentervert="" textcenterhoriz="" textcolor="255 255 255" textfontsize="18" textfont="Pregamelabels" type="formatText" size1024="25 508 289 528" z="11">$$18691$$Difficulty:</gadget>
+		<gadget name="SinglePlayerSetup-GameTypeLabel" textcentervert="" textcolor="255 255 255" textfontsize="18" textfont="Pregamelabels" type="formatText" size1024="664 80 796 105" z="11" textjustifyright="">$$19121$$Game Type:</gadget>
+		<gadget name="SinglePlayerSetup-VisibilityLabel" textcentervert="" textcolor="255 255 255" textfontsize="18" textfont="Pregamelabels" type="formatText" size1024="664 160 796 185" z="11" textjustifyright="">$$19123$$Visibility:</gadget>
+		<gadget name="SinglePlayerSetup-GameType" type="scrollList" tilebackground="" size1024="800 64 928 118" z="51" fieldval="1" textfontsize="16" textfont="ScrollFont" textcolor="1 49 32" background="ui\ui scroll middle tile" topcapart="ui\ui scroll top tile" bottomcapart="ui\ui scroll bottom tile" leftcapart="ui\ui scroll cap left" rightcapart="ui\ui scroll cap right" border1024="3 0" listitemheight="20" mouseovertext="$$19949$$">
+			<listitem>$$18864$$Supremacy</listitem>
+			<listitem>$$18865$$Conquest</listitem>
+			<listitem>$$18866$$Lightning</listitem>
+			<listitem>$$18867$$Deathmatch</listitem>
+			<listitem>$$49001$$Treaty</listitem>
+		</gadget>
+		<gadget name="SinglePlayerSetup-Visibility" type="scrollList" tilebackground="" size1024="800 144 928 198" z="51" fieldval="1" textfontsize="16" textfont="ScrollFont" textcolor="1 49 32" background="ui\ui scroll middle tile" topcapart="ui\ui scroll top tile" bottomcapart="ui\ui scroll bottom tile" leftcapart="ui\ui scroll cap left" rightcapart="ui\ui scroll cap right" border1024="3 0" listitemheight="20" mouseovertext="$$19122$$">
+			<listitem>$$18853$$Normal</listitem>
+			<listitem>$$18854$$Revealed</listitem>
+		</gadget>
+		<gadget name="SinglePlayerSetup-DayNightLabel" textcentervert="" textcolor="255 255 255" textfontsize="18" textfont="Pregamelabels" type="formatText" size1024="664 240 796 265" z="11" textjustifyright="">$$49235$$Day Night Cycle:</gadget>
+		<gadget name="SinglePlayerSetup-DayNightCycle" type="scrollList" tilebackground="" size1024="800 224 928 278" z="51" fieldval="1" textfontsize="16" textfont="ScrollFont" textcolor="1 49 32" background="ui\ui scroll middle tile" topcapart="ui\ui scroll top tile" bottomcapart="ui\ui scroll bottom tile" leftcapart="ui\ui scroll cap left" rightcapart="ui\ui scroll cap right" border1024="3 0" listitemheight="20" mouseovertext="$$49240$$">
+			<listitem>$$18869$$None.</listitem>
+			<listitem>$$49130$$1 minute</listitem>
+			<listitem>$$49131$$5 minutes</listitem>
+			<listitem>$$49132$$10 minutes</listitem>
+		</gadget>
+		<gadget name="SinglePlayerSetup-TitanLabel" textcentervert="" textcolor="255 255 255" textfontsize="18" textfont="Pregamelabels" type="formatText" size1024="664 320 796 345" z="11" textjustifyright="">$$49234$$Titans:</gadget>
+		<gadget name="SinglePlayerSetup-TitanMode" type="scrollList" tilebackground="" size1024="800 304 928 358" z="51" fieldval="1" textfontsize="16" textfont="ScrollFont" textcolor="1 49 32" background="ui\ui scroll middle tile" topcapart="ui\ui scroll top tile" bottomcapart="ui\ui scroll bottom tile" leftcapart="ui\ui scroll cap left" rightcapart="ui\ui scroll cap right" border1024="3 0" listitemheight="20" mouseovertext="$$49241$$">
+		  <listitem>$$20237$$Default</listitem>
+		  <listitem>$$49134$$No Titans</listitem>
+		  <!--<listitem>$$49135$$Nerfed Titan</listitem>-->
+			<gadget name="SinglePlayerSetup-TreatyLengthLabel" textcentervert="" textcolor="255 255 255" textfontsize="18" textfont="Pregamelabels" type="formatText" size1024="664 400 796 425" z="11" textjustifyright="">$$49005$$Treaty Length:</gadget>
+			<gadget name="SinglePlayerSetup-TreatyLength" type="scrollList" tilebackground="" size1024="800 384 928 438" z="51" fieldval="1" textfontsize="16" textfont="ScrollFont" textcolor="1 49 32" background="ui\ui scroll middle tile" topcapart="ui\ui scroll top tile" bottomcapart="ui\ui scroll bottom tile" leftcapart="ui\ui scroll cap left" rightcapart="ui\ui scroll cap right" border1024="3 0" listitemheight="20">
+				<listitem>$$49006$$15 Mins</listitem>
+				<listitem>$$49007$$30 Mins</listitem>
+				<listitem>$$49008$$45 Mins</listitem>
+				<listitem>$$49009$$55 Mins</listitem>
+			</gadget>
+		</gadget>
+		<gadget name="SinglePlayerSetup-Rollover-Section" type="gadget" size1024="668 522 976 691" background="ui\ui background opaque 2" outlinecolor="255 208 0" z="50">
+			<gadget name="SinglePlayerSetup-RolloverHelp" type="formatText" size1024="678 532 966 681" textfont="PregameRollover" textfontsize="14" textcolor="255 255 255" z="12">Here is some sample rollover</gadget>
+		</gadget>
+		<gadget name="MapSizeRestricted" type="dialog" size1024="343 204 691 403" background="ui\background greek opaque" hidden="" windowzstyle="" closeonesc="" tilebackground="" texturereplace="">
+		  <gadget texturereplace="" tilebackgroundhoriz="" name="ConfirmLeave-BordersTop" type="gadget" background="ui\ui border greek top middle" size1024="366 188 667 204" z="4" transparent=""></gadget>
+		  <gadget texturereplace="" tilebackgroundhoriz="" name="ConfirmLeave-BordersBottom" type="gadget" background="ui\ui border greek bottom middle" size1024="366 403 667 419" z="4" transparent=""></gadget>
+		  <gadget texturereplace="" name="ConfirmLeave-BordersLeft" type="gadget" background="ui\ui border greek left middle" size1024="335 220 343 387" tilebackgroundvert="" transparent=""></gadget>
+		  <gadget texturereplace="" name="ConfirmLeave-BordersRight" type="gadget" background="ui\ui border greek right middle" size1024="691 220 699 387" tilebackgroundvert="" z="4" transparent=""></gadget>
+		  <gadget texturereplace="" name="ConfirmLeave-BordersRightTop" type="gadget" background="ui\ui border greek top right corner" size1024="667 188 699 220" z="5" transparent="" clampbackground=""></gadget>
+		  <gadget texturereplace="" name="ConfirmLeave-BordersLeftTop" type="gadget" background="ui\ui border greek top left corner" size1024="335 188 367 220" z="5" transparent="" clampbackground=""></gadget>
+		  <gadget texturereplace="" name="ConfirmLeave-BordersRightBottom" type="gadget" background="ui\ui border greek bottom right corner" size1024="667 387 699 419" z="5" transparent="" clampbackground=""></gadget>
+		  <gadget texturereplace="" name="ConfirmLeave-BordersLeftBottom" type="gadget" background="ui\ui border greek bottom left corner" size1024="335 387 367 419" z="10" transparent="" clampbackground=""></gadget>
+		  <gadget name="MapSizeRestricted-text" type="formatText" textcenterhoriz="" textcolor="255 255 255" textfont="IngameDialogs" textfontsize="16" size1024="343 257 691 327">$$DLC_RESTRICTED_DIALOG$$Map only accessible with Dlc. Visit store page?</gadget>
+		  <gadget name="MapSizeRestricted-YesButton" type="stateButton" textfont="MainMenuButtons" textfontsize="18" textcolor="255 255 255" foreground="UI/button_Greek" bevelbutton="" statebuttonuseinternalstates="" size1024="380 348 508 380">
+			$$18451$$Yes
+			<command>gadgetUnreal("MapSizeRestricted")</command>
+			<stateentry background="ui\ui button long 128x32"></stateentry>
+			<stateentry background="ui\ui button long 128x32 clicked"></stateentry>
+			<stateentry background="ui\ui button long 128x32 rollover"></stateentry>
+			<stateentry background=""></stateentry>
+		  </gadget>
+		  <gadget name="MapSizeRestricted-NoButton" type="stateButton" bevelbutton="" foreground="UI/button_Greek" textfont="MainMenuButtons" textfontsize="18" textcolor="255 255 255" statebuttonuseinternalstates="" size1024="516 348 644 380">
+			$$18452$$No
+			<command>gadgetUnReal("MapSizeRestricted")</command>
+			<stateentry background="ui\ui button long 128x32"></stateentry>
+			<stateentry background="ui\ui button long 128x32 clicked"></stateentry>
+			<stateentry background="ui\ui button long 128x32 rollover"></stateentry>
+			<stateentry background=""></stateentry>
+		  </gadget>
+		</gadget>    
+	</gadget>
+</layout>

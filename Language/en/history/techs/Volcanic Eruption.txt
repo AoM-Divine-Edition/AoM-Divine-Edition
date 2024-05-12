@@ -1,0 +1,1 @@
+Xiuhtecuhtli creates a massive volcano from the ground. If it's cast on an enemy buildings, it instantly destroys it, and does area damage to any nearby unit or building.

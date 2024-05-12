@@ -1,0 +1,47 @@
+2024-05-05 22:42:00.792 -04:00 [INF] Starting app AoM Model Editor 1.2.1.
+2024-05-05 22:42:00.827 -04:00 [INF] Reading app settings.
+2024-05-05 22:42:04.252 -04:00 [INF] Listening to AoMModelEditor.Models.ModelFileChangedArgs:
+2024-05-05 22:42:04.462 -04:00 [WRN] The class AoMModelEditor.MainWindow property modelsView is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-05-05 22:42:04.475 -04:00 [WRN] The class AoMModelEditor.Models.ModelsView property modelObjectTreeView is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-05-05 22:42:37.917 -04:00 [INF] Loading brg file.
+2024-05-05 22:42:37.938 -04:00 [INF] Finished loading brg file.
+2024-05-05 22:42:37.956 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgStatsView property mainGroupBox is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-05-05 22:42:37.957 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgStatsView property vertCountLabel is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-05-05 22:42:37.957 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgStatsView property faceCountLabel is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-05-05 22:42:37.957 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgStatsView property dummyCountLabel is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-05-05 22:42:37.958 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgStatsView property frameCountLabel is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-05-05 22:42:37.958 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgStatsView property materialCountLabel is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-05-05 22:42:37.959 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgStatsView property animationDurationLabel is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-05-05 22:42:44.313 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMaterialView property mainGroupBox is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-05-05 22:42:44.314 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMaterialView property flagsListBox is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-05-05 22:42:44.324 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMaterialView property diffuseMapTextureTextBox is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-05-05 22:42:44.328 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMaterialView property opacityTextBox is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-05-05 22:42:44.328 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMaterialView property specularExponentTextBox is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-05-05 22:42:44.335 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMaterialView property diffuseColorPicker is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-05-05 22:42:44.336 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMaterialView property ambientColorPicker is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-05-05 22:42:44.337 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMaterialView property specularColorPicker is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-05-05 22:42:44.337 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMaterialView property emissiveColorPicker is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-05-05 22:42:44.337 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMaterialView property cubeMapTextureTextBox is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-05-05 22:42:44.340 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMaterialView property cubeMapBlendPercentageTextBox is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-05-05 22:42:46.856 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMeshView property mainGroupBox is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-05-05 22:42:46.857 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMeshView property vertCountTextBlock is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-05-05 22:42:46.857 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMeshView property faceCountTextBlock is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-05-05 22:42:46.857 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMeshView property dummyCountLabel is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-05-05 22:42:46.857 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMeshView property frameCountTextBlock is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-05-05 22:42:46.858 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMeshView property animLengthTextBlock is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-05-05 22:42:46.861 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMeshView property animTypeRadioList is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-05-05 22:42:46.864 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMeshView property interpTypeRadioList is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-05-05 22:42:46.867 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMeshView property hotspotPositionVecControl is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-05-05 22:42:46.869 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMeshView property massPositionVecControl is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-05-05 22:42:46.870 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMeshView property centerPositionVecControl is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-05-05 22:42:46.873 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMeshView property minExtentPositionVecControl is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-05-05 22:42:46.874 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMeshView property maxExtentPositionVecControl is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-05-05 22:42:46.874 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMeshView property flagsListBox is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-05-05 22:42:46.877 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMeshView property flags2ListBox is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-05-05 22:42:48.809 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgDummyView property mainGroupBox is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-05-05 22:42:48.812 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgDummyView property frameUpDown is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-05-05 22:42:48.813 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgDummyView property frameTextBox is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-05-05 22:42:48.814 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgDummyView property rightVecControl is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-05-05 22:42:48.814 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgDummyView property upVecControl is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-05-05 22:42:48.814 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgDummyView property forwardVecControl is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-05-05 22:42:48.814 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgDummyView property positionVecControl is a POCO type and won't send change notifications, WhenAny will only return a single value!

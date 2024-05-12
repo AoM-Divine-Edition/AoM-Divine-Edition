@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<minorgods>
+	<god dbid="0" nameid="17150" techname="Age 2 Athena" portrait="god minor portrait greek Athena" position="2" age="2"></god>
+	<god dbid="1" nameid="17151" techname="Age 2 Ares" portrait="god minor portrait greek Ares" position="1" age="2"></god>
+	<god dbid="2" nameid="19154" techname="Age 2 Hermes" portrait="god minor portrait greek Hermes" position="3" age="2"></god>
+	<god dbid="3" nameid="17153" techname="Age 3 Dionysos" portrait="god minor portrait greek Dionysus" position="3" age="3"></god>
+	<god dbid="4" nameid="17155" techname="Age 3 Apollo" portrait="god minor portrait greek Apollo" position="2" age="3"></god>
+	<god dbid="5" nameid="17156" techname="Age 3 Aphrodite" portrait="god minor portrait greek Aphrodite" position="1" age="3"></god>
+	<god dbid="6" nameid="17157" techname="Age 4 Hera" portrait="god minor portrait greek Hera" position="1" age="4"></god>
+	<god dbid="7" nameid="17158" techname="Age 4 Artemis" portrait="god minor portrait greek Artemis" position="3" age="4"></god>
+	<god dbid="8" nameid="17159" techname="Age 4 Hephaestus" portrait="god minor portrait greek Hephaestus" position="2" age="4"></god>
+	<god dbid="9" nameid="17160" techname="Age 2 Anubis" portrait="god minor portrait egypt Anubis" position="3" age="2"></god>
+	<god dbid="10" nameid="17161" techname="Age 2 Bast" portrait="god minor portrait egypt Bast" position="2" age="2"></god>
+	<god dbid="11" nameid="17162" techname="Age 2 Ptah" portrait="god minor portrait egypt Ptah" position="1" age="2"></god>
+	<god dbid="12" nameid="17163" techname="Age 3 Hathor" portrait="god minor portrait egypt Hathor" position="1" age="3"></god>
+	<god dbid="13" nameid="17164" techname="Age 3 Nephthys" portrait="god minor portrait egypt Nephthys" position="2" age="3"></god>
+	<god dbid="14" nameid="17165" techname="Age 3 Sekhmet" portrait="god minor portrait egypt Sekhmet" position="3" age="3"></god>
+	<god dbid="15" nameid="17166" techname="Age 4 Thoth" portrait="god minor portrait egypt Thoth" position="3" age="4"></god>
+	<god dbid="16" nameid="17167" techname="Age 4 Osiris" portrait="god minor portrait egypt Osiris" position="2" age="4"></god>
+	<god dbid="17" nameid="17168" techname="Age 4 Horus" portrait="god minor portrait egypt Horus" position="1" age="4"></god>
+	<god dbid="18" nameid="17169" techname="Age 2 Forseti" portrait="god minor portrait norse Forseti" position="1" age="2"></god>
+	<god dbid="19" nameid="17170" techname="Age 2 Heimdall" portrait="god minor portrait norse Heimdall" position="3" age="2"></god>
+	<god dbid="20" nameid="17171" techname="Age 2 Freyja" portrait="god minor portrait norse Freyja" position="2" age="2"></god>
+	<god dbid="21" nameid="17172" techname="Age 3 Skadi" portrait="god minor portrait norse Skadi" position="2" age="3"></god>
+	<god dbid="22" nameid="17173" techname="Age 3 Bragi" portrait="god minor portrait norse Bragi" position="1" age="3"></god>
+	<god dbid="23" nameid="17174" techname="Age 3 Njord" portrait="god minor portrait norse Njord" position="3" age="3"></god>
+	<god dbid="24" nameid="17175" techname="Age 4 Hel" portrait="god minor portrait norse Hel" position="2" age="4"></god>
+	<god dbid="25" nameid="17176" techname="Age 4 Baldr" portrait="god minor portrait norse Baldr" position="1" age="4"></god>
+	<god dbid="26" nameid="17177" techname="Age 4 Tyr" portrait="god minor portrait norse Tyr" position="3" age="4"></god>
+	<god dbid="27" nameid="22823" techname="Age 2 Okeanus" portrait="god minor portrait atlantis okeanus" position="1" age="2"></god>
+	<god dbid="28" nameid="22824" techname="Age 2 Prometheus" portrait="god minor portrait atlantis prometheus" position="3" age="2"></god>
+	<god dbid="29" nameid="22825" techname="Age 2 Leto" portrait="god minor portrait atlantis leto" position="2" age="2"></god>
+	<god dbid="30" nameid="22826" techname="Age 3 Hyperion" portrait="god minor portrait atlantis hyperion" position="2" age="3"></god>
+	<god dbid="31" nameid="22827" techname="Age 3 Theia" portrait="god minor portrait atlantis theia" position="1" age="3"></god>
+	<god dbid="32" nameid="22828" techname="Age 3 Rheia" portrait="god minor portrait atlantis rheia" position="3" age="3"></god>
+	<god dbid="33" nameid="22829" techname="Age 4 Helios" portrait="god minor portrait atlantis helios" position="2" age="4"></god>
+	<god dbid="34" nameid="22830" techname="Age 4 Hekate" portrait="god minor portrait atlantis hekate" position="1" age="4"></god>
+	<god dbid="35" nameid="22831" techname="Age 4 Atlas" portrait="god minor portrait atlantis atlas" position="3" age="4"></god>
+	<god dbid="36" nameid="50628" techname="Age 2 Change" portrait="god minor portrait chinese change" position="1" age="2"></god>
+	<god dbid="37" nameid="50629" techname="Age 2 Huangdi" portrait="god minor portrait chinese huangdi" position="2" age="2"></god>
+	<god dbid="38" nameid="50630" techname="Age 2 Sunwukong" portrait="god minor portrait chinese sunwukong" position="3" age="2"></god>
+	<god dbid="39" nameid="50631" techname="Age 3 Dabogong" portrait="god minor portrait chinese dabogong" position="1" age="3"></god>
+	<god dbid="40" nameid="50632" techname="Age 3 Hebo" portrait="god minor portrait chinese hebo" position="2" age="3"></god>
+	<god dbid="41" nameid="50633" techname="Age 3 Zhongkui" portrait="god minor portrait chinese zhongkui" position="3" age="3"></god>
+	<god dbid="42" nameid="50634" techname="Age 4 Aokuang" portrait="god minor portrait chinese aokuang" position="1" age="4"></god>
+	<god dbid="43" nameid="50635" techname="Age 4 Xiwangmu" portrait="god minor portrait chinese xiwangmu" position="2" age="4"></god>
+	<god dbid="44" nameid="50636" techname="Age 4 Chongli" portrait="god minor portrait chinese chongli" position="3" age="4"></god>
+	<god dbid="45" nameid="99174" techname="Age 2 Ithaqua" portrait="portrait ithaqua" position="1" age="2"></god>
+	<god dbid="46" nameid="99175" techname="Age 2 Atlach-Nacha" portrait="portrait atlach-nacha" position="2" age="2"></god>
+	<god dbid="46" nameid="99176" techname="Age 2 Tsathoggua" portrait="portrait tsathoggua" position="3" age="2"></god>
+	<god dbid="47" nameid="99290" techname="Age 3 Nug and Yeb" portrait="portrait nug and yeb" position="1" age="3"></god>
+	<god dbid="48" nameid="99291" techname="Age 3 Yig" portrait="portrait yig" position="2" age="3"></god>
+	<god dbid="49" nameid="99292" techname="Age 3 Dagon" portrait="portrait dagon" position="3" age="3"></god>
+	<god dbid="50" nameid="99293" techname="Age 4 Cthulhu" portrait="portrait cthulhu" position="1" age="4"></god>
+	<god dbid="51" nameid="99294" techname="Age 4 Hastur" portrait="portrait hastur" position="2" age="4"></god>
+	<god dbid="52" nameid="99295" techname="Age 4 Nyarlathotep" portrait="portrait nyarlathotep" position="3" age="4"></god>
+	<god dbid="53" nameid="99685" techname="Age 4 Fujin" portrait="portrait fujin" position="1" age="4"></god>
+	<god dbid="54" nameid="99686" techname="Age 4 Raijin" portrait="portrait raijin" position="2" age="4"></god>
+	<god dbid="55" nameid="99687" techname="Age 4 Sarutahiko" portrait="portrait sarutahiko okami" position="3" age="4"></god>
+	<god dbid="56" nameid="99682" techname="Age 3 Amaterasu" portrait="portrait amaterasu" position="1" age="3"></god>
+	<god dbid="57" nameid="99683" techname="Age 3 Tsukuyomi" portrait="portrait tsukuyomi" position="2" age="3"></god>
+	<god dbid="58" nameid="99684" techname="Age 3 Susanoo" portrait="portrait susanoo" position="3" age="3"></god>
+	<god dbid="59" nameid="99679" techname="Age 2 Inari" portrait="portrait inari" position="1" age="2"></god>
+	<god dbid="60" nameid="99680" techname="Age 2 Ebisu" portrait="portrait ebisu" position="2" age="2"></god>
+	<god dbid="61" nameid="99681" techname="Age 2 Hachiman" portrait="portrait hachiman" position="3" age="2"></god>
+	<god dbid="62" nameid="90031" techname="Age 2 Xipe Totec" portrait="god minor portrait Xipe Totec" position="4" age="2"></god>
+	<god dbid="63" nameid="90126" techname="Age 2 Xochiquetzal" portrait="god minor portrait Xochiquetzal" position="5" age="2"></god>
+	<god dbid="64" nameid="90127" techname="Age 2 Tlaloc" portrait="god minor portrait Xipe Totec2" position="6" age="2"></god>
+	<god dbid="65" nameid="90025" techname="Age 3 Itztlacoliuhqui" portrait="god minor portrait Itztlacoliuhqui" position="4" age="3"></god>
+	<god dbid="66" nameid="90032" techname="Age 3 Xolotl" portrait="god minor portrait xolotT" position="5" age="3"></god>
+	<god dbid="67" nameid="90034" techname="Age 3 Mictlantecuhtli" portrait="god minor portrait Mictlant" position="6" age="3"></god>
+	<god dbid="68" nameid="90036" techname="Age 4 Chalchiuhtlicue" portrait="god minor portrait royalty" position="4" age="4"></god>
+	<god dbid="69" nameid="90038" techname="Age 4 Xiuhtecuhtli" portrait="god minor portrait Purple" position="5" age="4"></god>
+	<god dbid="70" nameid="90128" techname="Age 4 Mixcoatl" portrait="god minor portrait Mixcoatl" position="6" age="4"></god>
+	<god dbid="71" nameid="110013" techname="Age 2 Capa" portrait="god minor capa portrait" position="1" age="2"></god>
+	<god dbid="72" nameid="110014" techname="Age 2 Iktomi" portrait="god minor iktomi portrait" position="2" age="2"></god>
+	<god dbid="73" nameid="110015" techname="Age 2 Wani" portrait="god minor wani portrait" position="3" age="2"></god>
+	<god dbid="74" nameid="110016" techname="Age 3 Anung Ite" portrait="god minor anung ite portrait" position="1" age="3"></god>
+	<god dbid="75" nameid="110017" techname="Age 3 Tate" portrait="god minor tate portrait" position="2" age="3"></god>
+	<god dbid="76" nameid="110018" techname="Age 3 Wakinyan" portrait="god minor wakinyan portrait" position="3" age="3"></god>
+	<god dbid="77" nameid="110019" techname="Age 4 Wophe" portrait="god minor wophe portrait" position="1" age="4"></god>
+	<god dbid="78" nameid="110020" techname="Age 4 Anpao and Han" portrait="god minor anpao and han portrait" position="2" age="4"></god>
+	<god dbid="79" nameid="110021" techname="Age 4 Unk" portrait="god minor unk portrait" position="3" age="4"></god>
+	<god dbid="71" nameid="120048" techname="Age 2 Neptune" portrait="portrait neptune" position="1" age="2"></god>
+	<god dbid="72" nameid="120049" techname="Age 2 Apollo" portrait="portrait apollo" position="2" age="2"></god>
+	<god dbid="73" nameid="120050" techname="Age 2 Diana" portrait="portrait diana" position="3" age="2"></god>
+	<god dbid="74" nameid="120051" techname="Age 3 Venus" portrait="portrait venus" position="1" age="3"></god>
+	<god dbid="75" nameid="120052" techname="Age 3 Vulcan" portrait="portrait vulcan" position="2" age="3"></god>
+	<god dbid="76" nameid="120053" techname="Age 3 Mercury" portrait="portrait mercury" position="3" age="3"></god>
+	<god dbid="77" nameid="120054" techname="Age 4 Vesta" portrait="portrait vesta" position="1" age="4"></god>
+	<god dbid="78" nameid="120055" techname="Age 4 Ceres" portrait="portrait ceres" position="2" age="4"></god>
+	<god dbid="79" nameid="120056" techname="Age 4 Mars" portrait="portrait mars" position="3" age="4"></god>
+	<god dbid="80" nameid="120393" techname="Age 2 Nike" portrait="god minor portrait greek nike" position="4" age="2"></god>
+	<god dbid="81" nameid="120394" techname="Age 3 Persephone" portrait="god minor portrait greek persephone" position="4" age="3"></god>
+	<god dbid="82" nameid="120395" techname="Age 4 Hestia" portrait="god minor portrait greek hestia" position="4" age="4"></god>
+	<god dbid="83" nameid="120456" techname="Age 2 Maahes" portrait="god minor portrait eggy maahes" position="4" age="2"></god>
+	<god dbid="84" nameid="120457" techname="Age 3 Sobek" portrait="god minor portrait eggy sobek" position="4" age="3"></god>
+	<god dbid="85" nameid="120458" techname="Age 4 Nut" portrait="god minor portrait eggy nut" position="4" age="4"></god>
+	<god dbid="86" nameid="120551" techname="Age 2 Ullr" portrait="god minor portrait ullr" position="4" age="2"></god>
+	<god dbid="87" nameid="120552" techname="Age 3 Vali" portrait="god minor portrait vali" position="4" age="3"></god>
+	<god dbid="88" nameid="120553" techname="Age 4 Vidar" portrait="god minor portrait vidar" position="4" age="4"></god>
+	<god dbid="89" nameid="120583" techname="Age 2 Astraeus" portrait="god minor portrait astraeus" position="4" age="2"></god>
+	<god dbid="90" nameid="120584" techname="Age 3 Pallas" portrait="god minor portrait pallas" position="4" age="3"></god>
+	<god dbid="91" nameid="120585" techname="Age 4 Perses" portrait="god minor portrait perses" position="4" age="4"></god>
+	<god dbid="92" nameid="120723" techname="Age 2 Ubbo-Sathla" portrait="god minor portrait ubbo-sathla" position="4" age="2"></god>
+	<god dbid="93" nameid="120724" techname="Age 3 Daoloth" portrait="god minor portrait daoloth" position="4" age="3"></god>
+	<god dbid="94" nameid="120725" techname="Age 4 Noth-Yidik" portrait="god minor portrait noth-yidik" position="4" age="4"></god>
+
+
+
+</minorgods>
+

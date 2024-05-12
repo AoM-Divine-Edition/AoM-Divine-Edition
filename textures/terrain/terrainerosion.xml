@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<terrainerosion>
+	<parameters>
+		<minerosionstages>0   </minerosionstages>
+		<maxerosionstages>3   </maxerosionstages>
+		<extraradiusscale>1.5 </extraradiusscale>
+		<extraradiusmin>5 </extraradiusmin>
+		<extraradiusmax>9 </extraradiusmax>
+		<bevelamount>0.25 </bevelamount>
+		<minerosionalpha>0.4 </minerosionalpha>
+		<maxerosionalpha>1.0 </maxerosionalpha>
+		<alphavariation>0.1 </alphavariation>
+	</parameters>
+	<sequence name="SavannahtoSand">
+		<level>
+			<tile>SavannahA</tile>
+			<tile>SavannahB</tile>
+		</level>
+		<level>
+			<tile>SavannahC</tile>
+		</level>
+		<level>
+			<tile>EgyptianRoadA</tile>
+		</level>
+	</sequence>
+	<sequence name="GrassToDirt">
+		<level>
+			<tile>GrassA</tile>
+			<tile>GrassB</tile>
+		</level>
+		<level>
+			<tile>GrassDirt25</tile>
+		</level>
+		<level>
+			<tile>GrassDirt50</tile>
+		</level>
+		<level>
+			<tile>GreekRoadA</tile>
+		</level>
+	</sequence>
+	<sequence name="SnowToGrass">
+		<level>
+			<tile>SnowA</tile>
+			<tile>SnowB</tile>
+		</level>
+		<level>
+			<tile>SnowGrass25</tile>
+		</level>
+		<level>
+			<tile>SnowGrass50</tile>
+		</level>
+		<level>
+			<tile>NorseRoadA</tile>
+		</level>
+	</sequence>
+	<sequence name="SandtoSand">
+		<level>
+			<tile>SandA</tile>
+			<tile>SandB</tile>
+			<tile>SandC</tile>
+			<tile>SandD</tile>
+			<tile>SandDirt50</tile>
+		</level>
+		<level>
+			<tile>SandB</tile>
+		</level>
+		<level>
+			<tile>EgyptianRoadA</tile>
+		</level>
+	</sequence>
+	<sequence name="GreekRoadBurntToDirt">
+		<level>
+			<tile>GreekRoad Burnt</tile>
+			<tile>GreekRoad BurntB</tile>
+		</level>
+		<level>
+			<tile>GrassDirt25</tile>
+		</level>
+		<level>
+			<tile>GrassDirt50</tile>
+		</level>
+		<level>
+			<tile>GreekRoadA</tile>
+		</level>
+	</sequence>
+	<sequence name="TundraToDirt">
+		<level>
+			<tile>TundraGrassA</tile>
+			<tile>TundraGrassB</tile>
+			<tile>TundraRockA</tile>
+			<tile>TundraRockB</tile>
+		</level>
+		<level>
+			<tile>TundraRoadA</tile>
+		</level>
+	</sequence>
+	<sequence name="JungleToDirt">
+		<level>
+			<tile>JungleA</tile>
+			<tile>JungleB</tile>
+		</level>
+		<level>
+			<tile>JungleDirt25</tile>
+		</level>
+		<level>
+			<tile>JungleDirt50</tile>
+		</level>
+		<level>
+			<tile>JungleRoadA</tile>
+		</level>
+	</sequence>
+	<sequence name="PlainToDirt">
+		<level>
+			<tile>PlainA</tile>
+			<tile>PlainB</tile>
+		</level>
+		<level>
+			<tile>PlainDirt25</tile>
+		</level>
+		<level>
+			<tile>PlainDirt50</tile>
+		</level>
+		<level>
+			<tile>PlainRoadA</tile>
+		</level>
+	</sequence>
+</terrainerosion>

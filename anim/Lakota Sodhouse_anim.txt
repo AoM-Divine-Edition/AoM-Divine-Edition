@@ -1,0 +1,46 @@
+//==============================================================================
+// bush_anim.txt
+//==============================================================================
+
+
+//==============================================================================
+anim idle
+{
+	SetSelector 
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual Wigwam
+			}
+		}
+	}
+}
+
+
+
+
+//==============================================================================
+anim rangedAttack
+{
+	SetSelector 
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual Wigwam
+
+				tag Attack 0.40 true
+                            tag GenericSound 0.40 true
+                            tag SpecificSoundSet 0.31 false Arrow checkVisible
+
+			}
+		}
+	}
+}
+
+

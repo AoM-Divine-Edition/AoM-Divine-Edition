@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="FulminVirtutus" type="swapunit" techname="Fulmin Virtutus">
+	<activetime>0.1</activetime>
+	<radius>0.2</radius>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">HeroBirth</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">CallToArmsCreate</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<placement forceonmap="1" matchtype="Unit">unit</placement>
+	<powerplayerrelation>self</powerplayerrelation>
+	<overallchance>1</overallchance>
+	<abstracttype swapto="Optio">Legionary</abstracttype>
+	<abstracttype swapto="Centurion">Optio</abstracttype>
+	<abstracttype swapto="Legate">Imperator</abstracttype>
+	<abstracttype swapto="Decurion">Equite</abstracttype>
+	<abstracttype swapto="Praetorian Prefect">Praetorian</abstracttype>
+	<swapdelay>0.5</swapdelay>
+	<convertunitstogodpowerplayer></convertunitstogodpowerplayer>
+	<convertusingminmax minswapamount="1" maxswapamount="1">Dummy</convertusingminmax>
+	<icon>roman icon fulmin virtutus</icon>
+	<usedicon>roman icon fulmin virtutus used</usedicon>
+
+	<recharges>3</recharges>
+	<rechargetime>120 </rechargetime>
+</power>

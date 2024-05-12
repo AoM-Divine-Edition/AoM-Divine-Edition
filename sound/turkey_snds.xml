@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<protounitsounddef>
+	<protounit name="Turkey">
+		<soundtype name="Hit">
+			<damagetypelogic>
+				<choice name="Hack">
+					<soundset name="HackFlesh"></soundset>
+				</choice>
+				<choice name="Slash">
+					<soundset name="HackFlesh"></soundset>
+				</choice>
+				<choice name="Pierce">
+					<soundset name="PierceFlesh"></soundset>
+				</choice>
+				<choice name="Crush">
+					<soundset name="CrushFlesh"></soundset>
+				</choice>
+			</damagetypelogic>
+		</soundtype>
+		<soundtype name="Death">
+			<soundset name="TurkeyDeath"></soundset>
+		</soundtype>
+		<soundtype name="Creation">
+			<soundset name="TurkeyDeath"></soundset>
+		</soundtype>
+	</protounit>
+</protounitsounddef>

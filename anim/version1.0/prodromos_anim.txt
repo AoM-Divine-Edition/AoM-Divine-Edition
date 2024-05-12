@@ -1,0 +1,569 @@
+//==============================================================================
+// Prodromos_anim.txt
+//==============================================================================
+
+import Spear_defines_anim.txt
+import Greek_Cavalry_Shield_anim.txt
+
+//==============================================================================
+define Head
+{
+	SetSelector
+	{
+		TechLogic none/Medium Cavalry/Heavy Cavalry/Champion Cavalry
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos Head Standard
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos Head Copper
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos Head Bronze
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos Head Iron
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Bored
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos_BoredA
+				connect RightHand Spear hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry G Prodromos_BoredB
+				connect RightHand Spear hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos_BoredA
+				ReplaceTexture Cavalry G Prodromos Standard/Cavalry G Prodromos Copper
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Prodromos Horse Copper
+				connect RightHand Spear hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry G Prodromos_BoredB
+				ReplaceTexture Cavalry G Prodromos Standard/Cavalry G Prodromos Copper
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Prodromos Horse Copper
+				connect RightHand Spear hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos_BoredA
+				ReplaceTexture Cavalry G Prodromos Standard/Cavalry G Prodromos Bronze
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Prodromos Horse Bronze
+				connect RightHand Spear hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry G Prodromos_BoredB
+				ReplaceTexture Cavalry G Prodromos Standard/Cavalry G Prodromos Bronze
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Prodromos Horse Bronze
+				connect RightHand Spear hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos_BoredA
+				ReplaceTexture Cavalry G Prodromos Standard/Cavalry G Prodromos Iron
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Prodromos Horse Iron
+				connect RightHand Spear hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry G Prodromos_BoredB
+				ReplaceTexture Cavalry G Prodromos Standard/Cavalry G Prodromos Iron
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Prodromos Horse Iron
+				connect RightHand Spear hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Walk
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		set hotspot
+		{
+			version
+			{  
+				Visual Cavalry G Prodromos_WalkA
+				connect RightHand Spear hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				tag FootstepLeft 0.00 true	
+				tag FootstepRight 0.50 true	
+				tag FootstepLeft 0.20 true	
+				tag FootstepRight 0.75 true
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos_WalkA
+				ReplaceTexture Cavalry G Prodromos Standard/Cavalry G Prodromos Copper
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Prodromos Horse Copper
+				connect RightHand Spear hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				tag FootstepLeft 0.00 true	
+				tag FootstepRight 0.50 true	
+				tag FootstepLeft 0.20 true	
+				tag FootstepRight 0.75 true
+
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos_WalkA
+				ReplaceTexture Cavalry G Prodromos Standard/Cavalry G Prodromos Bronze
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Prodromos Horse Bronze
+				connect RightHand Spear hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				tag FootstepLeft 0.00 true	
+				tag FootstepRight 0.50 true	
+				tag FootstepLeft 0.20 true	
+				tag FootstepRight 0.75 true
+
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos_WalkA
+				ReplaceTexture Cavalry G Prodromos Standard/Cavalry G Prodromos Iron
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Prodromos Horse Iron
+				connect RightHand Spear hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				tag FootstepLeft 0.00 true	
+				tag FootstepRight 0.50 true	
+				tag FootstepLeft 0.20 true	
+				tag FootstepRight 0.75 true
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Death
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos_DeathA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag SpecificSoundSet 0.61 false HeavyFall checkVisible 
+//-- end auto generated section
+				connect RightHand Spear hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos_DeathA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag SpecificSoundSet 0.61 false HeavyFall checkVisible 
+//-- end auto generated section
+				ReplaceTexture Cavalry G Prodromos Standard/Cavalry G Prodromos Copper
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Prodromos Horse Copper
+				connect RightHand Spear hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos_DeathA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag SpecificSoundSet 0.61 false HeavyFall checkVisible 
+//-- end auto generated section
+				ReplaceTexture Cavalry G Prodromos Standard/Cavalry G Prodromos Bronze
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Prodromos Horse Bronze
+				connect RightHand Spear hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos_DeathA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag SpecificSoundSet 0.61 false HeavyFall checkVisible 
+//-- end auto generated section
+				ReplaceTexture Cavalry G Prodromos Standard/Cavalry G Prodromos Iron
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Prodromos Horse Iron
+				connect RightHand Spear hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Idle
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos_IdleA
+				connect RightHand Spear hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos_IdleA
+				ReplaceTexture Cavalry G Prodromos Standard/Cavalry G Prodromos Copper
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Prodromos Horse Copper
+				connect RightHand Spear hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos_IdleA
+				ReplaceTexture Cavalry G Prodromos Standard/Cavalry G Prodromos Bronze
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Prodromos Horse Bronze
+				connect RightHand Spear hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos_IdleA
+				ReplaceTexture Cavalry G Prodromos Standard/Cavalry G Prodromos Iron
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Prodromos Horse Iron
+				connect RightHand Spear hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Attack
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.37 true	
+				tag GenericSound 0.40 true	
+//-- end auto generated section
+				connect RightHand Spear hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry G Prodromos_AttackB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.71 true	
+				tag GenericSound 0.40 true	
+//-- end auto generated section
+				connect RightHand Spear hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry G Prodromos_AttackC
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.63 true	
+				tag GenericSound 0.40 true	
+//-- end auto generated section
+				connect RightHand Spear hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.37 true	
+				tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry G Prodromos Standard/Cavalry G Prodromos Copper
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Prodromos Horse Copper
+				connect RightHand Spear hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry G Prodromos_AttackB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.71 true	
+				tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry G Prodromos Standard/Cavalry G Prodromos Copper
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Prodromos Horse Copper
+				connect RightHand Spear hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			Version
+			{
+				Visual Cavalry G Prodromos_AttackC
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.63 true	
+				tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry G Prodromos Standard/Cavalry G Prodromos Copper
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Prodromos Horse Copper
+				connect RightHand Spear hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.37 true	
+				tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry G Prodromos Standard/Cavalry G Prodromos Bronze
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Prodromos Horse Bronze
+				connect RightHand Spear hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry G Prodromos_AttackB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.71 true	
+				tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry G Prodromos Standard/Cavalry G Prodromos Bronze
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Prodromos Horse Bronze
+				connect RightHand Spear hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry G Prodromos_AttackC
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.63 true	
+				tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry G Prodromos Standard/Cavalry G Prodromos Bronze
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Prodromos Horse Bronze
+				connect RightHand Spear hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.37 true	
+				tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry G Prodromos Standard/Cavalry G Prodromos Iron
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Prodromos Horse Iron
+				connect RightHand Spear hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry G Prodromos_AttackB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.71 true	
+				tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry G Prodromos Standard/Cavalry G Prodromos Iron
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Prodromos Horse Iron
+				connect RightHand Spear hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry G Prodromos_AttackC
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.63 true	
+				tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry G Prodromos Standard/Cavalry G Prodromos Iron
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Prodromos Horse Iron
+				connect RightHand Spear hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Flail
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos_FlailA
+				connect RightHand Spear hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos_FlailA
+				ReplaceTexture Cavalry G Prodromos Standard/Cavalry G Prodromos Copper
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Prodromos Horse Copper
+				connect RightHand Spear hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos_FlailA
+				ReplaceTexture Cavalry G Prodromos Standard/Cavalry G Prodromos Bronze
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Prodromos Horse Bronze
+				connect RightHand Spear hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos_FlailA
+				ReplaceTexture Cavalry G Prodromos Standard/Cavalry G Prodromos Iron
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Prodromos Horse Iron
+				connect RightHand Spear hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+	}
+}

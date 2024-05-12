@@ -1,0 +1,236 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>AME - Readme</title>
+    <style>
+        body
+        {
+            margin: 0 auto;
+            width: 990px;
+            background: #111111;
+            color: #dddddd;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+        }
+
+        a
+        { 
+	        color: #5B9BD5;
+	        text-decoration: none; 
+        }
+
+        a:hover
+        { 
+	        color: #E6E6E6;
+        }
+
+        div#top
+        {
+            margin: 0 0 10px;
+            padding: 10px;
+            width: auto;
+            background: #000000;
+            border: solid #292929;
+            border-top: none;
+            text-align: center;
+        }
+
+        div.readme-main
+        {
+            margin: 0 0 10px;
+            padding: 10px;
+            width: auto;
+            background: #000000;
+            border: solid #292929;
+        }
+
+        div.red
+        {
+            margin: 0;
+            padding: 5px;
+            background: #900;
+            border: solid #c00;
+        }
+
+        div.yellow
+        {
+            margin: 0;
+            padding: 5px;
+            background: #c90;
+            border: solid #fc0;
+        }
+
+        h1
+        {
+            margin: 0;
+            padding: 0;
+	        color:#CC1B1B;
+            font-family: Georgia, "Times New Roman", Times, serif;
+        }
+
+        h2
+        {
+            margin: 0;
+	        color:#CC1B1B;
+            font-family: Georgia, "Times New Roman", Times, serif;
+            font-size: 1.4em;
+        }
+
+        h3
+        {
+            margin: 0;
+	        color:#CC1B1B;
+            font-family: Georgia, "Times New Roman", Times, serif;
+            font-size: 1.2em;
+        }
+
+        div.red + h2, h2 + div.yellow
+        {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="top">
+        <h1>AoM Model Editor</h1>
+        version 1.2.1<br />
+        <p style="font-family: Georgia, 'Times New Roman', Times, serif;"><a href="https://petar.page/l/aom-ame-home" target="_blank">Application Website</a></p>
+    </div>
+    <div class="readme-main">
+        <h2>Contents</h2>
+        <ol>
+            <li><a href="#Reqs">Requirements</a></li>
+            <li><a href="#Inst">Installation</a></li>
+            <li><a href="#EdIn">Editor Information</a></li>
+            <li><a href="#Usag">Usage</a></li>
+            <li><a href="#Help">Helpful Information</a></li>
+            <li><a href="#Supp">Support</a></li>
+            <li><a href="#Chan">Changelog</a></li>
+            <li><a href="#Ackn">Acknowledgements</a></li>
+        </ol>
+    </div>
+    <div class="readme-main">
+        <h2><a id="Reqs"></a>Requirements</h2>
+        <ul>
+            <li>.NET 6.0 Desktop Runtime (x64 or x86 depending on your OS)</li>
+        </ul>
+        <h2><a id="Inst"></a>Installation</h2>
+        <p>To install, simply <em>EXTRACT</em> everything from the zip file to a desired location, and run the <em>AoM Model Editor.exe</em> file.</p>
+    </div>
+    <div class="readme-main">
+        <h2><a id="EdIn"></a>Editor Information</h2>
+        <p>
+            Use this application to edit 3D model files for the Age of Mythology and the Extended Edition games.
+            Age of Mythology uses brg files and grn files for 3D models. Brg files use vertex morph animation, while grn files use skeleton/bone based animation.
+            The application will help you edit and convert brg/grn files to and from glTF files.
+        </p>
+        <h2><a id="Usag"></a>Usage</h2>
+        <p>
+            glTF files are a common 3D model format supported by many 3D modelling applications such as 3ds Max, and Blender.
+            glTF files can be saved in two different formats or file extensions. They can be saved with the glb extension which contains all the data in a binary format.
+            They can also be saved with the gltf extension which will contain the structure of the model as JSON data, with a potential to also include separate ".bin"
+            and image files to store additional data.
+        </p>
+        <p>Typically, your workflow for creating new models will look like this:</p>
+        <ol>
+            <li>Find a plugin, or see if your favorite modelling software supports exporting gltf files.</li>
+            <li>After you've created your model, export the model as either glb, or gltf with your modelling software.</li>
+            <li>In the AoM Model Editor under the Model menu select either Import GLTF as BRG, or Import GLTF as GRN to convert the glTF file into an AoM model format.</li>
+            <li>In the import dialog check the Brg or Grn Settings and change them as you see fit.</li>
+            <li>Use the user interface edit any of the model data.</li>
+            <li>Use the File menu to save the data as an AoM model format.</li>
+            <li>If you are saving a brg file and are modding AoMEE, use the Model menu to extract the MTRL files, and place them in the materials folder of your mod's directory.</li>
+        </ol>
+        <p>For viewing existing AoM models, use the following workflow:</p>
+        <ol>
+            <li>Use the File menu to open either a brg or grn model file.</li>
+            <li>If you opened a grn base model file, you can apply an animation to it from the Model menu by clicking "Apply Grn Animation".</li>
+            <li>Check the Brg Settings or Grn Settings and adjust them as you'd like.</li>
+            <li>Use the Model menu, and select Export as GLTF to save the model data as a glTF file.</li>
+            <li>Now you may use your favorite glTF viewer or editor to view or edit the model.</li>
+        </ol>
+        <h2><a id="Help"></a>Helpful Information</h2>
+        <ul>
+            <li>You can use the <a href="https://sandbox.babylonjs.com/">babylon.js Sandbox</a> web app to quickly view gltf files.</li>
+            <li>You can use the official <a href="https://github.khronos.org/glTF-Validator/">glTF Validator</a> to make sure that your glTF files are properly formed.</li>
+            <li>Setting the location of your AoM game directory in the <em>app_settings.xml</em> will allow the editor to export gltf files along with texture data.</li>
+            <li>You can set a default open, and save directory for the plugin by editing the <em>app_settings.xml</em> file in your 3ds Max directory.</li>
+        </ul>
+        <p>Brg Model Information:</p>
+        <ul>
+            <li>Brg takes all glTF nodes starting with the name "Dummy_" as attachpoints.</li>
+            <li>Material texture names are taken from the texture filename, texture name, or material name.</li>
+            <li>The sample rate in the Brg Settings tells the gltf to brg converter when to sample an animation frame. If the animation is 1 second and sample rate is 10 fps, then the brg will have 10 evenly spaced animation frames.</li>
+            <li>The brg material importer will automatically remove all text after the first '(' paranthesis in the material/texture name.</li>
+            <li>Make sure to minimize the amount of texture vertices you have for a slimmer brg model. Your brg model vertex count will always be >= to the texture vertex count.</li>
+        </ul>
+        <p>Grn Model Information:</p>
+        <ul>
+            <li>AoM uses grn files for both models, and animations. Example: Base.grn would store only the model and skeleton, while Base_attacka.grn would store the skeleton and animation. Change what to import in the Grn Settings.</li>
+            <li>All meshes must have a skeleton with at least one bone.</li>
+            <li>Grn texture names must be the same as the filename without the extension</li>
+            <li>Grn uses material flags by having them listed in the material name</li>
+            <li>You must separate each flag with a space. The flags you can use: colorxform1, pixelxform1, and 2-sided (see aman.grn for example)</li>
+        </ul>
+    </div>
+    <div class="readme-main">
+        <h2><a id="Supp"></a>Support</h2>
+        <p>You can get support by asking in the modding channels of the following communities:</p>
+        <ul>
+            <li><a href="https://discord.gg/jPDPukY" target="_blank">Fan Created AoM Discord</a></li>
+            <li><a href="https://discord.gg/rNhDrm5" target="_blank">Official AoM Discord</a></li>
+            <li><a href="https://aom.heavengames.com/cgi-bin/forums/display.cgi?action=t&fn=19" target="_blank">AoM HeavenGames Forum</a></li>
+        </ul>
+        <p>If you think you've found a bug, post an issue <a href="https://petar.page/l/aom-ame-code" target="_blank">here</a> with as much information as possible.</p>
+    </div>
+    <div class="readme-main">
+        <h2><a id="Chan"></a>Changelog</h2>
+        <ul>
+            <li>
+                <strong>1.2.1+20240108</strong>
+                <ul>
+                    <li>Fixed bug with importing dummies with numbered naming scheme from Blender</li>
+                </ul>
+            </li>
+            <li>
+                <strong>1.2.0+20230930</strong>
+                <ul>
+                    <li>Improved handling of reading texture/material names from glTF files.</li>
+                    <li>Integrated brg/grn import settings into import dialog.</li>
+                    <li>Added glTF scene selection into glTF import dialog.</li>
+                    <li>Fixed bug exporting brg files to glTF with multiple materials using the same id.</li>
+                    <li>Fixed bugs with converting alpha/beta brg files to glTF.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>1.1.0+20210502</strong>
+                <ul>
+                    <li>Added ability to automatically open file when brg/grn files are associated with the app.</li>
+                    <li>Fixed bug when converting multiple meshes from a gltf file to a brg file.</li>
+                    <li>Changed app versioning scheme.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>2020.1.0+20201221 (1.0.0)</strong>
+                <ul>
+                    <li>First Release</li>
+                </ul>
+            </li>
+        </ul>
+        <h2><a id="Ackn"></a>Acknowledgements</h2>
+        <ul>
+            <li>Alexastor</li>
+            <li>Android GRRR</li>
+            <li>Dnas</li>
+            <li>Cannibalh</li>
+            <li>EmjeR</li>
+            <li>inconnuxxx2009</li>
+            <li>Scorpion Ra</li>
+            <li>WarriorMario</li>
+            <li>WollieWoltaz</li>
+            <li>Ykkrosh</li>
+        </ul>
+    </div>
+</body>
+</html>

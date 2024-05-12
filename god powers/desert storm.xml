@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="DesertStorm" type="TempUnit" techname="Desert Storm">
+	<activetime>120</activetime>
+	<placement forceonmap="1">full</placement>
+	<minimapeventtime sendalertto="ally">10.0</minimapeventtime>
+	<createunit quantity="1" minradius="0" maxradius="10" pattern="symmetric" norotate="" delay="0.0">RoyalPalace DS</createunit>
+	<createunit quantity="1" minradius="0" maxradius="10" pattern="symmetric" norotate="" delay="0.0">Shifting Sands In</createunit>
+	<createunit quantity="2" minradius="0" maxradius="20" pattern="symmetric" norotate="" delay="1.0">Tower DS</createunit>
+	<createunit quantity="1" minradius="0" maxradius="10" pattern="symmetric" norotate="" delay="58.0">Shifting Sands Out</createunit>
+
+	<rangeindicatorprotoid radius="5.0" indicatorcount="8" speed="0.2">UI Range Indicator Atlantean SFX</rangeindicatorprotoid>
+
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAlly">SentinelBirth</soundset>
+	<icon>improvement desert storm icon</icon>
+	<usedicon>improvement desert storm used icon</usedicon>
+
+</power>

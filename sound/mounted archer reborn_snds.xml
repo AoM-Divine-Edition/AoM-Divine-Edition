@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<protounitsounddef>
+	<protounit name="Mounted Archer Reborn">
+		<soundtype name="Select">
+			<soundset name="MilitaryChineseSelect"></soundset>
+		</soundtype>
+		<soundtype name="Grunt">
+			<soundset name="CavalryGruntNoMetal"></soundset>
+		</soundtype>
+		<soundtype name="Hit">
+			<damagetypelogic>
+				<choice name="Hack">
+					<soundset name="HackFlesh"></soundset>
+				</choice>
+				<choice name="Slash">
+					<soundset name="HackFlesh"></soundset>
+				</choice>
+				<choice name="Pierce">
+					<soundset name="PierceFlesh"></soundset>
+				</choice>
+				<choice name="Crush">
+					<soundset name="CrushFlesh"></soundset>
+				</choice>
+			</damagetypelogic>
+		</soundtype>
+		<soundtype name="Death">
+			<soundset name="MaleDeath"></soundset>
+		</soundtype>
+		<soundtype name="Creation">
+			<soundset name="MilitaryBirth"></soundset>
+		</soundtype>
+		<soundtype name="Acknowledge">
+			<targetlogic>
+				<choice name="default">
+					<soundset name="MilitaryChineseAcknowledge"></soundset>
+				</choice>
+				<choice name="enemy">
+					<soundset name="MilitaryChineseAttack"></soundset>
+				</choice>
+			</targetlogic>
+		</soundtype>
+	</protounit>
+</protounitsounddef>

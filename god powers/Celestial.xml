@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Celestial" type="flamingweapons" techname="Celestial">
+	<placement forceonmap="1" matchtype="LogicalTypeValidFlamingWeaponsTarget">unit</placement>
+	<activetime>60</activetime>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">Aztec Whistle1</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<abstractattacktargettype>LogicalTypeValidFlamingWeaponsTarget</abstractattacktargettype>
+	<powerplayerrelation>player</powerplayerrelation>
+	<tech>Celestial Active</tech>
+	<particlesfxnode>
+		<unittype>Eagle Knight</unittype>
+		<sfx>sfx a tlaloc face</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Jaguar Knight</unittype>
+		<sfx>Star Trail</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Coyote Runner</unittype>
+		<sfx>Star Trail</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Macehuatlin</unittype>
+		<sfx>Star Trail</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Archer Knight</unittype>
+		<sfx>Star Trail</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Inca Bolas</unittype>
+		<sfx>Star Trail</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Huaminca</unittype>
+		<sfx>Star Trail</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Zapotec</unittype>
+		<sfx>Star Trail</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Holcan Spearman</unittype>
+		<sfx>Star Trail</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Skull Knight</unittype>
+		<sfx>Star Trail</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Huron Mantlet</unittype>
+		<sfx>Star Trail</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Iroquois ram</unittype>
+		<sfx>Star Trail</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Eagle Knight Tez</unittype>
+		<sfx>sfx a tlaloc face</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Jaguar Knight Tez</unittype>
+		<sfx>Star Trail</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Coyote Runner Tez</unittype>
+		<sfx>Star Trail</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Macehuatlin Tez</unittype>
+		<sfx>Star Trail</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Archer Knight Tez</unittype>
+		<sfx>Star Trail</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Inca Bolas Tez</unittype>
+		<sfx>Star Trail</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Huaminca Tez</unittype>
+		<sfx>Star Trail</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Zapotec Tez</unittype>
+		<sfx>Star Trail</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Holcan Spearman Tez</unittype>
+		<sfx>Star Trail</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Skull Knight Tez</unittype>
+		<sfx>Star Trail</sfx>
+	</particlesfxnode>
+	<icon>CelestialCentzonIcon</icon>
+	<usedicon>CelestialCentzonIcon</usedicon>
+</power>

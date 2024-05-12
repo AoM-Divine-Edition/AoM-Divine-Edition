@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+
+<protounitsounddef>
+	<protounit name ="dangerous explosion">
+		<soundtype name ="Select">
+			<soundset name ="MilitaryGreekSelect"></soundset>
+		</soundtype>
+		<soundtype name ="explosion">
+			<soundset name ="CavalryGrunt"></soundset>
+		</soundtype>
+		<soundtype name ="Hit">
+			<damagetypelogic>
+				<choice name ="Hack">
+					<soundset name ="MetalSlice"></soundset>
+				</choice>
+				<choice name ="Slash">
+					<soundset name ="MetalSlice"></soundset>
+				</choice>
+				<choice name ="Pierce">
+					<soundset name ="PierceFlesh"></soundset>
+				</choice>
+				<choice name ="Crush">
+					<soundset name ="CrushFlesh"></soundset>
+				</choice>
+			</damagetypelogic>
+		</soundtype>
+		<soundtype name ="Death">
+			<soundset name ="MaleDeath"></soundset>
+		</soundtype>
+		<soundtype name ="Creation">
+			<soundset name ="explosion"></soundset>
+		</soundtype>
+		<soundtype name ="Acknowledge">
+			<targetlogic>
+				<choice name ="default">
+					<soundset name ="MilitaryGreekAcknowledge"></soundset>
+				</choice>
+				<choice name ="enemy">
+					<soundset name ="MilitaryGreekAttack"></soundset>
+				</choice>
+			</targetlogic>
+		</soundtype>
+	</protounit>
+</protounitsounddef>

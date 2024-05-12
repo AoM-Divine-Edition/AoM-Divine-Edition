@@ -1,0 +1,36 @@
+//==============================================================================
+// Courtyard Plants_anim.txt
+//==============================================================================
+
+//==============================================================================
+anim idle
+{
+	SetSelector
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual TreeKapok1
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual TreeKapok2
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual TreeKapok3
+				
+			}
+		}
+	}
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="incaendiumhelper" type="tempunit" techname="Incaendium Helper">
+	<activetime>-1</activetime>
+	<placement forceonmap="1">skip</placement>
+	<createunit quantity="5" radius="5.0" delay="0.0" norotate="">Fire Object Big</createunit>
+	
+	<icon>god power nidhogg icon</icon>
+	<usedicon>god power nidhogg icon done</usedicon>
+
+</power>

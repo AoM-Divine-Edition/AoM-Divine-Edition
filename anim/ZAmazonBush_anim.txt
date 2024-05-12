@@ -1,0 +1,50 @@
+//==============================================================================
+// bush_anim.txt
+//==============================================================================
+
+
+//==============================================================================
+anim None
+{
+	SetSelector none 
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual AmazonFlo1
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual AmazonFlo2
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual AmazonFlo3
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual AmazonFlo4
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual AmazonLog1
+			}
+		}
+	}
+}
+
+

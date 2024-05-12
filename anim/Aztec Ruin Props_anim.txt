@@ -1,0 +1,84 @@
+//==============================================================================
+// Courtyard Plants_anim.txt
+//==============================================================================
+
+//==============================================================================
+anim idle
+{
+	SetSelector
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual Aztec Prop Ruins
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Aztec Ruined Statues
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Aztec Ruins A
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Aztec Ruins B
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Aztec Ruins C
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Aztec Ruins D
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Aztec Ruins E
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Aztec Ruins F
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Aztec Ruins G
+				
+			}
+		}
+	}
+}

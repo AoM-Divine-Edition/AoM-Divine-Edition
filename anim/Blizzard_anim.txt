@@ -1,0 +1,130 @@
+//==============================================================================
+// Tsunami_anim.txt
+//==============================================================================
+
+//==============================================================================
+define cold1
+{
+		set hotspot
+		{
+			version
+			{
+			Visualparticle sfx a avalanche debrisII
+			}
+		}
+}
+//==============================================================================
+define cold2
+{
+		set hotspot
+		{
+			version
+			{
+			Visualparticle sfx a avalanche snowII
+			}
+		}
+}
+//==============================================================================
+define cold3
+{
+		set hotspot
+		{
+			version
+			{
+			Visualparticle world a snow driftII
+			}
+		}
+}
+
+//==============================================================================
+define snow
+{
+		set hotspot
+		{
+			version
+			{
+			Visual AvalancheSmall
+			}
+		}
+}
+
+//==============================================================================
+define splash
+{
+		set hotspot
+		{
+			version
+			{
+			Visualparticle SFX A Avalanche Snow
+			}
+		}
+}
+
+//==============================================================================
+define shockwave
+{
+	set hotspot
+	{
+		version
+		{
+		Visualparticle SFX A Avalanche Debris
+		}
+	}
+}
+
+//==============================================================================
+define wake
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle world a snow drift
+      }
+   }
+}
+
+//==============================================================================
+anim Idle
+{
+   SetSelector 
+   {
+      set hotspot
+      {
+         version
+         {
+			Visualnone jimmy
+			connect ATTACHPOINT shockwave hotspot
+			connect ATTACHPOINT splash hotspot
+		//	connect ATTACHPOINT snow hotspot
+			connect ATTACHPOINT cold1 hotspot
+			connect ATTACHPOINT cold2 hotspot
+			connect ATTACHPOINT cold3 hotspot
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim Walk
+{
+   SetSelector 
+   {
+      set hotspot
+      {
+         version
+         {
+			Visualnone jimmy
+			connect ATTACHPOINT shockwave hotspot
+			connect ATTACHPOINT splash hotspot
+		//	connect ATTACHPOINT snow hotspot
+		//	connect ATTACHPOINT snow hotspot
+			connect ATTACHPOINT cold1 hotspot
+			connect ATTACHPOINT cold2 hotspot
+			connect ATTACHPOINT cold3 hotspot
+         }
+      }
+   }
+}
+
+

@@ -1,0 +1,756 @@
+//===========================================================================
+//Tholos_anim
+//===========================================================================
+// Made by Enpremi and Cannibalh
+//===========================================================================
+import Construction_defines_anim.txt
+import torch.txt
+//==============================================================================
+define Dust
+{
+	set hotspot
+	{
+		version
+		{
+			Visualparticle SFX A Building DustA
+		}
+	}  
+}
+//==============================================================================
+define VINEA
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Building VineA
+		}
+	}  
+}
+
+//==============================================================================
+define VINEB
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Building VineB
+		}
+	}  
+}
+
+//==============================================================================
+define CypressA
+{
+	set hotspot
+	{
+		version
+		{
+			Visual terrain g cypressA
+		}
+	}
+}
+
+//==============================================================================
+define CypressB
+{
+	set hotspot
+	{
+		version
+		{
+			Visual terrain g cypressB
+		}
+	}
+}
+
+
+//==============================================================================
+define Bush
+{
+	set hotspot
+	{
+		version
+		{
+			Visual World A Bush Short F
+		}
+	}  
+}
+
+//==============================================================================
+define fire
+
+{
+   set hotspot
+   {
+      version
+      {
+         Visual SFX A Generic Fire Small
+      }
+   }
+}
+
+//==============================================================================
+define smoke
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Generic Fire Tiny
+      }
+   }
+}
+
+//==============================================================================
+define firet
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Generic Smoke Tiny
+      }
+   }
+}
+
+//==============================================================================
+define firebowl
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Generic Fire Tiny Bowl
+      }
+   }
+}
+
+
+//==============================================================================
+define torch
+{
+   set hotspot
+   {
+      version
+      {
+					Visual World G Torch Short
+					Connect TOPOFHEAD firet hotspot
+					Connect TOPOFHEAD firebowl hotspot
+					Connect TOPOFHEAD smoke hotspot
+      }
+   }
+}
+//==============================================================================
+define DestructionRTC
+{
+	set hotspot
+	{
+		version
+		{
+			Visual building construction large tholos
+		}
+	}  
+}
+//==============================================================================
+define DestructionRT0
+{
+	set hotspot
+	{
+		version
+		{
+			Visual building greek tholos age0
+		}
+	}  
+}
+//==============================================================================
+define DestructionRT1
+{
+	set hotspot
+	{
+		version
+		{
+			Visual building greek tholos age1
+		}
+	}  
+}
+//==============================================================================
+define DestructionRT2
+{
+	set hotspot
+	{
+		version
+		{
+			Visual building greek tholos age2
+		}
+	}  
+}
+//==============================================================================
+define DestructionRT3
+{
+	set hotspot
+	{
+		version
+		{
+			Visual building greek tholos age3
+		}
+	}  
+}
+//==============================================================================
+define DestructionRT4
+{
+	set hotspot
+	{
+		version
+		{
+			Visual building greek tholos age4
+		}
+	}  
+}
+//==============================================================================
+anim Idle
+{
+		SetSelector
+      {
+			TechLogic none/age 2/age 3/age 4/age 5
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+				Visual building greek tholos age0
+				connect smoke0 fire hotspot
+				connect smoke1 CypressB hotspot
+				connect smoke2 CypressB hotspot
+				connect smoke3 CypressB hotspot
+				connect smoke4 CypressB hotspot
+				connect smoke5 CypressB hotspot
+						}
+					}
+			set hotspot
+				{
+					version
+					{
+						Visual Building Construction Large A
+				  	connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+						connect ATTACHPOINT empower hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Large B
+				  	connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+						connect ATTACHPOINT empower hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual building construction large tholos
+				       	connect attachpoint E_Long_Brick hotspot
+						}
+					}
+				}
+			SetSelector
+			{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual building greek tholos age1
+				            connect Smokepoint fire hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Large A
+				  	connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+						connect ATTACHPOINT empower hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Large B
+				  	connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+						connect ATTACHPOINT empower hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual building construction large tholos
+				       	connect attachpoint E_Long_Brick hotspot
+						}
+					}
+				}
+			SetSelector
+			{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual building greek tholos age2
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Large A
+				  	connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+						connect ATTACHPOINT empower hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Large B
+				  	connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+						connect ATTACHPOINT empower hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual building construction large tholos
+				       	connect attachpoint E_Long_Brick hotspot
+						}
+					}
+				}
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual building greek tholos age3
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Large A
+				  	connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+						connect ATTACHPOINT empower hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Large B
+				  	connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+						connect ATTACHPOINT empower hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual building construction large tholos
+				       	connect attachpoint E_Long_Brick hotspot
+						}
+					}
+				}
+			}
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual building greek tholos age4
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Large A
+				  	connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+						connect ATTACHPOINT empower hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Large B
+				  	connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+						connect ATTACHPOINT empower hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual building construction large tholos
+				       	connect attachpoint E_Long_Brick hotspot
+						}
+					}
+				}
+			}
+    }
+}
+//==============================================================================
+anim Death
+{
+		SetSelector
+      {
+			TechLogic none/age 2/age 3/age 4/age 5
+			SetSelector
+			{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+               Visual GenericDestruction
+			connect forehead DestructionRT0 hotspot
+            connect Smoke0 Dust hotspot
+			connect Smoke1 Dust hotspot
+			connect Smoke2 Dust hotspot
+			connect Smoke3 Dust hotspot	
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+               Visual GenericDestruction
+			connect forehead DestructionRTC hotspot
+            connect Smoke0 Dust hotspot
+			connect Smoke1 Dust hotspot
+			connect Smoke2 Dust hotspot
+			connect Smoke3 Dust hotspot	
+						}
+					}
+				}
+			SetSelector
+			{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+               Visual GenericDestruction
+			connect forehead DestructionRT1 hotspot
+            connect Smoke0 Dust hotspot
+			connect Smoke1 Dust hotspot
+			connect Smoke2 Dust hotspot
+			connect Smoke3 Dust hotspot	
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+               Visual GenericDestruction
+			connect forehead DestructionRTC hotspot
+            connect Smoke0 Dust hotspot
+			connect Smoke1 Dust hotspot
+			connect Smoke2 Dust hotspot
+			connect Smoke3 Dust hotspot
+						}
+					}
+				}
+			SetSelector
+			{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+               Visual GenericDestruction
+			connect forehead DestructionRT2 hotspot
+            connect Smoke0 Dust hotspot
+			connect Smoke1 Dust hotspot
+			connect Smoke2 Dust hotspot
+			connect Smoke3 Dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+               Visual GenericDestruction
+			connect forehead DestructionRTC hotspot
+            connect Smoke0 Dust hotspot
+			connect Smoke1 Dust hotspot
+			connect Smoke2 Dust hotspot
+			connect Smoke3 Dust hotspot
+						}
+				    }
+			}
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+               Visual GenericDestruction
+			connect forehead DestructionRT3 hotspot
+            connect Smoke0 Dust hotspot
+			connect Smoke1 Dust hotspot
+			connect Smoke2 Dust hotspot
+			connect Smoke3 Dust hotspot	
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+               Visual GenericDestruction
+			connect forehead DestructionRTC hotspot
+            connect Smoke0 Dust hotspot
+			connect Smoke1 Dust hotspot
+			connect Smoke2 Dust hotspot
+			connect Smoke3 Dust hotspot
+						}
+					}
+				}
+			}
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+               Visual GenericDestruction
+			connect forehead DestructionRT4 hotspot
+            connect Smoke0 Dust hotspot
+			connect Smoke1 Dust hotspot
+			connect Smoke2 Dust hotspot
+			connect Smoke3 Dust hotspot	
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+               Visual GenericDestruction
+			connect forehead DestructionRTC hotspot
+            connect Smoke0 Dust hotspot
+			connect Smoke1 Dust hotspot
+			connect Smoke2 Dust hotspot
+			connect Smoke3 Dust hotspot
+						}
+					}
+				}
+			}
+    }
+}

@@ -1,0 +1,1367 @@
+//==============================================================================
+// War Elephant_anim.txt
+//==============================================================================
+
+import Egyptian_Elephant_Shield_anim.txt
+import spear_defines_anim.txt
+
+//==============================================================================
+define head
+{
+	SetSelector
+	{
+		TechLogic none/Heavy Elephants/Champion Elephants
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry E War Elephant Head
+			}
+		}			
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry E War Elephant Head
+				ReplaceTexture Cavalry E War Elephant Head Copper/Cavalry E War Elephant Head Bronze
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry E War Elephant Head
+				ReplaceTexture Cavalry E War Elephant Head Copper/Cavalry E War Elephant Head Iron
+			}
+		}
+	}
+}
+
+//==============================================================================
+define Tusks
+{
+	SetSelector
+	{
+		TechLogic none/Copper Weapons/Bronze Weapons/Iron Weapons/Tusks of Apedemak
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry E War Elephant Tusks Standard
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry E War Elephant Tusks Copper
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry E War Elephant Tusks Bronze
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry E War Elephant Tusks Iron
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry E War Elephant Tusks Apedemak
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Idle
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		SetSelector
+		{
+			TechLogic none/Heavy Elephants/Champion Elephants
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-idleA
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Standard
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-idleA
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Bronze
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Standard
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-idleA
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Iron
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Standard
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Elephants/Champion Elephants
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-idleA
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-idleA
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Bronze
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-idleA
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Iron
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Elephants/Champion Elephants
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-idleA
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Bronze
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-idleA
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Bronze
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Bronze
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-idleA
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Iron
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Bronze
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Elephants/Champion Elephants
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-idleA
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Iron
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-idleA
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Bronze
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Iron
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-idleA
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Iron
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Iron
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Bored
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		SetSelector
+		{
+			TechLogic none/Heavy Elephants/Champion Elephants
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-BoredA
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Standard
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-BoredA
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Bronze
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Standard
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-BoredA
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Iron
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Standard
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Elephants/Champion Elephants
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-BoredA
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-BoredA
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Bronze
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-BoredA
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Iron
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Elephants/Champion Elephants
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-BoredA
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Bronze
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-BoredA
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Bronze
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Bronze
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-BoredA
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Iron
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Bronze
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Elephants/Champion Elephants
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-BoredA
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Iron
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-BoredA
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Bronze
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Iron
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-BoredA
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Iron
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Iron
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Death
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		SetSelector
+		{
+			TechLogic none/Heavy Elephants/Champion Elephants
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-DeathA
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag SpecificSoundSet 0.14 false GiantFootsteps checkVisible 
+					tag SpecificSoundSet 0.48 false HeavyFall checkVisible 
+	//-- end auto generated section
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Standard
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-DeathA
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag SpecificSoundSet 0.14 false GiantFootsteps checkVisible 
+					tag SpecificSoundSet 0.48 false HeavyFall checkVisible 
+	//-- end auto generated section
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Bronze
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Standard
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-DeathA
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag SpecificSoundSet 0.14 false GiantFootsteps checkVisible 
+					tag SpecificSoundSet 0.48 false HeavyFall checkVisible 
+	//-- end auto generated section
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Iron
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Standard
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Elephants/Champion Elephants
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-DeathA
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag SpecificSoundSet 0.14 false GiantFootsteps checkVisible 
+					tag SpecificSoundSet 0.48 false HeavyFall checkVisible 
+	//-- end auto generated section
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-DeathA
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag SpecificSoundSet 0.14 false GiantFootsteps checkVisible 
+					tag SpecificSoundSet 0.48 false HeavyFall checkVisible 
+	//-- end auto generated section
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Bronze
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-DeathA
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag SpecificSoundSet 0.14 false GiantFootsteps checkVisible 
+					tag SpecificSoundSet 0.48 false HeavyFall checkVisible 
+	//-- end auto generated section
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Iron
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Elephants/Champion Elephants
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-DeathA
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag SpecificSoundSet 0.14 false GiantFootsteps checkVisible 
+					tag SpecificSoundSet 0.48 false HeavyFall checkVisible 
+	//-- end auto generated section
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Bronze
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-DeathA
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag SpecificSoundSet 0.14 false GiantFootsteps checkVisible 
+					tag SpecificSoundSet 0.48 false HeavyFall checkVisible 
+	//-- end auto generated section
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Bronze
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Bronze
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-DeathA
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag SpecificSoundSet 0.14 false GiantFootsteps checkVisible 
+					tag SpecificSoundSet 0.48 false HeavyFall checkVisible 
+	//-- end auto generated section
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Iron
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Bronze
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Elephants/Champion Elephants
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-DeathA
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag SpecificSoundSet 0.14 false GiantFootsteps checkVisible 
+					tag SpecificSoundSet 0.48 false HeavyFall checkVisible 
+	//-- end auto generated section
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Iron
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-DeathA
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag SpecificSoundSet 0.14 false GiantFootsteps checkVisible 
+					tag SpecificSoundSet 0.48 false HeavyFall checkVisible 
+	//-- end auto generated section
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Bronze
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Iron
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-DeathA
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag SpecificSoundSet 0.14 false GiantFootsteps checkVisible 
+					tag SpecificSoundSet 0.48 false HeavyFall checkVisible 
+	//-- end auto generated section
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Iron
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Iron
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Attack
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		SetSelector
+		{
+			TechLogic none/Heavy Elephants/Champion Elephants
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-AttackA
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag Attack 0.47 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.34 false SwordSwing checkVisible 
+	//-- end auto generated section
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Standard
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-AttackA
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag Attack 0.47 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.34 false SwordSwing checkVisible 
+	//-- end auto generated section
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Bronze
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Standard
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-AttackA
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag Attack 0.47 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.34 false SwordSwing checkVisible 
+	//-- end auto generated section
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Iron
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Standard
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Elephants/Champion Elephants
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-AttackA
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag Attack 0.47 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.34 false SwordSwing checkVisible 
+	//-- end auto generated section
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-AttackA
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag Attack 0.47 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.34 false SwordSwing checkVisible 
+	//-- end auto generated section
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Bronze
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-AttackA
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag Attack 0.47 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.34 false SwordSwing checkVisible 
+	//-- end auto generated section
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Iron
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Elephants/Champion Elephants
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-AttackA
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag Attack 0.47 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.34 false SwordSwing checkVisible 
+	//-- end auto generated section
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Bronze
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-AttackA
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag Attack 0.47 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.34 false SwordSwing checkVisible 
+	//-- end auto generated section
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Bronze
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Bronze
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-AttackA
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag Attack 0.47 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.34 false SwordSwing checkVisible 
+	//-- end auto generated section
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Iron
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Bronze
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Elephants/Champion Elephants
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-AttackA
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag Attack 0.47 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.34 false SwordSwing checkVisible 
+	//-- end auto generated section
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Iron
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-AttackA
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag Attack 0.47 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.34 false SwordSwing checkVisible 
+	//-- end auto generated section
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Bronze
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Iron
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-AttackA
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag Attack 0.47 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.34 false SwordSwing checkVisible 
+	//-- end auto generated section
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Iron
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Iron
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Walk
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		SetSelector
+		{
+			TechLogic none/Heavy Elephants/Champion Elephants
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-WalkA
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag SpecificSoundSet 0.28 false GiantFootsteps checkVisible 
+					tag SpecificSoundSet 0.78 false GiantFootsteps checkVisible 
+					tag FootstepRight 0.10 true	
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.70 true	
+					tag FootstepLeft 0.80 true	
+	//-- end auto generated section
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Standard
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-WalkA
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag SpecificSoundSet 0.28 false GiantFootsteps checkVisible 
+					tag SpecificSoundSet 0.78 false GiantFootsteps checkVisible 
+					tag FootstepRight 0.10 true	
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.70 true	
+					tag FootstepLeft 0.80 true	
+	//-- end auto generated section
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Bronze
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Bronze
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Standard
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-WalkA
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag SpecificSoundSet 0.28 false GiantFootsteps checkVisible 
+					tag SpecificSoundSet 0.78 false GiantFootsteps checkVisible 
+					tag FootstepRight 0.10 true	
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.70 true	
+					tag FootstepLeft 0.80 true	
+	//-- end auto generated section
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Iron
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Standard
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Elephants/Champion Elephants
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-WalkA
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag SpecificSoundSet 0.28 false GiantFootsteps checkVisible 
+					tag SpecificSoundSet 0.78 false GiantFootsteps checkVisible 
+					tag FootstepRight 0.10 true	
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.70 true	
+					tag FootstepLeft 0.80 true	
+	//-- end auto generated section
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-WalkA
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag SpecificSoundSet 0.28 false GiantFootsteps checkVisible 
+					tag SpecificSoundSet 0.78 false GiantFootsteps checkVisible 
+					tag FootstepRight 0.10 true	
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.70 true	
+					tag FootstepLeft 0.80 true	
+	//-- end auto generated section
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Bronze
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-WalkA
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag SpecificSoundSet 0.28 false GiantFootsteps checkVisible 
+					tag SpecificSoundSet 0.78 false GiantFootsteps checkVisible 
+					tag FootstepRight 0.10 true	
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.70 true	
+					tag FootstepLeft 0.80 true	
+	//-- end auto generated section
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Iron
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Elephants/Champion Elephants
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-WalkA
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag SpecificSoundSet 0.28 false GiantFootsteps checkVisible 
+					tag SpecificSoundSet 0.78 false GiantFootsteps checkVisible 
+					tag FootstepRight 0.10 true	
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.70 true	
+					tag FootstepLeft 0.80 true	
+	//-- end auto generated section
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Bronze
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-WalkA
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag SpecificSoundSet 0.28 false GiantFootsteps checkVisible 
+					tag SpecificSoundSet 0.78 false GiantFootsteps checkVisible 
+					tag FootstepRight 0.10 true	
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.70 true	
+					tag FootstepLeft 0.80 true	
+	//-- end auto generated section
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Bronze
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Bronze
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-WalkA
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag SpecificSoundSet 0.28 false GiantFootsteps checkVisible 
+					tag SpecificSoundSet 0.78 false GiantFootsteps checkVisible 
+					tag FootstepRight 0.10 true	
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.70 true	
+					tag FootstepLeft 0.80 true	
+	//-- end auto generated section
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Iron
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Bronze
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Elephants/Champion Elephants
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-WalkA
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag SpecificSoundSet 0.28 false GiantFootsteps checkVisible 
+					tag SpecificSoundSet 0.78 false GiantFootsteps checkVisible 
+					tag FootstepRight 0.10 true	
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.70 true	
+					tag FootstepLeft 0.80 true	
+	//-- end auto generated section
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Iron
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-WalkA
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag SpecificSoundSet 0.28 false GiantFootsteps checkVisible 
+					tag SpecificSoundSet 0.78 false GiantFootsteps checkVisible 
+					tag FootstepRight 0.10 true	
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.70 true	
+					tag FootstepLeft 0.80 true	
+	//-- end auto generated section
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Bronze
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Iron
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-WalkA
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag SpecificSoundSet 0.28 false GiantFootsteps checkVisible 
+					tag SpecificSoundSet 0.78 false GiantFootsteps checkVisible 
+					tag FootstepRight 0.10 true	
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.70 true	
+					tag FootstepLeft 0.80 true	
+	//-- end auto generated section
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Iron
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Iron
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Flail
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		SetSelector
+		{
+			TechLogic none/Heavy Elephants/Champion Elephants
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-FlailA
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Standard
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-FlailA
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Bronze
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Standard
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-FlailA
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Iron
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Standard
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Elephants/Champion Elephants
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-FlailA
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-FlailA
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Bronze
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-FlailA
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Iron
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Elephants/Champion Elephants
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-FlailA
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Bronze
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-FlailA
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Bronze
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Bronze
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-FlailA
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Iron
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Bronze
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Elephants/Champion Elephants
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-FlailA
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Iron
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-FlailA
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Bronze
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Iron
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry E War Elephant_Headless-FlailA
+					connect chin tusks hotspot
+					connect LeftForearm EgyptianElephantShield hotspot
+					connect RightHand Spear hotspot
+					connect TopOfHead Head hotspot
+					ReplaceTexture Cavalry E War Elephant Copper/Cavalry E War Elephant Iron
+					ReplaceTexture Cavalry E War Elephant Man Copper/Cavalry E War Elephant Iron
+				}
+			}
+		}
+	}
+}

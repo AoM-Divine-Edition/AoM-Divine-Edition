@@ -1,0 +1,60 @@
+//==============================================================================
+//Ball of fire
+//==============================================================================
+
+
+//==============================================================================
+define wat
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle sfx a small splash
+      }
+   }
+}
+
+
+//==============================================================================
+define firetrail
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Fire Ball Trail
+      }
+   }
+}
+
+//==============================================================================
+define smoke
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Fire Ball Smoke
+      }
+   }
+}
+
+
+//==============================================================================
+anim none
+{
+	SetSelector
+	{
+		set hotspot
+		{
+		version
+			{
+			
+            Visual MU X PrometheanS_birthA
+	    ReplaceTexture MU X Promethean Map/special n tar giant
+		connect ATTACHPOINT wat hotspot
+			}
+		}
+	}
+}

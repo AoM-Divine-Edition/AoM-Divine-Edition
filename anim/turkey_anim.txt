@@ -1,0 +1,96 @@
+//==============================================================================
+// turkey_anim.txt
+//==============================================================================
+
+
+//==============================================================================
+anim Bored
+{
+   SetSelector
+   {
+	VariationLogic
+			set hotspot
+			{
+				version
+				{
+					Visual Animal turkey_boredA
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Animal turkey_BboredA
+				}
+			}
+	}
+}
+
+//==============================================================================
+anim Death
+{
+   SetSelector
+   {
+	VariationLogic
+			set hotspot
+			{
+				version
+				{
+					Visual Animal turkey_death
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Animal turkey_Bdeath
+				}
+			}
+	}
+}
+
+//==============================================================================
+anim Idle
+{
+   SetSelector
+   {
+	VariationLogic
+			set hotspot
+			{
+				version
+				{
+					Visual animal turkey_boredB
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual animal turkey_BboredB
+				}
+			}
+	}
+}
+
+//==============================================================================
+anim Walk
+{
+   SetSelector
+   {
+	VariationLogic
+			set hotspot
+			{
+				version
+				{
+					Visual Animal turkey_walk
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Animal turkey_Bwalk
+				}
+			}
+	}
+}

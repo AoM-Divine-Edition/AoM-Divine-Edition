@@ -1,0 +1,71 @@
+//==============================================================================
+// Meteor Splash_anim.txt
+//==============================================================================
+
+//==============================================================================
+define groundfire
+{
+	set hotspot
+	{
+		version
+		{
+		   Visualparticle SFX A Meteor GroundFire
+		}
+	}
+}
+
+//==============================================================================
+define mushroom
+{
+	set hotspot
+	{
+		version
+		{
+			Visualparticle SFX A Meteor Impact Mushroom
+		}
+	}
+}
+
+//==============================================================================
+define shockwave
+{
+	set hotspot
+	{
+		version
+		{
+		Visualparticle SFX A Meteor Shockblast
+		}
+	}
+}
+
+//==============================================================================
+define dust
+{
+	set hotspot
+	{
+		version
+		{
+		Visualparticle SFX A Meteor Dust
+		}
+	}
+}
+
+
+//==============================================================================
+anim idle
+{
+	SetSelector none 
+	{
+		set hotspot
+		{
+			version
+			{
+			Visualnone jimmy
+			connect ATTACHPOINT groundfire hotspot
+			connect ATTACHPOINT mushroom hotspot
+			connect ATTACHPOINT shockwave hotspot
+			connect ATTACHPOINT dust hotspot
+			}
+		}
+	}
+}

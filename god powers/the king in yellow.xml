@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="TheKingInYellow" type="lightning" techname="The King in Yellow">
+	<placement forceonmap="1">skip</placement>
+	<activetime>5.0</activetime>
+	<rangeindicatorprotoid radius="20.0" indicatorcount="10" speed="0.2">UI Range Indicator Greek SFX</rangeindicatorprotoid>
+	<reveallos radius="20.0">Revealer To Player</reveallos>
+	<unitaitype>HandUnitsAttack</unitaitype>
+	<radius>25.0</radius>
+	<accuracy>1.00</accuracy>
+	<strikesoundset>LightningStrike</strikesoundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">LightThunder</soundset>
+	<playsbattlemusic></playsbattlemusic>
+	<gpdamagemodel>
+		<playerrelation>enemy</playerrelation>
+		<basedamagepercentunit>1000.00</basedamagepercentunit>
+		<basedamagepercentvillager>1000.00</basedamagepercentvillager>
+		<minhpdamageunit>1200000</minhpdamageunit>
+		<minhpdamagevillager>300000</minhpdamagevillager>
+		<minhpdamagebuilding>0</minhpdamagebuilding>
+		<maxhpdamageunit>2500000</maxhpdamageunit>
+		<maxhpdamagevillager>400000</maxhpdamagevillager>
+		<maxhpdamagebuilding>0</maxhpdamagebuilding>
+	</gpdamagemodel>
+	<strike>lightning strike</strike>
+	<sparks>lightning sparks</sparks>
+	<groundsparks>lightning sparks ground</groundsparks>
+	<scorch>lightning scorch</scorch>
+	<cloud>lightning cloud</cloud>
+	<rain>lightning rain</rain>
+	<fasteststriketime>0.001</fasteststriketime>
+	<sloweststriketime>0.002</sloweststriketime>
+	<strikeheight>25.0</strikeheight>
+	<strikeminoffset>2.0</strikeminoffset>
+	<strikemaxoffset>5.0</strikemaxoffset>
+	<cloudbuildupendtime>0.0</cloudbuildupendtime>
+	<cloudfadeoutstarttime>0.5</cloudfadeoutstarttime>
+	<cloudfadeoutendtime>1.0</cloudfadeoutendtime>
+	<rainbuildupstarttime>0.0</rainbuildupstarttime>
+	<rainbuildupendtime>0.5</rainbuildupendtime>
+	<rainfadeoutstarttime>0.5</rainfadeoutstarttime>
+	<rainfadeoutendtime>1.0</rainfadeoutendtime>
+	<abstractattacktargettype>unit</abstractattacktargettype>
+	<illegalabstractattacktargettype>abstracttitan</illegalabstractattacktargettype>
+	<icon>god power lightning icon</icon>
+	<usedicon>god power lightning icon done</usedicon>
+</power>

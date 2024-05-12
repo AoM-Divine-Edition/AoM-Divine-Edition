@@ -1,0 +1,135 @@
+//==============================================================================
+// Sling Stone_anim.txt
+//==============================================================================
+
+//==============================================================================
+define Fire
+{
+	TechLogic none/Burning Pitch
+	set hotspot
+	{
+		version
+		{
+			Visualnone jimmy
+		}
+	}	
+	set hotspot
+	{
+		version
+		{
+			Visualparticle SFX A Burning Pitch Arrow
+		}
+	}
+}
+
+//==============================================================================
+anim Idle
+{
+	SetSelector
+	{
+		CultureLogic Greek/Egyptian/Norse
+		SetSelector
+		{
+			TechLogic none/Copper Weapons/Bronze Weapons/Iron Weapons
+			set hotspot
+			{
+				version
+				{
+					Visual Attachments E Sling Stone
+					Connect hotspot fire hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Attachments E Sling Electrum
+					replaceTexture Attachments E Sling Electrum/Attachments E Sling Copper
+					Connect hotspot fire hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Attachments E Sling Electrum
+					replaceTexture Attachments E Sling Electrum/Attachments E Sling Bronze
+					Connect hotspot fire hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Attachments E Sling Electrum
+					replaceTexture Attachments E Sling Electrum/Attachments E Sling Iron
+					Connect hotspot fire hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Copper Weapons/Bronze Weapons/Iron Weapons/Electrum Bullets/Slings of the Sun
+			set hotspot
+			{
+				version
+				{
+					Visual Attachments E Sling Stone
+					Connect hotspot fire hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Attachments E Sling Electrum
+					replaceTexture Attachments E Sling Electrum/Attachments E Sling Copper
+					Connect hotspot fire hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Attachments E Sling Electrum
+					replaceTexture Attachments E Sling Electrum/Attachments E Sling Bronze
+					Connect hotspot fire hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Attachments E Sling Electrum
+					replaceTexture Attachments E Sling Electrum/Attachments E Sling Iron
+					Connect hotspot fire hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Attachments E Sling Electrum
+					Connect hotspot fire hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visualparticle SFX E Sling Sun
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Special N Troll Stone
+				}
+			}
+		}
+	}
+}

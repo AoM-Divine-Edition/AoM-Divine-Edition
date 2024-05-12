@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="GoldenHour" type="Eclipse" techname="Golden Hour">
+	<activetime>300.0</activetime>
+	<builduptime>6.0</builduptime>
+	<shutdowntime>3.0</shutdowntime>
+	<powerblocker>-1</powerblocker>
+	<tech>Golden Hour Active</tech>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="All">EclipseBirth</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<placement forceonmap="1">skip</placement>
+	<icon>god power eclipse icon</icon>
+	<usedicon>god power eclipse icon done</usedicon>
+</power>

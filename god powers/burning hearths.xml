@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<power name="BurningHearths" type="flamingweapons" techname="Burning Hearths">
+	<placement>skip</placement>
+	<activetime>60</activetime>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">ExaminationBirth</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<powerplayerrelation>player</powerplayerrelation>
+	<tech>Burning Hearths Active</tech>
+	<particlesfxnode>
+		<unittype>House</unittype>
+		<sfx>Heavenlight</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Settlement Level 1</unittype>
+		<sfx>Heavenlight</sfx>
+	</particlesfxnode>
+	<icon>improvement burning hearths icon</icon>
+	<usedicon>improvement burning hearths used icon</usedicon>
+</power>

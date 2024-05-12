@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="FireflyNight" type="Prosperity" techname="Firefly Night">
+	<activetime>120.0</activetime>
+	<placement>skip</placement>
+	<fasteststriketime>2.0</fasteststriketime>
+	<sloweststriketime>4.0</sloweststriketime>
+	<lightset>Eclipse</lightset>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">TimberHarvestBirth</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<largesfxprotoid>Fireflies</largesfxprotoid>
+	<smallsfxprotoid>Fireflies</smallsfxprotoid>
+	<gatherrate rate="2.0">favor</gatherrate>
+	<gatherrate rate="1.1">food</gatherrate>
+	<gatherrate rate="1.1">wood</gatherrate>
+	<gatherrate rate="1.1">gold</gatherrate>
+	<abstracttype>Dropsite</abstracttype>
+	<icon>god power timber icon</icon>
+	<usedicon>god power timber icon done</usedicon>
+
+	<recharges>0</recharges>
+	<rechargetime>120</rechargetime>
+</power>

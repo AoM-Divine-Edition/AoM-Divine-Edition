@@ -1,0 +1,52 @@
+//==============================================================================
+// Locust_anim.txt
+//==============================================================================
+
+
+//==============================================================================
+define dust
+{
+   set hotspot
+   {
+      version
+      {
+		Visualparticle sfx c vermilion bird tornado
+      }
+   }
+}
+
+
+//==============================================================================
+anim idle
+{
+   SetSelector
+   {
+      VariationLogic
+      set hotspot
+      {
+         version
+         {
+			Visual SFX A Sand Dust Devil_idle
+			connect ATTACHPOINT dust HOTSPOT
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim attack
+{
+   SetSelector
+   {
+      VariationLogic
+      set hotspot
+      {
+         version
+         {
+			Visual SFX A Sand Dust Devil_idle
+            tag Attack 0.5 true   
+			connect ATTACHPOINT dust HOTSPOT
+         }
+      }
+   }
+}

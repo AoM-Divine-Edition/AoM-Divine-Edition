@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<protounitsounddef>
+	<protounit name="Monument Giant">
+		<soundtype name="Select">
+			<soundset name="SphinxSelect"></soundset>
+		</soundtype>
+		<soundtype name="Hit">
+			<damagetypelogic>
+				<choice name="Hack">
+					<soundset name="HackFlesh"></soundset>
+				</choice>
+				<choice name="Slash">
+					<soundset name="HackFlesh"></soundset>
+				</choice>
+				<choice name="Pierce">
+					<soundset name="PierceFlesh"></soundset>
+				</choice>
+				<choice name="Crush">
+					<soundset name="CrushFlesh"></soundset>
+				</choice>
+			</damagetypelogic>
+		</soundtype>
+		<soundtype name="Death">
+			<soundset name="SphinxDeath"></soundset>
+		</soundtype>
+		<soundtype name="Creation">
+			<soundset name="MythUnitBirth"></soundset>
+		</soundtype>
+		<soundtype name="Acknowledge">
+			<targetlogic>
+				<choice name="default">
+					<soundset name="SphinxAcknowledge"></soundset>
+				</choice>
+			</targetlogic>
+		</soundtype>
+	</protounit>
+</protounitsounddef>

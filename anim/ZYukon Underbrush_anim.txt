@@ -1,0 +1,44 @@
+//==============================================================================
+// bush_anim.txt
+//==============================================================================
+
+
+//==============================================================================
+anim None
+{
+	SetSelector none 
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual YukonUnderbrush
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual YukonUnderbrush2
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual YukonUnderbrush3
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual YukonUnderbrush4
+			}
+		}
+		
+	}
+}
+
+

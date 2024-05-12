@@ -1,0 +1,88 @@
+//==============================================================================
+// Shade_anim.txt
+//==============================================================================
+
+
+
+//==============================================================================
+define SunLight
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle Green Lightning
+      }
+   }
+}
+
+//==============================================================================
+define birthrocks
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle Special G Shade Birth Rocks
+      }
+   }
+}
+//==============================================================================
+define birthsmoke
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle scenario u shade birth smoke
+      }
+   }
+}
+
+//==============================================================================
+define birthlight
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle scenario u shade birth light
+      }
+   }
+}
+
+//==============================================================================
+anim birth
+{
+   SetSelector none 
+   {
+      set hotspot
+      {
+         version
+         {
+            Visualnone jimmy
+            connect ATTACHPOINT SunLight hotspot
+            connect ATTACHPOINT GroundGlow hotspot
+	    connect ATTACHPOINT birthrocks hotspot
+	    connect ATTACHPOINT birthsmoke hotspot
+	    connect ATTACHPOINT birthlight hotspot
+         }
+      }
+   }
+}
+//==============================================================================
+anim Idle
+{
+   SetSelector none 
+   {
+      set hotspot
+      {
+         version
+         {
+            Visualnone jimmy
+            connect ATTACHPOINT SunLight hotspot
+	    connect ATTACHPOINT birthrocks hotspot
+         }
+      }
+   }
+}

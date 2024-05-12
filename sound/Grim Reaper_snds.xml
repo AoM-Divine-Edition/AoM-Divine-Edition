@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<protounitsounddef>
+	<protounit name="Grim Reaper">
+		<soundtype name="Select">
+			<soundset name="Thanatosselect"></soundset>
+		</soundtype>
+		<soundtype name="Hit">
+			<damagetypelogic>
+				<choice name="Hack">
+					<soundset name="HackFlesh"></soundset>
+				</choice>
+				<choice name="Slash">
+					<soundset name="HackFlesh"></soundset>
+				</choice>
+				<choice name="Pierce">
+					<soundset name="PierceFlesh"></soundset>
+				</choice>
+				<choice name="Crush">
+					<soundset name="CrushFlesh"></soundset>
+				</choice>
+			</damagetypelogic>
+		</soundtype>
+		<soundtype name="Death">
+			<soundset name="Thanatosdeath"></soundset>
+		</soundtype>
+		<soundtype name="Creation">
+			<soundset name="MythUnitBirth"></soundset>
+		</soundtype>
+		<soundtype name="Acknowledge">
+			<targetlogic>
+				<choice name="default">
+					<soundset name="Thanatosmove"></soundset>
+				</choice>
+				<choice name="enemy">
+					<soundset name="Thanatosattack"></soundset>
+				</choice>
+			</targetlogic>
+		</soundtype>
+	</protounit>
+</protounitsounddef>

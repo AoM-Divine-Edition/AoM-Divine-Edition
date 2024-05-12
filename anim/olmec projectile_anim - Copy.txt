@@ -1,0 +1,84 @@
+
+
+
+//==============================================================================
+define fire
+{
+   set hotspot
+  {
+      version
+      {
+         Visualparticle SFX A Meteorite Trail Fire Green
+      }
+   }
+}
+
+
+//==============================================================================
+define pire
+{
+   set hotspot
+  {
+      version
+      {
+         Visualparticle SFX E Pharoah Projectile
+      }
+   }
+}
+
+//==============================================================================
+define Bolt
+{
+   set hotspot
+  {
+      version
+      {
+         Visualparticle sfx x tzim bolt
+      }
+   }
+}
+
+
+//==============================================================================
+define spark
+{
+   set hotspot
+  {
+      version
+      {
+         Visualparticle sfx a cursed ball
+      }
+   }
+}
+
+//==============================================================================
+anim Idle
+{
+   SetSelector
+   {
+		Targetlogic none/mythunit
+	  	set hotspot
+      {
+         version
+         {
+				Visualnone Jimmy
+				connect hotspot Bolt hotspot
+				connect hotspot pire hotspot
+				connect hotspot spark hotspot
+				connect hotspot fire hotspot
+         }
+      }
+	  	set hotspot
+      {
+         version
+         {
+				Visualnone Jimmy
+				connect hotspot Bolt hotspot
+				connect hotspot pire hotspot
+				connect hotspot spark hotspot
+				connect hotspot fire hotspot
+         }
+      }
+   }
+}
+

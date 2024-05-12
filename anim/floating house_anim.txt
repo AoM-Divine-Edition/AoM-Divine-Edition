@@ -1,0 +1,4654 @@
+//==============================================================================
+// House_anim.txt
+//==============================================================================
+
+import Construction_defines_anim.txt
+
+//==============================================================================
+define Dust
+{
+	set hotspot
+	{
+		version
+		{
+			Visualparticle SFX A Building DustA
+		}
+	}  
+}
+
+//==============================================================================
+define empower
+{
+	SetSelector
+	{
+		EmpowerLogic
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visualnone Jimmy
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visualparticle SFX E Pharaoh Empower Large
+				}
+			}
+		}
+	}
+}
+
+
+//==============================Egyptian======================================
+anim Idle
+{
+	SetSelector
+	{
+		CultureLogic Egyptian/Greek/Norse/Chinese
+//==============================Egyptian======================================		
+		SetSelector
+		{
+			TechLogic none/age 2/age 3/age 4
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building E HouseA Age1
+							connect ATTACHPOINT empower hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building E HouseB Age1
+							connect ATTACHPOINT empower hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building E HouseC Age1
+							connect ATTACHPOINT empower hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+				}
+			}
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building E HouseA Age2
+							connect ATTACHPOINT empower hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building E HouseB Age2
+							connect ATTACHPOINT empower hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building E HouseC Age2
+							connect ATTACHPOINT empower hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+				}
+			}
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building E HouseA Age3
+							connect ATTACHPOINT empower hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building E HouseB Age3
+							connect ATTACHPOINT empower hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building E HouseC Age3
+							connect ATTACHPOINT empower hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+				}
+			}
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building E HouseA Age4
+							connect ATTACHPOINT empower hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building E HouseB Age4
+							connect ATTACHPOINT empower hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building E HouseC Age4
+							connect ATTACHPOINT empower hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+				}
+			}
+		}
+//==============================Greek======================================		
+		SetSelector
+		{
+			TechLogic none/age 2/age 3/age 4
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building G HouseA Age0
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building G HouseB Age0
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building G HouseC Age0
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+			}
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building G HouseA Age1
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building G HouseB Age1
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building G HouseC Age1
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+			}
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building G HouseA Age2
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building G HouseB Age2
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building G HouseC Age2
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+			}
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building G HouseA Age3
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building G HouseB Age3
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building G HouseC Age3
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+			}
+		}
+//==============================Norse======================================		
+		SetSelector
+		{
+			TechLogic none/age 2/age 3/age 4
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building N HouseA Age1
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building N HouseB Age1
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building N HouseC Age1
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+				}
+			}
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building N HouseA Age2
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building N HouseB Age2
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building N HouseC Age2
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+				}
+			}
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building N HouseA Age3
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building N HouseB Age3
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building N HouseC Age3
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+				}
+			}
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building N HouseA Age4
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building N HouseB Age4
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building N HouseC Age4
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+				}
+			}
+		}
+		
+//==============================Chinese======================================		
+		SetSelector
+		{
+			TechLogic none/age 2/age 3/age 4
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building C HouseA Age1
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building C HouseB Age1
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building C HouseC Age1
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+			}
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building C HouseA Age1
+							ReplaceTexture building c roofage1/building c roofage2
+							ReplaceTexture building c wallsage1/building c wallsage2
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building C HouseB Age1
+							ReplaceTexture building c roofage1/building c roofage2
+							ReplaceTexture building c wallsage1/building c wallsage2
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building C HouseC Age1
+							ReplaceTexture building c roofage1/building c roofage2
+							ReplaceTexture building c wallsage1/building c wallsage2
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+			}
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building C HouseA Age1
+							ReplaceTexture building c roofage1/building c roofage3
+							ReplaceTexture building c wallsage1/building c wallsage3
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building C HouseB Age1
+							ReplaceTexture building c roofage1/building c roofage3
+							ReplaceTexture building c wallsage1/building c wallsage3
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building C HouseC Age1
+							ReplaceTexture building c roofage1/building c roofage3
+							ReplaceTexture building c wallsage1/building c wallsage3
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+			}
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building C HouseA Age1
+							ReplaceTexture building c roofage1/building c roofage4
+							ReplaceTexture building c wallsage1/building c wallsage4
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building C HouseB Age1
+							ReplaceTexture building c roofage1/building c roofage4
+							ReplaceTexture building c wallsage1/building c wallsage4
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building C HouseA Age1
+							ReplaceTexture building c roofage1/building c roofage4
+							ReplaceTexture building c wallsage1/building c wallsage4
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+//==============================Egyptian======================================
+anim Death
+{
+	SetSelector
+	{
+		CultureLogic Egyptian/Greek/Norse/Chinese
+//==============================Egyptian======================================		
+		SetSelector
+		{
+			TechLogic none/age 2/age 3/age 4
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building E HouseA Age1_Death
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building E HouseB Age1_Death
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building E HouseC Age1_Death
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+				}
+			}
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building E HouseA Age2_Death
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building E HouseB Age2_Death
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building E HouseC Age2_Death
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+				}
+			}
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building E HouseA Age3_Death
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building E HouseB Age3_Death
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building E HouseC Age3_Death
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+				}
+			}
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building E HouseA Age4_Death
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building E HouseB Age4_Death
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building E HouseC Age4_Death
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+							connect ATTACHPOINT empower hotspot
+								connect CHIN E_Small_Brick hotspot
+								connect FACE E_Medium_Brick hotspot
+								connect ATTACHPOINT E_Long_Brick hotspot
+
+						}
+					}
+				}
+			}
+		}
+//==============================Greek======================================		
+		SetSelector
+		{
+			TechLogic none/age 2/age 3/age 4
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building G HouseA Age0_Death
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building G HouseB Age0_Death
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building G HouseC Age0_Death
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+			}
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building G HouseA Age1_Death
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building G HouseB Age1_Death
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building G HouseC Age1_Death
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+			}
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building G HouseA Age2_Death
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building G HouseB Age2_Death
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building G HouseC Age2_Death
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+			}
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building G HouseA Age3_Death
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building G HouseB Age3_Death
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building G HouseC Age3_Death
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+			}
+		}
+//==============================Norse======================================		
+		SetSelector
+		{
+			TechLogic none/age 2/age 3/age 4
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building N HouseA Age1_Death
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building N HouseB Age1_Death
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building N HouseC Age1_Death
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+				}
+			}
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building N HouseA Age2_Death
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building N HouseB Age2_Death
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building N HouseC Age2_Death
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+				}
+			}
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building N HouseA Age3_Death
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building N HouseB Age3_Death
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building N HouseC Age3_Death
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+				}
+			}
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building N HouseA Age4_Death
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building N HouseB Age4_Death
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building N HouseC Age4_Death
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN N_Small_Brick hotspot
+								connect FACE N_Medium_Brick hotspot
+								connect ATTACHPOINT N_Long_Brick hotspot
+
+						}
+					}
+				}
+			}
+		}
+		//==============================Chinese======================================		
+		SetSelector
+		{
+			TechLogic none/age 2/age 3/age 4
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building C HouseA Age1_Death
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building C HouseB Age1_Death
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building C HouseC Age1_Death
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+			}
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building C HouseA Age1_Death
+							ReplaceTexture building c roofage1/building c roofage2
+							ReplaceTexture building c wallsage1/building c wallsage2
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building C HouseB Age1_Death
+							ReplaceTexture building c roofage1/building c roofage2
+							ReplaceTexture building c wallsage1/building c wallsage2
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building C HouseC Age1_Death
+							ReplaceTexture building c roofage1/building c roofage2
+							ReplaceTexture building c wallsage1/building c wallsage2
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+			}
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building C HouseA Age1_Death
+							ReplaceTexture building c roofage1/building c roofage3
+							ReplaceTexture building c wallsage1/building c wallsage3
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building C HouseB Age1_Death
+							ReplaceTexture building c roofage1/building c roofage3
+							ReplaceTexture building c wallsage1/building c wallsage3
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building C HouseC Age1_Death
+							ReplaceTexture building c roofage1/building c roofage3
+							ReplaceTexture building c wallsage1/building c wallsage3
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+			}
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building C HouseA Age1_Death
+							ReplaceTexture building c roofage1/building c roofage4
+							ReplaceTexture building c wallsage1/building c wallsage4
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building C HouseB Age1_Death
+							ReplaceTexture building c roofage1/building c roofage4
+							ReplaceTexture building c wallsage1/building c wallsage4
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Building C HouseC Age1_Death
+							ReplaceTexture building c roofage1/building c roofage4
+							ReplaceTexture building c wallsage1/building c wallsage4
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small A
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction Small B
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G ConstructionHouse
+								connect CHIN G_Small_Brick hotspot
+								connect FACE G_Medium_Brick hotspot
+								connect ATTACHPOINT G_Long_Brick hotspot
+
+						}
+					}
+				}
+			}
+		}
+	}
+}

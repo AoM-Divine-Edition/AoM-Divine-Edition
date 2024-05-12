@@ -1,0 +1,101 @@
+//==============================================================================
+define SmallAtlantisShield
+{
+	SetSelector
+	{
+		TechLogic none/Copper shields/Bronze shields/Iron shields
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					visualnone jimmy
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic Medium Archer/Heavy Archer/Champion Archer
+			set hotspot
+			{
+				version
+				{
+					visual Attachments X Shield Small Copper
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Attachments X Shield Small Bronze
+					ReplaceTexture Attachments X Shield Copper/Attachments X Shield Medium
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Attachments X Shield Small Iron
+					ReplaceTexture Attachments X Shield Medium/Attachments X Shield Medium
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic Medium Archer/Heavy Archer/Champion Archer
+			set hotspot
+			{
+				version
+				{
+					visual Attachments X Shield Small Copper
+					ReplaceTexture Attachments X Shield Medium/Attachments X Shield Heavy
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Attachments X Shield Small Bronze
+					ReplaceTexture Attachments X Shield Medium/Attachments X Shield Heavy
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Attachments X Shield Small Iron
+					ReplaceTexture Attachments X Shield Medium/Attachments X Shield Heavy
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic Medium Archer/Heavy Archer/Champion Archer
+			set hotspot
+			{
+				version
+				{
+					visual Attachments X Shield Small Copper
+					ReplaceTexture Attachments X Shield Medium/Attachments X Shield Champion
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Attachments X Shield Small Bronze
+					ReplaceTexture Attachments X Shield Medium/Attachments X Shield Champion
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Attachments X Shield Small Iron
+					ReplaceTexture Attachments X Shield Medium/Attachments X Shield Champion
+				}
+			}
+		}
+	}
+}

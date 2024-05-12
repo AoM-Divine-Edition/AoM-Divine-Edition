@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<power name="DiesBelli" type="Eclipse" techname="Dies Belli">
+	<activetime>60.0</activetime>
+	<builduptime>3.0</builduptime>
+	<shutdowntime>3.0</shutdowntime>
+	<tech>Mars Belli</tech>
+	<cricketsound>ArkantosSpecial</cricketsound>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="All">EclipseBirth</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<placement forceonmap="1">skip</placement>
+	<icon>roman icon dies belli</icon>
+	<usedicon>roman icon dies belli used</usedicon>
+</power>

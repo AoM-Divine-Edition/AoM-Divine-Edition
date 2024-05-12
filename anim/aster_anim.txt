@@ -1,0 +1,215 @@
+//==============================================================================
+// centaur_anim.txt
+//==============================================================================
+
+//==============================================================================
+define AtlanteanBirthSFX
+{
+   set hotspot
+   {
+      version
+      {
+         VisualParticle SFX X Myth Unit Birth Effect
+      }
+   }
+}
+
+define AsterLightning
+{
+	SetSelector
+{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				//VisualParticle Scenario U Hades Gate Close Lighting
+				VisualParticle Scenario U Thors Hammer Lighting
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				VisualParticle Scenario U Thors Hammer Lighting
+			}
+		}
+}
+
+
+}
+
+define AsterShine
+{
+SetSelector
+	{
+		set hotspot
+		{
+			version
+			{
+				Visualparticle SFX A Curse Light Small
+			}
+		}
+	}
+}
+
+define AsterLight
+{
+SetSelector
+	{
+		set hotspot
+		{
+			version
+			{
+					Visualparticle sfx star light
+			}
+		}
+	}
+}
+
+
+//==============================================================================
+anim Birth
+{
+   SetSelector
+   {
+		
+			set hotspot
+			{
+				version
+				{
+					Visualparticle sfx star light
+
+				connect HOTSPOT AtlanteanBirthSFX hotspot
+				connect HOTSPOT AsterShine hotspot
+				}
+			}
+		
+   }
+}
+
+//==============================================================================
+anim Idle
+{
+   SetSelector
+   {
+		
+			set hotspot
+			{
+				version
+				{
+					
+					Visual World A Bush C
+					connect TOPOFHEAD AsterLightning hotspot
+					connect HOTSPOT AsterShine hotspot
+					connect righthand AsterLight hotspot
+
+				}
+			}
+		
+   }
+}
+
+//==============================================================================
+anim Flail
+{
+   SetSelector
+   {
+		
+			set hotspot
+			{
+				version
+				{
+					Visual World A Bush C
+					connect TOPOFHEAD AsterLightning hotspot
+					connect HOTSPOT AsterShine hotspot
+					connect righthand AsterLight hotspot
+				}
+			}
+		
+   }
+}
+
+//==============================================================================
+anim Bored
+{
+   SetSelector 
+   {
+		
+			set hotspot
+			{
+				version
+				{
+					Visual World A Bush C
+					connect TOPOFHEAD AsterLightning hotspot
+					connect HOTSPOT AsterShine hotspot
+					connect righthand AsterLight hotspot
+				}
+			}
+		
+   }
+}
+
+//==============================================================================
+anim Death
+{
+   SetSelector
+   {
+		
+			set hotspot
+			{
+				version
+				{
+					Visualparticle sfx star light
+				}
+			}
+		
+   }
+}
+
+//==============================================================================
+anim Walk
+{
+   SetSelector
+   {
+		
+			set hotspot
+			{
+				version
+				{
+					Visual World A Bush C
+					connect TOPOFHEAD AsterLightning hotspot
+					connect HOTSPOT AsterShine hotspot
+					connect righthand AsterLight hotspot
+				}
+			}
+		
+   }
+}
+
+//==============================================================================
+anim rangedAttack
+{
+   SetSelector
+   {
+		
+			set hotspot
+			{
+				version
+				{
+					Visual World A Bush C
+					connect TOPOFHEAD AsterLightning hotspot
+					connect HOTSPOT AsterShine hotspot
+					connect righthand AsterLight hotspot
+
+
+				   tag Attack 0.1 true   
+				   tag GenericSound 0.1 true   
+					tag SpecificSoundSet 0.1 false LampadesShoot checkVisible 
+
+				}
+				
+			}
+		
+   }
+}

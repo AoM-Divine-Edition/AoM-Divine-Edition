@@ -1,0 +1,101 @@
+/==============================================================================
+// arrow_anim.txt
+//==============================================================================
+
+
+
+//==============================================================================
+define electric
+{
+   set hotspot
+   {
+      version
+      {
+         VisualParticle Scenario U Thors Hammer Lighting
+      }
+   }
+}
+//==============================================================================
+define arealightning
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle Lightning ball
+      }
+   }
+}
+//==============================================================================
+define fire
+{
+   set hotspot
+  {
+      version
+      {
+         Visualparticle SFX A Meteorite Trail Fire
+      }
+   }
+}
+
+
+//==============================================================================
+define pire
+{
+   set hotspot
+  {
+      version
+      {
+         Visualparticle SFX E Pharoah Projectile
+      }
+   }
+}
+
+//==============================================================================
+define Bolt
+{
+   set hotspot
+  {
+      version
+      {
+         Visualparticle sfx x tzim bolt
+      }
+   }
+}
+
+
+//==============================================================================
+define spark
+{
+   set hotspot
+  {
+      version
+      {
+         Visualparticle sfx a cursed ball
+      }
+   }
+}
+
+//==============================================================================
+anim Idle
+{
+   SetSelector
+   { 
+      set hotspot
+      {
+         version
+         {
+            Visualnone Jimmy
+				connect hotspot Bolt hotspot
+				connect hotspot pire hotspot
+				connect hotspot spark hotspot
+				connect hotspot arealightning hotspot
+				connect hotspot arealightning hotspot
+				connect hotspot arealightning hotspot
+				connect hotspot arealightning hotspot
+				connect hotspot arealightning hotspot
+				
+         }
+      }
+   }
+}

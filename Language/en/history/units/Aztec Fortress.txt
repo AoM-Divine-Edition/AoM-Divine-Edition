@@ -1,0 +1,1 @@
+This pyramid shaped fort shoots arrows at the nearby enemy units.

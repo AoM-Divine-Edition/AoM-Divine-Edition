@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<protounitsounddef>
+	<protounit name="Frog">
+		<soundtype name="Exists">
+			<soundset name="MagicLoop"></soundset>
+		</soundtype>
+	</protounit>
+</protounitsounddef>

@@ -1,0 +1,307 @@
+//==============================================================================
+// Leonidas_anim.txt
+// This is sparta
+//==============================================================================
+// Attachpoint / Backs - Relics
+// FrontChest / Body Middle - Hero glow
+// LeftHand - RightHand - Weapon and shield
+// Launchpoint - Spear Toss
+// Targetpoint - Sword or a second weapon
+// 0 0 3.5
+
+// Notes - Bored is not working
+
+0.333
+1.771
+
+import LeonidasSpear01_anim.txt
+import LeonidasShield01_anim.txt
+//==============================================================================
+
+                           ____________________________________
+                          *                                    *
+                          *      Created by Cannibalh          *
+                          *____________________________________*
+
+
+//==============================================================================
+define birthSFX
+{
+   set hotspot
+   {
+      version
+      {
+         VisualParticle SFX G Myth Unit Birth Effect
+      }
+   }
+}
+
+//==============================================================================
+define heroglow
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Hero Glow Small
+      }
+   }
+}
+//==============================================================================
+anim Flail
+{
+   SetSelector 
+   {
+      set hotspot
+      {
+         version
+         {
+            Visual hero g leonidas_idlea
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim Birth
+{
+   SetSelector
+   {
+		set hotspot
+		{
+		  version
+		  {
+				Visual hero g leonidas_idlea  
+				Length 2.40
+			Connect FrontChest heroglow hotspot
+			Connect RightHand LeonidasSpear1 hotspot
+			Connect LeftHand LeonidasShield1 hotspot
+		  }
+		}
+   }
+}
+
+//==============================================================================
+
+anim Idle
+{
+   SetSelector
+   {
+		ContainLogic
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual hero g leonidas_idlea
+			        Connect FrontChest heroglow hotspot
+			        Connect RightHand LeonidasSpear1 hotspot
+			        Connect LeftHand LeonidasShield1 hotspot
+			      	Length 2.3	
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual hero g leonidas_idlea
+			        Connect FrontChest heroglow hotspot
+			        Connect RightHand LeonidasSpear1 hotspot
+			        Connect LeftHand LeonidasShield1 hotspot
+			      	Length 2.3	
+				}
+			}
+		}
+   }
+}
+
+//==============================================================================
+anim Bored
+{
+   SetSelector
+   {
+		ContainLogic
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual hero g leonidas_boreda
+			        Connect FrontChest heroglow hotspot
+			        Connect RightHand LeonidasSpear1 hotspot
+			        Connect LeftHand LeonidasShield1 hotspot
+			      	Length 2.3	
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual hero g leonidas_boreda
+			        Connect FrontChest heroglow hotspot
+			        Connect RightHand LeonidasSpear1 hotspot
+			        Connect LeftHand LeonidasShield1 hotspot
+			      	Length 2.3	
+				}
+			}
+		}
+   }
+}
+
+//==============================================================================
+anim whirlwindAttack
+anim attack
+
+{
+   SetSelector
+   {
+		ContainLogic
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual hero g leonidas_attacks
+			        Connect FrontChest heroglow hotspot
+			        Connect RightHand LeonidasSpear1 hotspot
+			        Connect LeftHand LeonidasShield1 hotspot
+                    tag Attack 0.37 true   
+                    tag GenericSound 0.40 true
+			      	Length 1.15	
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual hero g leonidas_attacks
+			        Connect FrontChest heroglow hotspot
+			        Connect RightHand LeonidasSpear1 hotspot
+			        Connect LeftHand LeonidasShield1 hotspot
+                    tag Attack 0.37 true   
+                    tag GenericSound 0.40 true
+			      	Length 1.15	
+				}
+			}
+		}
+   }
+}
+
+//==============================================================================
+anim attack
+
+{
+   SetSelector
+   {
+		ContainLogic
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual hero g leonidas_attacka
+			        Connect FrontChest heroglow hotspot
+			        Connect RightHand LeonidasSpear1 hotspot
+			        Connect LeftHand LeonidasShield1 hotspot
+                    tag Attack 0.37 true   
+                    tag GenericSound 0.40 true
+			      	Length 1.15	
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual hero g leonidas_attacka
+			        Connect FrontChest heroglow hotspot
+			        Connect RightHand LeonidasSpear1 hotspot
+			        Connect LeftHand LeonidasShield1 hotspot
+                    tag Attack 0.37 true   
+                    tag GenericSound 0.40 true
+			      	Length 1.15	
+				}
+			}
+		}
+   }
+}
+
+//==============================================================================
+anim death
+{
+   SetSelector 
+   {
+      set hotspot
+      {
+         version
+         {
+				Visual hero g leonidas_deatha
+				Length 2.4
+			        Connect RightHand LeonidasSpear1 hotspot
+			        Connect LeftHand LeonidasShield1 hotspot
+         }
+      }
+   }
+}
+
+
+//==============================================================================
+anim Walk
+
+{
+   SetSelector
+   {
+		ContainLogic
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual hero g leonidas_runa
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+                  tag FootstepLeft 0.30 true   
+                  tag FootstepRight 0.80 true   
+//-- end auto generated section
+			        Connect FrontChest heroglow hotspot
+			        Connect RightHand LeonidasSpear1 hotspot
+			        Connect LeftHand LeonidasShield1 hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual hero g leonidas_runa
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+                  tag FootstepLeft 0.30 true   
+                  tag FootstepRight 0.80 true   
+//-- end auto generated section
+			        Connect FrontChest heroglow hotspot
+			        Connect RightHand LeonidasSpear1 hotspot
+			        Connect LeftHand LeonidasShield1 hotspot
+				}
+			}
+		}
+   }
+}

@@ -1,0 +1,488 @@
+//==============================================================================
+// Yith_Anim.txt
+//==============================================================================
+
+// by Jahvansi
+
+//==============================================================================
+define eldritchglow
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX Eldritch Glow
+      }
+   }
+}
+
+//==============================================================================
+
+//==============================================================================
+define Head
+{
+	SetSelector
+	{		
+		set hotspot
+		{
+			version
+			{
+				Visual Yith_Head
+			}
+		}
+	}
+}
+
+//==============================================================================
+
+
+//==============================================================================
+//==============================================================================
+define yithsword
+{
+   SetSelector
+   {
+      TechLogic none/Copper Weapons/Bronze Weapons/Iron Weapons
+      set hotspot
+      {
+         version
+         {
+            Visual Nxyithsword
+         }
+      }         
+      set hotspot
+      {
+         version
+         {
+            Visual Nxyithsword
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+            Visual Nxyithsword
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+            Visual Nxyithsword
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim Bored
+{
+	SetSelector
+	{
+		SetSelector
+		{
+			TechLogic none/Medium Yith-Possessed/Heavy Yith-Possessed/Champion Yith-Possessed
+			set hotspot
+			{
+				version
+				{
+					Visual Yith_Bored
+					Connect TopOfHead Head hotspot
+					connect RIGHTHAND yithsword hotspot
+					Connect TopOfHead eldritchglow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Yith_Bored
+					ReplaceTexture Yith/Yith_Medium
+					Connect TopOfHead Head hotspot
+					connect RIGHTHAND yithsword hotspot
+					Connect TopOfHead eldritchglow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Yith_Bored
+					ReplaceTexture Yith/Yith_Heavy
+					Connect TopOfHead Head hotspot
+					connect RIGHTHAND yithsword hotspot
+					Connect TopOfHead eldritchglow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Yith_Bored
+					ReplaceTexture Yith/Yith_Champion
+					Connect TopOfHead Head hotspot
+					connect RIGHTHAND yithsword hotspot
+					Connect TopOfHead eldritchglow hotspot
+				}
+			}
+		}
+	}
+}
+
+
+//==============================================================================
+anim Idle
+{
+	SetSelector
+	{
+		TechLogic none/Medium Yith-Possessed/Heavy Yith-Possessed/Champion Yith-Possessed
+		set hotspot
+		{
+			version
+			{
+				Visual Yith_Idle
+				Connect TopOfHead Head hotspot
+				connect RIGHTHAND yithsword hotspot
+				Connect TopOfHead eldritchglow hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Yith_Idle
+				ReplaceTexture Yith/Yith_Medium
+				Connect TopOfHead Head hotspot
+				connect RIGHTHAND yithsword hotspot
+				Connect TopOfHead eldritchglow hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Yith_Idle
+				ReplaceTexture Yith/Yith_Heavy
+				Connect TopOfHead Head hotspot
+				connect RIGHTHAND yithsword hotspot
+				Connect TopOfHead eldritchglow hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Yith_Idle
+				ReplaceTexture Yith/Yith_Champion
+				Connect TopOfHead Head hotspot
+				connect RIGHTHAND yithsword hotspot
+				Connect TopOfHead eldritchglow hotspot
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Walk
+{				 
+	SetSelector
+	{
+		TechLogic none/Medium Yith-Possessed/Heavy Yith-Possessed/Champion Yith-Possessed
+		set hotspot
+		{
+			version
+			{
+				Visual Yith_Walk
+				Connect TopOfHead Head hotspot
+				connect RIGHTHAND yithsword hotspot
+				Connect TopOfHead eldritchglow hotspot
+				
+				tag FootstepLeft 0.00 true   
+               			tag FootstepRight 0.50 true 
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Yith_Walk
+				ReplaceTexture Yith/Yith_Medium
+				Connect TopOfHead Head hotspot
+				connect RIGHTHAND yithsword hotspot
+				Connect TopOfHead eldritchglow hotspot
+
+				tag FootstepLeft 0.00 true   
+               			tag FootstepRight 0.50 true 
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Yith_Walk
+				ReplaceTexture Yith/Yith_Heavy
+				Connect TopOfHead Head hotspot
+				connect RIGHTHAND yithsword hotspot
+				Connect TopOfHead eldritchglow hotspot
+
+				tag FootstepLeft 0.00 true   
+               			tag FootstepRight 0.50 true 
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Yith_Walk
+				ReplaceTexture Yith/Yith_Champion
+				Connect TopOfHead Head hotspot
+				connect RIGHTHAND yithsword hotspot
+				Connect TopOfHead eldritchglow hotspot
+
+				tag FootstepLeft 0.00 true   
+               			tag FootstepRight 0.50 true 
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Attack
+{
+   SetSelector
+   {
+	TechLogic none/Medium Yith-Possessed/Heavy Yith-Possessed/Champion Yith-Possessed
+
+      set hotspot
+      {
+         version
+         {
+            Visual Yith_AttackA
+
+            tag Attack 0.67 true   
+            tag GenericSound 0.40 true   
+            tag GenericSound 0.67 true   
+
+            	Connect TopOfHead Head hotspot
+		connect RIGHTHAND yithsword hotspot
+		Connect TopOfHead eldritchglow hotspot
+
+         }
+	version
+         {
+            Visual Yith_AttackB
+
+            tag Attack 0.53 true   
+            tag GenericSound 0.40 true   
+
+           	Connect TopOfHead Head hotspot
+		connect RIGHTHAND yithsword hotspot
+		Connect TopOfHead eldritchglow hotspot
+         }
+     }
+	set hotspot
+      {
+         version
+         {
+            Visual Yith_AttackA
+		ReplaceTexture Yith/Yith_Medium
+
+            tag Attack 0.67 true   
+            tag GenericSound 0.40 true   
+            tag GenericSound 0.67 true    
+
+            	Connect TopOfHead Head hotspot
+		connect RIGHTHAND yithsword hotspot
+		Connect TopOfHead eldritchglow hotspot
+
+         }
+	version
+         {
+            Visual Yith_AttackB
+		ReplaceTexture Yith/Yith_Medium
+
+            tag Attack 0.53 true   
+            tag GenericSound 0.40 true   
+
+           	Connect TopOfHead Head hotspot
+		connect RIGHTHAND yithsword hotspot
+		Connect TopOfHead eldritchglow hotspot
+         }
+     }
+	set hotspot
+      {
+         version
+         {
+            Visual Yith_AttackA
+		ReplaceTexture Yith/Yith_Heavy
+
+            tag Attack 0.67 true   
+            tag GenericSound 0.40 true   
+            tag GenericSound 0.67 true    
+
+            	Connect TopOfHead Head hotspot
+		connect RIGHTHAND yithsword hotspot
+		Connect TopOfHead eldritchglow hotspot
+
+         }
+	version
+         {
+            Visual Yith_AttackB
+		ReplaceTexture Yith/Yith_Heavy
+
+
+            tag Attack 0.53 true   
+            tag GenericSound 0.40 true   
+
+           	Connect TopOfHead Head hotspot
+		connect RIGHTHAND yithsword hotspot
+		Connect TopOfHead eldritchglow hotspot
+         }
+     }
+	set hotspot
+      {
+         version
+         {
+            Visual Yith_AttackA
+		ReplaceTexture Yith/Yith_Champion
+
+            tag Attack 0.67 true   
+            tag GenericSound 0.40 true   
+            tag GenericSound 0.67 true     
+
+            	Connect TopOfHead Head hotspot
+		connect RIGHTHAND yithsword hotspot
+		Connect TopOfHead eldritchglow hotspot
+
+         }
+	version
+         {
+            Visual Yith_AttackB
+		ReplaceTexture Yith/Yith_Champion
+
+
+            tag Attack 0.53 true   
+            tag GenericSound 0.40 true   
+
+           	Connect TopOfHead Head hotspot
+		connect RIGHTHAND yithsword hotspot
+		Connect TopOfHead eldritchglow hotspot
+         }
+     }
+  }
+}
+//==============================================================================
+anim Death
+{
+	
+		SetSelector
+		{
+			TechLogic none/Medium Yith-Possessed/Heavy Yith-Possessed/Champion Yith-Possessed
+
+			set hotspot
+			{
+				version
+				{
+					Visual Yith_Death
+					Connect TopOfHead Head hotspot
+					connect RIGHTHAND yithsword hotspot
+
+
+               				tag SpecificSoundSet 0.11 false MaleDeath checkVisible 
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Yith_Death
+					ReplaceTexture Yith/Yith_Medium
+					Connect TopOfHead Head hotspot
+					connect RIGHTHAND yithsword hotspot
+
+
+               				tag SpecificSoundSet 0.11 false MaleDeath checkVisible 
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Yith_Death
+					ReplaceTexture Yith/Yith_Heavy
+					Connect TopOfHead Head hotspot
+					connect RIGHTHAND yithsword hotspot
+
+
+               				tag SpecificSoundSet 0.11 false MaleDeath checkVisible 
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Yith_Death
+					ReplaceTexture Yith/Yith_Champion
+					Connect TopOfHead Head hotspot
+					connect RIGHTHAND yithsword hotspot
+
+
+               				tag SpecificSoundSet 0.11 false MaleDeath checkVisible 
+				}
+			}
+		}	
+}
+//==============================================================================
+anim Flail
+{
+	
+		SetSelector
+		{
+			TechLogic none/Medium Yith-Possessed/Heavy Yith-Possessed/Champion Yith-Possessed
+
+			set hotspot
+			{
+				version
+				{
+					Visual Yith_Flail
+					Connect TopOfHead Head hotspot
+					connect RIGHTHAND yithsword hotspot
+					Connect TopOfHead eldritchglow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Yith_Flail
+					ReplaceTexture Yith/Yith_Medium
+					Connect TopOfHead Head hotspot
+					connect RIGHTHAND yithsword hotspot
+					Connect TopOfHead eldritchglow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Yith_Flail
+					ReplaceTexture Yith/Yith_Heavy
+					Connect TopOfHead Head hotspot
+					connect RIGHTHAND yithsword hotspot
+					Connect TopOfHead eldritchglow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Yith_Flail
+					ReplaceTexture Yith/Yith_Champion
+					Connect TopOfHead Head hotspot
+					connect RIGHTHAND yithsword hotspot
+					Connect TopOfHead eldritchglow hotspot
+				}
+			}
+		}
+	
+}

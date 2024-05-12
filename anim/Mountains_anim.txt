@@ -1,0 +1,60 @@
+//==============================================================================
+// Courtyard Plants_anim.txt
+//==============================================================================
+
+//==============================================================================
+anim idle
+{
+	SetSelector
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual Mountain
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Mountain2
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Mountain3
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual MountainYukon
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual MountainYukon2
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Mountain of Snow
+				
+			}
+		}
+	}
+}

@@ -1,0 +1,60 @@
+//==============================================================================
+//Ball of fire
+//==============================================================================
+
+
+//==============================================================================
+define fire
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle Green Fire Ball
+      }
+   }
+}
+
+
+//==============================================================================
+define firetrail
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle Green Fire Ball Trail
+      }
+   }
+}
+
+//==============================================================================
+define smoke
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Fire Ball Smoke
+      }
+   }
+}
+
+
+//==============================================================================
+anim Idle
+{
+	SetSelector
+	{
+		set hotspot
+		{
+		version
+			{
+			Visualnone Jimmy
+			Connect ATTACHPOINT fire hotspot
+			Connect ATTACHPOINT firetrail hotspot
+//			Connect ATTACHPOINT smoke hotspot
+			}
+		}
+	}
+}

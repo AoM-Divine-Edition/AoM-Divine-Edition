@@ -1,0 +1,279 @@
+//==============================================================================
+// Quetzalcoatl God_anim.txt
+// Made by Zeus
+//==============================================================================
+
+import TornadoXSnow2_anim.txt
+//==============================================================================
+define arealightning
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle Lamp post lightning
+      }
+   }
+}
+//==============================================================================
+define Flash
+{
+   set hotspot
+   {
+      version
+      {
+        Visualparticle Lamp post flash
+      }
+	}
+}
+
+//==============================================================================
+define FunnelSnow
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Tornado Funnel Snow
+      }
+   }
+}
+
+//==============================================================================
+define dark
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle quetzal wind dark
+      }
+   }
+}
+
+
+//==============================================================================
+define frostattack
+{
+   set hotspot
+  {
+      version
+      {
+         Visualparticle quetzal wind
+      }
+   }
+}
+//==============================================================================
+anim Birth
+{
+   SetSelector 
+   {
+      set hotspot
+      {
+         version
+         {
+				Visual Quetzalcoatl_Birth
+            tag SpecificSoundSet 0.13 false WingsLarge checkVisible 
+            tag SpecificSoundSet 0.35 false WingsLarge checkVisible 
+	            length 2.20
+         }
+      }
+   }
+}
+//==============================================================================
+anim Idle
+{
+   SetSelector 
+   {
+      set hotspot
+      {
+         version
+         {
+				Visual Quetzalcoatl_Idle
+            tag SpecificSoundSet 0.13 false WingsLarge checkVisible 
+            tag SpecificSoundSet 0.37 false WingsLarge checkVisible
+            tag SpecificSoundSet 0.57 false WingsLarge checkVisible 
+            tag SpecificSoundSet 0.87 false WingsLarge checkVisible 			
+	            length 4.20
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim Death
+{
+   SetSelector 
+   {
+	  set hotspot
+	  {
+		 version
+		 {
+				Visual Quetzalcoatl_Death
+            tag SpecificSoundSet 0.05 false WingsLarge checkVisible
+                tag SpecificSoundSet 0.30 false HeavyFall checkVisible 
+	            length 3.20
+       }
+     }
+   }
+}
+
+
+//==============================================================================
+anim Walk
+{
+   SetSelector 
+   {
+	  set hotspot
+		  {
+			 version
+			 {
+				Visual Quetzalcoatl_Walk
+            tag SpecificSoundSet 0.22 false WingsLarge checkVisible 
+            tag SpecificSoundSet 0.46 false WingsLarge checkVisible
+            tag SpecificSoundSet 0.63 false WingsLarge checkVisible 
+            tag SpecificSoundSet 0.93 false WingsLarge checkVisible 
+	            length 3.20
+			 }
+		  }
+   }	
+}
+
+//==============================================================================
+anim Bored
+{
+   SetSelector 
+   {
+		 set hotspot
+		  {
+			 version
+			 {
+				Visual Quetzalcoatl_Idle
+            tag SpecificSoundSet 0.13 false WingsLarge checkVisible 
+            tag SpecificSoundSet 0.37 false WingsLarge checkVisible
+            tag SpecificSoundSet 0.57 false WingsLarge checkVisible 
+            tag SpecificSoundSet 0.87 false WingsLarge checkVisible 
+	            length 4.20
+			 }
+		  }
+   }	
+}
+//==============================================================================
+anim Attack
+{
+   SetSelector 
+   {
+		  set hotspot
+		  {
+			 version
+			 {
+
+				Visual Quetzalcoatl_Attack
+	            length 1.70
+		tag SpecificSoundSet 0.1 false TornadoBreath checkVisible 
+               tag Attack 0.40 true   
+               tag GenericSound 0.35 true   
+            tag SpecificSoundSet 0.17 false WingsLarge checkVisible 
+            tag SpecificSoundSet 0.70 false WingsLarge checkVisible
+            tag SpecificSoundSet 0.90 false WingsLarge checkVisible
+               tag SpecificSoundSet 0.0 false TornadoDeath checkVisible 
+//-- end auto generated section
+			Connect LaunchPoint Flash hotspot
+			Connect LaunchPoint FireTrail hotspot
+			Connect LaunchPoint arealightning hotspot
+			Connect LaunchPoint dark hotspot
+			 }
+		  }
+   }	
+}
+
+
+//==============================================================================
+anim Charging
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+				Visual Quetzalcoatl_Attack
+	            length 1.70
+               tag Attack 0.40 true  
+		tag SpecificSoundSet 0.1 false TornadoBreath checkVisible 
+               tag GenericSound 0.35 true   
+            tag SpecificSoundSet 0.17 false WingsLarge checkVisible 
+            tag SpecificSoundSet 0.70 false WingsLarge checkVisible
+            tag SpecificSoundSet 0.90 false WingsLarge checkVisible
+              
+//-- end auto generated section
+			Connect LaunchPoint Flash hotspot
+			Connect LaunchPoint FireTrail hotspot
+			Connect LaunchPoint arealightning hotspot
+			Connect LaunchPoint FunnelSnow hotspot
+			Connect LaunchPoint WispySnow hotspot
+			Connect LaunchPoint frostattack hotspot
+			
+         }
+      }
+   }
+}
+//==============================================================================
+anim Gore
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+				Visual Quetzalcoatl_Attack
+	            length 1.70
+		tag SpecificSoundSet 0.1 false TornadoBreath checkVisible 
+               tag Attack 0.40 true   
+               tag GenericSound 0.35 true   
+            tag SpecificSoundSet 0.17 false WingsLarge checkVisible 
+            tag SpecificSoundSet 0.70 false WingsLarge checkVisible
+            tag SpecificSoundSet 0.90 false WingsLarge checkVisible
+               
+//-- end auto generated section
+			Connect LaunchPoint Flash hotspot
+			Connect LaunchPoint FireTrail hotspot
+			Connect LaunchPoint arealightning hotspot
+			Connect LaunchPoint dark hotspot
+			
+			
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim FreezeAttack
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+				Visual Quetzalcoatl_Attack
+	            length 1.70
+		tag SpecificSoundSet 0.1 false TornadoBreath checkVisible 
+               tag Attack 0.40 true   
+               tag GenericSound 0.35 true   
+            tag SpecificSoundSet 0.17 false WingsLarge checkVisible 
+            tag SpecificSoundSet 0.70 false WingsLarge checkVisible
+            tag SpecificSoundSet 0.90 false WingsLarge checkVisible
+               
+//-- end auto generated section
+			Connect LaunchPoint Flash hotspot
+			Connect LaunchPoint FireTrail hotspot
+			Connect LaunchPoint arealightning hotspot
+			Connect LaunchPoint frostattack hotspot
+			
+         }
+      }
+   }
+}
+

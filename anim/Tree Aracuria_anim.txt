@@ -1,0 +1,54 @@
+//==============================================================================
+// palm tree_anim.txt
+//==============================================================================
+
+
+//==============================================================================
+define Roots
+{
+   set hotspot
+   {
+      version
+      {
+//         Visual World A Tree Root
+      }
+   }  
+}
+
+
+//==============================================================================
+anim Idle
+{
+	SetSelector
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual TreeAraucaria
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual TreeAraucariaB
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual TreeAraucariaC
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual TreeAraucariaD
+			}
+		}
+	}
+}

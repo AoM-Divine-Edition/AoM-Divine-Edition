@@ -1,0 +1,55 @@
+//===========================================================================
+//Cinimatic Blood
+
+//==============================================================================
+
+//==============================================================================
+anim Idle
+{
+	SetSelector none 
+	{
+		VariationLogic
+		set hotspot
+		{
+		version
+			{
+			Visual SFX A Blood A
+			}
+		}
+		set hotspot
+		{
+		version
+			{
+            Visual SFX A Blood B
+			}
+		}
+		set hotspot
+		{
+		version
+			{
+            Visual SFX A Blood C
+			}
+		}
+		set hotspot
+		{
+		version
+			{
+            Visual SFX A Blood D
+			}
+		}
+		set hotspot
+		{
+		version
+			{
+            Visual SFX A Blood E
+			}
+		}
+		set hotspot
+		{
+		version
+			{
+            Visual SFX A Blood F
+			}
+		}
+	}
+}

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<protounitsounddef>
+	<protounit name="Military Engineer">
+		<soundtype name="Select">
+			<variationlogic>
+				<choice name="0">
+					<soundset name="VillagerRomanSelects"></soundset>
+				</choice>
+				<choice name="1">
+					<soundset name="VillagerRomanSelects"></soundset>
+				</choice>
+			</variationlogic>
+		</soundtype>
+		<soundtype name="Grunt">
+			<variationlogic>
+				<choice name="0">
+					<soundset name="MaleGrunt"></soundset>
+				</choice>
+				<choice name="1">
+					<soundset name="MaleGrunt"></soundset>
+				</choice>
+			</variationlogic>
+		</soundtype>
+		<soundtype name="Death">
+			<variationlogic>
+				<choice name="0">
+					<soundset name="MaleDeath"></soundset>
+				</choice>
+				<choice name="1">
+					<soundset name="MaleDeath"></soundset>
+				</choice>
+			</variationlogic>
+		</soundtype>
+		<soundtype name="Hit">
+			<damagetypelogic>
+				<choice name="Hack">
+					<soundset name="HackFlesh"></soundset>
+				</choice>
+				<choice name="Slash">
+					<soundset name="HackFlesh"></soundset>
+				</choice>
+				<choice name="Pierce">
+					<soundset name="PierceFlesh"></soundset>
+				</choice>
+				<choice name="Crush">
+					<soundset name="CrushFlesh"></soundset>
+				</choice>
+			</damagetypelogic>
+		</soundtype>
+		<soundtype name="Creation">
+			<soundset name="VillagerBirth"></soundset>
+		</soundtype>
+		<soundtype name="Acknowledge">
+			<variationlogic>
+				<choice name="0">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="VillagerRomanAcknowledge"></soundset>
+						</choice>
+						<choice name="enemy">
+							<soundset name="VillagerRomanAttack"></soundset>
+						</choice>
+						<choice name="Berry Bush">
+							<soundset name="VillagerRomanForage"></soundset>
+						</choice>
+						<choice name="Farm">
+							<soundset name="VillagerRomanFarm"></soundset>
+						</choice>
+						<choice name="Tree">
+							<soundset name="VillagerRomanLumberjack"></soundset>
+						</choice>
+						<choice name="Gold">
+							<soundset name="VillagerRomanMine"></soundset>
+						</choice>
+						<choice name="Fish">
+							<soundset name="VillagerRomanFish"></soundset>
+						</choice>
+						<choice name="Huntable">
+							<soundset name="VillagerRomanHunt"></soundset>
+						</choice>
+						<choice name="Building">
+							<soundset name="VillagerRomanRepair"></soundset>
+						</choice>
+						<choice name="AbstractSiegeWeapon">
+							<soundset name="VillagerRomanRepair"></soundset>
+						</choice>
+					</targetlogic>
+				</choice>
+				<choice name="1">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="VillagerRomanAcknowledge"></soundset>
+						</choice>
+						<choice name="enemy">
+							<soundset name="VillagerRomanAttack"></soundset>
+						</choice>
+						<choice name="Berry Bush">
+							<soundset name="VillagerRomanForage"></soundset>
+						</choice>
+						<choice name="Farm">
+							<soundset name="VillagerRomanFarm"></soundset>
+						</choice>
+						<choice name="Tree">
+							<soundset name="VillagerRomanLumberjack"></soundset>
+						</choice>
+						<choice name="Gold">
+							<soundset name="VillagerRomanMine"></soundset>
+						</choice>
+						<choice name="Fish">
+							<soundset name="VillagerRomanFish"></soundset>
+						</choice>
+						<choice name="Huntable">
+							<soundset name="VillagerRomanHunt"></soundset>
+						</choice>
+						<choice name="Building">
+							<soundset name="VillagerRomanRepair"></soundset>
+						</choice>
+						<choice name="AbstractSiegeWeapon">
+							<soundset name="VillagerRomanRepair"></soundset>
+						</choice>
+					</targetlogic>
+				</choice>
+			</variationlogic>
+		</soundtype>
+	</protounit>
+</protounitsounddef>

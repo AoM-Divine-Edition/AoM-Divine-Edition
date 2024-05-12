@@ -1,0 +1,209 @@
+//==============================================================================
+// war salamander_anim.txt
+//==============================================================================
+
+//==============================================================================
+define birthSFX
+{
+   set hotspot
+   {
+      version
+      {
+         VisualParticle SFX C Myth Unit Birth Effect
+      }
+   }
+}
+
+//==============================================================================
+define eclipseSFX
+{
+	SetSelector
+	{
+		TechLogic none/Eclipse Active
+		set hotspot
+		{
+			version
+			{
+			  Visualnone jimmy
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+			  Visualparticle SFX A Eclipse Unit effect
+			}
+		}			 
+	}
+}
+
+//=============================================================================
+anim Birth
+{
+	SetSelector 
+	{
+		AmphibiousLogic land/water
+		set hotspot
+		{
+			version
+			{
+				Visual Special C Salamander_idleA
+				connect HOTSPOT birthSFX hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Special C Salamander_swimidleA
+				connect HOTSPOT birthSFX hotspot
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Idle
+{
+	SetSelector 
+	{
+		AmphibiousLogic land/water
+		set hotspot
+		{
+			version
+			{
+				Visual Special C Salamander_idleA
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Special C Salamander_swimidleA
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Attack
+{
+	SetSelector 
+	{
+		AmphibiousLogic land/water
+		set hotspot
+		{
+			version
+			{
+				Visual Special C Salamander_attackA
+				length 1.35
+				Tag Attack 0.6 true
+				Tag GenericSound 0.35 true
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Special C Salamander_swimattackA
+				length 1.35
+				Tag Attack 0.6 true
+				Tag GenericSound 0.35 true
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim death
+{
+	SetSelector 
+	{
+		AmphibiousLogic land/water
+		set hotspot
+		{
+			version
+			{
+				Visual Special C Salamander_deathA
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Special C Salamander_swimdeathA
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim bored
+{
+	SetSelector 
+	{
+		AmphibiousLogic land/water
+		set hotspot
+		{
+			version
+			{
+				Visual Special C Salamander_boredA
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Special C Salamander_swimboredA
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim walk
+{
+	SetSelector 
+	{
+		AmphibiousLogic land/water
+		set hotspot
+		{
+			version
+			{
+				Visual Special C Salamander_walkA
+				length 1.0
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Special C Salamander_swimwalkA
+				length 1.5
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim flail
+{
+	SetSelector 
+	{
+		AmphibiousLogic land/water
+		set hotspot
+		{
+			version
+			{
+				Visual Special C Salamander_flailA
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Special C Salamander_swimflailA
+			}
+		}
+	}
+}

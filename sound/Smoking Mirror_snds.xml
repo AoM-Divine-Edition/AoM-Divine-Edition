@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<protounitsounddef>
+	<protounit name="Smoking Mirror">
+		<soundtype name="Select">
+			<soundset name="favordump"></soundset>
+		</soundtype>
+		<soundtype name="Grunt">
+			<soundset name="CinematicTridentThunk"></soundset>
+		</soundtype>
+		<soundtype name="Hit">
+			<damagetypelogic>
+				<choice name="Crush">
+					<soundset name="Aztec Thunk"></soundset>
+				</choice>
+				<choice name="Fire">
+					<soundset name="Aztec Thunk"></soundset>
+				</choice>
+				<choice name="Hack">
+					<soundset name="Aztec Thunk"></soundset>
+				</choice>
+				<choice name="Pierce">
+					<soundset name="Aztec Thunk"></soundset>
+				</choice>
+				<choice name="Slash">
+					<soundset name="Aztec Thunk"></soundset>
+				</choice>
+			</damagetypelogic>
+		</soundtype>
+		<soundtype name="Death">
+			<soundset name="andagain"></soundset>
+		</soundtype>
+		<soundtype name="Acknowledge">
+			<soundset name="favordump"></soundset>
+		</soundtype>
+	</protounit>
+</protounitsounddef>

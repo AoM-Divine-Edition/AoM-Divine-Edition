@@ -1,0 +1,212 @@
+//==============================================================================
+// brick_anim.txt
+//==============================================================================
+
+//==============================================================================
+define ripple
+{
+   set hotspot
+   {
+      version
+      {
+         VisualParticle SFX A Healing Spring Waves
+      }
+   }
+}
+//==============================================================================
+define nobles4
+{
+   set hotspot
+   {
+      version
+      {
+         		Visual Inca Fountain2
+	   		connect ATTACHPOINT flood HOTSPOT
+      }
+   }
+}
+//==============================================================================
+define waterlarge
+{
+   set hotspot
+   {
+      version
+      {
+         VisualParticle SFX A Healing Spring Mist
+      }
+   }
+}
+
+//==============================================================================
+define flood
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Inca Flood
+      }
+   }
+}
+
+
+//==============================================================================
+define waterfall
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Inca Waterfall
+      }
+   }
+}
+
+//==============================================================================
+anim idle
+{
+	SetSelector none 
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual Inca Fountain2
+	   		//	connect LEFTHAND waterlarge HOTSPOT
+			//	connect LEFTLEG waterlarge HOTSPOT
+			//	connect FACE waterlarge HOTSPOT
+			//	Length 0.2
+	   			
+			}
+		}
+		
+	}
+}
+
+//==============================================================================
+anim idle
+{
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual Inca Fountain2
+	   						
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+		}
+}
+
+//==============================================================================
+anim death
+{
+			SetSelector
+			{
+				VariationLogic
+				SetSelector
+				{
+					ConstructionLogic 0 33 66
+					set hotspot
+					{
+						version
+						{
+							Visual GenericDestruction
+               	  					connect FOREHEAD nobles4 hotspot
+					connect ATTACHPOINT Dust hotspot
+					connect ATTACHPOINT Dust hotspot
+					connect ATTACHPOINT Dust hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction3x3 B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+						Visual Building Construction Manor
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+						}
+					}
+				}
+		}
+}
+			
+   
+
+   

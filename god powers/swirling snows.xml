@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="SwirlingSnows" type="Bronze" techname="Swirling Snows">
+	<activetime>60.0</activetime>
+	<radius>20.0</radius>
+	<rangeindicatorprotoid radius="25.0" indicatorcount="10" speed="0.2">UI Range Indicator Norse SFX</rangeindicatorprotoid>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">Bronze</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<placement forceonmap="1">full</placement>
+	<armor>
+		<abstracttype>HumanSoldier</abstracttype>
+		<armortype percent="-0.00">Hack</armortype>
+		<armortype percent="-0.60">Pierce</armortype>
+		<sfx>Mist</sfx>
+		<texture>SFX A snow</texture>
+	</armor>
+	<armor>
+		<abstracttype>Hero</abstracttype>
+		<armortype percent="-0.00">Hack</armortype>
+		<armortype percent="-0.60">Pierce</armortype>
+		<sfx>Mist</sfx>
+		<texture>SFX A snow</texture>
+	</armor>
+	<damagesoundset>HackBronze</damagesoundset>
+
+	<icon>improvement swirling snows icon</icon>
+	<usedicon>improvement swirling snows used icon</usedicon>
+</power>

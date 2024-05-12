@@ -1,0 +1,20 @@
+2024-04-10 18:07:25.565 -04:00 [INF] Loading gltf file.
+2024-04-10 18:07:25.568 -04:00 [INF] Finished loading gltf file.
+2024-04-10 18:09:31.322 -04:00 [INF] Loading gltf file.
+2024-04-10 18:09:31.324 -04:00 [INF] Finished loading gltf file.
+2024-04-10 18:12:17.661 -04:00 [INF] Loading gltf file.
+2024-04-10 18:12:17.669 -04:00 [INF] Finished loading gltf file.
+2024-04-10 18:12:19.093 -04:00 [INF] Converting gltf file to brg.
+2024-04-10 18:12:19.305 -04:00 [INF] Finished converting gltf file to brg.
+2024-04-10 18:12:19.305 -04:00 [INF] Loading brg file.
+2024-04-10 18:12:19.319 -04:00 [INF] Finished loading brg file.
+2024-04-10 18:13:04.937 -04:00 [INF] Saving brg file.
+2024-04-10 18:13:04.946 -04:00 [INF] Finished saving brg file.
+2024-04-10 18:15:01.640 -04:00 [INF] Loading gltf file.
+2024-04-10 18:15:01.642 -04:00 [INF] Finished loading gltf file.
+2024-04-10 18:15:02.871 -04:00 [INF] Converting gltf file to brg.
+2024-04-10 18:15:03.240 -04:00 [INF] Finished converting gltf file to brg.
+2024-04-10 18:15:03.241 -04:00 [INF] Loading brg file.
+2024-04-10 18:15:03.255 -04:00 [INF] Finished loading brg file.
+2024-04-10 18:15:08.796 -04:00 [INF] Saving brg file.
+2024-04-10 18:15:08.813 -04:00 [INF] Finished saving brg file.

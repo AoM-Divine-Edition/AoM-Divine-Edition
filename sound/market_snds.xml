@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<protounitsounddef>
+	<protounit name="Market">
+		<soundtype name="Select">
+			<soundset name="Market"></soundset>
+		</soundtype>
+		<soundtype name="Hit">
+			<damagetypelogic>
+				<choice name="Hack">
+					<soundset name="HackWood"></soundset>
+				</choice>
+				<choice name="Pierce">
+					<soundset name="PierceWood"></soundset>
+				</choice>
+				<choice name="Crush">
+					<soundset name="CrushWood"></soundset>
+				</choice>
+			</damagetypelogic>
+		</soundtype>
+		<soundtype name="Death">
+			<soundset name="BuildingDeath"></soundset>
+		</soundtype>
+		<soundtype name="Creation">
+			<soundset name="Market"></soundset>
+		</soundtype>
+		<soundtype name="Exists">
+			<soundset name="MarketLoop"></soundset>
+		</soundtype>		
+	</protounit>
+</protounitsounddef>

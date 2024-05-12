@@ -1,0 +1,41 @@
+<ProtoUnitSoundDef>
+	<ProtoUnit name="Catapult_Beta">
+		<SoundType name="Select">
+			<SoundSet name="SiegeSelect"/>
+		</SoundType>
+		<SoundType name="Attack">
+			<SoundSet name="placeholder"/>
+		</SoundType>
+		<SoundType name="Grunt">
+			<SoundSet name="placeholder"/>
+		</SoundType>
+		<SoundType name="Hit">
+			<DamageTypeLogic>
+				<Choice name="Hack">
+					<SoundSet name="HackWood"/>
+				</Choice>
+				<Choice name="Slash">
+					<SoundSet name="HackWood"/>
+				</Choice>
+				<Choice name="Pierce">
+					<SoundSet name="PierceWood"/>
+				</Choice>
+				<Choice name="Crush">
+					<SoundSet name="CrushWood"/>
+				</Choice>
+			</DamageTypeLogic>
+		</SoundType>
+		<SoundType name="Death">
+			<SoundSet name="placeholder"/>
+		</SoundType>
+		<SoundType name="Creation">
+			<SoundSet name="MilitaryBirth"/>
+		</SoundType>
+		<SoundType name="Move">
+			<SoundSet name="placeholder"/>
+		</SoundType>
+		<SoundType name="Acknowledge">
+			<SoundSet name="SiegeAcknowledge"/>
+		</SoundType>
+	</ProtoUnit>
+</ProtoUnitSoundDef>

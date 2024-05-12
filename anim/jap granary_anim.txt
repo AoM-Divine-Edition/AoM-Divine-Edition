@@ -1,0 +1,906 @@
+//==============================================================================
+// granary_anim.txt
+//==============================================================================
+
+import Construction_defines_anim.txt
+
+//==============================================================================
+define DestructionA
+{
+	set hotspot
+	{
+		version
+		{
+			Visual JapanGranary
+		}
+	}  
+}
+
+
+
+//==============================================================================
+define empower
+{
+   SetSelector
+   {
+      EmpowerLogic
+      SetSelector
+      {
+         set hotspot
+         {
+            version
+            {
+               Visualnone Jimmy
+            }
+         }
+      }
+      SetSelector
+      {
+         set hotspot
+         {
+            version
+            {
+               Visualparticle SFX E Pharaoh Empower Small
+            }
+         }
+      }
+   }
+}
+//==============================================================================
+define Shield
+{
+   TechLogic Copper shields/Bronze shields/Iron shields
+   set hotspot
+   {
+      version
+      {
+         Visual Attachments G Shield wood
+      }
+   }
+   set hotspot
+   {
+      version
+      {
+         Visual Attachments G Shield iron
+      }
+   }
+   set hotspot
+   {
+      version
+      {
+         Visual Attachments G Shield bronze
+      }
+   }
+}
+
+//==============================================================================
+define VINEA
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Building VineA
+      }
+   }  
+}
+//==============================================================================
+define VINEB
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Building VineB
+      }
+   }  
+}
+
+
+//==============================================================================
+define CypressB
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Terrain G CypressB
+      }
+   }  
+}
+
+//==============================================================================
+define Dust
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Building DustA
+      }
+   }  
+}
+//==============================================================================
+anim idle
+{
+   SetSelector
+   {
+      CultureLogic Egyptian/Greek
+//---------------------------------Egyptian---------------------------------------//
+       //---------------------------Age 1--------------------------------//   
+      SetSelector
+      {
+         TechLogic none/age 2/age 3/age 4
+         SetSelector
+         { 
+            ConstructionLogic 0 33 66
+            set hotspot
+            {
+               version
+               {
+                  Visual Building E Granary age1
+                  connect ATTACHPOINT empower hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building Construction small A
+                  connect ATTACHPOINT empower hotspot
+		            connect CHIN E_Small_Brick hotspot
+		            connect FACE E_Medium_Brick hotspot
+		            connect ATTACHPOINT E_Long_Brick hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building Construction small B
+                  connect ATTACHPOINT empower hotspot
+		            connect CHIN E_Small_Brick hotspot
+		            connect FACE E_Medium_Brick hotspot
+		            connect ATTACHPOINT E_Long_Brick hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building E Granary Construction
+                  connect ATTACHPOINT empower hotspot
+		            connect CHIN E_Small_Brick hotspot
+		            connect FACE E_Medium_Brick hotspot
+		            connect ATTACHPOINT E_Long_Brick hotspot
+               }
+            }
+         }
+        //---------------------------Age 2--------------------------------//
+         SetSelector
+         { 
+            ConstructionLogic 0 33 66
+            set hotspot
+            {
+               version
+               {
+                  Visual Building E Granary age2
+                  connect ATTACHPOINT empower hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building Construction small A
+                  connect ATTACHPOINT empower hotspot
+		            connect CHIN E_Small_Brick hotspot
+		            connect FACE E_Medium_Brick hotspot
+		            connect ATTACHPOINT E_Long_Brick hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building Construction small B
+                  connect ATTACHPOINT empower hotspot
+		            connect CHIN E_Small_Brick hotspot
+		            connect FACE E_Medium_Brick hotspot
+		            connect ATTACHPOINT E_Long_Brick hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building E Granary Construction
+                  connect ATTACHPOINT empower hotspot
+		            connect CHIN E_Small_Brick hotspot
+		            connect FACE E_Medium_Brick hotspot
+		            connect ATTACHPOINT E_Long_Brick hotspot
+               }
+            }
+         }
+        //---------------------------Age 3--------------------------------//
+         SetSelector
+         { 
+            ConstructionLogic 0 33 66
+            set hotspot
+            {
+               version
+               {
+                  Visual Building E Granary age3
+                  connect ATTACHPOINT empower hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building Construction small A
+                  connect ATTACHPOINT empower hotspot
+		            connect CHIN E_Small_Brick hotspot
+		            connect FACE E_Medium_Brick hotspot
+		            connect ATTACHPOINT E_Long_Brick hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building Construction small B
+                  connect ATTACHPOINT empower hotspot
+		            connect CHIN E_Small_Brick hotspot
+		            connect FACE E_Medium_Brick hotspot
+		            connect ATTACHPOINT E_Long_Brick hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building E Granary Construction
+                  connect ATTACHPOINT empower hotspot
+		            connect CHIN E_Small_Brick hotspot
+		            connect FACE E_Medium_Brick hotspot
+		            connect ATTACHPOINT E_Long_Brick hotspot
+               }
+            }
+         }
+        //---------------------------Age 4--------------------------------//
+         SetSelector
+         { 
+            ConstructionLogic 0 33 66
+            set hotspot
+            {
+               version
+               {
+                  Visual Building E Granary age4
+                  connect ATTACHPOINT empower hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building Construction small A
+                  connect ATTACHPOINT empower hotspot
+		            connect CHIN E_Small_Brick hotspot
+		            connect FACE E_Medium_Brick hotspot
+		            connect ATTACHPOINT E_Long_Brick hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building Construction small B
+                  connect ATTACHPOINT empower hotspot
+		            connect CHIN E_Small_Brick hotspot
+		            connect FACE E_Medium_Brick hotspot
+		            connect ATTACHPOINT E_Long_Brick hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building E Granary Construction
+                  connect ATTACHPOINT empower hotspot
+		            connect CHIN E_Small_Brick hotspot
+		            connect FACE E_Medium_Brick hotspot
+		            connect ATTACHPOINT E_Long_Brick hotspot
+               }
+            }
+         } 
+      }                
+//---------------------------------Greek------------------------------------------//
+//---------------------------Age 0--------------------------------//              
+      SetSelector
+      {
+         TechLogic none/age 2/age 3/age 4
+         SetSelector
+         {
+            ConstructionLogic 0 33 66
+            set hotspot
+            {
+               version
+               {
+                  Visual JapanGranary
+						connect Rightfoot VineA hotspot
+						connect Rightear VineB hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building Construction small A
+		            connect CHIN G_Small_Brick hotspot
+		            connect FACE G_Medium_Brick hotspot
+		            connect ATTACHPOINT G_Long_Brick hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building Construction small B
+		            connect CHIN G_Small_Brick hotspot
+		            connect FACE G_Medium_Brick hotspot
+		            connect ATTACHPOINT G_Long_Brick hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building G ConstructionStorehouse
+		            connect CHIN G_Small_Brick hotspot
+		            connect FACE G_Medium_Brick hotspot
+		            connect ATTACHPOINT G_Long_Brick hotspot
+               }
+            }
+         }
+      //---------------------------Age 1--------------------------------//              
+         SetSelector
+         {
+            ConstructionLogic 0 33 66
+            set hotspot
+            {
+               version
+               {
+                  Visual JapanGranary
+						connect Rightfoot VineA hotspot
+						connect Rightear VineB hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building Construction small A
+		            connect CHIN G_Small_Brick hotspot
+		            connect FACE G_Medium_Brick hotspot
+		            connect ATTACHPOINT G_Long_Brick hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building Construction small B
+		            connect CHIN G_Small_Brick hotspot
+		            connect FACE G_Medium_Brick hotspot
+		            connect ATTACHPOINT G_Long_Brick hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building G ConstructionStorehouse
+		            connect CHIN G_Small_Brick hotspot
+		            connect FACE G_Medium_Brick hotspot
+		            connect ATTACHPOINT G_Long_Brick hotspot
+               }
+            }
+         }
+      //---------------------------Age 2--------------------------------//
+         SetSelector
+         {
+            ConstructionLogic 0 33 66
+            set hotspot
+            {
+               version
+               {
+                  Visual JapanGranary
+						connect Rightfoot VineA hotspot
+						connect Rightear VineB hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building Construction small A
+		            connect CHIN G_Small_Brick hotspot
+		            connect FACE G_Medium_Brick hotspot
+		            connect ATTACHPOINT G_Long_Brick hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building Construction small B
+		            connect CHIN G_Small_Brick hotspot
+		            connect FACE G_Medium_Brick hotspot
+		            connect ATTACHPOINT G_Long_Brick hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building G ConstructionStorehouse
+		            connect CHIN G_Small_Brick hotspot
+		            connect FACE G_Medium_Brick hotspot
+		            connect ATTACHPOINT G_Long_Brick hotspot
+               }
+            }
+         }
+      //---------------------------Age 3--------------------------------//
+         SetSelector
+         {
+            ConstructionLogic 0 33 66
+            set hotspot
+            {
+               version
+               {
+                  Visual JapanGranary
+						connect Rightfoot VineA hotspot
+						connect Rightear VineB hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building Construction small A
+		            connect CHIN G_Small_Brick hotspot
+		            connect FACE G_Medium_Brick hotspot
+		            connect ATTACHPOINT G_Long_Brick hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building Construction small B
+		            connect CHIN G_Small_Brick hotspot
+		            connect FACE G_Medium_Brick hotspot
+		            connect ATTACHPOINT G_Long_Brick hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building G ConstructionStorehouse
+		            connect CHIN G_Small_Brick hotspot
+		            connect FACE G_Medium_Brick hotspot
+		            connect ATTACHPOINT G_Long_Brick hotspot
+               }
+            }
+         }
+      }
+
+	}
+}
+
+
+//==============================================================================
+anim Death
+{
+   SetSelector
+   {
+      CultureLogic Egyptian/Greek
+//---------------------------------Egyptian---------------------------------------//
+       //---------------------------Age 1--------------------------------//   
+      SetSelector
+      {
+         TechLogic none/age 2/age 3/age 4
+         SetSelector
+         { 
+            ConstructionLogic 0 33 66
+            set hotspot
+            {
+               version
+               {
+                  Visual Building E Granary age1_Death
+							connect Smoke0 Dust hotspot
+							connect Smoke1 Dust hotspot
+							connect Smoke2 Dust hotspot
+							connect Smoke3 Dust hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building Construction small A
+                  connect ATTACHPOINT empower hotspot
+		            connect CHIN E_Small_Brick hotspot
+		            connect FACE E_Medium_Brick hotspot
+		            connect ATTACHPOINT E_Long_Brick hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building Construction small B
+                  connect ATTACHPOINT empower hotspot
+		            connect CHIN E_Small_Brick hotspot
+		            connect FACE E_Medium_Brick hotspot
+		            connect ATTACHPOINT E_Long_Brick hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building E Granary Construction
+                  connect ATTACHPOINT empower hotspot
+		            connect CHIN E_Small_Brick hotspot
+		            connect FACE E_Medium_Brick hotspot
+		            connect ATTACHPOINT E_Long_Brick hotspot
+               }
+            }
+         }
+        //---------------------------Age 2--------------------------------//
+         SetSelector
+         { 
+            ConstructionLogic 0 33 66
+            set hotspot
+            {
+               version
+               {
+                  Visual Building E Granary age2_Death
+							connect Smoke0 Dust hotspot
+							connect Smoke1 Dust hotspot
+							connect Smoke2 Dust hotspot
+							connect Smoke3 Dust hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building Construction small A
+                  connect ATTACHPOINT empower hotspot
+		            connect CHIN E_Small_Brick hotspot
+		            connect FACE E_Medium_Brick hotspot
+		            connect ATTACHPOINT E_Long_Brick hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building Construction small B
+                  connect ATTACHPOINT empower hotspot
+		            connect CHIN E_Small_Brick hotspot
+		            connect FACE E_Medium_Brick hotspot
+		            connect ATTACHPOINT E_Long_Brick hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building E Granary Construction
+                  connect ATTACHPOINT empower hotspot
+		            connect CHIN E_Small_Brick hotspot
+		            connect FACE E_Medium_Brick hotspot
+		            connect ATTACHPOINT E_Long_Brick hotspot
+               }
+            }
+         }
+        //---------------------------Age 3--------------------------------//
+         SetSelector
+         { 
+            ConstructionLogic 0 33 66
+            set hotspot
+            {
+               version
+               {
+                  Visual Building E Granary age3_Death
+							connect Smoke0 Dust hotspot
+							connect Smoke1 Dust hotspot
+							connect Smoke2 Dust hotspot
+							connect Smoke3 Dust hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building Construction small A
+                  connect ATTACHPOINT empower hotspot
+		            connect CHIN E_Small_Brick hotspot
+		            connect FACE E_Medium_Brick hotspot
+		            connect ATTACHPOINT E_Long_Brick hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building Construction small B
+                  connect ATTACHPOINT empower hotspot
+		            connect CHIN E_Small_Brick hotspot
+		            connect FACE E_Medium_Brick hotspot
+		            connect ATTACHPOINT E_Long_Brick hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building E Granary Construction
+                  connect ATTACHPOINT empower hotspot
+		            connect CHIN E_Small_Brick hotspot
+		            connect FACE E_Medium_Brick hotspot
+		            connect ATTACHPOINT E_Long_Brick hotspot
+               }
+            }
+         }
+        //---------------------------Age 4--------------------------------//
+         SetSelector
+         { 
+            ConstructionLogic 0 33 66
+            set hotspot
+            {
+               version
+               {
+                  Visual Building E Granary age4_Death
+							connect Smoke0 Dust hotspot
+							connect Smoke1 Dust hotspot
+							connect Smoke2 Dust hotspot
+							connect Smoke3 Dust hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building Construction small A
+                  connect ATTACHPOINT empower hotspot
+		            connect CHIN E_Small_Brick hotspot
+		            connect FACE E_Medium_Brick hotspot
+		            connect ATTACHPOINT E_Long_Brick hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building Construction small B
+                  connect ATTACHPOINT empower hotspot
+		            connect CHIN E_Small_Brick hotspot
+		            connect FACE E_Medium_Brick hotspot
+		            connect ATTACHPOINT E_Long_Brick hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building E Granary Construction
+                  connect ATTACHPOINT empower hotspot
+		            connect CHIN E_Small_Brick hotspot
+		            connect FACE E_Medium_Brick hotspot
+		            connect ATTACHPOINT E_Long_Brick hotspot
+               }
+            }
+         } 
+      }                
+//---------------------------------Greek------------------------------------------//
+//---------------------------Age 0--------------------------------//              
+      SetSelector
+      {
+         TechLogic none/age 2/age 3/age 4
+         SetSelector
+         {
+            ConstructionLogic 0 33 66
+            set hotspot
+            {
+               version
+               {
+                  Visual GenericDestruction
+							connect forehead DestructionA hotspot
+							connect Smoke0 Dust hotspot
+							connect Smoke1 Dust hotspot
+							connect Smoke2 Dust hotspot
+							connect Smoke3 Dust hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building Construction small A
+		            connect CHIN G_Small_Brick hotspot
+		            connect FACE G_Medium_Brick hotspot
+		            connect ATTACHPOINT G_Long_Brick hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building Construction small B
+		            connect CHIN G_Small_Brick hotspot
+		            connect FACE G_Medium_Brick hotspot
+		            connect ATTACHPOINT G_Long_Brick hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building G ConstructionStorehouse
+		            connect CHIN G_Small_Brick hotspot
+		            connect FACE G_Medium_Brick hotspot
+		            connect ATTACHPOINT G_Long_Brick hotspot
+               }
+            }
+         }
+      //---------------------------Age 1--------------------------------//              
+         SetSelector
+         {
+            ConstructionLogic 0 33 66
+            set hotspot
+            {
+               version
+               {
+                  Visual GenericDestruction
+							connect forehead DestructionA hotspot
+							connect Smoke0 Dust hotspot
+							connect Smoke1 Dust hotspot
+							connect Smoke2 Dust hotspot
+							connect Smoke3 Dust hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building Construction small A
+		            connect CHIN G_Small_Brick hotspot
+		            connect FACE G_Medium_Brick hotspot
+		            connect ATTACHPOINT G_Long_Brick hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building Construction small B
+		            connect CHIN G_Small_Brick hotspot
+		            connect FACE G_Medium_Brick hotspot
+		            connect ATTACHPOINT G_Long_Brick hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building G ConstructionStorehouse
+		            connect CHIN G_Small_Brick hotspot
+		            connect FACE G_Medium_Brick hotspot
+		            connect ATTACHPOINT G_Long_Brick hotspot
+               }
+            }
+         }
+      //---------------------------Age 2--------------------------------//
+         SetSelector
+         {
+            ConstructionLogic 0 33 66
+            set hotspot
+            {
+               version
+               {
+                  Visual GenericDestruction
+							connect forehead DestructionA hotspot
+							connect Smoke0 Dust hotspot
+							connect Smoke1 Dust hotspot
+							connect Smoke2 Dust hotspot
+							connect Smoke3 Dust hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building Construction small A
+		            connect CHIN G_Small_Brick hotspot
+		            connect FACE G_Medium_Brick hotspot
+		            connect ATTACHPOINT G_Long_Brick hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building Construction small B
+		            connect CHIN G_Small_Brick hotspot
+		            connect FACE G_Medium_Brick hotspot
+		            connect ATTACHPOINT G_Long_Brick hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building G ConstructionStorehouse
+		            connect CHIN G_Small_Brick hotspot
+		            connect FACE G_Medium_Brick hotspot
+		            connect ATTACHPOINT G_Long_Brick hotspot
+               }
+            }
+         }
+      //---------------------------Age 3--------------------------------//
+         SetSelector
+         {
+            ConstructionLogic 0 33 66
+            set hotspot
+            {
+               version
+               {
+                  Visual GenericDestruction
+							connect forehead DestructionA hotspot
+							connect Smoke0 Dust hotspot
+							connect Smoke1 Dust hotspot
+							connect Smoke2 Dust hotspot
+							connect Smoke3 Dust hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building Construction small A
+		            connect CHIN G_Small_Brick hotspot
+		            connect FACE G_Medium_Brick hotspot
+		            connect ATTACHPOINT G_Long_Brick hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building Construction small B
+		            connect CHIN G_Small_Brick hotspot
+		            connect FACE G_Medium_Brick hotspot
+		            connect ATTACHPOINT G_Long_Brick hotspot
+               }
+            }
+            set hotspot
+            {
+               version
+               {
+                  Visual Building G ConstructionStorehouse
+		            connect CHIN G_Small_Brick hotspot
+		            connect FACE G_Medium_Brick hotspot
+		            connect ATTACHPOINT G_Long_Brick hotspot
+               }
+            }
+         }
+      }
+
+	}
+}

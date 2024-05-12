@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="TreeSpawn" type="GaiaForest" techname="Tree Spawn">
+	<activetime>-1</activetime>
+	<placement forceonmap="1">skip</placement>
+	<radius>30.0 </radius>
+	<rangeindicatorprotoid radius="10.0" indicatorcount="8" speed="0.2">UI Range Indicator Atlantean SFX</rangeindicatorprotoid>
+	<numbertocreate>4</numbertocreate>
+	<treeproto>Void tree</treeproto>
+	<treeeffectproto>Gaia Forest effect</treeeffectproto>
+	<treespawnintervalmin>10.0f </treespawnintervalmin>
+	<treespawnintervalmax>15.0f </treespawnintervalmax>
+	<growthradiusincreaserate>0.01f </growthradiusincreaserate>
+	<growthradiusstart>5.0f </growthradiusstart>
+	
+	<minimapeventtime sendalertto="none">0.0f</minimapeventtime>
+	
+	<messagealertplayerrelation>ally</messagealertplayerrelation>
+</power>

@@ -1,0 +1,18 @@
+//==============================================================================
+// Leonidas Shield_anim.txt
+// By Cannibalh
+//==============================================================================
+
+define LeonidasShield1
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+            Visual LeonidasShield01
+         }
+      }         
+   }
+}

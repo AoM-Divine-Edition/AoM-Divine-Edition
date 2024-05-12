@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="RitualOfLoyalty" type="chaos" techname="Ritual of Loyalty">
+	<activetime>-1</activetime>
+	<radius>20.0</radius>
+	<rangeindicatorprotoid radius="18.0" indicatorcount="8" speed="0.2">UI Range Indicator Atlantean SFX</rangeindicatorprotoid>
+	<soundset type="StartSound" listenertype="Caster">Chaos</soundset>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<placement forceonmap="1">skip</placement>
+	<convertusingminmax minswapamount="9999999" maxswapamount="9999999">normal</convertusingminmax>
+	<convertusingminmax minswapamount="9999999" maxswapamount="99999999">myth</convertusingminmax>
+	<swapdelay>0.5</swapdelay>
+	<attachproto>Chaos effect</attachproto>
+	<abstractattacktargettype>LogicalTypeAffectedByChaos</abstractattacktargettype>
+	<abstractattacktargettype>AbstractSiegeWeapon</abstractattacktargettype>
+	<abstractattacktargettype>AbstractVillager</abstractattacktargettype>
+	<powerplayerrelation>enemy</powerplayerrelation>
+</power>

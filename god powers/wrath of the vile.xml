@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="WrathOfTheVile" type="Eclipse" techname="Wrath of the Vile">
+	<activetime>30.0</activetime>
+	<builduptime>1.0</builduptime>
+	<shutdowntime>1.0</shutdowntime>
+	<powerblocker>-1</powerblocker>
+	<lightset>Anatolia</lightset>
+	<tech>Wrath of the Vile Active</tech>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="All">EclipseBirth</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<placement forceonmap="1">skip</placement>
+	<icon>improvement wrath of the vile icon</icon>
+	<usedicon>improvement wrath of the vile icon done</usedicon>
+	<recharges>0</recharges>
+	<rechargetime>60</rechargetime>
+</power>

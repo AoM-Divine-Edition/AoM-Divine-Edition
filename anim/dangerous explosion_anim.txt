@@ -1,0 +1,121 @@
+//==============================================================================
+// Meteor Splash_anim.txt
+//==============================================================================
+//==============================================================================
+define fireground
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX N Nidhogg Fire Ground
+      }
+   }
+}
+//==============================================================================
+define burstfire
+{
+		set hotspot
+		{
+			version
+			{
+			Visualparticle Special E Phoenix Burst Fire
+			}
+		}
+}
+
+//==============================================================================
+define burstsmoke
+{
+		set hotspot
+		{
+			version
+			{
+			Visualparticle Special E Phoenix Burst Smoke
+			}
+		}
+}
+
+//==============================================================================
+define burstshockwave
+{
+		set hotspot
+		{
+			version
+			{
+			Visualparticle Special E Phoenix Burst Shockwave
+			}
+		}
+}
+
+//==============================================================================
+define burstblast
+{
+		set hotspot
+		{
+			version
+			{
+			Visualparticle Special E Phoenix Burst Blast
+			}
+		}
+}
+
+
+//==============================================================================
+define shockwave
+{
+	set hotspot
+	{
+		version
+		{
+		Visualparticle SFX A Meteor Shockblast
+		}
+	}
+}
+
+
+//==============================================================================
+anim birth
+{
+	SetSelector none 
+	{
+		set hotspot
+		{
+			version
+			{
+			Visualnone jimmy
+			connect ATTACHPOINT groundfire hotspot
+			connect ATTACHPOINT fireground hotspot
+			connect ATTACHPOINT fireground hotspot
+			connect ATTACHPOINT burstfire hotspot
+			connect ATTACHPOINT burstfire hotspot
+			connect ATTACHPOINT burstblast hotspot
+			connect ATTACHPOINT burstblast hotspot
+			connect ATTACHPOINT burstshockwave hotspot
+			connect ATTACHPOINT mushroom hotspot
+			connect ATTACHPOINT shockwave hotspot
+			connect ATTACHPOINT dust hotspot
+			connect ATTACHPOINT LargeDebris hotspot
+			connect ATTACHPOINT LargeDebris hotspot
+			connect ATTACHPOINT LargeDebris hotspot
+			connect ATTACHPOINT LargeDebris hotspot
+			tag SpecificSoundSet 0.1 false implode explode checkVisible
+
+			}
+		}
+	}
+}
+//==============================================================================
+anim idle
+{
+	SetSelector none 
+	{
+		set hotspot
+		{
+			version
+			{
+			Visualnone jimmy
+			}
+		}
+	}
+}

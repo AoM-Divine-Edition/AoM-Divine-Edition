@@ -1,0 +1,24 @@
+
+//==============================================================================
+anim Idle
+{
+   SetSelector
+   {
+		Targetlogic none/mythunit
+	  	set hotspot
+      {
+         version
+         {
+				Visualparticle SFX E Pharoah Projectile
+         }
+      }
+	  	set hotspot
+      {
+         version
+         {
+				Visualparticle SFX E Pharoah Projectile
+         }
+      }
+   }
+}
+

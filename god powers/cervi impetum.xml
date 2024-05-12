@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="CerviImpetum" type="Tsunami" techname="Cervi Impetum">
+	<builduptime soundset="TsunamiBirth">0.1</builduptime>
+	<activetime>5.0</activetime>
+	<minimapeventtime>10.0</minimapeventtime>
+	<placementprotounitid>Tsunami Range Indicator</placementprotounitid>
+	<soundset type="StartSound" listenertype="All">WildRushHorn</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<placement forceonmap="1">full</placement>
+	<radius>5.0</radius>
+	<powerblocker>20.0f</powerblocker>
+	<gpdamagemodel>
+		<playerrelation>enemy</playerrelation>
+		<basedamagepercentunit>0.20</basedamagepercentunit>
+		<basedamagepercentvillager>0.25</basedamagepercentvillager>
+		<basedamagepercentbuilding>0.15</basedamagepercentbuilding>
+		<minhpdamageunit>850</minhpdamageunit>
+		<minhpdamagevillager>50</minhpdamagevillager>
+		<minhpdamagebuilding>300</minhpdamagebuilding>
+		<maxhpdamageunit>1000</maxhpdamageunit>
+		<maxhpdamagevillager>60</maxhpdamagevillager>
+		<maxhpdamagebuilding>600</maxhpdamagebuilding>
+	</gpdamagemodel>
+	<gpdamagemodel>
+		<playerrelation>ally</playerrelation>
+		<basedamagepercentunit>0.10</basedamagepercentunit>
+		<basedamagepercentvillager>0.15</basedamagepercentvillager>
+		<basedamagepercentbuilding>0.05</basedamagepercentbuilding>
+		<minhpdamageunit>150</minhpdamageunit>
+		<minhpdamagevillager>50</minhpdamagevillager>
+		<minhpdamagebuilding>200</minhpdamagebuilding>
+		<maxhpdamageunit>150</maxhpdamageunit>
+		<maxhpdamagevillager>50</maxhpdamagevillager>
+		<maxhpdamagebuilding>200</maxhpdamagebuilding>
+	</gpdamagemodel>
+
+	<!--Tsunamis are made up on multiple children spaced out-->
+	<childfx>WildRush</childfx>
+	<numchildren>8</numchildren>
+	<childspacing>2.0</childspacing>
+	<!--distance between each child. Damage radius is based on this-->
+
+	<!--General Characteristics of tsunami-->
+	<movementspeed>6.4</movementspeed>
+	<height>0.0</height>
+	<debris>Dust Small</debris>
+	<!--<	<damageovertimeprotounit>Big Splash</damageovertimeprotounit>
+    <dirttexture>SFX A Tornado Dirt</dirttexture>
+	<snowtexture>SFX A Tornado Snow</snowtexture>
+	<watertexture>SFX A Tornado Water</watertexture>
+	<dirttexture>SFX A Tornado Dirt</dirttexture>
+	<snowtexture>SFX A Tornado Snow</snowtexture>
+	<watertexture>SFX A Tornado Water</watertexture>-->
+	<damagetype>LogicalTypeHandUnitsAttack</damagetype>
+	<scantime>0.5</scantime>
+	<attackgaiaaccuracy>0.0</attackgaiaaccuracy>
+	<minthrowdistance>1.0</minthrowdistance>
+	<maxthrowdistance>2.0</maxthrowdistance>
+	<minthrowheight>1.0</minthrowheight>
+	<maxthrowheight>2.0</maxthrowheight>
+	<minthrowvelocity>10.0</minthrowvelocity>
+	<maxthrowvelocity>20.0</maxthrowvelocity>
+	<dontthrow>Building</dontthrow>
+	<dontthrow>Wood</dontthrow>
+	<dontthrow>Gold</dontthrow>
+	<dontthrow>Fish</dontthrow>
+	<dontthrow>Fish</dontthrow>
+	<dontthrow>Unit</dontthrow>
+	<cantsuck>AbstractSettlement</cantsuck>
+	<cantsuck>Farm</cantsuck>
+	<cantsuck>Building</cantsuck>
+	<cantsuck>Gold</cantsuck>
+	<cantsuck>Wave</cantsuck>
+	<cantsuck>Unit</cantsuck>
+	<numberobjsperbuilding>1</numberobjsperbuilding>
+	<xzvelocity>15.5</xzvelocity>
+	<yvelocity>3.0</yvelocity>
+	<angularvelocity>0.5</angularvelocity>
+	<icon>roman icon cervi impetum</icon>
+	<usedicon>roman icon cervi impetum used</usedicon>
+</power>

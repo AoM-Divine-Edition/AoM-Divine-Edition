@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="TheSmokingMirror" type="Plenty" techname="TheSmokingMirror">
+	<activetime>-1</activetime>
+	<placement forceonmap="1" losprotounit="Smoking Mirror">full</placement>
+	<rangeindicatorprotoid radius="2.0" indicatorcount="5" speed="0.2">UI Range Indicator aztec</rangeindicatorprotoid>
+	<placementprotounitid>Smoking Mirror</placementprotounitid>
+	<createunit quantity="1" radius="0.0" delay="0.0" norotate="">Smoking Mirror</createunit>
+	<expandcheckplacementhull></expandcheckplacementhull>
+	<burstdelay>5.0f</burstdelay>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAlly">Olmec Crouch</soundset>
+	<icon>SmokingMirrorGPIcon</icon>
+	<usedicon>SmokingMirrorGPIcon</usedicon>
+</power>

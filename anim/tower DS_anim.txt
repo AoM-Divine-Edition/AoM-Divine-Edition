@@ -1,0 +1,648 @@
+//==============================================================================
+// tower_anim.txt
+//==============================================================================
+import Construction_defines_anim.txt
+import building_damage_defines_anim.txt
+//==============================================================================
+define empower
+{
+    SetSelector
+    {
+        EmpowerLogic
+        SetSelector
+        {
+            set hotspot
+            {
+                version
+                {
+                    Visualnone Jimmy
+                }
+            }
+        }
+        SetSelector
+        {
+            set hotspot
+            {
+                version
+                {
+                    Visualparticle SFX E Pharaoh Empower Large
+                }
+            }
+        }
+    }
+}
+//==============================================================================
+define VINEA
+{
+    set hotspot
+    {
+        version
+        {
+            Visual Building VineA
+        }
+    }
+}
+//==============================================================================
+define VINEB
+{
+    set hotspot
+    {
+        version
+        {
+            Visual Building VineB
+        }
+    }
+}
+//==============================================================================
+define Dust
+{
+    set hotspot
+    {
+        version
+        {
+            Visualparticle SFX A Building DustA
+        }
+    }
+}
+//==============================================================================
+define Oil
+{
+    set hotspot
+    {
+        version
+        {
+            Visualparticle SFX A Oil
+        }
+    }
+}
+//==============================================================================
+anim Idle
+{
+        SetSelector
+        {
+             Techlogic Age 2/Age 3/Age 4
+            SetSelector
+            {
+                ConstructionLogic 0 33 66
+                set hotspot
+                {
+                    version
+                    {
+                                 Visual Building Beta E Alpha Tower
+replacetexture building e shared01 2 map/building e age3
+replacetexture Building G Shared04 2 map/Building Beta E Alpha Tower Age3
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction XSmall A
+                        connect CHIN N_Small_Brick hotspot
+                        connect ATTACHPOINT N_Long_Brick hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction XSmall B
+                        connect CHIN N_Small_Brick hotspot
+                        connect ATTACHPOINT N_Long_Brick hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building G TowerConstruction
+                        connect CHIN N_Small_Brick hotspot
+                        connect ATTACHPOINT N_Long_Brick hotspot
+                    }
+                }
+            }
+            SetSelector
+            {
+                ConstructionLogic 0 33 66
+                set hotspot
+                {
+                    version
+                    {
+                                 Visual Building Beta E Alpha Tower
+replacetexture building e shared01 2 map/building e age3
+replacetexture Building G Shared04 2 map/Building Beta E Alpha Tower Age3
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction XSmall A
+                        connect CHIN N_Small_Brick hotspot
+                        connect ATTACHPOINT N_Long_Brick hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction XSmall B
+                        connect CHIN N_Small_Brick hotspot
+                        connect ATTACHPOINT N_Long_Brick hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building G TowerConstruction
+                        connect CHIN N_Small_Brick hotspot
+                        connect ATTACHPOINT N_Long_Brick hotspot
+                    }
+                }
+            }
+            SetSelector
+            {
+                ConstructionLogic 0 33 66
+                set hotspot
+                {
+                    version
+                    {
+                                 Visual Building Beta E Alpha Tower_Age4
+Replacetexture Building E shared02 2 map/EgyptianOlympicAge03
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction XSmall A
+                        connect CHIN N_Small_Brick hotspot
+                        connect ATTACHPOINT N_Long_Brick hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction XSmall B
+                        connect CHIN N_Small_Brick hotspot
+                        connect ATTACHPOINT N_Long_Brick hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building G TowerConstruction
+                        connect CHIN N_Small_Brick hotspot
+                        connect ATTACHPOINT N_Long_Brick hotspot
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+//==============================================================================
+anim Death
+{
+        SetSelector
+        {
+             Techlogic Age 2/Age 3/Age 4
+            SetSelector
+            {
+                ConstructionLogic 0 33 66
+                set hotspot
+                {
+                    version
+                    {
+         Visual Building Beta E Alpha Tower_Death
+replacetexture building e shared01 2 map/building e age3
+replacetexture Building G Shared04 2 map/Building Beta E Alpha Tower Age3
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction XSmall A
+                        connect CHIN N_Small_Brick hotspot
+                        connect ATTACHPOINT N_Long_Brick hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction XSmall B
+                        connect CHIN N_Small_Brick hotspot
+                        connect ATTACHPOINT N_Long_Brick hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building G TowerConstruction
+                        connect CHIN N_Small_Brick hotspot
+                        connect ATTACHPOINT N_Long_Brick hotspot
+                    }
+                }
+            }
+            SetSelector
+            {
+                ConstructionLogic 0 33 66
+                set hotspot
+                {
+                    version
+                    {
+         Visual Building Beta E Alpha Tower_Death
+replacetexture building e shared01 2 map/building e age3
+replacetexture Building G Shared04 2 map/Building Beta E Alpha Tower Age3
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction XSmall A
+                        connect CHIN N_Small_Brick hotspot
+                        connect ATTACHPOINT N_Long_Brick hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction XSmall B
+                        connect CHIN N_Small_Brick hotspot
+                        connect ATTACHPOINT N_Long_Brick hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building G TowerConstruction
+                        connect CHIN N_Small_Brick hotspot
+                        connect ATTACHPOINT N_Long_Brick hotspot
+                    }
+                }
+            }
+            SetSelector
+            {
+                ConstructionLogic 0 33 66
+                set hotspot
+                {
+                    version
+                    {
+         Visual Building Beta E Alpha Tower_Age4Death
+Replacetexture Building E shared02 2 map/EgyptianOlympicAge03
+							connect smoke0 dust hotspot
+							connect smoke1 dust hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction XSmall A
+                        connect CHIN N_Small_Brick hotspot
+                        connect ATTACHPOINT N_Long_Brick hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction XSmall B
+                        connect CHIN N_Small_Brick hotspot
+                        connect ATTACHPOINT N_Long_Brick hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building G TowerConstruction
+                        connect CHIN N_Small_Brick hotspot
+                        connect ATTACHPOINT N_Long_Brick hotspot
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+//==============================================================================
+anim Attack
+{
+        SetSelector
+        {
+             Techlogic Age 2/Age 3/Age 4
+            SetSelector
+            {
+                ConstructionLogic 0 33 66
+                set hotspot
+                {
+                    version
+                    {
+                                 Visual Building Beta E Alpha Tower
+replacetexture building e shared01 2 map/building e age3
+replacetexture Building G Shared04 2 map/Building Beta E Alpha Tower Age3
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+                     tag Attack 0.40 true   
+                     tag GenericSound 0.40 true   
+                     tag SpecificSoundSet 0.00 false Arrow checkVisible 
+//-- end auto generated section
+				connect RIGHTTHIGH Oil hotspot
+				connect RIGHTHAND Oil hotspot
+				connect leftTHIGH Oil hotspot
+				connect leftHAND Oil hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction XSmall A
+                        connect CHIN N_Small_Brick hotspot
+                        connect ATTACHPOINT N_Long_Brick hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction XSmall B
+                        connect CHIN N_Small_Brick hotspot
+                        connect ATTACHPOINT N_Long_Brick hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building G TowerConstruction
+                        connect CHIN N_Small_Brick hotspot
+                        connect ATTACHPOINT N_Long_Brick hotspot
+                    }
+                }
+            }
+            SetSelector
+            {
+                ConstructionLogic 0 33 66
+                set hotspot
+                {
+                    version
+                    {
+         Visual Building Beta E Alpha Tower
+replacetexture building e shared01 2 map/building e age3
+replacetexture Building G Shared04 2 map/Building Beta E Alpha Tower Age3
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+                     tag Attack 0.40 true   
+                     tag GenericSound 0.40 true   
+                     tag SpecificSoundSet 0.00 false Arrow checkVisible 
+//-- end auto generated section
+				connect RIGHTTHIGH Oil hotspot
+				connect RIGHTHAND Oil hotspot
+				connect leftTHIGH Oil hotspot
+				connect leftHAND Oil hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction XSmall A
+                        connect CHIN N_Small_Brick hotspot
+                        connect ATTACHPOINT N_Long_Brick hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction XSmall B
+                        connect CHIN N_Small_Brick hotspot
+                        connect ATTACHPOINT N_Long_Brick hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building G TowerConstruction
+                        connect CHIN N_Small_Brick hotspot
+                        connect ATTACHPOINT N_Long_Brick hotspot
+                    }
+                }
+            }
+            SetSelector
+            {
+                ConstructionLogic 0 33 66
+                set hotspot
+                {
+                    version
+                    {
+         Visual Building Beta E Alpha Tower_Age4
+Replacetexture Building E shared02 2 map/EgyptianOlympicAge03
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+                     tag Attack 0.40 true   
+                     tag GenericSound 0.40 true   
+                     tag SpecificSoundSet 0.00 false Arrow checkVisible 
+//-- end auto generated section
+				connect RIGHTTHIGH Oil hotspot
+				connect RIGHTHAND Oil hotspot
+				connect leftTHIGH Oil hotspot
+				connect leftHAND Oil hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction XSmall A
+                        connect CHIN N_Small_Brick hotspot
+                        connect ATTACHPOINT N_Long_Brick hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction XSmall B
+                        connect CHIN N_Small_Brick hotspot
+                        connect ATTACHPOINT N_Long_Brick hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building G TowerConstruction
+                        connect CHIN N_Small_Brick hotspot
+                        connect ATTACHPOINT N_Long_Brick hotspot
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+//==============================================================================
+anim RangedAttack
+{
+        SetSelector
+        {
+             Techlogic Age 2/Age 3/Age 4
+            SetSelector
+            {
+                ConstructionLogic 0 33 66
+                set hotspot
+                {
+                    version
+                    {
+                                 Visual Building Beta E Alpha Tower
+replacetexture building e shared01 2 map/building e age3
+replacetexture Building G Shared04 2 map/Building Beta E Alpha Tower Age3
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+                     tag Attack 0.40 true   
+                     tag GenericSound 0.40 true   
+                     tag SpecificSoundSet 0.00 false Arrow checkVisible 
+//-- end auto generated section
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction XSmall A
+                        connect CHIN N_Small_Brick hotspot
+                        connect ATTACHPOINT N_Long_Brick hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction XSmall B
+                        connect CHIN N_Small_Brick hotspot
+                        connect ATTACHPOINT N_Long_Brick hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building G TowerConstruction
+                        connect CHIN N_Small_Brick hotspot
+                        connect ATTACHPOINT N_Long_Brick hotspot
+                    }
+                }
+            }
+            SetSelector
+            {
+                ConstructionLogic 0 33 66
+                set hotspot
+                {
+                    version
+                    {
+         Visual Building Beta E Alpha Tower
+replacetexture building e shared01 2 map/building e age3
+replacetexture Building G Shared04 2 map/Building Beta E Alpha Tower Age3
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+                     tag Attack 0.40 true   
+                     tag GenericSound 0.40 true   
+                     tag SpecificSoundSet 0.00 false Arrow checkVisible 
+//-- end auto generated section
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction XSmall A
+                        connect CHIN N_Small_Brick hotspot
+                        connect ATTACHPOINT N_Long_Brick hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction XSmall B
+                        connect CHIN N_Small_Brick hotspot
+                        connect ATTACHPOINT N_Long_Brick hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building G TowerConstruction
+                        connect CHIN N_Small_Brick hotspot
+                        connect ATTACHPOINT N_Long_Brick hotspot
+                    }
+                }
+            }
+            SetSelector
+            {
+                ConstructionLogic 0 33 66
+                set hotspot
+                {
+                    version
+                    {
+         Visual Building Beta E Alpha Tower_Age4
+Replacetexture Building E shared02 2 map/EgyptianOlympicAge03
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+                     tag Attack 0.40 true   
+                     tag GenericSound 0.40 true   
+                     tag SpecificSoundSet 0.00 false Arrow checkVisible 
+//-- end auto generated section
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction XSmall A
+                        connect CHIN N_Small_Brick hotspot
+                        connect ATTACHPOINT N_Long_Brick hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction XSmall B
+                        connect CHIN N_Small_Brick hotspot
+                        connect ATTACHPOINT N_Long_Brick hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building G TowerConstruction
+                        connect CHIN N_Small_Brick hotspot
+                        connect ATTACHPOINT N_Long_Brick hotspot
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

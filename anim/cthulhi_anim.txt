@@ -1,0 +1,413 @@
+//==============================================================================
+// Faceless Caster_anim.txt
+//==============================================================================
+//==============================================================================
+
+
+                           ____________________________________
+                          |                                    |
+                          |      CREATED by WOLLIEWOLTAZ       |
+                          |____________________________________|
+//==============================================================================
+
+
+//==============================================================================
+//Particle Attachments
+//==============================================================================
+//==============================================================================
+define Glow
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX x manowar glow
+      }
+   }
+}
+
+//==============================================================================
+//Visuals/ReplaceTextures
+//==============================================================================
+//==============================================================================
+anim Death
+{
+   SetSelector
+   {
+		VariationLogic
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual facecaster_death
+				}	
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual facecaster_death
+					ReplaceTexture facelessoneaquatic1grey/facelessoneaquatic1green
+					ReplaceTexture facelessoneaquatic2grey/facelessoneaquatic2green
+				}
+			}
+		}
+   		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual facecaster_death
+					ReplaceTexture facelessoneaquatic1grey/facelessoneaquatic1blue
+					ReplaceTexture facelessoneaquatic2grey/facelessoneaquatic2blue
+				}
+			}
+		}
+   }
+}
+
+//==============================================================================
+anim Idle
+{
+   SetSelector
+   {
+		VariationLogic
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual facecaster_idle
+				}	
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual facecaster_idle
+					ReplaceTexture facelessoneaquatic1grey/facelessoneaquatic1green
+					ReplaceTexture facelessoneaquatic2grey/facelessoneaquatic2green
+				}
+			}
+		}
+   		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual facecaster_idle
+					ReplaceTexture facelessoneaquatic1grey/facelessoneaquatic1blue
+					ReplaceTexture facelessoneaquatic2grey/facelessoneaquatic2blue
+				}
+			}
+		}
+   }
+}
+
+//==============================================================================
+anim Bored
+{
+   SetSelector
+   {
+		VariationLogic
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual facecaster_bored
+				}	
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual facecaster_bored
+					ReplaceTexture facelessoneaquatic1grey/facelessoneaquatic1green
+					ReplaceTexture facelessoneaquatic2grey/facelessoneaquatic2green
+				}
+			}
+		}
+   		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual facecaster_bored
+					ReplaceTexture facelessoneaquatic1grey/facelessoneaquatic1blue
+					ReplaceTexture facelessoneaquatic2grey/facelessoneaquatic2blue
+				}
+			}
+		}
+   }
+}
+
+//==============================================================================
+anim Walk
+{
+   SetSelector
+   {
+		VariationLogic
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual facecaster_walk
+				}	
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual facecaster_walk
+					ReplaceTexture facelessoneaquatic1grey/facelessoneaquatic1green
+					ReplaceTexture facelessoneaquatic2grey/facelessoneaquatic2green
+				}
+			}
+		}
+   		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual facecaster_walk
+					ReplaceTexture facelessoneaquatic1grey/facelessoneaquatic1blue
+					ReplaceTexture facelessoneaquatic2grey/facelessoneaquatic2blue
+				}
+			}
+		}
+   }
+}
+
+//==============================================================================
+anim Attack
+{ 
+   SetSelector none
+   {
+        VariationLogic
+        set hotspot
+        {
+            version
+            {
+			    Visual facecaster_attacka
+			    tag Attack 0.50 true   
+               		    tag GenericSound 0.40 true
+	       		    tag SpecificSoundSet 0.50 false SwordSwing checkVisible
+	       		    
+            }
+			version
+            {
+			    Visual facecaster_attackb
+			    tag Attack 0.49 true   
+               		    tag GenericSound 0.40 true
+	       		    tag SpecificSoundSet 0.50 false SwordSwing checkVisible
+	       		    
+            }
+        }
+        set hotspot
+        {
+            version
+            {
+			    Visual facecaster_attacka
+			    ReplaceTexture facelessoneaquatic1grey/facelessoneaquatic1green
+			    ReplaceTexture facelessoneaquatic2grey/facelessoneaquatic2green
+			    tag Attack 0.50 true   
+               		    tag GenericSound 0.40 true
+	       		    tag SpecificSoundSet 0.50 false SwordSwing checkVisible
+            }
+			version
+            {
+			    Visual facecaster_attackb
+			    ReplaceTexture facelessoneaquatic1grey/facelessoneaquatic1green
+			    ReplaceTexture facelessoneaquatic2grey/facelessoneaquatic2green
+			    tag Attack 0.49 true   
+               		    tag GenericSound 0.40 true
+	       		    tag SpecificSoundSet 0.50 false SwordSwing checkVisible
+            }
+        }
+        set hotspot
+        {
+            version
+            {
+			    Visual facecaster_attacka
+			    ReplaceTexture facelessoneaquatic1grey/facelessoneaquatic1blue
+			    ReplaceTexture facelessoneaquatic2grey/facelessoneaquatic2blue
+			    tag Attack 0.50 true   
+               		    tag GenericSound 0.40 true
+	       		    tag SpecificSoundSet 0.50 false SwordSwing checkVisible
+            }
+			version
+            {
+			    Visual facecaster_attackb
+			    ReplaceTexture facelessoneaquatic1grey/facelessoneaquatic1blue
+			    ReplaceTexture facelessoneaquatic2grey/facelessoneaquatic2blue
+			    tag Attack 0.49 true   
+               		    tag GenericSound 0.40 true
+	       		    tag SpecificSoundSet 0.50 false SwordSwing checkVisible
+            }
+        }
+        
+    }
+}
+
+
+//==============================================================================
+anim Flail
+{
+   SetSelector
+   {
+		VariationLogic
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual facecaster_flail
+				}	
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual facecaster_flail
+					ReplaceTexture facelessoneaquatic1grey/facelessoneaquatic1green
+			    		ReplaceTexture facelessoneaquatic2grey/facelessoneaquatic2green
+				}
+			}
+		}
+   		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual facecaster_flail
+					ReplaceTexture facelessoneaquatic1grey/facelessoneaquatic1blue
+			    		ReplaceTexture facelessoneaquatic2grey/facelessoneaquatic2blue
+				}
+			}
+		}
+   }
+}
+
+//==============================================================================
+anim Birth
+{
+	SetSelector
+	{
+//		VariationLogic
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual facecaster_bored
+				}	
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual facecaster_bored
+					ReplaceTexture facelessoneaquatic1grey/facelessoneaquatic1green
+					ReplaceTexture facelessoneaquatic2grey/facelessoneaquatic2green
+				}
+			}
+		}
+   		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual facecaster_bored
+					ReplaceTexture facelessoneaquatic1grey/facelessoneaquatic1blue
+					ReplaceTexture facelessoneaquatic2grey/facelessoneaquatic2blue
+				}
+			}
+		}
+	}
+}
+			
+			
+
+
+//==============================================================================
+anim Convert
+{
+   SetSelector none
+   {
+      VariationLogic
+      set hotspot
+      {
+         version
+         {
+			Visual facecaster_convert
+			tag Attack 0.20 true   
+               		tag GenericSound 0.40 true
+	       		//tag SpecificSoundSet 0.00 false Converting checkVisible 
+			Connect righthand glow hotspot
+			Connect lefthand glow hotspot
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+			Visual facecaster_convert
+			ReplaceTexture facelessoneaquatic1grey/facelessoneaquatic1green
+			ReplaceTexture facelessoneaquatic2grey/facelessoneaquatic2green
+			tag Attack 0.20 true   
+               		tag GenericSound 0.40 true
+	       		//tag SpecificSoundSet 0.00 false Converting checkVisible 
+			Connect righthand glow hotspot
+			Connect lefthand glow hotspot
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+			Visual facecaster_convert
+			ReplaceTexture facelessoneaquatic1grey/facelessoneaquatic1blue
+			ReplaceTexture facelessoneaquatic2grey/facelessoneaquatic2blue
+			tag Attack 0.20 true   
+               		tag GenericSound 0.40 true
+	       		//tag SpecificSoundSet 0.00 false Converting checkVisible 
+			Connect righthand glow hotspot
+			Connect lefthand glow hotspot
+         }
+      }
+      
+   }
+}

@@ -1,0 +1,73 @@
+//==============================================================================
+// brick_anim.txt
+//==============================================================================
+
+//==============================================================================
+define smoke
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Generic Fire Tiny
+      }
+   }
+}
+
+//==============================================================================
+define fire
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Generic Smoke Tiny
+      }
+   }
+}
+
+//==============================================================================
+define firebowl
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Generic Fire Tiny Bowl
+      }
+   }
+}
+
+
+//==============================================================================
+anim None
+{
+	SetSelector none 
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual Aztec StatueII
+				Connect FIRE fire hotspot
+				Connect FIRE firebowl hotspot
+				Connect FIRE smoke hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Aztec StatueIILeft
+				Connect FIRE fire hotspot
+				Connect FIRE firebowl hotspot
+				Connect FIRE smoke hotspot
+			}
+		}
+		
+	}
+}
+
+
+   

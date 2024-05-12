@@ -1,0 +1,57 @@
+//==============================================================================
+// Courtyard Plants_anim.txt
+//==============================================================================
+//==============================================================================
+define FunnelSnow
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A TornadoSnow
+      }
+   }
+}
+
+
+//==============================================================================
+define FunnelWater
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Tornado Water
+      }
+   }
+}
+
+//==============================================================================
+define maelstrom
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Maelstrom
+      }
+   }
+}
+
+
+//==============================================================================
+anim Idle
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+				Visual SFX A Tornado Main
+				Connect ATTACHPOINT FunnelSnow hotspot
+				Connect ATTACHPOINT FunnelWater hotspot
+         }
+      }
+   }
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<power name="DayOfGlory" type="flamingweapons" techname="Day of Glory">
+	<placement>skip</placement>
+	<activetime>30</activetime>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">ExaminationBirth</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<powerplayerrelation>player</powerplayerrelation>
+	<tech>Day of Glory Active</tech>
+	<particlesfxnode>
+		<unittype>HumanSoldier</unittype>
+		<sfx>Heavenlight</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Hero</unittype>
+		<sfx>Heavenlight</sfx>
+	</particlesfxnode>
+	<icon>improvement day of glory icon</icon>
+	<usedicon>improvement day of glory used icon</usedicon>
+</power>

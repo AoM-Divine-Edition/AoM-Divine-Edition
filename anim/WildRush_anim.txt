@@ -1,0 +1,151 @@
+//==============================================================================
+// Wild Rush Deer_anim.txt
+//==============================================================================
+
+//==============================================================================
+define antlers
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Animal buck Antlers
+      }
+   }
+}
+
+//==============================================================================
+define setGlow
+{
+   SetSelector
+   {
+		civilizationLogic none/set
+		set hotspot
+		{
+			version
+			{
+			  Visualnone jimmy
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+			  Visualparticle SFX E Set Gaia animal
+			}
+		}		    
+   }
+}
+
+//==============================================================================
+anim Idle
+{
+   SetSelector
+   {
+      VariationLogic
+      set hotspot
+      {
+         version
+         {
+            Visual Animal Wild doe_RunA
+				connect attachpoint antlers hotspot
+				connect hitpointbar SetGlow hotspot
+			}
+			version
+         {
+            Visual Animal wild doe_RunB
+				connect attachpoint antlers hotspot
+				connect hitpointbar SetGlow hotspot
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+            Visual Animal Wild doe_RunA
+				connect hitpointbar SetGlow hotspot
+			 }
+			 version
+		   {
+            Visual Animal wild doe_RunB
+				connect hitpointbar SetGlow hotspot
+
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim walk
+{
+   SetSelector
+   {
+      VariationLogic
+      set hotspot
+      {
+         version
+         {
+            Visual Animal Wild doe_RunA
+				connect attachpoint antlers hotspot
+				connect hitpointbar SetGlow hotspot
+			}
+			version
+         {
+            Visual Animal wild doe_RunB
+				connect attachpoint antlers hotspot
+				connect hitpointbar SetGlow hotspot
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+            Visual Animal Wild doe_RunA
+				connect hitpointbar SetGlow hotspot
+			 }
+			 version
+		   {
+            Visual Animal wild doe_RunB
+				connect hitpointbar SetGlow hotspot
+
+         }
+      }
+   }
+}
+//==============================================================================
+anim Run
+{
+   SetSelector
+   {
+      VariationLogic
+      set hotspot
+      {
+         version
+         {
+            Visual Animal Wild doe_RunA
+				connect attachpoint antlers hotspot
+				connect hitpointbar SetGlow hotspot
+			}
+			version
+         {
+            Visual Animal wild doe_RunB
+				connect attachpoint antlers hotspot
+				connect hitpointbar SetGlow hotspot
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+            Visual Animal Wild doe_RunA
+				connect hitpointbar SetGlow hotspot
+			 }
+			 version
+		   {
+            Visual Animal wild doe_RunB
+				connect hitpointbar SetGlow hotspot
+
+         }
+      }
+   }
+}

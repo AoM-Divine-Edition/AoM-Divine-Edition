@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="eyeofthestorm" type="TempUnit" techname="Eye of the Storm">
+	<activetime>30</activetime>
+	<placement forceonmap="20" matchtype="Hero">unit</placement>
+	<minimapeventtime sendalertto="ally">10.0</minimapeventtime>
+	<createunit quantity="32" minradius="20" maxradius="20" pattern="symmetric" norotate="" delay="0.0">Eye of the Storm Cloud</createunit>
+	<createunit quantity="42" minradius="25" maxradius="25" pattern="symmetric" norotate="" delay="0.0">Eye of the Storm Cloud</createunit>
+	<createunit quantity="52" minradius="30" maxradius="30" pattern="symmetric" norotate="" delay="0.0">Eye of the Storm Cloud</createunit>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAlly">SentinelBirth</soundset>
+	<icon>god power spy icon</icon>
+	<usedicon>god power spy icon done</usedicon>
+	<recharges>0</recharges>
+	<rechargetime>45 </rechargetime>
+</power>
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<protounitsounddef>
+	<protounit name="Ice Jottun">
+		<soundtype name="Select">
+			<soundset name="FrostGiantSelect"></soundset>
+		</soundtype>
+		<soundtype name="Hit">
+			<damagetypelogic>
+				<choice name="Hack">
+					<soundset name="HackWood"></soundset>
+				</choice>
+				<choice name="Slash">
+					<soundset name="HackWood"></soundset>
+				</choice>
+				<choice name="Pierce">
+					<soundset name="PierceWood"></soundset>
+				</choice>
+				<choice name="Crush">
+					<soundset name="CrushWood"></soundset>
+				</choice>
+			</damagetypelogic>
+		</soundtype>
+		<soundtype name="Death">
+			<soundset name="FrostGiantDeath"></soundset>
+		</soundtype>
+		<soundtype name="Creation">
+			<soundset name="MythUnitBirth"></soundset>
+		</soundtype>
+		<soundtype name="Acknowledge">
+			<soundset name="FrostGiantAcknowledge"></soundset>
+		</soundtype>
+		<soundtype name="Exists">
+			<soundset name="FrostGiantExist"></soundset>
+		</soundtype>
+	</protounit>
+</protounitsounddef>

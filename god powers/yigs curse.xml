@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="YigsCurse" type="swapunit" techname="Yigs Curse">
+	<activetime>2.6</activetime>
+	<radius>10.0</radius>
+	<rangeindicatorprotoid radius="18.0" indicatorcount="8" speed="0.2">UI Range Indicator Greek SFX</rangeindicatorprotoid>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">Curse</soundset>
+	<placement forceonmap="1">full</placement>
+	<convertusingminmax minswapamount="1" maxswapamount="3"></convertusingminmax>
+	<powerplayerrelation>enemy</powerplayerrelation>
+	<gpdamagemodel>
+		<playerrelation>enemy</playerrelation>
+		<basedamagepercentunit>0.4</basedamagepercentunit>
+		<basedamagepercentvillager>0.25</basedamagepercentvillager>
+		<basedamagepercentbuilding>0.0</basedamagepercentbuilding>
+		<minhpdamageunit>160</minhpdamageunit>
+		<minhpdamagevillager>160</minhpdamagevillager>
+		<minhpdamagebuilding>0</minhpdamagebuilding>
+		<maxhpdamageunit>160</maxhpdamageunit>
+		<maxhpdamagevillager>160</maxhpdamagevillager>
+		<maxhpdamagebuilding>0</maxhpdamagebuilding>
+	</gpdamagemodel>
+	<abstracttype swapto="Yig Snake Temp">AbstractVillager</abstracttype>
+	<illegalabstracttype>Hero</illegalabstracttype>
+	<swapdelay>0.5</swapdelay>
+	<sfx>Curse SFX</sfx>
+	<swapenemyonly></swapenemyonly>
+	<icon>improvement yigs curse icon</icon>
+	<usedicon>improvement yigs curse icon done</usedicon>
+
+	<recharges>0</recharges>
+	<rechargetime>120 </rechargetime>
+</power>

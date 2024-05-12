@@ -1,0 +1,25 @@
+//==============================================================================
+// brick_anim.txt
+//==============================================================================
+
+
+// Visualparticle SFX X Arkantos god glow
+//==============================================================================
+anim None
+{
+	SetSelector none 
+	{
+		VariationLogic
+		set hotspot
+   		{
+      			version
+      			{
+       				Visualparticle sfx a falling crap
+      			}
+   		}
+	}
+}
+
+
+   
+  

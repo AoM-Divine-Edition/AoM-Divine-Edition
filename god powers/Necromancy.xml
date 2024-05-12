@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Necromancy" type="swapunit" techname="Necromancy">
+	<activetime>0.6</activetime>
+	<rangeindicatorprotoid radius="7.0" indicatorcount="8" speed="0.2">UI Range Indicator aztec</rangeindicatorprotoid>
+	<radius>7.0</radius>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">Aztec Whistle2</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll" positional="">Aztec Whistle4</soundset>
+	<placement forceonmap="1" matchtype="Villager Chinese Dead Replacement">full</placement>
+	<powerplayerrelation>player</powerplayerrelation>
+	<overallchance>1.00</overallchance>
+	<abstracttype swapto="Aztec Female Villager">Aztec Female Villager Dead Replacement</abstracttype>
+	<abstracttype swapto="Skull Knight">Skull Knight Dead Replacement</abstracttype>
+	<abstracttype swapto="Jaguar Knight">Jaguar Knight Dead Replacement</abstracttype>
+	<abstracttype swapto="Eagle Knight">Eagle Knight Dead Replacement</abstracttype>
+	<abstracttype swapto="Archer Knight">Archer Knight Dead Replacement</abstracttype>
+	<abstracttype swapto="Aztec Priest">Aztec Priest Dead Replacement</abstracttype>
+	<abstracttype swapto="Macehuatlin">Macehuatlin Dead Replacement</abstracttype>
+	<abstracttype swapto="Coyote Runner">Coyote Runner Dead Replacement</abstracttype>
+	<abstracttype swapto="Huaminca">Huaminca Dead Replacement</abstracttype>
+	<abstracttype swapto="Zapotec">Zapotec Dead Replacement</abstracttype>
+	<swapdelay>0.5</swapdelay>
+	<convertunitstogodpowerplayer></convertunitstogodpowerplayer>
+	<convertusingminmax minswapamount="29" maxswapamount="35">Skull Knight Dead Replacement</convertusingminmax>
+	<sfx>Necromancy</sfx>
+	<icon>DiseaseIcon</icon>
+	<usedicon>DiseaseIcon</usedicon>
+</power>

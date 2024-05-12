@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<power name="FourWinds" type="flamingweapons" techname="Four Winds">
+	<placement>skip</placement>
+	<activetime>15</activetime>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">FrostWindLoop</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<powerplayerrelation>player</powerplayerrelation>
+	<tech>Four Winds Active</tech>
+	
+	<icon>improvement Four Winds icon</icon>
+	<usedicon>improvement Four Winds used icon</usedicon>
+
+	<recharges>3 </recharges>
+	<rechargetime>20 </rechargetime>
+</power>

@@ -1,0 +1,53 @@
+//==============================================================================
+// Smoke Large_anim.txt
+//==============================================================================
+
+//==============================================================================
+define Smokehuge
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Generic Smoke Huge
+      }
+   }
+}
+
+
+//==============================================================================
+define Smokebig
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Generic Smoke Big
+      }
+   }
+}
+
+//==============================================================================
+anim Idle
+{
+	SetSelector none 
+	{
+		VariationLogic
+		set hotspot
+		{
+		version
+			{
+			Visualnone jimmy
+			Connect ATTACHPOINT Smokebig hotspot
+			}
+		}
+		set hotspot
+		{
+		version
+			{
+            Visualnone jimmy
+			Connect ATTACHPOINT Smokehuge hotspot
+			}
+		}
+	}
+}

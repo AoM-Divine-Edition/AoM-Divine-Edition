@@ -1,0 +1,71 @@
+//==============================================================================
+// bush_anim.txt
+//==============================================================================
+
+
+//==============================================================================
+anim None
+{
+	SetSelector none 
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual BorneoUnderbrush
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual BorneoUnderbrush2
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual BorneoUnderbrush3
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual BorneoUnderbrush4
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual BorneoUnderbrush5
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual BorneoUnderbrush6
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual BorneoUnderbrush7
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual BorneoUnderbrush8
+			}
+		}
+	}
+}
+
+

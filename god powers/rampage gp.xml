@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="RampageGP" type="TempUnit" techname="Rampage GP">
+	<activetime>25.0</activetime>
+	<!--<placement forceonmap="1">all</placement>-->
+	<placement forceonmap="1" matchtype="SettlementsThatTrainVillagers">unit</placement>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">CinematicTitanRoar2</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<playsbattlemusic></playsbattlemusic>
+	
+	<powerblocker>30.0f</powerblocker>
+	
+	
+	<rangeindicatorprotoid radius="20.0" indicatorcount="8" speed="0.2">UI Range Indicator Egypt SFX</rangeindicatorprotoid>
+	<createunit quantity="1"  minradius="0" maxradius="0" pattern="symmetric"  delay="0.0">Inferno Fire Ground</createunit>
+	<createunit quantity="10"  minradius="5" maxradius="5" pattern="symmetric"  delay="0.0">Inferno Fire Ground</createunit>
+	<createunit quantity="10"  minradius="10" maxradius="10" pattern="symmetric" delay="5.0">Inferno Fire Ground</createunit>
+	<createunit quantity="10"  minradius="15" maxradius="15" pattern="symmetric" delay="10.0">Inferno Fire Ground</createunit>
+	<createunit quantity="10"  minradius="20" maxradius="20" pattern="symmetric" delay="15.0">Inferno Fire Ground</createunit>
+	
+	
+	<createunit quantity="1"   minradius="0" maxradius="0" pattern="random" delay="0.0">Rampage Titan</createunit>
+	<createunit quantity="5"  minradius="0" maxradius="0" pattern="random" delay="0.0">Vision SFX</createunit>
+	<createunit quantity="1"   minradius="5" maxradius="10" pattern="random" delay="1.0">Rampage Titan</createunit>
+	<createunit quantity="5"  minradius="5" maxradius="10" pattern="random" delay="1.0">Vision SFX</createunit>
+	<createunit quantity="1"   minradius="5" maxradius="10" pattern="random" delay="2.0">Rampage Titan</createunit>
+	<createunit quantity="5"  minradius="5" maxradius="10" pattern="random" delay="2.0">Vision SFX</createunit>
+	
+	<createunit quantity="1"   minradius="0" maxradius="12" pattern="random" delay="3.0">Rampage Titan</createunit>
+	<createunit quantity="5"  minradius="0" maxradius="12" pattern="random" delay="3.0">Vision SFX</createunit>
+	<createunit quantity="1"   minradius="0" maxradius="12" pattern="random" delay="4.0">Rampage Titan</createunit>
+	<createunit quantity="5"  minradius="0" maxradius="12" pattern="random" delay="4.0">Vision SFX</createunit>
+	<createunit quantity="1"   minradius="0" maxradius="12" pattern="random" delay="5.0">Rampage Titan</createunit>
+	<createunit quantity="5"  minradius="0" maxradius="12" pattern="random" delay="5.0">Vision SFX</createunit>
+	<createunit quantity="1"   minradius="0" maxradius="12" pattern="random" delay="6.0">Rampage Titan</createunit>
+	<createunit quantity="5"  minradius="0" maxradius="12" pattern="random" delay="6.0">Vision SFX</createunit>
+	<createunit quantity="1"   minradius="0" maxradius="12" pattern="random" delay="7.0">Rampage Titan</createunit>
+	<createunit quantity="5"  minradius="0" maxradius="12" pattern="random" delay="7.0">Vision SFX</createunit>
+	
+	<createunit quantity="1"   minradius="0" maxradius="20" pattern="random" delay="8.0">Rampage Titan</createunit>
+	<createunit quantity="5"  minradius="0" maxradius="20" pattern="random" delay="8.0">Vision SFX</createunit>
+	<createunit quantity="1"   minradius="0" maxradius="20" pattern="random" delay="9.0">Rampage Titan</createunit>
+	<createunit quantity="5"  minradius="0" maxradius="20" pattern="random" delay="9.0">Vision SFX</createunit>
+	<createunit quantity="1"   minradius="0" maxradius="20" pattern="random" delay="10.0">Rampage Titan</createunit>
+	<createunit quantity="5"  minradius="0" maxradius="20" pattern="random" delay="10.0">Vision SFX</createunit>
+	<createunit quantity="1"   minradius="0" maxradius="20" pattern="random" delay="11.0">Rampage Titan</createunit>
+	<createunit quantity="5"  minradius="0" maxradius="20" pattern="random" delay="11.0">Vision SFX</createunit>
+	<createunit quantity="1"   minradius="0" maxradius="20" pattern="random" delay="12.0">Rampage Titan</createunit>
+	<createunit quantity="5"  minradius="0" maxradius="20" pattern="random" delay="12.0">Vision SFX</createunit>
+	
+	<createunit quantity="1"   minradius="0" maxradius="20" pattern="random" delay="8.0">Rampage Titan</createunit>
+	<createunit quantity="5"  minradius="0" maxradius="20" pattern="random" delay="8.0">Vision SFX</createunit>
+	<createunit quantity="1"   minradius="0" maxradius="20" pattern="random" delay="9.0">Rampage Titan</createunit>
+	<createunit quantity="5"  minradius="0" maxradius="20" pattern="random" delay="9.0">Vision SFX</createunit>
+	<createunit quantity="1"   minradius="0" maxradius="20" pattern="random" delay="10.0">Rampage Titan</createunit>
+	<createunit quantity="5"  minradius="0" maxradius="20" pattern="random" delay="10.0">Vision SFX</createunit>
+	<createunit quantity="1"   minradius="0" maxradius="20" pattern="random" delay="11.0">Rampage Titan</createunit>
+	<createunit quantity="5"  minradius="0" maxradius="20" pattern="random" delay="11.0">Vision SFX</createunit>
+	<createunit quantity="1"   minradius="0" maxradius="20" pattern="random" delay="12.0">Rampage Titan</createunit>
+	<createunit quantity="5"  minradius="0" maxradius="20" pattern="random" delay="12.0">Vision SFX</createunit>
+	
+	
+	<createunit quantity="1"   minradius="5" maxradius="25" pattern="random" delay="13.0">Rampage Titan</createunit>
+	<createunit quantity="5"  minradius="0" maxradius="25" pattern="random" delay="13.0">Vision SFX</createunit>
+	<createunit quantity="1"   minradius="5" maxradius="25" pattern="random" delay="13.0">Rampage Titan</createunit>
+	<createunit quantity="5"  minradius="0" maxradius="25" pattern="random" delay="13.0">Vision SFX</createunit>
+	<createunit quantity="1"   minradius="5" maxradius="25" pattern="random" delay="13.0">Rampage Titan</createunit>
+	<createunit quantity="5"  minradius="0" maxradius="25" pattern="random" delay="13.0">Vision SFX</createunit>
+	
+	<createunit quantity="1"   minradius="5" maxradius="30" pattern="random" delay="14.0">Rampage Titan</createunit>
+	<createunit quantity="5"  minradius="0" maxradius="30" pattern="random" delay="14.0">Vision SFX</createunit>
+	<createunit quantity="1"   minradius="5" maxradius="30" pattern="random" delay="14.0">Rampage Titan</createunit>
+	<createunit quantity="5"  minradius="0" maxradius="30" pattern="random" delay="14.0">Vision SFX</createunit>
+	<createunit quantity="1"   minradius="5" maxradius="30" pattern="random" delay="14.0">Rampage Titan</createunit>
+	<createunit quantity="5"  minradius="0" maxradius="30" pattern="random" delay="14.0">Vision SFX</createunit>
+	<createunit quantity="1"   minradius="5" maxradius="30" pattern="random" delay="14.0">Rampage Titan</createunit>
+	<createunit quantity="5"  minradius="0" maxradius="30" pattern="random" delay="14.0">Vision SFX</createunit>
+	
+	
+	<createunit quantity="1"   minradius="10" maxradius="25" pattern="random" delay="13.0">Rampage Titan</createunit>
+	<createunit quantity="5"  minradius="0" maxradius="25" pattern="random" delay="13.0">Vision SFX</createunit>
+	<createunit quantity="1"   minradius="10" maxradius="25" pattern="random" delay="13.0">Rampage Titan</createunit>
+	<createunit quantity="5"  minradius="0" maxradius="25" pattern="random" delay="13.0">Vision SFX</createunit>
+	<createunit quantity="1"   minradius="10" maxradius="25" pattern="random" delay="13.0">Rampage Titan</createunit>
+	<createunit quantity="5"  minradius="0" maxradius="25" pattern="random" delay="13.0">Vision SFX</createunit>
+	
+	<createunit quantity="1"   minradius="10" maxradius="30" pattern="random" delay="14.0">Rampage Titan</createunit>
+	<createunit quantity="5"  minradius="0" maxradius="30" pattern="random" delay="14.0">Vision SFX</createunit>
+	<createunit quantity="1"   minradius="10" maxradius="30" pattern="random" delay="14.0">Rampage Titan</createunit>
+	<createunit quantity="5"  minradius="0" maxradius="30" pattern="random" delay="14.0">Vision SFX</createunit>
+	<createunit quantity="1"   minradius="10" maxradius="30" pattern="random" delay="14.0">Rampage Titan</createunit>
+	<createunit quantity="5"  minradius="0" maxradius="30" pattern="random" delay="14.0">Vision SFX</createunit>
+	<createunit quantity="1"   minradius="10" maxradius="30" pattern="random" delay="14.0">Rampage Titan</createunit>
+	<createunit quantity="5"  minradius="0" maxradius="30" pattern="random" delay="14.0">Vision SFX</createunit>
+	
+	
+	
+	
+	
+	
+
+
+
+	<icon>improvement rampage gp icon</icon>
+	<usedicon>improvement rampage gp used icon</usedicon>
+</power>

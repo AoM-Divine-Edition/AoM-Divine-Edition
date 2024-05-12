@@ -1,0 +1,57 @@
+//==============================================================================
+define NorseAxe
+{
+	SetSelector
+	{
+		TechLogic none/Copper Weapons/Bronze Weapons/Iron Weapons/Hammer of the Gods/Huntress Axe/Axe of Muspell
+		set hotspot
+		{
+			version
+			{
+				Visual Attachments N Axe Throwing Standard
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Attachments N Axe Throwing Copper
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Attachments N Axe Throwing Bronze
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Attachments N Axe Throwing Iron
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Attachments N Axe Mjolnir
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Attachments N Axe Huntress
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Attachments N Axe Muspell
+			}
+		}
+	}
+}

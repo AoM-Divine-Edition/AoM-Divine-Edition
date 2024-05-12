@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Disease" type="Pestilence" techname="Disease">
+	<placement forceonmap="1" enemy="">free</placement>
+	<activetime>15.0</activetime>
+	<radius>15.0f</radius>
+	<reveallos radius="15.0">Revealer To Player</reveallos>
+	<rangeindicatorprotoid radius="15.0" indicatorcount="10" speed="0.2">ui range indicator aztec</rangeindicatorprotoid>
+	<rescaninterval>5.0f</rescaninterval>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">PestilenceBirth</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<minimapeventtime sendalertto="all">10.0</minimapeventtime>
+	<powerplayerrelation>enemy</powerplayerrelation>
+	<abstracttype>
+		<type>HumanSoldier</type>
+		<sfxtype1>invisible plague</sfxtype1>
+	</abstracttype>
+	<abstracttype>
+		<type>AbstractInfantry</type>
+		<sfxtype1>invisible plague</sfxtype1>
+	</abstracttype>
+	<abstracttype>
+		<type>Military</type>
+		<sfxtype1>invisible plague</sfxtype1>
+	</abstracttype>
+	<abstracttype>
+		<type>UnitClass</type>
+		<sfxtype1>invisible plague</sfxtype1>
+	</abstracttype>
+	<abstracttype>
+		<type>Academy</type>
+		<sfxtype1>invisible plague</sfxtype1>
+	</abstracttype>
+	<abstracttype>
+		<type>Unit</type>
+		<sfxtype1>invisible plague</sfxtype1>
+	</abstracttype>
+	<icon>DiseaseIcon</icon>
+	<usedicon>DiseaseIcon</usedicon>
+</power>

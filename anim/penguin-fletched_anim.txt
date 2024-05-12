@@ -1,0 +1,485 @@
+//==============================================================================
+// Penguin.txt
+// by Jahvansi
+//==============================================================================
+
+//import bow_atlantean_anim.txt
+
+define Bow
+{
+
+	SetSelector
+   	{
+      		set hotspot
+      		{
+         		version
+         		{
+          		  	Visual nxPingubow
+         		}
+     		}
+
+	}
+
+}
+
+//==============================================================================
+define Head
+{ 
+	SetSelector
+   	{
+		TechLogic none/Medium Penguin-Fletched/Heavy Penguin-Fletched/Champion Penguin-Fletched
+
+      		set hotspot
+      		{
+         		version
+         		{
+          		  	Visual Penguin_Head
+         		}
+     		}
+		set hotspot
+      		{
+         		version
+         		{
+          		  	Visual Penguin_Head
+				ReplaceTexture PenguinHead/PenguinHead_Medium
+
+         		}
+     		}
+		set hotspot
+      		{
+         		version
+         		{
+          		  	Visual Penguin_Head
+				ReplaceTexture PenguinHead/PenguinHead_Heavy
+         		}
+     		}
+		set hotspot
+      		{
+         		version
+         		{
+          		  	Visual Penguin_Head
+				ReplaceTexture PenguinHead/PenguinHead_Champion
+         		}
+     		}
+	}
+}
+
+//==============================================================================
+//==============================================================================
+define eldritchglow
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX Eldritch Glow
+      }
+   }
+}
+
+//==============================================================================
+anim Idle
+{
+   SetSelector
+   {
+	TechLogic none/Medium Penguin-Fletched/Heavy Penguin-Fletched/Champion Penguin-Fletched
+
+			set hotspot
+			{
+				version
+				{
+					Visual Penguin_Idle
+					
+					connect Lefthand bow hotspot
+					Connect TopOfHead Head hotspot
+					Connect TopOfHead eldritchglow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Penguin_Idle
+					ReplaceTexture Penguin/Penguin_Medium
+					
+					connect Lefthand bow hotspot
+					Connect TopOfHead Head hotspot
+					Connect TopOfHead eldritchglow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Penguin_Idle
+					ReplaceTexture Penguin/Penguin_Heavy
+					
+					connect Lefthand bow hotspot
+					Connect TopOfHead Head hotspot
+					Connect TopOfHead eldritchglow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Penguin_Idle
+					ReplaceTexture Penguin/Penguin_Champion
+					
+					connect Lefthand bow hotspot
+					Connect TopOfHead Head hotspot
+					Connect TopOfHead eldritchglow hotspot
+				}
+			}
+
+
+   }
+}
+
+//==============================================================================
+anim walk
+{
+   SetSelector
+   {
+	TechLogic none/Medium Penguin-Fletched/Heavy Penguin-Fletched/Champion Penguin-Fletched
+
+			set hotspot
+			{
+				version
+				{
+					Visual Penguin_Walk
+
+                  			tag FootstepLeft 0.15 true   
+                  			tag FootstepRight 0.50 true   
+
+					connect lefthand bow hotspot
+					Connect TopOfHead Head hotspot
+					Connect TopOfHead eldritchglow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Penguin_Walk
+					ReplaceTexture Penguin/Penguin_Medium
+
+
+                  			tag FootstepLeft 0.15 true   
+                  			tag FootstepRight 0.50 true   
+
+					connect lefthand bow hotspot
+					Connect TopOfHead Head hotspot
+					Connect TopOfHead eldritchglow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Penguin_Walk
+					ReplaceTexture Penguin/Penguin_Heavy
+
+
+                  			tag FootstepLeft 0.15 true   
+                  			tag FootstepRight 0.50 true   
+
+					connect lefthand bow hotspot
+					Connect TopOfHead Head hotspot
+					Connect TopOfHead eldritchglow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Penguin_Walk
+					ReplaceTexture Penguin/Penguin_Champion
+
+
+                  			tag FootstepLeft 0.15 true   
+                  			tag FootstepRight 0.50 true   
+
+					connect lefthand bow hotspot
+					Connect TopOfHead Head hotspot
+					Connect TopOfHead eldritchglow hotspot
+				}
+			}
+
+   }
+}
+
+//==============================================================================
+anim RangedAttack
+{
+   SetSelector
+   {
+	TechLogic none/Medium Penguin-Fletched/Heavy Penguin-Fletched/Champion Penguin-Fletched
+
+      set hotspot
+      {
+         version
+         {
+			Visual Penguin_Attack
+
+                  	tag Attack 0.70 true   
+                  	tag GenericSound 0.40 true   
+                  	tag SpecificSoundSet 0.67 false Arrow checkVisible 
+
+					
+			Connect TopOfHead Head hotspot
+			Connect TopOfHead eldritchglow hotspot
+			connect lefthand bow hotspot
+         }
+      }
+
+      set hotspot
+      {
+         version
+         {
+			Visual Penguin_Attack
+			ReplaceTexture Penguin/Penguin_Medium
+
+
+                  	tag Attack 0.70 true   
+                  	tag GenericSound 0.40 true   
+                  	tag SpecificSoundSet 0.67 false Arrow checkVisible 
+
+					
+			Connect TopOfHead Head hotspot
+			Connect TopOfHead eldritchglow hotspot
+			connect lefthand bow hotspot
+         }
+      }
+
+      set hotspot
+      {
+         version
+         {
+			Visual Penguin_Attack
+			ReplaceTexture Penguin/Penguin_Heavy
+
+
+                  	tag Attack 0.70 true   
+                  	tag GenericSound 0.40 true   
+                  	tag SpecificSoundSet 0.67 false Arrow checkVisible 
+
+					
+			Connect TopOfHead Head hotspot
+			Connect TopOfHead eldritchglow hotspot
+			connect lefthand bow hotspot
+         }
+      }
+
+      set hotspot
+      {
+         version
+         {
+			Visual Penguin_Attack
+			ReplaceTexture Penguin/Penguin_Champion
+
+
+                  	tag Attack 0.70 true   
+                  	tag GenericSound 0.40 true   
+                  	tag SpecificSoundSet 0.67 false Arrow checkVisible 
+
+					
+			Connect TopOfHead Head hotspot
+			Connect TopOfHead eldritchglow hotspot
+			connect lefthand bow hotspot
+         }
+      }
+
+	
+   }
+}
+
+
+//==============================================================================
+anim Death
+{
+   SetSelector
+   {
+	TechLogic none/Medium Penguin-Fletched/Heavy Penguin-Fletched/Champion Penguin-Fletched
+
+      set hotspot
+      {
+         version
+         {
+		Visual Penguin_Death
+		connect lefthand bow hotspot
+		Connect TopOfHead Head hotspot
+		Connect TopOfHead eldritchglow hotspot
+
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+		Visual Penguin_Death
+		ReplaceTexture Penguin/Penguin_Medium
+
+		connect lefthand bow hotspot
+		Connect TopOfHead Head hotspot
+		Connect TopOfHead eldritchglow hotspot
+
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+		Visual Penguin_Death
+		ReplaceTexture Penguin/Penguin_Heavy
+
+		connect lefthand bow hotspot
+		Connect TopOfHead Head hotspot
+		Connect TopOfHead eldritchglow hotspot
+
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+		Visual Penguin_Death
+		ReplaceTexture Penguin/Penguin_Champion
+
+		connect lefthand bow hotspot
+		Connect TopOfHead Head hotspot
+		Connect TopOfHead eldritchglow hotspot
+
+         }
+      }
+
+}
+}
+
+
+//==============================================================================
+anim Bored
+{
+   SetSelector
+   {
+	TechLogic none/Medium Penguin-Fletched/Heavy Penguin-Fletched/Champion Penguin-Fletched
+
+	set hotspot
+	{
+		version
+		{
+			Visual Penguin_Bored
+
+			connect lefthand bow hotspot
+			Connect TopOfHead Head hotspot
+			Connect TopOfHead eldritchglow hotspot
+
+		}
+	}
+
+	set hotspot
+	{
+		version
+		{
+			Visual Penguin_Bored
+			ReplaceTexture Penguin/Penguin_Medium
+
+			connect lefthand bow hotspot
+			Connect TopOfHead Head hotspot
+			Connect TopOfHead eldritchglow hotspot
+
+		}
+	}
+
+	set hotspot
+	{
+		version
+		{
+			Visual Penguin_Bored
+			ReplaceTexture Penguin/Penguin_Heavy
+
+			connect lefthand bow hotspot
+			Connect TopOfHead Head hotspot
+			Connect TopOfHead eldritchglow hotspot
+
+		}
+	}
+
+	set hotspot
+	{
+		version
+		{
+			Visual Penguin_Bored
+			ReplaceTexture Penguin/Penguin_Champion
+
+			connect lefthand bow hotspot
+			Connect TopOfHead Head hotspot
+			Connect TopOfHead eldritchglow hotspot
+
+		}
+	}
+   }
+}
+
+//==============================================================================
+anim Flail
+{
+   SetSelector
+   {
+	TechLogic none/Medium Penguin-Fletched/Heavy Penguin-Fletched/Champion Penguin-Fletched
+
+      set hotspot
+      {
+         version
+         {
+		Visual Penguin_Flail
+		connect lefthand bow hotspot
+		Connect TopOfHead Head hotspot
+		Connect TopOfHead eldritchglow hotspot
+
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+		Visual Penguin_Flail
+		ReplaceTexture Penguin/Penguin_Medium
+
+		connect lefthand bow hotspot
+		Connect TopOfHead Head hotspot
+		Connect TopOfHead eldritchglow hotspot
+
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+		Visual Penguin_Flail
+		ReplaceTexture Penguin/Penguin_Heavy
+
+		connect lefthand bow hotspot
+		Connect TopOfHead Head hotspot
+		Connect TopOfHead eldritchglow hotspot
+
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+		Visual Penguin_Flail
+		ReplaceTexture Penguin/Penguin_Champion
+
+		connect lefthand bow hotspot
+		Connect TopOfHead Head hotspot
+		Connect TopOfHead eldritchglow hotspot
+
+         }
+      }
+
+
+   }
+}
+

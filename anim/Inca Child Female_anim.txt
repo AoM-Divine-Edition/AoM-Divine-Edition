@@ -1,0 +1,69 @@
+//==============================================================================
+// Scenario G Athenaena_anim.txt
+//==============================================================================
+
+
+//==============================================================================
+anim Idle
+{
+   SetSelector
+   {
+		
+		SetSelector
+		{
+			
+			set hotspot
+			{
+				version
+				{
+					Visual ChildFemale
+					
+				}
+			}
+	
+		}
+		
+   }
+}
+
+
+//==============================================================================
+anim Walk
+{
+   SetSelector
+   {
+		
+		SetSelector
+		{
+			
+			set hotspot
+			{
+				version
+				{
+					Visual ChildFemaleWalk
+				}
+			}
+		}
+   }
+}
+
+//==============================================================================
+anim Bored
+{
+   SetSelector
+   {
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual ChildFemaleBored
+					
+				}
+			}
+		}
+   }
+}
+
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Olmec" type="TempUnit" techname="Olmec">
+	<activetime>-1</activetime>
+	<minimapeventtime sendalertto="ally">10.0</minimapeventtime>
+	<createunit quantity="7" minradius="10" maxradius="15" pattern="symmetric" norotate="" delay="0.0">Olmec Sparkle</createunit>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAlly">Olmec Crouch</soundset>
+	<icon>OlmecWatchersIcon</icon>
+	<usedicon>OlmecWatchersIcon</usedicon>
+</power>

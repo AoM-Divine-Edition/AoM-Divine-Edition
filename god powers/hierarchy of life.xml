@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="HierarchyOfLife" type="ShowUnit" techname="Hierarchy of Life">
+	<ActiveTime>20.0</ActiveTime>
+	<placement forceonmap="1">full</placement>
+	<UnitType>Tree</UnitType>
+	<ShowProto>Revealer to Player Small Temp</ShowProto>
+	<StartSoundSet>GodPowerStart</StartSoundSet>
+	<EndSoundSet>GodPowerEnd</EndSoundSet>
+	<Pattern>ExpandingRadius</Pattern>
+	<PatternStartSize>1</PatternStartSize>
+	<PatternGrowthSize>0.2</PatternGrowthSize>
+	<PatternGrowthInterval>0.1</PatternGrowthInterval>
+
+	<icon>improvement Hierarchy of Life icon</icon>
+	<usedicon>improvement Hierarchy of Life used icon</usedicon>
+</power>

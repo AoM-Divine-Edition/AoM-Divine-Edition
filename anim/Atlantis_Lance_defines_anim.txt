@@ -1,0 +1,116 @@
+//==============================================================================
+// Atlantis Lance defines_anim.txt
+//==============================================================================
+
+//==============================================================================
+define Flame
+{
+	SetSelector
+	{
+		TechLogic none/Flaming Weapons Active
+		set hotspot
+		{
+			version
+			{
+				Visualnone jimmy
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visualparticle SFX A Flaming Spear
+			}
+		}
+	}
+}
+
+//==============================================================================
+define AtlantisLance
+{
+	SetSelector
+	{
+		TechLogic none/Copper Weapons/Bronze Weapons/Iron Weapons
+		set hotspot
+		{
+			version
+			{
+				visual attachments x lance standard
+				connect Fire Flame hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				visual attachments x lance Copper
+				connect Fire Flame hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				visual attachments x lance Bronze
+				connect Fire Flame hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				visual attachments x lance Iron
+				connect Fire Flame hotspot
+			}
+		}
+	}
+}
+
+//==============================================================================
+define AtlantisHeroLance
+{
+	SetSelector
+	{
+		TechLogic none/Copper Weapons/Bronze Weapons/Iron Weapons/Lance of Stone
+		set hotspot
+		{
+			version
+			{
+				visual attachments x lance standard
+				connect Fire Flame hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				visual attachments x lance Copper
+				connect Fire Flame hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				visual attachments x lance Bronze
+				connect Fire Flame hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				visual attachments x lance Iron
+				connect Fire Flame hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				visual attachments x lance Stone
+				connect Fire Flame hotspot
+			}
+		}
+	}
+}

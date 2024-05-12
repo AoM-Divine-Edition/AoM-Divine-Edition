@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<majorgods>
+	<god nameid="18612" techname="Age 1 Hades" lgportrait="ui\ui god hades 256x256" tnyportrait="ui\ui god hades 32x32" smportrait="ui\ui god hades 64x64" mdportrait="ui\ui god hades 128x128" position="2">
+		<minorgod techname="Age 2 Ares" age="2"></minorgod>
+		<minorgod techname="Age 2 Athena" age="2"></minorgod>
+		<minorgod techname="Age 3 Aphrodite" age="3"></minorgod>
+		<minorgod techname="Age 3 Apollo" age="3"></minorgod>
+		<minorgod techname="Age 4 Artemis" age="4"></minorgod>
+		<minorgod techname="Age 4 Hephaestus" age="4"></minorgod>
+	</god>
+	<god nameid="18611" techname="Age 1 Poseidon" lgportrait="ui\ui god poseidon 256x256" tnyportrait="ui\ui god poseidon 32x32" smportrait="ui\ui god poseidon 64x64" mdportrait="ui\ui god poseidon 128x128" position="3">
+		<minorgod techname="Age 2 Ares" age="2"></minorgod>
+		<minorgod techname="Age 2 Hermes" age="2"></minorgod>
+		<minorgod techname="Age 3 Aphrodite" age="3"></minorgod>
+		<minorgod techname="Age 3 Dionysos" age="3"></minorgod>
+		<minorgod techname="Age 4 Artemis" age="4"></minorgod>
+		<minorgod techname="Age 4 Hephaestus" age="4"></minorgod>
+	</god>
+	<god nameid="18610" techname="Age 1 Zeus" lgportrait="ui\ui god zeus 256x256" tnyportrait="ui\ui god zeus 32x32" smportrait="ui\ui god zeus 64x64" mdportrait="ui\ui god zeus 128x128" position="1">
+		<minorgod techname="Age 2 Athena" age="2"></minorgod>
+		<minorgod techname="Age 2 Hermes" age="2"></minorgod>
+		<minorgod techname="Age 3 Apollo" age="3"></minorgod>
+		<minorgod techname="Age 3 Dionysos" age="3"></minorgod>
+		<minorgod techname="Age 4 Hephaestus" age="4"></minorgod>
+		<minorgod techname="Age 4 Hera" age="4"></minorgod>
+	</god>
+	<god nameid="18614" techname="Age 1 Ra" lgportrait="ui\ui god ra 256x256" tnyportrait="ui\ui god ra 32x32" smportrait="ui\ui god ra 64x64" mdportrait="ui\ui god ra 128x128" position="4">
+		<minorgod techname="Age 2 Bast" age="2"></minorgod>
+		<minorgod techname="Age 2 Ptah" age="2"></minorgod>
+		<minorgod techname="Age 3 Hathor" age="3"></minorgod>
+		<minorgod techname="Age 3 Sekhmet" age="3"></minorgod>
+		<minorgod techname="Age 4 Horus" age="4"></minorgod>
+		<minorgod techname="Age 4 Osiris" age="4"></minorgod>
+	</god>
+	<god nameid="18613" techname="Age 1 Isis" lgportrait="ui\ui god isis 256x256" tnyportrait="ui\ui god isis 32x32" smportrait="ui\ui god isis 64x64" mdportrait="ui\ui god isis 128x128" position="5">
+		<minorgod techname="Age 2 Anubis" age="2"></minorgod>
+		<minorgod techname="Age 2 Bast" age="2"></minorgod>
+		<minorgod techname="Age 3 Hathor" age="3"></minorgod>
+		<minorgod techname="Age 3 Nephthys" age="3"></minorgod>
+		<minorgod techname="Age 4 Osiris" age="4"></minorgod>
+		<minorgod techname="Age 4 Thoth" age="4"></minorgod>
+	</god>
+	<god nameid="18615" techname="Age 1 Set" lgportrait="ui\ui god set 256x256" tnyportrait="ui\ui god set 32x32" smportrait="ui\ui god set 64x64" mdportrait="ui\ui god set 128x128" position="6">
+		<minorgod techname="Age 2 Anubis" age="2"></minorgod>
+		<minorgod techname="Age 2 Ptah" age="2"></minorgod>
+		<minorgod techname="Age 3 Nephthys" age="3"></minorgod>
+		<minorgod techname="Age 3 Sekhmet" age="3"></minorgod>
+		<minorgod techname="Age 4 Horus" age="4"></minorgod>
+		<minorgod techname="Age 4 Thoth" age="4"></minorgod>
+	</god>
+	<god nameid="18617" techname="Age 1 Thor" lgportrait="ui\ui god thor 256x256" tnyportrait="ui\ui god thor 32x32" smportrait="ui\ui god thor 64x64" mdportrait="ui\ui god thor 128x128" position="7">
+		<minorgod techname="Age 2 Forseti" age="2"></minorgod>
+		<minorgod techname="Age 2 Freyja" age="2"></minorgod>
+		<minorgod techname="Age 3 Bragi" age="3"></minorgod>
+		<minorgod techname="Age 3 Skadi" age="3"></minorgod>
+		<minorgod techname="Age 4 Baldr" age="4"></minorgod>
+		<minorgod techname="Age 4 Tyr" age="4"></minorgod>
+	</god>
+	<god nameid="18618" techname="Age 1 Loki" lgportrait="ui\ui god loki 256x256" tnyportrait="ui\ui god loki 32x32" smportrait="ui\ui god loki 64x64" mdportrait="ui\ui god loki 128x128" position="9">
+		<minorgod techname="Age 2 Forseti" age="2"></minorgod>
+		<minorgod techname="Age 2 Heimdall" age="2"></minorgod>
+		<minorgod techname="Age 3 Bragi" age="3"></minorgod>
+		<minorgod techname="Age 3 Njord" age="3"></minorgod>
+		<minorgod techname="Age 4 Hel" age="4"></minorgod>
+		<minorgod techname="Age 4 Tyr" age="4"></minorgod>
+	</god>
+	<god nameid="18616" techname="Age 1 Odin" lgportrait="ui\ui god odin 256x256" tnyportrait="ui\ui god odin 32x32" smportrait="ui\ui god odin 64x64" mdportrait="ui\ui god odin 128x128" position="8">
+		<minorgod techname="Age 2 Freyja" age="2"></minorgod>
+		<minorgod techname="Age 2 Heimdall" age="2"></minorgod>
+		<minorgod techname="Age 3 Njord" age="3"></minorgod>
+		<minorgod techname="Age 3 Skadi" age="3"></minorgod>
+		<minorgod techname="Age 4 Baldr" age="4"></minorgod>
+		<minorgod techname="Age 4 Tyr" age="4"></minorgod>
+	</god>
+	<god nameid="22759" techname="Age 1 Kronos" lgportrait="ui\ui god Kronos 256x256" tnyportrait="ui\ui god Kronos 32x32" smportrait="ui\ui god Kronos 64x64" mdportrait="ui\ui god Kronos 128x128" position="10">
+		<minorgod techname="Age 2 Prometheus" age="2"></minorgod>
+		<minorgod techname="Age 2 Leto" age="2"></minorgod>
+		<minorgod techname="Age 3 Hyperion" age="3"></minorgod>
+		<minorgod techname="Age 3 Rheia" age="3"></minorgod>
+		<minorgod techname="Age 4 Helios" age="4"></minorgod>
+		<minorgod techname="Age 4 Atlas" age="4"></minorgod>
+	</god>
+	<god nameid="22760" techname="Age 1 Ouranos" lgportrait="ui\ui god Oranos 256x256" tnyportrait="ui\ui god Oranos 32x32" smportrait="ui\ui god Oranos 64x64" mdportrait="ui\ui god Oranos 128x128" position="11">
+		<minorgod techname="Age 2 Okeanus" age="2"></minorgod>
+		<minorgod techname="Age 2 Prometheus" age="2"></minorgod>
+		<minorgod techname="Age 3 Hyperion" age="3"></minorgod>
+		<minorgod techname="Age 3 Theia" age="3"></minorgod>
+		<minorgod techname="Age 4 Helios" age="4"></minorgod>
+		<minorgod techname="Age 4 Hekate" age="4"></minorgod>
+	</god>
+	<god nameid="22761" techname="Age 1 Gaia" lgportrait="ui\ui god Gaia 256x256" tnyportrait="ui\ui god Gaia 32x32" smportrait="ui\ui god Gaia 64x64" mdportrait="ui\ui god Gaia 128x128" position="12">
+		<minorgod techname="Age 2 Okeanus" age="2"></minorgod>
+		<minorgod techname="Age 2 Leto" age="2"></minorgod>
+		<minorgod techname="Age 3 Theia" age="3"></minorgod>
+		<minorgod techname="Age 3 Rheia" age="3"></minorgod>
+		<minorgod techname="Age 4 Atlas" age="4"></minorgod>
+		<minorgod techname="Age 4 Hekate" age="4"></minorgod>
+	</god>
+	<god nameid="50000" techname="Age 1 Fuxi" lgportrait="ui\ui god fuxi 256x256" tnyportrait="ui\ui god fuxi 32x32" smportrait="ui\ui god fuxi 256x256" mdportrait="ui\ui god fuxi 256x256" position="13">
+		<minorgod techname="Age 2 Huangdi" age="2"></minorgod>
+		<minorgod techname="Age 2 Sunwukong" age="2"></minorgod>
+		<minorgod techname="Age 3 Dabogong" age="3"></minorgod>
+		<minorgod techname="Age 3 Zhongkui" age="3"></minorgod>
+		<minorgod techname="Age 4 Aokuang" age="4"></minorgod>
+		<minorgod techname="Age 4 Chongli" age="4"></minorgod>
+	</god>
+	<god nameid="50001" techname="Age 1 Nuwa" lgportrait="ui\ui god nuwa 256x256" tnyportrait="ui\ui god nuwa 32x32" smportrait="ui\ui god nuwa 256x256" mdportrait="ui\ui god nuwa 256x256" position="14">
+		<minorgod techname="Age 2 Change" age="2"></minorgod>
+		<minorgod techname="Age 2 Huangdi" age="2"></minorgod>
+		<minorgod techname="Age 3 Dabogong" age="3"></minorgod>
+		<minorgod techname="Age 3 Hebo" age="3"></minorgod>
+		<minorgod techname="Age 4 Xiwangmu" age="4"></minorgod>
+		<minorgod techname="Age 4 Chongli" age="4"></minorgod>
+	</god>
+	<god nameid="50002" techname="Age 1 Shennong" lgportrait="ui\ui god shennong 256x256" tnyportrait="ui\ui god shennong 32x32" smportrait="ui\ui god shennong 256x256" mdportrait="ui\ui god shennong 256x256" position="15">
+		<minorgod techname="Age 2 Change" age="2"></minorgod>
+		<minorgod techname="Age 2 Sunwukong" age="2"></minorgod>
+		<minorgod techname="Age 3 Hebo" age="3"></minorgod>
+		<minorgod techname="Age 3 Zhongkui" age="3"></minorgod>
+		<minorgod techname="Age 4 Aokuang" age="4"></minorgod>
+		<minorgod techname="Age 4 Xiwangmu" age="4"></minorgod>
+	</god>
+	<god nameid="18619" techname="" lgportrait="ui\ui god all random 256x256" tnyportrait="ui\ui god all random 32x32" smportrait="ui\ui god all random 64x64" mdportrait="ui\ui god all random 128x128" position="-1"></god>
+	<god nameid="18712" techname="" lgportrait="ui\ui god greek random 256x256" tnyportrait="ui\ui god greek random 32x32" smportrait="ui\ui god greek random 64x64" mdportrait="ui\ui god greek random 128x128" position="-1"></god>
+	<god nameid="18713" techname="" lgportrait="ui\ui god egypt random 256x256" tnyportrait="ui\ui god egypt random 32x32" smportrait="ui\ui god egypt random 64x64" mdportrait="ui\ui god egypt random 128x128" position="-1"></god>
+	<god nameid="18714" techname="" lgportrait="ui\ui god norse random 256x256" tnyportrait="ui\ui god norse random 32x32" smportrait="ui\ui god norse random 64x64" mdportrait="ui\ui god norse random 128x128" position="-1"></god>
+	<god nameid="22762" techname="" lgportrait="ui\ui god atlantean random 256x256" tnyportrait="ui\ui god atlantean random 32x32" smportrait="ui\ui god atlantean random 64x64" mdportrait="ui\ui god atlantean random 128x128" position="-1"></god>
+	<god nameid="50003" techname="" lgportrait="ui\ui god chinese random 256x256" tnyportrait="ui\ui god chinese random 32x32" smportrait="ui\ui god chinese random 256x256" mdportrait="ui\ui god chinese random 256x256" position="-1"></god>
+</majorgods>

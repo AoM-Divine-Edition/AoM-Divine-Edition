@@ -1,0 +1,28 @@
+//==============================================================================
+// revealer_anim.txt
+//==============================================================================
+
+
+//==============================================================================
+anim None
+{
+   SetSelector none 
+   {
+      EditorModeLogic
+      set hotspot
+      {
+         version
+         {
+            VisualNone yousuck
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+            Visual editor utility revealer
+         }
+      }
+   }
+}
+

@@ -1,0 +1,47 @@
+//==============================================================================
+// Courtyard Plants_anim.txt
+//==============================================================================
+
+//==============================================================================
+anim idle
+{
+	SetSelector
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual CoastalRockJapA
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual CoastalRockJapB
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual CoastalRockJapC
+				
+			}
+		}
+
+		set hotspot
+		{
+			version
+			{
+				Visual CoastalRockJapD
+				
+			}
+		}
+
+
+	}
+}

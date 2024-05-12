@@ -1,0 +1,112 @@
+//==============================================================================
+// Inferno field_anim.txt
+//==============================================================================
+
+//==============================================================================
+define fireground
+{
+   set hotspot
+   {
+      version
+      {
+		Visualparticle SFX E Inferno Fire Ground
+      }
+   }
+}
+
+//==============================================================================
+define cloud
+{
+   set hotspot
+   {
+      version
+      {
+		Visualparticle SFX E Inferno Clouds
+      }
+   }
+}
+
+//==============================================================================
+define cloudglow
+{
+   set hotspot
+   {
+      version
+      {
+		Visualparticle SFX E Inferno Clouds Glow
+      }
+   }
+}
+
+//==============================================================================
+define smolder
+{
+   set hotspot
+   {
+      version
+      {
+		Visualparticle SFX E Inferno Smolder
+      }
+   }
+}
+
+//==============================================================================
+define embers
+{
+   set hotspot
+   {
+      version
+      {
+		Visualparticle SFX E Inferno Fire Embers
+      }
+   }
+}
+
+//==============================================================================
+define shockwave
+{
+	set hotspot
+	{
+		version
+		{
+		Visualparticle SFX A Meteor Shockblast
+		}
+	}
+}
+
+//==============================================================================
+define mushroom
+{
+	set hotspot
+	{
+		version
+		{
+			Visualparticle SFX A Meteor Impact Mushroom
+		}
+	}
+}
+
+//==============================================================================
+
+anim Idle
+{
+   SetSelector none 
+   {
+     set hotspot
+     {
+            version
+            {
+			Visual SFX E Inferno Main
+//			connect ATTACHPOINT fireground HOTSPOT
+			connect ATTACHPOINT cloud HOTSPOT
+			connect ATTACHPOINT cloudglow HOTSPOT
+			connect ATTACHPOINT smolder HOTSPOT
+			connect ATTACHPOINT embers HOTSPOT
+			connect ATTACHPOINT mushroom HOTSPOT
+			connect ATTACHPOINT shockwave HOTSPOT
+            }
+      }
+   }
+}
+
+

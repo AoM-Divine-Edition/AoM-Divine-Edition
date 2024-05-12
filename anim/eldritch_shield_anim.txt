@@ -1,0 +1,136 @@
+//==============================================================================
+define EldritchShield
+{
+	SetSelector
+	{
+		TechLogic none/Age 1 Yog-Sothoth/Age 1 Shub-Niggurath/Age 1 Nameless Mist
+		SetSelector
+		{
+			TechLogic none/Copper shields/Bronze shields/Iron shields
+			set hotspot
+			{
+				version
+				{
+					visualnone jimmy
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Nx_Azathothmedium
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Nx_AzathothShieldHeavy
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Nx_AzathothChampion
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Copper shields/Bronze shields/Iron shields
+			set hotspot
+			{
+				version
+				{
+					visualnone Jimmy
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Nx_YogSothothMedium
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Nx_YogSothothShieldHeavy
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Nx_YogSothothChampion
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Copper shields/Bronze shields/Iron shields
+			set hotspot
+			{
+				version
+				{
+					visualnone Jimmy
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Nx_ShubNiggurathShieldMedium
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Nx_ShubNiggurathShieldHeavy
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Nx_ShubNiggurathShieldChampion
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Copper shields/Bronze shields/Iron shields
+			set hotspot
+			{
+				version
+				{
+					visualnone Jimmy
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Nx_NamelessMistShieldMedium
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Nx_NamelessMistShieldHeavy
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Nx_NamelessMistShieldChampion
+				}
+			}
+		}
+	}
+}

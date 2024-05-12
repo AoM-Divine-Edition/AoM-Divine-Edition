@@ -1,0 +1,185 @@
+//==============================================================================
+// Giant Scorpion_anim.txt
+//==============================================================================
+
+//==============================================================================
+anim idle
+{
+   SetSelector 
+   {
+      VariationLogic
+      set hotspot
+      {
+         version
+         {
+            Visual special l scorpion_idle
+			length 1.6
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+            Visual special l scorpion_idle
+			length 1.6
+				replaceTexture GiantScorpion/GiantScorpion2
+         }
+      }
+   }
+}
+//==============================================================================
+anim birth
+{
+   SetSelector 
+   {
+      VariationLogic
+      set hotspot
+      {
+         version
+         {
+            Visual special l scorpion_Spawn
+			length 1.2
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+            Visual special l scorpion_Spawn
+			length 1.2
+				replaceTexture GiantScorpion/GiantScorpion2
+         }
+      }
+   }
+}
+//==============================================================================
+anim walk
+{
+   SetSelector 
+   {
+      VariationLogic
+      set hotspot
+      {
+         version
+         {
+            Visual special l scorpion_Walk
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+            Visual special l scorpion_Walk
+				replaceTexture GiantScorpion/GiantScorpion2
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim run
+{
+   SetSelector 
+   {
+      VariationLogic
+      set hotspot
+      {
+         version
+         {
+            Visual special l scorpion_Walk
+			length 0.7
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+            Visual special l scorpion_Walk
+			length 0.7
+				replaceTexture GiantScorpion/GiantScorpion2
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim Attack
+{
+   SetSelector 
+   {
+      VariationLogic
+      set hotspot
+      {
+         version
+         {
+            Visual special l scorpion_Attack
+               tag Attack 0.50 true      
+               tag GenericSound 0.50 true
+			length 1.1
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+            Visual special l scorpion_Attack
+               tag Attack 0.50 true      
+               tag GenericSound 0.50 true
+			length 1.1
+				replaceTexture GiantScorpion/GiantScorpion2
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim Death
+{
+   SetSelector 
+   {
+      VariationLogic
+      set hotspot
+      {
+         version
+         {
+            Visual special l scorpion_Death
+			length 2.0
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+            Visual special l scorpion_Death
+			length 2.0
+				replaceTexture GiantScorpion/GiantScorpion2
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim Flail
+{
+   SetSelector 
+   {
+      VariationLogic
+      set hotspot
+      {
+         version
+         {
+            Visual special l scorpion_Walk
+			length 0.5
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+            Visual special l scorpion_Walk
+			length 0.5
+				replaceTexture GiantScorpion/GiantScorpion2
+         }
+      }
+   }
+}

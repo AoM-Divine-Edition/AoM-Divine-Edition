@@ -1,0 +1,1105 @@
+//==============================================================================
+// male_anim.txt
+//==============================================================================
+
+import bow_defines_anim.txt
+
+//==============================================================================
+define heroglow
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Hero Glow Small
+      }
+   }
+}
+
+//==============================================================================
+define soul
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Hero Soul
+      }
+   }
+}
+
+//==============================================================================
+define soulborn
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Hero SoulBorn
+      }
+   }
+}
+
+//==============================================================================
+define soulaurora
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Hero Soul Aurora
+      }
+   }
+}
+
+//==============================================================================
+define soulauroraborn
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Hero Soul AuroraBorn
+      }
+   }
+}
+
+//==============================================================================
+define heavenlight
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Hero Soul Heaven Light
+      }
+   }
+}
+
+//==============================================================================
+define soulbirth
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Hero Soul Birth
+      }
+   }
+}
+
+
+//==============================================================================
+define Seeds
+{
+	set hotspot
+	{
+		version
+		{
+			Visualparticle SFX A Sow Seeds
+		}
+	}  
+}
+
+//==============================================================================
+define basket
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Attachments A basket
+		}
+	}  
+}
+
+//==============================================================================
+define arrow
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Villager Arrow Normal
+		}
+	}
+}
+
+//==============================================================================
+define axe
+{
+	TechLogic Hand Axe/Bow Saw/Carpenters
+	set hotspot
+	{
+		version
+		{
+			Visual Attachments A Axe Hatchet
+		}
+	}
+	set hotspot
+	{
+		version
+		{
+			Visual Attachments A Axe Wood
+		}
+	}
+	set hotspot
+	{
+		version
+		{
+			Visual Attachments A Axe DoubleBit
+		}
+	}
+}
+
+
+//==============================================================================
+define weapon
+{
+	TargetLogic none/wood
+	set hotspot
+	{
+		version
+		{
+			Visual Attachments A Knife
+		}
+	}
+	set hotspot
+	{
+		version
+		{
+			connect hotspot axe hotspot
+		}
+	}
+}
+
+//==============================================================================
+define hammer
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Tool Hammer
+		}
+	}
+}
+
+//==============================================================================
+define hoe
+{
+	set hotspot
+	{
+		version
+		{
+			Visual tool hoe
+		}
+	}
+}
+
+//==============================================================================
+define knife
+{
+	set hotspot
+	{
+		version
+		{
+			Visual tool knife
+		}
+	}
+}
+
+//==============================================================================
+define pickaxe
+{
+	TechLogic PickAxe/Shaft Mine/Quarry
+	set hotspot
+	{
+		version
+		{
+			Visual Tool Pickaxe Stone
+		}
+	}
+	set hotspot
+	{
+		version
+		{
+			Visual Tool Pickaxe MetalBit
+		}
+	}
+	set hotspot
+	{
+		version
+		{
+			Visual Tool Pickaxe Miners
+		}
+	}
+}
+
+//==============================================================================
+define carryStuff
+{
+	CarryTypeLogic grain/meat/fish/wood/gold
+	set hotspot
+	{
+		version
+		{
+			Visual Attachments A Resource Grain
+		}
+	}
+	set hotspot
+	{
+		version
+		{
+			Visual Attachments A Resource Meat
+		}
+	}
+	set hotspot
+	{
+		version
+		{
+			Visual Attachments A Resource Fish
+		}
+	}
+	set hotspot
+	{
+		version
+		{
+			Visual Attachments A Resource Wood
+		}
+	}
+	set hotspot
+	{
+		version
+		{
+			Visual Attachments A Resource Gold
+		}
+	}
+}
+
+//==============================================================================
+define BloodSpurt
+{
+	set hotspot
+	{
+		version
+		{
+			Visualparticle SFX A Blood Spurt
+		}
+	}
+}
+
+//==============================================================================
+define Head
+{
+	VariationLogic
+	SetSelector
+	{
+		set hotspot
+		{
+			version
+			{
+				Visual Villager N Male Head
+			}
+		}
+	}
+	SetSelector
+	{
+		set hotspot
+		{
+			version
+			{
+				Visual Villager N Male Head
+			}
+		}
+	}
+}
+
+
+//==============================================================================
+anim GatherChop
+{
+	SetSelector
+	{
+		VariationLogic
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Villager N Male_ChopA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag SpecificSoundSet 0.92 false GatherChop checkVisible 
+//-- end auto generated section
+					connect RightHand Axe hotspot
+
+					Connect FRONTABDOMEN heroglow hotspot
+					Connect Face heroglow hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Villager N Male_ChopA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag SpecificSoundSet 0.67 false GatherChop checkVisible 
+//-- end auto generated section
+					connect RightHand Axe hotspot
+
+					Connect FRONTABDOMEN heroglow hotspot
+					Connect Face heroglow hotspot
+				}
+			}
+		}
+	}
+}
+
+
+//==============================================================================
+anim GatherMine
+{
+	SetSelector
+	{
+		VariationLogic
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Villager N Male_MineA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag GenericSound 0.54 true	
+						tag SpecificSoundSet 0.89 false GatherMine checkVisible 
+//-- end auto generated section
+					connect RightHand pickaxe hotspot
+
+					Connect FRONTABDOMEN heroglow hotspot
+					Connect Face heroglow hotspot
+					length 2.0
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Villager N Male_MineA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag GenericSound 0.54 true	
+						tag SpecificSoundSet 0.67 false GatherMine checkVisible 
+//-- end auto generated section
+					connect RightHand pickaxe hotspot
+
+					Connect FRONTABDOMEN heroglow hotspot
+					Connect Face heroglow hotspot
+					length 2.0
+				}
+			}
+		}
+	}
+}
+
+
+//==============================================================================
+anim Attack
+{
+	SetSelector
+	{
+		TargetLogic none/wood
+		SetSelector
+		{
+			VariationLogic
+			SetSelector
+			{
+				set hotspot
+				{
+					version
+					{
+						Visual Villager N male_handAttack
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag GenericSound 0.40 true	
+						tag Attack 0.55 true	
+//-- end auto generated section
+						connect RightHand weapon hotspot
+
+					Connect FRONTABDOMEN heroglow hotspot
+					Connect Face heroglow hotspot
+					}
+				}
+			}
+			SetSelector
+			{
+				set hotspot
+				{
+					version
+					{
+						Visual Villager N Male_handAttack
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag GenericSound 0.40 true	
+						tag Attack 0.56 true	
+//-- end auto generated section
+						connect RightHand weapon hotspot
+
+					Connect FRONTABDOMEN heroglow hotspot
+					Connect Face heroglow hotspot
+					}
+				}
+			}
+		}
+		SetSelector
+		{
+			VariationLogic
+			SetSelector
+			{
+				set hotspot
+				{
+					version
+					{
+						Visual Villager N Male_Chopdown
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag GenericSound 0.40 true	
+						tag Attack 0.70 true	
+						tag SpecificSoundSet 0.70 false TreeHit checkVisible 
+//-- end auto generated section
+						connect RightHand Axe hotspot
+
+					Connect FRONTABDOMEN heroglow hotspot
+					Connect Face heroglow hotspot
+					}
+				}
+			}
+			SetSelector
+			{
+				set hotspot
+				{
+					version
+					{
+						Visual Villager N Male_Chopdown
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag GenericSound 0.40 true	
+						tag Attack 0.60 true	
+						tag SpecificSoundSet 0.60 false TreeHit checkVisible 
+//-- end auto generated section
+						connect RightHand Axe hotspot
+
+					Connect FRONTABDOMEN heroglow hotspot
+					Connect Face heroglow hotspot
+					}
+				}
+			}
+		}
+	}
+}
+
+
+//==============================================================================
+anim RangedAttack
+{
+	SetSelector
+	{
+		VariationLogic
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Villager N Male_RangedAttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag GenericSound 0.35 true	
+						tag SpecificSoundSet 0.53 false Arrow checkVisible 
+						tag Attack 0.58 true	
+//-- end auto generated section
+					connect LeftHand bow hotspot
+
+					Connect FRONTABDOMEN heroglow hotspot
+					Connect Face heroglow hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Villager N Male_RangedAttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag GenericSound 0.35 true	
+						tag SpecificSoundSet 0.54 false Arrow checkVisible 
+						tag Attack 0.57 true	
+//-- end auto generated section
+					connect LeftHand bow hotspot
+
+					Connect FRONTABDOMEN heroglow hotspot
+					Connect Face heroglow hotspot
+				}
+			}
+		}
+	}
+}
+
+
+//==============================================================================
+anim Death
+{
+	SetSelector
+	{
+		VariationLogic
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+				Visual Villager N Male_DeathA
+
+					Connect FRONTABDOMEN heroglow hotspot
+					Connect Face heroglow hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+				Visual Villager N Male_DeathA
+
+					Connect FRONTABDOMEN heroglow hotspot
+					Connect Face heroglow hotspot
+				}
+			}
+		}
+	}
+}
+
+
+//==============================================================================
+anim Idle
+{
+	SetSelector
+	{
+		VariationLogic
+		SetSelector
+		{
+			InventoryLogic 0 1
+			SetSelector
+			{
+				set hotspot
+				{
+					version
+					{
+						Visual Villager N Male_IdleA
+
+					Connect FRONTABDOMEN heroglow hotspot
+					Connect Face heroglow hotspot
+					}
+				}
+			}
+			SetSelector
+			{
+				set hotspot
+				{
+					version
+					{
+						Visual Villager N Male_CarryIdleA
+						Connect ATTACHPOINT carryStuff hotspot
+
+					Connect FRONTABDOMEN heroglow hotspot
+					Connect Face heroglow hotspot
+					}
+				}
+			}
+		}
+		SetSelector
+		{
+			InventoryLogic 0 1
+			SetSelector
+			{
+				set hotspot
+				{
+					version
+					{
+						Visual Villager N Male_IdleA
+
+					Connect FRONTABDOMEN heroglow hotspot
+					Connect Face heroglow hotspot
+					}
+				}
+			}
+			SetSelector
+			{
+				set hotspot
+				{
+					version
+					{
+						Visual Villager N Male_CarryIdleA
+						Connect ATTACHPOINT carryStuff hotspot
+
+					Connect FRONTABDOMEN heroglow hotspot
+					Connect Face heroglow hotspot
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+//==============================================================================
+anim Bored
+{
+	SetSelector
+	{
+		VariationLogic
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Villager N Male_BoredA
+
+					Connect FRONTABDOMEN heroglow hotspot
+					Connect Face heroglow hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Villager N Male_BoredA
+
+					Connect FRONTABDOMEN heroglow hotspot
+					Connect Face heroglow hotspot
+				}
+			}
+		}
+	}
+}
+
+
+//==============================================================================
+anim walk
+{
+	SetSelector
+	{
+		VariationLogic
+		SetSelector
+		{
+			InventoryLogic 0 1
+			SetSelector
+			{
+				set hotspot
+				{
+					version
+					{
+						Visual Villager N Male_WalkA
+
+					Connect FRONTABDOMEN heroglow hotspot
+					Connect Face heroglow hotspot
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+							tag FootstepRight 0.10 true	
+							tag FootstepLeft 0.35 true	
+							tag FootstepRight 0.60 true	
+							tag FootstepLeft 0.85 true	
+	//-- end auto generated section
+					}
+				}
+			}
+			SetSelector
+			{
+				set hotspot
+				{
+					version
+					{
+						Visual Villager N Male_CarryA
+
+					Connect FRONTABDOMEN heroglow hotspot
+					Connect Face heroglow hotspot
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+							tag FootstepLeft 0.40 true	
+							tag FootstepRight 0.70 true	
+	//-- end auto generated section
+						Connect ATTACHPOINT carryStuff hotspot
+					}
+				}
+			}
+		}
+		SetSelector
+		{
+			InventoryLogic 0 1
+			SetSelector
+			{
+				set hotspot
+				{
+					version
+					{
+						Visual Villager N Male_WalkA
+
+					Connect FRONTABDOMEN heroglow hotspot
+					Connect Face heroglow hotspot
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+							tag FootstepRight 0.10 true	
+							tag FootstepLeft 0.35 true	
+							tag FootstepRight 0.60 true	
+							tag FootstepLeft 0.85 true	
+	//-- end auto generated section
+						connect TopofHead Head hotspot
+					}
+				}
+			}
+			SetSelector
+			{
+				set hotspot
+				{
+					version
+					{
+						Visual Villager N Male_CarryA
+
+					Connect FRONTABDOMEN heroglow hotspot
+					Connect Face heroglow hotspot
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+							tag FootstepLeft 0.40 true	
+							tag FootstepRight 0.70 true	
+	//-- end auto generated section
+						Connect ATTACHPOINT carryStuff hotspot
+					}
+				}
+			}
+		}
+	}
+}
+
+
+//==============================================================================
+anim Build
+{
+	SetSelector
+	{
+		VariationLogic
+		SetSelector
+		{
+			TargetLogic none/farm
+			set hotspot
+			{
+				version
+				{
+					Visual Villager N Male_BuildA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag GenericSound 0.62 true	
+						tag SpecificSoundSet 0.00 false Build checkVisible 
+//-- end auto generated section
+					connect RightHand hammer hotspot
+
+					Connect FRONTABDOMEN heroglow hotspot
+					Connect Face heroglow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Villager N Male_SowA
+					connect ATTACHPOINT basket hotspot
+					connect RightHand seeds hotspot
+
+					Connect FRONTABDOMEN heroglow hotspot
+					Connect Face heroglow hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TargetLogic none/farm
+			set hotspot
+			{
+				version
+				{
+					Visual Villager N Male_BuildA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag GenericSound 0.62 true	
+						tag SpecificSoundSet 0.00 false Build checkVisible 
+//-- end auto generated section
+					connect RightHand hammer hotspot
+
+					Connect FRONTABDOMEN heroglow hotspot
+					Connect Face heroglow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Villager N Male_SowA
+					connect ATTACHPOINT basket hotspot
+					connect RightHand seeds hotspot
+
+					Connect FRONTABDOMEN heroglow hotspot
+					Connect Face heroglow hotspot
+				}
+			}
+		}
+	}
+}
+
+
+//==============================================================================
+anim GatherFarm
+{
+	SetSelector
+	{
+		VariationLogic
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Villager N Male_FarmA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag GenericSound 0.92 true	
+						tag SpecificSoundSet 0.01 false GatherFarm checkVisible 
+//-- end auto generated section
+					connect RightHand hoe hotspot
+					length 1.5
+
+					Connect FRONTABDOMEN heroglow hotspot
+					Connect Face heroglow hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Villager N Male_FarmA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag GenericSound 0.92 true	
+						tag SpecificSoundSet 0.01 false GatherFarm checkVisible 
+//-- end auto generated section
+					connect RightHand hoe hotspot
+					length 1.5
+
+					Connect FRONTABDOMEN heroglow hotspot
+					Connect Face heroglow hotspot
+				}
+			}
+		}
+	}
+}
+
+
+//==============================================================================
+anim GatherHunt
+{
+	SetSelector
+	{
+		VariationLogic
+		SetSelector
+		{
+			set Hotspot
+			{
+				version
+				{
+					Visual Villager N Male_SliceA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag GenericSound 0.04 true	
+						tag SpecificSoundSet 0.83 false GatherFlay checkVisible 
+//-- end auto generated section
+					connect RightHand knife hotspot
+
+					Connect FRONTABDOMEN heroglow hotspot
+					Connect Face heroglow hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			set Hotspot
+			{
+				version
+				{
+					Visual Villager N Male_SliceA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag GenericSound 0.04 true	
+						tag SpecificSoundSet 0.83 false GatherFlay checkVisible 
+//-- end auto generated section
+					connect RightHand knife hotspot
+
+					Connect FRONTABDOMEN heroglow hotspot
+					Connect Face heroglow hotspot
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim carry
+{
+	SetSelector
+	{
+		VariationLogic
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Villager N Male_CarryA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.40 true	
+						tag FootstepRight 0.70 true	
+//-- end auto generated section
+					Connect ATTACHPOINT carryStuff hotspot
+
+					Connect FRONTABDOMEN heroglow hotspot
+					Connect Face heroglow hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Villager N Male_CarryA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.40 true	
+						tag FootstepRight 0.70 true	
+//-- end auto generated section
+					Connect ATTACHPOINT carryStuff hotspot
+
+					Connect FRONTABDOMEN heroglow hotspot
+					Connect Face heroglow hotspot
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim flail
+{
+	SetSelector
+	{
+		VariationLogic
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Villager N Male_FlailA
+					//Connect RightHand BloodSpurt hotspot
+
+					Connect FRONTABDOMEN heroglow hotspot
+					Connect Face heroglow hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Villager N Male_FlailA
+					//Connect RightHand BloodSpurt hotspot
+
+					Connect FRONTABDOMEN heroglow hotspot
+					Connect Face heroglow hotspot
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Gatherbush
+{
+	SetSelector
+	{
+		VariationLogic
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Villager N male_HarvestA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag GenericSound 0.67 true	
+						tag SpecificSoundSet 0.50 false Forage checkVisible 
+//-- end auto generated section
+					connect LeftHand basket hotspot
+
+					Connect FRONTABDOMEN heroglow hotspot
+					Connect Face heroglow hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Villager N Male_HarvestA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag GenericSound 0.67 true	
+						tag SpecificSoundSet 0.50 false Forage checkVisible 
+//-- end auto generated section
+					connect LeftHand basket hotspot
+
+					Connect FRONTABDOMEN heroglow hotspot
+					Connect Face heroglow hotspot
+				}
+			}
+		}
+	}
+}
+
+

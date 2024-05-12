@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<protounitsounddef>
+	<protounit name="Snow Wind">
+		<soundtype name="Exists">
+			<soundset name="snowstorm"></soundset>
+		</soundtype>
+	</protounit>
+</protounitsounddef>

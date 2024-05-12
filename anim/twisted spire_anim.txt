@@ -1,0 +1,289 @@
+//==============================================================================
+// tower_anim.txt
+//==============================================================================
+import Construction_defines_anim.txt
+import building_damage_defines_anim.txt
+//==============================================================================
+define empower
+{
+    SetSelector
+    {
+        EmpowerLogic
+        SetSelector
+        {
+            set hotspot
+            {
+                version
+                {
+                    Visualnone Jimmy
+                }
+            }
+        }
+        SetSelector
+        {
+            set hotspot
+            {
+                version
+                {
+                    Visualparticle SFX E Pharaoh Empower Large
+                }
+            }
+        }
+    }
+}
+
+//==============================================================================
+define firebig
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX X Acid Fire Big
+      }
+   }
+}
+
+//==============================================================================
+define firebigbowl
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX x acid Big Bowl
+      }
+   }
+}
+
+//==============================================================================
+define lavabubblessmall
+{
+   set hotspot
+   {
+      version
+      {
+         //Visualparticle sfx x acid bubbles small
+      }
+   }
+}
+
+//==============================================================================
+define VINEA
+{
+    set hotspot
+    {
+        version
+        {
+            Visual Building VineA
+        }
+    }
+}
+//==============================================================================
+define VINEB
+{
+    set hotspot
+    {
+        version
+        {
+            Visual Building VineB
+        }
+    }
+}
+//==============================================================================
+define Dust
+{
+    set hotspot
+    {
+        version
+        {
+            Visualparticle SFX A Building DustA
+        }
+    }
+}
+//==============================================================================
+define Oil
+{
+    set hotspot
+    {
+        version
+        {
+            Visualparticle SFX A Oil
+        }
+    }
+}
+//==============================================================================
+anim Idle
+{
+    SetSelector
+    {
+        
+                ConstructionLogic 0 33 66
+                set hotspot
+                {
+                    version
+                    {
+                        Visual eldritch tower_idlea
+                        
+				Connect ATTACHPOINT lavabubblessmall hotspot
+				Connect ATTACHPOINT firebig hotspot
+				Connect ATTACHPOINT firebigbowl hotspot
+                        connect ATTACHPOINT empower hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction XSmall A
+                        connect ATTACHPOINT empower hotspot
+                        connect CHIN E_Small_Brick hotspot
+                        connect ATTACHPOINT E_Long_Brick hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction XSmall B
+                        connect ATTACHPOINT empower hotspot
+                        connect CHIN E_Small_Brick hotspot
+                        connect ATTACHPOINT E_Long_Brick hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building G TowerConstruction
+                        connect ATTACHPOINT empower hotspot
+                        connect CHIN E_Small_Brick hotspot
+                        connect ATTACHPOINT E_Long_Brick hotspot
+                    }
+                }
+    }
+}
+//==============================================================================
+anim RangedAttack
+{
+    SetSelector
+    {
+       
+                set hotspot
+                {
+                    version
+                    {
+                        Visual eldritch S tower_idlea
+                         tag Attack 0.40 true
+                         tag GenericSound 0.40 true
+
+                          connect ATTACHPOINT empower hotspot
+                        
+				Connect ATTACHPOINT lavabubblessmall hotspot
+				Connect ATTACHPOINT firebig hotspot
+				Connect ATTACHPOINT firebigbowl hotspot
+                    }
+                }
+                
+    }
+}
+//==============================================================================
+anim Attack
+{
+    SetSelector
+    {
+        ConstructionLogic 0 33 66
+                set hotspot
+                {
+                    version
+                    {
+                        Visual eldritch tower_idlea
+                        connect ATTACHPOINT empower hotspot
+                        
+				Connect ATTACHPOINT lavabubblessmall hotspot
+				Connect ATTACHPOINT firebig hotspot
+				Connect ATTACHPOINT firebigbowl hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction XSmall A
+                        connect ATTACHPOINT empower hotspot
+                        connect CHIN E_Small_Brick hotspot
+                        connect ATTACHPOINT E_Long_Brick hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction XSmall B
+                        connect ATTACHPOINT empower hotspot
+                        connect CHIN E_Small_Brick hotspot
+                        connect ATTACHPOINT E_Long_Brick hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building G TowerConstruction
+                        connect ATTACHPOINT empower hotspot
+                        connect CHIN E_Small_Brick hotspot
+                        connect ATTACHPOINT E_Long_Brick hotspot
+                    }
+                }
+    }
+}
+//==============================================================================
+anim Death
+{
+    SetSelector
+    {
+        ConstructionLogic 0 33 66
+                set hotspot
+                {
+                    version
+                    {
+                        Visual eldritch tower_idlea
+                        connect ATTACHPOINT empower hotspot
+                        
+				Connect ATTACHPOINT lavabubblessmall hotspot
+				Connect ATTACHPOINT firebig hotspot
+				Connect ATTACHPOINT firebigbowl hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction XSmall A
+                        connect ATTACHPOINT empower hotspot
+                        connect CHIN E_Small_Brick hotspot
+                        connect ATTACHPOINT E_Long_Brick hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction XSmall B
+                        connect ATTACHPOINT empower hotspot
+                        connect CHIN E_Small_Brick hotspot
+                        connect ATTACHPOINT E_Long_Brick hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building G TowerConstruction
+                        connect ATTACHPOINT empower hotspot
+                        connect CHIN E_Small_Brick hotspot
+                        connect ATTACHPOINT E_Long_Brick hotspot
+                    }
+                }
+    }
+}

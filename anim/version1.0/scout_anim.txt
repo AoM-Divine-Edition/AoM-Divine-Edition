@@ -1,0 +1,482 @@
+//==============================================================================
+// Kataskopos_anim.txt
+//==============================================================================
+
+//==============================================================================
+define GreekCavalryShield
+{
+	SetSelector
+	{
+		TechLogic none/Copper shields/Bronze shields/Iron shields
+		set hotspot
+		{
+			version
+			{
+				visualnone jimmy
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				visual Attachments G Shield Small Copper
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				visual Attachments G Shield Small Copper
+				ReplaceTexture Attachments G Shield Copper/Attachments G Shield Bronze
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				visual Attachments G Shield Small Copper
+				ReplaceTexture Attachments G Shield Copper/Attachments G Shield Iron
+			}
+		}
+	}
+}
+
+//==============================================================================
+define Flame
+{
+	SetSelector
+	{
+		TechLogic none/Flaming Weapons Active
+		set hotspot
+		{
+			version
+			{
+				Visualnone jimmy
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visualparticle SFX A Flaming Sword
+			}
+		}
+	}
+}
+
+//==============================================================================
+define Sword
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Attachments G Sword Standard
+			Connect Fire Flame hotspot
+		}
+	}
+}
+
+//==============================================================================
+anim Bored
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Scout_boredA
+				connect RightHand Sword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+			}
+			version
+			{
+				Visual Cavalry G Scout_boredB
+				connect RightHand Sword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Scout_boredA
+				connect RightHand Sword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				ReplaceTexture Villager G Male Standard/Cavalry G Prodromos Copper
+			}
+			version
+			{
+				Visual Cavalry G Scout_boredB
+				connect RightHand Sword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				ReplaceTexture Villager G Male Standard/Cavalry G Prodromos Copper
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Scout_boredA
+				connect RightHand Sword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				ReplaceTexture Villager G Male Standard/Cavalry G Prodromos Bronze
+			}
+			version
+			{
+				Visual Cavalry G Scout_boredB
+				connect RightHand Sword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				ReplaceTexture Villager G Male Standard/Cavalry G Prodromos Bronze
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Scout_boredA
+				connect RightHand Sword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				ReplaceTexture Villager G Male Standard/Cavalry G Prodromos Iron
+			}
+			version
+			{
+				Visual Cavalry G Scout_boredB
+				connect RightHand Sword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				ReplaceTexture Villager G Male Standard/Cavalry G Prodromos Iron
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Walk
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Scout_run
+				connect RightHand Sword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				tag FootstepRight 0.10 true
+				tag FootstepLeft 0.20 true
+				tag FootstepRight 0.50 true
+				tag FootstepLeft 0.60 true
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Scout_run
+				connect RightHand Sword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				ReplaceTexture Villager G Male Standard/Cavalry G Prodromos Copper
+				tag FootstepRight 0.10 true
+				tag FootstepLeft 0.20 true
+				tag FootstepRight 0.50 true
+				tag FootstepLeft 0.60 true
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Scout_run
+				connect RightHand Sword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				ReplaceTexture Villager G Male Standard/Cavalry G Prodromos Bronze
+				tag FootstepRight 0.10 true
+				tag FootstepLeft 0.20 true
+				tag FootstepRight 0.50 true
+				tag FootstepLeft 0.60 true
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Scout_run
+				connect RightHand Sword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				ReplaceTexture Villager G Male Standard/Cavalry G Prodromos Iron
+				tag FootstepRight 0.10 true
+				tag FootstepLeft 0.20 true
+				tag FootstepRight 0.50 true
+				tag FootstepLeft 0.60 true
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Death
+{
+	SetSelector
+	{	 
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail		 
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Scout_deathA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag SpecificSoundSet 0.59 false HeavyFall checkVisible 
+//-- end auto generated section
+				connect RightHand Sword hotspot
+				connect LeftForearm GreekCavalryShield hotspot  
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Scout_deathA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag SpecificSoundSet 0.59 false HeavyFall checkVisible 
+//-- end auto generated section
+				connect RightHand Sword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				ReplaceTexture Villager G Male Standard/Cavalry G Prodromos Copper
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Scout_deathA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag SpecificSoundSet 0.59 false HeavyFall checkVisible 
+//-- end auto generated section
+				connect RightHand Sword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				ReplaceTexture Villager G Male Standard/Cavalry G Prodromos Bronze
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Scout_deathA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag SpecificSoundSet 0.59 false HeavyFall checkVisible 
+//-- end auto generated section
+				connect RightHand Sword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				ReplaceTexture Villager G Male Standard/Cavalry G Prodromos Iron
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Idle
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Scout_idleA
+				connect RightHand Sword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Scout_idleA
+				connect RightHand Sword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				ReplaceTexture Villager G Male Standard/Cavalry G Prodromos Copper
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Scout_idleA
+				connect RightHand Sword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				ReplaceTexture Villager G Male Standard/Cavalry G Prodromos Bronze
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Scout_idleA
+				connect RightHand Sword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				ReplaceTexture Villager G Male Standard/Cavalry G Prodromos Iron
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Attack
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Scout_attackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.50 true	
+				tag GenericSound 0.40 true	
+//-- end auto generated section
+				connect RightHand Sword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+			}
+			version
+			{
+				Visual Cavalry G Scout_attackB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.66 true	
+				tag GenericSound 0.40 true	
+//-- end auto generated section
+				connect RightHand Sword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Scout_attackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.50 true	
+				tag GenericSound 0.40 true	
+//-- end auto generated section
+				connect RightHand Sword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				ReplaceTexture Villager G Male Standard/Cavalry G Prodromos Copper
+			}
+			version
+			{
+				Visual Cavalry G Scout_attackB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.66 true	
+				tag GenericSound 0.40 true	
+//-- end auto generated section
+				connect RightHand Sword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				ReplaceTexture Villager G Male Standard/Cavalry G Prodromos Copper
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Scout_attackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.50 true	
+				tag GenericSound 0.40 true	
+//-- end auto generated section
+				connect RightHand Sword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				ReplaceTexture Villager G Male Standard/Cavalry G Prodromos Bronze
+			}
+			version
+			{
+				Visual Cavalry G Scout_AttackB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.66 true	
+				tag GenericSound 0.40 true	
+//-- end auto generated section
+				connect RightHand Sword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				ReplaceTexture Villager G Male Standard/Cavalry G Prodromos Bronze
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Scout_attackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.50 true	
+				tag GenericSound 0.40 true	
+//-- end auto generated section
+				connect RightHand Sword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				ReplaceTexture Villager G Male Standard/Cavalry G Prodromos Iron
+			}
+			version
+			{
+				Visual Cavalry G Scout_AttackB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.66 true	
+				tag GenericSound 0.40 true	
+//-- end auto generated section
+				connect RightHand Sword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				ReplaceTexture Villager G Male Standard/Cavalry G Prodromos Iron
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Cinematic
+{
+	SetSelector
+	{
+		set hotspot
+		{
+			name Scout_x03yessir
+			version
+			{
+				Visual Cavalry G Scout_x03yessir
+				connect RightHand Sword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+			}
+		}
+		set hotspot
+		{
+			name Scout_x02thoselook
+			version
+			{
+				Visual Cavalry G Scout_x02thoselook
+				connect RightHand Sword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+			}
+		}
+		set hotspot
+		{
+			name Scout_x02looktheyare
+			version
+			{
+				Visual Cavalry G Scout_x02looktheyare
+				connect RightHand Sword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+			}
+		}
+	}
+}

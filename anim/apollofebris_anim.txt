@@ -1,0 +1,46 @@
+//==============================================================================
+// Pestilence God Power SFX 1 Medium Sized Buildings
+//==============================================================================
+
+//==============================================================================
+define flies
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Pestilence Flies
+      }
+   }
+}
+
+//==============================================================================
+define smoke
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Pestilence Smoke
+      }
+   }
+}
+
+//==============================================================================
+anim idle
+{
+   SetSelector none 
+   {
+      set hotspot
+      {
+         version
+         {
+            Visualnone jimmy
+			Connect ATTACHPOINT flies hotspot
+			Connect ATTACHPOINT smoke hotspot
+         }
+      }
+   }
+}
+
+

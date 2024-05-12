@@ -1,0 +1,412 @@
+//==============================================================================
+// Apep_anim.txt
+//==============================================================================
+
+
+//==============================================================================
+define Bubbles2
+{
+   set hotspot
+   {
+      version
+      {
+		Visualparticle Xiuh bubbles
+      }
+   }
+}
+//==============================================================================
+define bubi
+{
+   set hotspot
+   {
+      version
+      {
+		Visual bubble spot
+		connect topofhead Bubbles2 hotspot
+      }
+   }
+}
+
+
+//==============================================================================
+define firebreathx
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle Special G Chimera Fire Breath
+      }
+   }
+}
+//==============================================================================
+define bfirebreath
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle nagual bubble fire
+      }
+   }
+}
+//==============================================================================
+define firebreath
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle nagual blue fire
+      }
+   }
+}
+
+//==============================================================================
+define gfirebreath
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle nagual Green fire
+      }
+   }
+}
+//==============================================================================
+define Bubbles
+{
+   set hotspot
+   {
+      version
+      {
+		Visualparticle water sfx bubbles
+      }
+   }
+}
+
+
+//==============================================================================
+define xFireTrail
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle Lamp post lightning
+      }
+   }
+}
+//==============================================================================
+define Lizard
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Special E Apep_attackA
+      }
+   }
+}
+
+//==============================================================================
+define Acidbreath
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle Xoc breath
+      }
+   }
+}
+
+//==============================================================================
+define Acidbreath1
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle Xoc breath1
+      }
+   }
+}
+
+//==============================================================================
+define Acidbreath2
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle Xoc breath2
+      }
+   }
+}
+
+//==============================================================================
+define eclipseSFX
+{
+   SetSelector
+   {
+		TechLogic none/Eclipse Active
+		set hotspot
+		{
+			version
+			{
+			  Visualnone jimmy
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+			  Visualparticle SFX A Eclipse Unit effect
+			}
+		}		    
+   }
+}
+
+//==============================================================================
+define egyptbirthSFX
+{
+   set hotspot
+   {
+      version
+      {
+         VisualParticle SFX E Myth Unit Birth Effect
+      }
+   }
+}
+
+//=============================================================================
+anim Birth
+{
+   SetSelector 
+   {
+      set hotspot
+      {
+         version
+         {
+            Visual Special Yahui A Idle
+				connect HOTSPOT egyptbirthSFX hotspot
+				connect hotspot eclipseSFX hotspot
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim Idle
+{
+   SetSelector
+   {
+		AmphibiousLogic land/water
+   		SetSelector none 
+   		{
+      			set hotspot
+      			{
+        			 version
+         			{
+            				Visual Special Yahui A Idle
+					length 0.90
+         			}
+      			}
+  		 }
+		 SetSelector none 
+   		{
+      			set hotspot
+      			{
+        			 version
+         			{
+            				Visual Special Yahui A Idle
+					connect hotspot bubi hotspot
+					length 0.90
+         			}
+      			}
+  		 }
+	}
+}
+//==============================================================================
+anim Walk
+{
+   SetSelector
+   {
+		AmphibiousLogic land/water
+   		SetSelector none 
+   		{
+      			set hotspot
+      			{
+        			 version
+         			{
+            				Visual Special Yahui A Walk
+					length 0.90
+         			}
+      			}
+  		 }
+		 SetSelector none 
+   		{
+      			set hotspot
+      			{
+        			 version
+         			{
+            				Visual Special Yahui A Walk
+					connect hotspot bubi hotspot
+					length 0.90
+         			}
+      			}
+  		 }
+	}
+}
+
+//==============================================================================
+anim Attack
+{
+   SetSelector none 
+   {
+      set hotspot
+      {
+         version
+         {
+            Visual Special Yahui A Attack1
+		connect hotspot bubi hotspot
+            Tag Attack 0.6 true
+		Tag GenericSound 0.35 true
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim RangedAttack
+{
+   SetSelector
+   {
+		AmphibiousLogic land/water
+  		SetSelector
+   		{
+    			  set hotspot
+      			  {
+         			version
+         			{
+				Visual Special Yahui A Fire
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+               tag Attack 0.60 true   
+               tag GenericSound 0.13 true   
+               tag SpecificSoundSet 0.37 false ChimeraFlame checkVisible 
+//-- end auto generated section
+			Connect TopofHead firebreath hotspot
+			Connect TopofHead gfirebreath hotspot
+			length 2.0
+         			}
+      			}
+   		}
+	SetSelector
+   	{
+      		set hotspot
+    	  	{
+        	 	version
+        		{
+				Visual Special Yahui A Fire
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+            tag Attack 0.60 true   
+            tag SpecificSoundSet 0.37 false ChimeraFlame checkVisible 
+//-- end auto generated section
+				connect TopofHead Bubbles hotspot
+				connect TopofHead Bubbles2 hotspot
+				Connect TopofHead firebreath hotspot
+				Connect TopofHead gfirebreath hotspot
+				Connect TopofHead bfirebreath hotspot
+				length 2.0
+        	 	}
+      		}
+   	}
+   }
+}
+
+//==============================================================================
+/*
+anim walkAttack
+{
+   SetSelector none 
+   {
+      set hotspot
+      {
+         version
+         {
+            Visual Special E Apep_attackA
+            Tag Attack 0.6 true
+		Tag GenericSound 0.60 true
+         }
+      }
+   }
+}
+*/
+//==============================================================================
+anim death
+{
+   SetSelector
+   {
+		AmphibiousLogic land/water
+   		SetSelector none 
+   		{
+      			set hotspot
+      			{
+        			 version
+         			{
+            				Visual Special Yahui A Death
+					length 0.90
+         			}
+      			}
+  		 }
+		 SetSelector none 
+   		{
+      			set hotspot
+      			{
+        			 version
+         			{
+            				Visual Special Yahui A Death
+					length 0.90
+					connect hotspot bubi hotspot
+					
+         			}
+      			}
+  		 }
+	}
+}
+
+//==============================================================================
+anim bored
+{
+   SetSelector
+   {
+		AmphibiousLogic land/water
+   		SetSelector none 
+   		{
+      			set hotspot
+      			{
+        			 version
+         			{
+            				Visual Special Yahui A Bored1
+					length 2.0
+         			}
+      			}
+  		 }
+		 SetSelector none 
+   		{
+      			set hotspot
+      			{
+        			 version
+         			{
+            				Visual Special Yahui A Bored1
+					length 2.0
+					connect hotspot bubi hotspot
+					
+         			}
+      			}
+  		 }
+	}
+}

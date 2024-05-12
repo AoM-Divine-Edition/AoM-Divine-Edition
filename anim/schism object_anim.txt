@@ -1,0 +1,44 @@
+//==============================================================================
+// Meteor Splash_anim.txt
+//==============================================================================
+
+//==============================================================================
+define splash
+{
+		set hotspot
+		{
+			version
+			{
+			Visualparticle sfx x krios light
+			}
+		}
+}
+
+//==============================================================================
+define shockwave
+{
+	set hotspot
+	{
+		version
+		{
+		Visualparticle sfx x krios smoke
+		}
+	}
+}
+
+//==============================================================================
+anim idle
+{
+	SetSelector none 
+	{
+		set hotspot
+		{
+			version
+			{
+			Visualnone jimmy
+			connect ATTACHPOINT splash hotspot
+			connect ATTACHPOINT shockwave hotspot
+			}
+		}
+	}
+}

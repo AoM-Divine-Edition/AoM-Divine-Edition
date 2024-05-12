@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<protounitsounddef>
+	<protounit name="Bison Owned">
+		<soundtype name="Select">
+			<soundset name="SetSelect"></soundset>
+		</soundtype>
+		<soundtype name="Hit">
+			<damagetypelogic>
+				<choice name="Crush">
+					<soundset name="CrushFlesh"></soundset>
+				</choice>
+				<choice name="Fire">
+					<soundset name="HackFlesh"></soundset>
+				</choice>
+				<choice name="Hack">
+					<soundset name="HackFlesh"></soundset>
+				</choice>
+				<choice name="Pierce">
+					<soundset name="PierceFlesh"></soundset>
+				</choice>
+				<choice name="Slash">
+					<soundset name="HackFlesh"></soundset>
+				</choice>
+			</damagetypelogic>
+		</soundtype>
+		<soundtype name="Death">
+			<soundset name="WaterBuffaloDeath"></soundset>
+		</soundtype>
+		<soundtype name="Acknowledge">
+			<targetlogic>
+				<choice name="default">
+					<soundset name="SetAcknowledge"></soundset>
+				</choice>
+				<choice name="enemy">
+					<soundset name="SetAttack"></soundset>
+				</choice>
+			</targetlogic>
+		</soundtype>
+	</protounit>
+</protounitsounddef>

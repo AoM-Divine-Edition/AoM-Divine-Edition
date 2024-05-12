@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="BodySwap" type="swapunit" techname="Body Swap">
+	<activetime>-1</activetime>
+	<radius>20.0</radius>
+	<rangeindicatorprotoid radius="18.0" indicatorcount="8" speed="0.2">UI Range Indicator Greek SFX</rangeindicatorprotoid>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">Curse</soundset>
+	<placement forceonmap="1">skip</placement>
+	<convertusingminmax minswapamount="1" maxswapamount="1"></convertusingminmax>
+	<powerplayerrelation>enemy</powerplayerrelation>
+	<gpdamagemodel>
+		<playerrelation>enemy</playerrelation>
+		<basedamagepercentunit>0.4</basedamagepercentunit>
+		<basedamagepercentvillager>0.25</basedamagepercentvillager>
+		<basedamagepercentbuilding>0.0</basedamagepercentbuilding>
+		<minhpdamageunit>450</minhpdamageunit>
+		<minhpdamagevillager>250</minhpdamagevillager>
+		<minhpdamagebuilding>0</minhpdamagebuilding>
+		<maxhpdamageunit>675</maxhpdamageunit>
+		<maxhpdamagevillager>450</maxhpdamagevillager>
+		<maxhpdamagebuilding>0</maxhpdamagebuilding>
+	</gpdamagemodel>
+	<abstracttype swapto="Madman">HumanSoldier</abstracttype>
+	<illegalabstracttype>Hero</illegalabstracttype>
+	<swapdelay>0.5</swapdelay>
+	<sfx>Curse SFX</sfx>
+	<swapenemyonly></swapenemyonly>
+	<icon>god power curse icon</icon>
+	<usedicon>god power curse icon done</usedicon>
+</power>

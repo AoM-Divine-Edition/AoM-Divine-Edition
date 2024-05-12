@@ -1,0 +1,149 @@
+//==============================================================================
+// Meteor Splash_anim.txt
+//==============================================================================
+//==============================================================================
+define fireground
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX N Nidhogg Fire Ground
+      }
+   }
+}
+//==============================================================================
+define burstfire
+{
+		set hotspot
+		{
+			version
+			{
+			Visualparticle Special E Phoenix Burst Fire
+			}
+		}
+}
+
+//==============================================================================
+define burstsmoke
+{
+		set hotspot
+		{
+			version
+			{
+			Visualparticle Special E Phoenix Burst Smoke
+			}
+		}
+}
+
+//==============================================================================
+define burstshockwave
+{
+		set hotspot
+		{
+			version
+			{
+			Visualparticle Special E Phoenix Burst Shockwave
+			}
+		}
+}
+
+//==============================================================================
+define burstblast
+{
+		set hotspot
+		{
+			version
+			{
+			Visualparticle Special E Phoenix Burst Blast
+			}
+		}
+}
+
+
+
+//==============================================================================
+define LargeDebris
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle sfx a Volcano Debris large
+      }
+   }
+}
+//==============================================================================
+define groundfire
+{
+	set hotspot
+	{
+		version
+		{
+		   Visualparticle SFX A Meteor GroundFire
+		}
+	}
+}
+
+//==============================================================================
+define mushroom
+{
+	set hotspot
+	{
+		version
+		{
+			Visualparticle SFX A Meteor Impact Mushroom
+		}
+	}
+}
+
+//==============================================================================
+define shockwave
+{
+	set hotspot
+	{
+		version
+		{
+		Visualparticle SFX A Meteor Shockblast
+		}
+	}
+}
+
+//==============================================================================
+define dust
+{
+	set hotspot
+	{
+		version
+		{
+		Visualparticle SFX A Meteor Dust
+		}
+	}
+}
+
+
+
+//==============================================================================
+anim idle
+{
+	SetSelector none 
+	{
+		set hotspot
+		{
+			version
+			{
+			Visual SFX A Meteor Blast
+			connect ATTACHPOINT groundfire hotspot
+			connect ATTACHPOINT largedebris hotspot
+			connect ATTACHPOINT largedebris hotspot
+			connect ATTACHPOINT fireground hotspot
+			connect ATTACHPOINT fireground hotspot
+			connect ATTACHPOINT burstfire hotspot
+			connect ATTACHPOINT burstfire hotspot
+			connect ATTACHPOINT burstblast hotspot
+			tag SpecificSoundSet 0.1 false implode explode checkVisible
+
+			}
+		}
+	}
+}

@@ -1,0 +1,52 @@
+//==============================================================================
+// Courtyard Plants_anim.txt
+//==============================================================================
+
+//==============================================================================
+anim idle
+{
+	SetSelector
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual Bush ground large A
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Bush ground large B
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Bush ground large C
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Bush ground large D
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Bush ground large E
+				
+			}
+		}
+	}
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<protounitsounddef>
+	<protounit name="Cthulhi">
+		<soundtype name="Grunt">
+			<soundset name="TartarianSpawnGrunt"></soundset>
+		</soundtype>
+		<soundtype name="Hit">
+			<damagetypelogic>
+				<choice name="Crush">
+					<soundset name="CrushFlesh"></soundset>
+				</choice>
+				<choice name="Fire">
+					<soundset name="HackFlesh"></soundset>
+				</choice>
+				<choice name="Hack">
+					<soundset name="HackFlesh"></soundset>
+				</choice>
+				<choice name="Pierce">
+					<soundset name="PierceFlesh"></soundset>
+				</choice>
+				<choice name="Slash">
+					<soundset name="HackFlesh"></soundset>
+				</choice>
+			</damagetypelogic>
+		</soundtype>
+		<soundtype name="Death">
+			<soundset name="TartarianSpawnDie"></soundset>
+		</soundtype>
+		<soundtype name="Creation">
+			<soundset name="MythUnitBirth"></soundset>
+		</soundtype>
+	</protounit>
+</protounitsounddef>

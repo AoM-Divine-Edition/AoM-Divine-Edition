@@ -1,0 +1,83 @@
+2024-04-04 15:01:15.925 -04:00 [INF] Starting app AoM Model Editor 1.2.1.
+2024-04-04 15:01:15.960 -04:00 [INF] Reading app settings.
+2024-04-04 15:01:18.271 -04:00 [INF] Listening to AoMModelEditor.Models.ModelFileChangedArgs:
+2024-04-04 15:01:18.476 -04:00 [WRN] The class AoMModelEditor.MainWindow property modelsView is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-04 15:01:18.490 -04:00 [WRN] The class AoMModelEditor.Models.ModelsView property modelObjectTreeView is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-04 15:02:27.100 -04:00 [INF] Loading brg file.
+2024-04-04 15:02:27.128 -04:00 [INF] Finished loading brg file.
+2024-04-04 15:02:27.155 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgStatsView property mainGroupBox is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-04 15:02:27.155 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgStatsView property vertCountLabel is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-04 15:02:27.156 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgStatsView property faceCountLabel is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-04 15:02:27.156 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgStatsView property dummyCountLabel is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-04 15:02:27.156 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgStatsView property frameCountLabel is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-04 15:02:27.156 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgStatsView property materialCountLabel is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-04 15:02:27.159 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgStatsView property animationDurationLabel is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-04 15:02:29.950 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMaterialView property mainGroupBox is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-04 15:02:29.950 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMaterialView property flagsListBox is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-04 15:02:29.960 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMaterialView property diffuseMapTextureTextBox is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-04 15:02:29.964 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMaterialView property opacityTextBox is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-04 15:02:29.965 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMaterialView property specularExponentTextBox is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-04 15:02:29.971 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMaterialView property diffuseColorPicker is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-04 15:02:29.973 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMaterialView property ambientColorPicker is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-04 15:02:29.973 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMaterialView property specularColorPicker is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-04 15:02:29.973 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMaterialView property emissiveColorPicker is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-04 15:02:29.973 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMaterialView property cubeMapTextureTextBox is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-04 15:02:29.976 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMaterialView property cubeMapBlendPercentageTextBox is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-04 15:02:40.020 -04:00 [INF] Saving brg file.
+2024-04-04 15:02:40.026 -04:00 [INF] Finished saving brg file.
+2024-04-04 15:02:58.879 -04:00 [INF] Loading brg file.
+2024-04-04 15:02:58.900 -04:00 [INF] Finished loading brg file.
+2024-04-04 15:03:08.476 -04:00 [INF] Saving brg file.
+2024-04-04 15:03:08.476 -04:00 [INF] Finished saving brg file.
+2024-04-04 15:03:20.215 -04:00 [INF] Loading brg file.
+2024-04-04 15:03:20.237 -04:00 [INF] Finished loading brg file.
+2024-04-04 15:03:31.919 -04:00 [INF] Saving brg file.
+2024-04-04 15:03:31.920 -04:00 [INF] Finished saving brg file.
+2024-04-04 15:03:42.517 -04:00 [INF] Loading brg file.
+2024-04-04 15:03:42.538 -04:00 [INF] Finished loading brg file.
+2024-04-04 15:03:49.831 -04:00 [INF] Saving brg file.
+2024-04-04 15:03:49.832 -04:00 [INF] Finished saving brg file.
+2024-04-04 15:03:57.512 -04:00 [INF] Loading brg file.
+2024-04-04 15:03:57.537 -04:00 [INF] Finished loading brg file.
+2024-04-04 15:04:03.896 -04:00 [INF] Saving brg file.
+2024-04-04 15:04:03.897 -04:00 [INF] Finished saving brg file.
+2024-04-04 15:04:10.293 -04:00 [INF] Loading brg file.
+2024-04-04 15:04:10.313 -04:00 [INF] Finished loading brg file.
+2024-04-04 15:04:19.588 -04:00 [INF] Saving brg file.
+2024-04-04 15:04:19.588 -04:00 [INF] Finished saving brg file.
+2024-04-04 15:04:25.370 -04:00 [INF] Loading brg file.
+2024-04-04 15:04:25.403 -04:00 [INF] Finished loading brg file.
+2024-04-04 15:05:42.477 -04:00 [INF] Saving brg file.
+2024-04-04 15:05:42.478 -04:00 [INF] Finished saving brg file.
+2024-04-04 15:05:50.219 -04:00 [INF] Loading brg file.
+2024-04-04 15:05:50.239 -04:00 [INF] Finished loading brg file.
+2024-04-04 15:05:58.909 -04:00 [INF] Saving brg file.
+2024-04-04 15:05:58.910 -04:00 [INF] Finished saving brg file.
+2024-04-04 15:06:03.816 -04:00 [INF] Loading brg file.
+2024-04-04 15:06:03.837 -04:00 [INF] Finished loading brg file.
+2024-04-04 15:06:10.335 -04:00 [INF] Saving brg file.
+2024-04-04 15:06:10.336 -04:00 [INF] Finished saving brg file.
+2024-04-04 15:06:21.575 -04:00 [INF] Loading brg file.
+2024-04-04 15:06:21.595 -04:00 [INF] Finished loading brg file.
+2024-04-04 15:06:30.468 -04:00 [INF] Saving brg file.
+2024-04-04 15:06:30.468 -04:00 [INF] Finished saving brg file.
+2024-04-04 15:06:36.931 -04:00 [INF] Loading brg file.
+2024-04-04 15:06:36.970 -04:00 [INF] Finished loading brg file.
+2024-04-04 15:07:27.368 -04:00 [INF] Saving brg file.
+2024-04-04 15:07:27.368 -04:00 [INF] Finished saving brg file.
+2024-04-04 15:07:34.917 -04:00 [INF] Loading brg file.
+2024-04-04 15:07:34.938 -04:00 [INF] Finished loading brg file.
+2024-04-04 15:07:41.875 -04:00 [INF] Saving brg file.
+2024-04-04 15:07:41.876 -04:00 [INF] Finished saving brg file.
+2024-04-04 15:07:46.685 -04:00 [INF] Loading brg file.
+2024-04-04 15:07:46.718 -04:00 [INF] Finished loading brg file.
+2024-04-04 15:07:54.808 -04:00 [INF] Saving brg file.
+2024-04-04 15:07:54.809 -04:00 [INF] Finished saving brg file.
+2024-04-04 15:07:59.960 -04:00 [INF] Loading brg file.
+2024-04-04 15:07:59.980 -04:00 [INF] Finished loading brg file.
+2024-04-04 15:08:06.853 -04:00 [INF] Saving brg file.
+2024-04-04 15:08:06.854 -04:00 [INF] Finished saving brg file.
+2024-04-04 15:08:15.756 -04:00 [INF] Loading brg file.
+2024-04-04 15:08:15.775 -04:00 [INF] Finished loading brg file.
+2024-04-04 15:08:24.251 -04:00 [INF] Saving brg file.
+2024-04-04 15:08:24.252 -04:00 [INF] Finished saving brg file.

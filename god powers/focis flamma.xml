@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<power name="FocisFlamma" type="healing" techname="Focis Flamma">
+	<activetime>60</activetime>
+	<radius>5.0f</radius>
+	<rangeindicatorprotoid radius="5.0" indicatorcount="10" speed="0.2">UI Range Indicator Greek SFX</rangeindicatorprotoid>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">RestorationBirth</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<placement forceonmap="1" matchtype="Settlement Level 1" ally="">unit</placement>
+	<healtype>SettlementsThatTrainVillagers</healtype>
+	<healsfx>Healing SFX</healsfx>
+	<healspeed>30000000.0</healspeed>
+	<areasfx>Healing Area SFX</areasfx>
+	<scaninterval>1.0</scaninterval>
+	<icon>roman icon focis flamma</icon>
+	<usedicon>roman icon focis flamma used</usedicon>
+</power>

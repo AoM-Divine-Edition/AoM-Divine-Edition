@@ -1,0 +1,78 @@
+//==============================================================================
+// brick_anim.txt
+//==============================================================================
+
+//==============================================================================
+define ChiefWalk
+{
+   set hotspot
+   {
+      version
+      {
+       		Visual War Chief Walk
+      }
+   }
+}
+//==============================================================================
+define Chief
+{
+   set hotspot
+   {
+      version
+      {
+       		Visual War Chief
+      }
+   }
+}
+//==============================================================================
+define ChiefTalk
+{
+   set hotspot
+   {
+      version
+      {
+       		Visual Aztec Warchief Talk
+      }
+   }
+}
+//==============================================================================
+anim idle
+{
+	SetSelector none 
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual Aztec Temple Mayor Large
+			//==	connect topofhead Chief hotspot
+				connect Neck ChiefWalk hotspot
+				length 10.5
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Aztec Temple Mayor Large
+				connect topofhead ChiefTalk hotspot
+			//==	connect Neck ChiefWalk hotspot
+				length 10.5
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Aztec Temple Mayor Large
+				connect topofhead Chief hotspot
+			//==	connect Neck ChiefWalk hotspot
+				length 10.5
+			}
+		}
+	}
+}
+
+
+   

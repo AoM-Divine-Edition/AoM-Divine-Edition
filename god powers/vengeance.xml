@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Vengeance" type="spy" techname="Vengeance">
+	<activetime>-1</activetime>
+	<placement forceonmap="1" matchtype="Settlement Level 1" ally="">unit</placement>
+	<spyproto>vengeance eye</spyproto>
+	<soundset type="StartSound" listenertype="Ally">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAlly">SpyBirth</soundset>
+	<soundset type="EndSound" listenertype="Ally">GodPowerEnd</soundset>
+	<minimapeventtime sendalertto="ally">10.0</minimapeventtime>
+	<messagealertplayerrelation>ally</messagealertplayerrelation>
+	<icon>improvement vengeance gp icon</icon>
+	<usedicon>improvement vengeance gp used icon</usedicon>
+</power>

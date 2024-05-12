@@ -1,0 +1,43 @@
+//==============================================================================
+//  bogsveigir_head_Defines_anim.txt
+//==============================================================================
+
+//==============================================================================
+define Head
+{
+	 SetSelector
+	 {
+		TechLogic none/Medium Infantry/Heavy Infantry/Champion Infantry
+		set hotspot
+		{
+			version
+			{
+				 Visual Archer N Normal Head
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				 Visual Archer N Normal Head
+				 Replacetexture Archer N Normal Head Standard/Archer N Normal Head Copper
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				 Visual Archer N Normal Head
+				 Replacetexture Archer N Normal Head Standard/Archer N Normal Head Bronze
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				 Visual Archer N Normal Head
+				 Replacetexture Archer N Normal Head Standard/Archer N Normal Head Iron
+			}
+		}
+	 }
+}

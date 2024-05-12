@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<protounitsounddef>
+	<protounit name="Wakhukeza Wani">
+		<soundtype name="Select">
+			<soundset name="LakotaWarriorSelect"></soundset>
+		</soundtype>
+		<soundtype name="Grunt">
+			<soundset name="MaleGrunt"></soundset>
+		</soundtype>
+		<soundtype name="Hit">
+			<damagetypelogic>
+				<choice name="Hack">
+					<soundset name="MetalSlice"></soundset>
+				</choice>
+				<choice name="Slash">
+					<soundset name="MetalSlice"></soundset>
+				</choice>
+				<choice name="Pierce">
+					<soundset name="PierceFlesh"></soundset>
+				</choice>
+				<choice name="Crush">
+					<soundset name="CrushFlesh"></soundset>
+				</choice>
+			</damagetypelogic>
+		</soundtype>
+		<soundtype name="Death">
+			<soundset name="MaleDeath"></soundset>
+		</soundtype>
+		<soundtype name="Creation">
+			<soundset name="MilitaryBirth"></soundset>
+		</soundtype>
+		<soundtype name="Acknowledge">
+			<targetlogic>
+				<choice name="default">
+					<soundset name="LakotaWarriorMove"></soundset>
+				</choice>
+				<choice name="enemy">
+					<soundset name="LakotaWarriorAttack"></soundset>
+				</choice>
+			</targetlogic>
+		</soundtype>
+	</protounit>
+</protounitsounddef>

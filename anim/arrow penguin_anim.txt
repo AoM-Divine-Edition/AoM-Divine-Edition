@@ -1,0 +1,57 @@
+//==============================================================================
+// arrow_anim.txt
+//==============================================================================
+
+//==============================================================================
+
+//==============================================================================
+define Fire
+{
+   TechLogic none/Burning Pitch
+   set hotspot
+   {
+      version
+      {
+         Visualnone jimmy
+      }
+   }   
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Burning Pitch Arrow
+      }
+   }
+}
+//==============================================================================
+anim Idle
+{
+   SetSelector none
+   { 
+      set hotspot
+      {
+         version
+         {
+            Visual Nxarrow_pingu
+connect FIRE Fire hotspot
+
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim Bored
+{
+   SetSelector
+   { 
+      set hotspot
+      {
+         version
+         {
+            Visual  Nxarrow_pingu
+         }
+      }
+   }
+}
+

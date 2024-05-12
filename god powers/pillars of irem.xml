@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="PillarsOfIrem" type="TempUnit" techname="Pillars of Irem">
+	<activetime>60</activetime>
+	<placement forceonmap="1">full</placement>
+	<minimapeventtime sendalertto="ally">10.0</minimapeventtime>
+	<createunit quantity="12" minradius="20" maxradius="40" pattern="symmetric" norotate="" delay="0.0">Pillar of Irem 2</createunit>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAlly">SentinelBirth</soundset>
+	<icon>improvement pillars of irem icon</icon>
+	<usedicon>improvement pillars of irem icon done</usedicon>
+	<powerblocker>25 </powerblocker>
+
+	<recharges>0</recharges>
+	<rechargetime>90</rechargetime>
+</power>

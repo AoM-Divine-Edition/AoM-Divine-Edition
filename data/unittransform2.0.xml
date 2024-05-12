@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<unittransforms>
+	<!--
+	<transform>
+		<from>Terracotta Soldier Sleeping</from>
+		<to>Terracotta Soldier</to>
+	</transform>
+	<transform>
+		<from>Terracotta Soldier</from>
+		<to>Terracotta Soldier Sleeping</to>
+	</transform>
+	-->
+	<transform>
+		<from>Wall Long</from>
+		<to>Gate</to>
+	</transform>
+	<transform>
+		<from>Villager Norse</from>
+		<to>Ulfsark</to>
+	</transform>
+	<transform>
+		<from>Dwarf</from>
+		<to>Ulfsark</to>
+	</transform>
+	<transform>
+		<from>Villager Atlantean</from>
+		<to>Villager Atlantean Hero</to>
+	</transform>
+	<transform>
+		<from>Swordsman</from>
+		<to>Swordsman Hero</to>
+	</transform>
+	<transform>
+		<from>Trident Soldier</from>
+		<to>Trident Soldier Hero</to>
+	</transform>
+	<transform>
+		<from>Javelin Cavalry</from>
+		<to>Javelin Cavalry Hero</to>
+	</transform>
+	<transform>
+		<from>Lancer</from>
+		<to>Lancer Hero</to>
+	</transform>
+	<transform>
+		<from>Royal Guard</from>
+		<to>Royal Guard Hero</to>
+	</transform>
+	<transform>
+		<from>Maceman</from>
+		<to>Maceman Hero</to>
+	</transform>
+	<transform>
+		<from>Archer Atlantean</from>
+		<to>Archer Atlantean Hero</to>
+	</transform>
+	<transform>
+		<from>Oracle Scout</from>
+		<to>Oracle Hero</to>
+	</transform>
+	<transform>
+		<from>Cultist</from>
+		<to>Appealing Form</to>
+	</transform>
+	<transform>
+		<from>Sacrificial Lamb</from>
+		<to>Appealing Form</to>
+	</transform>
+	<transform>
+		<from>Cultist of Tsathoggua</from>
+		<to>Form of Blood</to>
+	</transform>
+	<transform>
+		<from>Cultist of Azathoth</from>
+		<to>Dream of Plenty</to>
+	</transform>
+	<transform>
+		<from>Cultist of Yog-Sothoth</from>
+		<to>Form of the Eye</to>
+	</transform>
+	<transform>
+		<from>Cultist of Shub-Niggurath</from>
+		<to>Temp Form of Shub</to>
+	</transform>
+	<transform>
+		<from>Ritual of Farsight</from>
+		<to>Ritual of Farsight Temp</to>
+	</transform>
+	<transform>
+		<from>Cultist of Ithaqua</from>
+		<to>Form of the Hunter</to>
+	</transform>
+	<transform>
+		<from>Ritual of Wrath</from>
+		<to>Ritual of Wrath Temp</to>
+	</transform>
+	<transform>
+		<from>Cultist of Atlach-Nacha</from>
+		<to>Form of the Spider</to>
+	</transform>
+	<transform>
+		<from>Form of the Spider</from>
+		<to>Form of the Spider Hole</to>
+	</transform>
+	<transform>
+		<from>Form of the Spider Hole</from>
+		<to>Form of the Spider Real</to>
+	</transform>
+	<transform>
+		<from>Form of the Spider Real</from>
+		<to>Form of the Spider Hole</to>
+	</transform>
+	<transform>
+		<from>Ritual of Nightmares</from>
+		<to>Nightmare Beacon</to>
+	</transform>
+	<transform>
+		<from>Cultist of Cthulhu</from>
+		<to>Endbringer</to>
+	</transform>
+	<transform>
+		<from>Cultist of Nug and Yeb</from>
+		<to>Form of the Gyaa-Yothn</to>
+	</transform>
+	<transform>
+		<from>Cultist of Dagon</from>
+		<to>Form of the Deep</to>
+	</transform>
+	<transform>
+		<from>Faceless One</from>
+		<to>Faceless One Bird</to>
+	</transform>
+	<transform>
+		<from>Faceless One Bird</from>
+		<to>Faceless One Wizard</to>
+	</transform>
+	<transform>
+		<from>Faceless One Wizard</from>
+		<to>Faceless One Bird</to>
+	</transform>
+	<transform>
+		<from>Cultist of Nyarlathotep</from>
+		<to>Geometric Mage</to>
+	</transform>
+	<transform>
+		<from>Cultist of Yig</from>
+		<to>Serpent Shed</to>
+	</transform>
+	<transform>
+		<from>Yellow One</from>
+		<to>Yellow One Attack</to>
+	</transform>
+	<transform>
+		<from>Yellow One Heal</from>
+		<to>Yellow One Attack</to>
+	</transform>
+	<transform>
+		<from>Yellow One Attack</from>
+		<to>Yellow One Heal</to>
+	</transform>
+	<transform>
+		<from>Cultist of Hastur</from>
+		<to>Form of Healing</to>
+	</transform>
+	<transform>
+		<from>Dragonfire Cannon</from>
+		<to>Cannon (unpacked)</to>
+	</transform>
+	<transform>
+		<from>Cannon (packed)</from>
+		<to>Cannon (unpacked)</to>
+	</transform>
+	<transform>
+		<from>Cannon (unpacked)</from>
+		<to>Cannon (packed)</to>
+	</transform>
+	<transform>
+		<from>Aztec Travois</from>
+		<to>Free Tower</to>
+	</transform>
+
+	<transform>
+		<from>Aztec Female Villager</from>
+		<to>Aztec Female Tlaloque</to>
+	</transform>
+	<transform>
+		<from>Aztec Male Villager</from>
+		<to>Aztec Male Tlaloque</to>
+	</transform>
+	<transform>
+		<from>Kajutsu Shinobi</from>
+		<to>Kajutsu Shinobi Revealed</to>
+	</transform>
+	<transform>
+		<from>Legionary</from>
+		<to>Optio</to>
+	</transform>
+	<transform>
+		<from>Optio</from>
+		<to>Centurion</to>
+	</transform>
+	<transform>
+		<from>Imperator</from>
+		<to>Legate</to>
+	</transform>
+	<transform>
+		<from>Equite</from>
+		<to>Decurion</to>
+	</transform>
+	<transform>
+		<from>Praetorian</from>
+		<to>Praetorian Prefect</to>
+	</transform>
+	<transform>
+		<from>Eruption</from>
+		<to>Gianter Flesh Blob Fake</to>
+	</transform>
+	<transform>
+		<from>Packed Thikceya</from>
+		<to>Thikceya</to>
+	</transform>
+	<transform>
+		<from>Packed Thikceya 2</from>
+		<to>Thikceya</to>
+	</transform>
+	<transform>
+		<from>Lakota Sodhouse</from>
+		<to>Thikceya</to>
+	</transform>
+	<transform>
+		<from>Thikceya</from>
+		<to>Packed Thikceya 2</to>
+	</transform>
+	<!--
+	<transform>
+		<from>Guild Fire</from>
+		<to>Packed Guild Fire</to>
+	</transform>
+	<transform>
+		<from>Guild Fire 2</from>
+		<to>Packed Guild Fire</to>
+	</transform>
+	<transform>
+		<from>Packed Guild Fire</from>
+		<to>Guild Fire 2</to>
+	</transform>-->
+	<transform>
+		<from>Owl Soldier</from>
+		<to>Owl Soldier Owl Temp</to>
+	</transform>
+	<transform>
+		<from>Owl Soldier 2</from>
+		<to>Owl Soldier Owl Temp</to>
+	</transform>
+	<transform>
+		<from>Owl Soldier Owl</from>
+		<to>Owl Soldier 2 Temp</to>
+	</transform>
+	<transform>
+		<from>Wi Can</from>
+		<to>Wi Can Melee</to>
+	</transform>
+	<transform>
+		<from>Wi Can Melee</from>
+		<to>Wi Can Ranged</to>
+	</transform>
+	<transform>
+		<from>Wi Can Ranged</from>
+		<to>Wi Can Melee</to>
+	</transform>
+	<transform>
+		<from>Wakhukeza Iktomi</from>
+		<to>Kitfox Soldier</to>
+	</transform>
+	<transform>
+		<from>Wakhukeza Wani</from>
+		<to>Fancy Spear</to>
+	</transform>
+	<transform>
+		<from>Wakhukeza Capa</from>
+		<to>Strongheart</to>
+	</transform>
+	<transform>
+		<from>Waoka Anung Ite</from>
+		<to>Crow-Rider</to>
+	</transform>
+	<transform>
+		<from>Waoka Tate</from>
+		<to>White Marked</to>
+	</transform>
+	<transform>
+		<from>Waoka Wakinyan</from>
+		<to>No-Flights</to>
+	</transform>
+	<transform>
+		<from>Canpi Unk</from>
+		<to>Warpath Badger</to>
+	</transform>
+	<transform>
+		<from>Canpi Wophe</from>
+		<to>White Rider</to>
+	</transform>
+	<transform>
+		<from>Canpi Anpao and Han</from>
+		<to>Raven Keeper</to>
+	</transform>
+	<transform>
+		<from>Outpost Settlement</from>
+		<to>Settlement Level 1</to>
+	</transform>
+</unittransforms>

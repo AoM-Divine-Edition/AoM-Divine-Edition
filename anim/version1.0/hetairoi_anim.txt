@@ -1,0 +1,582 @@
+//==============================================================================
+// Hetairoi_anim.txt
+//==============================================================================
+
+import Greek_Sword_anim.txt
+import Greek_Cavalry_Shield_anim.txt
+
+//==============================================================================
+define Flame
+{
+	SetSelector
+	{
+		TechLogic none/Flaming Weapons Active
+		set hotspot
+		{
+			version
+			{
+				Visualnone jimmy
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visualparticle SFX A Flaming Sword
+			}
+		}
+	}
+}
+
+//==============================================================================
+define Head
+{
+	TechLogic none/Medium Cavalry/Heavy Cavalry/Champion Cavalry
+	set hotspot
+	{
+		version
+		{
+			Visual Cavalry G Hippikon Head Standard
+		}
+	}
+	set hotspot
+	{
+		version
+		{
+			Visual Cavalry G Hetairoi Head
+			ReplaceTexture Cavalry G Hetairoi Head Iron/Cavalry G Hetairoi Head Copper
+		}
+	}
+	set hotspot
+	{
+		version
+		{
+			Visual Cavalry G Hetairoi Head
+			ReplaceTexture Cavalry G Hetairoi Head Iron/Cavalry G Hetairoi Head Bronze
+		}
+	}
+	set hotspot
+	{
+		version
+		{
+			Visual Cavalry G Hetairoi Head
+		}
+	}
+}
+
+//==============================================================================
+anim Bored
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hetairoi_Headless-BoredA
+				connect RightHand Flame hotspot
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				ReplaceTexture Cavalry G Hetairoi Iron/Archer G Toxotes Standard
+			}
+			version
+			{
+				Visual Cavalry G Hetairoi_Headless-BoredB
+				connect RightHand Flame hotspot
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				ReplaceTexture Cavalry G Hetairoi Iron/Archer G Toxotes Standard
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hetairoi_Headless-BoredA
+				connect RightHand Flame hotspot
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				ReplaceTexture Cavalry G Hetairoi Iron/Archer G Toxotes Copper
+			}
+			version
+			{
+				Visual Cavalry G Hetairoi_Headless-BoredB
+				connect RightHand Flame hotspot
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				ReplaceTexture Cavalry G Hetairoi Iron/Archer G Toxotes Copper
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hetairoi_Headless-BoredA
+				connect RightHand Flame hotspot
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				ReplaceTexture Cavalry G Hetairoi Iron/Cavalry G Hetairoi Bronze
+			}
+			version
+			{
+				Visual Cavalry G Hetairoi_Headless-BoredB
+				connect RightHand Flame hotspot
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				ReplaceTexture Cavalry G Hetairoi Iron/Cavalry G Hetairoi Bronze
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hetairoi_Headless-BoredA
+				connect RightHand Flame hotspot
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry G Hetairoi_Headless-BoredB
+				connect RightHand Flame hotspot
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Walk
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hetairoi_Headless-WalkA
+				connect RightHand Flame hotspot
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				ReplaceTexture Cavalry G Hetairoi Iron/Archer G Toxotes Standard
+				tag FootstepLeft 0.15 true
+				tag FootstepRight 0.60 true
+				tag FootstepLeft 0.90 true
+				tag FootstepRight 0.80 true
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hetairoi_Headless-WalkA
+				connect RightHand Flame hotspot
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				ReplaceTexture Cavalry G Hetairoi Iron/Archer G Toxotes Copper
+				tag FootstepLeft 0.15 true
+				tag FootstepRight 0.60 true
+				tag FootstepLeft 0.90 true
+				tag FootstepRight 0.80 true
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hetairoi_Headless-WalkA
+				connect RightHand Flame hotspot
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				ReplaceTexture Cavalry G Hetairoi Iron/Cavalry G Hetairoi Bronze
+				tag FootstepLeft 0.15 true
+				tag FootstepRight 0.60 true
+				tag FootstepLeft 0.90 true
+				tag FootstepRight 0.80 true
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hetairoi_Headless-WalkA
+				connect RightHand Flame hotspot
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				tag FootstepLeft 0.15 true
+				tag FootstepRight 0.60 true
+				tag FootstepLeft 0.90 true
+				tag FootstepRight 0.80 true
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Death
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hetairoi_Headless-DeathA
+				tag SpecificSoundSet 0.59 false HeavyFall checkVisible 
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				ReplaceTexture Cavalry G Hetairoi Iron/Archer G Toxotes Standard
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hetairoi_Headless-DeathA
+				tag SpecificSoundSet 0.59 false HeavyFall checkVisible 
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				ReplaceTexture Cavalry G Hetairoi Iron/Archer G Toxotes Copper
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hetairoi_Headless-DeathA
+				tag SpecificSoundSet 0.59 false HeavyFall checkVisible 
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				ReplaceTexture Cavalry G Hetairoi Iron/Cavalry G Hetairoi Bronze
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hetairoi_Headless-DeathA
+				tag SpecificSoundSet 0.59 false HeavyFall checkVisible 
+				connect RightHand greekSword hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Idle
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hetairoi_Headless-IdleA
+				connect RightHand greekSword hotspot
+				connect RightHand Flame hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				ReplaceTexture Cavalry G Hetairoi Iron/Archer G Toxotes Standard
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hetairoi_Headless-IdleA
+				connect RightHand greekSword hotspot
+				connect RightHand Flame hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				ReplaceTexture Cavalry G Hetairoi Iron/Archer G Toxotes Copper
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hetairoi_Headless-IdleA
+				connect RightHand greekSword hotspot
+				connect RightHand Flame hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				ReplaceTexture Cavalry G Hetairoi Iron/Cavalry G Hetairoi Bronze
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hetairoi_Headless-IdleA
+				connect RightHand greekSword hotspot
+				connect RightHand Flame hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Attack
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hetairoi_Headless-AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.47 true
+				tag GenericSound 0.40 true
+//-- end auto generated section
+				connect RightHand greekSword hotspot
+				connect RightHand Flame hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				ReplaceTexture Cavalry G Hetairoi Iron/Archer G Toxotes Standard
+			}
+			version
+			{
+				Visual Cavalry G Hetairoi_Headless-AttackB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.40 true
+				tag GenericSound 0.40 true
+//-- end auto generated section
+				connect RightHand greekSword hotspot
+				connect RightHand Flame hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				ReplaceTexture Cavalry G Hetairoi Iron/Archer G Toxotes Standard
+			}
+			version
+			{
+				Visual Cavalry G Hetairoi_Headless-AttackC
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.40 true
+				tag GenericSound 0.40 true
+//-- end auto generated section
+				connect RightHand greekSword hotspot
+				connect RightHand Flame hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				ReplaceTexture Cavalry G Hetairoi Iron/Archer G Toxotes Standard
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hetairoi_Headless-AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.47 true
+				tag GenericSound 0.40 true
+//-- end auto generated section
+				connect RightHand greekSword hotspot
+				connect RightHand Flame hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				ReplaceTexture Cavalry G Hetairoi Iron/Archer G Toxotes Copper
+			}
+			version
+			{
+				Visual Cavalry G Hetairoi_Headless-AttackB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.40 true
+				tag GenericSound 0.40 true
+//-- end auto generated section
+				connect RightHand greekSword hotspot
+				connect RightHand Flame hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				ReplaceTexture Cavalry G Hetairoi Iron/Archer G Toxotes Copper
+			}
+			version
+			{
+				Visual Cavalry G Hetairoi_Headless-AttackC
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.40 true
+				tag GenericSound 0.40 true
+//-- end auto generated section
+				connect RightHand greekSword hotspot
+				connect RightHand Flame hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				ReplaceTexture Cavalry G Hetairoi Iron/Archer G Toxotes Copper
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hetairoi_Headless-AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.47 true
+				tag GenericSound 0.40 true
+//-- end auto generated section
+				connect RightHand greekSword hotspot
+				connect RightHand Flame hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				ReplaceTexture Cavalry G Hetairoi Iron/Cavalry G Hetairoi Bronze
+			}
+			version
+			{
+				Visual Cavalry G Hetairoi_Headless-AttackB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.40 true
+				tag GenericSound 0.40 true
+//-- end auto generated section
+				connect RightHand greekSword hotspot
+				connect RightHand Flame hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				ReplaceTexture Cavalry G Hetairoi Iron/Cavalry G Hetairoi Bronze
+			}
+			version
+			{
+				Visual Cavalry G Hetairoi_Headless-AttackC
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.40 true
+				tag GenericSound 0.40 true
+//-- end auto generated section
+				connect RightHand greekSword hotspot
+				connect RightHand Flame hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				ReplaceTexture Cavalry G Hetairoi Iron/Cavalry G Hetairoi Bronze
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hetairoi_Headless-AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.47 true
+				tag GenericSound 0.40 true
+//-- end auto generated section
+				connect RightHand greekSword hotspot
+				connect RightHand Flame hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry G Hetairoi_Headless-AttackB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.40 true
+				tag GenericSound 0.40 true
+//-- end auto generated section
+				connect RightHand greekSword hotspot
+				connect RightHand Flame hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry G Hetairoi_Headless-AttackC
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.40 true
+				tag GenericSound 0.40 true
+//-- end auto generated section
+				connect RightHand greekSword hotspot
+				connect RightHand Flame hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Flail
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hetairoi_Headless-FlailA
+				connect RightHand greekSword hotspot
+				connect RightHand Flame hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				ReplaceTexture Cavalry G Hetairoi Iron/Archer G Toxotes Standard
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hetairoi_Headless-FlailA
+				connect RightHand greekSword hotspot
+				connect RightHand Flame hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				ReplaceTexture Cavalry G Hetairoi Iron/Archer G Toxotes Copper
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hetairoi_Headless-FlailA
+				connect RightHand greekSword hotspot
+				connect RightHand Flame hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				ReplaceTexture Cavalry G Hetairoi Iron/Cavalry G Hetairoi Bronze
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Hetairoi_Headless-FlailA
+				connect RightHand greekSword hotspot
+				connect RightHand Flame hotspot
+				Connect TopOfHead Head hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+			}
+		}
+	}
+}

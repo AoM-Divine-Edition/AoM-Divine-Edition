@@ -1,0 +1,175 @@
+//==============================================================================
+// obelisk_anim.txt
+//==============================================================================
+
+//==============================================================================
+define Light
+{
+   set hotspot
+   {
+      version
+      {
+         VisualParticle Building SFX Outpost Light
+      }
+   }  
+}
+
+//==============================================================================
+define buildGlow
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A God Power Summon Sunlight
+      }
+   }
+}
+
+//==============================================================================
+define GroundGlow
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A God Power Summon GroundGlow
+      }
+   }
+}
+//==============================================================================
+define Dust
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Building DustA
+      }
+   }  
+}
+//==============================================================================
+anim idle
+{
+   SetSelector
+   {
+		ConstructionLogic 0 33 95
+		set hotspot
+		{
+			version
+			{
+				Visual Building E Outpost
+				connect Neck Light hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Building E Outpost foundation
+				connect hotspot buildGlow hotspot
+				connect hotspot groundGlow hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Building E Outpost foundation
+				connect hotspot buildGlow hotspot
+				connect hotspot groundGlow hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Building E Outpost foundation
+				connect hotspot buildGlow hotspot
+				connect hotspot groundGlow hotspot
+			}
+		}
+   }
+}
+
+//==============================================================================
+anim Attack
+{
+   SetSelector
+   {
+      VariationLogic
+      set hotspot
+      {
+         version
+         {
+							Visual Building E Outpost
+                            tag Attack 0.50 true   
+                            tag SpecificSoundSet 0.50 false ZFNileRune checkVisible 							
+         }		 
+      }
+   }
+}
+//==============================================================================
+anim whirlwindAttack
+{
+   SetSelector
+   {
+      VariationLogic
+      set hotspot
+      {
+         version
+         {
+							Visual Building E Outpost
+                            tag Attack 0.50 true   
+                            tag SpecificSoundSet 0.50 false ZFNileRune checkVisible 	
+			                Connect FIRE glow hotspot								
+         }		 
+      }
+   }
+}
+
+
+
+//==============================================================================
+anim Death
+{
+   SetSelector
+   {
+		ConstructionLogic 0 33 95
+		set hotspot
+		{
+			version
+			{
+               Visual Building E Outpost_Death
+               connect Smoke0 Dust hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Building E Outpost foundation
+				connect hotspot buildGlow hotspot
+				connect hotspot groundGlow hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Building E Outpost foundation
+				connect hotspot buildGlow hotspot
+				connect hotspot groundGlow hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Building E Outpost foundation
+				connect hotspot buildGlow hotspot
+				connect hotspot groundGlow hotspot
+			}
+		}
+   }
+}

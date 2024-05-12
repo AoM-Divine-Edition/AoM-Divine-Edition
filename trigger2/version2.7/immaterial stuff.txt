@@ -1,0 +1,36 @@
+	q_id = kbUnitQueryCreate("Ephiriams Ritual");
+	kbUnitQuerySetPlayerID(q_id, i);
+	kbUnitQuerySetUnitType(q_id,kbGetProtoUnitID("Ephiriams Ritual"));
+	kbUnitQuerySetState(q_id,2);
+	q_len = kbUnitQueryExecute(q_id);
+        for(j=0;<q_len)
+	{
+		trUnitSelectClear();
+		trUnitSelectByID(kbUnitQueryGetResult(q_id,j));
+		//trTechInvokeGodPower(0, "Wrath of Gaea", kbUnitGetPosition(kbUnitQueryGetResult(q_id,j)), kbUnitGetPosition(kbUnitQueryGetResult(q_id,j)));
+		trUnitDelete(false);
+
+		for (k=1; < cNumberPlayers)
+		{
+			if (k != i)
+			{
+				xsSetContextPlayer(k);
+				int q_id2 = kbUnitQueryCreate("Settlement Level 1");
+				kbUnitQuerySetPlayerID(q_id2, k);
+				kbUnitQuerySetUnitType(q_id2,kbGetProtoUnitID(""));
+				kbUnitQuerySetState(q_id2,2);
+				int q_len2 = kbUnitQueryExecute(q_id2);
+        			for(l=0;<q_len2)
+				{
+					trUnitSelectClear();
+					trUnitSelectByID(kbUnitQueryGetResult(q_id2,l));
+					if (kbUnitIsType(kbUnitQueryGetResult(q_id2,l), 684))
+					{
+						trUnitConvert(i);
+					}
+				}
+			}
+		}
+	}
+	xsSetContextPlayer(i);
+    }

@@ -1,0 +1,49 @@
+//==============================================================================
+// TamariskTree_anim.txt
+//==============================================================================
+
+//==============================================================================
+anim Birth
+{
+	SetSelector
+	{
+		set hotspot
+		{
+			version
+			{
+			Visual GP X Hesperides Tree_birthA
+			}
+		}						 
+	}
+}
+
+//==============================================================================
+anim Idle
+{
+	SetSelector
+	{
+		set hotspot
+		{
+			version
+			{
+			Visual GP X Hesperides Tree_idleA
+			}
+		}						 
+	}
+}
+
+
+//==============================================================================
+anim Death
+{
+	SetSelector
+	{
+		set hotspot
+		{
+			version
+			{
+			Visual GP X Hesperides Tree_deathA
+			}
+		}						 
+	}
+}

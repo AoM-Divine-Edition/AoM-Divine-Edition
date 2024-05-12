@@ -1,0 +1,45 @@
+//==============================================================================
+// Bow Defines_anim.txt
+//==============================================================================
+
+//==============================================================================
+define bow
+{
+	TechLogic none/Copper Weapons/Bronze Weapons/Iron Weapons/Bone Bow
+	set hotspot
+	{
+		version
+		{
+			Visual Attachments A Bow
+		}
+	}
+	set hotspot
+	{
+		version
+		{
+			Visual Attachments A Bow Copper
+		}
+	}
+	set hotspot
+	{
+		version
+		{
+			Visual Attachments A Bow Bronze
+		}
+	}
+	set hotspot
+	{
+		version
+		{
+			Visual Attachments A Bow Iron
+		}
+	}
+	set hotspot
+	{
+		version
+		{
+			Visual Attachments A Bow
+			ReplaceTexture Attachments A Bow map/Attachments E Bow Bone
+		}
+	}
+}

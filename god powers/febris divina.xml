@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="FebrisDivina" type="ShowUnit" techname="Febris Divina">
+	<ActiveTime>20.0</ActiveTime>
+	<placement forceonmap="1" matchtype="Settlement Level 1">unit</placement>
+	<UnitType>UnitClass</UnitType>
+	<ShowProto>ApolloFebrisTemp</ShowProto>
+	<StartSoundSet>GodPowerStart</StartSoundSet>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">PestilenceBirth</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<EndSoundSet>GodPowerEnd</EndSoundSet>
+	<Pattern>ExpandingRadius</Pattern>
+	<PatternStartSize>5</PatternStartSize>
+	<PatternGrowthSize>1</PatternGrowthSize>
+	<PatternGrowthInterval>1</PatternGrowthInterval>
+	<icon>roman icon febris divina</icon>
+	<usedicon>roman icon febris divina used</usedicon>
+</power>

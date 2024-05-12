@@ -1,0 +1,39 @@
+//==============================================================================
+// manticore barb_anim.txt
+//==============================================================================
+
+//==============================================================================
+define SunRay
+{
+	set hotspot
+	{
+		version
+		{
+			Visualparticle SFX A Hero Glow Small
+		}
+	}
+}
+
+//==============================================================================
+anim Idle
+{
+	SetSelector
+	{
+		TechLogic none/Sun Ray
+		set hotspot
+		{
+			version
+			{
+				Visual Special G Manticore Barbs
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Special G Manticore Barbs
+				Connect hotspot SunRay hotspot
+			}
+		}
+	}
+}

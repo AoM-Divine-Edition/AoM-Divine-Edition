@@ -1,0 +1,58 @@
+// credit to LOME
+
+//==============================================================================
+// butterfly_anim.txt
+//==============================================================================
+
+
+//==============================================================================
+anim Idle
+{
+    SetSelector
+    {
+	variationlogic
+   	SetSelector
+   	{
+		set hotspot
+		{
+			version
+			{
+				Visual Skybox Hemisphere
+				ReplaceTexture Skybox Golden/Skybox Cloudy
+			}
+		}
+	}
+SetSelector
+   	{
+		set hotspot
+		{
+			version
+			{
+				Visual Skybox Hemisphere
+				ReplaceTexture Skybox Golden/Skybox Eldritch 1
+			}
+		}
+	}
+SetSelector
+   	{
+		set hotspot
+		{
+			version
+			{
+				Visual Skybox Hemisphere
+				ReplaceTexture Skybox Golden/Skybox Eldritch 2
+			}
+		}
+	}
+   	SetSelector
+   	{
+		set hotspot
+		{
+			version
+			{
+				Visual Skybox Hemisphere
+			}
+		}
+	}
+    }
+}

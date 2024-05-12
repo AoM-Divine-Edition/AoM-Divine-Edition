@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Blizzard" type="Tsunami" techname="Blizzard">
+	<builduptime soundset="TsunamiBirth">0.1</builduptime>
+	<activetime>20.0</activetime>
+	<minimapeventtime>60.0</minimapeventtime>
+	<placementprotounitid>Tsunami Range Indicator</placementprotounitid>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<placement forceonmap="1">full</placement>
+	<radius>10.0</radius>
+	<powerblocker>20.0f</powerblocker>
+	<gpdamagemodel>
+		<playerrelation>enemy</playerrelation>
+		<basedamagepercentunit>1.80</basedamagepercentunit>
+		<basedamagepercentvillager>1.30</basedamagepercentvillager>
+		<basedamagepercentbuilding>0.80</basedamagepercentbuilding>
+		<minhpdamageunit>450</minhpdamageunit>
+		<minhpdamagevillager>150</minhpdamagevillager>
+		<minhpdamagebuilding>200</minhpdamagebuilding>
+		<maxhpdamageunit>900</maxhpdamageunit>
+		<maxhpdamagevillager>200</maxhpdamagevillager>
+		<maxhpdamagebuilding>250</maxhpdamagebuilding>
+	</gpdamagemodel>
+	<gpdamagemodel>
+		<playerrelation>ally</playerrelation>
+		<basedamagepercentunit>0</basedamagepercentunit>
+		<basedamagepercentvillager>0</basedamagepercentvillager>
+		<basedamagepercentbuilding>0</basedamagepercentbuilding>
+		<minhpdamageunit>0</minhpdamageunit>
+		<minhpdamagevillager>0</minhpdamagevillager>
+		<minhpdamagebuilding>0</minhpdamagebuilding>
+		<maxhpdamageunit>0</maxhpdamageunit>
+		<maxhpdamagevillager>0</maxhpdamagevillager>
+		<maxhpdamagebuilding>0</maxhpdamagebuilding>
+	</gpdamagemodel>
+	
+	<!--Tsunamis are made up on multiple children spaced out-->
+	<childfx>Blizzard</childfx>
+	<numchildren>4</numchildren>
+	<childspacing>6.0</childspacing> <!--distance between each child. Damage radius is based on this-->
+
+	<!--General Characteristics of tsunami-->
+	<movementspeed>9.6</movementspeed>
+	<height>6.0</height>
+	<debris>Tornado Debris</debris>
+	<!--<dirttexture>SFX A Tornado Dirt</dirttexture>
+	<snowtexture>SFX A Tornado Snow</snowtexture>
+	<watertexture>SFX A Tornado Water</watertexture>
+	<dirttexture>SFX A Tornado Dirt</dirttexture>
+	<snowtexture>SFX A Tornado Snow</snowtexture>
+	<watertexture>SFX A Tornado Water</watertexture>-->
+	<damagetype>LogicalTypeTornadoAttack</damagetype>
+	<scantime>0.5</scantime>
+	<attackgaiaaccuracy>0.5</attackgaiaaccuracy>
+	<minthrowdistance>9.0</minthrowdistance>
+	<maxthrowdistance>15.0</maxthrowdistance>
+	<minthrowheight>4.0</minthrowheight>
+	<maxthrowheight>5.0</maxthrowheight>
+	<minthrowvelocity>10.0</minthrowvelocity>
+	<maxthrowvelocity>20.0</maxthrowvelocity>
+	<dontthrow>Building</dontthrow>
+	<dontthrow>Wood</dontthrow>
+	<dontthrow>Gold</dontthrow>
+	<dontthrow>Fish</dontthrow>
+	<cantsuck>AbstractSettlement</cantsuck>
+	<cantsuck>Farm</cantsuck>
+	<cantsuck>Building</cantsuck>
+	<cantsuck>Gold</cantsuck>
+	<cantsuck>Wave</cantsuck>
+	<numberobjsperbuilding>2</numberobjsperbuilding>
+	<xzvelocity>10.5</xzvelocity>
+	<yvelocity>3.0</yvelocity>
+	<angularvelocity>43.14</angularvelocity>
+	<terrainlogic>
+		<terrainuiclass>Snow</terrainuiclass>
+		<texture>SFX A Tornado Snow</texture>
+	</terrainlogic>
+	<icon>SnowyIcon</icon>
+	<usedicon>SnowyIcon</usedicon>
+</power>

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+
+<ProtoUnitSoundDef>
+	<ProtoUnit name ="Ram">
+		<SoundType name ="Select">
+			<SoundSet name ="SetSelect"></SoundSet>
+		</SoundType>
+		<SoundType name ="Hit">
+			<DamageTypeLogic>
+				<Choice name ="Crush">
+					<SoundSet name ="CrushFlesh"></SoundSet>
+				</Choice>
+				<Choice name ="Fire">
+					<SoundSet name ="HackFlesh"></SoundSet>
+				</Choice>
+				<Choice name ="Hack">
+					<SoundSet name ="HackFlesh"></SoundSet>
+				</Choice>
+				<Choice name ="Pierce">
+					<SoundSet name ="PierceFlesh"></SoundSet>
+				</Choice>
+				<Choice name ="Slash">
+					<SoundSet name ="HackFlesh"></SoundSet>
+				</Choice>
+			</DamageTypeLogic>
+		</SoundType>
+		<SoundType name ="Acknowledge">
+			<TargetLogic>
+				<Choice name ="default">
+					<SoundSet name ="SetAcknowledge"></SoundSet>
+				</Choice>
+				<Choice name ="enemy">
+					<SoundSet name ="SetAttack"></SoundSet>
+				</Choice>
+			</TargetLogic>
+		</SoundType>
+	</ProtoUnit>
+</ProtoUnitSoundDef>

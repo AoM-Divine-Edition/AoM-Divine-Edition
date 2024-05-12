@@ -1,0 +1,65 @@
+//==============================================================================
+// Fire Giant_anim.txt
+//==============================================================================
+
+//==============================================================================
+define AtlanteanBirthSFX
+{
+   set hotspot
+   {
+      version
+      {
+         VisualParticle SFX X Myth Unit Birth Effect
+      }
+   }
+}
+
+//==============================================================================
+define knife
+{
+	set hotspot
+	{
+		version
+		{
+			Visual NXevildagger
+		}
+	}
+}
+
+
+
+
+//==============================================================================
+anim Idle
+{
+   SetSelector
+   {
+		SetSelector 
+		{
+			set hotspot
+			{
+				version
+				{
+   				Visual Cultist_Sacrifice
+				Connect RightHand knife hotspot	
+				}
+			}
+		}
+   }
+}
+
+
+//==============================================================================
+anim Death
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+
+         }
+      }
+   }
+}

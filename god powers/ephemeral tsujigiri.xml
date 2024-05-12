@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="EphemeralTsujigiri" type="TartarianGate" techname="Ephemeral Tsujigiri">
+	<activetime>-1 </activetime>
+	<radius>4.0</radius>
+	<sinkholetime>4.0 </sinkholetime>
+	<sinkholedepth>0.0 </sinkholedepth>
+	<spawntimedelay>1.0 </spawntimedelay>
+	<sinkholeshakestrength>0.08 </sinkholeshakestrength>
+	<camerashake duration="1.0" strength="0.20"></camerashake>
+	<rumbleheight>0.03 </rumbleheight>
+	<rumblewidth>1.0 </rumblewidth>
+	<rumblespeed>25.0 </rumblespeed>
+	<rumbletime>4.0 </rumbletime>
+	<rumblefadetime>0.5 </rumblefadetime>
+	<attackproto>Ephemeral Tsujigiri</attackproto>
+	<attackinterval>0.15</attackinterval>
+	<initialnumbadthingstospawn>0 </initialnumbadthingstospawn>
+	<spawnintervalmin>0.2 </spawnintervalmin>
+	<spawnintervalmax>0.6 </spawnintervalmax>
+	<maxnumbadthings>25 </maxnumbadthings>
+	<wanderradius>1.0 </wanderradius>
+	<badthingproto>Training Spirit</badthingproto>
+	<gatebirth>Tartarian Gate birth</gatebirth>
+	<gateflame>Tartarian Gate flame</gateflame>
+	<creatureeffect>Tartarian Gate creature effect</creatureeffect>
+	<attacktreeaccuracy>0.25</attacktreeaccuracy>
+	<abstractattacktargettype>LogicalTypeVolcanoAttack</abstractattacktargettype>
+	<gpdamagemodel>
+		<playerrelation>enemy</playerrelation>
+		<basedamagepercentunit>0.20</basedamagepercentunit>
+		<basedamagepercentvillager>0.20</basedamagepercentvillager>
+		<basedamagepercentbuilding>0.50</basedamagepercentbuilding>
+		<minhpdamageunit>200</minhpdamageunit>
+		<minhpdamagevillager>75</minhpdamagevillager>
+		<minhpdamagebuilding>500</minhpdamagebuilding>
+		<maxhpdamageunit>500</maxhpdamageunit>
+		<maxhpdamagevillager>100</maxhpdamagevillager>
+		<maxhpdamagebuilding>2000</maxhpdamagebuilding>
+	</gpdamagemodel>
+	<gpdamagemodel>
+		<playerrelation>ally</playerrelation>
+		<basedamagepercentunit>0.10</basedamagepercentunit>
+		<basedamagepercentvillager>0.10</basedamagepercentvillager>
+		<basedamagepercentbuilding>0.25</basedamagepercentbuilding>
+		<minhpdamageunit>25</minhpdamageunit>
+		<minhpdamagevillager>10</minhpdamagevillager>
+		<minhpdamagebuilding>100</minhpdamagebuilding>
+		<maxhpdamageunit>100</maxhpdamageunit>
+		<maxhpdamagevillager>25</maxhpdamagevillager>
+		<maxhpdamagebuilding>500</maxhpdamagebuilding>
+	</gpdamagemodel>
+	<dustsmallproto>Dust Small</dustsmallproto>
+	<dustmediumproto>Dust Medium</dustmediumproto>
+	<dustlargeproto>Dust Large</dustlargeproto>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<placement forceonmap="1" losprotounit="Ephemeral Tsujigiri">full</placement>
+	<placementprotounitid>Tartarian Gate placement</placementprotounitid>
+	<expandcheckplacementhull></expandcheckplacementhull>
+	<unitaitype>Earthquake</unitaitype>
+
+	<recharges>0</recharges>
+	<rechargetime>60</rechargetime>
+</power>

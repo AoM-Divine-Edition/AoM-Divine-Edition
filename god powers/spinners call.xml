@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="SpinnersCall" type="swapunit" techname="Spinners Call">
+	<activetime>2.6</activetime>
+	<radius>20.0</radius>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">RagnarokBirth</soundset>
+	<placement forceonmap="1">skip</placement>
+	<powerplayerrelation>player</powerplayerrelation>
+	<overallchance>1.0</overallchance>
+	<global></global>
+	<abstracttype swapto="Huntsman Spider">Huntsman</abstracttype>
+	<abstracttype swapto="Ravager Spider">Ravager</abstracttype>
+	<abstracttype swapto="Lunatic Spider">Lunatic</abstracttype>
+	<swapdelay>0.5</swapdelay>
+	<sfx>Ragnorok SFX</sfx>
+	<swapselfonly></swapselfonly>
+	<icon>improvement spinners call icon</icon>
+	<usedicon>improvement spinners call icon done</usedicon>
+
+	<recharges>0</recharges>
+	<rechargetime>30 </rechargetime>
+</power>

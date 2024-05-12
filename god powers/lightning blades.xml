@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="lightningblades" type="flamingweapons" techname="Lightning Blades">
+	<placement forceonmap="1" matchtype="LogicalTypeValidFlamingWeaponsTarget">unit</placement>
+	<activetime>60</activetime>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">FlamingWeapons</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<abstractattacktargettype>LogicalTypeValidFlamingWeaponsTarget</abstractattacktargettype>
+	<powerplayerrelation>player</powerplayerrelation>
+	<playsbattlemusic></playsbattlemusic>
+	<tech>Lightning Blades Active</tech>
+	<particlesfxnode>
+		<unittype>Samurai</unittype>
+		<sfx>lamp post lightning</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Samurai Cavalry</unittype>
+		<sfx>lamp post lightning</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Samurai Archer</unittype>
+		<sfx>lamp post lightning</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Naginata</unittype>
+		<sfx>lamp post lightning</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Ashigaru Otsuchiman</unittype>
+		<sfx>lamp post lightning</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Ashigaru Pikeman</unittype>
+		<sfx>lamp post lightning</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Ashigaru Crossbowman</unittype>
+		<sfx>lamp post lightning</sfx>
+	</particlesfxnode>
+
+		
+		<recharges>0</recharges>
+	<rechargetime>45 </rechargetime>
+</power>

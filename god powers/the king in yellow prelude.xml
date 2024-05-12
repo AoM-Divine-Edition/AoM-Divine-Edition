@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="TheKingInYellowPrelude" type="TempUnit" techname="The King In Yellow Prelude">
+	<activetime>25.0</activetime>
+	<placement forceonmap="1">skip</placement>
+	<createunit quantity="4" radius="0" delay="0">Osiris Birth</createunit>
+	<createunit quantity="8" radius="0" delay="2">Osiris Birth</createunit>
+	<createunit quantity="16" radius="0" delay="4">Osiris Birth</createunit>
+	<rangeindicatorprotoid radius="20.0" indicatorcount="10" speed="0.2">UI Range Indicator Egypt SFX</rangeindicatorprotoid>
+	<minimapeventtime sendalertto="ally">10.0</minimapeventtime>
+	<icon>god power vision icon</icon>
+	<usedicon>god power vision icon done</usedicon>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="Caster">VisionSwoosh</soundset>
+</power>

@@ -1,0 +1,128 @@
+//==============================================================================
+// palm tree_anim.txt
+//==============================================================================
+
+
+//==============================================================================
+define Roots
+{
+   set hotspot
+   {
+      version
+      {
+//         Visual World A Tree Root
+      }
+   }  
+}
+
+
+//==============================================================================
+anim Idle
+{
+	SetSelector
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual ZCherryTree
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual ZCherryTree2
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual ZCherryTree3
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Death
+{
+	SetSelector
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual ZCherryTree
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual ZCherryTree2
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual ZCherryTree3
+			}
+		}
+	}
+}
+
+//==============================================================================
+
+anim Flail
+
+{
+   SetSelector none 
+   {
+      VariationLogic
+      set hotspot
+      {
+         version
+         {
+            Visual World E Palm A_flail
+				connect ATTACHPOINT Roots HOTSPOT
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+            Visual World E Palm B_flail
+				connect ATTACHPOINT Roots HOTSPOT
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+            Visual World E Palm C_flail
+				connect ATTACHPOINT Roots HOTSPOT
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+            Visual World E Palm D_flail
+				connect ATTACHPOINT Roots HOTSPOT
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+            Visual World E Palm E_flail
+				connect ATTACHPOINT Roots HOTSPOT
+         }
+      }
+   }
+}

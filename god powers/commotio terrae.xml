@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="CommotioTerrae" type="Earthquake" techname="Commotio Terrae">
+	<activetime>30.0</activetime>
+	<radius>45.0</radius>
+	<rangeindicatorprotoid radius="45.0" indicatorcount="10" speed="0.2">UI Range Indicator Greek SFX</rangeindicatorprotoid>
+	<rumbleheight>0.05</rumbleheight>
+	<rumblewidth>4.0</rumblewidth>
+	<rumblespeed>5.0</rumblespeed>
+	<rumblefadetime>2.0</rumblefadetime>
+	<attackproto>EarthquakeNeptune</attackproto>
+	<attackinterval>0.25</attackinterval>
+	<attackunitaccuracy>0.25</attackunitaccuracy>
+	<attackbuildingaccuracy>0.75</attackbuildingaccuracy>
+	<attacktreeaccuracy>0.00</attacktreeaccuracy>
+	<abstractattacktargettype>LogicalTypeEarthquakeAttack</abstractattacktargettype>
+	<gpdamagemodel>
+		<playerrelation>enemy</playerrelation>
+		<basedamagepercentunit>0.00</basedamagepercentunit>
+		<basedamagepercentvillager>0.00</basedamagepercentvillager>
+		<basedamagepercentbuilding>0.8</basedamagepercentbuilding>
+		<minhpdamageunit>000</minhpdamageunit>
+		<minhpdamagevillager>000</minhpdamagevillager>
+		<minhpdamagebuilding>95000</minhpdamagebuilding>
+		<maxhpdamageunit>000</maxhpdamageunit>
+		<maxhpdamagevillager>000</maxhpdamagevillager>
+		<maxhpdamagebuilding>120000</maxhpdamagebuilding>
+	</gpdamagemodel>
+	<gpdamagemodel>
+		<playerrelation>ally</playerrelation>
+		<basedamagepercentunit>0.00</basedamagepercentunit>
+		<basedamagepercentvillager>0.00</basedamagepercentvillager>
+		<basedamagepercentbuilding>0.1</basedamagepercentbuilding>
+		<minhpdamageunit>000</minhpdamageunit>
+		<minhpdamagevillager>000</minhpdamagevillager>
+		<minhpdamagebuilding>9500</minhpdamagebuilding>
+		<maxhpdamageunit>000</maxhpdamageunit>
+		<maxhpdamagevillager>000</maxhpdamagevillager>
+		<maxhpdamagebuilding>12000</maxhpdamagebuilding>
+	</gpdamagemodel>
+	<dustsmallproto>Dust Small</dustsmallproto>
+	<dustmediumproto>Dust Medium</dustmediumproto>
+	<dustlargeproto>Dust Large</dustlargeproto>
+	<powerblocker>45.0f</powerblocker>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="ExistSound" listenertype="IfOnScreenAll" loop="">EarthquakeExist</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<placement forceonmap="1">full</placement>
+	<reveallos radius="45.0">Revealer To Player</reveallos>
+	<icon>roman icon commotio terrae</icon>
+	<usedicon>roman icon commotio terrae used</usedicon>
+	<unitaitype>Earthquake</unitaitype>
+</power>

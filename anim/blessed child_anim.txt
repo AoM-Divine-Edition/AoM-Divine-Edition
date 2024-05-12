@@ -1,0 +1,112 @@
+//==============================================================================
+// goatnubian_anim.txt
+//==============================================================================
+
+
+//==============================================================================
+anim bored
+{
+   SetSelector none
+   {
+	  InventoryLogic 25 75
+      set hotspot
+      {
+         version
+         {
+		      Visual Animal goatnubian_boredA
+         }
+       }
+	  set hotspot
+	  {
+         version
+         {
+            Visual Animal goatnubian Fat_boredA
+         }
+       }
+   }
+}
+
+//==============================================================================
+anim death
+{
+   SetSelector none
+   {
+	  InventoryLogic 25 75
+      set hotspot
+      {
+         version
+         {
+		      Visual Animal goatnubian_deathA
+         }
+       }
+//	  set hotspot
+//	  {
+//         version
+//         {
+//            Visual Animal goatnubian Fat_deathA
+//         }
+//       }
+   }
+}
+
+//==============================================================================
+anim walk
+{
+   SetSelector none
+   {
+	  InventoryLogic 25 75
+      set hotspot
+      {
+         version
+         {
+		      Visual Animal goatnubian_walkA
+         }
+       }
+//	  set hotspot
+//	  {
+//         version
+//         {
+//            Visual Animal goatnubian Fat_walkA
+//         }
+//       }
+   }
+}
+
+//==============================================================================
+anim idle
+{
+   SetSelector none
+   {
+	  InventoryLogic 25 75
+      set hotspot
+      {
+         version
+         {
+		      Visual Animal goatnubian_idleA
+         }
+   	     version
+         {
+		      Visual Animal goatnubian_idleB
+         }
+		 version
+         {
+		      Visual Animal goatnubian_idleC
+         }
+      }
+	  set hotspot
+	  {
+         version
+         {
+            Visual Animal goatnubian Fat_IdleA
+         }
+         version
+         {
+            Visual Animal goatnubian Fat_IdleB
+         }
+         version
+         {
+            Visual Animal goatnubian Fat_IdleC
+         }
+      }
+   }
+}

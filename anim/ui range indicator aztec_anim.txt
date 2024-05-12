@@ -1,0 +1,17 @@
+//===========================================================================
+//Ui Range Indicator
+//==============================================================================
+
+anim Idle
+{
+	SetSelector none 
+	{
+		set hotspot
+		{
+		version
+			{
+			Visualparticle UI Range Indicator aztec
+			}
+		}
+	}
+}

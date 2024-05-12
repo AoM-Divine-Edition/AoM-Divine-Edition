@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<protounitsounddef>
+	<protounit name="Maelstrom3">
+		<soundtype name="Exists">
+			<soundset name="Maelstrom"></soundset>
+		</soundtype>
+	</protounit>
+</protounitsounddef>

@@ -1,0 +1,4790 @@
+//==============================================================================
+// armory_anim.txt
+//==============================================================================
+import Construction_defines_anim.txt
+import Examination_defines_anim.txt
+//==============================================================================
+define Dust
+{
+    set hotspot
+    {
+        version
+        {
+            Visualparticle SFX A Building DustA
+        }
+    }
+}
+//==============================================================================
+define Xflag
+{
+    set hotspot
+    {
+        version
+        {
+            Visual Building X Dock Flag
+        }
+    }
+}
+//==============================================================================
+define DustWater
+{
+    set hotspot
+    {
+        version
+        {
+            Visualparticle SFX A Building DustB
+        }
+    }
+}
+//==============================================================================
+define Wake
+{
+    set hotspot
+    {
+        version
+        {
+            Visualparticle SFX A Building Wake
+        }
+    }
+}
+//==============================================================================
+define empower
+{
+    SetSelector
+    {
+        EmpowerLogic
+        SetSelector
+        {
+            set hotspot
+            {
+                version
+                {
+                    Visualnone Jimmy
+                }
+            }
+        }
+        SetSelector
+        {
+            set hotspot
+            {
+                version
+                {
+                    Visualparticle SFX E Pharaoh Empower Large
+                }
+            }
+        }
+    }
+}
+//==============================================================================
+define smoketiny
+{
+    set hotspot
+    {
+        version
+        {
+            Visualparticle SFX A Generic Smoke Tiny
+        }
+    }
+}
+//==============================================================================
+define Flame
+{
+    set hotspot
+    {
+        version
+        {
+            Visualparticle SFX A Generic Fire Small
+        }
+    }
+}
+//==============================================================================
+define Glow
+{
+    set hotspot
+    {
+        version
+        {
+            VisualParticle Building SFX A Lighthouse Glow Particle
+        }
+    }
+}
+//==============================================================================
+define AtlantisGlow1
+{
+    set hotspot
+    {
+        version
+        {
+            VisualParticle Building SFX X Lighthouse Glow Particle1
+        }
+    }
+}
+//==============================================================================
+define AtlantisGlow2
+{
+    set hotspot
+    {
+        version
+        {
+            VisualParticle Building SFX X Lighthouse Glow Particle2
+        }
+    }
+}
+//==============================================================================
+define AtlantisGlow3
+{
+    set hotspot
+    {
+        version
+        {
+            VisualParticle Building SFX X Lighthouse Glow Particle3
+        }
+    }
+}
+//==============================================================================
+define CypressOne
+{
+    set hotspot
+    {
+        version
+        {
+            Visual Terrain G CypressA
+        }
+    }
+}
+//==============================================================================
+define CypressTwo
+{
+    set hotspot
+    {
+        version
+        {
+            Visual Terrain G CypressB
+        }
+    }
+}
+//==============================================================================
+define VINEA
+{
+    set hotspot
+    {
+        version
+        {
+            Visual Building VineA
+        }
+    }
+}
+//==============================================================================
+define VINEB
+{
+    set hotspot
+    {
+        version
+        {
+            Visual Building VineB
+        }
+    }
+}
+//==============================================================================
+define Shield
+{
+    TechLogic Copper shields/Bronze shields/Iron shields
+    set hotspot
+    {
+        version
+        {
+            Visual Attachments G Shield wood
+        }
+    }
+    set hotspot
+    {
+        version
+        {
+            Visual Attachments G Shield iron
+        }
+    }
+    set hotspot
+    {
+        version
+        {
+            Visual Attachments G Shield bronze
+        }
+    }
+}
+//==============================================================================
+define GenericSmoke
+{
+    set hotspot
+    {
+        version
+        {
+            Visualparticle SFX A Generic Smoke Medium
+        }
+    }
+}
+
+
+
+//=============================================================================
+define Tage1
+{
+		set hotspot
+		{
+				version
+				{
+						Visual Aztec DockIII
+						ReplaceTexture AztecDock/AztecDock1
+
+					}
+		}
+
+}
+
+//=============================================================================
+define Tage2
+{
+		set hotspot
+		{
+				version
+				{
+						Visual Aztec DockIII
+						ReplaceTexture AztecDock/AztecDock0
+				}
+		}
+
+
+}
+
+
+//=============================================================================
+define Tage3
+{
+		set hotspot
+		{
+				version
+				{
+						Visual Aztec DockIII
+						ReplaceTexture AztecDock/AztecDock3
+				}
+		}
+
+
+}
+
+//=============================================================================
+define Tage4
+{
+		set hotspot
+		{
+				version
+				{
+						Visual Aztec DockIII
+				}
+		}
+
+
+}
+
+//==============================================================================
+anim Idle
+{
+    SetSelector
+    {
+        TechLogic none/Aztec Civ/Roman Civ/Lakota Civ
+
+        
+
+
+        SetSelector
+        {
+            CultureLogic Egyptian/Greek/Norse/Atlantean/Chinese
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -Egyptian- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 1- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+            SetSelector
+            {
+                TechLogic none/age 2/age 3/age 4
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building E TradeDock Age1
+                            connect Face Glow hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building E ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 2- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building E TradeDock Age2
+                            connect Face Glow hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building E ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 3- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building E TradeDock Age3
+                            connect Face Glow hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building E ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 4- - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                setSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building E TradeDock Age4
+                            connect Face Glow hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building E ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+            }
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - -Greek- - - - - - - - - - - - - - - - - - - - - - - - - - -//
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 1- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+            SetSelector
+            {
+		    TechLogic none/Eldritch Civ
+		    SetSelector
+		    {
+                TechLogic none/age 2/age 3/age 4
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G TradedockAge0
+                            connect Face Glow hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 2- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G TradedockAge1
+                            connect Face Glow hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 3- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G TradedockAge2
+                            connect Face Glow hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 4- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G TradedockAge3
+                            connect Face Glow hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+	        }
+		    SetSelector
+		    {
+                TechLogic none/age 2/age 3/age 4
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G TradedockAge0
+                            connect Face Glow hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+			    ReplaceTexture Building G Settlement02/Building Eld Settlement02
+			    ReplaceTexture Building G Settlementage1/Building Eld Settlementage1
+			    ReplaceTexture Building G Settlementage2/Building Eld Settlementage2
+			    ReplaceTexture Building G Settlementage3/Building Eld Settlementage3
+			    ReplaceTexture Building G Settlementfence/Building Eld Settlementfence
+
+			    ReplaceTexture Building G age0/Building Eld age0
+			    ReplaceTexture Building G fortifiedwall/Building Eld fortifiedwall
+			    ReplaceTexture Building G gateall/Building Eld gateall
+			    ReplaceTexture Building G roofage1/Building Eld roofage1
+			    ReplaceTexture Building G roofage2/Building Eld roofage2
+			    ReplaceTexture Building G roofage3/Building Eld roofage3
+			    ReplaceTexture Building G ruins/Building Eld ruins
+			    ReplaceTexture Building G shrine/Building Eld shrine
+			    ReplaceTexture Building G templeage1/Building Eld templeage1
+			    ReplaceTexture Building G templeage2/Building Eld templeage2
+			    ReplaceTexture Building G towerbasearea/Building Eld towerbasearea
+			    ReplaceTexture Building G towers/Building Eld towers
+			    ReplaceTexture Building G wallsage1/Building Eld wallsage1
+			    ReplaceTexture Building G wallsage2/Building Eld wallsage2
+			    ReplaceTexture Building G wallsage3/Building Eld wallsage3
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+			    ReplaceTexture Building G Settlement02/Building Eld Settlement02
+			    ReplaceTexture Building G Settlementage1/Building Eld Settlementage1
+			    ReplaceTexture Building G Settlementage2/Building Eld Settlementage2
+			    ReplaceTexture Building G Settlementage3/Building Eld Settlementage3
+			    ReplaceTexture Building G Settlementfence/Building Eld Settlementfence
+
+			    ReplaceTexture Building G age0/Building Eld age0
+			    ReplaceTexture Building G fortifiedwall/Building Eld fortifiedwall
+			    ReplaceTexture Building G gateall/Building Eld gateall
+			    ReplaceTexture Building G roofage1/Building Eld roofage1
+			    ReplaceTexture Building G roofage2/Building Eld roofage2
+			    ReplaceTexture Building G roofage3/Building Eld roofage3
+			    ReplaceTexture Building G ruins/Building Eld ruins
+			    ReplaceTexture Building G shrine/Building Eld shrine
+			    ReplaceTexture Building G templeage1/Building Eld templeage1
+			    ReplaceTexture Building G templeage2/Building Eld templeage2
+			    ReplaceTexture Building G towerbasearea/Building Eld towerbasearea
+			    ReplaceTexture Building G towers/Building Eld towers
+			    ReplaceTexture Building G wallsage1/Building Eld wallsage1
+			    ReplaceTexture Building G wallsage2/Building Eld wallsage2
+			    ReplaceTexture Building G wallsage3/Building Eld wallsage3
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 2- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G TradedockAge1
+                            connect Face Glow hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+			    ReplaceTexture Building G Settlement02/Building Eld Settlement02
+			    ReplaceTexture Building G Settlementage1/Building Eld Settlementage1
+			    ReplaceTexture Building G Settlementage2/Building Eld Settlementage2
+			    ReplaceTexture Building G Settlementage3/Building Eld Settlementage3
+			    ReplaceTexture Building G Settlementfence/Building Eld Settlementfence
+
+			    ReplaceTexture Building G age0/Building Eld age0
+			    ReplaceTexture Building G fortifiedwall/Building Eld fortifiedwall
+			    ReplaceTexture Building G gateall/Building Eld gateall
+			    ReplaceTexture Building G roofage1/Building Eld roofage1
+			    ReplaceTexture Building G roofage2/Building Eld roofage2
+			    ReplaceTexture Building G roofage3/Building Eld roofage3
+			    ReplaceTexture Building G ruins/Building Eld ruins
+			    ReplaceTexture Building G shrine/Building Eld shrine
+			    ReplaceTexture Building G templeage1/Building Eld templeage1
+			    ReplaceTexture Building G templeage2/Building Eld templeage2
+			    ReplaceTexture Building G towerbasearea/Building Eld towerbasearea
+			    ReplaceTexture Building G towers/Building Eld towers
+			    ReplaceTexture Building G wallsage1/Building Eld wallsage1
+			    ReplaceTexture Building G wallsage2/Building Eld wallsage2
+			    ReplaceTexture Building G wallsage3/Building Eld wallsage3
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+			    ReplaceTexture Building G Settlement02/Building Eld Settlement02
+			    ReplaceTexture Building G Settlementage1/Building Eld Settlementage1
+			    ReplaceTexture Building G Settlementage2/Building Eld Settlementage2
+			    ReplaceTexture Building G Settlementage3/Building Eld Settlementage3
+			    ReplaceTexture Building G Settlementfence/Building Eld Settlementfence
+
+			    ReplaceTexture Building G age0/Building Eld age0
+			    ReplaceTexture Building G fortifiedwall/Building Eld fortifiedwall
+			    ReplaceTexture Building G gateall/Building Eld gateall
+			    ReplaceTexture Building G roofage1/Building Eld roofage1
+			    ReplaceTexture Building G roofage2/Building Eld roofage2
+			    ReplaceTexture Building G roofage3/Building Eld roofage3
+			    ReplaceTexture Building G ruins/Building Eld ruins
+			    ReplaceTexture Building G shrine/Building Eld shrine
+			    ReplaceTexture Building G templeage1/Building Eld templeage1
+			    ReplaceTexture Building G templeage2/Building Eld templeage2
+			    ReplaceTexture Building G towerbasearea/Building Eld towerbasearea
+			    ReplaceTexture Building G towers/Building Eld towers
+			    ReplaceTexture Building G wallsage1/Building Eld wallsage1
+			    ReplaceTexture Building G wallsage2/Building Eld wallsage2
+			    ReplaceTexture Building G wallsage3/Building Eld wallsage3
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 3- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G TradedockAge2
+                            connect Face Glow hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+			    ReplaceTexture Building G Settlement02/Building Eld Settlement02
+			    ReplaceTexture Building G Settlementage1/Building Eld Settlementage1
+			    ReplaceTexture Building G Settlementage2/Building Eld Settlementage2
+			    ReplaceTexture Building G Settlementage3/Building Eld Settlementage3
+			    ReplaceTexture Building G Settlementfence/Building Eld Settlementfence
+
+			    ReplaceTexture Building G age0/Building Eld age0
+			    ReplaceTexture Building G fortifiedwall/Building Eld fortifiedwall
+			    ReplaceTexture Building G gateall/Building Eld gateall
+			    ReplaceTexture Building G roofage1/Building Eld roofage1
+			    ReplaceTexture Building G roofage2/Building Eld roofage2
+			    ReplaceTexture Building G roofage3/Building Eld roofage3
+			    ReplaceTexture Building G ruins/Building Eld ruins
+			    ReplaceTexture Building G shrine/Building Eld shrine
+			    ReplaceTexture Building G templeage1/Building Eld templeage1
+			    ReplaceTexture Building G templeage2/Building Eld templeage2
+			    ReplaceTexture Building G towerbasearea/Building Eld towerbasearea
+			    ReplaceTexture Building G towers/Building Eld towers
+			    ReplaceTexture Building G wallsage1/Building Eld wallsage1
+			    ReplaceTexture Building G wallsage2/Building Eld wallsage2
+			    ReplaceTexture Building G wallsage3/Building Eld wallsage3
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+			    ReplaceTexture Building G Settlement02/Building Eld Settlement02
+			    ReplaceTexture Building G Settlementage1/Building Eld Settlementage1
+			    ReplaceTexture Building G Settlementage2/Building Eld Settlementage2
+			    ReplaceTexture Building G Settlementage3/Building Eld Settlementage3
+			    ReplaceTexture Building G Settlementfence/Building Eld Settlementfence
+
+			    ReplaceTexture Building G age0/Building Eld age0
+			    ReplaceTexture Building G fortifiedwall/Building Eld fortifiedwall
+			    ReplaceTexture Building G gateall/Building Eld gateall
+			    ReplaceTexture Building G roofage1/Building Eld roofage1
+			    ReplaceTexture Building G roofage2/Building Eld roofage2
+			    ReplaceTexture Building G roofage3/Building Eld roofage3
+			    ReplaceTexture Building G ruins/Building Eld ruins
+			    ReplaceTexture Building G shrine/Building Eld shrine
+			    ReplaceTexture Building G templeage1/Building Eld templeage1
+			    ReplaceTexture Building G templeage2/Building Eld templeage2
+			    ReplaceTexture Building G towerbasearea/Building Eld towerbasearea
+			    ReplaceTexture Building G towers/Building Eld towers
+			    ReplaceTexture Building G wallsage1/Building Eld wallsage1
+			    ReplaceTexture Building G wallsage2/Building Eld wallsage2
+			    ReplaceTexture Building G wallsage3/Building Eld wallsage3
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 4- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G TradedockAge3
+                            connect Face Glow hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+			    ReplaceTexture Building G Settlement02/Building Eld Settlement02
+			    ReplaceTexture Building G Settlementage1/Building Eld Settlementage1
+			    ReplaceTexture Building G Settlementage2/Building Eld Settlementage2
+			    ReplaceTexture Building G Settlementage3/Building Eld Settlementage3
+			    ReplaceTexture Building G Settlementfence/Building Eld Settlementfence
+
+			    ReplaceTexture Building G age0/Building Eld age0
+			    ReplaceTexture Building G fortifiedwall/Building Eld fortifiedwall
+			    ReplaceTexture Building G gateall/Building Eld gateall
+			    ReplaceTexture Building G roofage1/Building Eld roofage1
+			    ReplaceTexture Building G roofage2/Building Eld roofage2
+			    ReplaceTexture Building G roofage3/Building Eld roofage3
+			    ReplaceTexture Building G ruins/Building Eld ruins
+			    ReplaceTexture Building G shrine/Building Eld shrine
+			    ReplaceTexture Building G templeage1/Building Eld templeage1
+			    ReplaceTexture Building G templeage2/Building Eld templeage2
+			    ReplaceTexture Building G towerbasearea/Building Eld towerbasearea
+			    ReplaceTexture Building G towers/Building Eld towers
+			    ReplaceTexture Building G wallsage1/Building Eld wallsage1
+			    ReplaceTexture Building G wallsage2/Building Eld wallsage2
+			    ReplaceTexture Building G wallsage3/Building Eld wallsage3
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+			    ReplaceTexture Building G Settlement02/Building Eld Settlement02
+			    ReplaceTexture Building G Settlementage1/Building Eld Settlementage1
+			    ReplaceTexture Building G Settlementage2/Building Eld Settlementage2
+			    ReplaceTexture Building G Settlementage3/Building Eld Settlementage3
+			    ReplaceTexture Building G Settlementfence/Building Eld Settlementfence
+
+			    ReplaceTexture Building G age0/Building Eld age0
+			    ReplaceTexture Building G fortifiedwall/Building Eld fortifiedwall
+			    ReplaceTexture Building G gateall/Building Eld gateall
+			    ReplaceTexture Building G roofage1/Building Eld roofage1
+			    ReplaceTexture Building G roofage2/Building Eld roofage2
+			    ReplaceTexture Building G roofage3/Building Eld roofage3
+			    ReplaceTexture Building G ruins/Building Eld ruins
+			    ReplaceTexture Building G shrine/Building Eld shrine
+			    ReplaceTexture Building G templeage1/Building Eld templeage1
+			    ReplaceTexture Building G templeage2/Building Eld templeage2
+			    ReplaceTexture Building G towerbasearea/Building Eld towerbasearea
+			    ReplaceTexture Building G towers/Building Eld towers
+			    ReplaceTexture Building G wallsage1/Building Eld wallsage1
+			    ReplaceTexture Building G wallsage2/Building Eld wallsage2
+			    ReplaceTexture Building G wallsage3/Building Eld wallsage3
+                        }
+                    }
+                }
+	        }
+            }
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - -Norse- - - - - - - - - - - - - - - - - - - - - - - - - - -//
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 1- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+            SetSelector
+            {
+                TechLogic none/age 2/age 3/age 4
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building N TradeDockAge1
+                            connect face Flame hotspot
+                            connect neck SmokeTiny hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building N ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 2- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                setSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building N TradeDockAge2
+                            connect face Flame hotspot
+                            connect neck SmokeTiny hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building N ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 3- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                setSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building N TradeDockAge3
+                            connect face Flame hotspot
+                            connect neck SmokeTiny hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building N ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 4- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                setSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building N TradeDockAge4
+                            connect face Flame hotspot
+                            connect neck SmokeTiny hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building N ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+            }
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - -Atlantean- - - - - - - - - - - - - - - - - - - - - - - - - - -//
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 1- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+            SetSelector
+            {
+                TechLogic none/age 2/age 3/age 4
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building X Dock Age0
+                            connect hotspot Xflag hotspot
+                            connect Chin AtlantisGlow1 hotspot
+                            connect Face AtlantisGlow2 hotspot
+                            connect Neck AtlantisGlow3 hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building X Construction dock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 2- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building X Dock Age1
+                            connect Chin AtlantisGlow1 hotspot
+                            connect Face AtlantisGlow2 hotspot
+                            connect Neck AtlantisGlow3 hotspot
+                            connect hotspot Xflag hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building X Construction dock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 3- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building X Dock Age2
+                            connect Chin AtlantisGlow1 hotspot
+                            connect Face AtlantisGlow2 hotspot
+                            connect Neck AtlantisGlow3 hotspot
+                            connect hotspot Xflag hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building X Construction dock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 4- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building X Dock Age3
+                            connect Chin AtlantisGlow1 hotspot
+                            connect Face AtlantisGlow2 hotspot
+                            connect Neck AtlantisGlow3 hotspot
+                            connect hotspot Xflag hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building X Construction dock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+            }
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -Chinese- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 1- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+            SetSelector
+            {
+                TechLogic none/age 2/age 3/age 4
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building C Dock Age1
+                            connect Face Glow hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 2- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building C Dock Age1
+                            ReplaceTexture building c roofage1/building c roofage2
+                            ReplaceTexture building c wallsage1/building c wallsage2
+                            connect Face Glow hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 3- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building C Dock Age1
+                            ReplaceTexture building c roofage1/building c roofage3
+                            ReplaceTexture building c wallsage1/building c wallsage3
+                            connect Face Glow hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 4- - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                setSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building C Dock Age1
+                            ReplaceTexture building c roofage1/building c roofage4
+                            ReplaceTexture building c wallsage1/building c wallsage4
+                            connect Face Glow hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                        }
+                    }
+                }
+            }
+        }
+
+        SetSelector
+        {
+            TechLogic none/age 2/age 3/age 4
+            SetSelector
+            {
+                ConstructionLogic 0 33 66
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Aztec DockIII
+			ReplaceTexture AztecDock/AztecDock1
+                        connect ATTACHPOINT examinationSFX hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction Dock A
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction Dock B
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction Dock B
+                    }
+                }
+            }
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 2- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+            SetSelector
+            {
+                ConstructionLogic 0 33 66
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Aztec DockIII
+			ReplaceTexture AztecDock/AztecDock0
+                        connect ATTACHPOINT examinationSFX hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction Dock A
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction Dock B
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction Dock B
+                    }
+                }
+            }
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 3- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+            SetSelector
+            {
+                ConstructionLogic 0 33 66
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Aztec DockIII
+			ReplaceTexture AztecDock/AztecDock3
+                        connect ATTACHPOINT examinationSFX hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction Dock A
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction Dock B
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction Dock B
+                    }
+                }
+            }
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 4- - - - - - - - - - - - - - - - - - - - - - - - - - -//
+            setSelector
+            {
+                ConstructionLogic 0 33 66
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Aztec DockIII
+                        connect ATTACHPOINT examinationSFX hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction Dock A
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction Dock B
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction Dock B
+                    }
+                }
+            }
+        }
+
+
+
+        // ===== ROMAN
+
+        //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 1- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+        SetSelector
+        {
+      TechLogic age 2/age 3/age 4
+      setSelector
+      {
+         ConstructionLogic 0 33 66
+         set hotspot
+         {
+            version
+            {
+                  Visual Building Beta G Dock_ClassicalAge
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+                  Visual Building Construction Dock A
+                  connect ATTACHPOINT empower hotspot
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+                  Visual Building Construction Dock B
+                  connect ATTACHPOINT empower hotspot
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+                  Visual Building Construction Dock B
+                  connect ATTACHPOINT empower hotspot
+            }
+         }
+      }
+     //---------------------------Age 3--------------------------------//
+      setSelector
+      {
+         ConstructionLogic 0 33 66
+         set hotspot
+         {
+            version
+            {
+                  Visual Building Beta G Dock
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+                  Visual Building Construction Dock A
+                  connect ATTACHPOINT empower hotspot
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+                  Visual Building Construction Dock B
+                  connect ATTACHPOINT empower hotspot
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+                  Visual Building Construction Dock B
+                  connect ATTACHPOINT empower hotspot
+            }
+         }
+      }
+   //---------------------------Age 4--------------------------------//
+      setSelector
+      {
+         ConstructionLogic 0 33 66
+         set hotspot
+         {
+            version
+            {
+					Visual Building Beta G Dock_OlympicAge
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+                  Visual Building Construction Dock A
+                  connect ATTACHPOINT empower hotspot
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+                  Visual Building Construction Dock B
+                  connect ATTACHPOINT empower hotspot
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+                  Visual Building Construction Dock B
+                  connect ATTACHPOINT empower hotspot
+            }
+         }
+      }
+   }
+
+
+SetSelector 
+	{
+		set hotspot
+		{
+			version
+			{
+				Visual Iroquis Dock
+			}
+		}
+	}
+
+
+    }
+}
+//==============================================================================
+anim RangedAttack
+{
+
+SetSelector
+    {
+       TechLogic none/Aztec Civ/Roman Civ/Lakota Civ
+       SetSelector
+        {
+            CultureLogic Egyptian/Greek/Norse/Atlantean/Chinese
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -Egyptian- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 1- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+            SetSelector
+            {
+                TechLogic none/age 2/age 3/age 4
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building E TradeDock Age1
+                            connect Face Glow hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+                            //- - auto generated by the bang animation tool
+                            //- - do not hand edit these values
+                            tag Attack 0.40 true
+                            tag GenericSound 0.40 true
+                            tag SpecificSoundSet 0.31 false Arrow checkVisible
+                            //- - end auto generated section
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building E ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 2- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building E TradeDock Age2
+                            connect Face Glow hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+                            //- - auto generated by the bang animation tool
+                            //- - do not hand edit these values
+                            tag Attack 0.40 true
+                            tag GenericSound 0.40 true
+                            tag SpecificSoundSet 0.31 false Arrow checkVisible
+                            //- - end auto generated section
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building E ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 3- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building E TradeDock Age3
+                            connect Face Glow hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+                            //- - auto generated by the bang animation tool
+                            //- - do not hand edit these values
+                            tag Attack 0.40 true
+                            tag GenericSound 0.40 true
+                            tag SpecificSoundSet 0.31 false Arrow checkVisible
+                            //- - end auto generated section
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building E ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 4- - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                setSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building E TradeDock Age4
+                            connect Face Glow hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+                            //- - auto generated by the bang animation tool
+                            //- - do not hand edit these values
+                            tag Attack 0.40 true
+                            tag GenericSound 0.40 true
+                            tag SpecificSoundSet 0.31 false Arrow checkVisible
+                            //- - end auto generated section
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building E ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+            }
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - -Greek- - - - - - - - - - - - - - - - - - - - - - - - - - -//
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 1- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+            SetSelector
+            {
+	        TechLogic none/Eldritch Civ
+	        SetSelector
+	        {
+                TechLogic none/age 2/age 3/age 4
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G TradedockAge0
+                            connect Face Glow hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+                            //- - auto generated by the bang animation tool
+                            //- - do not hand edit these values
+                            tag Attack 0.40 true
+                            tag GenericSound 0.40 true
+                            tag SpecificSoundSet 0.31 false Arrow checkVisible
+                            //- - end auto generated section
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 2- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G TradedockAge1
+                            connect Face Glow hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+                            //- - auto generated by the bang animation tool
+                            //- - do not hand edit these values
+                            tag Attack 0.40 true
+                            tag GenericSound 0.40 true
+                            tag SpecificSoundSet 0.31 false Arrow checkVisible
+                            //- - end auto generated section
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 3- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G TradedockAge2
+                            connect Face Glow hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+                            //- - auto generated by the bang animation tool
+                            //- - do not hand edit these values
+                            tag Attack 0.40 true
+                            tag GenericSound 0.40 true
+                            tag SpecificSoundSet 0.31 false Arrow checkVisible
+                            //- - end auto generated section
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 4- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G TradedockAge3
+                            connect Face Glow hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+                            //- - auto generated by the bang animation tool
+                            //- - do not hand edit these values
+                            tag Attack 0.40 true
+                            tag GenericSound 0.40 true
+                            tag SpecificSoundSet 0.31 false Arrow checkVisible
+                            //- - end auto generated section
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+	        }
+	        SetSelector
+	        {
+                TechLogic none/age 2/age 3/age 4
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G TradedockAge0
+                            connect Face Glow hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+                            //- - auto generated by the bang animation tool
+                            //- - do not hand edit these values
+                            tag Attack 0.40 true
+                            tag GenericSound 0.40 true
+                            tag SpecificSoundSet 0.31 false Arrow checkVisible
+                            //- - end auto generated section
+
+			    ReplaceTexture Building G Settlement02/Building Eld Settlement02
+			    ReplaceTexture Building G Settlementage1/Building Eld Settlementage1
+			    ReplaceTexture Building G Settlementage2/Building Eld Settlementage2
+			    ReplaceTexture Building G Settlementage3/Building Eld Settlementage3
+			    ReplaceTexture Building G Settlementfence/Building Eld Settlementfence
+
+			    ReplaceTexture Building G age0/Building Eld age0
+			    ReplaceTexture Building G fortifiedwall/Building Eld fortifiedwall
+			    ReplaceTexture Building G gateall/Building Eld gateall
+			    ReplaceTexture Building G roofage1/Building Eld roofage1
+			    ReplaceTexture Building G roofage2/Building Eld roofage2
+			    ReplaceTexture Building G roofage3/Building Eld roofage3
+			    ReplaceTexture Building G ruins/Building Eld ruins
+			    ReplaceTexture Building G shrine/Building Eld shrine
+			    ReplaceTexture Building G templeage1/Building Eld templeage1
+			    ReplaceTexture Building G templeage2/Building Eld templeage2
+			    ReplaceTexture Building G towerbasearea/Building Eld towerbasearea
+			    ReplaceTexture Building G towers/Building Eld towers
+			    ReplaceTexture Building G wallsage1/Building Eld wallsage1
+			    ReplaceTexture Building G wallsage2/Building Eld wallsage2
+			    ReplaceTexture Building G wallsage3/Building Eld wallsage3
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+
+			    ReplaceTexture Building G Settlement02/Building Eld Settlement02
+			    ReplaceTexture Building G Settlementage1/Building Eld Settlementage1
+			    ReplaceTexture Building G Settlementage2/Building Eld Settlementage2
+			    ReplaceTexture Building G Settlementage3/Building Eld Settlementage3
+			    ReplaceTexture Building G Settlementfence/Building Eld Settlementfence
+
+			    ReplaceTexture Building G age0/Building Eld age0
+			    ReplaceTexture Building G fortifiedwall/Building Eld fortifiedwall
+			    ReplaceTexture Building G gateall/Building Eld gateall
+			    ReplaceTexture Building G roofage1/Building Eld roofage1
+			    ReplaceTexture Building G roofage2/Building Eld roofage2
+			    ReplaceTexture Building G roofage3/Building Eld roofage3
+			    ReplaceTexture Building G ruins/Building Eld ruins
+			    ReplaceTexture Building G shrine/Building Eld shrine
+			    ReplaceTexture Building G templeage1/Building Eld templeage1
+			    ReplaceTexture Building G templeage2/Building Eld templeage2
+			    ReplaceTexture Building G towerbasearea/Building Eld towerbasearea
+			    ReplaceTexture Building G towers/Building Eld towers
+			    ReplaceTexture Building G wallsage1/Building Eld wallsage1
+			    ReplaceTexture Building G wallsage2/Building Eld wallsage2
+			    ReplaceTexture Building G wallsage3/Building Eld wallsage3
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 2- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G TradedockAge1
+                            connect Face Glow hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+                            //- - auto generated by the bang animation tool
+                            //- - do not hand edit these values
+                            tag Attack 0.40 true
+                            tag GenericSound 0.40 true
+                            tag SpecificSoundSet 0.31 false Arrow checkVisible
+                            //- - end auto generated section
+
+			    ReplaceTexture Building G Settlement02/Building Eld Settlement02
+			    ReplaceTexture Building G Settlementage1/Building Eld Settlementage1
+			    ReplaceTexture Building G Settlementage2/Building Eld Settlementage2
+			    ReplaceTexture Building G Settlementage3/Building Eld Settlementage3
+			    ReplaceTexture Building G Settlementfence/Building Eld Settlementfence
+
+			    ReplaceTexture Building G age0/Building Eld age0
+			    ReplaceTexture Building G fortifiedwall/Building Eld fortifiedwall
+			    ReplaceTexture Building G gateall/Building Eld gateall
+			    ReplaceTexture Building G roofage1/Building Eld roofage1
+			    ReplaceTexture Building G roofage2/Building Eld roofage2
+			    ReplaceTexture Building G roofage3/Building Eld roofage3
+			    ReplaceTexture Building G ruins/Building Eld ruins
+			    ReplaceTexture Building G shrine/Building Eld shrine
+			    ReplaceTexture Building G templeage1/Building Eld templeage1
+			    ReplaceTexture Building G templeage2/Building Eld templeage2
+			    ReplaceTexture Building G towerbasearea/Building Eld towerbasearea
+			    ReplaceTexture Building G towers/Building Eld towers
+			    ReplaceTexture Building G wallsage1/Building Eld wallsage1
+			    ReplaceTexture Building G wallsage2/Building Eld wallsage2
+			    ReplaceTexture Building G wallsage3/Building Eld wallsage3
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+
+			    ReplaceTexture Building G Settlement02/Building Eld Settlement02
+			    ReplaceTexture Building G Settlementage1/Building Eld Settlementage1
+			    ReplaceTexture Building G Settlementage2/Building Eld Settlementage2
+			    ReplaceTexture Building G Settlementage3/Building Eld Settlementage3
+			    ReplaceTexture Building G Settlementfence/Building Eld Settlementfence
+
+			    ReplaceTexture Building G age0/Building Eld age0
+			    ReplaceTexture Building G fortifiedwall/Building Eld fortifiedwall
+			    ReplaceTexture Building G gateall/Building Eld gateall
+			    ReplaceTexture Building G roofage1/Building Eld roofage1
+			    ReplaceTexture Building G roofage2/Building Eld roofage2
+			    ReplaceTexture Building G roofage3/Building Eld roofage3
+			    ReplaceTexture Building G ruins/Building Eld ruins
+			    ReplaceTexture Building G shrine/Building Eld shrine
+			    ReplaceTexture Building G templeage1/Building Eld templeage1
+			    ReplaceTexture Building G templeage2/Building Eld templeage2
+			    ReplaceTexture Building G towerbasearea/Building Eld towerbasearea
+			    ReplaceTexture Building G towers/Building Eld towers
+			    ReplaceTexture Building G wallsage1/Building Eld wallsage1
+			    ReplaceTexture Building G wallsage2/Building Eld wallsage2
+			    ReplaceTexture Building G wallsage3/Building Eld wallsage3
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 3- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G TradedockAge2
+                            connect Face Glow hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+                            //- - auto generated by the bang animation tool
+                            //- - do not hand edit these values
+                            tag Attack 0.40 true
+                            tag GenericSound 0.40 true
+                            tag SpecificSoundSet 0.31 false Arrow checkVisible
+                            //- - end auto generated section
+
+			    ReplaceTexture Building G Settlement02/Building Eld Settlement02
+			    ReplaceTexture Building G Settlementage1/Building Eld Settlementage1
+			    ReplaceTexture Building G Settlementage2/Building Eld Settlementage2
+			    ReplaceTexture Building G Settlementage3/Building Eld Settlementage3
+			    ReplaceTexture Building G Settlementfence/Building Eld Settlementfence
+
+			    ReplaceTexture Building G age0/Building Eld age0
+			    ReplaceTexture Building G fortifiedwall/Building Eld fortifiedwall
+			    ReplaceTexture Building G gateall/Building Eld gateall
+			    ReplaceTexture Building G roofage1/Building Eld roofage1
+			    ReplaceTexture Building G roofage2/Building Eld roofage2
+			    ReplaceTexture Building G roofage3/Building Eld roofage3
+			    ReplaceTexture Building G ruins/Building Eld ruins
+			    ReplaceTexture Building G shrine/Building Eld shrine
+			    ReplaceTexture Building G templeage1/Building Eld templeage1
+			    ReplaceTexture Building G templeage2/Building Eld templeage2
+			    ReplaceTexture Building G towerbasearea/Building Eld towerbasearea
+			    ReplaceTexture Building G towers/Building Eld towers
+			    ReplaceTexture Building G wallsage1/Building Eld wallsage1
+			    ReplaceTexture Building G wallsage2/Building Eld wallsage2
+			    ReplaceTexture Building G wallsage3/Building Eld wallsage3
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+
+			    ReplaceTexture Building G Settlement02/Building Eld Settlement02
+			    ReplaceTexture Building G Settlementage1/Building Eld Settlementage1
+			    ReplaceTexture Building G Settlementage2/Building Eld Settlementage2
+			    ReplaceTexture Building G Settlementage3/Building Eld Settlementage3
+			    ReplaceTexture Building G Settlementfence/Building Eld Settlementfence
+
+			    ReplaceTexture Building G age0/Building Eld age0
+			    ReplaceTexture Building G fortifiedwall/Building Eld fortifiedwall
+			    ReplaceTexture Building G gateall/Building Eld gateall
+			    ReplaceTexture Building G roofage1/Building Eld roofage1
+			    ReplaceTexture Building G roofage2/Building Eld roofage2
+			    ReplaceTexture Building G roofage3/Building Eld roofage3
+			    ReplaceTexture Building G ruins/Building Eld ruins
+			    ReplaceTexture Building G shrine/Building Eld shrine
+			    ReplaceTexture Building G templeage1/Building Eld templeage1
+			    ReplaceTexture Building G templeage2/Building Eld templeage2
+			    ReplaceTexture Building G towerbasearea/Building Eld towerbasearea
+			    ReplaceTexture Building G towers/Building Eld towers
+			    ReplaceTexture Building G wallsage1/Building Eld wallsage1
+			    ReplaceTexture Building G wallsage2/Building Eld wallsage2
+			    ReplaceTexture Building G wallsage3/Building Eld wallsage3
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 4- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G TradedockAge3
+                            connect Face Glow hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+                            //- - auto generated by the bang animation tool
+                            //- - do not hand edit these values
+                            tag Attack 0.40 true
+                            tag GenericSound 0.40 true
+                            tag SpecificSoundSet 0.31 false Arrow checkVisible
+                            //- - end auto generated section
+
+			    ReplaceTexture Building G Settlement02/Building Eld Settlement02
+			    ReplaceTexture Building G Settlementage1/Building Eld Settlementage1
+			    ReplaceTexture Building G Settlementage2/Building Eld Settlementage2
+			    ReplaceTexture Building G Settlementage3/Building Eld Settlementage3
+			    ReplaceTexture Building G Settlementfence/Building Eld Settlementfence
+
+			    ReplaceTexture Building G age0/Building Eld age0
+			    ReplaceTexture Building G fortifiedwall/Building Eld fortifiedwall
+			    ReplaceTexture Building G gateall/Building Eld gateall
+			    ReplaceTexture Building G roofage1/Building Eld roofage1
+			    ReplaceTexture Building G roofage2/Building Eld roofage2
+			    ReplaceTexture Building G roofage3/Building Eld roofage3
+			    ReplaceTexture Building G ruins/Building Eld ruins
+			    ReplaceTexture Building G shrine/Building Eld shrine
+			    ReplaceTexture Building G templeage1/Building Eld templeage1
+			    ReplaceTexture Building G templeage2/Building Eld templeage2
+			    ReplaceTexture Building G towerbasearea/Building Eld towerbasearea
+			    ReplaceTexture Building G towers/Building Eld towers
+			    ReplaceTexture Building G wallsage1/Building Eld wallsage1
+			    ReplaceTexture Building G wallsage2/Building Eld wallsage2
+			    ReplaceTexture Building G wallsage3/Building Eld wallsage3
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+
+			    ReplaceTexture Building G Settlement02/Building Eld Settlement02
+			    ReplaceTexture Building G Settlementage1/Building Eld Settlementage1
+			    ReplaceTexture Building G Settlementage2/Building Eld Settlementage2
+			    ReplaceTexture Building G Settlementage3/Building Eld Settlementage3
+			    ReplaceTexture Building G Settlementfence/Building Eld Settlementfence
+
+			    ReplaceTexture Building G age0/Building Eld age0
+			    ReplaceTexture Building G fortifiedwall/Building Eld fortifiedwall
+			    ReplaceTexture Building G gateall/Building Eld gateall
+			    ReplaceTexture Building G roofage1/Building Eld roofage1
+			    ReplaceTexture Building G roofage2/Building Eld roofage2
+			    ReplaceTexture Building G roofage3/Building Eld roofage3
+			    ReplaceTexture Building G ruins/Building Eld ruins
+			    ReplaceTexture Building G shrine/Building Eld shrine
+			    ReplaceTexture Building G templeage1/Building Eld templeage1
+			    ReplaceTexture Building G templeage2/Building Eld templeage2
+			    ReplaceTexture Building G towerbasearea/Building Eld towerbasearea
+			    ReplaceTexture Building G towers/Building Eld towers
+			    ReplaceTexture Building G wallsage1/Building Eld wallsage1
+			    ReplaceTexture Building G wallsage2/Building Eld wallsage2
+			    ReplaceTexture Building G wallsage3/Building Eld wallsage3
+                        }
+                    }
+                }
+	        }
+            }
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - -Norse- - - - - - - - - - - - - - - - - - - - - - - - - - -//
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 1- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+            SetSelector
+            {
+                TechLogic none/age 2/age 3/age 4
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building N TradeDockAge1
+                            connect face Flame hotspot
+                            connect neck SmokeTiny hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+                            //- - auto generated by the bang animation tool
+                            //- - do not hand edit these values
+                            tag Attack 0.40 true
+                            tag GenericSound 0.40 true
+                            tag SpecificSoundSet 0.31 false Arrow checkVisible
+                            //- - end auto generated section
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building N ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 2- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                setSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building N TradeDockAge2
+                            connect face Flame hotspot
+                            connect neck SmokeTiny hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+                            //- - auto generated by the bang animation tool
+                            //- - do not hand edit these values
+                            tag Attack 0.40 true
+                            tag GenericSound 0.40 true
+                            tag SpecificSoundSet 0.31 false Arrow checkVisible
+                            //- - end auto generated section
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building N ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 3- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                setSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building N TradeDockAge3
+                            connect face Flame hotspot
+                            connect neck SmokeTiny hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+                            //- - auto generated by the bang animation tool
+                            //- - do not hand edit these values
+                            tag Attack 0.40 true
+                            tag GenericSound 0.40 true
+                            tag SpecificSoundSet 0.31 false Arrow checkVisible
+                            //- - end auto generated section
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building N ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 4- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                setSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building N TradeDockAge4
+                            connect face Flame hotspot
+                            connect neck SmokeTiny hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+                            //- - auto generated by the bang animation tool
+                            //- - do not hand edit these values
+                            tag Attack 0.40 true
+                            tag GenericSound 0.40 true
+                            tag SpecificSoundSet 0.31 false Arrow checkVisible
+                            //- - end auto generated section
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building N ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+            }
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - -Atlantean- - - - - - - - - - - - - - - - - - - - - - - - - - -//
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 1- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+            SetSelector
+            {
+                TechLogic none/age 2/age 3/age 4
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building X Dock Age0
+                            connect hotspot Xflag hotspot
+                            connect Chin AtlantisGlow1 hotspot
+                            connect Face AtlantisGlow2 hotspot
+                            connect Neck AtlantisGlow3 hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+                            //- - auto generated by the bang animation tool
+                            //- - do not hand edit these values
+                            tag Attack 0.40 true
+                            tag GenericSound 0.40 true
+                            tag SpecificSoundSet 0.31 false Arrow checkVisible
+                            //- - end auto generated section
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building X Construction dock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 2- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building X Dock Age1
+                            connect Chin AtlantisGlow1 hotspot
+                            connect Face AtlantisGlow2 hotspot
+                            connect Neck AtlantisGlow3 hotspot
+                            connect hotspot Xflag hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+                            //- - auto generated by the bang animation tool
+                            //- - do not hand edit these values
+                            tag Attack 0.40 true
+                            tag GenericSound 0.40 true
+                            tag SpecificSoundSet 0.31 false Arrow checkVisible
+                            //- - end auto generated section
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building X Construction dock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 3- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building X Dock Age2
+                            connect Chin AtlantisGlow1 hotspot
+                            connect Face AtlantisGlow2 hotspot
+                            connect Neck AtlantisGlow3 hotspot
+                            connect hotspot Xflag hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+                            //- - auto generated by the bang animation tool
+                            //- - do not hand edit these values
+                            tag Attack 0.40 true
+                            tag GenericSound 0.40 true
+                            tag SpecificSoundSet 0.31 false Arrow checkVisible
+                            //- - end auto generated section
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building X Construction dock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 4- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building X Dock Age3
+                            connect Chin AtlantisGlow1 hotspot
+                            connect Face AtlantisGlow2 hotspot
+                            connect Neck AtlantisGlow3 hotspot
+                            connect hotspot Xflag hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+                            //- - auto generated by the bang animation tool
+                            //- - do not hand edit these values
+                            tag Attack 0.40 true
+                            tag GenericSound 0.40 true
+                            tag SpecificSoundSet 0.31 false Arrow checkVisible
+                            //- - end auto generated section
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building X Construction dock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+            }
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -Chinese- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 1- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+            SetSelector
+            {
+                TechLogic none/age 2/age 3/age 4
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building C Dock Age1
+                            connect Face Glow hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+                            //- - auto generated by the bang animation tool
+                            //- - do not hand edit these values
+                            tag Attack 0.40 true
+                            tag GenericSound 0.40 true
+                            tag SpecificSoundSet 0.31 false Arrow checkVisible
+                            //- - end auto generated section
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 2- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building C Dock Age1
+                            ReplaceTexture building c roofage1/building c roofage2
+                            ReplaceTexture building c wallsage1/building c wallsage2
+                            connect Face Glow hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+                            //- - auto generated by the bang animation tool
+                            //- - do not hand edit these values
+                            tag Attack 0.40 true
+                            tag GenericSound 0.40 true
+                            tag SpecificSoundSet 0.31 false Arrow checkVisible
+                            //- - end auto generated section
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 3- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building C Dock Age1
+                            ReplaceTexture building c roofage1/building c roofage3
+                            ReplaceTexture building c wallsage1/building c wallsage3
+                            connect Face Glow hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+                            //- - auto generated by the bang animation tool
+                            //- - do not hand edit these values
+                            tag Attack 0.40 true
+                            tag GenericSound 0.40 true
+                            tag SpecificSoundSet 0.31 false Arrow checkVisible
+                            //- - end auto generated section
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 4- - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                setSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building C Dock Age1
+                            ReplaceTexture building c roofage1/building c roofage4
+                            ReplaceTexture building c wallsage1/building c wallsage4
+                            connect Face Glow hotspot
+                            connect ATTACHPOINT examinationSFX hotspot
+                            //- - auto generated by the bang animation tool
+                            //- - do not hand edit these values
+                            tag Attack 0.40 true
+                            tag GenericSound 0.40 true
+                            tag SpecificSoundSet 0.31 false Arrow checkVisible
+                            //- - end auto generated section
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                        }
+                    }
+                }
+            }
+        }
+
+        //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 1- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+        SetSelector
+        {
+            TechLogic none/age 2/age 3/age 4
+            SetSelector
+            {
+                ConstructionLogic 0 33 66
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Aztec DockIII
+                        connect ATTACHPOINT examinationSFX hotspot
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag Attack 0.40 true
+                        tag GenericSound 0.40 true
+                        tag SpecificSoundSet 0.31 false Arrow checkVisible
+                        //- - end auto generated section
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction Dock A
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction Dock B
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction Dock B
+                    }
+                }
+            }
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 2- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+            SetSelector
+            {
+                ConstructionLogic 0 33 66
+                set hotspot
+                {
+                    version
+                    {
+                       Visual Aztec DockIII
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag Attack 0.40 true
+                        tag GenericSound 0.40 true
+                        tag SpecificSoundSet 0.31 false Arrow checkVisible
+                        //- - end auto generated section
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction Dock A
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction Dock B
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction Dock B
+                    }
+                }
+            }
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 3- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+            SetSelector
+            {
+                ConstructionLogic 0 33 66
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Aztec DockIII
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag Attack 0.40 true
+                        tag GenericSound 0.40 true
+                        tag SpecificSoundSet 0.31 false Arrow checkVisible
+                        //- - end auto generated section
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction Dock A
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction Dock B
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction Dock B
+                    }
+                }
+            }
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 4- - - - - - - - - - - - - - - - - - - - - - - - - - -//
+            setSelector
+            {
+                ConstructionLogic 0 33 66
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Aztec DockIII
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag Attack 0.40 true
+                        tag GenericSound 0.40 true
+                        tag SpecificSoundSet 0.31 false Arrow checkVisible
+                        //- - end auto generated section
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction Dock A
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction Dock B
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction Dock B
+                    }
+                }
+            }
+        }
+
+
+        // ===== ROMAN
+
+
+        //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 1- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+        SetSelector
+        {
+      TechLogic age 2/age 3/age 4
+      setSelector
+      {
+         ConstructionLogic 0 33 66
+         set hotspot
+         {
+            version
+            {
+                  Visual Building Beta G Dock_ClassicalAge
+ tag Attack 0.40 true
+                            tag GenericSound 0.40 true
+                            tag SpecificSoundSet 0.31 false Arrow checkVisible
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+                  Visual Building Construction Dock A
+                  connect ATTACHPOINT empower hotspot
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+                  Visual Building Construction Dock B
+                  connect ATTACHPOINT empower hotspot
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+                  Visual Building Construction Dock B
+                  connect ATTACHPOINT empower hotspot
+            }
+         }
+      }
+     //---------------------------Age 3--------------------------------//
+      setSelector
+      {
+         ConstructionLogic 0 33 66
+         set hotspot
+         {
+            version
+            {
+                  Visual Building Beta G Dock
+ tag Attack 0.40 true
+                            tag GenericSound 0.40 true
+                            tag SpecificSoundSet 0.31 false Arrow checkVisible
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+                  Visual Building Construction Dock A
+                  connect ATTACHPOINT empower hotspot
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+                  Visual Building Construction Dock B
+                  connect ATTACHPOINT empower hotspot
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+                  Visual Building Construction Dock B
+                  connect ATTACHPOINT empower hotspot
+            }
+         }
+      }
+   //---------------------------Age 4--------------------------------//
+      setSelector
+      {
+         ConstructionLogic 0 33 66
+         set hotspot
+         {
+            version
+            {
+					Visual Building Beta G Dock_OlympicAge
+ tag Attack 0.40 true
+                            tag GenericSound 0.40 true
+                            tag SpecificSoundSet 0.31 false Arrow checkVisible
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+                  Visual Building Construction Dock A
+                  connect ATTACHPOINT empower hotspot
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+                  Visual Building Construction Dock B
+                  connect ATTACHPOINT empower hotspot
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+                  Visual Building Construction Dock B
+                  connect ATTACHPOINT empower hotspot
+            }
+         }
+      }
+   }
+
+SetSelector 
+	{
+		set hotspot
+		{
+			version
+			{
+				Visual Iroquis Dock
+ tag Attack 0.40 true
+                            tag GenericSound 0.40 true
+                            tag SpecificSoundSet 0.31 false Arrow checkVisible
+			}
+		}
+	}
+
+
+    }
+}
+//==============================================================================
+anim Death
+{
+
+SetSelector
+    {
+       TechLogic none/Aztec Civ/Roman Civ/Lakota Civ
+        SetSelector
+        {
+            CultureLogic Egyptian/Greek/Norse/Atlantean/Chinese
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -Egyptian- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 1- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+            SetSelector
+            {
+                TechLogic none/age 2/age 3/age 4
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building E TradeDock Age1_Death
+                            connect Neck Wake hotspot
+                            connect Smoke0 DustWater hotspot
+                            connect Smoke1 DustWater hotspot
+                            connect Smoke2 DustWater hotspot
+                            connect Smoke3 DustWater hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building E ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 2- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building E TradeDock Age2_Death
+                            connect Neck Wake hotspot
+                            connect Smoke0 DustWater hotspot
+                            connect Smoke1 DustWater hotspot
+                            connect Smoke2 DustWater hotspot
+                            connect Smoke3 DustWater hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building E ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 3- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building E TradeDock Age3_Death
+                            connect Neck Wake hotspot
+                            connect Smoke0 DustWater hotspot
+                            connect Smoke1 DustWater hotspot
+                            connect Smoke2 DustWater hotspot
+                            connect Smoke3 DustWater hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building E ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 4- - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                setSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building E TradeDock Age4_Death
+                            connect Neck Wake hotspot
+                            connect Smoke0 DustWater hotspot
+                            connect Smoke1 DustWater hotspot
+                            connect Smoke2 DustWater hotspot
+                            connect Smoke3 DustWater hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building E ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+            }
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - -Greek- - - - - - - - - - - - - - - - - - - - - - - - - - -//
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 1- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+            SetSelector
+            {
+	        TechLogic none/Eldritch Civ
+	        SetSelector
+	        {
+                TechLogic none/age 2/age 3/age 4
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G TradedockAge0_Death
+                            connect Neck Wake hotspot
+                            connect Smoke0 DustWater hotspot
+                            connect Smoke1 DustWater hotspot
+                            connect Smoke2 DustWater hotspot
+                            connect Smoke3 DustWater hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 2- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G TradedockAge1_Death
+                            connect Neck Wake hotspot
+                            connect Smoke0 DustWater hotspot
+                            connect Smoke1 DustWater hotspot
+                            connect Smoke2 DustWater hotspot
+                            connect Smoke3 DustWater hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 3- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G TradedockAge2_Death
+                            connect Neck Wake hotspot
+                            connect Smoke0 DustWater hotspot
+                            connect Smoke1 DustWater hotspot
+                            connect Smoke2 DustWater hotspot
+                            connect Smoke3 DustWater hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 4- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G TradedockAge3_Death
+                            connect Neck Wake hotspot
+                            connect Smoke0 DustWater hotspot
+                            connect Smoke1 DustWater hotspot
+                            connect Smoke2 DustWater hotspot
+                            connect Smoke3 DustWater hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+	        }
+	        SetSelector
+	        {
+                TechLogic none/age 2/age 3/age 4
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G TradedockAge0_Death
+                            connect Neck Wake hotspot
+                            connect Smoke0 DustWater hotspot
+                            connect Smoke1 DustWater hotspot
+                            connect Smoke2 DustWater hotspot
+                            connect Smoke3 DustWater hotspot
+
+			    ReplaceTexture Building G Settlement02/Building Eld Settlement02
+			    ReplaceTexture Building G Settlementage1/Building Eld Settlementage1
+			    ReplaceTexture Building G Settlementage2/Building Eld Settlementage2
+			    ReplaceTexture Building G Settlementage3/Building Eld Settlementage3
+			    ReplaceTexture Building G Settlementfence/Building Eld Settlementfence
+
+			    ReplaceTexture Building G age0/Building Eld age0
+			    ReplaceTexture Building G fortifiedwall/Building Eld fortifiedwall
+			    ReplaceTexture Building G gateall/Building Eld gateall
+			    ReplaceTexture Building G roofage1/Building Eld roofage1
+			    ReplaceTexture Building G roofage2/Building Eld roofage2
+			    ReplaceTexture Building G roofage3/Building Eld roofage3
+			    ReplaceTexture Building G ruins/Building Eld ruins
+			    ReplaceTexture Building G shrine/Building Eld shrine
+			    ReplaceTexture Building G templeage1/Building Eld templeage1
+			    ReplaceTexture Building G templeage2/Building Eld templeage2
+			    ReplaceTexture Building G towerbasearea/Building Eld towerbasearea
+			    ReplaceTexture Building G towers/Building Eld towers
+			    ReplaceTexture Building G wallsage1/Building Eld wallsage1
+			    ReplaceTexture Building G wallsage2/Building Eld wallsage2
+			    ReplaceTexture Building G wallsage3/Building Eld wallsage3
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+
+			    ReplaceTexture Building G Settlement02/Building Eld Settlement02
+			    ReplaceTexture Building G Settlementage1/Building Eld Settlementage1
+			    ReplaceTexture Building G Settlementage2/Building Eld Settlementage2
+			    ReplaceTexture Building G Settlementage3/Building Eld Settlementage3
+			    ReplaceTexture Building G Settlementfence/Building Eld Settlementfence
+
+			    ReplaceTexture Building G age0/Building Eld age0
+			    ReplaceTexture Building G fortifiedwall/Building Eld fortifiedwall
+			    ReplaceTexture Building G gateall/Building Eld gateall
+			    ReplaceTexture Building G roofage1/Building Eld roofage1
+			    ReplaceTexture Building G roofage2/Building Eld roofage2
+			    ReplaceTexture Building G roofage3/Building Eld roofage3
+			    ReplaceTexture Building G ruins/Building Eld ruins
+			    ReplaceTexture Building G shrine/Building Eld shrine
+			    ReplaceTexture Building G templeage1/Building Eld templeage1
+			    ReplaceTexture Building G templeage2/Building Eld templeage2
+			    ReplaceTexture Building G towerbasearea/Building Eld towerbasearea
+			    ReplaceTexture Building G towers/Building Eld towers
+			    ReplaceTexture Building G wallsage1/Building Eld wallsage1
+			    ReplaceTexture Building G wallsage2/Building Eld wallsage2
+			    ReplaceTexture Building G wallsage3/Building Eld wallsage3
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 2- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G TradedockAge1_Death
+                            connect Neck Wake hotspot
+                            connect Smoke0 DustWater hotspot
+                            connect Smoke1 DustWater hotspot
+                            connect Smoke2 DustWater hotspot
+                            connect Smoke3 DustWater hotspot
+
+			    ReplaceTexture Building G Settlement02/Building Eld Settlement02
+			    ReplaceTexture Building G Settlementage1/Building Eld Settlementage1
+			    ReplaceTexture Building G Settlementage2/Building Eld Settlementage2
+			    ReplaceTexture Building G Settlementage3/Building Eld Settlementage3
+			    ReplaceTexture Building G Settlementfence/Building Eld Settlementfence
+
+			    ReplaceTexture Building G age0/Building Eld age0
+			    ReplaceTexture Building G fortifiedwall/Building Eld fortifiedwall
+			    ReplaceTexture Building G gateall/Building Eld gateall
+			    ReplaceTexture Building G roofage1/Building Eld roofage1
+			    ReplaceTexture Building G roofage2/Building Eld roofage2
+			    ReplaceTexture Building G roofage3/Building Eld roofage3
+			    ReplaceTexture Building G ruins/Building Eld ruins
+			    ReplaceTexture Building G shrine/Building Eld shrine
+			    ReplaceTexture Building G templeage1/Building Eld templeage1
+			    ReplaceTexture Building G templeage2/Building Eld templeage2
+			    ReplaceTexture Building G towerbasearea/Building Eld towerbasearea
+			    ReplaceTexture Building G towers/Building Eld towers
+			    ReplaceTexture Building G wallsage1/Building Eld wallsage1
+			    ReplaceTexture Building G wallsage2/Building Eld wallsage2
+			    ReplaceTexture Building G wallsage3/Building Eld wallsage3
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+
+			    ReplaceTexture Building G Settlement02/Building Eld Settlement02
+			    ReplaceTexture Building G Settlementage1/Building Eld Settlementage1
+			    ReplaceTexture Building G Settlementage2/Building Eld Settlementage2
+			    ReplaceTexture Building G Settlementage3/Building Eld Settlementage3
+			    ReplaceTexture Building G Settlementfence/Building Eld Settlementfence
+
+			    ReplaceTexture Building G age0/Building Eld age0
+			    ReplaceTexture Building G fortifiedwall/Building Eld fortifiedwall
+			    ReplaceTexture Building G gateall/Building Eld gateall
+			    ReplaceTexture Building G roofage1/Building Eld roofage1
+			    ReplaceTexture Building G roofage2/Building Eld roofage2
+			    ReplaceTexture Building G roofage3/Building Eld roofage3
+			    ReplaceTexture Building G ruins/Building Eld ruins
+			    ReplaceTexture Building G shrine/Building Eld shrine
+			    ReplaceTexture Building G templeage1/Building Eld templeage1
+			    ReplaceTexture Building G templeage2/Building Eld templeage2
+			    ReplaceTexture Building G towerbasearea/Building Eld towerbasearea
+			    ReplaceTexture Building G towers/Building Eld towers
+			    ReplaceTexture Building G wallsage1/Building Eld wallsage1
+			    ReplaceTexture Building G wallsage2/Building Eld wallsage2
+			    ReplaceTexture Building G wallsage3/Building Eld wallsage3
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 3- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G TradedockAge2_Death
+                            connect Neck Wake hotspot
+                            connect Smoke0 DustWater hotspot
+                            connect Smoke1 DustWater hotspot
+                            connect Smoke2 DustWater hotspot
+                            connect Smoke3 DustWater hotspot
+
+			    ReplaceTexture Building G Settlement02/Building Eld Settlement02
+			    ReplaceTexture Building G Settlementage1/Building Eld Settlementage1
+			    ReplaceTexture Building G Settlementage2/Building Eld Settlementage2
+			    ReplaceTexture Building G Settlementage3/Building Eld Settlementage3
+			    ReplaceTexture Building G Settlementfence/Building Eld Settlementfence
+
+			    ReplaceTexture Building G age0/Building Eld age0
+			    ReplaceTexture Building G fortifiedwall/Building Eld fortifiedwall
+			    ReplaceTexture Building G gateall/Building Eld gateall
+			    ReplaceTexture Building G roofage1/Building Eld roofage1
+			    ReplaceTexture Building G roofage2/Building Eld roofage2
+			    ReplaceTexture Building G roofage3/Building Eld roofage3
+			    ReplaceTexture Building G ruins/Building Eld ruins
+			    ReplaceTexture Building G shrine/Building Eld shrine
+			    ReplaceTexture Building G templeage1/Building Eld templeage1
+			    ReplaceTexture Building G templeage2/Building Eld templeage2
+			    ReplaceTexture Building G towerbasearea/Building Eld towerbasearea
+			    ReplaceTexture Building G towers/Building Eld towers
+			    ReplaceTexture Building G wallsage1/Building Eld wallsage1
+			    ReplaceTexture Building G wallsage2/Building Eld wallsage2
+			    ReplaceTexture Building G wallsage3/Building Eld wallsage3
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+
+			    ReplaceTexture Building G Settlement02/Building Eld Settlement02
+			    ReplaceTexture Building G Settlementage1/Building Eld Settlementage1
+			    ReplaceTexture Building G Settlementage2/Building Eld Settlementage2
+			    ReplaceTexture Building G Settlementage3/Building Eld Settlementage3
+			    ReplaceTexture Building G Settlementfence/Building Eld Settlementfence
+
+			    ReplaceTexture Building G age0/Building Eld age0
+			    ReplaceTexture Building G fortifiedwall/Building Eld fortifiedwall
+			    ReplaceTexture Building G gateall/Building Eld gateall
+			    ReplaceTexture Building G roofage1/Building Eld roofage1
+			    ReplaceTexture Building G roofage2/Building Eld roofage2
+			    ReplaceTexture Building G roofage3/Building Eld roofage3
+			    ReplaceTexture Building G ruins/Building Eld ruins
+			    ReplaceTexture Building G shrine/Building Eld shrine
+			    ReplaceTexture Building G templeage1/Building Eld templeage1
+			    ReplaceTexture Building G templeage2/Building Eld templeage2
+			    ReplaceTexture Building G towerbasearea/Building Eld towerbasearea
+			    ReplaceTexture Building G towers/Building Eld towers
+			    ReplaceTexture Building G wallsage1/Building Eld wallsage1
+			    ReplaceTexture Building G wallsage2/Building Eld wallsage2
+			    ReplaceTexture Building G wallsage3/Building Eld wallsage3
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 4- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G TradedockAge3_Death
+                            connect Neck Wake hotspot
+                            connect Smoke0 DustWater hotspot
+                            connect Smoke1 DustWater hotspot
+                            connect Smoke2 DustWater hotspot
+                            connect Smoke3 DustWater hotspot
+
+			    ReplaceTexture Building G Settlement02/Building Eld Settlement02
+			    ReplaceTexture Building G Settlementage1/Building Eld Settlementage1
+			    ReplaceTexture Building G Settlementage2/Building Eld Settlementage2
+			    ReplaceTexture Building G Settlementage3/Building Eld Settlementage3
+			    ReplaceTexture Building G Settlementfence/Building Eld Settlementfence
+
+			    ReplaceTexture Building G age0/Building Eld age0
+			    ReplaceTexture Building G fortifiedwall/Building Eld fortifiedwall
+			    ReplaceTexture Building G gateall/Building Eld gateall
+			    ReplaceTexture Building G roofage1/Building Eld roofage1
+			    ReplaceTexture Building G roofage2/Building Eld roofage2
+			    ReplaceTexture Building G roofage3/Building Eld roofage3
+			    ReplaceTexture Building G ruins/Building Eld ruins
+			    ReplaceTexture Building G shrine/Building Eld shrine
+			    ReplaceTexture Building G templeage1/Building Eld templeage1
+			    ReplaceTexture Building G templeage2/Building Eld templeage2
+			    ReplaceTexture Building G towerbasearea/Building Eld towerbasearea
+			    ReplaceTexture Building G towers/Building Eld towers
+			    ReplaceTexture Building G wallsage1/Building Eld wallsage1
+			    ReplaceTexture Building G wallsage2/Building Eld wallsage2
+			    ReplaceTexture Building G wallsage3/Building Eld wallsage3
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+
+			    ReplaceTexture Building G Settlement02/Building Eld Settlement02
+			    ReplaceTexture Building G Settlementage1/Building Eld Settlementage1
+			    ReplaceTexture Building G Settlementage2/Building Eld Settlementage2
+			    ReplaceTexture Building G Settlementage3/Building Eld Settlementage3
+			    ReplaceTexture Building G Settlementfence/Building Eld Settlementfence
+
+			    ReplaceTexture Building G age0/Building Eld age0
+			    ReplaceTexture Building G fortifiedwall/Building Eld fortifiedwall
+			    ReplaceTexture Building G gateall/Building Eld gateall
+			    ReplaceTexture Building G roofage1/Building Eld roofage1
+			    ReplaceTexture Building G roofage2/Building Eld roofage2
+			    ReplaceTexture Building G roofage3/Building Eld roofage3
+			    ReplaceTexture Building G ruins/Building Eld ruins
+			    ReplaceTexture Building G shrine/Building Eld shrine
+			    ReplaceTexture Building G templeage1/Building Eld templeage1
+			    ReplaceTexture Building G templeage2/Building Eld templeage2
+			    ReplaceTexture Building G towerbasearea/Building Eld towerbasearea
+			    ReplaceTexture Building G towers/Building Eld towers
+			    ReplaceTexture Building G wallsage1/Building Eld wallsage1
+			    ReplaceTexture Building G wallsage2/Building Eld wallsage2
+			    ReplaceTexture Building G wallsage3/Building Eld wallsage3
+                        }
+                    }
+                }
+	        }
+            }
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - -Norse- - - - - - - - - - - - - - - - - - - - - - - - - - -//
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 1- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+            SetSelector
+            {
+                TechLogic none/age 2/age 3/age 4
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building N TradeDockAge1_Death
+                            connect Neck Wake hotspot
+                            connect Smoke0 DustWater hotspot
+                            connect Smoke1 DustWater hotspot
+                            connect Smoke2 DustWater hotspot
+                            connect Smoke3 DustWater hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building N ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 2- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                setSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building N TradeDockAge2_Death
+                            connect Neck Wake hotspot
+                            connect Smoke0 DustWater hotspot
+                            connect Smoke1 DustWater hotspot
+                            connect Smoke2 DustWater hotspot
+                            connect Smoke3 DustWater hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building N ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 3- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                setSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building N TradeDockAge3_Death
+                            connect Neck Wake hotspot
+                            connect Smoke0 DustWater hotspot
+                            connect Smoke1 DustWater hotspot
+                            connect Smoke2 DustWater hotspot
+                            connect Smoke3 DustWater hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building N ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 4- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                setSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building N TradeDockAge4_Death
+                            connect Neck Wake hotspot
+                            connect Smoke0 DustWater hotspot
+                            connect Smoke1 DustWater hotspot
+                            connect Smoke2 DustWater hotspot
+                            connect Smoke3 DustWater hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building N ConstructionDock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+            }
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - -Atlantean- - - - - - - - - - - - - - - - - - - - - - - - - - -//
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 1- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+            SetSelector
+            {
+                TechLogic none/age 2/age 3/age 4
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building X Dock Age0_Death
+                            connect Neck Wake hotspot
+                            connect Smoke0 DustWater hotspot
+                            connect Smoke1 DustWater hotspot
+                            connect Smoke2 DustWater hotspot
+                            connect Smoke3 DustWater hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building X Construction dock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 2- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building X Dock Age1_Death
+                            connect Neck Wake hotspot
+                            connect Smoke0 DustWater hotspot
+                            connect Smoke1 DustWater hotspot
+                            connect Smoke2 DustWater hotspot
+                            connect Smoke3 DustWater hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building X Construction dock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 3- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building X Dock Age2_Death
+                            connect Neck Wake hotspot
+                            connect Smoke0 DustWater hotspot
+                            connect Smoke1 DustWater hotspot
+                            connect Smoke2 DustWater hotspot
+                            connect Smoke3 DustWater hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building X Construction dock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 4- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building X Dock Age3_Death
+                            connect Neck Wake hotspot
+                            connect Smoke0 DustWater hotspot
+                            connect Smoke1 DustWater hotspot
+                            connect Smoke2 DustWater hotspot
+                            connect Smoke3 DustWater hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building X Construction dock
+                            connect ATTACHPOINT empower hotspot
+                        }
+                    }
+                }
+            }
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -Egyptian- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 1- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+            SetSelector
+            {
+                TechLogic none/age 2/age 3/age 4
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building C Dock Age1_death
+                            connect Neck Wake hotspot
+                            connect Smoke0 DustWater hotspot
+                            connect Smoke1 DustWater hotspot
+                            connect Smoke2 DustWater hotspot
+                            connect Smoke3 DustWater hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building E ConstructionDock
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 2- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building C Dock Age1_death
+                            ReplaceTexture building c roofage1/building c roofage2
+                            ReplaceTexture building c wallsage1/building c wallsage2
+                            connect Neck Wake hotspot
+                            connect Smoke0 DustWater hotspot
+                            connect Smoke1 DustWater hotspot
+                            connect Smoke2 DustWater hotspot
+                            connect Smoke3 DustWater hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building E ConstructionDock
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 3- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                SetSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building C Dock Age1_death
+                            ReplaceTexture building c roofage1/building c roofage3
+                            ReplaceTexture building c wallsage1/building c wallsage3
+                            connect Neck Wake hotspot
+                            connect Smoke0 DustWater hotspot
+                            connect Smoke1 DustWater hotspot
+                            connect Smoke2 DustWater hotspot
+                            connect Smoke3 DustWater hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building E ConstructionDock
+                        }
+                    }
+                }
+                //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 4- - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                setSelector
+                {
+                    ConstructionLogic 0 33 66
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building C Dock Age1_death
+                            ReplaceTexture building c roofage1/building c roofage4
+                            ReplaceTexture building c wallsage1/building c wallsage4
+                            connect Neck Wake hotspot
+                            connect Smoke0 DustWater hotspot
+                            connect Smoke1 DustWater hotspot
+                            connect Smoke2 DustWater hotspot
+                            connect Smoke3 DustWater hotspot
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock A
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building Construction Dock B
+                        }
+                    }
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building E ConstructionDock
+                        }
+                    }
+                }
+            }
+
+        //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 1- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+        SetSelector
+        {
+            TechLogic none/age 2/age 3/age 4
+            SetSelector
+            {
+                ConstructionLogic 0 33 66
+                set hotspot
+                {
+                    version
+                    {
+                        
+			Visual GenericDestruction
+			Connect FOREHEAD Tage1 hotspot
+                        connect Smoke0 DustWater hotspot
+                        connect Smoke1 DustWater hotspot
+                        connect Smoke2 DustWater hotspot
+                        connect Smoke3 DustWater hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction Dock A
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction Dock B
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E ConstructionDock
+                    }
+                }
+            }
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 2- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+            SetSelector
+            {
+                ConstructionLogic 0 33 66
+                set hotspot
+                {
+                    version
+                    {
+                        Visual GenericDestruction
+			Connect FOREHEAD Tage2 hotspot
+                        connect Smoke0 DustWater hotspot
+                        connect Smoke1 DustWater hotspot
+                        connect Smoke2 DustWater hotspot
+                        connect Smoke3 DustWater hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction Dock A
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction Dock B
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E ConstructionDock
+                    }
+                }
+            }
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 3- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+            SetSelector
+            {
+                ConstructionLogic 0 33 66
+                set hotspot
+                {
+                    version
+                    {
+                        Visual GenericDestruction
+			Connect FOREHEAD Tage3 hotspot
+                        connect Smoke0 DustWater hotspot
+                        connect Smoke1 DustWater hotspot
+                        connect Smoke2 DustWater hotspot
+                        connect Smoke3 DustWater hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction Dock A
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction Dock B
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E ConstructionDock
+                    }
+                }
+            }
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 4- - - - - - - - - - - - - - - - - - - - - - - - - - -//
+            setSelector
+            {
+                ConstructionLogic 0 33 66
+                set hotspot
+                {
+                    version
+                    {
+                        Visual GenericDestruction
+			Connect FOREHEAD Tage4 hotspot
+                        connect Smoke0 DustWater hotspot
+                        connect Smoke1 DustWater hotspot
+                        connect Smoke2 DustWater hotspot
+                        connect Smoke3 DustWater hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction Dock A
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Construction Dock B
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E ConstructionDock
+                    }
+                }
+            }
+        }
+
+
+
+        //- - - - - - - - - - - - - - - - - - - - - - - - - - -Age 1- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+        SetSelector
+        {
+      TechLogic age 2/age 3/age 4
+      setSelector
+      {
+         ConstructionLogic 0 33 66
+         set hotspot
+         {
+            version
+            {
+                  Visual Building Beta G Dock_ClassicalAgeDeath
+							connect Neck Wake hotspot
+							connect Smoke0 DustWater hotspot
+							connect Smoke1 DustWater hotspot
+							connect Smoke2 DustWater hotspot
+							connect Smoke3 DustWater hotspot
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+                  Visual Building Construction Dock A
+                  connect ATTACHPOINT empower hotspot
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+                  Visual Building Construction Dock B
+                  connect ATTACHPOINT empower hotspot
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+                  Visual Building Construction Dock B
+                  connect ATTACHPOINT empower hotspot
+            }
+         }
+      }
+     //---------------------------Age 3--------------------------------//
+      setSelector
+      {
+         ConstructionLogic 0 33 66
+         set hotspot
+         {
+            version
+            {
+                  Visual Building Beta G Dock_Death
+							connect Neck Wake hotspot
+							connect Smoke0 DustWater hotspot
+							connect Smoke1 DustWater hotspot
+							connect Smoke2 DustWater hotspot
+							connect Smoke3 DustWater hotspot
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+                  Visual Building Construction Dock A
+                  connect ATTACHPOINT empower hotspot
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+                  Visual Building Construction Dock B
+                  connect ATTACHPOINT empower hotspot
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+                  Visual Building Construction Dock B
+                  connect ATTACHPOINT empower hotspot
+            }
+         }
+      }
+   //---------------------------Age 4--------------------------------//
+      setSelector
+      {
+         ConstructionLogic 0 33 66
+         set hotspot
+         {
+            version
+            {
+					Visual Building Beta G Dock_OlympicAgeDeath
+							connect Neck Wake hotspot
+							connect Smoke0 DustWater hotspot
+							connect Smoke1 DustWater hotspot
+							connect Smoke2 DustWater hotspot
+							connect Smoke3 DustWater hotspot
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+                  Visual Building Construction Dock A
+                  connect ATTACHPOINT empower hotspot
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+                  Visual Building Construction Dock B
+                  connect ATTACHPOINT empower hotspot
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+                  Visual Building Construction Dock B
+                  connect ATTACHPOINT empower hotspot
+            }
+         }
+      }
+   }
+
+SetSelector  
+	{
+		set hotspot
+		{
+			version
+			{
+				Visual Iroquis Dock
+			}
+		}
+	}
+
+
+    }
+
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="TheMiskatonicRitual" type="Bronze" techname="The Miskatonic Ritual">
+	<activetime>90.0</activetime>
+	<radius>30.0</radius>
+	<rangeindicatorprotoid radius="25.0" indicatorcount="10" speed="0.2">UI Range Indicator Greek SFX</rangeindicatorprotoid>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">Bronze</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<placement forceonmap="1">full</placement>
+	<armor>
+		<abstracttype>MythUnit</abstracttype>
+		<armortype percent="0.30">Hack</armortype>
+		<armortype percent="0.30">Pierce</armortype>
+		<sfx>Armor Glow Small</sfx>
+	</armor>
+</power>

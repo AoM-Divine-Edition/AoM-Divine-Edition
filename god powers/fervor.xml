@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Fervor" type="TempUnit" techname="Fervor">
+	<activetime>6</activetime>
+	<placement forceonmap="1" losprotounit="Iapetus Fervor">all</placement>
+	<createunit quantity="1" radius="0.0" delay="0.0" norotate="">Iapetus Fervor</createunit>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<icon>improvement fervor icon</icon>
+	<usedicon>improvement fervor used icon</usedicon>
+	<recharges>3</recharges>
+	<rechargetime>60 </rechargetime>
+</power>

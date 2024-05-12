@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="ForestFire" type="ForestFire" techname="Forest Fire">
+	<placement forceonmap="1" matchtype="Tree">unit</placement>
+	<activetime>-1</activetime>
+	<minimapeventtime sendalertto="all">10.0</minimapeventtime>
+	<icon>god power firestorm icon</icon>
+	<usedicon>god power firestorm icon done</usedicon>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">ForestFireBirth</soundset>
+	<soundset type="ExistSound" listenertype="IfOnScreenAll" loop="1" positional="1">ForestFireExist</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<minsearchradius>3.0</minsearchradius>
+	<maxsearchradius>5.0</maxsearchradius>
+	<minnumtreestocatchonfire>10</minnumtreestocatchonfire>
+	<maxnumtreestocatchonfire>15</maxnumtreestocatchonfire>
+	<burnlength>15.0</burnlength>
+	<burnfadelength>15.0</burnfadelength>
+	<maxnumtreesburnt>100</maxnumtreesburnt>
+	<firesfx>SFX A generic fire medium</firesfx>
+	<radius>30.0</radius>
+	<forestfireattack>Forest Fire Attack</forestfireattack>
+	<forestfiretreesearchradius>6.0</forestfiretreesearchradius>
+	<fastesttreeattacktime>0.5</fastesttreeattacktime>
+	<longesttreeattacktime>2.0</longesttreeattacktime>
+	<abstractattacktargettype>LogicalTypeValidForestFireTarget</abstractattacktargettype>
+	<gpdamagemodel>
+		<playerrelation>enemy</playerrelation>
+		<basedamagepercentunit>0.80</basedamagepercentunit>
+		<basedamagepercentvillager>0.50</basedamagepercentvillager>
+		<basedamagepercentbuilding>0.90</basedamagepercentbuilding>
+		<minhpdamageunit>500</minhpdamageunit>
+		<minhpdamagevillager>600</minhpdamagevillager>
+		<minhpdamagebuilding>2000</minhpdamagebuilding>
+		<maxhpdamageunit>2000</maxhpdamageunit>
+		<maxhpdamagevillager>800</maxhpdamagevillager>
+		<maxhpdamagebuilding>2000</maxhpdamagebuilding>
+	</gpdamagemodel>
+	
+		<abstracttype swapto="Zborneo Burning" blendtexture="World G Oak Burnt">Zborneo</abstracttype>
+	<abstracttype swapto="ZpalmII Burning" blendtexture="World C Jungle Palm Burnt">ZpalmII</abstracttype>
+
+	<abstracttype swapto="ZAmazonBush Burning" blendtexture="World G Oak Burnt">ZAmazonBush</abstracttype>
+	<abstracttype swapto="Zpalm Burning" blendtexture="World C Jungle Palm Burnt">Zpalm</abstracttype>
+	<abstracttype swapto="ZGreatPlains Burning" blendtexture="World G Oak Burnt">ZGreatPlains</abstracttype>
+	<abstracttype swapto="ZMaple Tree Burning" blendtexture="World C Jungle Palm Burnt">ZMaple Tree</abstracttype>
+	<abstracttype swapto="ZCalifornia Burning" blendtexture="World C Jungle Palm Burnt">ZCalifornia</abstracttype>
+	<abstracttype swapto="ZSauguney Burning" blendtexture="World C Jungle Palm Burnt">ZSauguney</abstracttype>
+	<abstracttype swapto="Zpalmetto Burning" blendtexture="World G Oak Burnt">Zpalmetto</abstracttype>
+	<abstracttype swapto="ZBirch Burning" blendtexture="World C Jungle Palm Burnt">ZBirch</abstracttype>
+	<abstracttype swapto="Zbush Burning" blendtexture="World C Jungle Palm Burnt">Zbush</abstracttype>
+	<abstracttype swapto="ZFlowers Burning" blendtexture="World G Oak Burnt">ZFlowers</abstracttype>
+	<abstracttype swapto="Oak Tree Burning" blendtexture="World G Oak Burnt">Oak Tree</abstracttype>
+	<abstracttype swapto="Oak Autumn Burning" blendtexture="World G Oak Burnt">Oak Autumn</abstracttype>
+	<abstracttype swapto="Pine Burning" blendtexture="World N Pine Burnt">Pine</abstracttype>
+	<abstracttype swapto="Palm Burning" blendtexture="World E Palm Burnt">Palm</abstracttype>
+	<abstracttype swapto="Pine Snow Burning" blendtexture="World N Pine Burnt">Pine Snow</abstracttype>
+	<abstracttype swapto="Pine Dead Burning" blendtexture="World N Pine Burnt">Pine Dead</abstracttype>
+	<abstracttype swapto="Pine Dead Burning" blendtexture="World N Pine Burnt">Ironwood</abstracttype>
+	<abstracttype swapto="Pine Dead Burning" blendtexture="World N Pine Burnt">Void Tree</abstracttype>
+	<abstracttype swapto="Savannah Tree Burning" blendtexture="World E Savannah burnt map">Savannah Tree</abstracttype>
+	<abstracttype swapto="Tundra Tree Burning" blendtexture="World T Tundra burnt map">Tundra Tree</abstracttype>
+	<abstracttype swapto="Marsh Tree Burning" blendtexture="World M Marsh Tree burnt map">Marsh Tree</abstracttype>
+	<abstracttype swapto="Gaia Forest tree burning" blendtexture="World N Pine Burnt">Gaia Forest tree</abstracttype>
+	<abstracttype swapto="Jungle Tree Burning" blendtexture="World C Jungle Tree Burnt">Jungle Tree</abstracttype>
+	<abstracttype swapto="Jungle Palm Burning" blendtexture="World C Jungle Palm Burnt">Jungle Palm</abstracttype>
+	<abstracttype swapto="Bamboo Tree Burning" blendtexture="World C Bamboo Tree Burnt">Bamboo Tree</abstracttype>
+	<firesfx>Forest Fire SFX</firesfx>
+</power>

@@ -1,0 +1,50 @@
+//==============================================================================
+// bush_anim.txt
+//==============================================================================
+
+
+//==============================================================================
+anim None
+{
+	SetSelector none 
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual flowers Colora
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual flowers ColorB
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual flowers ColorC
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual flowers ColorD
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual flowers ColorE
+			}
+		}
+	}
+}
+
+

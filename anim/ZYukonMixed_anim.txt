@@ -1,0 +1,44 @@
+//==============================================================================
+// bush_anim.txt
+//==============================================================================
+
+
+//==============================================================================
+anim None
+{
+	SetSelector none 
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual YukonTree
+			}
+		}	
+		set hotspot
+		{
+			version
+			{
+				Visual SpruceSnow
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual SpruceSnow2
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual PineSnow
+			}
+		}
+		
+	}
+}
+
+

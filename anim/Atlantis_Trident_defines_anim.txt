@@ -1,0 +1,71 @@
+//==============================================================================
+// Trident defines_anim.txt
+//==============================================================================
+
+//==============================================================================
+define Flame
+{
+	SetSelector
+	{
+		TechLogic none/Flaming Weapons Active
+		set hotspot
+		{
+			version
+			{
+				Visualnone jimmy
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visualparticle SFX A Flaming Spear
+			}
+		}
+	}
+}
+
+//==============================================================================
+define Trident
+{
+	SetSelector
+	{
+		TechLogic none/Copper Weapons/Bronze Weapons/Iron Weapons
+		set hotspot
+		{
+			version
+			{
+				Visual Attachments X Destroyer Trident
+				ReplaceTexture infantry x trident soldier trident iron/Attachments X Trident Standard
+				connect Fire Flame hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Attachments X Destroyer Trident
+				ReplaceTexture infantry x trident soldier trident iron/Attachments X Trident Copper
+				connect Fire Flame hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Attachments X Destroyer Trident
+				ReplaceTexture infantry x trident soldier trident iron/Attachments X Trident Bronze
+				connect Fire Flame hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Attachments X Destroyer Trident
+				connect Fire Flame hotspot
+			}
+		}
+	}
+}
+

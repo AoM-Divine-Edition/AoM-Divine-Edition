@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<foresttypes>
+	<forest name="Oak Forest" iconname="ui\GForest64" floor="ForestFloorOak">
+		<protounit>Oak Tree</protounit>
+	</forest>
+	<forest name="Palm Forest" iconname="ui\EForest64" floor="ForestFloorPalm">
+		<protounit>Palm</protounit>
+	</forest>
+	<forest name="Pine Forest" iconname="ui\pine forest 64" floor="ForestFloorPine">
+		<protounit>Pine</protounit>
+	</forest>
+	<forest name="Snow Pine Forest" iconname="ui\NForest64" floor="ForestFloorPineSnow">
+		<protounit>Pine Snow</protounit>
+	</forest>
+	<forest name="Autumn Oak Forest" iconname="ui\GForest64" floor="ForestFloorOak">
+		<protounit>Oak Autumn</protounit>
+	</forest>
+	<forest name="Mixed Oak Forest" iconname="ui\GForest64" floor="ForestFloorPine">
+		<protounit>Pine</protounit>
+		<protounit>Oak Tree</protounit>
+	</forest>
+	<forest name="Mixed Pine Forest" iconname="ui\NForest64" floor="ForestFloorPineSnow">
+		<protounit>Pine</protounit>
+		<protounit>Pine Snow</protounit>
+	</forest>
+	<forest name="Hades Forest" iconname="ui\hades forest 64" floor="ForestFloorDeadPine">
+		<protounit>Pine Dead</protounit>
+	</forest>
+	<forest name="Mixed Palm Forest" iconname="ui\EForest64" floor="ForestFloorPalm">
+		<protounit>Palm</protounit>
+		<protounit>Oak Tree</protounit>
+	</forest>
+	<forest name="Savannah Forest" iconname="ui\savannah forest 64" floor="ForestFloorSavannah">
+		<protounit>Savannah Tree</protounit>
+	</forest>
+	<forest name="Tundra Forest" iconname="ui\tundra forest 64" floor="ForestFloorTundra">
+		<protounit>Tundra Tree</protounit>
+	</forest>
+	<forest name="Marsh Forest" iconname="ui\marsh forest 64" floor="ForestFloorMarsh">
+		<protounit>Marsh Tree</protounit>
+	</forest>
+	<forest name="Jungle Forest" iconname="ui\jungle forest 64" floor="ForestFloorJungle">
+		<protounit>Jungle Tree</protounit>
+		<protounit>Jungle Palm</protounit>
+	</forest>
+		<forest name="AOE III Forest" iconname="ui\jungle forest 64" floor="ForestFloorJungle">
+		<protounit>Zpalm</protounit>
+		<protounit>ZAmazonBush</protounit>
+		<protounit>Zbush</protounit>
+	</forest>
+		<forest name="AOE II Forest" iconname="ui\jungle forest 64" floor="WhiteBeachIV">
+		<protounit>ZpalmII</protounit>
+		<protounit>Zborneo</protounit>
+	</forest>
+	<forest name="AOE III Palmetto" iconname="ui\jungle forest 64" floor="ForestFloorJungle">
+		<protounit>Zpalmetto</protounit>
+		<protounit>Zborneo</protounit>
+		<protounit>ZAmazonBush</protounit>
+	</forest>
+	<forest name="AOE I Forest" iconname="ui\jungle forest 64" floor="ForestFloorJungle">
+		<protounit>ZpalmII</protounit>
+		<protounit>Zpalm</protounit>
+		<protounit>Zbush</protounit>
+		<protounit>Zborneo</protounit>
+		<protounit>ZSauguney</protounit>
+	</forest>
+	<forest name="AOE Maple Forest" iconname="ui\jungle forest 64" floor="ForestFloorJungle">
+		<protounit>ZMaple Tree</protounit>
+		<protounit>ZGreatPlains</protounit>
+		<protounit>grass</protounit>
+	</forest>
+	<forest name="AOE Birch Forest" iconname="ui\jungle forest 64" floor="PlainA">
+		<protounit>ZBirch</protounit>
+		<protounit>ZSauguney</protounit>
+		<protounit>ZGreatPlains</protounit>
+	</forest>
+	<forest name="AOE California Forest" iconname="ui\jungle forest 64" floor="ForestFloorJungle">
+		<protounit>ZMaple Tree</protounit>
+		<protounit>ZSauguney</protounit>
+		<protounit>ZFlowers</protounit>
+		<protounit>Grass</protounit>
+		<protounit>ZCalifornia</protounit>
+	</forest>
+	<forest name="Mixed Jungle Forest" iconname="ui\jungle forest 64" floor="ForestFloorJungle">
+		<protounit>Jungle Tree</protounit>
+		<protounit>Jungle Palm</protounit>
+		<protounit>Bamboo Tree</protounit>
+	</forest>
+	<forest name="Bamboo Forest" iconname="ui\bamboo forest 64" floor="ForestFloorOak">
+		<protounit>Bamboo Tree</protounit>
+	</forest>
+	<forest name="Bamboo Marsh Forest" iconname="ui\bamboo marsh forest 64" floor="ForestFloorMarsh">
+		<protounit>Bamboo Tree</protounit>
+	</forest>
+	<forest name="Bamboo Jungle Forest" iconname="ui\bamboo forest 64" floor="ForestFloorJungle">
+		<protounit>Bamboo Tree</protounit>
+	</forest>
+	<forest name="Plain Forest" iconname="ui\plain forest 64" floor="ForestFloorOak">
+		<protounit>Jungle Tree</protounit>
+	</forest>
+	<forest name="Mixed Plain Forest" iconname="ui\mixed plain forest 64" floor="ForestFloorOak">
+		<protounit>Bamboo Tree</protounit>
+		<protounit>Jungle Tree</protounit>
+	</forest>
+	<forest name="AOE Kapok" iconname="ui\jungle forest 64" floor="ForestFloorJungle">
+		<protounit>Tree Kapok</protounit>
+		<protounit>Zborneo</protounit>
+	</forest>
+	<forest name="AOE Snow Forest" iconname="ui\NForest64" floor="ForestFloorPineSnow">
+		<protounit>ZYukon</protounit>
+	</forest>
+	<forest name="AOE Snow Mixed" iconname="ui\NForest64" floor="ForestFloorPineSnow">
+		<protounit>ZYukon</protounit>
+		<protounit>ZMaple Snow</protounit>
+	</forest>
+	<forest name="AOE Fir Forest" iconname="ui\NForest64" floor="ForestFloorOak">
+		<protounit>Fir Tree</protounit>
+	</forest>
+	<forest name="AOE Tall" iconname="ui\NForest64" floor="ForestFloorOak">
+		<protounit>Fir Tree</protounit>
+		<protounit>ZCalifornia</protounit>
+	</forest>
+
+	<forest name="Void Forest" iconname="ui\mixed plain forest 64" floor="OlympusB">
+		<protounit>Void Tree</protounit>
+	</forest>
+</foresttypes>

@@ -1,0 +1,75 @@
+//==============================================================================
+// Inferno fire ground_anim.txt
+//==============================================================================
+
+//==============================================================================
+define fire
+{
+   set hotspot
+   {
+      version
+      {
+		Visualparticle SFX E Inferno Fire Circle
+      }
+   }
+}
+
+//==============================================================================
+define firepot
+{
+   set hotspot
+   {
+      version
+      {
+		Visualparticle SFX E Inferno Firepot Circle
+      }
+   }
+}
+
+//==============================================================================
+define smoke
+{
+   set hotspot
+   {
+      version
+      {
+		Visualparticle SFX E Inferno Smoke Circle
+      }
+   }
+}
+
+
+//==============================================================================
+
+anim Idle
+{
+   SetSelector none 
+   {
+     set hotspot
+     {
+            version
+            {
+			visualnone jimmy
+			connect ATTACHPOINT fire HOTSPOT
+			connect ATTACHPOINT firepot HOTSPOT
+//			connect ATTACHPOINT smoke HOTSPOT
+            }
+      }
+   }
+}
+
+//==============================================================================
+
+anim death
+{
+   SetSelector none 
+   {
+	  	set hotspot
+      {
+         version
+         {
+            visualnone jimmy
+         }
+      }
+   }
+}

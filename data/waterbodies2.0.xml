@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<waterbodies>
+	<river name="Greek River" iconname="ui\GRiver64" surface="water" bottom="RiverGrassyA" bank="RiverGrassyB" outerbank="RiverGrassyC" color="0 50 170" depth="3.0" slope="">
+		<objectplacement curveangle="15.0" distancebetween="30.0" distancevariation="10.0" locktowateredge=""></objectplacement>
+		<objectcluster>
+			<protounit>Rock River Sandy</protounit>
+			<protounit secondary="">Oak Tree</protounit>
+			<protounit secondary="">Oak Tree</protounit>
+		</objectcluster>
+		<objectcluster>
+			<protounit>Rock River Sandy</protounit>
+		</objectcluster>
+	</river>
+	<river name="Norse River" iconname="ui\NRiver64" surface="water" bottom="RiverIcyA" bank="RiverIcyB" outerbank="RiverIcyC" color="0 50 170" depth="3.0" slope="">
+		<objectplacement curveangle="15.0" distancebetween="30.0" distancevariation="10.0" locktowateredge=""></objectplacement>
+		<objectcluster>
+			<protounit>Rock River Icy</protounit>
+			<protounit secondary="">Pine Snow</protounit>
+			<protounit secondary="">Pine Snow</protounit>
+		</objectcluster>
+	</river>
+	<river name="Tundra Pool" iconname="ui\NRiver64" surface="water" bottom="ShorelineTundraC" bank="ShorelineTundraD" outerbank="RiverIcyC" color="0 50 170" depth="3.0" slope="">
+		<objectplacement curveangle="15.0" distancebetween="30.0" distancevariation="10.0" locktowateredge=""></objectplacement>
+		<objectcluster>
+			<protounit>Rock River Icy</protounit>
+		</objectcluster>
+	</river>
+	<river name="Yellow River" iconname="ui\ERiver64" surface="water" bottom="ShorelinePlainB" bank="ShorelinePlainC" outerbank="ShorelinePlainD" color="166 129 2" depth="4.0" slope=""></river>
+	<river name="Yellow River Shallow" iconname="ui\EShallow64" surface="water" bottom="ShorelinePlainA" bank="ShorelinePlainC" outerbank="ShorelinePlainD" color="166 129 2" depth="1.24" slope=""></river>
+	<river name="Egyptian Nile" iconname="ui\ERiver64" surface="water" bottom="RiverSandyA" bank="RiverSandyB" outerbank="RiverSandyC" color="0 175 235" depth="3.0" slope=""></river>
+	<river name="Egyptian Nile Shallow" iconname="ui\EShallow64" surface="water" bottom="RiverSandyA" bank="RiverSandyB" outerbank="RiverSandyC" color="117 168 130" depth="1.24" slope=""></river>
+	<river name="Savannah Water Hole" iconname="ui\ERiver64" surface="water" bottom="RiverSandyA" bank="SavannahD" outerbank="SavannahC" color="0 175 235" depth="3.0" slope=""></river>
+	<river name="Styx River" iconname="ui\ERiver64" surface="water" bottom="black" bank="Hadesbuildable2" outerbank="Hadesbuildable1" color="2 2 2" depth="3.0" slope=""></river>
+	<ocean name="Mediterranean Sea" iconname="ui\mediteranean sea 64" surface="water" bottom="ShorelineMediterraneanB" bank="ShorelineMediterraneanC" outerbank="ShorelineMediterraneanD" color="0 50 170" depth="4.0">
+		<textureplacement>
+			<texture distance="4.0">ShorelineMediterraneanB</texture>
+			<texture distance="10.0">ShorelineMediterraneanA</texture>
+			<texture distance="12.0">coralC</texture>
+			<texture distance="18.0">coralB</texture>
+			<texture distance="24.0">coralA</texture>
+			<texture distance="24.0">black</texture>
+		</textureplacement>
+		<objectcluster>
+			<protounit>Wave</protounit>
+		</objectcluster>
+	</ocean>
+	<ocean name="Aegean Sea" iconname="ui\aegean sea 64" surface="water" bottom="ShorelineMediterraneanB" bank="ShorelineMediterraneanC" outerbank="ShorelineMediterraneanD" color="0 125 225" depth="4.0">
+		<textureplacement>
+			<texture distance="4.0">ShorelineMediterraneanB</texture>
+			<texture distance="10.0">ShorelineMediterraneanA</texture>
+			<texture distance="12.0">coralC</texture>
+			<texture distance="18.0">coralB</texture>
+			<texture distance="24.0">coralA</texture>
+			<texture distance="24.0">black</texture>
+		</textureplacement>
+		<objectcluster>
+			<protounit>Wave</protounit>
+		</objectcluster>
+	</ocean>
+	<ocean name="Red Sea" iconname="ui\red sea 64" surface="water" bottom="ShorelineRedSeaA" bank="ShorelineRedSeaB" outerbank="ShorelineRedSeaC" color="25 80 170" depth="4.0">
+		<textureplacement>
+			<texture distance="10.0">ShorelineRedSeaA</texture>
+			<texture distance="14.0">coralD</texture>
+			<texture distance="18.0">coralE</texture>
+			<texture distance="24.0">coralF</texture>
+			<texture distance="26.0">black</texture>
+		</textureplacement>
+		<objectcluster>
+			<protounit>Wave</protounit>
+		</objectcluster>
+	</ocean>
+	<ocean name="North Atlantic Ocean" iconname="ui\north atlantic ocean 64" surface="water" bottom="ShorelineAtlanticA" bank="ShorelineAtlanticB" outerbank="ShorelineAtlanticC" color="0 75 255" depth="4.0">
+		<textureplacement>
+			<texture distance="8.0">ShorelineAtlanticA</texture>
+			<texture distance="12.0">UnderwaterIceA</texture>
+			<texture distance="14.0">UnderwaterIceB</texture>
+			<texture distance="16.0">UnderwaterIceC</texture>
+			<texture distance="18.0">black</texture>
+		</textureplacement>
+		<objectcluster>
+			<protounit>Wave</protounit>
+		</objectcluster>
+	</ocean>
+	<ocean name="Norwegian Sea" iconname="ui\norweigen sea 64" surface="water" bottom="ShorelineNorwegianA" bank="ShorelineNorwegianB" outerbank="ShorelineNorwegianC" color="0 100 220" depth="4.0">
+		<textureplacement>
+			<texture distance="8.0">ShorelineNorwegianA</texture>
+			<texture distance="12.0">UnderwaterRockC</texture>
+			<texture distance="16.0">UnderwaterRockB</texture>
+			<texture distance="22.0">UnderwaterRockA</texture>
+			<texture distance="28.0">black</texture>
+		</textureplacement>
+		<objectcluster>
+			<protounit>Wave</protounit>
+		</objectcluster>
+	</ocean>
+	<ocean name="Tundra" iconname="ui\tundra sea 64" surface="water" bottom="ShorelineNorwegianB" bank="ShorelineTundraB" outerbank="ShorelineTundraA" color="0 100 220" depth="4.0">
+		<textureplacement>
+			<texture distance="4.0">ShorelineNorwegianB</texture>
+			<texture distance="10.0">ShorelineNorwegianA</texture>
+			<texture distance="14.0">UnderwaterRockC</texture>
+			<texture distance="16.0">UnderwaterRockB</texture>
+			<texture distance="24.0">UnderwaterRockA</texture>
+			<texture distance="24.0">black</texture>
+		</textureplacement>
+		<objectcluster>
+			<protounit>Wave</protounit>
+		</objectcluster>
+	</ocean>
+	<ocean name="Canada" iconname="ui\tundra sea 64" surface="water" bottom="RiverGrassyA" bank="RiverGrassyC" outerbank="GrassA" color="3 88 7" depth="4.0">
+		<textureplacement>
+			<texture distance="8.0">ShorelineNorwegianA</texture>
+			<texture distance="12.0">UnderwaterRockC</texture>
+			<texture distance="16.0">UnderwaterRockB</texture>
+			<texture distance="22.0">UnderwaterRockA</texture>
+			<texture distance="28.0">black</texture>
+		</textureplacement>
+		<objectcluster>
+			<protounit>Wave</protounit>
+		</objectcluster>
+	</ocean>
+	<lake name="Watering Hole" iconname="ui\ERiver64" surface="water" bottom="RiverSandyA" bank="RiverSandyB" outerbank="RiverSandyC" color="0 175 235" depth="3.0" slope="">
+		<objectplacement curveangle="15.0" distancebetween="40.0" distancevariation="10.0" locktowateredge=""></objectplacement>
+		<objectcluster>
+			<protounit>grass</protounit>
+			<protounit secondary="">Palm</protounit>
+		</objectcluster>
+	</lake>
+	<lake name="Marsh Pool" iconname="ui\ERiver64" surface="water" bottom="RiverMarshA" bank="RiverMarshB" outerbank="RiverMarshC" color="115 162 119" depth="2.0" slope="">
+		<objectplacement curveangle="15.0" distancebetween="40.0" distancevariation="10.0" locktowateredge=""></objectplacement>
+	</lake>
+	<ocean name="Old Atlantis Outter Sea" iconname="ui\aegean sea 64" surface="water" bottom="ShorelineMediterraneanB" bank="ShorelineMediterraneanC" outerbank="ShorelineMediterraneanD" color="0 50 170" depth="4.0">
+		<textureplacement>
+			<texture distance="4.0">ShorelineMediterraneanB</texture>
+			<texture distance="10.0">ShorelineMediterraneanA</texture>
+			<texture distance="15.0">coralC</texture>
+			<texture distance="18.0">coralC2</texture>
+			<texture distance="21.0">coralB</texture>
+			<texture distance="24.0">coralC2</texture>
+			<texture distance="25.0">ShorelineMediterraneanA</texture>
+		</textureplacement>
+		<objectcluster>
+			<protounit>Wave</protounit>
+		</objectcluster>
+	</ocean>
+	<ocean name="Old Atlantis Inner Sea" iconname="ui\aegean sea 64" surface="water" bottom="ShorelineMediterraneanB" bank="ShorelineMediterraneanC" outerbank="ShorelineMediterraneanD" color="0 125 225" depth="4.0">
+		<textureplacement>
+			<texture distance="4.0">ShorelineMediterraneanB</texture>
+			<texture distance="10.0">ShorelineMediterraneanA</texture>
+			<texture distance="15.0">coralC</texture>
+			<texture distance="18.0">coralC2</texture>
+			<texture distance="21.0">coralB</texture>
+			<texture distance="24.0">coralC2</texture>
+			<texture distance="25.0">ShorelineMediterraneanA</texture>
+		</textureplacement>
+		<objectcluster>
+			<protounit>Wave</protounit>
+		</objectcluster>
+	</ocean>
+	<ocean name="Aztec Sea" iconname="ui\aegean sea 64" surface="water" bottom="WhiteBeach0" bank="WhiteBeach" outerbank="WhiteBeachII" color="10 200 216" depth="4.0">
+		<objectcluster>
+			<protounit>Wave</protounit>
+		</objectcluster>
+	</ocean>
+	<ocean name="Yellow Sea" iconname="ui\tundra sea 64" surface="water" bottom="ShorelinePlainA" bank="ShorelinePlainB" outerbank="ShorelinePlainC" color="166 129 2" depth="4.0">
+		<textureplacement>
+			<texture distance="10.0">ShorelinePlainA</texture>
+			<texture distance="14.0">UnderwaterRockC</texture>
+			<texture distance="16.0">UnderwaterRockB</texture>
+			<texture distance="24.0">UnderwaterRockA</texture>
+			<texture distance="24.0">black</texture>
+		</textureplacement>
+		<objectcluster>
+			<protounit>Wave</protounit>
+		</objectcluster>
+	</ocean>
+	<ocean name="South Sea" iconname="ui\red sea 64" surface="water" bottom="ShorelineJungleA" bank="ShorelineJungleB" outerbank="ShorelineJungleC" color="25 80 170" depth="4.0">
+		<textureplacement>
+			<texture distance="10.0">ShorelineJungleA</texture>
+			<texture distance="12.0">coralC</texture>
+			<texture distance="18.0">coralB</texture>
+			<texture distance="24.0">coralA</texture>
+			<texture distance="24.0">black</texture>
+		</textureplacement>
+		<objectcluster>
+			<protounit>Wave</protounit>
+		</objectcluster>
+	</ocean>
+	<ocean name="Icy Ocean" iconname="ui\north atlantic ocean 64" surface="water" bottom="ShorelineAtlanticA" bank="ShorelineAtlanticB" outerbank="ShorelineAtlanticC" color="0 68 74" depth="4.0">
+		<textureplacement>
+			<texture distance="8.0">ShorelineAtlanticA</texture>
+			<texture distance="12.0">UnderwaterIceA</texture>
+			<texture distance="14.0">UnderwaterIceB</texture>
+			<texture distance="16.0">UnderwaterIceC</texture>
+			<texture distance="18.0">black</texture>
+		</textureplacement>
+		<objectcluster>
+			<protounit>Wave</protounit>
+		</objectcluster>
+	</ocean>
+	<ocean name="Icy OceanII" iconname="ui\north atlantic ocean 64" surface="water" bottom="ShorelineAtlanticA" bank="ShorelineAtlanticB" outerbank="ShorelineAtlanticC" color="0 230 201" depth="4.0">
+		<textureplacement>
+			<texture distance="8.0">ShorelineAtlanticA</texture>
+			<texture distance="12.0">UnderwaterIceA</texture>
+			<texture distance="14.0">UnderwaterIceB</texture>
+			<texture distance="16.0">UnderwaterIceC</texture>
+			<texture distance="18.0">black</texture>
+		</textureplacement>
+		<objectcluster>
+			<protounit>Wave</protounit>
+		</objectcluster>
+	</ocean>
+	<river name="American River" iconname="ui\GRiver64" surface="water" bottom="RiverGrassyA" bank="RiverGrassyB" outerbank="PlainB" color="51 140 200" depth="3.5" slope="">
+		<objectplacement curveangle="15.0" distancebetween="30.0" distancevariation="10.0" locktowateredge=""></objectplacement>
+		<objectcluster>
+			<protounit>ZSauguney</protounit>
+			<protounit secondary="">Zflowers</protounit>
+		</objectcluster>
+		<objectcluster>
+			<protounit>ZGreatPlains</protounit>
+		</objectcluster>
+	</river>
+</waterbodies>

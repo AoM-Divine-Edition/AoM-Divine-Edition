@@ -1,0 +1,564 @@
+//==============================================================================
+// Destroyer_Anim.txt
+//==============================================================================
+
+Import Atlantis_trident_defines_anim.txt
+
+//==============================================================================
+define shield
+{
+	SetSelector
+	{
+		TechLogic none/Copper shields/Bronze shields/Iron shields	
+		set hotspot
+		{
+			version
+			{
+				Visual Infantry X Trident Soldier Shield
+				ReplaceTexture infantry x trident soldier shield iron/Attachments X Destroyer Shield Standard
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Infantry X Trident Soldier Shield
+				ReplaceTexture infantry x trident soldier shield iron/Attachments X Destroyer Shield Copper
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Infantry X Trident Soldier Shield
+				ReplaceTexture infantry x trident soldier shield iron/Attachments X Destroyer Shield Bronze
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Infantry X Trident Soldier Shield
+			}
+		}
+	}
+}
+
+//==============================================================================
+define Head
+{
+	SetSelector
+	{
+		TechLogic none/Medium Infantry/Heavy Infantry/Champion Infantry
+		set hotspot
+		{
+			version
+			{
+				Visual Infantry X Maceman Head Standard
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Infantry X Maceman Head Copper
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Infantry X Trident Soldier Head Standard
+				ReplaceTexture Infantry X Trident Soldier Head Iron/Infantry X Destroyer Head Bronze
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Infantry X Trident Soldier Head Standard
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Bored
+{
+	SetSelector
+	{
+		CinematicLogic
+		SetSelector
+		{
+			TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry X Destroyer_BoredA
+					ReplaceTexture Infantry X Trident Soldier Iron/Infantry X Destroyer Standard
+					connect RightHand Trident hotspot
+					connect LeftForearm Shield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry X Destroyer_BoredA
+					ReplaceTexture Infantry X Trident Soldier Iron/Infantry X Destroyer Copper
+					connect LeftForearm Shield hotspot
+					connect RightHand Trident hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry X Destroyer_BoredA
+					ReplaceTexture Infantry X Trident Soldier Iron/Infantry X Destroyer Bronze
+					connect LeftForearm Shield hotspot
+					connect RightHand Trident hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry X Destroyer_BoredA
+					connect LeftForearm Shield hotspot
+					connect RightHand Trident hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+		}
+		SetSelector 
+		{
+	  		set hotspot
+			{
+				version
+				{
+					VisualGranny Trid_IdleA
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Idle
+{
+	SetSelector
+	{
+		CinematicLogic
+		SetSelector
+		{
+			TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry X Destroyer_IdleA
+					ReplaceTexture Infantry X Trident Soldier Iron/Infantry X Destroyer Standard
+					connect LeftForearm Shield hotspot
+					connect RightHand Trident hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry X Destroyer_IdleA
+					ReplaceTexture Infantry X Trident Soldier Iron/Infantry X Destroyer Copper
+					connect LeftForearm Shield hotspot
+					connect RightHand Trident hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry X Destroyer_IdleA
+					ReplaceTexture Infantry X Trident Soldier Iron/Infantry X Destroyer Bronze
+					connect LeftForearm Shield hotspot
+					connect RightHand Trident hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry X Destroyer_IdleA
+					connect LeftForearm Shield hotspot
+					connect RightHand Trident hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+		}
+		SetSelector 
+		{
+	  		set hotspot
+			{
+				version
+				{
+					VisualGranny Trid_IdleA
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Walk
+{
+	SetSelector
+	{
+		CinematicLogic
+		SetSelector
+		{
+			TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry X Destroyer_walkA
+					ReplaceTexture Infantry X Trident Soldier Iron/Infantry X Destroyer Standard
+					connect LeftForearm Shield hotspot
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag FootstepLeft 0.00 true	
+					tag FootstepRight 0.50 true	
+//-- end auto generated section
+					connect RightHand Trident hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry X Destroyer_walkA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag FootstepLeft 0.00 true	
+					tag FootstepRight 0.50 true	
+//-- end auto generated section
+					ReplaceTexture Infantry X Trident Soldier Iron/Infantry X Destroyer Copper
+					connect LeftForearm Shield hotspot
+					connect RightHand Trident hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry X Destroyer_walkA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag FootstepLeft 0.00 true	
+					tag FootstepRight 0.50 true	
+//-- end auto generated section
+					ReplaceTexture Infantry X Trident Soldier Iron/Infantry X Destroyer Bronze
+					connect LeftForearm Shield hotspot
+					connect RightHand Trident hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry X Destroyer_walkA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag FootstepLeft 0.00 true	
+					tag FootstepRight 0.50 true	
+//-- end auto generated section
+					connect LeftForearm Shield hotspot
+					connect RightHand Trident hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+		}
+		SetSelector 
+		{
+	  		set hotspot
+			{
+				version
+				{
+					VisualGranny Trid_walkA
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Attack
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		set hotspot
+		{
+			version
+			{
+				Visual Infantry X Destroyer_AttackA
+					ReplaceTexture Infantry X Trident Soldier Iron/Infantry X Destroyer Standard
+					connect LeftForearm Shield hotspot
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag Attack 0.50 true	
+					tag GenericSound 0.40 true	
+//-- end auto generated section
+				connect RightHand Trident hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Infantry X Destroyer_AttackB
+					ReplaceTexture Infantry X Trident Soldier Iron/Infantry X Destroyer Standard
+					connect LeftForearm Shield hotspot
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag Attack 0.53 true	
+					tag GenericSound 0.40 true	
+//-- end auto generated section
+				connect RightHand Trident hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Infantry X Destroyer_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag Attack 0.50 true	
+					tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Infantry X Trident Soldier Iron/Infantry X Destroyer Copper
+					connect LeftForearm Shield hotspot
+				connect RightHand Trident hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Infantry X Destroyer_AttackB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag Attack 0.53 true	
+					tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Infantry X Trident Soldier Iron/Infantry X Destroyer Copper
+					connect LeftForearm Shield hotspot
+				connect RightHand Trident hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Infantry X Destroyer_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag Attack 0.50 true	
+					tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Infantry X Trident Soldier Iron/Infantry X Destroyer Bronze
+					connect LeftForearm Shield hotspot
+				connect RightHand Trident hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Infantry X Destroyer_AttackB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag Attack 0.53 true	
+					tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Infantry X Trident Soldier Iron/Infantry X Destroyer Bronze
+					connect LeftForearm Shield hotspot
+				connect RightHand Trident hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Infantry X Destroyer_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag Attack 0.50 true	
+					tag GenericSound 0.40 true	
+//-- end auto generated section
+					connect LeftForearm Shield hotspot
+				connect RightHand Trident hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Infantry X Destroyer_AttackB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag Attack 0.53 true	
+					tag GenericSound 0.40 true	
+//-- end auto generated section
+					connect LeftForearm Shield hotspot
+				connect RightHand Trident hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Death
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		set hotspot
+		{
+			version
+			{
+				Visual Infantry X Destroyer_DeathA
+					ReplaceTexture Infantry X Trident Soldier Iron/Infantry X Destroyer Standard
+					connect LeftForearm Shield hotspot
+				connect RightHand Trident hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Infantry X Destroyer_DeathA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.11 false MaleDeath checkVisible 
+//-- end auto generated section
+//				ReplaceTexture Infantry X Trident Soldier Iron/Infantry X Destroyer Copper
+					connect LeftForearm Shield hotspot
+				connect RightHand Trident hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Infantry X Destroyer_DeathA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.11 false MaleDeath checkVisible 
+//-- end auto generated section
+				ReplaceTexture Infantry X Trident Soldier Iron/Infantry X Destroyer Bronze
+					connect LeftForearm Shield hotspot
+				connect RightHand Trident hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Infantry X Destroyer_DeathA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.11 false MaleDeath checkVisible 
+//-- end auto generated section
+					connect LeftForearm Shield hotspot
+				connect RightHand Trident hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Flail
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		set hotspot
+		{
+			version
+			{
+				Visual Infantry X Destroyer_FlailA
+					ReplaceTexture Infantry X Trident Soldier Iron/Infantry X Destroyer Standard
+					connect LeftForearm Shield hotspot
+				connect RightHand Trident hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Infantry X Destroyer_FlailA
+				ReplaceTexture Infantry X Trident Soldier Iron/Infantry X Destroyer Copper
+					connect LeftForearm Shield hotspot
+				connect RightHand Trident hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Infantry X Destroyer_FlailA
+				ReplaceTexture Infantry X Trident Soldier Iron/Infantry X Destroyer Bronze
+					connect LeftForearm Shield hotspot
+				connect RightHand Trident hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Infantry X Destroyer_FlailA
+					connect LeftForearm Shield hotspot
+				connect RightHand Trident hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Cinematic
+{
+	SetSelector
+	{
+		set hotspot
+		{
+			name Trid_aomx07react
+			version
+			{
+				VisualGranny Trid_aomx07react
+			}
+		}
+		set hotspot
+		{
+			name Trid_x01whatsgoing
+			version
+			{
+				VisualGranny Trid_x01whatsgoing
+			}
+		}
+	}
+}

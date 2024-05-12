@@ -1,0 +1,790 @@
+//==============================================================================
+// Storehouse_anim.txt
+//==============================================================================
+
+
+import Construction_defines_anim.txt
+
+//==============================================================================
+define VINEA
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Building VineA
+      }
+   }  
+}
+
+//==============================================================================
+define CypressB
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Terrain G CypressB
+      }
+   }  
+}
+
+//==============================================================================
+define Dust
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Building DustA
+      }
+   }  
+}
+
+
+//==============================================================================
+anim idle
+{
+   SetSelector
+   {
+      TechLogic none/age 2/age 3/age 4
+      SetSelector
+      {
+         ConstructionLogic 0 33 66
+         set hotspot
+         {
+            version
+            {
+               Visual Building G Mining CampAge0
+               connect Rightfoot VineA hotspot
+               connect Rightear VineA hotspot
+			ReplaceTexture Building G Settlement02/Building Eld Settlement02
+			ReplaceTexture Building G Settlementage1/Building Eld Settlementage1
+			ReplaceTexture Building G Settlementage2/Building Eld Settlementage2
+			ReplaceTexture Building G Settlementage3/Building Eld Settlementage3
+			ReplaceTexture Building G Settlementfence/Building Eld Settlementfence
+
+			ReplaceTexture Building G age0/Building Eld age0
+			ReplaceTexture Building G fortifiedwall/Building Eld fortifiedwall
+			ReplaceTexture Building G gateall/Building Eld gateall
+			ReplaceTexture Building G roofage1/Building Eld roofage1
+			ReplaceTexture Building G roofage2/Building Eld roofage2
+			ReplaceTexture Building G roofage3/Building Eld roofage3
+			ReplaceTexture Building G ruins/Building Eld ruins
+			ReplaceTexture Building G shrine/Building Eld shrine
+			ReplaceTexture Building G templeage1/Building Eld templeage1
+			ReplaceTexture Building G templeage2/Building Eld templeage2
+			ReplaceTexture Building G towerbasearea/Building Eld towerbasearea
+			ReplaceTexture Building G towers/Building Eld towers
+			ReplaceTexture Building G wallsage1/Building Eld wallsage1
+			ReplaceTexture Building G wallsage2/Building Eld wallsage2
+			ReplaceTexture Building G wallsage3/Building Eld wallsage3
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+               Visual Building Construction small A
+		         connect CHIN G_Small_Brick hotspot
+		         connect FACE G_Medium_Brick hotspot
+		         connect ATTACHPOINT G_Long_Brick hotspot
+			ReplaceTexture Building G Settlement02/Building Eld Settlement02
+			ReplaceTexture Building G Settlementage1/Building Eld Settlementage1
+			ReplaceTexture Building G Settlementage2/Building Eld Settlementage2
+			ReplaceTexture Building G Settlementage3/Building Eld Settlementage3
+			ReplaceTexture Building G Settlementfence/Building Eld Settlementfence
+
+			ReplaceTexture Building G age0/Building Eld age0
+			ReplaceTexture Building G fortifiedwall/Building Eld fortifiedwall
+			ReplaceTexture Building G gateall/Building Eld gateall
+			ReplaceTexture Building G roofage1/Building Eld roofage1
+			ReplaceTexture Building G roofage2/Building Eld roofage2
+			ReplaceTexture Building G roofage3/Building Eld roofage3
+			ReplaceTexture Building G ruins/Building Eld ruins
+			ReplaceTexture Building G shrine/Building Eld shrine
+			ReplaceTexture Building G templeage1/Building Eld templeage1
+			ReplaceTexture Building G templeage2/Building Eld templeage2
+			ReplaceTexture Building G towerbasearea/Building Eld towerbasearea
+			ReplaceTexture Building G towers/Building Eld towers
+			ReplaceTexture Building G wallsage1/Building Eld wallsage1
+			ReplaceTexture Building G wallsage2/Building Eld wallsage2
+			ReplaceTexture Building G wallsage3/Building Eld wallsage3
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+               Visual Building Construction small B
+		         connect CHIN G_Small_Brick hotspot
+		         connect FACE G_Medium_Brick hotspot
+		         connect ATTACHPOINT G_Long_Brick hotspot
+			ReplaceTexture Building G Settlement02/Building Eld Settlement02
+			ReplaceTexture Building G Settlementage1/Building Eld Settlementage1
+			ReplaceTexture Building G Settlementage2/Building Eld Settlementage2
+			ReplaceTexture Building G Settlementage3/Building Eld Settlementage3
+			ReplaceTexture Building G Settlementfence/Building Eld Settlementfence
+
+			ReplaceTexture Building G age0/Building Eld age0
+			ReplaceTexture Building G fortifiedwall/Building Eld fortifiedwall
+			ReplaceTexture Building G gateall/Building Eld gateall
+			ReplaceTexture Building G roofage1/Building Eld roofage1
+			ReplaceTexture Building G roofage2/Building Eld roofage2
+			ReplaceTexture Building G roofage3/Building Eld roofage3
+			ReplaceTexture Building G ruins/Building Eld ruins
+			ReplaceTexture Building G shrine/Building Eld shrine
+			ReplaceTexture Building G templeage1/Building Eld templeage1
+			ReplaceTexture Building G templeage2/Building Eld templeage2
+			ReplaceTexture Building G towerbasearea/Building Eld towerbasearea
+			ReplaceTexture Building G towers/Building Eld towers
+			ReplaceTexture Building G wallsage1/Building Eld wallsage1
+			ReplaceTexture Building G wallsage2/Building Eld wallsage2
+			ReplaceTexture Building G wallsage3/Building Eld wallsage3
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+               Visual Building G ConstructionMine
+		         connect CHIN G_Small_Brick hotspot
+		         connect FACE G_Medium_Brick hotspot
+		         connect ATTACHPOINT G_Long_Brick hotspot
+			ReplaceTexture Building G Settlement02/Building Eld Settlement02
+			ReplaceTexture Building G Settlementage1/Building Eld Settlementage1
+			ReplaceTexture Building G Settlementage2/Building Eld Settlementage2
+			ReplaceTexture Building G Settlementage3/Building Eld Settlementage3
+			ReplaceTexture Building G Settlementfence/Building Eld Settlementfence
+
+			ReplaceTexture Building G age0/Building Eld age0
+			ReplaceTexture Building G fortifiedwall/Building Eld fortifiedwall
+			ReplaceTexture Building G gateall/Building Eld gateall
+			ReplaceTexture Building G roofage1/Building Eld roofage1
+			ReplaceTexture Building G roofage2/Building Eld roofage2
+			ReplaceTexture Building G roofage3/Building Eld roofage3
+			ReplaceTexture Building G ruins/Building Eld ruins
+			ReplaceTexture Building G shrine/Building Eld shrine
+			ReplaceTexture Building G templeage1/Building Eld templeage1
+			ReplaceTexture Building G templeage2/Building Eld templeage2
+			ReplaceTexture Building G towerbasearea/Building Eld towerbasearea
+			ReplaceTexture Building G towers/Building Eld towers
+			ReplaceTexture Building G wallsage1/Building Eld wallsage1
+			ReplaceTexture Building G wallsage2/Building Eld wallsage2
+			ReplaceTexture Building G wallsage3/Building Eld wallsage3
+            }
+         }
+      }
+    //---------------------------Age 1--------------------------------// 
+		SetSelector
+		{
+			ConstructionLogic 0 33 66
+			set hotspot
+			{
+				version
+				{
+					Visual Building G Mining CampAge1
+					connect Rightfoot VineA hotspot
+					connect Rightear VineA hotspot
+			ReplaceTexture Building G Settlement02/Building Eld Settlement02
+			ReplaceTexture Building G Settlementage1/Building Eld Settlementage1
+			ReplaceTexture Building G Settlementage2/Building Eld Settlementage2
+			ReplaceTexture Building G Settlementage3/Building Eld Settlementage3
+			ReplaceTexture Building G Settlementfence/Building Eld Settlementfence
+
+			ReplaceTexture Building G age0/Building Eld age0
+			ReplaceTexture Building G fortifiedwall/Building Eld fortifiedwall
+			ReplaceTexture Building G gateall/Building Eld gateall
+			ReplaceTexture Building G roofage1/Building Eld roofage1
+			ReplaceTexture Building G roofage2/Building Eld roofage2
+			ReplaceTexture Building G roofage3/Building Eld roofage3
+			ReplaceTexture Building G ruins/Building Eld ruins
+			ReplaceTexture Building G shrine/Building Eld shrine
+			ReplaceTexture Building G templeage1/Building Eld templeage1
+			ReplaceTexture Building G templeage2/Building Eld templeage2
+			ReplaceTexture Building G towerbasearea/Building Eld towerbasearea
+			ReplaceTexture Building G towers/Building Eld towers
+			ReplaceTexture Building G wallsage1/Building Eld wallsage1
+			ReplaceTexture Building G wallsage2/Building Eld wallsage2
+			ReplaceTexture Building G wallsage3/Building Eld wallsage3
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building Construction small A
+					connect CHIN G_Small_Brick hotspot
+					connect FACE G_Medium_Brick hotspot
+					connect ATTACHPOINT G_Long_Brick hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building Construction small B
+					connect CHIN G_Small_Brick hotspot
+					connect FACE G_Medium_Brick hotspot
+					connect ATTACHPOINT G_Long_Brick hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building G ConstructionMine
+					connect CHIN G_Small_Brick hotspot
+					connect FACE G_Medium_Brick hotspot
+					connect ATTACHPOINT G_Long_Brick hotspot
+			ReplaceTexture Building G Settlement02/Building Eld Settlement02
+			ReplaceTexture Building G Settlementage1/Building Eld Settlementage1
+			ReplaceTexture Building G Settlementage2/Building Eld Settlementage2
+			ReplaceTexture Building G Settlementage3/Building Eld Settlementage3
+			ReplaceTexture Building G Settlementfence/Building Eld Settlementfence
+
+			ReplaceTexture Building G age0/Building Eld age0
+			ReplaceTexture Building G fortifiedwall/Building Eld fortifiedwall
+			ReplaceTexture Building G gateall/Building Eld gateall
+			ReplaceTexture Building G roofage1/Building Eld roofage1
+			ReplaceTexture Building G roofage2/Building Eld roofage2
+			ReplaceTexture Building G roofage3/Building Eld roofage3
+			ReplaceTexture Building G ruins/Building Eld ruins
+			ReplaceTexture Building G shrine/Building Eld shrine
+			ReplaceTexture Building G templeage1/Building Eld templeage1
+			ReplaceTexture Building G templeage2/Building Eld templeage2
+			ReplaceTexture Building G towerbasearea/Building Eld towerbasearea
+			ReplaceTexture Building G towers/Building Eld towers
+			ReplaceTexture Building G wallsage1/Building Eld wallsage1
+			ReplaceTexture Building G wallsage2/Building Eld wallsage2
+			ReplaceTexture Building G wallsage3/Building Eld wallsage3
+				}
+			}
+		}
+    //---------------------------Age 2--------------------------------//  
+      SetSelector
+      {
+         ConstructionLogic 0 33 66
+         set hotspot
+         {
+            version
+            {
+               Visual Building G Mining CampAge2
+               connect Rightfoot VineA hotspot
+               connect Rightear VineA hotspot
+			ReplaceTexture Building G Settlement02/Building Eld Settlement02
+			ReplaceTexture Building G Settlementage1/Building Eld Settlementage1
+			ReplaceTexture Building G Settlementage2/Building Eld Settlementage2
+			ReplaceTexture Building G Settlementage3/Building Eld Settlementage3
+			ReplaceTexture Building G Settlementfence/Building Eld Settlementfence
+
+			ReplaceTexture Building G age0/Building Eld age0
+			ReplaceTexture Building G fortifiedwall/Building Eld fortifiedwall
+			ReplaceTexture Building G gateall/Building Eld gateall
+			ReplaceTexture Building G roofage1/Building Eld roofage1
+			ReplaceTexture Building G roofage2/Building Eld roofage2
+			ReplaceTexture Building G roofage3/Building Eld roofage3
+			ReplaceTexture Building G ruins/Building Eld ruins
+			ReplaceTexture Building G shrine/Building Eld shrine
+			ReplaceTexture Building G templeage1/Building Eld templeage1
+			ReplaceTexture Building G templeage2/Building Eld templeage2
+			ReplaceTexture Building G towerbasearea/Building Eld towerbasearea
+			ReplaceTexture Building G towers/Building Eld towers
+			ReplaceTexture Building G wallsage1/Building Eld wallsage1
+			ReplaceTexture Building G wallsage2/Building Eld wallsage2
+			ReplaceTexture Building G wallsage3/Building Eld wallsage3
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+               Visual Building Construction small A
+		         connect CHIN G_Small_Brick hotspot
+		         connect FACE G_Medium_Brick hotspot
+		         connect ATTACHPOINT G_Long_Brick hotspot
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+               Visual Building Construction small B
+		         connect CHIN G_Small_Brick hotspot
+		         connect FACE G_Medium_Brick hotspot
+		         connect ATTACHPOINT G_Long_Brick hotspot
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+               Visual Building G ConstructionMine
+		         connect CHIN G_Small_Brick hotspot
+		         connect FACE G_Medium_Brick hotspot
+		         connect ATTACHPOINT G_Long_Brick hotspot
+			ReplaceTexture Building G Settlement02/Building Eld Settlement02
+			ReplaceTexture Building G Settlementage1/Building Eld Settlementage1
+			ReplaceTexture Building G Settlementage2/Building Eld Settlementage2
+			ReplaceTexture Building G Settlementage3/Building Eld Settlementage3
+			ReplaceTexture Building G Settlementfence/Building Eld Settlementfence
+
+			ReplaceTexture Building G age0/Building Eld age0
+			ReplaceTexture Building G fortifiedwall/Building Eld fortifiedwall
+			ReplaceTexture Building G gateall/Building Eld gateall
+			ReplaceTexture Building G roofage1/Building Eld roofage1
+			ReplaceTexture Building G roofage2/Building Eld roofage2
+			ReplaceTexture Building G roofage3/Building Eld roofage3
+			ReplaceTexture Building G ruins/Building Eld ruins
+			ReplaceTexture Building G shrine/Building Eld shrine
+			ReplaceTexture Building G templeage1/Building Eld templeage1
+			ReplaceTexture Building G templeage2/Building Eld templeage2
+			ReplaceTexture Building G towerbasearea/Building Eld towerbasearea
+			ReplaceTexture Building G towers/Building Eld towers
+			ReplaceTexture Building G wallsage1/Building Eld wallsage1
+			ReplaceTexture Building G wallsage2/Building Eld wallsage2
+			ReplaceTexture Building G wallsage3/Building Eld wallsage3
+            }
+         }
+      }
+    //---------------------------Age 3--------------------------------//  
+      SetSelector
+      {
+         ConstructionLogic 0 33 66
+         set hotspot
+         {
+            version
+            {
+               Visual Building G Mining CampAge3
+               connect Rightfoot VineA hotspot
+               connect Rightear VineA hotspot
+			ReplaceTexture Building G Settlement02/Building Eld Settlement02
+			ReplaceTexture Building G Settlementage1/Building Eld Settlementage1
+			ReplaceTexture Building G Settlementage2/Building Eld Settlementage2
+			ReplaceTexture Building G Settlementage3/Building Eld Settlementage3
+			ReplaceTexture Building G Settlementfence/Building Eld Settlementfence
+
+			ReplaceTexture Building G age0/Building Eld age0
+			ReplaceTexture Building G fortifiedwall/Building Eld fortifiedwall
+			ReplaceTexture Building G gateall/Building Eld gateall
+			ReplaceTexture Building G roofage1/Building Eld roofage1
+			ReplaceTexture Building G roofage2/Building Eld roofage2
+			ReplaceTexture Building G roofage3/Building Eld roofage3
+			ReplaceTexture Building G ruins/Building Eld ruins
+			ReplaceTexture Building G shrine/Building Eld shrine
+			ReplaceTexture Building G templeage1/Building Eld templeage1
+			ReplaceTexture Building G templeage2/Building Eld templeage2
+			ReplaceTexture Building G towerbasearea/Building Eld towerbasearea
+			ReplaceTexture Building G towers/Building Eld towers
+			ReplaceTexture Building G wallsage1/Building Eld wallsage1
+			ReplaceTexture Building G wallsage2/Building Eld wallsage2
+			ReplaceTexture Building G wallsage3/Building Eld wallsage3
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+               Visual Building Construction small A
+		         connect CHIN G_Small_Brick hotspot
+		         connect FACE G_Medium_Brick hotspot
+		         connect ATTACHPOINT G_Long_Brick hotspot
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+               Visual Building Construction small B
+		         connect CHIN G_Small_Brick hotspot
+		         connect FACE G_Medium_Brick hotspot
+		         connect ATTACHPOINT G_Long_Brick hotspot
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+               Visual Building G ConstructionMine
+		         connect CHIN G_Small_Brick hotspot
+		         connect FACE G_Medium_Brick hotspot
+		         connect ATTACHPOINT G_Long_Brick hotspot
+			ReplaceTexture Building G Settlement02/Building Eld Settlement02
+			ReplaceTexture Building G Settlementage1/Building Eld Settlementage1
+			ReplaceTexture Building G Settlementage2/Building Eld Settlementage2
+			ReplaceTexture Building G Settlementage3/Building Eld Settlementage3
+			ReplaceTexture Building G Settlementfence/Building Eld Settlementfence
+
+			ReplaceTexture Building G age0/Building Eld age0
+			ReplaceTexture Building G fortifiedwall/Building Eld fortifiedwall
+			ReplaceTexture Building G gateall/Building Eld gateall
+			ReplaceTexture Building G roofage1/Building Eld roofage1
+			ReplaceTexture Building G roofage2/Building Eld roofage2
+			ReplaceTexture Building G roofage3/Building Eld roofage3
+			ReplaceTexture Building G ruins/Building Eld ruins
+			ReplaceTexture Building G shrine/Building Eld shrine
+			ReplaceTexture Building G templeage1/Building Eld templeage1
+			ReplaceTexture Building G templeage2/Building Eld templeage2
+			ReplaceTexture Building G towerbasearea/Building Eld towerbasearea
+			ReplaceTexture Building G towers/Building Eld towers
+			ReplaceTexture Building G wallsage1/Building Eld wallsage1
+			ReplaceTexture Building G wallsage2/Building Eld wallsage2
+			ReplaceTexture Building G wallsage3/Building Eld wallsage3
+            }
+         }
+      }
+   }
+}
+//==============================================================================
+anim Death
+{
+   SetSelector
+   {
+      TechLogic none/age 2/age 3/age 4
+      SetSelector
+      {
+         ConstructionLogic 0 33 66
+         set hotspot
+         {
+            version
+            {
+               Visual Building G Mining CampAge0_Death
+               connect Smoke0 Dust hotspot
+					connect Smoke1 Dust hotspot
+			ReplaceTexture Building G Settlement02/Building Eld Settlement02
+			ReplaceTexture Building G Settlementage1/Building Eld Settlementage1
+			ReplaceTexture Building G Settlementage2/Building Eld Settlementage2
+			ReplaceTexture Building G Settlementage3/Building Eld Settlementage3
+			ReplaceTexture Building G Settlementfence/Building Eld Settlementfence
+
+			ReplaceTexture Building G age0/Building Eld age0
+			ReplaceTexture Building G fortifiedwall/Building Eld fortifiedwall
+			ReplaceTexture Building G gateall/Building Eld gateall
+			ReplaceTexture Building G roofage1/Building Eld roofage1
+			ReplaceTexture Building G roofage2/Building Eld roofage2
+			ReplaceTexture Building G roofage3/Building Eld roofage3
+			ReplaceTexture Building G ruins/Building Eld ruins
+			ReplaceTexture Building G shrine/Building Eld shrine
+			ReplaceTexture Building G templeage1/Building Eld templeage1
+			ReplaceTexture Building G templeage2/Building Eld templeage2
+			ReplaceTexture Building G towerbasearea/Building Eld towerbasearea
+			ReplaceTexture Building G towers/Building Eld towers
+			ReplaceTexture Building G wallsage1/Building Eld wallsage1
+			ReplaceTexture Building G wallsage2/Building Eld wallsage2
+			ReplaceTexture Building G wallsage3/Building Eld wallsage3
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+               Visual Building Construction small A
+		         connect CHIN G_Small_Brick hotspot
+		         connect FACE G_Medium_Brick hotspot
+		         connect ATTACHPOINT G_Long_Brick hotspot
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+               Visual Building Construction small B
+		         connect CHIN G_Small_Brick hotspot
+		         connect FACE G_Medium_Brick hotspot
+		         connect ATTACHPOINT G_Long_Brick hotspot
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+               Visual Building G ConstructionMine
+		         connect CHIN G_Small_Brick hotspot
+		         connect FACE G_Medium_Brick hotspot
+		         connect ATTACHPOINT G_Long_Brick hotspot
+			ReplaceTexture Building G Settlement02/Building Eld Settlement02
+			ReplaceTexture Building G Settlementage1/Building Eld Settlementage1
+			ReplaceTexture Building G Settlementage2/Building Eld Settlementage2
+			ReplaceTexture Building G Settlementage3/Building Eld Settlementage3
+			ReplaceTexture Building G Settlementfence/Building Eld Settlementfence
+
+			ReplaceTexture Building G age0/Building Eld age0
+			ReplaceTexture Building G fortifiedwall/Building Eld fortifiedwall
+			ReplaceTexture Building G gateall/Building Eld gateall
+			ReplaceTexture Building G roofage1/Building Eld roofage1
+			ReplaceTexture Building G roofage2/Building Eld roofage2
+			ReplaceTexture Building G roofage3/Building Eld roofage3
+			ReplaceTexture Building G ruins/Building Eld ruins
+			ReplaceTexture Building G shrine/Building Eld shrine
+			ReplaceTexture Building G templeage1/Building Eld templeage1
+			ReplaceTexture Building G templeage2/Building Eld templeage2
+			ReplaceTexture Building G towerbasearea/Building Eld towerbasearea
+			ReplaceTexture Building G towers/Building Eld towers
+			ReplaceTexture Building G wallsage1/Building Eld wallsage1
+			ReplaceTexture Building G wallsage2/Building Eld wallsage2
+			ReplaceTexture Building G wallsage3/Building Eld wallsage3
+            }
+         }
+      }
+    //---------------------------Age 1--------------------------------// 
+		SetSelector
+		{
+			ConstructionLogic 0 33 66
+			set hotspot
+			{
+				version
+				{
+					Visual Building G Mining CampAge1_Death
+               connect Smoke0 Dust hotspot
+					connect Smoke1 Dust hotspot
+			ReplaceTexture Building G Settlement02/Building Eld Settlement02
+			ReplaceTexture Building G Settlementage1/Building Eld Settlementage1
+			ReplaceTexture Building G Settlementage2/Building Eld Settlementage2
+			ReplaceTexture Building G Settlementage3/Building Eld Settlementage3
+			ReplaceTexture Building G Settlementfence/Building Eld Settlementfence
+
+			ReplaceTexture Building G age0/Building Eld age0
+			ReplaceTexture Building G fortifiedwall/Building Eld fortifiedwall
+			ReplaceTexture Building G gateall/Building Eld gateall
+			ReplaceTexture Building G roofage1/Building Eld roofage1
+			ReplaceTexture Building G roofage2/Building Eld roofage2
+			ReplaceTexture Building G roofage3/Building Eld roofage3
+			ReplaceTexture Building G ruins/Building Eld ruins
+			ReplaceTexture Building G shrine/Building Eld shrine
+			ReplaceTexture Building G templeage1/Building Eld templeage1
+			ReplaceTexture Building G templeage2/Building Eld templeage2
+			ReplaceTexture Building G towerbasearea/Building Eld towerbasearea
+			ReplaceTexture Building G towers/Building Eld towers
+			ReplaceTexture Building G wallsage1/Building Eld wallsage1
+			ReplaceTexture Building G wallsage2/Building Eld wallsage2
+			ReplaceTexture Building G wallsage3/Building Eld wallsage3
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building Construction small A
+					connect CHIN G_Small_Brick hotspot
+					connect FACE G_Medium_Brick hotspot
+					connect ATTACHPOINT G_Long_Brick hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building Construction small B
+					connect CHIN G_Small_Brick hotspot
+					connect FACE G_Medium_Brick hotspot
+					connect ATTACHPOINT G_Long_Brick hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building G ConstructionMine
+					connect CHIN G_Small_Brick hotspot
+					connect FACE G_Medium_Brick hotspot
+					connect ATTACHPOINT G_Long_Brick hotspot
+			ReplaceTexture Building G Settlement02/Building Eld Settlement02
+			ReplaceTexture Building G Settlementage1/Building Eld Settlementage1
+			ReplaceTexture Building G Settlementage2/Building Eld Settlementage2
+			ReplaceTexture Building G Settlementage3/Building Eld Settlementage3
+			ReplaceTexture Building G Settlementfence/Building Eld Settlementfence
+
+			ReplaceTexture Building G age0/Building Eld age0
+			ReplaceTexture Building G fortifiedwall/Building Eld fortifiedwall
+			ReplaceTexture Building G gateall/Building Eld gateall
+			ReplaceTexture Building G roofage1/Building Eld roofage1
+			ReplaceTexture Building G roofage2/Building Eld roofage2
+			ReplaceTexture Building G roofage3/Building Eld roofage3
+			ReplaceTexture Building G ruins/Building Eld ruins
+			ReplaceTexture Building G shrine/Building Eld shrine
+			ReplaceTexture Building G templeage1/Building Eld templeage1
+			ReplaceTexture Building G templeage2/Building Eld templeage2
+			ReplaceTexture Building G towerbasearea/Building Eld towerbasearea
+			ReplaceTexture Building G towers/Building Eld towers
+			ReplaceTexture Building G wallsage1/Building Eld wallsage1
+			ReplaceTexture Building G wallsage2/Building Eld wallsage2
+			ReplaceTexture Building G wallsage3/Building Eld wallsage3
+				}
+			}
+		}
+    //---------------------------Age 2--------------------------------//  
+      SetSelector
+      {
+         ConstructionLogic 0 33 66
+         set hotspot
+         {
+            version
+            {
+               Visual Building G Mining CampAge2_Death
+               connect Smoke0 Dust hotspot
+					connect Smoke1 Dust hotspot
+			ReplaceTexture Building G Settlement02/Building Eld Settlement02
+			ReplaceTexture Building G Settlementage1/Building Eld Settlementage1
+			ReplaceTexture Building G Settlementage2/Building Eld Settlementage2
+			ReplaceTexture Building G Settlementage3/Building Eld Settlementage3
+			ReplaceTexture Building G Settlementfence/Building Eld Settlementfence
+
+			ReplaceTexture Building G age0/Building Eld age0
+			ReplaceTexture Building G fortifiedwall/Building Eld fortifiedwall
+			ReplaceTexture Building G gateall/Building Eld gateall
+			ReplaceTexture Building G roofage1/Building Eld roofage1
+			ReplaceTexture Building G roofage2/Building Eld roofage2
+			ReplaceTexture Building G roofage3/Building Eld roofage3
+			ReplaceTexture Building G ruins/Building Eld ruins
+			ReplaceTexture Building G shrine/Building Eld shrine
+			ReplaceTexture Building G templeage1/Building Eld templeage1
+			ReplaceTexture Building G templeage2/Building Eld templeage2
+			ReplaceTexture Building G towerbasearea/Building Eld towerbasearea
+			ReplaceTexture Building G towers/Building Eld towers
+			ReplaceTexture Building G wallsage1/Building Eld wallsage1
+			ReplaceTexture Building G wallsage2/Building Eld wallsage2
+			ReplaceTexture Building G wallsage3/Building Eld wallsage3
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+               Visual Building Construction small A
+		         connect CHIN G_Small_Brick hotspot
+		         connect FACE G_Medium_Brick hotspot
+		         connect ATTACHPOINT G_Long_Brick hotspot
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+               Visual Building Construction small B
+		         connect CHIN G_Small_Brick hotspot
+		         connect FACE G_Medium_Brick hotspot
+		         connect ATTACHPOINT G_Long_Brick hotspot
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+               Visual Building G ConstructionMine
+		         connect CHIN G_Small_Brick hotspot
+		         connect FACE G_Medium_Brick hotspot
+		         connect ATTACHPOINT G_Long_Brick hotspot
+			ReplaceTexture Building G Settlement02/Building Eld Settlement02
+			ReplaceTexture Building G Settlementage1/Building Eld Settlementage1
+			ReplaceTexture Building G Settlementage2/Building Eld Settlementage2
+			ReplaceTexture Building G Settlementage3/Building Eld Settlementage3
+			ReplaceTexture Building G Settlementfence/Building Eld Settlementfence
+
+			ReplaceTexture Building G age0/Building Eld age0
+			ReplaceTexture Building G fortifiedwall/Building Eld fortifiedwall
+			ReplaceTexture Building G gateall/Building Eld gateall
+			ReplaceTexture Building G roofage1/Building Eld roofage1
+			ReplaceTexture Building G roofage2/Building Eld roofage2
+			ReplaceTexture Building G roofage3/Building Eld roofage3
+			ReplaceTexture Building G ruins/Building Eld ruins
+			ReplaceTexture Building G shrine/Building Eld shrine
+			ReplaceTexture Building G templeage1/Building Eld templeage1
+			ReplaceTexture Building G templeage2/Building Eld templeage2
+			ReplaceTexture Building G towerbasearea/Building Eld towerbasearea
+			ReplaceTexture Building G towers/Building Eld towers
+			ReplaceTexture Building G wallsage1/Building Eld wallsage1
+			ReplaceTexture Building G wallsage2/Building Eld wallsage2
+			ReplaceTexture Building G wallsage3/Building Eld wallsage3
+            }
+         }
+      }
+    //---------------------------Age 3--------------------------------//  
+      SetSelector
+      {
+         ConstructionLogic 0 33 66
+         set hotspot
+         {
+            version
+            {
+               Visual Building G Mining CampAge3_Death
+               connect Smoke0 Dust hotspot
+					connect Smoke1 Dust hotspot
+			ReplaceTexture Building G Settlement02/Building Eld Settlement02
+			ReplaceTexture Building G Settlementage1/Building Eld Settlementage1
+			ReplaceTexture Building G Settlementage2/Building Eld Settlementage2
+			ReplaceTexture Building G Settlementage3/Building Eld Settlementage3
+			ReplaceTexture Building G Settlementfence/Building Eld Settlementfence
+
+			ReplaceTexture Building G age0/Building Eld age0
+			ReplaceTexture Building G fortifiedwall/Building Eld fortifiedwall
+			ReplaceTexture Building G gateall/Building Eld gateall
+			ReplaceTexture Building G roofage1/Building Eld roofage1
+			ReplaceTexture Building G roofage2/Building Eld roofage2
+			ReplaceTexture Building G roofage3/Building Eld roofage3
+			ReplaceTexture Building G ruins/Building Eld ruins
+			ReplaceTexture Building G shrine/Building Eld shrine
+			ReplaceTexture Building G templeage1/Building Eld templeage1
+			ReplaceTexture Building G templeage2/Building Eld templeage2
+			ReplaceTexture Building G towerbasearea/Building Eld towerbasearea
+			ReplaceTexture Building G towers/Building Eld towers
+			ReplaceTexture Building G wallsage1/Building Eld wallsage1
+			ReplaceTexture Building G wallsage2/Building Eld wallsage2
+			ReplaceTexture Building G wallsage3/Building Eld wallsage3
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+               Visual Building Construction small A
+		         connect CHIN G_Small_Brick hotspot
+		         connect FACE G_Medium_Brick hotspot
+		         connect ATTACHPOINT G_Long_Brick hotspot
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+               Visual Building Construction small B
+		         connect CHIN G_Small_Brick hotspot
+		         connect FACE G_Medium_Brick hotspot
+		         connect ATTACHPOINT G_Long_Brick hotspot
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+               Visual Building G ConstructionMine
+		         connect CHIN G_Small_Brick hotspot
+		         connect FACE G_Medium_Brick hotspot
+		         connect ATTACHPOINT G_Long_Brick hotspot
+			ReplaceTexture Building G Settlement02/Building Eld Settlement02
+			ReplaceTexture Building G Settlementage1/Building Eld Settlementage1
+			ReplaceTexture Building G Settlementage2/Building Eld Settlementage2
+			ReplaceTexture Building G Settlementage3/Building Eld Settlementage3
+			ReplaceTexture Building G Settlementfence/Building Eld Settlementfence
+
+			ReplaceTexture Building G age0/Building Eld age0
+			ReplaceTexture Building G fortifiedwall/Building Eld fortifiedwall
+			ReplaceTexture Building G gateall/Building Eld gateall
+			ReplaceTexture Building G roofage1/Building Eld roofage1
+			ReplaceTexture Building G roofage2/Building Eld roofage2
+			ReplaceTexture Building G roofage3/Building Eld roofage3
+			ReplaceTexture Building G ruins/Building Eld ruins
+			ReplaceTexture Building G shrine/Building Eld shrine
+			ReplaceTexture Building G templeage1/Building Eld templeage1
+			ReplaceTexture Building G templeage2/Building Eld templeage2
+			ReplaceTexture Building G towerbasearea/Building Eld towerbasearea
+			ReplaceTexture Building G towers/Building Eld towers
+			ReplaceTexture Building G wallsage1/Building Eld wallsage1
+			ReplaceTexture Building G wallsage2/Building Eld wallsage2
+			ReplaceTexture Building G wallsage3/Building Eld wallsage3
+            }
+         }
+      }
+   }
+}
+
+

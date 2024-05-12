@@ -1,0 +1,1850 @@
+//==============================================================================
+// armory_anim.txt
+//==============================================================================
+
+import Construction_defines_anim.txt
+
+//==============================================================================
+define DestructionA
+{
+	set hotspot
+	{
+		version
+		{
+			Visual JapanConsulate
+		}
+	}  
+}
+
+//==============================================================================
+define empower
+{
+	SetSelector
+	{
+		EmpowerLogic
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visualnone Jimmy
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visualparticle SFX E Pharaoh Empower Large
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+define CypressOne
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Terrain G CypressA
+		}
+	}  
+}
+
+
+//==============================================================================
+define CypressTwo
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Terrain G CypressB
+		}
+	}  
+}
+
+//==============================================================================
+define VINEA
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Building VineA
+		}
+	}  
+}
+
+//==============================================================================
+define VINEB
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Building VineB
+		}
+	}  
+}
+
+//==============================================================================
+define fire
+{
+	set hotspot
+	{
+		version
+		{
+			VisualNone Jimmy
+		}
+	}
+}
+
+//==============================================================================
+define Dust
+{
+	set hotspot
+	{
+		version
+		{
+			Visualparticle SFX A Building DustA
+		}
+	}  
+}
+
+//==============================================================================
+define GenericSmoke
+{
+	set hotspot
+	{
+		version
+		{
+			Visualparticle SFX A Generic Smoke Medium
+		}
+	}  
+}
+
+//==============================================================================
+anim Idle
+{
+	SetSelector
+	{
+		CultureLogic Egyptian/Greek/Norse/Atlantean/Chinese
+//---------------------------------Egyptian---------------------------------------//
+		 //---------------------------Age 2--------------------------------//		 
+		SetSelector
+		{
+			TechLogic age 2/age 3/age 4
+			SetSelector
+			{
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building E Armory Age2
+						Connect attachpoint GenericSmoke hotspot
+						connect ATTACHPOINT empower hotspot
+					}
+				} 
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium A
+						connect ATTACHPOINT empower hotspot
+						connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium B
+						connect ATTACHPOINT empower hotspot
+						connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G ConstructionArmory
+						connect ATTACHPOINT empower hotspot
+						connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+					}
+				}
+			}
+		  //---------------------------Age 3--------------------------------//
+			SetSelector
+			{
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building E Armory Age3
+						Connect attachpoint GenericSmoke hotspot
+						connect ATTACHPOINT empower hotspot
+		
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium A
+						connect ATTACHPOINT empower hotspot
+						connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium B
+						connect ATTACHPOINT empower hotspot
+						connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G ConstructionArmory
+						connect ATTACHPOINT empower hotspot
+						connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+					}
+				}
+			}
+		  //---------------------------Age 4---------------------------//
+			setSelector
+			{
+			 ConstructionLogic 0 33 66
+			 set hotspot
+				{
+				version
+					{
+						Visual Building E Armory Age4
+						connect ATTACHPOINT empower hotspot
+						Connect attachpoint GenericSmoke hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium A
+						connect ATTACHPOINT empower hotspot
+						connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium B
+						connect ATTACHPOINT empower hotspot
+						connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G ConstructionArmory
+						connect ATTACHPOINT empower hotspot
+						connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+					}
+				}
+			}
+		}
+			 //---------------------------Greek---------------------------//
+		  //---------------------------Age 1--------------------------------//
+		SetSelector
+		{
+			TechLogic age 2/age 3/age 4
+			SetSelector
+			{
+			 ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual JapanConsulate
+						Connect attachpoint GenericSmoke hotspot
+					}
+			 }
+			  set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G ConstructionArmory
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+					}
+				}
+			}
+		  //---------------------------Age 2--------------------------------//
+			SetSelector
+			{
+			 ConstructionLogic 0 33 66
+				set hotspot
+				{
+				version
+					{
+						Visual JapanConsulate
+						Connect attachpoint GenericSmoke hotspot
+					}
+		 }
+		 set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G ConstructionArmory
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+					}
+				}
+			}
+		  //---------------------------Age 3--------------------------------//
+			SetSelector
+			{
+			 ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual JapanConsulate
+						Connect attachpoint GenericSmoke hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G ConstructionArmory
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+					}
+				}
+			}
+		}
+			 //---------------------------Norse---------------------------//
+		  //---------------------------Age 1--------------------------------//
+		SetSelector
+		{
+			TechLogic age 2/age 3/age 4
+			SetSelector
+			{
+			 ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building N Armory
+						Connect attachpoint GenericSmoke hotspot
+					}
+			 }
+			  set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium A
+						connect attachpoint N_Long_Brick hotspot
+						connect face N_Long_Brick hotspot
+						connect chin N_Medium_Brick hotspot
+						connect leftfoot N_Medium_Brick hotspot
+						connect lefthand N_Small_Brick hotspot
+						connect leftleg N_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium B
+						connect attachpoint N_Long_Brick hotspot
+						connect face N_Long_Brick hotspot
+						connect chin N_Medium_Brick hotspot
+						connect leftfoot N_Medium_Brick hotspot
+						connect lefthand N_Small_Brick hotspot
+						connect leftleg N_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G ConstructionArmory
+						connect attachpoint N_Long_Brick hotspot
+						connect face N_Long_Brick hotspot
+						connect chin N_Medium_Brick hotspot
+						connect leftfoot N_Medium_Brick hotspot
+						connect lefthand N_Small_Brick hotspot
+						connect leftleg N_Small_Brick hotspot
+					}
+				}
+			}
+		  //---------------------------Age 2--------------------------------//
+			setSelector
+			{
+			 ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building N ArmoryAge3
+						Connect attachpoint GenericSmoke hotspot
+					}
+			 }
+			  set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium A
+						connect attachpoint N_Long_Brick hotspot
+						connect face N_Long_Brick hotspot
+						connect chin N_Medium_Brick hotspot
+						connect leftfoot N_Medium_Brick hotspot
+						connect lefthand N_Small_Brick hotspot
+						connect leftleg N_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium B
+						connect attachpoint N_Long_Brick hotspot
+						connect face N_Long_Brick hotspot
+						connect chin N_Medium_Brick hotspot
+						connect leftfoot N_Medium_Brick hotspot
+						connect lefthand N_Small_Brick hotspot
+						connect leftleg N_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G ConstructionArmory
+						connect attachpoint N_Long_Brick hotspot
+						connect face N_Long_Brick hotspot
+						connect chin N_Medium_Brick hotspot
+						connect leftfoot N_Medium_Brick hotspot
+						connect lefthand N_Small_Brick hotspot
+						connect leftleg N_Small_Brick hotspot
+					}
+				}
+			}
+		  //---------------------------Age 3--------------------------------//
+			setSelector
+			{
+			 ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						 Visual Building N ArmoryAge4
+						 Connect attachpoint GenericSmoke hotspot
+		 			}
+			 }
+			  set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium A
+						connect attachpoint N_Long_Brick hotspot
+						connect face N_Long_Brick hotspot
+						connect chin N_Medium_Brick hotspot
+						connect leftfoot N_Medium_Brick hotspot
+						connect lefthand N_Small_Brick hotspot
+						connect leftleg N_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium B
+						connect attachpoint N_Long_Brick hotspot
+						connect face N_Long_Brick hotspot
+						connect chin N_Medium_Brick hotspot
+						connect leftfoot N_Medium_Brick hotspot
+						connect lefthand N_Small_Brick hotspot
+						connect leftleg N_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G ConstructionArmory
+						connect attachpoint N_Long_Brick hotspot
+						connect face N_Long_Brick hotspot
+						connect chin N_Medium_Brick hotspot
+						connect leftfoot N_Medium_Brick hotspot
+						connect lefthand N_Small_Brick hotspot
+						connect leftleg N_Small_Brick hotspot
+					}
+				}
+			}
+		}
+//---------------------------Atlantean---------------------------//
+		  //---------------------------Age 1--------------------------------//
+		SetSelector
+		{
+			TechLogic age 2/age 3/age 4
+			SetSelector
+			{
+			 ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building X Armory Age1
+						Connect attachpoint GenericSmoke hotspot
+					}
+			 }
+			  set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Armory
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+					}
+				}
+			}
+		  //---------------------------Age 2--------------------------------//
+			SetSelector
+			{
+			 ConstructionLogic 0 33 66
+				set hotspot
+				{
+				version
+					{
+						Visual Building X Armory Age2
+						Connect attachpoint GenericSmoke hotspot
+					}
+		 }
+		 set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Armory
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+					}
+				}
+			}
+		  //---------------------------Age 3--------------------------------//
+			SetSelector
+			{
+			 ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building X Armory Age3
+						Connect attachpoint GenericSmoke hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Armory
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+					}
+				}
+			}
+		}
+		
+//---------------------------------Chinese---------------------------------------//
+		 //---------------------------Age 2--------------------------------//		 
+		SetSelector
+		{
+			TechLogic age 2/age 3/age 4
+			SetSelector
+			{
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Armory Age2
+						ReplaceTexture building c roofage1/building c roofage2
+						ReplaceTexture building c wallsage1/building c wallsage2
+						Connect attachpoint GenericSmoke hotspot
+					}
+				} 
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium A
+						connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium B
+						connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G ConstructionArmory
+						connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+					}
+				}
+			}
+		  //---------------------------Age 3--------------------------------//
+			SetSelector
+			{
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Armory Age3
+						ReplaceTexture building c roofage1/building c roofage3
+						ReplaceTexture building c wallsage1/building c wallsage3
+						Connect attachpoint GenericSmoke hotspot
+		
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium A
+						connect ATTACHPOINT empower hotspot
+						connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium B
+						connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G ConstructionArmory
+						connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+					}
+				}
+			}
+		  //---------------------------Age 4---------------------------//
+			setSelector
+			{
+			 ConstructionLogic 0 33 66
+			 set hotspot
+				{
+				version
+					{
+						Visual Building C Armory Age3
+						ReplaceTexture building c roofage1/building c roofage4
+						ReplaceTexture building c wallsage1/building c wallsage4
+						Connect attachpoint GenericSmoke hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium A
+						connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium B
+						connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G ConstructionArmory
+						connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+					}
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Death
+{
+	SetSelector
+	{
+		CultureLogic Egyptian/Greek/Norse/Atlantean/Chinese
+//---------------------------------Egyptian---------------------------------------//
+		 //---------------------------Age 2--------------------------------//		 
+		SetSelector
+		{
+			TechLogic age 2/age 3/age 4
+			SetSelector
+			{
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building E Armory Age2_Death
+							connect Smoke0 Dust hotspot
+							connect Smoke1 Dust hotspot
+							connect Smoke2 Dust hotspot
+							connect Smoke3 Dust hotspot
+					}
+				} 
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium A
+						connect ATTACHPOINT empower hotspot
+						connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium B
+						connect ATTACHPOINT empower hotspot
+						connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G ConstructionArmory
+						connect ATTACHPOINT empower hotspot
+						connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+					}
+				}
+			}
+		  //---------------------------Age 3--------------------------------//
+			SetSelector
+			{
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building E Armory Age3_Death
+							connect Smoke0 Dust hotspot
+							connect Smoke1 Dust hotspot
+							connect Smoke2 Dust hotspot
+							connect Smoke3 Dust hotspot
+		
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium A
+						connect ATTACHPOINT empower hotspot
+						connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium B
+						connect ATTACHPOINT empower hotspot
+						connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G ConstructionArmory
+						connect ATTACHPOINT empower hotspot
+						connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+					}
+				}
+			}
+		  //---------------------------Age 4---------------------------//
+			setSelector
+			{
+			 ConstructionLogic 0 33 66
+			 set hotspot
+				{
+				version
+					{
+						Visual Building E Armory Age4_Death
+							connect Smoke0 Dust hotspot
+							connect Smoke1 Dust hotspot
+							connect Smoke2 Dust hotspot
+							connect Smoke3 Dust hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium A
+						connect ATTACHPOINT empower hotspot
+						connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium B
+						connect ATTACHPOINT empower hotspot
+						connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G ConstructionArmory
+						connect ATTACHPOINT empower hotspot
+						connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+					}
+				}
+			}
+		}
+			 //---------------------------Greek---------------------------//
+		  //---------------------------Age 1--------------------------------//
+		SetSelector
+		{
+			TechLogic age 2/age 3/age 4
+			SetSelector
+			{
+			 ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+							Visual GenericDestruction
+							connect forehead DestructionA hotspot
+							connect Smoke0 Dust hotspot
+							connect Smoke1 Dust hotspot
+							connect Smoke2 Dust hotspot
+							connect Smoke3 Dust hotspot
+					}
+			 }
+			  set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G ConstructionArmory
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+					}
+				}
+			}
+		  //---------------------------Age 2--------------------------------//
+			SetSelector
+			{
+			 ConstructionLogic 0 33 66
+				set hotspot
+				{
+				version
+					{
+							Visual GenericDestruction
+							connect forehead DestructionA hotspot
+							connect Smoke0 Dust hotspot
+							connect Smoke1 Dust hotspot
+							connect Smoke2 Dust hotspot
+							connect Smoke3 Dust hotspot
+					}
+		 }
+		 set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G ConstructionArmory
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+					}
+				}
+			}
+		  //---------------------------Age 3--------------------------------//
+			SetSelector
+			{
+			 ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+							Visual GenericDestruction
+							connect forehead DestructionA hotspot
+							connect Smoke0 Dust hotspot
+							connect Smoke1 Dust hotspot
+							connect Smoke2 Dust hotspot
+							connect Smoke3 Dust hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G ConstructionArmory
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+					}
+				}
+			}
+		}
+			 //---------------------------Norse---------------------------//
+		  //---------------------------Age 1--------------------------------//
+		SetSelector
+		{
+			TechLogic age 2/age 3/age 4
+			SetSelector
+			{
+			 ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building N Armory_Death
+							connect Smoke0 Dust hotspot
+							connect Smoke1 Dust hotspot
+							connect Smoke2 Dust hotspot
+							connect Smoke3 Dust hotspot
+					}
+			 }
+			  set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium A
+						connect attachpoint N_Long_Brick hotspot
+						connect face N_Long_Brick hotspot
+						connect chin N_Medium_Brick hotspot
+						connect leftfoot N_Medium_Brick hotspot
+						connect lefthand N_Small_Brick hotspot
+						connect leftleg N_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium B
+						connect attachpoint N_Long_Brick hotspot
+						connect face N_Long_Brick hotspot
+						connect chin N_Medium_Brick hotspot
+						connect leftfoot N_Medium_Brick hotspot
+						connect lefthand N_Small_Brick hotspot
+						connect leftleg N_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G ConstructionArmory
+						connect attachpoint N_Long_Brick hotspot
+						connect face N_Long_Brick hotspot
+						connect chin N_Medium_Brick hotspot
+						connect leftfoot N_Medium_Brick hotspot
+						connect lefthand N_Small_Brick hotspot
+						connect leftleg N_Small_Brick hotspot
+					}
+				}
+			}
+		  //---------------------------Age 2--------------------------------//
+			setSelector
+			{
+			 ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building N ArmoryAge3_Death
+							connect Smoke0 Dust hotspot
+							connect Smoke1 Dust hotspot
+							connect Smoke2 Dust hotspot
+							connect Smoke3 Dust hotspot
+					}
+			 }
+			  set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium A
+						connect attachpoint N_Long_Brick hotspot
+						connect face N_Long_Brick hotspot
+						connect chin N_Medium_Brick hotspot
+						connect leftfoot N_Medium_Brick hotspot
+						connect lefthand N_Small_Brick hotspot
+						connect leftleg N_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium B
+						connect attachpoint N_Long_Brick hotspot
+						connect face N_Long_Brick hotspot
+						connect chin N_Medium_Brick hotspot
+						connect leftfoot N_Medium_Brick hotspot
+						connect lefthand N_Small_Brick hotspot
+						connect leftleg N_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G ConstructionArmory
+						connect attachpoint N_Long_Brick hotspot
+						connect face N_Long_Brick hotspot
+						connect chin N_Medium_Brick hotspot
+						connect leftfoot N_Medium_Brick hotspot
+						connect lefthand N_Small_Brick hotspot
+						connect leftleg N_Small_Brick hotspot
+					}
+				}
+			}
+		  //---------------------------Age 3--------------------------------//
+			setSelector
+			{
+			 ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						 Visual Building N ArmoryAge4_Death
+							connect Smoke0 Dust hotspot
+							connect Smoke1 Dust hotspot
+							connect Smoke2 Dust hotspot
+							connect Smoke3 Dust hotspot
+		 			}
+			 }
+			  set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium A
+						connect attachpoint N_Long_Brick hotspot
+						connect face N_Long_Brick hotspot
+						connect chin N_Medium_Brick hotspot
+						connect leftfoot N_Medium_Brick hotspot
+						connect lefthand N_Small_Brick hotspot
+						connect leftleg N_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium B
+						connect attachpoint N_Long_Brick hotspot
+						connect face N_Long_Brick hotspot
+						connect chin N_Medium_Brick hotspot
+						connect leftfoot N_Medium_Brick hotspot
+						connect lefthand N_Small_Brick hotspot
+						connect leftleg N_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G ConstructionArmory
+						connect attachpoint N_Long_Brick hotspot
+						connect face N_Long_Brick hotspot
+						connect chin N_Medium_Brick hotspot
+						connect leftfoot N_Medium_Brick hotspot
+						connect lefthand N_Small_Brick hotspot
+						connect leftleg N_Small_Brick hotspot
+					}
+				}
+			}
+		}
+			//---------------------------Atlantean---------------------------//
+		  //---------------------------Age 1--------------------------------//
+		SetSelector
+		{
+			TechLogic age 2/age 3/age 4
+			SetSelector
+			{
+			 ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building X Armory Age1_Death
+							connect Smoke0 Dust hotspot
+							connect Smoke1 Dust hotspot
+							connect Smoke2 Dust hotspot
+							connect Smoke3 Dust hotspot
+					}
+			 }
+			  set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Armory
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+					}
+				}
+			}
+		  //---------------------------Age 2--------------------------------//
+			SetSelector
+			{
+			 ConstructionLogic 0 33 66
+				set hotspot
+				{
+				version
+					{
+						Visual Building X Armory Age2_Death
+							connect Smoke0 Dust hotspot
+							connect Smoke1 Dust hotspot
+							connect Smoke2 Dust hotspot
+							connect Smoke3 Dust hotspot
+					}
+		 }
+		 set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Armory
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+					}
+				}
+			}
+		  //---------------------------Age 3--------------------------------//
+			SetSelector
+			{
+			 ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building X Armory Age3_Death
+							connect Smoke0 Dust hotspot
+							connect Smoke1 Dust hotspot
+							connect Smoke2 Dust hotspot
+							connect Smoke3 Dust hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium A
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium B
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Armory
+						connect attachpoint G_Long_Brick hotspot
+						connect face G_Long_Brick hotspot
+						connect chin G_Medium_Brick hotspot
+						connect leftfoot G_Medium_Brick hotspot
+						connect lefthand G_Small_Brick hotspot
+						connect leftleg G_Small_Brick hotspot
+					}
+				}
+			}
+		}
+		
+//---------------------------------Chinese---------------------------------------//
+		 //---------------------------Age 2--------------------------------//		 
+		SetSelector
+		{
+			TechLogic age 2/age 3/age 4
+			SetSelector
+			{
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Armory Age2_Death
+						ReplaceTexture building c roofage1/building c roofage2
+						ReplaceTexture building c wallsage1/building c wallsage2
+							connect Smoke0 Dust hotspot
+							connect Smoke1 Dust hotspot
+							connect Smoke2 Dust hotspot
+							connect Smoke3 Dust hotspot
+					}
+				} 
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium A
+						connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium B
+						connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G ConstructionArmory
+						connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+					}
+				}
+			}
+		  //---------------------------Age 3--------------------------------//
+			SetSelector
+			{
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Armory Age3_Death
+						ReplaceTexture building c roofage1/building c roofage3
+						ReplaceTexture building c wallsage1/building c wallsage3
+							connect Smoke0 Dust hotspot
+							connect Smoke1 Dust hotspot
+							connect Smoke2 Dust hotspot
+							connect Smoke3 Dust hotspot
+		
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium A
+						connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium B
+						connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G ConstructionArmory
+						connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+					}
+				}
+			}
+		  //---------------------------Age 4---------------------------//
+			setSelector
+			{
+			 ConstructionLogic 0 33 66
+			 set hotspot
+				{
+				version
+					{
+						Visual Building C Armory Age3_Death
+						ReplaceTexture building c roofage1/building c roofage4
+						ReplaceTexture building c wallsage1/building c wallsage4
+							connect Smoke0 Dust hotspot
+							connect Smoke1 Dust hotspot
+							connect Smoke2 Dust hotspot
+							connect Smoke3 Dust hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium A
+						connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction Medium B
+						connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G ConstructionArmory
+						connect attachpoint E_Long_Brick hotspot
+						connect face E_Long_Brick hotspot
+						connect chin E_Medium_Brick hotspot
+						connect leftfoot E_Medium_Brick hotspot
+						connect lefthand E_Small_Brick hotspot
+						connect leftleg E_Small_Brick hotspot
+					}
+				}
+			}
+		}
+	}
+}
+
+
+

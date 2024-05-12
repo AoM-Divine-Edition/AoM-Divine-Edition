@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Hailstorm" type="rain" techname="Hailstorm">
+	<activetime>60.0</activetime>
+	<radius>12.0</radius>
+	<powerblocker>-1</powerblocker>
+	<minimapeventtime sendalertto="none">0.0</minimapeventtime>
+	<fasteststriketime>1.0</fasteststriketime>
+	<sloweststriketime>2.0</sloweststriketime>
+	<placement>skip</placement>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">LightThunder</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<sfx>Arctic Winds</sfx>
+	<rainspotproto>AbstractSettlement</rainspotproto>
+	<smallsfx>Revealer</smallsfx>
+	<smallrainspotproto>AbstractFarm</smallrainspotproto>
+	<gatherrate rate="0.001">farm</gatherrate>
+	<gatherrate rate="0.001">gold</gatherrate>
+	<gatherrate rate="0.001">wood</gatherrate>
+	<powerplayerrelation>enemy</powerplayerrelation>
+	<icon>HailstormIcon</icon>
+	<usedicon>HailstormIcon</usedicon>
+</power>

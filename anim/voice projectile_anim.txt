@@ -1,0 +1,188 @@
+//==============================================================================
+// Fire Giant_anim.txt
+//==============================================================================
+
+
+//==============================================================================
+define Rising
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Dark Lady
+		       Connect RIGHTFOOT Darkness hotspot
+		       Connect LEFTFOOT Darkness hotspot
+		       connect attachpoint spark hotspot
+      }
+   }
+}
+
+//==============================================================================
+define birthrocks
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle Blue Fire SFX
+      }
+   }
+}
+
+//==============================================================================
+define starz
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Armor Glow Small
+      }
+   }
+}
+
+//==============================================================================
+define meteor
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Meteorite Trail Fire
+      }
+   }
+}
+
+
+//==============================================================================
+define Darkness
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle Dark Trail
+      }
+   }
+}
+
+//==============================================================================
+define Darkness2
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle Dark Clouds
+      }
+   }
+}
+
+
+//==============================================================================
+define spark
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle Eclipsed
+      }
+   }
+}
+
+
+//==============================================================================
+define sparkx
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle sfx a cursed ball
+      }
+   }
+}
+
+//==============================================================================
+define starry
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle Star Trail
+      }
+   }
+}
+
+//==============================================================================
+define ConvertFire
+{
+   set hotspot
+  {
+      version
+      {
+         Visualparticle SFX X Lampades torch convert
+      }
+   }
+}
+
+
+
+
+
+
+//==============================================================================
+anim Idle
+{
+   SetSelector 
+   {
+      set hotspot
+      {
+         version
+         {
+   		   VisualNone Jimmy
+		        Connect RIGHTFOOT Darkness hotspot
+			Connect RIGHTFOOT Darkness2 hotspot
+		        Connect LEFTFOOT Darkness2 hotspot
+			Connect RIGHTFOOT starz hotspot
+		        Connect LEFTFOOT starz hotspot
+			Connect LEFTFOOT birthrocks hotspot
+		   	Connect RIGHTFOOT birthrocks hotspot
+			connect attachpoint spark hotspot
+			connect attachpoint starry hotspot
+
+         }
+         
+      }
+   }
+}
+
+//==============================================================================
+anim Bored
+{
+   SetSelector 
+   {
+      VariationLogic
+      set hotspot
+      {
+         version
+         {
+            		VisualNone Jimmy
+		        Connect RIGHTFOOT Darkness hotspot
+			Connect RIGHTFOOT Darkness2 hotspot
+		        Connect LEFTFOOT Darkness2 hotspot
+			Connect RIGHTFOOT starz hotspot
+		        Connect LEFTFOOT starz hotspot
+			Connect LEFTFOOT birthrocks hotspot
+		   	Connect RIGHTFOOT birthrocks hotspot
+			connect attachpoint spark hotspot
+			connect attachpoint starry hotspot	
+	    
+         }
+      }
+   }
+}
+

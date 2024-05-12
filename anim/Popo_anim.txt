@@ -1,0 +1,442 @@
+//==============================================================================
+// arkantos_anim.txt
+//==============================================================================
+//==============================================================================
+define burstfire
+{
+		set hotspot
+		{
+			version
+			{
+			Visualparticle popo burst fire
+			}
+		}
+}
+
+//==============================================================================
+define burstsmoke
+{
+		set hotspot
+		{
+			version
+			{
+			Visualparticle popo burst smoke
+			}
+		}
+}
+
+//==============================================================================
+define burstshockwave
+{
+		set hotspot
+		{
+			version
+			{
+			Visualparticle popo burst shockwave
+			}
+		}
+}
+
+//==============================================================================
+define burstblast
+{
+		set hotspot
+		{
+			version
+			{
+			Visualparticle popo burst blast
+			}
+		}
+}
+
+//==============================================================================
+define Head
+{
+   set hotspot
+   {
+      version
+      {
+       Visualparticle sfx g arkantos eye glow
+      }
+   }
+}
+//==============================================================================
+define Eyeglow
+{
+   set hotspot
+   {
+      version
+      {
+       Visualparticle sfx g arkantos eye glow
+      }
+   }
+}
+
+//==============================================================================
+define Eyeglowgod
+{
+   set hotspot
+   {
+      version
+      {
+       Visualparticle sfx g arkantos eye glow god
+      }
+   }
+}
+
+//==============================================================================
+define heavenglow
+{
+   set hotspot
+   {
+      version
+      {
+       Visualparticle sfx g arkantos heaven glow
+      }
+   }
+}
+
+//==============================================================================
+define heroglow
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Hero Glow Small
+      }
+   }
+}
+
+//==============================================================================
+define soul
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Hero Soul
+      }
+   }
+}
+
+//==============================================================================
+define arkantosflash
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX G Arkantos Flash Cine
+      }
+   }
+}
+
+//==============================================================================
+define soulaurora
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Hero Soul Aurora
+      }
+   }
+}
+
+//==============================================================================
+define heavenlight
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Hero Soul Heaven Light
+      }
+   }
+}
+
+//==============================================================================
+define soulbirth
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Hero Soul Birth
+      }
+   }
+}
+
+//==============================================================================
+define Spear
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Attachments A Spear Iron
+      }
+   }
+}
+
+
+//==============================================================================
+define godglow
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle scenario a arkantos god finale glow
+      }
+   }
+}
+
+//==============================================================================
+define godlight
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle scenario a arkantos god finale light
+      }
+   }
+}
+
+
+//==============================================================================
+anim Idle
+{
+   SetSelector
+   {
+      CinematicLogic
+   	SetSelector 
+		{
+			ContainLogic
+   		set hotspot 
+   		{
+				version
+         	{
+					Visual Popo idle
+					Connect FRONTABDOMEN heroglow hotspot
+					
+         	}
+			}
+			set hotspot
+			{
+				version
+         	{
+					Visual Popo carry idle
+					Connect FRONTABDOMEN heroglow hotspot
+					
+         	}
+			}
+		}
+		SetSelector 
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Popo idle
+				}
+			}
+   	}
+   }
+}
+
+//==============================================================================
+anim Bored
+{
+   SetSelector
+   {
+      CinematicLogic
+   	SetSelector 
+		{
+			ContainLogic
+   		set hotspot 
+   		{
+				version
+         	{
+					Visual Popo idle
+					Connect FRONTABDOMEN heroglow hotspot
+					
+         	}
+			}
+			set hotspot
+			{
+				version
+         	{
+					Visual Popo carry idle
+					Connect FRONTABDOMEN heroglow hotspot
+					
+         	}
+			}
+		}
+		SetSelector 
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Popo idle
+				}
+			}
+   	}
+   }
+}
+
+
+//==============================================================================
+anim attack
+{
+   SetSelector
+   {
+	   CinematicLogic
+   	SetSelector 
+   	{
+			set hotspot
+			{
+				version
+				{
+					Visual Popo attack
+					//-- auto generated by the bang animation tool
+					//-- do not hand edit these values
+					tag Attack 0.43 true   
+					tag GenericSound 0.40 true   
+					//-- end auto generated section
+					Connect FRONTABDOMEN heroglow hotspot
+				}
+			}
+		}
+		SetSelector 
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Popo attack
+					//-- auto generated by the bang animation tool
+					//-- do not hand edit these values
+					tag Attack 0.44 true   
+					tag GenericSound 0.40 true   
+					//-- end auto generated section
+				}
+			}
+   	}
+   }
+}
+
+//==============================================================================
+anim death
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+			Visual Popo death
+			//-- auto generated by the bang animation tool
+			//-- do not hand edit these values
+			tag SpecificSoundSet 0.00 false AHeroHasFallen  checkOwner
+			//-- end auto generated section
+			connect ATTACHPOINT soul hotspot
+			connect ATTACHPOINT soulaurora hotspot
+			connect ATTACHPOINT heavenlight hotspot
+			connect ATTACHPOINT soulbirth hotspot
+         }
+      }
+   }
+}
+
+
+//==============================================================================
+anim Walk
+{
+   SetSelector
+   {
+      CinematicLogic
+		SetSelector 
+		{
+			ContainLogic
+   		set hotspot 
+   		{
+				version
+         	{
+					Visual Popo Walk
+					Connect FRONTABDOMEN heroglow hotspot
+					tag FootstepLeft 0.30 true   
+					tag FootstepRight 0.80 true
+         	}
+			}
+			set hotspot
+			{
+				version
+         	{
+					Visual Popo carrya
+					Connect FRONTABDOMEN heroglow hotspot
+					tag FootstepLeft 0.30 true   
+					tag FootstepRight 0.80 true
+         	}
+			}
+		}
+		SetSelector 
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Popo Walk
+				}
+			}
+   	}
+   }
+}
+
+//==============================================================================
+anim Flail
+{
+   SetSelector 
+   {
+      set hotspot
+      {
+         version
+         {
+            Visual Popo Walk
+				Connect FRONTABDOMEN heroglow hotspot
+         }
+      }
+   }
+}
+
+
+//==============================================================================
+anim whirlwindAttack
+{
+   SetSelector none 
+   {
+      set hotspot
+      {
+         version
+         {
+				Visual Popo attack
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+               tag Attack 0.60 true   
+               tag GenericSound 0.60 true   
+               tag SpecificSoundSet 0.11 false ArkantosSpecial checkVisible 
+//-- end auto generated section
+			connect hotspot burstfire hotspot
+			connect hotspot burstshockwave hotspot
+			connect hotspot burstblast hotspot
+			connect hotspot burstfire hotspot
+			connect hotspot burstshockwave hotspot
+			connect hotspot burstblast hotspot
+         }
+      }
+   }
+}
+

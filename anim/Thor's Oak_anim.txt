@@ -1,0 +1,36 @@
+//==============================================================================
+// Courtyard Plants_anim.txt
+//==============================================================================
+
+//==============================================================================
+anim idle
+{
+	SetSelector
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual Thor Oak Small
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Thor Oak Medium
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Thor Oak Large
+				
+			}
+		}
+	}
+}

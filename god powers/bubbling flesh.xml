@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="BubblingFlesh" type="TempUnit" techname="Bubbling Flesh">
+	<activetime>-1</activetime>
+	<placement forceonmap="1">all</placement>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">GodPowerStart</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	
+	<rangeindicatorprotoid radius="6.0" indicatorcount="5" speed="0.2">UI Range Indicator Egypt SFX</rangeindicatorprotoid>
+	<createunit quantity="1"   minradius="0" maxradius="0" pattern="random"  delay="0.0">Fleshblob Creature</createunit>
+	<createunit quantity="6"   minradius="0" maxradius="1.0" pattern="random"  delay="0.5">Fleshblob Creature</createunit>
+	<createunit quantity="10"  minradius="0" maxradius="2.0" pattern="random"  delay="1.0">Fleshblob Creature</createunit>
+	<createunit quantity="15"  minradius="0" maxradius="3.0" pattern="random"  delay="1.5">Fleshblob Creature</createunit>
+	<createunit quantity="20"  minradius="0" maxradius="4.0" pattern="random"  delay="2.0">Fleshblob Creature</createunit>
+	<createunit quantity="25"  minradius="0" maxradius="5.0" pattern="random"  delay="2.5">Fleshblob Creature</createunit>
+	<createunit quantity="30"  minradius="0" maxradius="6.0" pattern="random"  delay="3.0">Fleshblob Creature</createunit>
+	<createunit quantity="35"  minradius="0" maxradius="7.0" pattern="random"  delay="3.5">Fleshblob Creature</createunit>
+	
+	
+	
+	<icon>improvement flesh blob icon</icon>
+	<usedicon>improvement flesh blob used icon</usedicon>
+
+	<recharges>0</recharges>
+	<rechargetime>55</rechargetime>
+</power>

@@ -1,0 +1,53 @@
+//==============================================================================
+// Mahi_anim.txt
+//==============================================================================
+
+
+//==============================================================================
+define buoy
+{
+   set hotspot
+   {
+      version
+      {
+			Visual World A Bouy
+      }
+   }
+}
+
+//==============================================================================
+anim idle
+{
+   SetSelector
+   {
+      WorkedOnLogic
+      set hotspot
+      {
+         version
+         {
+				Visual Animal Fish Mahi_A
+				ReplaceTexture animal fish mahi/animal fish tropical
+         }
+         version
+         {
+				Visual Animal Fish Mahi_B
+				ReplaceTexture animal fish mahi/animal fish tropical
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				Visual Animal Fish Mahi_A
+				ReplaceTexture animal fish mahi/animal fish tropical
+				connect ATTACHPOINT buoy HOTSPOT
+         }
+         version
+         {
+				Visual Animal Fish Mahi_B
+				ReplaceTexture animal fish mahi/animal fish tropical
+				connect ATTACHPOINT buoy HOTSPOT
+         }
+      }
+   }
+}

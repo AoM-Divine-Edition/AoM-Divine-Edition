@@ -1,0 +1,136 @@
+//==============================================================================
+// Wild Rush Deer_anim.txt
+//==============================================================================
+
+
+
+//==============================================================================
+define spirala
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle sfx a vortex spiral finish
+      }
+   }
+}
+
+//==============================================================================
+define lightbandsa
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle sfx a vortex light bands finish
+      }
+   }
+}
+
+
+//==============================================================================
+define flaira
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle sfx a vortex sunlight finish
+      }
+   }
+}
+
+//==============================================================================
+define spiralb
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle sfx a vortex spiral start
+      }
+   }
+}
+
+//==============================================================================
+define lightbandsb
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle sfx a vortex light bands start
+      }
+   }
+}
+
+//==============================================================================
+define flairb
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle sfx a vortex sunlight start
+      }
+   }
+}
+
+
+
+//==============================================================================
+anim Idle
+{
+   	SetSelector 
+	{
+		set hotspot
+		{
+			version
+			{
+				Visualnone test object
+				Connect HITPOINTBAR lightbandsa hotspot
+				Connect HITPOINTBAR flaira hotspot
+				Connect HITPOINTBAR lightbandsb hotspot
+				Connect HITPOINTBAR flairb hotspot
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim walk
+{
+   SetSelector 
+	{
+		set hotspot
+		{
+			version
+			{
+				Visualnone test object
+				Connect HITPOINTBAR lightbandsa hotspot
+				Connect HITPOINTBAR flaira hotspot
+				Connect HITPOINTBAR lightbandsb hotspot
+				Connect HITPOINTBAR flairb hotspot
+			}
+		}
+	}
+}
+//==============================================================================
+anim Run
+{
+   SetSelector 
+	{
+		set hotspot
+		{
+			version
+			{
+				Visualnone test object
+				Connect HITPOINTBAR lightbandsa hotspot
+				Connect HITPOINTBAR flaira hotspot
+				Connect HITPOINTBAR lightbandsb hotspot
+				Connect HITPOINTBAR flairb hotspot
+			}
+		}
+	}
+}

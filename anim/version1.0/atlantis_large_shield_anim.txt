@@ -1,0 +1,139 @@
+//==============================================================================
+define LargeAtlantisShield
+{
+	SetSelector
+	{
+		TechLogic none/Copper shields/Bronze shields/Iron shields
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					visualnone jimmy
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic Medium Infantry/Heavy Infantry/Champion Infantry
+			set hotspot
+			{
+				version
+				{
+					visual Attachments X Shield Large Copper
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Attachments X Shield Large Bronze
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Attachments X Shield Large Iron
+				}
+			}
+		}		
+		SetSelector
+		{
+			TechLogic Medium Infantry/Heavy Infantry/Champion Infantry
+			set hotspot
+			{
+				version
+				{
+					visual Attachments X Shield Large Copper
+					ReplaceTexture Attachments X Shield Medium/Attachments X Shield Heavy
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Attachments X Shield Large Bronze
+					ReplaceTexture Attachments X Shield Medium/Attachments X Shield Heavy
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Attachments X Shield Large Iron
+					ReplaceTexture Attachments X Shield Medium/Attachments X Shield Heavy
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic Medium Infantry/Heavy Infantry/Champion Infantry
+			set hotspot
+			{
+				version
+				{
+					visual Attachments X Shield Large Copper
+					ReplaceTexture Attachments X Shield Medium/Attachments X Shield Champion
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Attachments X Shield Large Bronze
+					ReplaceTexture Attachments X Shield Medium/Attachments X Shield Champion
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					visual Attachments X Shield Large Iron
+					ReplaceTexture Attachments X Shield Medium/Attachments X Shield Champion
+				}
+			}
+		}						
+	}
+}
+
+//==============================================================================
+define LargeAtlantisHeroShield
+{
+	SetSelector
+	{
+		TechLogic none/Copper shields/Bronze shields/Iron shields
+		set hotspot
+		{
+			version
+			{
+				visualnone jimmy
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				visual Attachments X Shield Large Copper
+				ReplaceTexture Attachments X Shield Medium/Attachments X Shield Hero
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				visual Attachments X Shield Large Bronze
+				ReplaceTexture Attachments X Shield Medium/Attachments X Shield Hero
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				visual Attachments X Shield Large Iron
+				ReplaceTexture Attachments X Shield Medium/Attachments X Shield Hero
+			}
+		}
+	}
+}

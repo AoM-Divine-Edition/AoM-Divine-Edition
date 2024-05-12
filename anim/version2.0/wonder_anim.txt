@@ -1,0 +1,1916 @@
+//==============================================================================
+// wonder_anim.txt
+//==============================================================================
+
+import Construction_defines_anim.txt
+			
+//==============================================================================
+define waterfall
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Building X Gaia Wonder Waterfall
+		}
+	}
+}
+
+//==============================================================================
+define wake1
+{
+	set hotspot
+	{
+		version
+		{
+			Visualparticle SFX x gaia wake1
+		}
+	}
+}
+
+//==============================================================================
+define wake2
+{
+	set hotspot
+	{
+		version
+		{
+			Visualparticle SFX x gaia wake2
+		}
+	}
+}
+
+//==============================================================================
+define wake3
+{
+	set hotspot
+	{
+		version
+		{
+			Visualparticle SFX x gaia wake3
+		}
+	}
+}
+//==============================================================================
+define mist
+{
+	set hotspot
+	{
+		version
+		{
+			Visualparticle sfx x gaia water mist
+		}
+	}
+}
+
+//==============================================================================
+define steam
+{
+	set hotspot
+	{
+		version
+		{
+			Visualparticle sfx x kronos wonder steam
+		}
+	}
+}
+
+//==============================================================================
+define Ravens
+{
+	set hotspot
+	{
+		version
+		{
+			Visualparticle SFX N Odin Wonder
+		}
+	}  
+}
+
+//==============================================================================
+define treeleaves
+{
+	set hotspot
+	{
+		version
+		{
+			Visualparticle Building N Wonder Leaves
+		}
+	}  
+}
+
+//==============================================================================
+define CypressB
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Terrain G CypressB
+		}
+	}  
+}
+
+//==============================================================================
+define CypressA
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Terrain G CypressA
+		}
+	}  
+}
+
+//==============================================================================
+define VINEA
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Building VineA
+		}
+	}  
+}
+
+//==============================================================================
+define VINEB
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Building VineB
+		}
+	}  
+}
+
+//==============================================================================
+define FlowerE
+{
+	set hotspot
+	{
+		version
+		{
+			Visual World A Flowers E
+		}
+	}  
+}
+
+//==============================================================================
+define FlowerB
+{
+	set hotspot
+	{
+		version
+		{
+			Visual World A Flowers B
+		}
+	}  
+}
+//==============================================================================
+define empower
+{
+	SetSelector
+	{
+		EmpowerLogic
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visualnone Jimmy
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visualparticle SFX E Pharaoh Empower Large
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+define Dust
+{
+	set hotspot
+	{
+		version
+		{
+			Visualparticle SFX A Building DustA
+		}
+	}  
+}
+
+
+//=============================================================================
+define Tage1
+{
+		set hotspot
+		{
+				version
+				{
+						Visual PyramidStage0
+						ReplaceTexture AztecStatue/AztecStatueII
+
+					}
+		}
+
+}
+
+//=============================================================================
+define Tage2
+{
+		set hotspot
+		{
+				version
+				{
+						Visual chichenItza
+				}
+		}
+
+
+}
+
+
+//=============================================================================
+define Tage3
+{
+		set hotspot
+		{
+				version
+				{
+						Visual Aztec Wonder Pyramid
+				}
+		}
+
+
+}
+
+//==============================================================================
+anim idle
+{
+	SetSelector
+	{
+	TechLogic none/Aztec Civ/Demeter Triggered
+    SetSelector
+    {
+		CultureLogic Egyptian/Greek/Norse/Atlantean/Chinese
+		SetSelector
+		{
+			CivilizationLogic isis/ra/set
+			SetSelector
+			{	
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building E Isis Wonder
+						connect ATTACHPOINT empower hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building E Wonder Con1
+						connect ATTACHPOINT empower hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building E Isis Wonder Con2
+						connect ATTACHPOINT empower hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building E Isis Wonder Con3
+						connect ATTACHPOINT empower hotspot
+					}
+				}
+			}
+			SetSelector
+			{	
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building E Ra Wonder
+						connect ATTACHPOINT empower hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building E Wonder Con1
+						connect ATTACHPOINT empower hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building E Ra Wonder Con2
+							connect ATTACHPOINT empower hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building E Ra Wonder Con3
+							connect ATTACHPOINT empower hotspot
+					}
+				}
+			}
+			SetSelector
+			{	
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building E Set Wonder
+						connect ATTACHPOINT empower hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building E Wonder Con1
+						connect ATTACHPOINT empower hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building E Set Wonder Con2
+						connect ATTACHPOINT empower hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building E Set Wonder Con3
+						connect ATTACHPOINT empower hotspot
+					}
+				}
+			}
+		}
+		SetSelector
+		{
+			CivilizationLogic hades/poseidon/zeus
+			SetSelector
+			{
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building G Hades Wonder
+						connect Leftear CypressA hotspot
+						connect Neck CypressB hotspot
+						connect Leftleg CypressB hotspot
+						connect Leftthigh VineB hotspot
+						//connect Leftshoulder CypressB hotspot
+						//connect Leftfoot CypressB hotspot
+						//connect Lefthand CypressA hotspot
+						connect Rightear CypressA hotspot
+						connect Face CypressB hotspot
+						connect Rightleg CypressB hotspot
+						connect Rightthigh VineB hotspot
+						connect Rightforearm VineB hotspot
+						connect Righthand VineA hotspot
+						connect BackChest FlowerE hotspot
+						connect Backabdomen flowerB hotspot
+						connect TopofHead FlowerE hotspot
+						connect Pelvis flowerB hotspot
+						connect Forehead FlowerE hotspot
+						connect RightShoulder flowerB hotspot
+						connect FRONTABDOMEN FlowerE hotspot
+						connect LEFTFOREARM FlowerB hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G Poisiden Wonder Con1
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G HadesWonder Con2
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G HadesWonder Con3
+					}
+				}
+			}
+			SetSelector
+			{
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building G Wonder
+						connect Leftear CypressA hotspot
+						connect Neck CypressB hotspot
+						connect Leftleg CypressB hotspot
+						connect Leftthigh VineB hotspot
+						connect Leftshoulder CypressB hotspot
+						connect Leftfoot CypressB hotspot
+						connect Lefthand CypressA hotspot
+						connect Rightear CypressA hotspot
+						connect Face CypressB hotspot
+						connect Rightleg CypressB hotspot
+						connect Rightthigh VineB hotspot
+						connect Rightforearm VineB hotspot
+						connect Righthand VineA hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G Poisiden Wonder Con1
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G Poisiden Wonder Con2
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G Poisiden Wonder Con3
+					}
+				}
+			}
+			SetSelector
+			{
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building G Zeus Wonder
+					connect Leftear CypressA hotspot
+					connect Rightear CypressA hotspot
+					connect Neck CypressA hotspot
+					connect Face CypressA hotspot
+					connect Leftleg CypressA hotspot
+					connect Rightleg CypressA hotspot
+					connect Leftshoulder CypressA hotspot
+					connect Rightshoulder CypressA hotspot
+					connect Leftfoot CypressA hotspot
+					connect Rightfoot CypressA hotspot
+					connect Lefthand CypressA hotspot
+					connect Righthand CypressA hotspot
+					connect Face CypressA hotspot
+					connect Topofhead CypressA hotspot
+					connect Backchest CypressA hotspot
+					connect BACKABDOMEN CypressA hotspot
+					connect FOREHEAD CypressA hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G Poisiden Wonder Con1
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G Zeus Wonder Con2
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G Zeus Wonder Con3
+					}
+				}
+			}
+		}
+		setSelector
+		{
+			CivilizationLogic loki/odin/thor
+			SetSelector
+			{
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building N Loki Wonder
+						//connect ATTACHPOINT treeleaves hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building N Loki Wonder con1
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building N Loki Wonder con2
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building N Loki Wonder con3
+					}
+				}
+			}
+			SetSelector
+			{
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building N Odin Wonder
+						connect hotspot Ravens hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building N Wonder Con1
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building N Odin Wonder Con2
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building N Odin Wonder Con3
+					}
+				}
+			}
+			SetSelector
+			{
+				ConstructionLogic 0 25 50 75
+				set hotspot
+				{
+					version
+					{
+						Visual Building N Wonder
+						connect ATTACHPOINT treeleaves hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building N Thor Wonder Con1
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building N Thor wonder con2
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building N Thor wonder con3
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building N Thor wonder con4
+					}
+				}
+			}
+		}
+		SetSelector
+		{
+			CivilizationLogic Kronos/Gaia/Ouranos
+			SetSelector
+			{
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building X Wonder Kronos
+						Connect hotspot steam hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G Poisiden Wonder Con1
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building X Kronos Wonder Con 3
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building X Kronos Wonder Con 4
+					}
+				}
+			}
+			SetSelector
+			{
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building X Wonder Gaia
+						connect hotspot waterfall hotspot
+						connect righthand wake1 hotspot
+						connect lefthand wake2 hotspot
+						connect neck wake3 hotspot
+						connect face mist hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G Poisiden Wonder Con1
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building X Gaia Wonder Con 3
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building X Gaia Wonder Con 4
+					}
+				}
+			}
+			SetSelector
+			{
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+					Visual Building X Wonder Oranos
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G Poisiden Wonder Con1
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building X Oranos Wonder Con 3
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building X Oranos Wonder Con 4
+					}
+				}
+			}
+		}
+		SetSelector
+		{
+			CivilizationLogic fuxi/nuwa/shennong
+			SetSelector
+			{
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Wonder City
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Wonder City Con1
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Wonder City Con2
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Wonder City Con3
+					}
+				}
+			}
+			SetSelector
+			{
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Wonder Palace
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Wonder Palace Con1
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Wonder Palace Con2
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Wonder Palace Con3
+					}
+				}
+			}
+			SetSelector
+			{
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Wonder Temple
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Wonder Temple Con1
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Wonder Temple Con2
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Wonder Temple Con3
+					}
+				}
+			}
+		}
+	}
+	SetSelector
+		{
+			CivilizationLogic fuxi/nuwa/shennong
+			SetSelector
+			{
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual PyramidStage0
+				ReplaceTexture AztecStatue/AztecStatueII
+				Connect RIGHTHAND fire hotspot
+				Connect RIGHTHAND firebowl hotspot
+				Connect RIGHTHAND smoke hotspot
+				Connect RIGHTLEG  fire hotspot
+				Connect RIGHTLEG firebowl hotspot
+				Connect RIGHTLEG smoke hotspot
+				Connect LEFTHAND fire hotspot
+				Connect LEFTHAND firebowl hotspot
+				Connect LEFTHAND smoke hotspot
+				Connect LEFTLEG fire hotspot
+				Connect LEFTLEG firebowl hotspot
+				Connect LEFTLEG smoke hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Wonder City Con1
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Wonder City Con1
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Wonder City Con1
+					}
+				}
+			}
+			SetSelector
+			{
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual chichenItza
+				Connect FIRE fire hotspot
+				Connect FIRE firebowl hotspot
+				Connect FIRE smoke hotspot
+				Connect LEFTEAR fire hotspot
+				Connect LEFTEAR firebowl hotspot
+				Connect LEFTEAR smoke hotspot
+				Connect LEFTFOOT fire hotspot
+				Connect LEFTFOOT firebowl hotspot
+				Connect LEFTFOOT smoke hotspot
+				Connect LEFTHAND fire hotspot
+				Connect LEFTHAND firebowl hotspot
+				Connect LEFTHAND smoke hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Wonder Palace Con1
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Wonder Palace Con2
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Wonder Palace Con3
+					}
+				}
+			}
+			SetSelector
+			{
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Aztec Wonder Pyramid
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Wonder Temple Con1
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Wonder Temple Con2
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Wonder Temple Con3
+					}
+				}
+			}
+		}
+
+
+		SetSelector
+			{	
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Demeter_Wonder
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G Poisiden Wonder Con1
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G HadesWonder Con2
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G HadesWonder Con3
+					}
+				}
+			}
+
+
+	}
+}
+
+//==============================================================================
+anim Death
+{
+	SetSelector
+	{
+	TechLogic none/Aztec Civ/Demeter Triggered
+    SetSelector
+    {
+		CultureLogic Egyptian/Greek/Norse/Atlantean/Chinese
+		SetSelector
+		{
+			CivilizationLogic isis/ra/set
+			SetSelector
+			{	
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building E Isis Wonder_Death
+						connect smoke0 Dust hotspot
+						connect smoke1 Dust hotspot
+						connect smoke2 Dust hotspot
+						connect smoke3 Dust hotspot
+						connect smoke4 Dust hotspot
+						connect smoke5 Dust hotspot
+						connect smoke6 Dust hotspot
+						connect smoke7 Dust hotspot
+						connect smoke8 Dust hotspot
+						connect smoke9 Dust hotspot
+						connect Backabdomen Dust hotspot
+						connect chin Dust hotspot
+						connect forehead Dust hotspot
+						connect frontabdomen Dust hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building E Wonder Con1
+						connect ATTACHPOINT empower hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building E Isis Wonder Con2
+						connect ATTACHPOINT empower hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building E Isis Wonder Con3
+						connect ATTACHPOINT empower hotspot
+					}
+				}
+			}
+			SetSelector
+			{	
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building E Ra Wonder_Death
+						connect smoke0 Dust hotspot
+						connect smoke1 Dust hotspot
+						connect smoke2 Dust hotspot
+						connect smoke3 Dust hotspot
+						connect smoke4 Dust hotspot
+						connect smoke5 Dust hotspot
+						connect smoke6 Dust hotspot
+						connect smoke7 Dust hotspot
+						connect smoke8 Dust hotspot
+						connect smoke9 Dust hotspot
+						connect Backabdomen Dust hotspot
+						connect chin Dust hotspot
+						connect forehead Dust hotspot
+						connect frontabdomen Dust hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building E Wonder Con1
+						connect ATTACHPOINT empower hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building E Ra Wonder Con2
+							connect ATTACHPOINT empower hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building E Ra Wonder Con3
+							connect ATTACHPOINT empower hotspot
+					}
+				}
+			}
+			SetSelector
+			{	
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building E Set Wonder_Death
+						connect smoke0 Dust hotspot
+						connect smoke1 Dust hotspot
+						connect smoke2 Dust hotspot
+						connect smoke3 Dust hotspot
+						connect smoke4 Dust hotspot
+						connect smoke5 Dust hotspot
+						connect smoke6 Dust hotspot
+						connect smoke7 Dust hotspot
+						connect smoke8 Dust hotspot
+						connect smoke9 Dust hotspot
+						connect Backabdomen Dust hotspot
+						connect chin Dust hotspot
+						connect forehead Dust hotspot
+						connect frontabdomen Dust hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building E Wonder Con1
+						connect ATTACHPOINT empower hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building E Set Wonder Con2
+						connect ATTACHPOINT empower hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building E Set Wonder Con3
+						connect ATTACHPOINT empower hotspot
+					}
+				}
+			}
+		}
+		SetSelector
+		{
+			CivilizationLogic hades/poseidon/zeus
+			SetSelector
+			{
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building G Hades Wonder_Death
+						connect smoke0 Dust hotspot
+						connect smoke1 Dust hotspot
+						connect smoke2 Dust hotspot
+						connect smoke3 Dust hotspot
+						connect smoke4 Dust hotspot
+						connect smoke5 Dust hotspot
+						connect smoke6 Dust hotspot
+						connect smoke7 Dust hotspot
+						connect smoke8 Dust hotspot
+						connect smoke9 Dust hotspot
+						connect Backabdomen Dust hotspot
+						connect chin Dust hotspot
+						connect forehead Dust hotspot
+						connect frontabdomen Dust hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G Poisiden Wonder Con1
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G HadesWonder Con2
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G HadesWonder Con3
+					}
+				}
+			}
+			SetSelector
+			{
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building G Wonder_Death
+						connect smoke0 Dust hotspot
+						connect smoke1 Dust hotspot
+						connect smoke2 Dust hotspot
+						connect smoke3 Dust hotspot
+						connect smoke4 Dust hotspot
+						connect smoke5 Dust hotspot
+						connect smoke6 Dust hotspot
+						connect smoke7 Dust hotspot
+						connect smoke8 Dust hotspot
+						connect smoke9 Dust hotspot
+						connect Backabdomen Dust hotspot
+						connect chin Dust hotspot
+						connect forehead Dust hotspot
+						connect frontabdomen Dust hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G Poisiden Wonder Con1
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G Poisiden Wonder Con2
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G Poisiden Wonder Con3
+					}
+				}
+			}
+			SetSelector
+			{
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building G Zeus Wonder_Death
+						connect smoke0 Dust hotspot
+						connect smoke1 Dust hotspot
+						connect smoke2 Dust hotspot
+						connect smoke3 Dust hotspot
+						connect smoke4 Dust hotspot
+						connect smoke5 Dust hotspot
+						connect smoke6 Dust hotspot
+						connect smoke7 Dust hotspot
+						connect smoke8 Dust hotspot
+						connect smoke9 Dust hotspot
+						connect Backabdomen Dust hotspot
+						connect chin Dust hotspot
+						connect forehead Dust hotspot
+						connect frontabdomen Dust hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G Poisiden Wonder Con1
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G Zeus Wonder Con2
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G Zeus Wonder Con3
+					}
+				}
+			}
+		}
+		setSelector
+		{
+			CivilizationLogic loki/odin/thor
+			SetSelector
+			{
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building N Loki Wonder_Death
+						connect smoke0 Dust hotspot
+						connect smoke1 Dust hotspot
+						connect smoke2 Dust hotspot
+						connect smoke3 Dust hotspot
+						connect smoke4 Dust hotspot
+						connect smoke5 Dust hotspot
+						connect smoke6 Dust hotspot
+						connect smoke7 Dust hotspot
+						connect smoke8 Dust hotspot
+						connect smoke9 Dust hotspot
+						connect Backabdomen Dust hotspot
+						connect chin Dust hotspot
+						connect forehead Dust hotspot
+						connect frontabdomen Dust hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building N Loki Wonder con1
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building N Loki Wonder con2
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building N Loki Wonder con3
+					}
+				}
+			}
+			SetSelector
+			{
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building N Odin Wonder_Death
+						connect smoke0 Dust hotspot
+						connect smoke1 Dust hotspot
+						connect smoke2 Dust hotspot
+						connect smoke3 Dust hotspot
+						connect smoke4 Dust hotspot
+						connect smoke5 Dust hotspot
+						connect smoke6 Dust hotspot
+						connect smoke7 Dust hotspot
+						connect smoke8 Dust hotspot
+						connect smoke9 Dust hotspot
+						connect Backabdomen Dust hotspot
+						connect chin Dust hotspot
+						connect forehead Dust hotspot
+						connect frontabdomen Dust hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building N Wonder Con1
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building N Odin Wonder Con2
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building N Odin Wonder Con3
+					}
+				}
+			}
+			SetSelector
+			{
+				ConstructionLogic 0 25 50 75
+				set hotspot
+				{
+					version
+					{
+						Visual Building N Wonder_Death
+						connect smoke0 Dust hotspot
+						connect smoke1 Dust hotspot
+						connect smoke2 Dust hotspot
+						connect smoke3 Dust hotspot
+						connect smoke4 Dust hotspot
+						connect smoke5 Dust hotspot
+						connect smoke6 Dust hotspot
+						connect smoke7 Dust hotspot
+						connect smoke8 Dust hotspot
+						connect smoke9 Dust hotspot
+						connect Backabdomen Dust hotspot
+						connect chin Dust hotspot
+						connect forehead Dust hotspot
+						connect frontabdomen Dust hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building N Thor Wonder Con1
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building N Thor wonder con2
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building N Thor wonder con3
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building N Thor wonder con4
+					}
+				}
+			}
+		}
+		SetSelector
+		{
+			CivilizationLogic Ouranos/Kronos/Gaia
+			SetSelector
+			{
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building X Wonder Oranos_Death
+							connect smoke0 Dust hotspot
+						connect smoke1 Dust hotspot
+						connect smoke2 Dust hotspot
+						connect smoke3 Dust hotspot
+						connect smoke4 Dust hotspot
+						connect smoke5 Dust hotspot
+						connect smoke6 Dust hotspot
+						connect smoke7 Dust hotspot
+						connect smoke8 Dust hotspot
+						connect smoke9 Dust hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G Poisiden Wonder Con1
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building X Oranos Wonder Con 3
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building X Oranos Wonder Con 4
+					}
+				}
+			}
+			SetSelector
+			{
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building X Wonder Kronos_Death
+							connect smoke0 Dust hotspot
+						connect smoke1 Dust hotspot
+						connect smoke2 Dust hotspot
+						connect smoke3 Dust hotspot
+						connect smoke4 Dust hotspot
+						connect smoke5 Dust hotspot
+						connect smoke6 Dust hotspot
+						connect smoke7 Dust hotspot
+						connect smoke8 Dust hotspot
+						connect smoke9 Dust hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G Poisiden Wonder Con1
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building X Kronos Wonder Con 3
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building X Kronos Wonder Con 4
+					}
+				}
+			}
+			SetSelector
+			{
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building X Wonder Gaia_Death
+							connect smoke0 Dust hotspot
+						connect smoke1 Dust hotspot
+						connect smoke2 Dust hotspot
+						connect smoke3 Dust hotspot
+						connect smoke4 Dust hotspot
+						connect smoke5 Dust hotspot
+						connect smoke6 Dust hotspot
+						connect smoke7 Dust hotspot
+						connect smoke8 Dust hotspot
+						connect smoke9 Dust hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G Poisiden Wonder Con1
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building X Gaia Wonder Con 3
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building X Gaia Wonder Con 4
+					}
+				}
+			}
+		}
+		SetSelector
+		{
+			CivilizationLogic fuxi/nuwa/shennong
+			SetSelector
+			{
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Wonder City_Death
+						connect smoke0 Dust hotspot
+						connect smoke1 Dust hotspot
+						connect smoke2 Dust hotspot
+						connect smoke3 Dust hotspot
+						connect smoke4 Dust hotspot
+						connect smoke5 Dust hotspot
+						connect smoke6 Dust hotspot
+						connect smoke7 Dust hotspot
+						connect smoke8 Dust hotspot
+						connect smoke9 Dust hotspot
+						connect Backabdomen Dust hotspot
+						connect chin Dust hotspot
+						connect forehead Dust hotspot
+						connect frontabdomen Dust hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Wonder City Con1
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Wonder City Con2
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Wonder City Con3
+					}
+				}
+			}
+			SetSelector
+			{
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Wonder Palace_Death
+						connect smoke0 Dust hotspot
+						connect smoke1 Dust hotspot
+						connect smoke2 Dust hotspot
+						connect smoke3 Dust hotspot
+						connect smoke4 Dust hotspot
+						connect smoke5 Dust hotspot
+						connect smoke6 Dust hotspot
+						connect smoke7 Dust hotspot
+						connect smoke8 Dust hotspot
+						connect smoke9 Dust hotspot
+						connect Backabdomen Dust hotspot
+						connect chin Dust hotspot
+						connect forehead Dust hotspot
+						connect frontabdomen Dust hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Wonder Palace Con1
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Wonder Palace Con2
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Wonder Palace Con3
+					}
+				}
+			}
+			SetSelector
+			{
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Wonder Temple_Death
+						connect smoke0 Dust hotspot
+						connect smoke1 Dust hotspot
+						connect smoke2 Dust hotspot
+						connect smoke3 Dust hotspot
+						connect smoke4 Dust hotspot
+						connect smoke5 Dust hotspot
+						connect smoke6 Dust hotspot
+						connect smoke7 Dust hotspot
+						connect smoke8 Dust hotspot
+						connect smoke9 Dust hotspot
+						connect Backabdomen Dust hotspot
+						connect chin Dust hotspot
+						connect forehead Dust hotspot
+						connect frontabdomen Dust hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Wonder Temple Con1
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Wonder Temple Con2
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Wonder Temple Con3
+					}
+				}
+			}
+		}
+	}
+	SetSelector
+		{
+			CivilizationLogic fuxi/nuwa/shennong
+			SetSelector
+			{
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual GenericDestruction
+						Connect FOREHEAD Tage1 hotspot
+						connect smoke0 Dust hotspot
+						connect smoke1 Dust hotspot
+						connect smoke2 Dust hotspot
+						connect smoke3 Dust hotspot
+						connect smoke4 Dust hotspot
+						connect smoke5 Dust hotspot
+						connect smoke6 Dust hotspot
+						connect smoke7 Dust hotspot
+						connect smoke8 Dust hotspot
+						connect smoke9 Dust hotspot
+						connect Backabdomen Dust hotspot
+						connect chin Dust hotspot
+						connect forehead Dust hotspot
+						connect frontabdomen Dust hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Wonder City Con1
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Wonder City Con2
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Wonder City Con3
+					}
+				}
+			}
+			SetSelector
+			{
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual GenericDestruction
+						Connect FOREHEAD Tage2 hotspot
+						connect smoke0 Dust hotspot
+						connect smoke1 Dust hotspot
+						connect smoke2 Dust hotspot
+						connect smoke3 Dust hotspot
+						connect smoke4 Dust hotspot
+						connect smoke5 Dust hotspot
+						connect smoke6 Dust hotspot
+						connect smoke7 Dust hotspot
+						connect smoke8 Dust hotspot
+						connect smoke9 Dust hotspot
+						connect Backabdomen Dust hotspot
+						connect chin Dust hotspot
+						connect forehead Dust hotspot
+						connect frontabdomen Dust hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Wonder Palace Con1
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Wonder Palace Con2
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Wonder Palace Con3
+					}
+				}
+			}
+			SetSelector
+			{
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual GenericDestruction
+						Connect FOREHEAD Tage3 hotspot
+						connect smoke0 Dust hotspot
+						connect smoke1 Dust hotspot
+						connect smoke2 Dust hotspot
+						connect smoke3 Dust hotspot
+						connect smoke4 Dust hotspot
+						connect smoke5 Dust hotspot
+						connect smoke6 Dust hotspot
+						connect smoke7 Dust hotspot
+						connect smoke8 Dust hotspot
+						connect smoke9 Dust hotspot
+						connect Backabdomen Dust hotspot
+						connect chin Dust hotspot
+						connect forehead Dust hotspot
+						connect frontabdomen Dust hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Wonder Temple Con1
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Wonder Temple Con2
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building C Wonder Temple Con3
+					}
+				}
+			}
+		}
+SetSelector
+			{	
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Demeter_Wonder
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G Poisiden Wonder Con1
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G HadesWonder Con2
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G HadesWonder Con3
+					}
+				}
+			}
+
+
+	}
+}

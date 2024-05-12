@@ -1,0 +1,106 @@
+//==============================================================================
+// tartarian gate flame_anim.txt
+//==============================================================================
+
+//==============================================================================
+define firecrack
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle GP X Tartarian Gate Firecrack
+      }
+   }
+}
+
+//==============================================================================
+define fireburst
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle GP X Tartarian Gate Fireburst
+      }
+   }
+}
+
+//==============================================================================
+define Dirtcrack
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle GP X Tartarian Gate Dirtcrack
+      }
+   }
+}
+
+//==============================================================================
+anim Birth
+{
+	SetSelector 
+	{
+		set hotspot
+		{
+			version
+			{
+				Visual GP X Tartarian Gate Crack A
+				Connect ATTACHPOINT firecrack hotspot
+				Connect ATTACHPOINT fireburst hotspot
+				Connect ATTACHPOINT Dirtcrack hotspot
+            tag SpecificSoundSet 0.0 false VolcanoLaunch checkVisible
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Idle
+{
+	SetSelector 
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual GP X Tartarian Gate Crack A
+				Connect ATTACHPOINT firecrack hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual GP X Tartarian Gate Crack B
+				Connect ATTACHPOINT firecrack hotspot
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Death
+{
+	SetSelector 
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual GP X Tartarian Gate Crack A
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual GP X Tartarian Gate Crack B
+			}
+		}
+	}
+}

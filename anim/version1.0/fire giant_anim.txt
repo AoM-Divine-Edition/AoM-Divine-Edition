@@ -1,0 +1,558 @@
+//==============================================================================
+// Fire Giant_anim.txt
+//==============================================================================
+
+//==============================================================================
+define FireHead
+{
+	set hotspot
+	{
+		version
+		{
+			Visualparticle SFX A Generic Fire medium
+		}
+	}
+}
+
+//==============================================================================
+define norsebirthSFX
+{
+	set hotspot
+	{
+		version
+		{
+			VisualParticle SFX N Myth Unit Birth Effect
+		}
+	}
+}
+
+//==============================================================================
+define FireFoot
+{
+	set hotspot
+	{
+		version
+		{
+			Visualparticle Special N Fire Giant FireFoot
+		}
+	}
+}
+
+//==============================================================================
+define FireHand
+{
+	set hotspot
+  {
+		version
+		{
+			Visualparticle Special N Fire Giant FireHand
+		}
+	}
+}
+
+//==============================================================================
+define FireHandCharging
+{
+	set hotspot
+	{
+		version
+		{
+			Visualparticle Special N Fire Giant FireHand Charging
+		}
+	}
+}
+
+//==============================================================================
+define FireHandRanged
+{
+	set hotspot
+	{
+		version
+		{
+			Visualparticle Special N Fire Giant FireHand Ranged
+		}
+	}
+}
+
+//==============================================================================
+define FirePelvis
+{
+	set hotspot
+	{
+		version
+		{
+			Visualparticle Special N Fire Giant FirePelvis
+		}
+	}
+}
+
+//==============================================================================
+define SmokePelvis
+{
+	set hotspot
+	{
+		version
+		{
+			Visualparticle Special N Fire Giant SmokePelvis
+		}
+	}
+}
+
+//==============================================================================
+define deathfire
+{
+	set hotspot
+	{
+		version
+		{
+			Visualparticle special n fire giant death fire
+		}
+	}
+}
+
+//==============================================================================
+define deathsmoke
+{
+	set hotspot
+	{
+		version
+		{
+			Visualparticle special n fire giant death smoke
+		}
+	}
+}
+
+//==============================================================================
+define deathash
+{
+	set hotspot
+	{
+		version
+		{
+			Visualparticle special n fire giant death ash
+		}
+	}
+}
+
+//==============================================================================
+anim Birth
+{
+	SetSelector 
+	{
+		techLogic none/Granite Blood
+		set hotspot
+		{
+			version
+			{
+				Visual Special N Fire Giant_idleA
+				Connect LEFTFOOT FireFoot hotspot
+				Connect LEFTHAND FireHand hotspot
+				Connect RIGHTFOOT FireFoot hotspot
+				Connect RIGHTHAND FireHand hotspot
+				Connect FRONTABDOMEN FirePelvis hotspot
+				Connect FRONTABDOMEN SmokePelvis hotspot
+				connect HOTSPOT norsebirthSFX hotspot
+				Connect frontabdomen FireHead hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Special N Fire Giant_idleA
+				Connect LEFTFOOT FireFoot hotspot
+				Connect LEFTHAND FireHand hotspot
+				Connect RIGHTFOOT FireFoot hotspot
+				Connect RIGHTHAND FireHand hotspot
+				Connect FRONTABDOMEN FirePelvis hotspot
+				Connect FRONTABDOMEN SmokePelvis hotspot
+				connect HOTSPOT norsebirthSFX hotspot
+				ReplaceTexture Special N Fire Giant/Special N Fire Giant Upgrade
+				Connect frontabdomen FireHead hotspot
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Idle
+{
+	SetSelector 
+	{
+		techLogic none/Granite Blood
+		set hotspot
+		{
+			version
+			{
+				Visual Special N Fire Giant_idleA
+				Connect LEFTFOOT FireFoot hotspot
+				Connect LEFTHAND FireHand hotspot
+				Connect RIGHTFOOT FireFoot hotspot
+				Connect RIGHTHAND FireHand hotspot
+				Connect FRONTABDOMEN FirePelvis hotspot
+				Connect FRONTABDOMEN SmokePelvis hotspot
+				Connect frontabdomen FireHead hotspot
+			}
+			
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Special N Fire Giant_idleA
+				Connect LEFTFOOT FireFoot hotspot
+				Connect LEFTHAND FireHand hotspot
+				Connect RIGHTFOOT FireFoot hotspot
+				Connect RIGHTHAND FireHand hotspot
+				Connect FRONTABDOMEN FirePelvis hotspot
+				Connect FRONTABDOMEN SmokePelvis hotspot
+				ReplaceTexture Special N Fire Giant/Special N Fire Giant Upgrade
+				Connect frontabdomen FireHead hotspot
+			}
+			
+		}
+	}
+}
+
+//==============================================================================
+anim Bored
+{
+	SetSelector 
+	{
+		techLogic none/Granite Blood
+		set hotspot
+		{
+			version
+			{
+				Visual Special N Fire Giant_boredA
+				Connect LEFTFOOT FireFoot hotspot
+				Connect LEFTHAND FireHand hotspot
+				Connect RIGHTFOOT FireFoot hotspot
+				Connect RIGHTHAND FireHand hotspot
+				Connect FRONTABDOMEN FirePelvis hotspot
+				Connect FRONTABDOMEN SmokePelvis hotspot
+				Connect frontabdomen FireHead hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Special N Fire Giant_boredA
+				Connect LEFTFOOT FireFoot hotspot
+				Connect LEFTHAND FireHand hotspot
+				Connect RIGHTFOOT FireFoot hotspot
+				Connect RIGHTHAND FireHand hotspot
+				Connect FRONTABDOMEN FirePelvis hotspot
+				Connect FRONTABDOMEN SmokePelvis hotspot
+				ReplaceTexture Special N Fire Giant/Special N Fire Giant Upgrade
+				Connect frontabdomen FireHead hotspot
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Death
+{
+	SetSelector
+	{
+		techLogic none/Granite Blood
+		set hotspot
+		{
+			version
+			{
+				Visual Special N Fire Giant_deathA
+				Connect HOTSPOT deathfire hotspot
+				Connect HOTSPOT deathsmoke hotspot
+				Connect TOPOFHEAD deathash hotspot
+				Connect FRONTABDOMEN deathash hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Special N Fire Giant_deathA
+				Connect HOTSPOT deathfire hotspot
+				Connect HOTSPOT deathsmoke hotspot
+				Connect TOPOFHEAD deathash hotspot
+				Connect FRONTABDOMEN deathash hotspot
+				ReplaceTexture Special N Fire Giant/Special N Fire Giant Upgrade
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Walk
+{
+	SetSelector
+	{
+		techLogic none/Granite Blood
+		set hotspot
+		{
+			version
+			{
+				Visual Special N Fire Giant_walkA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag FootstepLeft 0.10 true	
+				tag FootstepRight 0.60 true	
+				tag SpecificSoundSet 0.52 false GiantFootsteps checkVisible 
+				tag SpecificSoundSet 0.00 false GiantFootsteps checkVisible 
+//-- end auto generated section
+				Connect LEFTFOOT FireFoot hotspot
+				Connect LEFTHAND FireHand hotspot
+				Connect RIGHTFOOT FireFoot hotspot
+				Connect RIGHTHAND FireHand hotspot
+				Connect FRONTABDOMEN FirePelvis hotspot
+				Connect FRONTABDOMEN SmokePelvis hotspot
+				Connect frontabdomen FireHead hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Special N Fire Giant_walkA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag FootstepLeft 0.10 true	
+				tag FootstepRight 0.60 true	
+				tag SpecificSoundSet 0.52 false GiantFootsteps checkVisible 
+				tag SpecificSoundSet 0.00 false GiantFootsteps checkVisible 
+//-- end auto generated section
+				Connect LEFTFOOT FireFoot hotspot
+				Connect LEFTHAND FireHand hotspot
+				Connect RIGHTFOOT FireFoot hotspot
+				Connect RIGHTHAND FireHand hotspot
+				Connect FRONTABDOMEN FirePelvis hotspot
+				Connect FRONTABDOMEN SmokePelvis hotspot
+				ReplaceTexture Special N Fire Giant/Special N Fire Giant Upgrade
+				Connect frontabdomen FireHead hotspot
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Attack
+{
+	SetSelector
+	{
+		techLogic none/Granite Blood
+		set hotspot
+		{
+			version
+			{
+				Visual Special N Fire Giant_attackB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.19 true	
+				tag Attack 0.72 true	
+				tag GenericSound 0.13 true	
+				tag SpecificSoundSet 0.20 false FireGiantAttack checkVisible 
+				tag SpecificSoundSet 0.71 false FireGiantAttack checkVisible 
+//-- end auto generated section
+				Connect LEFTFOOT FireFoot hotspot
+				Connect LEFTHAND FireHand hotspot
+				Connect RIGHTFOOT FireFoot hotspot
+				Connect RIGHTHAND FireHand hotspot
+				Connect FRONTABDOMEN FirePelvis hotspot
+				Connect FRONTABDOMEN SmokePelvis hotspot
+				Connect frontabdomen FireHead hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Special N Fire Giant_attackB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.19 true	
+				tag Attack 0.72 true	
+				tag GenericSound 0.13 true	
+				tag SpecificSoundSet 0.20 false FireGiantAttack checkVisible 
+				tag SpecificSoundSet 0.71 false FireGiantAttack checkVisible 
+//-- end auto generated section
+				Connect LEFTFOOT FireFoot hotspot
+				Connect LEFTHAND FireHand hotspot
+				Connect RIGHTFOOT FireFoot hotspot
+				Connect RIGHTHAND FireHand hotspot
+				Connect FRONTABDOMEN FirePelvis hotspot
+				Connect FRONTABDOMEN SmokePelvis hotspot
+				ReplaceTexture Special N Fire Giant/Special N Fire Giant Upgrade
+				Connect frontabdomen FireHead hotspot
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim RangedAttack
+{
+	SetSelector
+	{
+		techLogic none/Granite Blood
+		set hotspot
+		{
+			version
+			{
+				Visual Special N Fire Giant_rangedattackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.27 true
+				tag Attack 0.69 true
+				tag GenericSound 0.13 true
+				tag SpecificSoundSet 0.28 false FireGiantAttack checkVisible
+				tag SpecificSoundSet 0.75 false FireGiantAttack checkVisible
+//-- end auto generated section
+				Connect LEFTFOOT FireFoot hotspot
+				Connect RIGHTFOOT FireFoot hotspot
+				Connect FRONTABDOMEN FirePelvis hotspot
+				Connect FRONTABDOMEN SmokePelvis hotspot
+				Connect RIGHTHAND FireHandRanged hotspot
+				Connect LEFTHAND FireHandRanged hotspot
+				length 3
+				Connect frontabdomen FireHead hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Special N Fire Giant_rangedattackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.27 true
+				tag Attack 0.69 true
+				tag GenericSound 0.13 true
+				tag SpecificSoundSet 0.28 false FireGiantAttack checkVisible
+				tag SpecificSoundSet 0.75 false FireGiantAttack checkVisible
+//-- end auto generated section
+				Connect LEFTFOOT FireFoot hotspot
+				Connect RIGHTFOOT FireFoot hotspot
+				Connect FRONTABDOMEN FirePelvis hotspot
+				Connect FRONTABDOMEN SmokePelvis hotspot
+				Connect RIGHTHAND FireHandRanged hotspot
+				Connect LEFTHAND FireHandRanged hotspot
+				length 3
+				ReplaceTexture Special N Fire Giant/Special N Fire Giant Upgrade
+				Connect frontabdomen FireHead hotspot
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Charging
+{
+	SetSelector
+	{
+		techLogic none/Granite Blood
+		set hotspot
+		{
+			version
+			{
+				Visual Special N Fire Giant_rangedattackB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.75 true
+				tag GenericSound 0.13 true
+				tag SpecificSoundSet 0.71 false FireGiantAttack checkVisible 
+//-- end auto generated section
+				Connect LEFTFOOT FireFoot hotspot
+				Connect RIGHTFOOT FireFoot hotspot
+				Connect FRONTABDOMEN FirePelvis hotspot
+				Connect FRONTABDOMEN SmokePelvis hotspot
+				Connect RIGHTHAND FireHandCharging hotspot
+				Connect LEFTHAND FireHandCharging hotspot
+				Connect frontabdomen FireHead hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Special N Fire Giant_rangedattackB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.75 true
+				tag GenericSound 0.13 true
+				tag SpecificSoundSet 0.71 false FireGiantAttack checkVisible 
+//-- end auto generated section
+				Connect LEFTFOOT FireFoot hotspot
+				Connect RIGHTFOOT FireFoot hotspot
+				Connect FRONTABDOMEN FirePelvis hotspot
+				Connect FRONTABDOMEN SmokePelvis hotspot
+				Connect RIGHTHAND FireHandCharging hotspot
+				Connect LEFTHAND FireHandCharging hotspot
+				ReplaceTexture Special N Fire Giant/Special N Fire Giant Upgrade
+				Connect frontabdomen FireHead hotspot
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Flail
+{
+	SetSelector 
+	{
+		techLogic none/Granite Blood
+		set hotspot
+		{
+			version
+			{
+				Visual Special N Fire Giant_FlailA
+				Connect LEFTFOOT FireFoot hotspot
+				Connect LEFTHAND FireHand hotspot
+				Connect RIGHTFOOT FireFoot hotspot
+				Connect RIGHTHAND FireHand hotspot
+				Connect FRONTABDOMEN FirePelvis hotspot
+				Connect FRONTABDOMEN SmokePelvis hotspot
+				Connect frontabdomen FireHead hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Special N Fire Giant_FlailA
+				Connect LEFTFOOT FireFoot hotspot
+				Connect LEFTHAND FireHand hotspot
+				Connect RIGHTFOOT FireFoot hotspot
+				Connect RIGHTHAND FireHand hotspot
+				Connect FRONTABDOMEN FirePelvis hotspot
+				Connect FRONTABDOMEN SmokePelvis hotspot
+				ReplaceTexture Special N Fire Giant/Special N Fire Giant Upgrade
+				Connect frontabdomen FireHead hotspot
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Cinematic
+{
+	SetSelector
+	{
+		set hotspot
+		{
+			name Nfiregiant_cine312shieldfromrocks
+			version
+			{
+				Visual Nfiregiant_cine312shieldfromrocks
+				Connect LEFTFOOT FireFoot hotspot
+				Connect LEFTHAND FireHand hotspot
+				Connect RIGHTFOOT FireFoot hotspot
+				Connect RIGHTHAND FireHand hotspot
+				Connect FRONTABDOMEN FirePelvis hotspot
+				Connect FRONTABDOMEN SmokePelvis hotspot
+				Connect frontabdomen FireHead hotspot
+			}
+		}
+	}
+}

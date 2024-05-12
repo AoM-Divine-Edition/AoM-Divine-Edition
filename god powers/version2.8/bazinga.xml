@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Bazinga" type="bolt" techname="Bazinga">
+	<placement forceonmap="-1">skip</placement>
+	<activetime>0.00</activetime>
+	<unitaitype>BoltGodPower</unitaitype>
+	<tech>Bazinga Active</tech>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">LightningStrike</soundset>
+	<strike>bolt strike</strike>
+	<sparks>lightning sparks</sparks>
+	<scorch>bolt scorch</scorch>
+	<strikeheight>25.0</strikeheight>
+	<strikeminoffset>2.0</strikeminoffset>
+	<strikemaxoffset>5.0</strikemaxoffset>
+	<minimapeventtime sendalertto="all">10.0</minimapeventtime>
+	<icon>god power bolt icon</icon>
+	<usedicon>god power bolt icon done</usedicon>
+	<messagealertplayerrelation>ally</messagealertplayerrelation>
+
+</power>

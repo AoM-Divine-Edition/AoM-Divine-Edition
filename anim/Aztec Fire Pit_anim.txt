@@ -1,0 +1,246 @@
+//==============================================================================
+// dwarven forge_anim.txt
+//==============================================================================
+
+
+//==============================================================================
+define Dust
+{
+	set hotspot
+	{
+		version
+		{
+			Visualparticle SFX A Building DustA
+		}
+	}  
+}
+//==============================================================================
+define nobles4
+{
+   set hotspot
+   {
+      version
+      {
+         		Visual Aztec Fire Pit2
+				ReplaceTexture Aztec_Altar/AltarPit
+      }
+   }
+}
+
+//==============================================================================
+define Smokehuge
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Generic Smoke Huge
+      }
+   }
+}
+
+//==============================================================================
+define fin
+{
+   set hotspot
+   {
+      version
+      {
+       Visualparticle Special E Phoenix Egg Fire
+      }
+   }
+}
+
+
+//==============================================================================
+define firebigbowl
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Generic Fire Big Bowl
+      }
+   }
+}
+//==============================================================================
+define XXXX
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Generic Fire Medium
+      }
+   }
+}
+
+//==============================================================================
+define firebig
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle sfx a generic fire color
+      }
+   }
+}
+
+//==============================================================================
+define smoke
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Generic Fire Tiny
+      }
+   }  
+}
+
+//==============================================================================
+define fire
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Flaming Axe
+      }
+   }
+}
+
+//==============================================================================
+define firebowl
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Generic Fire Tiny Bowl
+      }
+   }
+}
+
+
+
+//==============================================================================
+define steam
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle Scenario A Dwarven Forge Steam
+      }
+   }  
+}
+
+
+//==============================================================================
+anim idle
+{
+	SetSelector
+		{
+			SetSelector
+			{
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Aztec Fire Pit2
+				ReplaceTexture Aztec_Altar/AltarPit
+				Connect RIGHTLEG fire hotspot
+				Connect RIGHTLEG firebowl hotspot
+				Connect LEFTLEG fire hotspot
+				Connect LEFTLEG firebowl hotspot
+				Connect ATTACHPOINT fin hotspot
+				Connect ATTACHPOINT fin hotspot
+				Connect ATTACHPOINT firebowl hotspot
+				Connect ATTACHPOINT firebig hotspot
+				Connect ATTACHPOINT firebig hotspot
+				Connect TOPOFHEAD Smokehuge hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction XSmall A
+						connect CHIN N_Small_Brick hotspot
+						connect ATTACHPOINT N_Long_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction XSmall B
+						connect CHIN N_Small_Brick hotspot
+						connect ATTACHPOINT N_Long_Brick hotspot
+					 }
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction XSmall B
+						connect CHIN N_Small_Brick hotspot
+						connect ATTACHPOINT N_Long_Brick hotspot
+					}
+				}
+			}
+		}	
+}
+
+//==============================================================================
+anim death
+{
+	SetSelector
+		{
+			SetSelector
+			{
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual GenericDestruction
+               	  			connect FOREHEAD nobles4 hotspot
+					connect ATTACHPOINT Dust hotspot
+					connect ATTACHPOINT Dust hotspot
+					connect ATTACHPOINT Dust hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction XSmall A
+						connect CHIN N_Small_Brick hotspot
+						connect ATTACHPOINT N_Long_Brick hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction XSmall B
+						connect CHIN N_Small_Brick hotspot
+						connect ATTACHPOINT N_Long_Brick hotspot
+					 }
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction XSmall B
+						connect CHIN N_Small_Brick hotspot
+						connect ATTACHPOINT N_Long_Brick hotspot
+					}
+				}
+			}
+		}	
+}

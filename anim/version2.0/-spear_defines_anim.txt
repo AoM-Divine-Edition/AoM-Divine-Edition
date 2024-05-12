@@ -1,0 +1,79 @@
+//==============================================================================
+// Spear defines_anim.txt
+//==============================================================================
+
+//==============================================================================
+define Spear
+{
+	SetSelector
+	{
+		CivilizationLogic none/poseidon
+		SetSelector
+		{
+			TechLogic none/Copper Weapons/Bronze Weapons/Iron Weapons
+			set hotspot
+			{
+				version
+				{
+					Visual Attachments A Spear Standard
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Attachments A Spear Copper
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Attachments A Spear Bronze
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Attachments A Spear Iron
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Copper Weapons/Bronze Weapons/Iron Weapons
+			set hotspot
+			{
+				version
+				{
+					Visual Attachments G Trident Standard
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Attachments G Trident Standard
+					ReplaceTexture Attachments G Trident Standard/Attachments G Trident Copper
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Attachments G Trident Standard
+					ReplaceTexture Attachments G Trident Standard/Attachments G Trident Bronze
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Attachments G Trident Standard
+					ReplaceTexture Attachments G Trident Standard/Attachments G Trident Iron
+				}
+			}
+		}
+	}
+}

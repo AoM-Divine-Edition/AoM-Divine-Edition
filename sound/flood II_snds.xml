@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<protounitsounddef>
+	<protounit name="Flood II">
+		<soundtype name="Exists">
+			<soundset name="Rain"></soundset>
+		</soundtype>
+	</protounit>
+</protounitsounddef>

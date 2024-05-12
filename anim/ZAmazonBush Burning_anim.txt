@@ -1,0 +1,116 @@
+//==============================================================================
+// Oak tree_anim.txt
+//==============================================================================
+
+//==============================================================================
+define BurntEmbers
+{
+   SetSelector
+   {
+       VariationLogic
+       set hotspot
+       {
+          version
+          {
+             Visualparticle SFX A Forest Fire Embers
+          }
+       }
+   }
+}
+
+//==============================================================================
+define BurntSmoke
+{
+   SetSelector
+   {
+       VariationLogic
+       set hotspot
+       {
+          version
+          {
+             Visualparticle SFX A Forest Fire Tree Smoke
+          }
+       }
+   }
+}
+
+//==============================================================================
+define BurntFire
+{
+   SetSelector
+   {
+       set hotspot
+       {
+          version
+          {
+             Visualparticle SFX A Forest Fire Large
+          }
+          version
+          {
+             Visualparticle SFX A Forest Fire Small
+          }
+       }
+   }
+}
+
+//==============================================================================
+anim Idle
+{
+   SetSelector
+   {
+      VariationLogic
+      set hotspot
+      {
+         version
+         {
+            Visual AmazonFlo1
+			connect FIRE BurntFire hotspot
+			connect FIRE BurntSmoke hotspot
+			connect FIRE BurntEmbers hotspot
+         }
+      }      
+      set hotspot
+      {
+         version
+         {
+            Visual AmazonFlo2
+			connect FIRE BurntFire hotspot
+			connect FIRE BurntSmoke hotspot
+			connect FIRE BurntEmbers hotspot
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+            Visual AmazonFlo3
+			connect FIRE BurntFire hotspot
+			connect FIRE BurntSmoke hotspot
+			connect FIRE BurntEmbers hotspot
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+            Visual AmazonFlo4
+			connect FIRE BurntFire hotspot
+			connect FIRE BurntSmoke hotspot
+			connect FIRE BurntEmbers hotspot
+         }
+      }      
+      set hotspot
+      {
+         version
+         {
+            Visual AmazonLog1
+			connect FIRE BurntFire hotspot
+			connect FIRE BurntSmoke hotspot
+			connect FIRE BurntEmbers hotspot
+         }
+      }
+    
+   }
+}
+
+

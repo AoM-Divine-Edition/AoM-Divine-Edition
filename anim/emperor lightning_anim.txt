@@ -1,0 +1,17 @@
+//==============================================================================
+// Scarab Blood_anim.txt
+//==============================================================================
+
+anim Idle
+{
+   SetSelector
+	{
+		set hotspot
+		{
+			version
+			{
+				Visualparticle SFX G Lightning Strike Fire Bowl
+			}
+		}
+	}
+}

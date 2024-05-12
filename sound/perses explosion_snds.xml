@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<protounitsounddef>
+	<protounit name="Perses Explosion">
+		<soundtype name="Creation">
+			<soundset name="MeteorImpact"></soundset>
+		</soundtype>
+	</protounit>
+</protounitsounddef>

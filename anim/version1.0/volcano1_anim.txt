@@ -1,0 +1,137 @@
+//==============================================================================
+// lava bubble_anim.xt
+//==============================================================================
+
+
+
+//==============================================================================
+define firecrack
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle GP X Tartarian Gate Firecrack
+      }
+   }
+}
+
+//==============================================================================
+define fireburst
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle GP X Tartarian Gate Fireburst
+      }
+   }
+}
+
+//==============================================================================
+define lavabubbleslarge
+{
+   set hotspot
+   {
+      version
+      {
+         Visual GP X Tartarian Gate Crack A
+      }
+   }
+}
+
+//==============================================================================
+define LavaSpewlarge
+{
+   set hotspot
+   {
+      version
+      {
+         Visual GP X Tartarian Gate Crack B
+      }
+   }
+}
+
+//==============================================================================
+define BiglavaVapor
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle World A Volcano Fire
+      }
+   }  
+}
+
+//==============================================================================
+define SmallLavaVapor
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle World A Volcano Fire Small
+      }
+   }  
+}
+
+//==============================================================================
+define LargeSmoke
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Lava Smoke Medium
+      }
+   }  
+}
+
+//==============================================================================
+define smallSmoke
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Lava Smoke Small
+      }
+   }  
+}
+
+//==============================================================================
+define lavabubbleslarge
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle sfx X lava bubbles large
+      }
+   }
+}
+
+
+//==============================================================================
+anim Idle
+{
+	SetSelector
+	{
+		set hotspot
+		{
+			version
+			{
+				Visual sfx u lava ground medium
+				Connect ATTACHPOINT LargeSmoke hotspot
+				Connect ATTACHPOINT BigLavaVapor hotspot				
+				Connect HotSpot SmallLavaVapor hotspot
+				Connect HotSpot LavaSpewlarge hotspot
+				Connect HotSpot firecrack hotspot
+				Connect HotSpot fireprebirth hotspot
+				Connect HotSpot fireburst hotspot
+				Connect HotSpot Dirtcrack hotspot
+			}
+		}
+	}
+}

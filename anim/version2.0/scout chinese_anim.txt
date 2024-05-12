@@ -1,0 +1,571 @@
+//==============================================================================
+// Scout Cavalry_anim.txt
+//==============================================================================
+
+import Chinese_Sword_anim.txt
+import Chinese_Stable_Shield_anim.txt
+
+//==============================================================================
+define Head
+{
+	SetSelector
+	{
+		TechLogic none/Medium Stable/Heavy Stable/Champion Stable
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry C Scout Head Standard
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry C Scout Head Standard
+				ReplaceTexture Cavalry C Scout Head Standard/Cavalry C Scout Head Copper
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry C Scout Head Standard
+				ReplaceTexture Cavalry C Scout Head Standard/Cavalry C Scout Head Bronze
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry C Scout Head Standard
+				ReplaceTexture Cavalry C Scout Head Standard/Cavalry C Scout Head Iron
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Bored
+{
+
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry C Scout_BoredA
+				connect RightHand Sword hotspot
+				connect LeftForearm ChineseStableShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry C Scout_BoredB
+				connect RightHand Sword hotspot
+				connect LeftForearm ChineseStableShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry C Scout_BoredA
+				ReplaceTexture Cavalry C Scout Standard/Cavalry C Scout Copper
+				ReplaceTexture Cavalry C Scout Horse Standard/Cavalry C Scout Horse Copper
+				connect RightHand Sword hotspot
+				connect LeftForearm ChineseStableShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry C Scout_BoredB
+				ReplaceTexture Cavalry C Scout Standard/Cavalry C Scout Copper
+				ReplaceTexture Cavalry C Scout Horse Standard/Cavalry C Scout Horse Copper
+				connect RightHand Sword hotspot
+				connect LeftForearm ChineseStableShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry C Scout_BoredA
+				ReplaceTexture Cavalry C Scout Standard/Cavalry C Scout Bronze
+				ReplaceTexture Cavalry C Scout Horse Standard/Cavalry C Scout Horse Bronze
+				connect RightHand Sword hotspot
+				connect LeftForearm ChineseStableShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry C Scout_BoredB
+				ReplaceTexture Cavalry C Scout Standard/Cavalry C Scout Bronze
+				ReplaceTexture Cavalry C Scout Horse Standard/Cavalry C Scout Horse Bronze
+				connect RightHand Sword hotspot
+				connect LeftForearm ChineseStableShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry C Scout_BoredA
+				ReplaceTexture Cavalry C Scout Standard/Cavalry C Scout Iron
+				ReplaceTexture Cavalry C Scout Horse Standard/Cavalry C Scout Horse Iron
+				connect RightHand Sword hotspot
+				connect LeftForearm ChineseStableShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry C Scout_BoredB
+				ReplaceTexture Cavalry C Scout Standard/Cavalry C Scout Iron
+				ReplaceTexture Cavalry C Scout Horse Standard/Cavalry C Scout Horse Iron
+				connect RightHand Sword hotspot
+				connect LeftForearm ChineseStableShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Walk
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		set hotspot
+		{
+			version
+			{  
+			Visual Cavalry C Scout_WalkA
+			connect RightHand Sword hotspot
+			connect LeftForearm ChineseStableShield hotspot
+			Connect TopOfHead Head hotspot
+			tag FootstepLeft 0.60 true	
+			tag FootstepRight 0.00 true	
+			tag FootstepLeft 0.95 true	
+			tag FootstepRight 0.55 true 
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+			Visual Cavalry C Scout_WalkA
+			ReplaceTexture Cavalry C Scout Standard/Cavalry C Scout Copper
+			ReplaceTexture Cavalry C Scout Horse Standard/Cavalry C Scout Horse Copper
+			connect RightHand Sword hotspot
+			connect LeftForearm ChineseStableShield hotspot
+			Connect TopOfHead Head hotspot
+			tag FootstepLeft 0.60 true	
+			tag FootstepRight 0.00 true	
+			tag FootstepLeft 0.95 true	
+			tag FootstepRight 0.55 true
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+			Visual Cavalry C Scout_WalkA
+			ReplaceTexture Cavalry C Scout Standard/Cavalry C Scout Bronze
+			ReplaceTexture Cavalry C Scout Horse Standard/Cavalry C Scout Horse Bronze
+			connect RightHand Sword hotspot
+			connect LeftForearm ChineseStableShield hotspot
+			Connect TopOfHead Head hotspot
+			tag FootstepLeft 0.60 true	
+			tag FootstepRight 0.00 true	
+			tag FootstepLeft 0.95 true	
+			tag FootstepRight 0.55 true
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+			Visual Cavalry C Scout_WalkA
+			ReplaceTexture Cavalry C Scout Standard/Cavalry C Scout Iron
+			ReplaceTexture Cavalry C Scout Horse Standard/Cavalry C Scout Horse Iron
+			connect RightHand Sword hotspot
+			connect LeftForearm ChineseStableShield hotspot
+			Connect TopOfHead Head hotspot
+			tag FootstepLeft 0.60 true	
+			tag FootstepRight 0.00 true	
+			tag FootstepLeft 0.95 true	
+			tag FootstepRight 0.55 true
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Death
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry C Scout_DeathA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+							tag SpecificSoundSet 0.60 false HeavyFall checkVisible 
+//-- end auto generated section
+				connect RightHand Sword hotspot
+				connect LeftForearm ChineseStableShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry C Scout_DeathA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+							tag SpecificSoundSet 0.60 false HeavyFall checkVisible 
+//-- end auto generated section
+				ReplaceTexture Cavalry C Scout Standard/Cavalry C Scout Copper
+				ReplaceTexture Cavalry C Scout Horse Standard/Cavalry C Scout Horse Copper
+				connect RightHand Sword hotspot
+				connect LeftForearm ChineseStableShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry C Scout_DeathA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+							tag SpecificSoundSet 0.60 false HeavyFall checkVisible 
+//-- end auto generated section
+				ReplaceTexture Cavalry C Scout Standard/Cavalry C Scout Bronze
+				ReplaceTexture Cavalry C Scout Horse Standard/Cavalry C Scout Horse Bronze
+				connect RightHand Sword hotspot
+				connect LeftForearm ChineseStableShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry C Scout_DeathA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+							tag SpecificSoundSet 0.60 false HeavyFall checkVisible 
+//-- end auto generated section
+				ReplaceTexture Cavalry C Scout Standard/Cavalry C Scout Iron
+				ReplaceTexture Cavalry C Scout Horse Standard/Cavalry C Scout Horse Iron
+				connect RightHand Sword hotspot
+				connect LeftForearm ChineseStableShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Idle
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry C Scout_IdleA
+				connect RightHand Sword hotspot
+				connect LeftForearm ChineseStableShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry C Scout_IdleA
+				ReplaceTexture Cavalry C Scout Standard/Cavalry C Scout Copper
+				ReplaceTexture Cavalry C Scout Horse Standard/Cavalry C Scout Horse Copper
+				connect RightHand Sword hotspot
+				connect LeftForearm ChineseStableShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry C Scout_IdleA
+				ReplaceTexture Cavalry C Scout Standard/Cavalry C Scout Bronze
+				ReplaceTexture Cavalry C Scout Horse Standard/Cavalry C Scout Horse Bronze
+				connect RightHand Sword hotspot
+				connect LeftForearm ChineseStableShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry C Scout_IdleA
+				ReplaceTexture Cavalry C Scout Standard/Cavalry C Scout Iron
+				ReplaceTexture Cavalry C Scout Horse Standard/Cavalry C Scout Horse Iron
+				connect RightHand Sword hotspot
+				connect LeftForearm ChineseStableShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Attack
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry C Scout_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+							tag Attack 0.53 true	
+							tag GenericSound 0.40 true	
+//-- end auto generated section
+				connect RightHand Sword hotspot
+				connect LeftForearm ChineseStableShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry C Scout_AttackB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+							tag Attack 0.70 true	
+							tag GenericSound 0.40 true	
+//-- end auto generated section
+				connect RightHand Sword hotspot
+				connect LeftForearm ChineseStableShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry C Scout_AttackC
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+							tag Attack 0.61 true	
+							tag GenericSound 0.40 true	
+//-- end auto generated section
+				connect RightHand Sword hotspot
+				connect LeftForearm ChineseStableShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry C Scout_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+							tag Attack 0.53 true	
+							tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry C Scout Standard/Cavalry C Scout Copper
+				ReplaceTexture Cavalry C Scout Horse Standard/Cavalry C Scout Horse Copper
+				connect RightHand Sword hotspot
+				connect LeftForearm ChineseStableShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry C Scout_AttackB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+							tag Attack 0.70 true	
+							tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry C Scout Standard/Cavalry C Scout Copper
+				ReplaceTexture Cavalry C Scout Horse Standard/Cavalry C Scout Horse Copper
+				connect RightHand Sword hotspot
+				connect LeftForearm ChineseStableShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry C Scout_AttackC
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+							tag Attack 0.61 true	
+							tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry C Scout Standard/Cavalry C Scout Copper
+				ReplaceTexture Cavalry C Scout Horse Standard/Cavalry C Scout Horse Copper
+				connect RightHand Sword hotspot
+				connect LeftForearm ChineseStableShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry C Scout_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+							tag Attack 0.53 true	
+							tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry C Scout Standard/Cavalry C Scout Bronze
+				ReplaceTexture Cavalry C Scout Horse Standard/Cavalry C Scout Horse Bronze
+				connect RightHand Sword hotspot
+				connect LeftForearm ChineseStableShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry C Scout_AttackB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+							tag Attack 0.70 true	
+							tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry C Scout Standard/Cavalry C Scout Bronze
+				ReplaceTexture Cavalry C Scout Horse Standard/Cavalry C Scout Horse Bronze
+				connect RightHand Sword hotspot
+				connect LeftForearm ChineseStableShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry C Scout_AttackC
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+							tag Attack 0.61 true	
+							tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry C Scout Standard/Cavalry C Scout Bronze
+				ReplaceTexture Cavalry C Scout Horse Standard/Cavalry C Scout Horse Bronze
+				connect RightHand Sword hotspot
+				connect LeftForearm ChineseStableShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry C Scout_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+							tag Attack 0.53 true	
+							tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry C Scout Standard/Cavalry C Scout Iron
+				ReplaceTexture Cavalry C Scout Horse Standard/Cavalry C Scout Horse Iron
+				connect RightHand Sword hotspot
+				connect LeftForearm ChineseStableShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry C Scout_AttackB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+							tag Attack 0.70 true	
+							tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry C Scout Standard/Cavalry C Scout Iron
+				ReplaceTexture Cavalry C Scout Horse Standard/Cavalry C Scout Horse Iron
+				connect RightHand Sword hotspot
+				connect LeftForearm ChineseStableShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry C Scout_AttackC
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+							tag Attack 0.61 true	
+							tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry C Scout Standard/Cavalry C Scout Iron
+				ReplaceTexture Cavalry C Scout Horse Standard/Cavalry C Scout Horse Iron
+				connect RightHand Sword hotspot
+				connect LeftForearm ChineseStableShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Flail
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry C Scout_FlailA
+				connect RightHand Sword hotspot
+				connect LeftForearm ChineseStableShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry C Scout_FlailA
+				ReplaceTexture Cavalry C Scout Standard/Cavalry C Scout Copper
+				ReplaceTexture Cavalry C Scout Horse Standard/Cavalry C Scout Horse Copper
+				connect RightHand Sword hotspot
+				connect LeftForearm ChineseStableShield hotspot
+				  Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry C Scout_FlailA
+				ReplaceTexture Cavalry C Scout Standard/Cavalry C Scout Bronze
+				ReplaceTexture Cavalry C Scout Horse Standard/Cavalry C Scout Horse Bronze
+				connect RightHand Sword hotspot
+				connect LeftForearm ChineseStableShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry C Scout_FlailA
+				ReplaceTexture Cavalry C Scout Standard/Cavalry C Scout Iron
+				ReplaceTexture Cavalry C Scout Horse Standard/Cavalry C Scout Horse Iron
+				connect RightHand Sword hotspot
+				connect LeftForearm ChineseStableShield hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+	}
+}

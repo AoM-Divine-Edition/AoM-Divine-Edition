@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="WrathOfGaea" type="lightning" techname="Wrath of Gaea">
+	<placement forceonmap="1">skip</placement>
+	<activetime>10.0</activetime>
+	<rangeindicatorprotoid radius="20.0" indicatorcount="10" speed="0.2">UI Range Indicator Greek SFX</rangeindicatorprotoid>
+	<powerblocker>25.0f</powerblocker>
+	<reveallos radius="20.0">Revealer To Player</reveallos>
+	<unitaitype>HandUnitsAttack</unitaitype>
+	<radius>25.0</radius>
+	<accuracy>0.66</accuracy>
+	<strikesoundset>LightningStrike</strikesoundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">LightThunder</soundset>
+	<playsbattlemusic></playsbattlemusic>
+	<gpdamagemodel>
+		<playerrelation>enemy</playerrelation>
+		<basedamagepercentunit>0.60</basedamagepercentunit>
+		<basedamagepercentvillager>0.50</basedamagepercentvillager>
+		<basedamagepercentbuilding>0.005</basedamagepercentbuilding>
+		<minhpdamageunit>1200</minhpdamageunit>
+		<minhpdamagevillager>300</minhpdamagevillager>
+		<minhpdamagebuilding>20</minhpdamagebuilding>
+		<maxhpdamageunit>2500</maxhpdamageunit>
+		<maxhpdamagevillager>400</maxhpdamagevillager>
+		<maxhpdamagebuilding>20</maxhpdamagebuilding>
+	</gpdamagemodel>
+	<strike>lightning strike</strike>
+	<sparks>lightning sparks</sparks>
+	<groundsparks>lightning sparks ground</groundsparks>
+	<scorch>lightning scorch</scorch>
+	<cloud>lightning cloud</cloud>
+	<rain>lightning rain</rain>
+	<fasteststriketime>0.10</fasteststriketime>
+	<sloweststriketime>0.20</sloweststriketime>
+	<strikeheight>25.0</strikeheight>
+	<strikeminoffset>2.0</strikeminoffset>
+	<strikemaxoffset>5.0</strikemaxoffset>
+	<cloudbuildupendtime>1.0</cloudbuildupendtime>
+	<cloudfadeoutstarttime>40.0</cloudfadeoutstarttime>
+	<cloudfadeoutendtime>43.0</cloudfadeoutendtime>
+	<rainbuildupstarttime>2.0</rainbuildupstarttime>
+	<rainbuildupendtime>7.0</rainbuildupendtime>
+	<rainfadeoutstarttime>37.0</rainfadeoutstarttime>
+	<rainfadeoutendtime>38.0</rainfadeoutendtime>
+	<abstractattacktargettype>unit</abstractattacktargettype>
+	<abstractattacktargettype>building</abstractattacktargettype>
+	<icon>god power lightning icon</icon>
+	<usedicon>god power lightning icon done</usedicon>
+	<messagealertplayerrelation>ally</messagealertplayerrelation>
+
+</power>

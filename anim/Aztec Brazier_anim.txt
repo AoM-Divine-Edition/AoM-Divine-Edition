@@ -1,0 +1,75 @@
+//==============================================================================
+// brick_anim.txt
+//==============================================================================
+
+//==============================================================================
+define logs
+{
+   set hotspot
+   {
+      version
+      {
+         Visual World A Campfire Small
+      }
+   }
+}
+
+//==============================================================================
+define smoke
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Generic Fire Tiny
+      }
+   }
+}
+
+//==============================================================================
+define fire
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Generic Smoke Tiny
+      }
+   }
+}
+
+//==============================================================================
+define firebowl
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Generic Fire Tiny Bowl
+      }
+   }
+}
+
+//==============================================================================
+anim None
+{
+	SetSelector none 
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual Aztec Brazier
+				connect SMOKE0 fire Hotspot
+				connect SMOKE0 firebowl Hotspot
+				connect SMOKE0 smoke Hotspot
+				connect SMOKE0 logs Hotspot
+			}
+		}
+		
+	}
+}
+
+
+   

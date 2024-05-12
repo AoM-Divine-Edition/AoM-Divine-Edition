@@ -1,0 +1,42 @@
+<protounitsounddef>
+	<protounit name="Goose">
+		<soundtype name="Select">
+			<soundset name="Honk"></soundset>
+		</soundtype>
+		<soundtype name="Hit">
+			<damagetypelogic>
+				<choice name="Hack">
+					<soundset name="HackFlesh"></soundset>
+				</choice>
+				<choice name="Slash">
+					<soundset name="HackFlesh"></soundset>
+				</choice>
+				<choice name="Pierce">
+					<soundset name="PierceFlesh"></soundset>
+				</choice>
+				<choice name="Crush">
+					<soundset name="CrushFlesh"></soundset>
+				</choice>
+			</damagetypelogic>
+		</soundtype>
+		<soundtype name="Death">
+			<soundset name="SadHonk"></soundset>
+		</soundtype>
+		<soundtype name="Acknowledge">
+			<targetlogic>
+				<choice name="default">
+					<soundset name="Honk"></soundset>
+				</choice>
+				<choice name="enemy">
+					<soundset name="AngryHonk"></soundset>
+				</choice>
+			</targetlogic>
+		</soundtype>
+		<soundtype name="Creation">
+			<soundset name="Honk"></soundset>
+		</soundtype>
+		<soundtype name="Ambient">
+			<soundset name="QuietHonking"></soundset>
+		</soundtype>
+	</protounit>
+</protounitsounddef>

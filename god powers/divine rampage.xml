@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="DivineRampage" type="TempUnit" techname="Divine Rampage">
+	<activetime>15</activetime>
+	<placement forceonmap="1">full</placement>
+	<minimapeventtime sendalertto="ally">10.0</minimapeventtime>
+	<createunit quantity="05" minradius="3"  maxradius="2" pattern="symmetric" norotate="" delay="0.0">Susanoo Storm</createunit>
+	<createunit quantity="10" minradius="6"  maxradius="4" pattern="symmetric" norotate="" delay="2.0">Susanoo Storm</createunit>
+	<createunit quantity="15" minradius="9"  maxradius="6" pattern="symmetric" norotate="" delay="4.0">Susanoo Storm</createunit>
+	<createunit quantity="20" minradius="12" maxradius="6" pattern="symmetric" norotate="" delay="6.0">Susanoo Storm</createunit>
+	<createunit quantity="25" minradius="15" maxradius="6" pattern="symmetric" norotate="" delay="8.0">Susanoo Storm</createunit>
+	<createunit quantity="30" minradius="18" maxradius="6" pattern="symmetric" norotate="" delay="10.0">Susanoo Storm</createunit>
+	<createunit quantity="35" minradius="21" maxradius="6" pattern="symmetric" norotate="" delay="12.0">Susanoo Storm</createunit>
+	<createunit quantity="05" minradius="3"  maxradius="2" pattern="random" norotate="" delay="0.0">Susanoo Storm</createunit>
+	<createunit quantity="10" minradius="6"  maxradius="4" pattern="random" norotate="" delay="2.0">Susanoo Storm</createunit>
+	<createunit quantity="15" minradius="9"  maxradius="6" pattern="random" norotate="" delay="4.0">Susanoo Storm</createunit>
+	<createunit quantity="20" minradius="12" maxradius="6" pattern="random" norotate="" delay="6.0">Susanoo Storm</createunit>
+	<createunit quantity="25" minradius="15" maxradius="6" pattern="random" norotate="" delay="8.0">Susanoo Storm</createunit>
+	<createunit quantity="30" minradius="18" maxradius="6" pattern="random" norotate="" delay="10.0">Susanoo Storm</createunit>
+	<createunit quantity="35" minradius="21" maxradius="6" pattern="random" norotate="" delay="12.0">Susanoo Storm</createunit>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAlly">SentinelBirth</soundset>
+	<icon>improvement schism icon</icon>
+	<usedicon>improvement schism icon done</usedicon>
+
+	<recharges>0</recharges>
+	<rechargetime>45 </rechargetime>
+</power>

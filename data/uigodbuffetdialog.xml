@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<layout>
+	<gadget name="GodBuffet" type="gadget" size1024="239 3 752 717" z="10" tilebackground="" background="UI\background_B" bevel="">
+		<gadget name="Col1Row1Highlight" type="gadget" size1024="289 85 427 240" z="11" backgroundcolor="255 255 0" hidden=""></gadget>
+		<gadget name="Col1Row1Button" type="button" size1024="294 91 422 219" z="12">
+			<gadget name="Col1Row1Name" type="gadget" size1024="294 221 422 235" z="11"></gadget>
+		</gadget>
+		<gadget name="Col2Row1Highlight" type="gadget" size1024="428 85 566 240" z="11" backgroundcolor="255 255 0" hidden=""></gadget>
+		<gadget name="Col2Row1Button" type="button" size1024="433 91 561 219" z="12">
+			<gadget name="Col2Row1Name" type="gadget" size1024="433 221 561 235" z="11"></gadget>
+		</gadget>
+		<gadget name="Col3Row1Highlight" type="gadget" size1024="567 85 705 240" z="11" backgroundcolor="255 255 0" hidden=""></gadget>
+		<gadget name="Col3Row1Button" type="button" size1024="572 91 700 219" z="12">
+			<gadget name="Col3Row1Name" type="gadget" size1024="572 221 700 235" z="12"></gadget>
+		</gadget>
+		<gadget name="Col1Row2Highlight" type="gadget" size1024="289 242 427 397" z="11" backgroundcolor="255 255 0" hidden=""></gadget>
+		<gadget name="Col1Row2Button" type="button" size1024="294 247 422 375" z="12">
+			<gadget name="Col1Row2Name" type="gadget" size1024="294 377 422 391" z="12"></gadget>
+		</gadget>
+		<gadget name="Col2Row2Highlight" type="gadget" size1024="428 242 566 397" z="11" backgroundcolor="255 255 0" hidden=""></gadget>
+		<gadget name="Col2Row2Button" type="button" size1024="433 247 561 375" z="12">
+			<gadget name="Col2Row2Name" type="gadget" size1024="433 377 561 391" z="11"></gadget>
+		</gadget>
+		<gadget name="Col3Row2Highlight" type="gadget" size1024="567 242 705 397" z="11" backgroundcolor="255 255 0" hidden=""></gadget>
+		<gadget name="Col3Row2Button" type="button" size1024="572 247 700 375" z="12">
+			<gadget name="Col3Row2Name" type="gadget" size1024="572 377 700 391" z="11"></gadget>
+		</gadget>
+		<gadget name="Col1Row3Highlight" type="gadget" size1024="289 399 427 554" z="11" backgroundcolor="255 255 0" hidden=""></gadget>
+		<gadget name="Col1Row3Button" type="button" size1024="294 403 422 531" z="12">
+			<gadget name="Col1Row3Name" type="gadget" size1024="294 533 422 547" z="12"></gadget>
+		</gadget>
+		<gadget name="Col2Row3Highlight" type="gadget" size1024="428 399 566 554" z="11" backgroundcolor="255 255 0" hidden=""></gadget>
+		<gadget name="Col2Row3Button" type="button" size1024="433 403 561 531" z="12">
+			<gadget name="Col2Row3Name" type="gadget" size1024="433 533 561 547" z="12"></gadget>
+		</gadget>
+		<gadget name="Col3Row3Highlight" type="gadget" size1024="567 399 705 554" z="11" backgroundcolor="255 255 0" hidden=""></gadget>
+		<gadget name="Col3Row3Button" type="button" size1024="572 403 700 531" z="12">
+			<gadget name="Col3Row3Name" type="gadget" size1024="572 533 700 547" z="11"></gadget>
+		</gadget>
+		<gadget name="Col1Select" type="button" size1024="311 59 407 83" z="11" foreground="UI\button_A" textcolor="0 0 0" textfontsize="14" textfont="ButtonFont">$$18712$$Greek</gadget>
+		<gadget name="Col2Select" type="button" size1024="449 59 545 83" z="11" foreground="UI\button_A" textcolor="0 0 0" textfontsize="14" textfont="ButtonFont">$$18713$$Egyptian</gadget>
+		<gadget name="Col3Select" type="button" size1024="590 59 686 83" z="11" foreground="UI\button_A" textcolor="0 0 0" textfontsize="14" textfont="ButtonFont">$$18714$$Norse</gadget>
+		<gadget name="RandomSelect" type="button" size1024="447 15 543 39" z="11" foreground="UI\button_A" textcolor="0 0 0" textfontsize="14" textfont="ButtonFont">$$18619$$Random</gadget>
+		<gadget name="HelpBackground" type="gadget" size1024="289 559 705 668" z="11" tilebackground="" background="UI\background_C" sunkenbevel="" backgroundalpha=".5">
+			<gadget name="GodInfoArea" type="gadget" size1024="290 560 487 667" z="12">
+				<gadget name="GodPowerIcon" type="gadget" size1024="295 565 327 597" z="13"></gadget>
+				<gadget name="GodPowerText" type="formatText" size1024="329 572 477 592" z="13" textcolor="0 0 0" textfontsize="12" textfont="EntryFields"></gadget>
+				<gadget name="Myth1Icon" type="gadget" size1024="295 600 327 632" z="13"></gadget>
+				<gadget name="Myth1Text" type="formatText" size1024="329 609 477 629" z="13" textcolor="0 0 0" textfontsize="12" textfont="EntryFields"></gadget>
+				<gadget name="Myth2Icon" type="gadget" size1024="295 635 327 667" z="13"></gadget>
+				<gadget name="Myth2Text" type="formatText" size1024="329 642 477 662" z="13" textcolor="0 0 0" textfontsize="12" textfont="EntryFields"></gadget>
+			</gadget>
+			<gadget name="RolloverText" type="formatText" size1024="490 559 705 668" textcolor="0 0 0" textfontsize="12" textfont="EntryFields" z="12" textmarkup=""></gadget>
+		</gadget>
+		<gadget name="OKButton" type="button" size1024="358 678 486 710" z="11" foreground="UI\button_A" textcolor="0 0 0" textfontsize="14" textfont="ButtonFont">$$18465$$OK</gadget>
+		<gadget name="CancelButton" type="button" size1024="496 678 624 710" z="11" foreground="UI\button_A" textcolor="0 0 0" textfontsize="14" textfont="ButtonFont">$$18466$$Cancel</gadget>
+	</gadget>
+</layout>

@@ -1,0 +1,684 @@
+//==============================================================================
+// custom_attachments_anim.txt
+//==============================================================================
+
+//This pack contains the following attachments
+//	cavalrykopis - larger kopis
+//	kopis - smaller kopis
+//	khopesh
+//	thureos
+//	recurvebow
+//	sarissa
+//	cho ko nu
+//	ulfberht
+//	xiphos
+//	Anduril - LotR
+//	Anduriltwohanded - LotR
+//	rohan guard sword - LotR
+//	gondor sword - LotR
+//	gondor sword long - LotR
+//	jian
+//	dao
+//	guandao
+//	bardiche (unfinished)
+//	beardedaxe (unfinished)
+//	cavalrymace (unfinished)
+//	condmace (unfinished)
+//	orc halberd (unfinished)
+//	sabre (unfinished)
+//	glaive (unfinished)
+//	TwilightSword (unfinished)
+//	poleax (unfinished)
+//	gondor TowerShield - LotR
+//	uruksword - LotR
+//	spatha
+//	gladius
+//	morningstar
+//	hoplon (use ReplaceTexture)
+//	boeotianshield
+//	dory
+//	urukpike (LOTR)
+//	Herugrim (LOTR)
+//	Orcrist (LOTR)
+//	ThranduilSword (LOTR)
+//	Hadhafag (LOTR)
+//	RangerSword (LOTR)
+//	BoromirSword (LOTR)
+//	Sting (LOTR)
+//	DwarfShieldMedium (LOTR)
+//	ElvenShield (LOTR)
+//	GondorShield (LOTR)
+//	VikingShield
+//	RohanShield (LOTR)
+//	GravityHammer (Halo)
+//	Shotel
+//	OrcBlade
+//	OrcDagger
+
+//==============================================================================
+define cavalrykopis
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments G Kopis Cavalry
+         }
+      }         
+}
+
+
+//==============================================================================
+define kopis
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments G Kopis Standard
+         }
+      }         
+}
+
+//==============================================================================
+define khopesh
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments E Khopesh Standard
+         }
+      }         
+}
+
+//==============================================================================
+define thureos
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments thureos shield
+         }
+      }         
+}
+
+//==============================================================================
+define recurvebow
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments a bow recurve
+         }
+      }         
+}
+
+//==============================================================================
+define sarissa
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments sarissa
+         }
+      }         
+}
+
+//==============================================================================
+define cho ko nu
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments cho ko nu
+         }
+      }         
+}
+
+//==============================================================================
+define ulfberht
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments n ulfberht
+         }
+      }         
+}
+
+//==============================================================================
+define xiphos
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments g xiphos
+         }
+      }         
+}
+
+//==============================================================================
+define anduril
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments anduril
+         }
+      }         
+}
+
+//==============================================================================
+define anduriltwohanded
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments anduril twohanded
+         }
+      }         
+}
+
+//==============================================================================
+define rohan guard sword
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments rohan guard sword
+         }
+      }         
+}
+
+//==============================================================================
+define gondor sword
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments gondor sword
+         }
+      }         
+}
+
+//==============================================================================
+define gondor sword long
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments gondor sword long
+         }
+      }         
+}
+
+//==============================================================================
+define jian
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments c jian sword
+         }
+      }         
+}
+
+//==============================================================================
+define dao
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments c dao sword
+         }
+      }         
+}
+
+//==============================================================================
+define guandao
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments c guandao
+         }
+      }         
+}
+
+
+//==============================================================================
+define bardiche
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments bardiche
+         }
+      }         
+}
+
+//==============================================================================
+define beardedaxe
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments beardedaxe
+         }
+      }         
+}
+
+//==============================================================================
+define cavalrymace
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments cavalrymace
+         }
+      }         
+}
+
+
+//==============================================================================
+define condmace
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments condmace
+         }
+      }         
+}
+
+//==============================================================================
+define orc halberd
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments orc halberd
+         }
+      }         
+}
+
+//==============================================================================
+define sabre
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments sabre
+         }
+      }         
+}
+
+//==============================================================================
+define glaive
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments glaive
+         }
+      }         
+}
+
+//==============================================================================
+define twilightsword
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments twilightsword
+         }
+      }         
+}
+
+//==============================================================================
+define poleax
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments poleax
+         }
+      }         
+}
+
+//==============================================================================
+define gondor_towershield
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments gondor towershield
+         }
+      }         
+}
+
+//==============================================================================
+define uruksword
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments uruk sword
+         }
+      }         
+}
+
+//==============================================================================
+define spatha
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments spatha
+         }
+      }         
+}
+
+//==============================================================================
+define gladius
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments gladius
+         }
+      }         
+}
+
+//==============================================================================
+define morningstar
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments morning star
+         }
+      }         
+}
+
+//==============================================================================
+define hoplon
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments hoplon shield
+	    //ReplaceTexture hoplon1/(your texture here)
+         }
+      }         
+}
+
+//==============================================================================
+define boeotianshield
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments boeotian shield
+         }
+      }         
+}
+
+//==============================================================================
+define dory
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments g dory
+         }
+      }         
+}
+
+//==============================================================================
+define pilum
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments r pilum
+         }
+      }         
+}
+
+//==============================================================================
+define urukpike
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments uruk pike
+         }
+      }         
+}
+
+//==============================================================================
+define herugrim
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments herugrim
+         }
+      }         
+}
+
+//==============================================================================
+define orcrist
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments orcrist
+         }
+      }         
+}
+
+//==============================================================================
+define thranduilsword
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments thranduil sword
+         }
+      }         
+}
+
+//==============================================================================
+define hadhafag
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments hadhafag
+         }
+      }         
+}
+
+//==============================================================================
+define rangersword
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments ranger sword
+         }
+      }         
+}
+
+//==============================================================================
+define boromirsword
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments boromir sword
+         }
+      }         
+}
+
+//==============================================================================
+define sting
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments sting sword
+         }
+      }         
+}
+
+//==============================================================================
+define DwarfShieldMedium
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments dwarf shield medium
+         }
+      }         
+}
+
+//==============================================================================
+define ElvenShield
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments elven shield
+         }
+      }         
+}
+
+//==============================================================================
+define gondorshield
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments gondor shield
+         }
+      }         
+}
+
+//==============================================================================
+define vikingshield
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments viking shield
+         }
+      }         
+}
+
+//==============================================================================
+define rohanshield
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments rohan shield
+         }
+      }         
+}
+
+//==============================================================================
+define GravityHammer
+{
+      set hotspot
+      {
+         version
+         {
+            Visual Attachments gravity hammer
+         }
+      }         
+}
+
+//==============================================================================
+define shotel
+{
+      set hotspot
+      {
+         version
+         {
+            Visual attachments shotel
+         }
+      }         
+}
+
+//==============================================================================
+define orcblade
+{
+      set hotspot
+      {
+         version
+         {
+            Visual attachments_orc_sword_01
+         }
+      }         
+}
+
+//==============================================================================
+define orcdagger
+{
+      set hotspot
+      {
+         version
+         {
+            Visual attachments_orc_dagger_01
+         }
+      }         
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Schism" type="TempUnit" techname="schism">
+	<activetime>20</activetime>
+	<placement forceonmap="1">full</placement>
+	<minimapeventtime sendalertto="ally">10.0</minimapeventtime>
+	<createunit quantity="35" minradius="12" maxradius="20" pattern="symmetric" norotate="" delay="0.0">Schism Object</createunit>
+	<createunit quantity="35" minradius="12" maxradius="20" pattern="symmetric" norotate="" delay="2.0">Schism Object</createunit>
+	<createunit quantity="35" minradius="12" maxradius="20" pattern="symmetric" norotate="" delay="4.0">Schism Object</createunit>
+	<createunit quantity="35" minradius="12" maxradius="20" pattern="symmetric" norotate="" delay="6.0">Schism Object</createunit>
+	<createunit quantity="35" minradius="12" maxradius="20" pattern="symmetric" norotate="" delay="8.0">Schism Object</createunit>
+	<createunit quantity="35" minradius="12" maxradius="20" pattern="symmetric" norotate="" delay="10.0">Schism Object</createunit>
+	<createunit quantity="35" minradius="12" maxradius="20" pattern="symmetric" norotate="" delay="12.0">Schism Object</createunit>
+	<createunit quantity="35" minradius="12" maxradius="20" pattern="symmetric" norotate="" delay="14.0">Schism Object</createunit>
+	<createunit quantity="35" minradius="12" maxradius="20" pattern="symmetric" norotate="" delay="16.0">Schism Object</createunit>
+	<createunit quantity="35" minradius="12" maxradius="20" pattern="symmetric" norotate="" delay="18.0">Schism Object</createunit>
+	<rangeindicatorprotoid radius="10.0" indicatorcount="8" speed="0.2">UI Range Indicator Atlantean SFX</rangeindicatorprotoid>
+
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAlly">SentinelBirth</soundset>
+	<icon>improvement schism icon</icon>
+	<usedicon>improvement schism icon done</usedicon>
+
+	<recharges>0</recharges>
+	<rechargetime>15 </rechargetime>
+</power>

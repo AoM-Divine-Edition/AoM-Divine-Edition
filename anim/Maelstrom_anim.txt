@@ -1,0 +1,151 @@
+//==============================================================================
+// Courtyard Plants_anim.txt
+//==============================================================================
+//==============================================================================
+define FunnelSnow
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Tornado Funnel Snow
+      }
+   }
+}
+
+
+
+//==============================================================================
+define bubbles
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle sfx x bubbles 2
+      }
+   }
+}
+
+//==============================================================================
+define bubbles2
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle sfx x bubbles
+      }
+   }
+}
+
+//==============================================================================
+define FunnelWater
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Tornado Funnel Water
+      }
+   }
+}
+
+//==============================================================================
+define maelstrom
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Maelstrom3
+      }
+   }
+}
+
+
+//==============================================================================
+anim Birth
+{
+   SetSelector
+   {
+      AmphibiousLogic land/water
+      set hotspot
+      {
+         version
+         {
+				Visual SFX A Tornado Main
+				Connect ATTACHPOINT bubbles hotspot
+				length 0.79
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				Visual SFX A Tornado Main
+				Connect ATTACHPOINT Maelstrom hotspot
+	//			Connect ATTACHPOINT FunnelSnow hotspot
+				length 0.79
+         }
+      }
+   }
+}
+
+
+//==============================================================================
+anim Idle
+{
+  SetSelector
+   {
+      AmphibiousLogic land/water
+      set hotspot
+      {
+         version
+         {
+				Visual SFX A Tornado Main
+				Connect ATTACHPOINT bubbles hotspot
+				length 0.79
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				Visual SFX A Tornado Main
+				Connect ATTACHPOINT Maelstrom hotspot
+	//			Connect ATTACHPOINT FunnelSnow hotspot
+				length 0.79
+         }
+      }
+   }
+}
+
+
+//==============================================================================
+anim Death
+{
+   SetSelector
+   {
+      AmphibiousLogic land/water
+      set hotspot
+      {
+         version
+         {
+				Visual SFX A Tornado Main
+				Connect ATTACHPOINT bubbles hotspot
+				length 0.79
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				Visual SFX A Tornado Main
+				Connect ATTACHPOINT Maelstrom hotspot
+	//			Connect ATTACHPOINT FunnelSnow hotspot
+				length 0.79
+         }
+      }
+   }
+}

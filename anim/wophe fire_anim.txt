@@ -1,0 +1,114 @@
+//==============================================================================
+// Fire Large_anim.txt
+//==============================================================================
+
+//==============================================================================
+define firelarge
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX U Hades Fire Large
+      }
+   }
+}
+
+//==============================================================================
+define firelargebowl
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX U Hades Fire Large Bowl
+      }
+   }
+}
+
+//==============================================================================
+define firemedium
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX U Hades Fire Medium
+      }
+   }
+}
+
+//==============================================================================
+define firemediumbowl
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX U Hades Fire Medium Bowl
+      }
+   }
+}
+
+//==============================================================================
+define firesmall
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX U Hades Fire Small
+      }
+   }
+}
+
+//==============================================================================
+define firesmallbowl
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX U Hades Fire Small Bowl
+      }
+   }
+}
+
+//==============================================================================
+anim Idle
+{
+	SetSelector none 
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visualnone jimmy
+				Connect ATTACHPOINT firelarge hotspot
+				Connect ATTACHPOINT firelargebowl hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visualnone jimmy
+				Connect ATTACHPOINT firemedium hotspot
+				Connect ATTACHPOINT firemediumbowl hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visualnone jimmy
+				Connect ATTACHPOINT firesmall hotspot
+				Connect ATTACHPOINT firesmallbowl hotspot
+			}
+		}
+	}
+}
+
+
+    

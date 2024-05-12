@@ -1,0 +1,2608 @@
+//==============================================================================
+// wall E large gate_anim.txt
+//==============================================================================
+//==============================================================================
+define GateFlag
+{
+    set hotspot
+    {
+        version
+        {
+            Visual Building Gate Flag
+        }
+    }
+}
+//==============================================================================
+define GateFlagN
+{
+    set hotspot
+    {
+        version
+        {
+            Visual Building N Gate Flag
+        }
+    }
+}
+//==============================================================================
+anim None
+{
+    SetSelector
+    {
+    TechLogic none/Aztec Civ
+    SetSelector
+    {
+        CultureLogic Egyptian/Greek/Norse/Atlantean/Chinese
+        SetSelector
+        {
+            TechLogic none/Stone wall
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Gate_closed
+                        connect smoke0 GateFlag hotspot
+                        connect smoke1 GateFlag hotspot
+                    }
+                }
+            }
+            SetSelector
+            {
+                damageLogic 0 25 50 75
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_closed
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_closedDam1
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_closedDam2
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_closedDam3
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+            }
+        }
+        SetSelector
+        {
+            TechLogic none/Stone wall
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Gate_closed
+                        connect smoke0 GateFlag hotspot
+                        connect smoke1 GateFlag hotspot
+                    }
+                }
+            }
+            SetSelector
+            {
+                damageLogic 0 25 50 75
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building G Gate_closed
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building G Gate_closedDam1
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building G Gate_closedDam2
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building G Gate_closedDam3
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+            }
+        }
+        SetSelector
+        {
+            TechLogic none/Stone wall
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Gate_closed
+                        connect smoke0 GateFlag hotspot
+                        connect smoke1 GateFlag hotspot
+                    }
+                }
+            }
+            SetSelector
+            {
+                damageLogic 0 25 50 75
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building N Gate_closed
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building N Gate_closedDam1
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building N Gate_closedDam2
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building N Gate_closedDam3
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+            }
+        }
+        //- - - - - - - - - - - - - - - - - - - - - - - - - - - Atlantean - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+        SetSelector
+        {
+            TechLogic none/Stone wall/Bronze wall/Iron wall/Oreichalkos wall
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Gate_closed
+                        connect smoke0 GateFlag hotspot
+                        connect smoke1 GateFlag hotspot
+                    }
+                }
+            }
+            //- - - - - - - - - - - - - - - - - - - - - Stone - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Gate_closed
+                        connect smoke0 GateFlag hotspot
+                        connect smoke1 GateFlag hotspot
+                    }
+                }
+            }
+            //- - - - - - - - - - - - - - - - - - - - - Bronze - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+            SetSelector
+            {
+                damageLogic 0 25 50 75
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Bronze Gate_closed
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Bronze Gate_closedDam1
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Bronze Gate_closedDam2
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Bronze Gate_closedDam3
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+            }
+            //- - - - - - - - - - - - - - - - - - - - - Iron - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+            SetSelector
+            {
+                damageLogic 0 25 50 75
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Iron Gate_closed
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Iron Gate_closedDam1
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Iron Gate_closedDam2
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Iron Gate_closedDam3
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+            }
+            //- - - - - - - - - - - - - - - - - - - - - Oreichalkos - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+            SetSelector
+            {
+                damageLogic 0 25 50 75
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Oreichalkos Gate_closed
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Oreichalkos Gate_closedDam1
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Oreichalkos Gate_closedDam2
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Oreichalkos Gate_closedDam3
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+            }
+        }
+        SetSelector
+        {
+            TechLogic none/Stone wall
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Gate_closed
+                        connect smoke0 GateFlag hotspot
+                        connect smoke1 GateFlag hotspot
+                    }
+                }
+            }
+            SetSelector
+            {
+                damageLogic 0 25 50 75
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_closed
+                        replaceTexture building e props/building c props
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_closedDam1
+                        replaceTexture building e props/building c props
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_closedDam2
+                        replaceTexture building e props/building c props
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_closedDam3
+                        Replacetexture building e props/building c props
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+            }
+        }
+    }
+
+    SetSelector
+        {
+            TechLogic none/Stone wall
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Iron Gate_closed
+			ReplaceTexture building x iron gate/building x iron gateAztec
+                        connect smoke0 GateFlag hotspot
+                        connect smoke1 GateFlag hotspot
+                    }
+                }
+            }
+            SetSelector
+            {
+                damageLogic 0 25 50 75
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_closed
+                        replaceTexture building e props/building c props
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_closedDam1
+                        replaceTexture building e props/building c props
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_closedDam2
+                        replaceTexture building e props/building c props
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_closedDam3
+                        Replacetexture building e props/building c props
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+            }
+        }
+    }
+}
+//==============================================================================
+anim Opening
+{
+    SetSelector
+    {
+    TechLogic none/Aztec Civ
+    SetSelector
+    {
+        CultureLogic Egyptian/Greek/Norse/Atlantean/Chinese
+        SetSelector
+        {
+            TechLogic none/Stone wall
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Gate_opening
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateOpen checkVisible
+                        //- - end auto generated section
+                        connect smoke0 GateFlag hotspot
+                        connect smoke1 GateFlag hotspot
+                    }
+                }
+            }
+            SetSelector
+            {
+                damageLogic 0 25 50 75
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_opening
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateOpen checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_openingDam1
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateOpen checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_openingDam2
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateOpen checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_openingDam3
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateOpen checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+            }
+        }
+        SetSelector
+        {
+            TechLogic none/Stone wall
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Gate_opening
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateOpen checkVisible
+                        //- - end auto generated section
+                        connect smoke0 GateFlag hotspot
+                        connect smoke1 GateFlag hotspot
+                    }
+                }
+            }
+            SetSelector
+            {
+                damageLogic 0 25 50 75
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building G Gate_opening
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateOpen checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building G Gate_openingDam1
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateOpen checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building G Gate_openingDam2
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateOpen checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building G Gate_openingDam3
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateOpen checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+            }
+        }
+        SetSelector
+        {
+            TechLogic none/Stone wall
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Gate_opening
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateOpen checkVisible
+                        //- - end auto generated section
+                        connect smoke0 GateFlag hotspot
+                        connect smoke1 GateFlag hotspot
+                    }
+                }
+            }
+            SetSelector
+            {
+                damageLogic 0 25 50 75
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building N Gate_opening
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateOpen checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building N Gate_openingDam1
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateOpen checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building N Gate_openingDam2
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateOpen checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building N Gate_openingDam3
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateOpen checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+            }
+        }
+        //- - - - - - - - - - - - - - - - - - - - - - - - - - - - Atlantean - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+        SetSelector
+        {
+            TechLogic none/Stone wall/Bronze wall/Iron wall/Oreichalkos wall
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Gate_opening
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateOpen checkVisible
+                        //- - end auto generated section
+                        connect smoke0 GateFlag hotspot
+                        connect smoke1 GateFlag hotspot
+                    }
+                }
+            }
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - - - Stone - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Gate_opening
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateOpen checkVisible
+                        //- - end auto generated section
+                        connect smoke0 GateFlag hotspot
+                        connect smoke1 GateFlag hotspot
+                    }
+                }
+            }
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - - Bronze - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+            SetSelector
+            {
+                damageLogic 0 25 50 75
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Bronze Gate_opening
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateOpen checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Bronze Gate_openingDam1
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateOpen checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Bronze Gate_openingDam2
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateOpen checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Bronze Gate_openingDam3
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateOpen checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+            }
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Iron - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+            SetSelector
+            {
+                damageLogic 0 25 50 75
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Iron Gate_opening
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateOpen checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Iron Gate_openingDam1
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateOpen checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Iron Gate_openingDam2
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateOpen checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Iron Gate_openingDam3
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateOpen checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+            }
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - - - Oreichalkos - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+            SetSelector
+            {
+                damageLogic 0 25 50 75
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Oreichalkos Gate_opening
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateOpen checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Oreichalkos Gate_openingDam1
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateOpen checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Oreichalkos Gate_openingDam2
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateOpen checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Oreichalkos Gate_openingDam3
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateOpen checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+            }
+        }
+        SetSelector
+        {
+            TechLogic none/Stone wall
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Gate_opening
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateOpen checkVisible
+                        //- - end auto generated section
+                        connect smoke0 GateFlag hotspot
+                        connect smoke1 GateFlag hotspot
+                    }
+                }
+            }
+            SetSelector
+            {
+                damageLogic 0 25 50 75
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_opening
+                        replaceTexture building e props/building c props
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateOpen checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_openingDam1
+                        Replacetexture building e props/building c props
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateOpen checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_openingDam2
+                        Replacetexture building e props/building c props
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateOpen checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_openingDam3
+                        Replacetexture building e props/building c props
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateOpen checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+            }
+        }
+    }
+    SetSelector
+        {
+            TechLogic none/Stone wall
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Iron Gate_opening
+			ReplaceTexture building x iron gate/building x iron gateAztec
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateOpen checkVisible
+                        //- - end auto generated section
+                        connect smoke0 GateFlag hotspot
+                        connect smoke1 GateFlag hotspot
+                    }
+                }
+            }
+            SetSelector
+            {
+                damageLogic 0 25 50 75
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_opening
+                        replaceTexture building e props/building c props
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateOpen checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_openingDam1
+                        Replacetexture building e props/building c props
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateOpen checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_openingDam2
+                        Replacetexture building e props/building c props
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateOpen checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_openingDam3
+                        Replacetexture building e props/building c props
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateOpen checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+            }
+        }
+    }
+}
+//==============================================================================
+anim Closing
+{
+    SetSelector
+    {
+    TechLogic none/Aztec Civ
+    SetSelector
+    {
+        CultureLogic Egyptian/Greek/Norse/Atlantean/Chinese
+        SetSelector
+        {
+            TechLogic none/Stone wall
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Gate_closing
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateClose checkVisible
+                        //- - end auto generated section
+                        connect smoke0 GateFlag hotspot
+                        connect smoke1 GateFlag hotspot
+                    }
+                }
+            }
+            SetSelector
+            {
+                damageLogic 0 25 50 75
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_closing
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateClose checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_closingDam1
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateClose checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_closingDam2
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateClose checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_closingDam3
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateClose checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+            }
+        }
+        SetSelector
+        {
+            TechLogic none/Stone wall
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Gate_closing
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateClose checkVisible
+                        //- - end auto generated section
+                        connect smoke0 GateFlag hotspot
+                        connect smoke1 GateFlag hotspot
+                    }
+                }
+            }
+            SetSelector
+            {
+                damageLogic 0 25 50 75
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building G Gate_closing
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateClose checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building G Gate_closingDam1
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateClose checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building G Gate_closingDam2
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateClose checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building G Gate_closingDam3
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateClose checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+            }
+        }
+        SetSelector
+        {
+            TechLogic none/Stone wall
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Gate_closing
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateClose checkVisible
+                        //- - end auto generated section
+                        connect smoke0 GateFlag hotspot
+                        connect smoke1 GateFlag hotspot
+                    }
+                }
+            }
+            SetSelector
+            {
+                damageLogic 0 25 50 75
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building N Gate_closing
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateClose checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building N Gate_closingDam1
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateClose checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building N Gate_closingDam2
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateClose checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building N Gate_closingDam3
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateClose checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+            }
+        }
+        //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - Atlantean - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+        SetSelector
+        {
+            TechLogic none/Stone wall/Bronze wall/Iron wall/Oreichalkos wall
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Gate_closing
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateClose checkVisible
+                        //- - end auto generated section
+                        connect smoke0 GateFlag hotspot
+                        connect smoke1 GateFlag hotspot
+                    }
+                }
+            }
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Stone - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Gate_closing
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateClose checkVisible
+                        //- - end auto generated section
+                        connect smoke0 GateFlag hotspot
+                        connect smoke1 GateFlag hotspot
+                    }
+                }
+            }
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Bronze - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+            SetSelector
+            {
+                damageLogic 0 25 50 75
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Bronze Gate_closing
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateClose checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Bronze Gate_closingDam1
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateClose checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Bronze Gate_closingDam2
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateClose checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Bronze Gate_closingDam3
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateClose checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+            }
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Iron - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+            SetSelector
+            {
+                damageLogic 0 25 50 75
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Iron Gate_closing
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateClose checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Iron Gate_closingDam1
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateClose checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Iron Gate_closingDam2
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateClose checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Iron Gate_closingDam3
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateClose checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+            }
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Oreichalkos - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+            SetSelector
+            {
+                damageLogic 0 25 50 75
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Oreichalkos Gate_closing
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateClose checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Oreichalkos Gate_closingDam1
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateClose checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Oreichalkos Gate_closingDam2
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateClose checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Oreichalkos Gate_closingDam3
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateClose checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+            }
+        }
+        SetSelector
+        {
+            TechLogic none/Stone wall
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Gate_closing
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateClose checkVisible
+                        //- - end auto generated section
+                        connect smoke0 GateFlag hotspot
+                        connect smoke1 GateFlag hotspot
+                    }
+                }
+            }
+            SetSelector
+            {
+                damageLogic 0 25 50 75
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_closing
+                        Replacetexture building e props/building c props
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateClose checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_closingDam1
+                        Replacetexture building e props/building c props
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateClose checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_closingDam2
+                        Replacetexture building e props/building c props
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateClose checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_closingDam3
+                        Replacetexture building e props/building c props
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateClose checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+            }
+        }
+    }
+    SetSelector
+        {
+            TechLogic none/Stone wall
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Iron Gate_closing
+			ReplaceTexture building x iron gate/building x iron gateAztec
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateClose checkVisible
+                        //- - end auto generated section
+                        connect smoke0 GateFlag hotspot
+                        connect smoke1 GateFlag hotspot
+                    }
+                }
+            }
+            SetSelector
+            {
+                damageLogic 0 25 50 75
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_closing
+                        Replacetexture building e props/building c props
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateClose checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_closingDam1
+                        Replacetexture building e props/building c props
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateClose checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_closingDam2
+                        Replacetexture building e props/building c props
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateClose checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_closingDam3
+                        Replacetexture building e props/building c props
+                        //- - auto generated by the bang animation tool
+                        //- - do not hand edit these values
+                        tag SpecificSoundSet 0.00 false GateClose checkVisible
+                        //- - end auto generated section
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+            }
+        }
+    }
+}
+//==============================================================================
+anim Closed
+{
+    SetSelector
+    {
+    TechLogic none/Aztec Civ
+    SetSelector
+    {
+        CultureLogic Egyptian/Greek/Norse/Atlantean/Chinese
+        SetSelector
+        {
+            TechLogic none/Stone wall
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Gate_closed
+                        connect smoke0 GateFlag hotspot
+                        connect smoke1 GateFlag hotspot
+                    }
+                }
+            }
+            SetSelector
+            {
+                damageLogic 0 25 50 75
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_closed
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_closedDam1
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_closedDam2
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_closedDam3
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+            }
+        }
+        SetSelector
+        {
+            TechLogic none/Stone wall
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Gate_closed
+                        connect smoke0 GateFlag hotspot
+                        connect smoke1 GateFlag hotspot
+                    }
+                }
+            }
+            SetSelector
+            {
+                damageLogic 0 25 50 75
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building G Gate_closed
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building G Gate_closedDam1
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building G Gate_closedDam2
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building G Gate_closedDam3
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+            }
+        }
+        SetSelector
+        {
+            TechLogic none/Stone wall
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Gate_closed
+                        connect smoke0 GateFlag hotspot
+                        connect smoke1 GateFlag hotspot
+                    }
+                }
+            }
+            SetSelector
+            {
+                damageLogic 0 25 50 75
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building N Gate_closed
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building N Gate_closedDam1
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building N Gate_closedDam2
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building N Gate_closedDam3
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+            }
+        }
+        //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - Atlantean - - - - - - - - - - - - - - - - - - - - - - - - - - 
+        SetSelector
+        {
+            TechLogic none/Stone wall/Bronze wall/Iron wall/Oreichalkos wall
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Gate_closed
+                        connect smoke0 GateFlag hotspot
+                        connect smoke1 GateFlag hotspot
+                    }
+                }
+            }
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - - - Stone - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Gate_closed
+                        connect smoke0 GateFlag hotspot
+                        connect smoke1 GateFlag hotspot
+                    }
+                }
+            }
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - Bronze - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+            SetSelector
+            {
+                damageLogic 0 25 50 75
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Bronze Gate_closed
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Bronze Gate_closedDam1
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Bronze Gate_closedDam2
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Bronze Gate_closedDam3
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+            }
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - Iron - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+            SetSelector
+            {
+                damageLogic 0 25 50 75
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Iron Gate_closed
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Iron Gate_closedDam1
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Iron Gate_closedDam2
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Iron Gate_closedDam3
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+            }
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - Oreichalkos - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+            SetSelector
+            {
+                damageLogic 0 25 50 75
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Oreichalkos Gate_closed
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Oreichalkos Gate_closedDam1
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Oreichalkos Gate_closedDam2
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Oreichalkos Gate_closedDam3
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+            }
+        }
+        SetSelector
+        {
+            TechLogic none/Stone wall
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Gate_closed
+                        connect smoke0 GateFlag hotspot
+                        connect smoke1 GateFlag hotspot
+                    }
+                }
+            }
+            SetSelector
+            {
+                damageLogic 0 25 50 75
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_closed
+                        replaceTexture building e props/building c props
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_closedDam1
+                        replaceTexture building e props/building c props
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_closedDam2
+                        replaceTexture building e props/building c props
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_closedDam3
+                        replaceTexture building e props/building c props
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+            }
+        }
+    }
+    SetSelector
+        {
+            TechLogic none/Stone wall
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Iron Gate_closed
+			ReplaceTexture building x iron gate/building x iron gateAztec
+                        connect smoke0 GateFlag hotspot
+                        connect smoke1 GateFlag hotspot
+                    }
+                }
+            }
+            SetSelector
+            {
+                damageLogic 0 25 50 75
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_closed
+                        replaceTexture building e props/building c props
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_closedDam1
+                        replaceTexture building e props/building c props
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_closedDam2
+                        replaceTexture building e props/building c props
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_closedDam3
+                        replaceTexture building e props/building c props
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+            }
+        }
+    }
+}
+//==============================================================================
+anim Opened
+{
+    SetSelector
+    {
+    TechLogic none/Aztec Civ
+    SetSelector
+    {
+        CultureLogic Egyptian/Greek/Norse/Atlantean/Chinese
+        SetSelector
+        {
+            TechLogic none/Stone wall
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Gate_open
+                        connect smoke0 GateFlag hotspot
+                        connect smoke1 GateFlag hotspot
+                    }
+                }
+            }
+            SetSelector
+            {
+                damageLogic 0 25 50 75
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_open
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_openDam1
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_openDam2
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_openDam3
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+            }
+        }
+        SetSelector
+        {
+            TechLogic none/Stone wall
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Gate_open
+                        connect smoke0 GateFlag hotspot
+                        connect smoke1 GateFlag hotspot
+                    }
+                }
+            }
+            SetSelector
+            {
+                damageLogic 0 25 50 75
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building G Gate_open
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building G Gate_openDam1
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building G Gate_openDam2
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building G Gate_openDam3
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+            }
+        }
+        SetSelector
+        {
+            TechLogic none/Stone wall
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Gate_open
+                        connect smoke0 GateFlag hotspot
+                        connect smoke1 GateFlag hotspot
+                    }
+                }
+            }
+            SetSelector
+            {
+                damageLogic 0 25 50 75
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building N Gate_open
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building N Gate_openDam1
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building N Gate_openDam2
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building N Gate_openDam3
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+            }
+        }
+        // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Atlantean - - - - - - - - - - - - - - - - - - - - - 
+        SetSelector
+        {
+            TechLogic none/Stone wall/Bronze wall/Iron wall/Oreichalkos wall
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Gate_open
+                        connect smoke0 GateFlag hotspot
+                        connect smoke1 GateFlag hotspot
+                    }
+                }
+            }
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Stone - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Gate_open
+                        connect smoke0 GateFlag hotspot
+                        connect smoke1 GateFlag hotspot
+                    }
+                }
+            }
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Bronze - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+            SetSelector
+            {
+                damageLogic 0 25 50 75
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Bronze Gate_open
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Bronze Gate_openDam1
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Bronze Gate_openDam2
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Bronze Gate_openDam3
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+            }
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Iron - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+            SetSelector
+            {
+                damageLogic 0 25 50 75
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Iron Gate_open
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Iron Gate_openDam1
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Iron Gate_openDam2
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Iron Gate_openDam3
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+            }
+            //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Oreichalkos - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+            SetSelector
+            {
+                damageLogic 0 25 50 75
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Oreichalkos Gate_open
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Oreichalkos Gate_openDam1
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Oreichalkos Gate_openDam2
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Oreichalkos Gate_openDam3
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+            }
+        }
+        SetSelector
+        {
+            TechLogic none/Stone wall
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building Gate_open
+                        connect smoke0 GateFlag hotspot
+                        connect smoke1 GateFlag hotspot
+                    }
+                }
+            }
+            SetSelector
+            {
+                damageLogic 0 25 50 75
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_open
+                        replaceTexture building e props/building c props
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_openDam1
+                        replaceTexture building e props/building c props
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_openDam2
+                        replaceTexture building e props/building c props
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_openDam3
+                        replaceTexture building e props/building c props
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+            }
+        }
+    }
+    SetSelector
+        {
+            TechLogic none/Stone wall
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Iron Gate_open
+			ReplaceTexture building x iron gate/building x iron gateAztec
+                        connect smoke0 GateFlag hotspot
+                        connect smoke1 GateFlag hotspot
+                    }
+                }
+            }
+            SetSelector
+            {
+                damageLogic 0 25 50 75
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_open
+                        replaceTexture building e props/building c props
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_openDam1
+                        replaceTexture building e props/building c props
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_openDam2
+                        replaceTexture building e props/building c props
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Gate_openDam3
+                        replaceTexture building e props/building c props
+                        connect smoke3 GateFlagN hotspot
+                        connect smoke0 GateFlagN hotspot
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,99 @@
+//==============================================================================
+// raft_anim.xt
+//==============================================================================
+
+//==============================================================================
+define wakewalk
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle Naval A Large Boat Walk
+      }
+   }
+}
+
+//==============================================================================
+define rippleidle
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle Naval A Large Boat Idle
+      }
+   }
+}
+
+//==============================================================================
+anim walk
+{
+	SetSelector  
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual World A Baboon Raft
+				connect hotspot wakewalk hotspot
+			}
+		}
+	}	
+}
+
+//==============================================================================
+anim death
+{
+	SetSelector  
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual World A Baboon Raft
+				connect hotspot wakewalk hotspot
+			}
+		}
+	}	
+}
+
+//==============================================================================
+anim RangedAttack
+{
+	SetSelector  
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual World A Baboon Raft
+				connect hotspot wakewalk hotspot
+            tag Attack 0.40 true   
+            tag GenericSound 0.40 true   
+            tag SpecificSoundSet 0.38 false Arrow checkVisible 
+			}
+		}
+	}	
+}
+
+//==============================================================================
+anim idle
+{
+	SetSelector  
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual World A Baboon Raft
+				connect hotspot rippleidle hotspot
+			}
+		}
+	}	
+}
+

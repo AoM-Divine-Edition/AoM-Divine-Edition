@@ -1,0 +1,36 @@
+//==============================================================================
+// lightning scorch.txt
+//==============================================================================
+
+//==============================================================================
+anim Idle
+{
+   SetSelector none 
+   {
+      set hotspot
+      {
+         version
+         {
+            VisualNone sfx g lightning scorch
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim Birth
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+            //Visual Special E Scorpion_BirthA
+		Visual Atlach_Burrowing
+			Length 2
+				connect HOTSPOT egyptbirthSFX hotspot
+         }
+      }
+   }
+}

@@ -1,0 +1,16 @@
+2024-04-15 11:02:46.703 -04:00 [INF] Starting app AoM Model Editor 1.2.1.
+2024-04-15 11:02:46.747 -04:00 [INF] Reading app settings.
+2024-04-15 11:02:48.885 -04:00 [INF] Listening to AoMModelEditor.Models.ModelFileChangedArgs:
+2024-04-15 11:02:49.102 -04:00 [WRN] The class AoMModelEditor.MainWindow property modelsView is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-15 11:02:49.115 -04:00 [WRN] The class AoMModelEditor.Models.ModelsView property modelObjectTreeView is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-15 11:03:04.386 -04:00 [INF] Loading brg file.
+2024-04-15 11:03:04.403 -04:00 [INF] Finished loading brg file.
+2024-04-15 11:03:04.442 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgStatsView property mainGroupBox is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-15 11:03:04.443 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgStatsView property vertCountLabel is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-15 11:03:04.443 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgStatsView property faceCountLabel is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-15 11:03:04.443 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgStatsView property dummyCountLabel is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-15 11:03:04.443 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgStatsView property frameCountLabel is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-15 11:03:04.443 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgStatsView property materialCountLabel is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-15 11:03:04.445 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgStatsView property animationDurationLabel is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-15 11:03:13.566 -04:00 [INF] Exporting gltf file as brg.
+2024-04-15 11:03:14.552 -04:00 [INF] Finished exporting gltf file as brg.

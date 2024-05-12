@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+
+<ProtoUnitSoundDef>
+	<ProtoUnit name ="Nubian Goat">
+		<SoundType name ="Select">
+			<SoundSet name ="GoatSelect"></SoundSet>
+		</SoundType>
+		<SoundType name ="Hit">
+			<DamageTypeLogic>
+				<Choice name ="Crush">
+					<SoundSet name ="CrushFlesh"></SoundSet>
+				</Choice>
+				<Choice name ="Fire">
+					<SoundSet name ="HackFlesh"></SoundSet>
+				</Choice>
+				<Choice name ="Hack">
+					<SoundSet name ="HackFlesh"></SoundSet>
+				</Choice>
+				<Choice name ="Pierce">
+					<SoundSet name ="PierceFlesh"></SoundSet>
+				</Choice>
+				<Choice name ="Slash">
+					<SoundSet name ="HackFlesh"></SoundSet>
+				</Choice>
+			</DamageTypeLogic>
+		</SoundType>
+		<SoundType name ="Acknowledge">
+			<SoundSet name ="GoatAcknowledge"></SoundSet>
+		</SoundType>
+	</ProtoUnit>
+</ProtoUnitSoundDef>

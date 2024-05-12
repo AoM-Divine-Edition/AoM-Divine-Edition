@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<playlists>
+	<playlist name="Primary">
+		<musicset name="Egypt" culture="Egyptian">
+			<file volume="1.0" mood="normal">Music\Culture\N. D. Nile.mp3</file>
+			<file volume="1.0" mood="quiet">Music\Culture\N. D. Nile.mp3</file>
+		</musicset>
+		<musicset name="Norse" culture="Norse">
+			<file volume="1.0" mood="normal">Music\Culture\Of Norse Not!.mp3</file>
+			<file volume="1.0" mood="quiet">Music\Culture\Of Norse Not!.mp3</file>
+		</musicset>
+		<musicset name="Greek" culture="Greek">
+			<file volume="1.0" mood="normal">Music\Culture\Greek To Me.mp3</file>
+			<file volume="1.0" mood="quiet">Music\Culture\Greek To Me.mp3</file>
+		</musicset>
+		<musicset name="EatYourPotatoes">
+			<file volume="1.0" mood="normal">Music\Standard\Eat Your Potatoes.mp3</file>
+			<file volume="1.0" mood="quiet">Music\Quiet\Eat Your Potatoes (Mellow Mix).mp3</file>
+		</musicset>
+		<musicset name="ChocolateOutline">
+			<file volume="1.0" mood="normal">Music\Standard\Chocolate Outline.mp3</file>
+			<file volume="1.0" mood="quiet">Music\Quiet\Chocolate Outline (Mellow Mix).mp3</file>
+		</musicset>
+		<musicset name="NeverMindtheSlacksandBashers">
+			<file volume="1.0" mood="normal">Music\Standard\Never Mind the Slacks and Bashers.mp3</file>
+			<file volume="1.0" mood="quiet">Music\Quiet\Never Mind the Slacks and Bashers (Mellow Mix).mp3</file>
+		</musicset>
+		<musicset name="SutureSelf">
+			<file volume="1.0" mood="normal">Music\Standard\Suture Self.mp3</file>
+			<file volume="1.0" mood="quiet">Music\Quiet\Suture Self (Mellow Mix).mp3</file>
+		</musicset>
+		<musicset name="FlavorCats">
+			<file volume="1.0" mood="normal">Music\Standard\Flavor Cats (In the Comfort Zone).mp3</file>
+			<file volume="1.0" mood="quiet">Music\Quiet\Flavor Cats (In the Comfort Zone) (Mellow Mix).mp3</file>
+		</musicset>
+		<musicset name="Slaysenflite">
+			<file volume="1.0" mood="normal">Music\Standard\(Fine Layers Of) Slaysenflite.mp3</file>
+			<file volume="1.0" mood="quiet">Music\Quiet\(Fine Layers Of) Slaysenflite (Mellow Mix).mp3</file>
+		</musicset>
+		<musicset name="HopingForRealBetterness">
+			<file volume="1.0" mood="normal">Music\Standard\Hoping For Real Betterness.mp3</file>
+			<file volume="1.0" mood="quiet">Music\Quiet\Hoping For Real Betterness (Mellow Mix).mp3</file>
+		</musicset>
+		<musicset name="AdultSwim">
+			<file volume="1.0" mood="normal">Music\Standard\Adult Swim.mp3</file>
+			<file volume="1.0" mood="quiet">Music\Quiet\Adult Swim (Mellow Mix).mp3</file>
+		</musicset>
+		<musicset name="TheBalladofAceLeBaron">
+			<file volume="1.0" mood="normal">Music\Standard\The Ballad of Ace LeBaron.mp3</file>
+			<file volume="1.0" mood="quiet">Music\Quiet\The Ballad of Ace LeBaron (Mellow Mix).mp3</file>
+		</musicset>
+		<musicset name="InaPileofItsOwnGood">
+			<file volume="1.0" mood="normal">Music\Standard\In a Pile of Its Own Good.mp3</file>
+			<file volume="1.0" mood="quiet">Music\Quiet\In a Pile of Its Own Good (Mellow Mix).mp3</file>
+		</musicset>
+		<musicset name="BeholdtheGreatScienceFi">
+			<file volume="1.0" mood="normal">Music\Standard\Behold the Great Science Fi.mp3</file>
+			<file volume="1.0" mood="quiet">Music\Quiet\Behold the Great Science Fi (Mellow Mix).mp3</file>
+		</musicset>
+		<musicset name="Atlantis" culture="Atlantean">
+			<file volume="1.0" mood="normal">xpack\xMusic\Hotlantis.mp3</file>
+			<file volume="1.0" mood="quiet">xpack\xMusic\Hotlantis.mp3</file>
+		</musicset>
+		<musicset name="Chinese" culture="Chinese">
+			<file volume="1.7" mood="normal">music\culture\Chinese.mp3</file>
+			<file volume="1.7" mood="quiet">music\culture\Chinese.mp3</file>
+		</musicset>
+	</playlist>
+	<playlist name="battle">
+		<file volume="1.0">Music\Fight\The Fire Brigade.mp3</file>
+		<file volume="1.0">Music\Fight\Li'l Drips.mp3</file>
+		<file volume="1.0">Music\Fight\Meatier Shower.mp3</file>
+		<file volume="1.0">Music\Fight\Oi, That Pops!!!.mp3</file>
+		<file volume="1.0">Music\Fight\Rot Loaf.mp3</file>
+		<file volume="1.0">Music\Fight\I wish I could Throw Shapes.mp3</file>
+	</playlist>
+</playlists>

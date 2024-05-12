@@ -1,0 +1,44 @@
+//==============================================================================
+// Courtyard Plants_anim.txt
+//==============================================================================
+
+//==============================================================================
+anim idle
+{
+	SetSelector
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual Market Props A
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Market Props B
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Market Props C
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Market Props D
+				
+			}
+		}
+	}
+}

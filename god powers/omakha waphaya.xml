@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="OmakaWaphaya" type="tempunit" techname="Omakha Waphaya">
+	<activetime>-1</activetime>
+	<placement forceonmap="1" losprotounit="Invoker of IRS">all</placement>
+	<createunit quantity="1" radius="5.0" delay="0.0" norotate="">Invoker of IRS</createunit>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<icon>improvement Omakha Waphaya icon</icon>
+	<usedicon>improvement Omakha Waphaya used icon</usedicon>
+
+	<recharges>1 </recharges>
+	<rechargetime>240 </rechargetime>
+</power>

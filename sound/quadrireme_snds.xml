@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<protounitsounddef>
+	<protounit name="Quadrireme">
+		<soundtype name="Select">
+			<soundset name="MilitaryRomanSelect"></soundset>
+		</soundtype>
+		<soundtype name="Hit">
+			<damagetypelogic>
+				<choice name="Hack">
+					<soundset name="HackWood"></soundset>
+				</choice>
+				<choice name="Slash">
+					<soundset name="HackWood"></soundset>
+				</choice>
+				<choice name="Pierce">
+					<soundset name="PierceWood"></soundset>
+				</choice>
+				<choice name="Crush">
+					<soundset name="CrushWood"></soundset>
+				</choice>
+			</damagetypelogic>
+		</soundtype>
+		<soundtype name="Creation">
+			<soundset name="ShipBirth"></soundset>
+		</soundtype>
+		<soundtype name="Acknowledge">
+			<soundset name="ShipAcknowledge"></soundset>
+		</soundtype>
+		<soundtype name="Ambient">
+			<soundset name="ShipAmbient"></soundset>
+		</soundtype>
+	</protounit>
+</protounitsounddef>

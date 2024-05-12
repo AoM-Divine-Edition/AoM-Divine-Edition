@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="TheEndRitual" type="TempUnit" techname="The End Ritual">
+	<activetime>47.0</activetime>
+	<placement forceonmap="1">skip</placement>
+	<createunit quantity="5" radius="0" delay="0">The End Splash</createunit>
+	<createunit quantity="50" radius="0" delay="22">The End SFX</createunit>
+	<createunit quantity="5" minradius="00" maxradius="0" pattern="symmetric" norotate="" delay="22.0">The End Splash</createunit>
+	<createunit quantity="20" minradius="6" maxradius="6" pattern="symmetric" norotate="" delay="23.0">The End Splash</createunit>
+<createunit quantity="40" minradius="12" maxradius="12" pattern="symmetric" norotate="" delay="24.0">The End Splash</createunit>
+<createunit quantity="60" minradius="18" maxradius="18" pattern="symmetric" norotate="" delay="25.0">The End Splash</createunit>
+	<createunit quantity="80" minradius="24" maxradius="24" pattern="symmetric" norotate="" delay="26.0">The End Splash</createunit>
+<createunit quantity="100" minradius="30" maxradius="30" pattern="symmetric" norotate="" delay="27.0">The End Splash</createunit>
+<!--
+	<createunit quantity="1" radius="0" delay="5">The End 1</createunit>
+	<createunit quantity="1" radius="0" delay="6">The End 2</createunit>
+	<createunit quantity="1" radius="0" delay="7">The End 3</createunit>
+	<createunit quantity="1" radius="0" delay="8">The End 4</createunit>
+-->
+	<rangeindicatorprotoid radius="20.0" indicatorcount="10" speed="0.2">UI Range Indicator Egypt SFX</rangeindicatorprotoid>
+	<minimapeventtime sendalertto="ally">10.0</minimapeventtime>
+	<icon>improvement the end icon</icon>
+	<usedicon>improvement the end icon done</usedicon>
+	<soundset type="StartSound" listenertype="All"  playdelay="0.7">IaIaCthulhuFhtagnFull</soundset>
+
+	<recharges>0</recharges>
+	<rechargetime>450</rechargetime>
+</power>

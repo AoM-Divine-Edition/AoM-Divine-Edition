@@ -1,0 +1,17 @@
+// Ixion Helmet_anim.txt
+// By Cannibalh
+
+//==============================================================================
+define IxionHelmet
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+            Visual IxionHelmet
+         }
+      }         
+   }
+}

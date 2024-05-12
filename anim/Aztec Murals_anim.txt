@@ -1,0 +1,36 @@
+//==============================================================================
+// Courtyard Plants_anim.txt
+//==============================================================================
+
+//==============================================================================
+anim idle
+{
+	SetSelector
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual Aztec Mural A
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Aztec Mural B
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Aztec Mural C
+				
+			}
+		}
+	}
+}

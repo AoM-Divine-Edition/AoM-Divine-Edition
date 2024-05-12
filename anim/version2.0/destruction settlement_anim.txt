@@ -1,0 +1,876 @@
+//==============================================================================
+// Destruction Settlements
+//==============================================================================
+import Civ_statue_defines_anim.txt
+//==============================================================================
+define Dust
+{
+    set hotspot
+    {
+        version
+        {
+            Visualparticle SFX A Building DustA
+        }
+    }
+}
+//==============================================================================
+define nobles1
+{
+   set hotspot
+   {
+      version
+      {
+         		Visual Aztec Town Age1
+			ReplaceTexture AztecTownCenter/AztecTownCenterStone
+			connect NECK statue HOTSPOT
+      }
+   }
+}
+
+//==============================================================================
+define nobles2
+{
+   set hotspot
+   {
+      version
+      {
+         			Visual Aztec Town Age1
+				ReplaceTexture AztecTown/Aztec TownStone2
+				ReplaceTexture Aztec TownStonex/Aztec TownStone2x
+				ReplaceTexture Building N SettlementAge4/Aztec TownStone2
+				ReplaceTexture AztecTownCenter/AztecTownCenterStone
+				connect NECK statue HOTSPOT
+      }
+   }
+}
+
+//==============================================================================
+define nobles3
+{
+   set hotspot
+   {
+      version
+      {
+         			Visual Aztec Town Age1
+				ReplaceTexture AztecTown/Aztec TownStone3
+				ReplaceTexture Aztec TownStonex/Aztec TownStone3x
+				ReplaceTexture Building N SettlementAge4/Aztec TownStone3
+				ReplaceTexture AztecTownCenter/AztecTownCenterStone
+				connect NECK statue HOTSPOT
+      }
+   }
+}
+
+//==============================================================================
+define nobles4
+{
+   set hotspot
+   {
+      version
+      {
+         			Visual Aztec Town Age4
+				connect NECK statue HOTSPOT
+      }
+   }
+}
+//==============================================================================
+anim Idle
+{
+    SetSelector
+    {
+    TechLogic none/Aztec Civ
+    SetSelector
+    {
+        CultureLogic Egyptian/Greek/Norse/Atlantean/Chinese
+        SetSelector
+        {
+            TechLogic none/age 2/age 3/age 4
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Settlement Age1_Death
+                        connect NECK Statue HOTSPOT
+                        connect Smoke0 Dust hotspot
+                        connect Smoke1 Dust hotspot
+                        connect Smoke2 Dust hotspot
+                        connect Smoke3 Dust hotspot
+                        connect Smoke4 Dust hotspot
+                        connect Smoke5 Dust hotspot
+                        connect Smoke6 Dust hotspot
+                        connect Smoke7 Dust hotspot
+                    }
+                }
+            }
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building E Settlement Age2_Death
+                        connect NECK Statue HOTSPOT
+                        connect Smoke0 Dust hotspot
+                        connect Smoke1 Dust hotspot
+                        connect Smoke2 Dust hotspot
+                        connect Smoke3 Dust hotspot
+                        connect Smoke4 Dust hotspot
+                        connect Smoke5 Dust hotspot
+                        connect Smoke6 Dust hotspot
+                        connect Smoke7 Dust hotspot
+                    }
+                }
+            }
+            SetSelector
+            {
+                TechLogic none/Fortify Town Center
+                SetSelector
+                {
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building E Settlement Age3_Death
+                            connect NECK Statue HOTSPOT
+                            connect Smoke0 Dust hotspot
+                            connect Smoke1 Dust hotspot
+                            connect Smoke2 Dust hotspot
+                            connect Smoke3 Dust hotspot
+                            connect Smoke4 Dust hotspot
+                            connect Smoke5 Dust hotspot
+                            connect Smoke6 Dust hotspot
+                            connect Smoke7 Dust hotspot
+                        }
+                    }
+                }
+                SetSelector
+                {
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building E Settlement Age3 Fortified_Death
+                            connect NECK Statue HOTSPOT
+                            connect Smoke0 Dust hotspot
+                            connect Smoke1 Dust hotspot
+                            connect Smoke2 Dust hotspot
+                            connect Smoke3 Dust hotspot
+                            connect Smoke4 Dust hotspot
+                            connect Smoke5 Dust hotspot
+                            connect Smoke6 Dust hotspot
+                            connect Smoke7 Dust hotspot
+                        }
+                    }
+                }
+            }
+            SetSelector
+            {
+                TechLogic none/Fortify Town Center
+                SetSelector
+                {
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building E Settlement Age4_Death
+                            connect NECK Statue HOTSPOT
+                            connect Smoke0 Dust hotspot
+                            connect Smoke1 Dust hotspot
+                            connect Smoke2 Dust hotspot
+                            connect Smoke3 Dust hotspot
+                            connect Smoke4 Dust hotspot
+                            connect Smoke5 Dust hotspot
+                            connect Smoke6 Dust hotspot
+                            connect Smoke7 Dust hotspot
+                        }
+                    }
+                }
+                SetSelector
+                {
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building E Settlement Age4 Fortified_Death
+                            connect NECK Statue HOTSPOT
+                            connect Smoke0 Dust hotspot
+                            connect Smoke1 Dust hotspot
+                            connect Smoke2 Dust hotspot
+                            connect Smoke3 Dust hotspot
+                            connect Smoke4 Dust hotspot
+                            connect Smoke5 Dust hotspot
+                            connect Smoke6 Dust hotspot
+                            connect Smoke7 Dust hotspot
+                        }
+                    }
+                }
+            }
+        }
+        //=======================Greek=======================================
+        SetSelector
+        {
+            TechLogic none/age 2/age 3/age 4
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building G Settlement0_Death
+                        connect NECK Statue HOTSPOT
+                        connect Smoke0 Dust hotspot
+                        connect Smoke1 Dust hotspot
+                        connect Smoke2 Dust hotspot
+                        connect Smoke3 Dust hotspot
+                        connect Smoke4 Dust hotspot
+                        connect Smoke5 Dust hotspot
+                        connect Smoke6 Dust hotspot
+                        connect Smoke7 Dust hotspot
+                    }
+                }
+            }
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building G Settlement01_Death
+                        connect NECK Statue HOTSPOT
+                        connect Smoke0 Dust hotspot
+                        connect Smoke1 Dust hotspot
+                        connect Smoke2 Dust hotspot
+                        connect Smoke3 Dust hotspot
+                        connect Smoke4 Dust hotspot
+                        connect Smoke5 Dust hotspot
+                        connect Smoke6 Dust hotspot
+                        connect Smoke7 Dust hotspot
+                    }
+                }
+            }
+            SetSelector
+            {
+                TechLogic none/Fortify Town Center
+                SetSelector
+                {
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G Settlement02_Death
+                            connect NECK Statue HOTSPOT
+                            connect Smoke0 Dust hotspot
+                            connect Smoke1 Dust hotspot
+                            connect Smoke2 Dust hotspot
+                            connect Smoke3 Dust hotspot
+                            connect Smoke4 Dust hotspot
+                            connect Smoke5 Dust hotspot
+                            connect Smoke6 Dust hotspot
+                            connect Smoke7 Dust hotspot
+                        }
+                    }
+                }
+                SetSelector
+                {
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G Settlement02Fortified_Death
+                            connect NECK Statue HOTSPOT
+                            connect Smoke0 Dust hotspot
+                            connect Smoke1 Dust hotspot
+                            connect Smoke2 Dust hotspot
+                            connect Smoke3 Dust hotspot
+                            connect Smoke4 Dust hotspot
+                            connect Smoke5 Dust hotspot
+                            connect Smoke6 Dust hotspot
+                            connect Smoke7 Dust hotspot
+                        }
+                    }
+                }
+            }
+            SetSelector
+            {
+                TechLogic none/Fortify Town Center
+                SetSelector
+                {
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G Settlement03_Death
+                            connect NECK Statue HOTSPOT
+                            connect Smoke0 Dust hotspot
+                            connect Smoke1 Dust hotspot
+                            connect Smoke2 Dust hotspot
+                            connect Smoke3 Dust hotspot
+                            connect Smoke4 Dust hotspot
+                            connect Smoke5 Dust hotspot
+                            connect Smoke6 Dust hotspot
+                            connect Smoke7 Dust hotspot
+                        }
+                    }
+                }
+                SetSelector
+                {
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building G SettlementFortified_Death
+                            connect NECK Statue HOTSPOT
+                            connect Smoke0 Dust hotspot
+                            connect Smoke1 Dust hotspot
+                            connect Smoke2 Dust hotspot
+                            connect Smoke3 Dust hotspot
+                            connect Smoke4 Dust hotspot
+                            connect Smoke5 Dust hotspot
+                            connect Smoke6 Dust hotspot
+                            connect Smoke7 Dust hotspot
+                        }
+                    }
+                }
+            }
+        }
+        //=======================Norse=======================================
+        SetSelector
+        {
+            TechLogic none/age 2/age 3/age 4
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building N Settlement01_Death
+                        connect NECK Statue HOTSPOT
+                        connect Smoke0 Dust hotspot
+                        connect Smoke1 Dust hotspot
+                        connect Smoke2 Dust hotspot
+                        connect Smoke3 Dust hotspot
+                        connect Smoke4 Dust hotspot
+                        connect Smoke5 Dust hotspot
+                        connect Smoke6 Dust hotspot
+                        connect Smoke7 Dust hotspot
+                    }
+                }
+            }
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building N Settlement02_Death
+                        connect NECK Statue HOTSPOT
+                        connect Smoke0 Dust hotspot
+                        connect Smoke1 Dust hotspot
+                        connect Smoke2 Dust hotspot
+                        connect Smoke3 Dust hotspot
+                        connect Smoke4 Dust hotspot
+                        connect Smoke5 Dust hotspot
+                        connect Smoke6 Dust hotspot
+                        connect Smoke7 Dust hotspot
+                    }
+                }
+            }
+            SetSelector
+            {
+                TechLogic none/Fortify Town Center
+                SetSelector
+                {
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building N Settlement03_Death
+                            connect NECK Statue HOTSPOT
+                            connect Smoke0 Dust hotspot
+                            connect Smoke1 Dust hotspot
+                            connect Smoke2 Dust hotspot
+                            connect Smoke3 Dust hotspot
+                            connect Smoke4 Dust hotspot
+                            connect Smoke5 Dust hotspot
+                            connect Smoke6 Dust hotspot
+                            connect Smoke7 Dust hotspot
+                        }
+                    }
+                }
+                SetSelector
+                {
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building N Settlement03 Fortified_Death
+                            connect NECK Statue HOTSPOT
+                            connect Smoke0 Dust hotspot
+                            connect Smoke1 Dust hotspot
+                            connect Smoke2 Dust hotspot
+                            connect Smoke3 Dust hotspot
+                            connect Smoke4 Dust hotspot
+                            connect Smoke5 Dust hotspot
+                            connect Smoke6 Dust hotspot
+                            connect Smoke7 Dust hotspot
+                        }
+                    }
+                }
+            }
+            SetSelector
+            {
+                TechLogic none/Fortify Town Center
+                SetSelector
+                {
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building N Settlement04_Death
+                            connect NECK Statue HOTSPOT
+                            connect Smoke0 Dust hotspot
+                            connect Smoke1 Dust hotspot
+                            connect Smoke2 Dust hotspot
+                            connect Smoke3 Dust hotspot
+                            connect Smoke4 Dust hotspot
+                            connect Smoke5 Dust hotspot
+                            connect Smoke6 Dust hotspot
+                            connect Smoke7 Dust hotspot
+                        }
+                    }
+                }
+                SetSelector
+                {
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building N Settlement04 Fortified_Death
+                            connect NECK Statue HOTSPOT
+                            connect Smoke0 Dust hotspot
+                            connect Smoke1 Dust hotspot
+                            connect Smoke2 Dust hotspot
+                            connect Smoke3 Dust hotspot
+                            connect Smoke4 Dust hotspot
+                            connect Smoke5 Dust hotspot
+                            connect Smoke6 Dust hotspot
+                            connect Smoke7 Dust hotspot
+                        }
+                    }
+                }
+            }
+        }
+        //=======================Atlantean=======================================
+        SetSelector
+        {
+            TechLogic none/age 2/age 3/age 4
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Settlement Age0_Death
+                        connect NECK Statue HOTSPOT
+                        connect Smoke0 Dust hotspot
+                        connect Smoke1 Dust hotspot
+                        connect Smoke2 Dust hotspot
+                        connect Smoke3 Dust hotspot
+                        connect Smoke4 Dust hotspot
+                        connect Smoke5 Dust hotspot
+                        connect Smoke6 Dust hotspot
+                        connect Smoke7 Dust hotspot
+                    }
+                }
+            }
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building X Settlement Age1_Death
+                        connect NECK Statue HOTSPOT
+                        connect Smoke0 Dust hotspot
+                        connect Smoke1 Dust hotspot
+                        connect Smoke2 Dust hotspot
+                        connect Smoke3 Dust hotspot
+                        connect Smoke4 Dust hotspot
+                        connect Smoke5 Dust hotspot
+                        connect Smoke6 Dust hotspot
+                        connect Smoke7 Dust hotspot
+                    }
+                }
+            }
+            SetSelector
+            {
+                TechLogic none/Fortify Town Center
+                SetSelector
+                {
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building X Settlement Age2_Death
+                            connect NECK Statue HOTSPOT
+                            connect Smoke0 Dust hotspot
+                            connect Smoke1 Dust hotspot
+                            connect Smoke2 Dust hotspot
+                            connect Smoke3 Dust hotspot
+                            connect Smoke4 Dust hotspot
+                            connect Smoke5 Dust hotspot
+                            connect Smoke6 Dust hotspot
+                            connect Smoke7 Dust hotspot
+                        }
+                    }
+                }
+                SetSelector
+                {
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building X Settlement Age2 Fortified_Death
+                            connect NECK Statue HOTSPOT
+                            connect Smoke0 Dust hotspot
+                            connect Smoke1 Dust hotspot
+                            connect Smoke2 Dust hotspot
+                            connect Smoke3 Dust hotspot
+                            connect Smoke4 Dust hotspot
+                            connect Smoke5 Dust hotspot
+                            connect Smoke6 Dust hotspot
+                            connect Smoke7 Dust hotspot
+                        }
+                    }
+                }
+            }
+            SetSelector
+            {
+                TechLogic none/Fortify Town Center
+                SetSelector
+                {
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building X Settlement Age3_Death
+                            connect NECK Statue HOTSPOT
+                            connect Smoke0 Dust hotspot
+                            connect Smoke1 Dust hotspot
+                            connect Smoke2 Dust hotspot
+                            connect Smoke3 Dust hotspot
+                            connect Smoke4 Dust hotspot
+                            connect Smoke5 Dust hotspot
+                            connect Smoke6 Dust hotspot
+                            connect Smoke7 Dust hotspot
+                        }
+                    }
+                }
+                SetSelector
+                {
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building X Settlement Age3 Fortified_Death
+                            connect NECK Statue HOTSPOT
+                            connect Smoke0 Dust hotspot
+                            connect Smoke1 Dust hotspot
+                            connect Smoke2 Dust hotspot
+                            connect Smoke3 Dust hotspot
+                            connect Smoke4 Dust hotspot
+                            connect Smoke5 Dust hotspot
+                            connect Smoke6 Dust hotspot
+                            connect Smoke7 Dust hotspot
+                        }
+                    }
+                }
+            }
+        }
+        //=======================Chinese=======================================
+        SetSelector
+        {
+            TechLogic none/age 2/age 3/age 4
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual building c settlement age1_death
+                        connect NECK Statue HOTSPOT
+                        connect Smoke0 Dust hotspot
+                        connect Smoke1 Dust hotspot
+                        connect Smoke2 Dust hotspot
+                        connect Smoke3 Dust hotspot
+                        connect Smoke4 Dust hotspot
+                        connect Smoke5 Dust hotspot
+                        connect Smoke6 Dust hotspot
+                        connect Smoke7 Dust hotspot
+                    }
+                }
+            }
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual Building C Settlement Age1_Death
+                        ReplaceTexture building c roofage1/building c roofage2
+                        ReplaceTexture building c wallsage1/building c wallsage2
+                        connect NECK Statue HOTSPOT
+                        connect Smoke0 Dust hotspot
+                        connect Smoke1 Dust hotspot
+                        connect Smoke2 Dust hotspot
+                        connect Smoke3 Dust hotspot
+                        connect Smoke4 Dust hotspot
+                        connect Smoke5 Dust hotspot
+                        connect Smoke6 Dust hotspot
+                        connect Smoke7 Dust hotspot
+                    }
+                }
+            }
+            SetSelector
+            {
+                TechLogic none/Fortify Town Center
+                SetSelector
+                {
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building C Settlement Age3_Death
+                            ReplaceTexture building c roofage1/building c roofage3
+                            ReplaceTexture building c wallsage1/building c wallsage3
+                            connect NECK Statue HOTSPOT
+                            connect Smoke0 Dust hotspot
+                            connect Smoke1 Dust hotspot
+                            connect Smoke2 Dust hotspot
+                            connect Smoke3 Dust hotspot
+                            connect Smoke4 Dust hotspot
+                            connect Smoke5 Dust hotspot
+                            connect Smoke6 Dust hotspot
+                            connect Smoke7 Dust hotspot
+                        }
+                    }
+                }
+                SetSelector
+                {
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building C Settlement Fortified_Death
+                            ReplaceTexture building c roofage1/building c roofage3
+                            ReplaceTexture building c wallsage1/building c wallsage3
+                            connect NECK Statue HOTSPOT
+                            connect Smoke0 Dust hotspot
+                            connect Smoke1 Dust hotspot
+                            connect Smoke2 Dust hotspot
+                            connect Smoke3 Dust hotspot
+                            connect Smoke4 Dust hotspot
+                            connect Smoke5 Dust hotspot
+                            connect Smoke6 Dust hotspot
+                            connect Smoke7 Dust hotspot
+                        }
+                    }
+                }
+            }
+            SetSelector
+            {
+                TechLogic none/Fortify Town Center
+                SetSelector
+                {
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building C Settlement Age3_Death
+                            ReplaceTexture building c roofage1/building c roofage4
+                            ReplaceTexture building c wallsage1/building c wallsage4
+                            connect NECK Statue HOTSPOT
+                            connect Smoke0 Dust hotspot
+                            connect Smoke1 Dust hotspot
+                            connect Smoke2 Dust hotspot
+                            connect Smoke3 Dust hotspot
+                            connect Smoke4 Dust hotspot
+                            connect Smoke5 Dust hotspot
+                            connect Smoke6 Dust hotspot
+                            connect Smoke7 Dust hotspot
+                        }
+                    }
+                }
+                SetSelector
+                {
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual Building C Settlement Fortified_Death
+                            ReplaceTexture building c roofage1/building c roofage4
+                            ReplaceTexture building c wallsage1/building c wallsage4
+                            connect NECK Statue HOTSPOT
+                            connect Smoke0 Dust hotspot
+                            connect Smoke1 Dust hotspot
+                            connect Smoke2 Dust hotspot
+                            connect Smoke3 Dust hotspot
+                            connect Smoke4 Dust hotspot
+                            connect Smoke5 Dust hotspot
+                            connect Smoke6 Dust hotspot
+                            connect Smoke7 Dust hotspot
+                        }
+                    }
+                }
+            }
+        }
+    }
+    SetSelector
+        {
+            TechLogic none/age 2/age 3/age 4
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual GenericDestruction
+               		connect FOREHEAD nobles1 hotspot
+					connect ATTACHPOINT Dust hotspot
+					connect ATTACHPOINT Dust hotspot
+					connect ATTACHPOINT Dust hotspot
+			connect Smoke0 Dust hotspot
+                            connect Smoke1 Dust hotspot
+                            connect Smoke2 Dust hotspot
+                            connect Smoke3 Dust hotspot
+                            connect Smoke4 Dust hotspot
+                            connect Smoke5 Dust hotspot
+                            connect Smoke6 Dust hotspot
+                            connect Smoke7 Dust hotspot
+                    }
+                }
+            }
+            SetSelector
+            {
+                set hotspot
+                {
+                    version
+                    {
+                        Visual GenericDestruction
+               		connect FOREHEAD nobles2 hotspot
+					connect ATTACHPOINT Dust hotspot
+					connect ATTACHPOINT Dust hotspot
+					connect ATTACHPOINT Dust hotspot
+				connect Smoke0 Dust hotspot
+                            connect Smoke1 Dust hotspot
+                            connect Smoke2 Dust hotspot
+                            connect Smoke3 Dust hotspot
+                            connect Smoke4 Dust hotspot
+                            connect Smoke5 Dust hotspot
+                            connect Smoke6 Dust hotspot
+                            connect Smoke7 Dust hotspot
+                    }
+                }
+            }
+            SetSelector
+            {
+                TechLogic none/Fortify Town Center
+                SetSelector
+                {
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual GenericDestruction
+              		    connect FOREHEAD nobles3 hotspot
+					connect ATTACHPOINT Dust hotspot
+					connect ATTACHPOINT Dust hotspot
+					connect ATTACHPOINT Dust hotspot
+                            connect Smoke0 Dust hotspot
+                            connect Smoke1 Dust hotspot
+                            connect Smoke2 Dust hotspot
+                            connect Smoke3 Dust hotspot
+                            connect Smoke4 Dust hotspot
+                            connect Smoke5 Dust hotspot
+                            connect Smoke6 Dust hotspot
+                            connect Smoke7 Dust hotspot
+                        }
+                    }
+                }
+                SetSelector
+                {
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual GenericDestruction
+               		    connect FOREHEAD nobles3 hotspot
+					connect ATTACHPOINT Dust hotspot
+					connect ATTACHPOINT Dust hotspot
+					connect ATTACHPOINT Dust hotspot
+				connect Smoke0 Dust hotspot
+                            connect Smoke1 Dust hotspot
+                            connect Smoke2 Dust hotspot
+                            connect Smoke3 Dust hotspot
+                            connect Smoke4 Dust hotspot
+                            connect Smoke5 Dust hotspot
+                            connect Smoke6 Dust hotspot
+                            connect Smoke7 Dust hotspot
+                        }
+                    }
+                }
+            }
+            SetSelector
+            {
+                TechLogic none/Fortify Town Center
+                SetSelector
+                {
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual GenericDestruction
+               			connect FOREHEAD nobles4 hotspot
+					connect ATTACHPOINT Dust hotspot
+					connect ATTACHPOINT Dust hotspot
+					connect ATTACHPOINT Dust hotspot
+				connect Smoke0 Dust hotspot
+                            connect Smoke1 Dust hotspot
+                            connect Smoke2 Dust hotspot
+                            connect Smoke3 Dust hotspot
+                            connect Smoke4 Dust hotspot
+                            connect Smoke5 Dust hotspot
+                            connect Smoke6 Dust hotspot
+                            connect Smoke7 Dust hotspot
+                        }
+                    }
+                }
+                SetSelector
+                {
+                    set hotspot
+                    {
+                        version
+                        {
+                            Visual GenericDestruction
+               			connect FOREHEAD nobles4 hotspot
+					connect ATTACHPOINT Dust hotspot
+					connect ATTACHPOINT Dust hotspot
+					connect ATTACHPOINT Dust hotspot
+                            connect NECK Statue HOTSPOT
+                            connect Smoke0 Dust hotspot
+                            connect Smoke1 Dust hotspot
+                            connect Smoke2 Dust hotspot
+                            connect Smoke3 Dust hotspot
+                            connect Smoke4 Dust hotspot
+                            connect Smoke5 Dust hotspot
+                            connect Smoke6 Dust hotspot
+                            connect Smoke7 Dust hotspot
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

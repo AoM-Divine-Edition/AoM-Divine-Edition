@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="GrandSchism" type="Tremor" techname="Grand Schism">
+	<activetime>50 </activetime>
+	<radius>15.0</radius>
+	<rangeindicatorprotoid radius="12.0" indicatorcount="6" speed="0.5">UI Range Indicator Greek SFX</rangeindicatorprotoid>
+	<rumbleheight>1.2</rumbleheight>
+	<rumblewidth>1.0</rumblewidth>
+	<rumblespeed>25.0</rumblespeed>
+	<rumblefadetime>0.2</rumblefadetime>
+	<minthrowdistance>0.1 </minthrowdistance>
+	<maxthrowdistance>0.1 </maxthrowdistance>
+	<minthrowheight>150000 </minthrowheight>
+	<maxthrowheight>150000.0 </maxthrowheight>
+	<minthrowvelocity>600 </minthrowvelocity>
+	<maxthrowvelocity>600 </maxthrowvelocity>
+	<attackproto>Grand Schism</attackproto>
+	<attackinterval>0.25</attackinterval>
+	<attacktreeaccuracy>0.80</attacktreeaccuracy>
+	<abstractattacktargettype>Ship</abstractattacktargettype>
+	<abstractattacktargettype>NavalUnit</abstractattacktargettype>
+	<lightningeffectproto>Implode Lightning Effect</lightningeffectproto>
+	<gpdamagemodel>
+		<playerrelation>enemy</playerrelation>
+		<basedamagepercentunit>1.00</basedamagepercentunit>
+		<basedamagepercentvillager>1.00</basedamagepercentvillager>
+		<basedamagepercentbuilding>1.00</basedamagepercentbuilding>
+		<minhpdamageunit>18000</minhpdamageunit>
+		<minhpdamagevillager>8000</minhpdamagevillager>
+		<minhpdamagebuilding>10000</minhpdamagebuilding>
+		<maxhpdamageunit>25000</maxhpdamageunit>
+		<maxhpdamagevillager>2000</maxhpdamagevillager>
+		<maxhpdamagebuilding>12000</maxhpdamagebuilding>
+	</gpdamagemodel>
+	<gpdamagemodel>
+		<playerrelation>ally</playerrelation>
+		<basedamagepercentunit>1.00</basedamagepercentunit>
+		<basedamagepercentvillager>1.00</basedamagepercentvillager>
+		<basedamagepercentbuilding>1.00</basedamagepercentbuilding>
+		<minhpdamageunit>18000</minhpdamageunit>
+		<minhpdamagevillager>8000</minhpdamagevillager>
+		<minhpdamagebuilding>10000</minhpdamagebuilding>
+		<maxhpdamageunit>25000</maxhpdamageunit>
+		<maxhpdamagevillager>2000</maxhpdamagevillager>
+		<maxhpdamagebuilding>12000</maxhpdamagebuilding>
+	</gpdamagemodel>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">changeunit</soundset>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<placement forceonmap="1" enemy="" matchtype="Ship">unit</placement>
+	<reveallos radius="6.0">Revealer To Player</reveallos>
+	<unitaitype>Earthquake</unitaitype>
+	<icon>improvement pull of the deep icon</icon>
+	<usedicon>improvement pull of the deep icon done</usedicon>
+
+	<recharges>0</recharges>
+	<rechargetime>200 </rechargetime>
+</power>

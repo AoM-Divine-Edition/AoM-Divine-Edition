@@ -1,0 +1,106 @@
+//==============================================================================
+// Courtyard Plants_anim.txt
+//==============================================================================
+
+//==============================================================================
+define butterflies
+{
+    set hotspot
+    {
+        version
+        {
+            Visual butterfly Blue
+        }
+    }
+}
+
+
+//==============================================================================
+define light
+{
+   set hotspot
+  {
+      version
+      {
+         Visualparticle SFX X Lampades torch
+      }
+   }
+}
+
+
+//==============================================================================
+define spark
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle World A Relic Spark
+      }
+   }
+}
+
+
+//==============================================================================
+define glow
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX X Mirror Tower Glow
+      }
+   }  
+}
+
+
+//==============================================================================
+anim Idle
+{
+	SetSelector
+	{
+		set hotspot
+		{
+			version
+			{
+				Visual ChristmasTree2
+				connect face glow hotspot
+				connect face spark hotspot
+				connect forehead spark hotspot
+				connect frontchest spark hotspot
+				connect frontabdomen spark hotspot
+				connect leftear spark hotspot
+				connect leftfoot spark hotspot
+				connect leftforearm spark hotspot
+				connect lefthand spark hotspot
+				connect leftleg spark hotspot
+				connect leftshoulder spark hotspot
+				connect lefthigh spark hotspot
+				connect rightear spark hotspot
+				connect rightforearm spark hotspot
+				connect righthand spark hotspot
+				connect rightshoulder spark hotspot
+				connect righthigh spark hotspot
+				connect chin spark hotspot
+				connect topofhead spark hotspot
+				connect pelvis spark hotspot
+				connect targetpoint spark hotspot
+				connect neck spark hotspot
+				connect smoke0 light hotspot
+				connect smoke1 light hotspot
+				connect smoke2 light hotspot
+				connect smoke3 light hotspot
+				connect smoke4 light hotspot
+				connect smoke5 light hotspot
+				connect smoke6 light hotspot
+				connect smoke7 light hotspot
+				connect smoke8 light hotspot
+				connect smoke9 light hotspot
+
+connect ATTACHPOINT butterflies hotspot
+                            connect CHIN butterflies hotspot
+		
+			}
+		}
+	}
+}

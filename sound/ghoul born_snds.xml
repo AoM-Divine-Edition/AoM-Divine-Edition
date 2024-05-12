@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+
+<ProtoUnitSoundDef>
+	<ProtoUnit name ="Ghoul Born">
+		<SoundType name ="Select">
+			<SoundSet name ="EldMythSelect"></SoundSet>
+		</SoundType>
+		<SoundType name ="Grunt">
+			<SoundSet name ="MinotaurGrunt"></SoundSet>
+		</SoundType>
+		<SoundType name ="Hit">
+			<DamageTypeLogic>
+				<Choice name ="Hack">
+					<SoundSet name ="HackFlesh"></SoundSet>
+				</Choice>
+				<Choice name ="Slash">
+					<SoundSet name ="HackFlesh"></SoundSet>
+				</Choice>
+				<Choice name ="Pierce">
+					<SoundSet name ="PierceFlesh"></SoundSet>
+				</Choice>
+				<Choice name ="Crush">
+					<SoundSet name ="CrushFlesh"></SoundSet>
+				</Choice>
+			</DamageTypeLogic>
+		</SoundType>
+		<SoundType name ="Death">
+			<SoundSet name ="EldMythPray"></SoundSet>
+		</SoundType>
+		<SoundType name ="Creation">
+			<SoundSet name ="MythUnitBirth"></SoundSet>
+		</SoundType>
+		<SoundType name ="Acknowledge">
+			<targetlogic>
+				<choice name="default">
+					<soundset name="EldMythMove"></soundset>
+				</choice>
+				<choice name="enemy">
+					<soundset name="EldMythAttack"></soundset>
+				</choice>
+			</targetlogic>
+		</SoundType>
+	</ProtoUnit>
+</ProtoUnitSoundDef>

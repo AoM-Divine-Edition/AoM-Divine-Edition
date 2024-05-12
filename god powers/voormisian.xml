@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Voormisian" type="Uproot" techname="Voormisian">
+	<activetime>40.0</activetime>
+	<placement forceonmap="1">skip</placement>
+	<radius>30.0f</radius>
+	<reveallos radius="30.0">Revealer To Player</reveallos>
+	<rangeindicatorprotoid radius="30.0" indicatorcount="10" speed="0.2">UI Range Indicator Chinese SFX</rangeindicatorprotoid>
+	<rescaninterval>5.0f</rescaninterval>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">UprootBirth</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<minimapeventtime sendalertto="all">10.0</minimapeventtime>
+	<powerplayerrelation>enemy</powerplayerrelation>
+
+	<abstracttype>
+		<type>House</type>
+		<spawntype>Voormis 3</spawntype>
+	</abstracttype>
+	<abstracttype>
+		<type>Jap House</type>
+		<spawntype>Voormis 3</spawntype>
+	</abstracttype>
+
+	<abstracttype>
+		<type>Manor</type>
+		<spawntype>Voormis 2</spawntype>
+	</abstracttype>
+
+
+	<abstracttype>
+		<type>Aztec Manor</type>
+		<spawntype>Voormis 2</spawntype>
+	</abstracttype>
+
+	<icon>god power uproot icon</icon>
+	<usedicon>god power uproot icon done</usedicon>
+</power>

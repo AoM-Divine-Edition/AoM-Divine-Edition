@@ -1,0 +1,50 @@
+//==============================================================================
+// Catapult shot_anim.txt
+//==============================================================================
+
+
+//==============================================================================
+anim None
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+            Visual Siege E Catapult Projectile A
+         }
+         version
+         {
+            Visual Siege E Catapult Projectile B
+         }
+         version
+         {
+            Visual Siege E Catapult Projectile C
+         }
+		}
+	}
+}
+
+//==============================================================================
+anim Bored
+{
+  SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+            Visual Siege E Catapult Projectile A_bored
+         }
+         version
+         {
+            Visual Siege E Catapult Projectile B_bored
+         }
+         version
+         {
+            Visual Siege E Catapult Projectile C_bored
+         }
+       }
+   }
+}

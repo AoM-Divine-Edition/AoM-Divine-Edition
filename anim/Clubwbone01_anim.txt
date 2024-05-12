@@ -1,0 +1,20 @@
+//==============================================================================
+// Troll Club with Bone top_anim.txt
+// By Cannibalh
+// HOTSPOTS
+// Fire ( Top to Particles )
+//==============================================================================
+
+define TrollClubBone
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+            Visual weapon n trollclub01
+         }
+      }         
+   }
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="SolarBeam" type="tempunit" techname="Solar Beam">
+	<activetime>-1</activetime>
+	<placement forceonmap="1" losprotounit="Solar Beam">all</placement>
+	<rangeindicatorprotoid radius="3.0" indicatorcount="5" speed="0.2">UI Range Indicator aztec</rangeindicatorprotoid>
+	<createunit quantity="1" radius="0.1" delay="0.5" norotate="">Solar Beam</createunit>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<icon>Solar Beam icon</icon>
+
+	<recharges>0</recharges>
+	<rechargetime>10</rechargetime>
+</power>

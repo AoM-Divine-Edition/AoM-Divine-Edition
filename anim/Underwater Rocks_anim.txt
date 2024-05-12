@@ -1,0 +1,44 @@
+//==============================================================================
+// Courtyard Plants_anim.txt
+//==============================================================================
+
+//==============================================================================
+anim idle
+{
+	SetSelector
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual Underwater Rocks
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Underwater Rocks2
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Underwater Rocks3
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Underwater Rocks4
+				
+			}
+		}
+	}
+}

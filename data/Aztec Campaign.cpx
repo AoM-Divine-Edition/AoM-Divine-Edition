@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<campaign name = "Aztec Campaign" version = "2.8">
+<backgroundset name="Atlantis">
+		<image pos="1">ui\meso1</image>
+		<image pos="2">ui\meso2</image>
+		<image pos="3">ui\meso3</image>
+		<image pos="4">ui\meso4</image>
+		<image pos="5">ui\meso5</image>
+		<image pos="6">ui\meso6</image>
+		<image pos="7">ui\meso7</image>
+		<image pos="8">ui\meso8</image>
+		<image pos="9">ui\meso9</image>
+		<image pos="10">ui\meso10</image>
+		<image pos="11">ui\meso11</image>
+		<image pos="12">ui\meso12</image>
+	</backgroundset>
+	<Scenario dispName = "$$90338$$Aztec Tutorial" filename = "aztec tutorial.scx" BackgroundSet = "Atlantis">You are entering the Aztec portion of the campaign. Would you like to view a short Aztec tutorial?
+		<Overlay offset = "400 408" size = "32 32">ui\overlay_red_09</Overlay>
+		<Overlay offset = "383 351" size = "64 64">ui\OverlayPyramidRuins</Overlay>
+	</Scenario>
+	<Scenario dispName = "$$90340$$1. Popocatépetl" filename = "dry lake.scx" BackgroundSet = "Atlantis">Learn how to play the Aztecs.
+		<Overlay offset = "400 408" size = "32 32">ui\overlay_blue_09</Overlay>
+		<Overlay offset = "383 351" size = "64 64">ui\OverlayPyramidRuins</Overlay>
+		<Overlay offset = "410 428" size = "64 64">ui\overlaydownarrow</Overlay>
+		<Overlay offset = "450 478" size = "32 32">ui\overlay_red_09</Overlay>
+		<Overlay offset = "433 321" size = "85 165">ui\overlayVolcano</Overlay>
+	</Scenario>
+</campaign>

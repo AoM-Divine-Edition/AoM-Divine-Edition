@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="CrazyBullChaos" type="chaos" techname="Crazy Bull Chaos">
+	<activetime>-1</activetime>
+	<radius>20.0</radius>
+	<rangeindicatorprotoid radius="18000.0" indicatorcount="8" speed="0.2">UI Range Indicator Atlantean SFX</rangeindicatorprotoid>
+
+	<placement forceonmap="1">skip</placement>
+	<convertusingminmax minswapamount="100000" maxswapamount="100000">normal</convertusingminmax>
+	<convertusingminmax minswapamount="10000" maxswapamount="100000">myth</convertusingminmax>
+	<powerplayerrelation>enemy</powerplayerrelation>
+	<swapdelay>0.0</swapdelay>
+	<swapenemyonly></swapenemyonly>
+	<attachproto>Chaos effect</attachproto>
+	<abstractattacktargettype>Tathanka Gnaskiyan Insane</abstractattacktargettype>
+	<abstractattacktargettype>Zombie</abstractattacktargettype>
+
+	
+	<minimapeventtime sendalertto="none">0.0f</minimapeventtime>
+	<messagealertplayerrelation>ally</messagealertplayerrelation>
+</power>

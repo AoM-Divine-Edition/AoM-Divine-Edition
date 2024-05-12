@@ -1,0 +1,222 @@
+//===========================================================================
+//Lava Sheet_anim.txt
+//==============================================================================
+//==============================================================================
+define clouds2
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Rain Clouds
+      }
+   }
+}
+
+//==============================================================================
+define rain
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Rain
+      }
+   }
+}
+
+
+//==============================================================================
+define clouds
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Snow Storm Clouds
+      }
+   }
+}
+
+//==============================================================================
+define bubbles
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Meteor Splash
+      }
+   }
+}
+//==============================================================================
+define Bottom
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Tornado Bottom
+      }
+   }
+}
+
+
+//==============================================================================
+define flood
+{
+   set hotspot
+   {
+      version
+      {
+         Visual sfx c flood
+      }
+   }  
+}
+
+
+
+//==============================================================================
+define wake
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A building rubble wake
+      }
+   }  
+}
+
+//==============================================================================
+define rubble
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Building Dock Rubble3x3
+	 connect neck wake hotspot
+					connect smoke0 wake hotspot
+					connect smoke1 wake hotspot
+					connect smoke2 wake hotspot
+					connect smoke3 wake hotspot
+					connect smoke4 wake hotspot
+					connect smoke5 wake hotspot
+					connect smoke6 wake hotspot
+					connect smoke7 wake hotspot
+					connect smoke8 wake hotspot
+					connect smoke9 wake hotspot
+      }
+   }  
+}
+
+
+//==============================================================================
+anim Idle
+{
+	SetSelector
+	{
+		set hotspot
+			{
+				version
+				{
+						Visual floodTornadoBirth
+						ReplaceTexture sfx c flood/sfx c floodIII
+						connect attachpoint rain hotspot
+						connect attachpoint rain hotspot
+						connect RIGHTHAND rain hotspot
+						connect RIGHTHAND rain hotspot
+						connect RIGHTEAR rain hotspot
+						connect RIGHTEAR rain hotspot
+						connect RIGHTEAR clouds hotspot
+						connect RIGHTLEG rain hotspot
+						connect RIGHTLEG rain hotspot
+						connect RIGHTFOOT rain hotspot
+						connect RIGHTFOOT rain hotspot
+						connect RIGHTFOOT clouds2 hotspot
+						
+				}
+			}
+	}
+}
+
+
+//==============================================================================
+anim Attack
+{
+	SetSelector
+	{
+		set hotspot
+			{
+				version
+				{
+						Visual floodTornadoBirth
+						ReplaceTexture sfx c flood/sfx c floodIII
+						length 30.90
+						connect attachpoint rain hotspot
+						connect attachpoint rain hotspot
+						connect RIGHTHAND rain hotspot
+						connect RIGHTHAND rain hotspot
+						connect RIGHTHAND clouds hotspot
+						connect RIGHTEAR rain hotspot
+						connect RIGHTEAR rain hotspot
+						connect RIGHTLEG rain hotspot
+						connect RIGHTLEG rain hotspot
+						connect RIGHTLEG clouds hotspot
+						connect RIGHTFOOT rain hotspot
+						connect RIGHTFOOT rain hotspot
+						connect RIGHTFOOT clouds hotspot
+						tag Attack 0.40 true   
+				}
+			}
+	}
+}
+
+//==============================================================================
+anim birth
+{
+	SetSelector
+	{
+		set hotspot
+			{
+				version
+				{
+						Visual floodTornadoBirth
+						ReplaceTexture sfx c flood/sfx c floodIII
+						length 2.90
+						connect attachpoint rain hotspot
+						connect attachpoint rain hotspot
+						connect RIGHTHAND rain hotspot
+						connect RIGHTHAND rain hotspot
+						connect RIGHTHAND clouds hotspot
+						connect RIGHTEAR rain hotspot
+						connect RIGHTEAR rain hotspot
+						connect RIGHTEAR clouds hotspot
+						connect RIGHTLEG rain hotspot
+						connect RIGHTLEG rain hotspot
+						connect RIGHTLEG clouds hotspot
+						connect RIGHTFOOT rain hotspot
+						connect RIGHTFOOT rain hotspot
+						connect RIGHTFOOT clouds hotspot
+				}
+			}
+	}
+}
+
+
+//==============================================================================
+anim Walk
+{
+	SetSelector
+	{
+		set hotspot
+			{
+				version
+				{
+						Visual floodTornado
+						ReplaceTexture sfx c flood/sfx c floodIII
+				}
+			}
+	}
+}

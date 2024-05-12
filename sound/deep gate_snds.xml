@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<protounitsounddef>
+	<protounit name="Deep Gate">
+		<soundtype name="Select">
+			<soundset name="TarTarianGateSelect"></soundset>
+		</soundtype>
+		<soundtype name="Hit">
+			<damagetypelogic>
+				<choice name="Crush">
+					<soundset name="CrushWood"></soundset>
+				</choice>
+				<choice name="Fire">
+					<soundset name="HackWood"></soundset>
+				</choice>
+				<choice name="Hack">
+					<soundset name="HackWood"></soundset>
+				</choice>
+				<choice name="Pierce">
+					<soundset name="PierceWood"></soundset>
+				</choice>
+				<choice name="Slash">
+					<soundset name="HackWood"></soundset>
+				</choice>
+			</damagetypelogic>
+		</soundtype>
+		<soundtype name="Death">
+			<soundset name="BuildingDeath"></soundset>
+		</soundtype>
+		<soundtype name="Exists">
+			<soundset name="FireGiantExist"></soundset>
+		</soundtype>
+	</protounit>
+</protounitsounddef>

@@ -1,0 +1,109 @@
+//==============================================================================
+// Courtyard Plants_anim.txt
+//==============================================================================
+
+//==============================================================================
+anim idle
+{
+	SetSelector
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual Whitey
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Aztec Wonder4
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Aztec Wonder3
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual IncaStatue
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Aztec Wonder Pyramid
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Aztec Town
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Aztec ShipyardII
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual AztecGate
+				
+			}
+		}
+		set hotspot
+    		  {
+        		 version
+       			  {
+         		   
+			`	Visual Generic Aztec Building
+	  		
+        		 }
+    		 }
+		set hotspot
+		{
+			version
+			{
+				Visual Aztec Bridge
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Aztec Altar
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual RuinedPyramid
+				
+			}
+		}
+	}
+}

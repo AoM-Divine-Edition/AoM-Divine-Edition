@@ -1,0 +1,138 @@
+//==============================================================================
+// folstag flag bearer_anim.txt
+//==============================================================================
+
+//==============================================================================
+define SunLight
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A God Power Summon Sunlight
+      }
+   }
+}
+
+
+//==============================================================================
+define GroundGlow
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A God Power Summon GroundGlow
+      }
+   }
+}
+
+//==============================================================================
+anim Walk
+{
+   SetSelector 
+   {
+      set hotspot
+      {
+         version
+         {
+             Visual Folstag flag bearer_walkA
+				Tag FootstepLeft 0.0 true
+				Tag FootstepRight 0.5 true
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim Idle
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+             Visual Folstag flag bearer_idleA
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim Recover
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+             Visual Folstag flag bearer_recoverA
+				 				connect hotspot sunlight hotspot
+				connect hotspot groundglow hotspot
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim Flail
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+             Visual Folstag flag bearer_FlailA
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim Bored
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+             Visual Folstag flag bearer_WaveA
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim Death
+{
+   SetSelector none 
+   {
+      set hotspot
+      {
+         version
+         {
+            Visual Folstag flag bearer_deathA
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim Cinematic
+{
+   SetSelector
+   {
+		set hotspot
+      {
+         name flagbearer_wave
+         version
+         {
+            Visual Folstag flag bearer_waveA
+         }
+      }
+	}
+}

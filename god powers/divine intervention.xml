@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="DivineIntervention" type="tempunit" techname="divine intervention">
+	<activetime>-1</activetime>
+	<placement forceonmap="1" losprotounit="DivineIntervention">all</placement>
+	<createunit quantity="1" radius="5.0" delay="0.0" norotate="">DivineIntervention</createunit>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<icon>god power nidhogg icon</icon>
+	<usedicon>god power nidhogg icon done</usedicon>
+</power>

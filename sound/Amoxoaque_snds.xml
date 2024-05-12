@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<protounitsounddef>
+	<protounit name="Amoxoaque">
+		<soundtype name="Select">
+			<soundset name="WalkingWoodsSelect"></soundset>
+		</soundtype>
+		<soundtype name="Grunt">
+			<soundset name="WalkingWoods"></soundset>
+		</soundtype>
+		<soundtype name="Hit">
+			<damagetypelogic>
+				<choice name="Crush">
+					<soundset name="CrushWood"></soundset>
+				</choice>
+				<choice name="Fire">
+					<soundset name="HackWood"></soundset>
+				</choice>
+				<choice name="Hack">
+					<soundset name="HackWood"></soundset>
+				</choice>
+				<choice name="Pierce">
+					<soundset name="PierceWood"></soundset>
+				</choice>
+				<choice name="Slash">
+					<soundset name="HackWood"></soundset>
+				</choice>
+			</damagetypelogic>
+		</soundtype>
+		<soundtype name="Death">
+			<soundset name="WalkingWoodsDeath"></soundset>
+		</soundtype>
+		<soundtype name="Creation">
+			<soundset name="WalkingWoodsSelect"></soundset>
+		</soundtype>
+		<soundtype name="Acknowledge">
+			<soundset name="walkingwoods"></soundset>
+		</soundtype>
+	</protounit>
+</protounitsounddef>

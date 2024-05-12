@@ -1,0 +1,384 @@
+//=============================================================================
+// blends.txt
+// 
+// This file defines terrain blending information.
+//
+// Name <name> defines the start of a new set.
+//    <type> <filename(no extension)> defines a blend within the set.
+//
+// Valid <type>'s are: Corner, Edge, TwoEdges, LShape, LShapeCorner, TwoCorners, 
+// TwoOppositeCorners, ThreeCorners, FourCorners, EdgeCorner, EdgeTwoCorners, UShape
+// Circle
+//
+// There is a special value for <type> called Group.  This takes two parameters: a targa
+// file and a blend group (.blg) file that tells the game how to chop up that targa.
+//
+// The type lines can come in any order and there can be as many of any one type as desired.
+// A given set should have at least one of each type defined or strange blending will occur
+// when that type piece is needed and not available.
+//
+// The first blend set listed in the file will serve as the default set regardless
+// of what it is named.
+//=============================================================================
+
+Name newdefault
+   Corner               blendcornerbh
+   Corner               blendcorner2bh
+   Edge                 blendedgebh
+   Edge                 blendedge4bh
+   Edge                 blendedge5bh
+   Edge                 blendedge6bh
+   Edge                 blendedge7bh
+   TwoEdges             blendtwoedgesbh
+   LShape               blendLShapebh
+   LShape               blendLShape2bh
+   LShapeCorner         blendLShapeCornerbh
+   TwoCorners           blendtwocornersbh
+   TwoOppositeCorners   blendtwooppositecornersbh
+   ThreeCorners         blendthreecornersbh
+   FourCorners          blendfourcornersbh
+   EdgeCorner           blendedgecornerbh
+   EdgeTwoCorners       blendedgetwocornersbh
+   UShape               blendushapebh
+   Circle               blendcirclebh
+   Circle               blendcircle2bh
+   Circle               blendcircle3bh
+
+
+Name shoreline
+   Corner               blendcornershorebh
+   Corner               blendcornershore2bh
+   Edge                 blendedgeshorebh
+   Edge                 blendedgeshore4bh
+   Edge                 blendedgeshore5bh
+   Edge                 blendedgeshore6bh
+   Edge                 blendedgeshore7bh
+   TwoEdges             blendtwoedgesbh
+   LShape               blendLShapeshorebh
+   LShape               blendLShapeshore2bh
+   LShapeCorner         blendLShapeCornerbh
+   TwoCorners           blendtwocornersbh
+   TwoOppositeCorners   blendtwooppositecornersbh
+   ThreeCorners         blendthreecornersbh
+   FourCorners          blendfourcornersbh
+   EdgeCorner           blendedgecornerbh
+   EdgeTwoCorners       blendedgetwocornersbh
+   UShape               blendushapebh
+   Circle               blendcirclebh
+   Circle               blendcircle2bh
+   Circle               blendcircle3bh
+
+Name GaiaCreep
+   Corner               blendcornerCreep
+   Corner               blendcornerCreep2
+   Edge                 blendedgeCreep
+   Edge                 blendedgeCreep2
+   Edge                 blendedgeCreep3
+   Edge                 blendedgeCreep4
+   Edge                 blendedgeCreep5
+   Edge                 blendedgeCreep6
+   TwoEdges             blendtwoedgesbh
+   LShape               blendLShapebh
+   LShape               blendLShape2bh
+   LShapeCorner         blendLShapeCornerbh
+   TwoCorners           blendtwocornersbh
+   TwoOppositeCorners   blendtwooppositecornersbh
+   ThreeCorners         blendthreecornersbh
+   FourCorners          blendfourcornersbh
+   EdgeCorner           blendedgecornerbh
+   EdgeTwoCorners       blendedgetwocornersbh
+   UShape               blendushapebh
+   Circle               blendcirclebh
+   Circle               blendcircle2bh
+   Circle               blendcircle3bh
+
+
+Name NoBlend
+
+   Corner               NoBlend
+   Edge                 NoBlend
+   TwoEdges             NoBlend
+   LShape               NoBlend
+   LShapeCorner         NoBlend
+   TwoCorners           NoBlend
+   TwoOppositeCorners   NoBlend
+   ThreeCorners         NoBlend
+   FourCorners          NoBlend
+   EdgeCorner           NoBlend
+   EdgeTwoCorners       NoBlend
+   UShape               NoBlend
+   Circle               NoBlend
+
+
+//=============================================================================
+// The following section defines the order in which terrain layers blend.
+// The first in the list is the bottom-most and the last is the top-most.
+// A given type is always below the types further than it in the list and above
+// types earlier in the list.
+//=============================================================================
+
+BlendOrder
+   black
+   blackRock	
+   PlainRoadA
+   JungleRoadA
+   TundraRoadA
+   EgyptianRoadA
+   GreekRoad Burnt
+   GreekRoad BurntB
+   GreekRoadA
+   NorseRoadA
+   CityTileAtlantis
+   CityTileAtlantiscoral
+   CityTileA
+   UnderwaterRockA
+   UnderwaterRockB
+   UnderwaterRockC
+   UnderwaterRockD
+   UnderwaterRockE
+   UnderwaterRockF
+   UnderwaterIceA
+   UnderwaterIceB
+   UnderwaterIceC
+   ShorelineAegeanA
+   ShorelineAegeanB
+   ShorelineAegeanC
+   RiverSandyA
+   RiverSandyB
+   RiverSandyC
+   RiverSandyShallowA
+   coralA
+   coralB
+   coralC
+   coralC2
+   coralD
+   coralE
+   coralF
+   ForestfloorPalm
+   ForestfloorPine
+   ForestfloorPineSnow
+   ForestfloorOak
+   ForestfloorGaia
+   ForestfloorSavannah
+   ForestfloorDeadPine
+   ForestfloorTundra
+   CliffNorseB
+   IceA
+   IceB
+   IceC
+   SnowA
+   SnowB
+   SnowSand75
+   SnowSand50
+   SnowSand25
+   SnowGrass75
+   SnowGrass50
+   SnowGrass25
+   SnowA
+   SnowB
+   OlympusTile
+   OlympusA
+   OlympusB
+   OlympusC
+   CliffEgyptianB
+   SandDirt50
+   DirtA
+   SandA 
+   SandB 
+   SandC 
+   SandD
+   MarshF
+   MarshE
+   MarshD
+   MarshC
+   MarshB
+   MarshA
+   ForestFloorMarsh
+   CliffGreekB
+   RiverGrassyA
+   RiverGrassyB
+   RiverGrassyC
+   SavannahD
+   SavannahC
+   SavannahB
+   SavannahA
+   JungleA
+   JungleB
+   JungleDirt75
+   JungleDirt50
+   JungleDirt25
+   ForestFloorJungle
+   PlainA
+   PlainB
+   PlainDirt75
+   PlainDirt50
+   PlainDirt25
+   PlainDirtA
+   PlainDirtB
+   ForestFloorPlain
+   GrassDirt75
+   GrassDirt50
+   GrassDirt25
+   GrassB
+   GrassA
+   ShorelineMediterraneanA
+   ShorelineMediterraneanD
+   ShorelineMediterraneanC
+   ShorelineMediterraneanB
+   Dam
+   MiningGround
+   CliffGreekA
+   CliffEgyptianA
+   CliffNorseA
+   ShorelineNorwegianC
+   ShorelineNorwegianA
+   ShorelineNorwegianB
+   ShorelineSandA
+   ShorelineRedSeaC
+   ShorelineRedSeaB
+   ShorelineRedSeaA 
+   ShorelineAtlanticA
+   ShorelineAtlanticB
+   ShorelineAtlanticC
+   RiverIcyC
+   RiverIcyB
+   RiverIcyA
+   RiverMarshC
+   RiverMarshB
+   RiverMarshA
+   ShorelineTundraD
+   ShorelineTundraC
+   ShorelineTundraB
+   ShorelineTundraA
+   water
+   SandDirt50B
+   TundraGrassA
+   TundraRockA
+   TundraRockB
+   TundraGrassB
+   HadesCliff
+   Hades9 
+   Hades8
+   Hades7
+   Hades6
+   Hades5
+   Hades4
+   Hades3
+   Hades2
+   Hades1
+   Hadesbuildable2
+   Hadesbuildable1
+   GaiaCreepBorder
+   GaiaCreepBorderSnow
+   GaiaCreepBorderSand
+   GaiaCreepB
+   GaiaCreepA
+   GaiaCreepASnow
+   GaiaCreepASand
+   CityTileWaterPool
+   CityTileWaterEdgeA
+   CityTileWaterEdgeB
+   CityTileWaterEdgeEndA
+   CityTileWaterEdgeEndB
+   CityTileWaterEdgeEndC
+   CityTileWaterEdgeEndD
+   CityTileWaterCornerA
+   CityTileWaterCornerB
+   CityTileWaterCornerC
+   CityTileWaterCornerD 
+   CoralZ
+   GreekTileA
+   RockyZ
+   SandZ
+   SandZY
+   ZeusTile
+   GreekTileB
+   WaterZ
+   Aomterrain1
+   WhiteBeach0
+   WhiteBeach
+   WhiteBeachII
+   WhiteBeachIII
+   WhiteBeachIV
+   WhiteBeachV
+   NewEnglandCliff
+   NewEnglandCliffa
+   SnowRockies
+   Saguenay
+   SaguenayII
+   SaguenayIII
+   Amazon1
+   AztecFloor
+   AztecFloorB
+   AztecFloorCenter
+   Astro Tile
+   Astro TileB
+   waterterra
+
+//=============================================================================
+// This section defines what blend sets to use when blending together two
+// different terrain types.  Anything not set explicitly will use the very
+// first set defined in first section of this file.
+//
+// Format: Blend <topName> over <bottomName> using <blendSetName>
+//
+// You can use * for <bottomName> to set the default for a given type.  Anything
+// set explicitly will override this default.
+//
+// You can replace <topName> with <topTypeName>* to specify all subtypes of
+// a given type.
+// 
+// You can replace <bottomName> with <bottomTypeName>* to specify all subtypes of
+// a given type.
+//
+// When using wildcards (*), make sure to list the most general things first 
+// followed by the more specific because otherwise the specifics will be overwritten.
+// For example, use this type of ordering:
+//       blend snow* over * using DefaultSnow
+//       blend snow* over sand* using SnowOverSand
+//       blend snow4 over grass* using Snow4OverGrass
+//       blend snow4 over grass7 using Snow4OverGrass7
+//
+// Note that it is valid to specify how to blend a lower level type over a 
+// higher level one, but it will obviously never be used inside the game.
+//=============================================================================
+
+blend Shoreline* over Shoreline* using shoreline
+blend Underwater* over Underwater* using shoreline
+blend Underwater* over PassableLand* using shoreline
+blend NonPassableLand* over Passableland* using shoreline
+blend NonPassableLand* over NonPassableland* using shoreline
+blend CityTileWaterEdgeA over * using NoBlend
+blend CityTileWaterEdgeB over * using NoBlend
+blend CityTileWaterCornerA over * using NoBlend
+blend CityTileWaterCornerB over * using NoBlend
+blend CityTileWaterCornerC over * using NoBlend
+blend CityTileWaterCornerD over * using NoBlend
+blend CityTileWaterPool over * using NoBlend
+blend CityTileWaterEdgeEndA over * using NoBlend
+blend CityTileWaterEdgeEndB over * using NoBlend
+blend CityTileWaterEdgeEndC over * using NoBlend
+blend CityTileWaterEdgeEndD over * using NoBlend
+blend GaiaCreepA over GaiaCreep* using newdefault
+blend GaiaCreepA over * using GaiaCreep
+blend GaiaCreepB over GaiaCreep* using newdefault
+blend GaiaCreepB over * using GaiaCreep
+blend GaiaCreepBorder over GaiaCreep* using newdefault
+blend GaiaCreepBorder over * using GaiaCreep
+blend GaiaCreepBorderSnow over GaiaCreep* using newdefault
+blend GaiaCreepBorderSnow over * using GaiaCreep
+blend GaiaCreepBorderSand over GaiaCreep* using newdefault
+blend GaiaCreepBorderSand over * using GaiaCreep
+blend GaiaCreepASnow over GaiaCreep* using newdefault
+blend GaiaCreepASnow over * using GaiaCreep
+blend GaiaCreepASand over GaiaCreep* using newdefault
+blend GaiaCreepASand over * using GaiaCreep
+
+
+
+
+
+
+
+
+

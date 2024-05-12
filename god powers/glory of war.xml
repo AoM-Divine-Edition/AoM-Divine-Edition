@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<power name="GloryOfWar" type="flamingweapons" techname="Glory of War">
+	<placement>skip</placement>
+	<activetime>5</activetime>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">ExaminationBirth</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<powerplayerrelation>player</powerplayerrelation>
+	<tech>Glory of War Active</tech>
+	<particlesfxnode>
+		<unittype>HumanSoldier</unittype>
+		<sfx>Heavenlight</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Hero</unittype>
+		<sfx>Heavenlight</sfx>
+	</particlesfxnode>
+	<icon>improvement glory of war icon</icon>
+	<usedicon>improvement glory of war used icon</usedicon>
+	<recharges>3</recharges>
+	<rechargetime>45 </rechargetime>
+</power>

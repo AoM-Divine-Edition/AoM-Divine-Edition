@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="PillarOfFire" type="TempUnit" techname="Pillar of Fire">
+	<activetime>-1</activetime>
+	<placement forceonmap="1" losprotounit="Pillar of Fire">all</placement>
+	<createunit quantity="1" radius="5.0" delay="0.0" norotate="">Pillar of Fire</createunit>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<icon>god power nidhogg icon</icon>
+	<usedicon>god power nidhogg icon done</usedicon>
+
+	<recharges>0</recharges>
+	<rechargetime>45 </rechargetime>
+</power>
+

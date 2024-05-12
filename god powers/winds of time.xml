@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="WindsOfTime" type="swapunit" techname="Winds of Time">
+	<activetime>0.6</activetime>
+	<radius>20.0</radius>
+	<rangeindicatorprotoid radius="18.0" indicatorcount="8" speed="0.2">UI Range Indicator Greek SFX</rangeindicatorprotoid>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">Curse</soundset>
+	<placement forceonmap="1">full</placement>
+	<convertusingminmax minswapamount="5" maxswapamount="12"></convertusingminmax>
+	<powerplayerrelation>enemy</powerplayerrelation>
+	<gpdamagemodel>
+		<playerrelation>enemy</playerrelation>
+		<basedamagepercentunit>0.4</basedamagepercentunit>
+		<basedamagepercentvillager>0.25</basedamagepercentvillager>
+		<basedamagepercentbuilding>0.0</basedamagepercentbuilding>
+		<minhpdamageunit>450</minhpdamageunit>
+		<minhpdamagevillager>250</minhpdamagevillager>
+		<minhpdamagebuilding>0</minhpdamagebuilding>
+		<maxhpdamageunit>975</maxhpdamageunit>
+		<maxhpdamagevillager>500</maxhpdamagevillager>
+		<maxhpdamagebuilding>0</maxhpdamagebuilding>
+	</gpdamagemodel>
+	<abstracttype swapto="Old Man">HumanSoldier</abstracttype>
+	<abstracttype swapto="Old Man">AbstractVillager</abstracttype>
+	<illegalabstracttype>Hero</illegalabstracttype>
+	<swapdelay>0.5</swapdelay>
+	<sfx>Curse SFX</sfx>
+	<swapenemyonly></swapenemyonly>
+	<icon>improvement Winds of Time icon</icon>
+	<usedicon>improvement Winds of Time used icon</usedicon>
+</power>

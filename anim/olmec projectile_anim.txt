@@ -1,0 +1,68 @@
+
+
+
+//==============================================================================
+define pire
+{
+   set hotspot
+  {
+      version
+      {
+         Visualparticle SFX E Pharoah Projectile
+      }
+   }
+}
+
+
+//==============================================================================
+define spark
+{
+   set hotspot
+  {
+      version
+      {
+         Visualparticle sfx a cursed ball
+      }
+   }
+}
+
+//==============================================================================
+anim Idle
+{
+   SetSelector
+   {
+		Targetlogic none/mythunit
+	  	set hotspot
+      {
+         version
+         {
+				Visual olmec projectile a
+				connect RIGHTHAND Bolt hotspot
+				connect RIGHTHAND pire hotspot
+				connect RIGHTHAND spark hotspot
+				connect RIGHTHAND fire hotspot
+				
+				connect LEFTHAND Bolt hotspot
+				connect LEFTHAND pire hotspot
+				connect LEFTHAND spark hotspot
+				connect LEFTHAND fire hotspot
+         }
+      }
+	  	set hotspot
+      {
+         version
+         {
+				Visual olmec projectile a
+				connect RIGHTHAND Bolt hotspot
+				connect RIGHTHAND pire hotspot
+				connect RIGHTHAND spark hotspot
+				connect RIGHTHAND fire hotspot
+				connect LEFTHAND Bolt hotspot
+				connect LEFTHAND pire hotspot
+				connect LEFTHAND spark hotspot
+				connect LEFTHAND fire hotspot
+         }
+      }
+   }
+}
+

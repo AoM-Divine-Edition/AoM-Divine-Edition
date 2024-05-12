@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<protounitsounddef>
+	<protounit name="Tathanka Gnaskiyan Insane">
+		<soundtype name="Select">
+			<soundset name="BattleBoarSelect"></soundset>
+		</soundtype>
+		<soundtype name="Attack">
+			<soundset name="placeholder"></soundset>
+		</soundtype>
+		<soundtype name="Grunt">
+			<soundset name="BattleBoarGrunt"></soundset>
+		</soundtype>
+		<soundtype name="Hit">
+			<damagetypelogic>
+				<choice name="Hack">
+					<soundset name="HackMetal"></soundset>
+				</choice>
+				<choice name="Slash">
+					<soundset name="HackMetal"></soundset>
+				</choice>
+				<choice name="Pierce">
+					<soundset name="PierceMetal"></soundset>
+				</choice>
+				<choice name="Crush">
+					<soundset name="CrushMetal"></soundset>
+				</choice>
+			</damagetypelogic>
+		</soundtype>
+		<soundtype name="Death">
+			<soundset name="placeholder"></soundset>
+		</soundtype>
+		<soundtype name="Creation">
+			<soundset name="MythUnitBirth"></soundset>
+		</soundtype>
+		<soundtype name="Move">
+			<soundset name="placeholder"></soundset>
+		</soundtype>
+		<soundtype name="Acknowledge">
+			<soundset name="BattleBoarAcknowledge"></soundset>
+		</soundtype>
+	</protounit>
+</protounitsounddef>

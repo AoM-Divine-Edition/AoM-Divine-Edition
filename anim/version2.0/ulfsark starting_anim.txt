@@ -1,0 +1,2485 @@
+//==============================================================================
+// Ulfsark_Anim.txt
+//==============================================================================
+
+import Norse_2_Hand_Axe_anim.txt
+import Large_Norse_Shield_anim.txt
+
+//==============================================================================
+define Head
+{
+	SetSelector
+	{
+		TechLogic none/Medium Infantry/Heavy Infantry/Champion Infantry
+		set hotspot
+		{
+			version
+			{
+				Visual Infantry N Ulfsark Head Standard
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Infantry N Ulfsark Head Bronze
+				ReplaceTexture Infantry N Ulfsark Head Bronze/Infantry N Ulfsark Head Black
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Infantry N Ulfsark Head Bronze
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Infantry N Ulfsark Head Bronze
+				ReplaceTexture Infantry N Ulfsark Head Bronze/Infantry N Ulfsark Head Polar
+			}
+		}
+	}
+}
+
+//==============================================================================
+define hammer
+{
+	TechLogic none/Hammer of the Gods
+	set hotspot
+	{
+		version
+		{
+			Visual Tool Hammer
+		}
+	}
+	set hotspot
+	{
+		version
+		{
+			Visual Tool N Hammer of the Gods
+		}
+	}
+}
+
+//==============================================================================
+anim Idle
+{
+	SetSelector
+	{
+		CinematicLogic
+		SetSelector
+		{
+			TechLogic none/Medium Infantry/Heavy Infantry/Champion Infantry
+			SetSelector
+			{
+				TechLogic none/Copper Mail/Bronze Mail/Iron Mail/Mithril Breastplate
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_idleA
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_idleA
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Copper
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_idleA
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Bronze
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_idleA
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Iron
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_idleA
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Mithril
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+			}
+			SetSelector
+			{
+				TechLogic none/Copper Mail/Bronze Mail/Iron Mail/Mithril Breastplate
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_idleA
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Black
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_idleA
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Copper
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Black
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_idleA
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Bronze
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Black
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_idleA
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Iron
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Black
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_idleA
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Mithril
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Black
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+			}
+			SetSelector
+			{
+				TechLogic none/Copper Mail/Bronze Mail/Iron Mail/Mithril Breastplate
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_idleA
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Bronze
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_idleA
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Copper
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Bronze
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_idleA
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Bronze
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Bronze
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_idleA
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Iron
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Bronze
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_idleA
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Mithril
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Bronze
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+			}
+			SetSelector
+			{
+				TechLogic none/Copper Mail/Bronze Mail/Iron Mail/Mithril Breastplate
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_idleA
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Polar
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_idleA
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Copper
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Polar
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_idleA
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Bronze
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Polar
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_idleA
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Iron
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Polar
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_idleA
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Mithril
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Polar
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					VisualGranny Ulfsark_idleA
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Build
+{
+	SetSelector
+	{
+		TechLogic none/Medium Infantry/Heavy Infantry/Champion Infantry
+		SetSelector
+		{
+			TechLogic none/Copper Mail/Bronze Mail/Iron Mail/Mithril Breastplate
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_BuildA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.74 false Build checkVisible 
+//-- end auto generated section
+					connect RightHand Hammer hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_BuildA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.74 false Build checkVisible 
+//-- end auto generated section
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Copper
+					connect RightHand Hammer hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_BuildA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.74 false Build checkVisible 
+//-- end auto generated section
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Bronze
+					connect RightHand Hammer hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_BuildA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.74 false Build checkVisible 
+//-- end auto generated section
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Iron
+					connect RightHand Hammer hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_BuildA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.74 false Build checkVisible 
+//-- end auto generated section
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Mithril
+					connect RightHand Hammer hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Copper Mail/Bronze Mail/Iron Mail/Mithril Breastplate
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_BuildA
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Black
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.74 false Build checkVisible 
+//-- end auto generated section
+					connect RightHand Hammer hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_BuildA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.74 false Build checkVisible 
+//-- end auto generated section
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Copper
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Black
+					connect RightHand Hammer hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_BuildA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.74 false Build checkVisible 
+//-- end auto generated section
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Bronze
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Black
+					connect RightHand Hammer hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_BuildA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.74 false Build checkVisible 
+//-- end auto generated section
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Iron
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Black
+					connect RightHand Hammer hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_BuildA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.74 false Build checkVisible 
+//-- end auto generated section
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Mithril
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Black
+					connect RightHand Hammer hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Copper Mail/Bronze Mail/Iron Mail/Mithril Breastplate
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_BuildA
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Bronze
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.74 false Build checkVisible 
+//-- end auto generated section
+					connect RightHand Hammer hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_BuildA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.74 false Build checkVisible 
+//-- end auto generated section
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Copper
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Bronze
+					connect RightHand Hammer hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_BuildA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.74 false Build checkVisible 
+//-- end auto generated section
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Bronze
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Bronze
+					connect RightHand Hammer hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_BuildA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.74 false Build checkVisible 
+//-- end auto generated section
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Iron
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Bronze
+					connect RightHand Hammer hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_BuildA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.74 false Build checkVisible 
+//-- end auto generated section
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Mithril
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Bronze
+					connect RightHand Hammer hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Copper Mail/Bronze Mail/Iron Mail/Mithril Breastplate
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_BuildA
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Polar
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.74 false Build checkVisible 
+//-- end auto generated section
+					connect RightHand Hammer hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_BuildA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.74 false Build checkVisible 
+//-- end auto generated section
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Copper
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Polar
+					connect RightHand Hammer hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_BuildA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.74 false Build checkVisible 
+//-- end auto generated section
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Bronze
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Polar
+					connect RightHand Hammer hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_BuildA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.74 false Build checkVisible 
+//-- end auto generated section
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Iron
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Polar
+					connect RightHand Hammer hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_BuildA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.74 false Build checkVisible 
+//-- end auto generated section
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Mithril
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Polar
+					connect RightHand Hammer hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Walk
+{
+	SetSelector
+	{
+		CinematicLogic
+		SetSelector
+		{
+			TechLogic none/Medium Infantry/Heavy Infantry/Champion Infantry
+			SetSelector
+			{
+				TechLogic none/Copper Mail/Bronze Mail/Iron Mail/Mithril Breastplate
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_WalkA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.60 true	
+						tag FootstepRight 0.20 true	
+//-- end auto generated section
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+					version
+					{
+						Visual Infantry N Ulfsark_WalkB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.60 true	
+						tag FootstepRight 0.20 true	
+//-- end auto generated section
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_WalkA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.60 true	
+						tag FootstepRight 0.20 true	
+//-- end auto generated section
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Copper
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+					version
+					{
+						Visual Infantry N Ulfsark_WalkB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.60 true	
+						tag FootstepRight 0.20 true	
+//-- end auto generated section
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Copper
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_WalkA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.60 true	
+						tag FootstepRight 0.20 true	
+//-- end auto generated section
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Bronze
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+					version
+					{
+						Visual Infantry N Ulfsark_WalkB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.60 true	
+						tag FootstepRight 0.20 true	
+//-- end auto generated section
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Bronze
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_WalkA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.60 true	
+						tag FootstepRight 0.20 true	
+//-- end auto generated section
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Iron
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+					version
+					{
+						Visual Infantry N Ulfsark_WalkB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.60 true	
+						tag FootstepRight 0.20 true	
+//-- end auto generated section
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Iron
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_WalkA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.60 true	
+						tag FootstepRight 0.20 true	
+//-- end auto generated section
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Mithril
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+					version
+					{
+						Visual Infantry N Ulfsark_WalkB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.60 true	
+						tag FootstepRight 0.20 true	
+//-- end auto generated section
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Mithril
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+			}
+			SetSelector
+			{
+				TechLogic none/Copper Mail/Bronze Mail/Iron Mail/Mithril Breastplate
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_WalkA
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Black
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.60 true	
+						tag FootstepRight 0.20 true	
+//-- end auto generated section
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+					version
+					{
+						Visual Infantry N Ulfsark_WalkB
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Black
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.60 true	
+						tag FootstepRight 0.20 true	
+//-- end auto generated section
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_WalkA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.60 true	
+						tag FootstepRight 0.20 true	
+//-- end auto generated section
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Copper
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Black
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+					version
+					{
+						Visual Infantry N Ulfsark_WalkB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.60 true	
+						tag FootstepRight 0.20 true	
+//-- end auto generated section
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Copper
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Black
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_WalkA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.60 true	
+						tag FootstepRight 0.20 true	
+//-- end auto generated section
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Bronze
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Black
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+					version
+					{
+						Visual Infantry N Ulfsark_WalkB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.60 true	
+						tag FootstepRight 0.20 true	
+//-- end auto generated section
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Bronze
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Black
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_WalkA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.60 true	
+						tag FootstepRight 0.20 true	
+//-- end auto generated section
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Iron
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Black
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+					version
+					{
+						Visual Infantry N Ulfsark_WalkB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.60 true	
+						tag FootstepRight 0.20 true	
+//-- end auto generated section
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Iron
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Black
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_WalkA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.60 true	
+						tag FootstepRight 0.20 true	
+//-- end auto generated section
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Mithril
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Black
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+					version
+					{
+						Visual Infantry N Ulfsark_WalkB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.60 true	
+						tag FootstepRight 0.20 true	
+//-- end auto generated section
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Mithril
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Black
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+			}
+			SetSelector
+			{
+				TechLogic none/Copper Mail/Bronze Mail/Iron Mail/Mithril Breastplate
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_WalkA
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Bronze
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.60 true	
+						tag FootstepRight 0.20 true	
+//-- end auto generated section
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+					version
+					{
+						Visual Infantry N Ulfsark_WalkB
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Bronze
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.60 true	
+						tag FootstepRight 0.20 true	
+//-- end auto generated section
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_WalkA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.60 true	
+						tag FootstepRight 0.20 true	
+//-- end auto generated section
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Copper
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Bronze
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+					version
+					{
+						Visual Infantry N Ulfsark_WalkB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.60 true	
+						tag FootstepRight 0.20 true	
+//-- end auto generated section
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Copper
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Bronze
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_WalkA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.60 true	
+						tag FootstepRight 0.20 true	
+//-- end auto generated section
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Bronze
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Bronze
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+					version
+					{
+						Visual Infantry N Ulfsark_WalkB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.60 true	
+						tag FootstepRight 0.20 true	
+//-- end auto generated section
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Bronze
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Bronze
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_WalkA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.60 true	
+						tag FootstepRight 0.20 true	
+//-- end auto generated section
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Iron
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Bronze
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+					version
+					{
+						Visual Infantry N Ulfsark_WalkB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.60 true	
+						tag FootstepRight 0.20 true	
+//-- end auto generated section
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Iron
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Bronze
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_WalkA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.60 true	
+						tag FootstepRight 0.20 true	
+//-- end auto generated section
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Mithril
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Bronze
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+					version
+					{
+						Visual Infantry N Ulfsark_WalkB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.60 true	
+						tag FootstepRight 0.20 true	
+//-- end auto generated section
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Mithril
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Bronze
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+			}
+			SetSelector
+			{
+				TechLogic none/Copper Mail/Bronze Mail/Iron Mail/Mithril Breastplate
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_WalkA
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Polar
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.60 true	
+						tag FootstepRight 0.20 true	
+//-- end auto generated section
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+					version
+					{
+						Visual Infantry N Ulfsark_WalkB
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Polar
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.60 true	
+						tag FootstepRight 0.20 true	
+//-- end auto generated section
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_WalkA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.60 true	
+						tag FootstepRight 0.20 true	
+//-- end auto generated section
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Copper
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Polar
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+					version
+					{
+						Visual Infantry N Ulfsark_WalkB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.60 true	
+						tag FootstepRight 0.20 true	
+//-- end auto generated section
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Copper
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Polar
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_WalkA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.60 true	
+						tag FootstepRight 0.20 true	
+//-- end auto generated section
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Bronze
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Polar
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+					version
+					{
+						Visual Infantry N Ulfsark_WalkB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.60 true	
+						tag FootstepRight 0.20 true	
+//-- end auto generated section
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Bronze
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Polar
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_WalkA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.60 true	
+						tag FootstepRight 0.20 true	
+//-- end auto generated section
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Iron
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Polar
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+					version
+					{
+						Visual Infantry N Ulfsark_WalkB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.60 true	
+						tag FootstepRight 0.20 true	
+//-- end auto generated section
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Iron
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Polar
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_WalkA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.60 true	
+						tag FootstepRight 0.20 true	
+//-- end auto generated section
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Mithril
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Polar
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+					version
+					{
+						Visual Infantry N Ulfsark_WalkB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag FootstepLeft 0.60 true	
+						tag FootstepRight 0.20 true	
+//-- end auto generated section
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Mithril
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Polar
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					VisualGranny Ulfsark_walkA
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Attack
+{
+	SetSelector
+	{
+		TechLogic none/Medium Infantry/Heavy Infantry/Champion Infantry
+		SetSelector
+		{
+			TechLogic none/Copper Mail/Bronze Mail/Iron Mail/Mithril Breastplate
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag Attack 0.56 true	
+						tag GenericSound 0.40 true	
+						tag SpecificSoundSet 0.45 false SwordSwing checkVisible 
+//-- end auto generated section
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag Attack 0.56 true	
+						tag GenericSound 0.40 true	
+						tag SpecificSoundSet 0.45 false SwordSwing checkVisible 
+//-- end auto generated section
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Copper
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag Attack 0.56 true	
+						tag GenericSound 0.40 true	
+						tag SpecificSoundSet 0.45 false SwordSwing checkVisible 
+//-- end auto generated section
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Bronze
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag Attack 0.56 true	
+						tag GenericSound 0.40 true	
+						tag SpecificSoundSet 0.45 false SwordSwing checkVisible 
+//-- end auto generated section
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Iron
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag Attack 0.56 true	
+						tag GenericSound 0.40 true	
+						tag SpecificSoundSet 0.45 false SwordSwing checkVisible 
+//-- end auto generated section
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Mithril
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Copper Mail/Bronze Mail/Iron Mail/Mithril Breastplate
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_AttackA
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Black
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag Attack 0.56 true	
+						tag GenericSound 0.40 true	
+						tag SpecificSoundSet 0.45 false SwordSwing checkVisible 
+//-- end auto generated section
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag Attack 0.56 true	
+						tag GenericSound 0.40 true	
+						tag SpecificSoundSet 0.45 false SwordSwing checkVisible 
+//-- end auto generated section
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Copper
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Black
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag Attack 0.56 true	
+						tag GenericSound 0.40 true	
+						tag SpecificSoundSet 0.45 false SwordSwing checkVisible 
+//-- end auto generated section
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Bronze
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Black
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag Attack 0.56 true	
+						tag GenericSound 0.40 true	
+						tag SpecificSoundSet 0.45 false SwordSwing checkVisible 
+//-- end auto generated section
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Iron
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Black
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag Attack 0.56 true	
+						tag GenericSound 0.40 true	
+						tag SpecificSoundSet 0.45 false SwordSwing checkVisible 
+//-- end auto generated section
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Mithril
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Black
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Copper Mail/Bronze Mail/Iron Mail/Mithril Breastplate
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_AttackA
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Bronze
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag Attack 0.56 true	
+						tag GenericSound 0.40 true	
+						tag SpecificSoundSet 0.45 false SwordSwing checkVisible 
+//-- end auto generated section
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag Attack 0.56 true	
+						tag GenericSound 0.40 true	
+						tag SpecificSoundSet 0.45 false SwordSwing checkVisible 
+//-- end auto generated section
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Copper
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Bronze
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag Attack 0.56 true	
+						tag GenericSound 0.40 true	
+						tag SpecificSoundSet 0.45 false SwordSwing checkVisible 
+//-- end auto generated section
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Bronze
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Bronze
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag Attack 0.56 true	
+						tag GenericSound 0.40 true	
+						tag SpecificSoundSet 0.45 false SwordSwing checkVisible 
+//-- end auto generated section
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Iron
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Bronze
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag Attack 0.56 true	
+						tag GenericSound 0.40 true	
+						tag SpecificSoundSet 0.45 false SwordSwing checkVisible 
+//-- end auto generated section
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Mithril
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Bronze
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Copper Mail/Bronze Mail/Iron Mail/Mithril Breastplate
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_AttackA
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Polar
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag Attack 0.56 true	
+						tag GenericSound 0.40 true	
+						tag SpecificSoundSet 0.45 false SwordSwing checkVisible 
+//-- end auto generated section
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag Attack 0.56 true	
+						tag GenericSound 0.40 true	
+						tag SpecificSoundSet 0.45 false SwordSwing checkVisible 
+//-- end auto generated section
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Copper
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Polar
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag Attack 0.56 true	
+						tag GenericSound 0.40 true	
+						tag SpecificSoundSet 0.45 false SwordSwing checkVisible 
+//-- end auto generated section
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Bronze
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Polar
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag Attack 0.56 true	
+						tag GenericSound 0.40 true	
+						tag SpecificSoundSet 0.45 false SwordSwing checkVisible 
+//-- end auto generated section
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Iron
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Polar
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+						tag Attack 0.56 true	
+						tag GenericSound 0.40 true	
+						tag SpecificSoundSet 0.45 false SwordSwing checkVisible 
+//-- end auto generated section
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Mithril
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Polar
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Death
+{
+	SetSelector
+	{
+		TechLogic none/Medium Infantry/Heavy Infantry/Champion Infantry
+		SetSelector
+		{
+			TechLogic none/Copper Mail/Bronze Mail/Iron Mail/Mithril Breastplate
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_DeathA
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_DeathA
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Copper
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_DeathA
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Bronze
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_DeathA
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Iron
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_DeathA
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Mithril
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Copper Mail/Bronze Mail/Iron Mail/Mithril Breastplate
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_DeathA
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Black
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_DeathA
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Copper
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Black
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_DeathA
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Bronze
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Black
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_DeathA
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Iron
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Black
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_DeathA
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Mithril
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Black
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Copper Mail/Bronze Mail/Iron Mail/Mithril Breastplate
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_DeathA
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Bronze
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_DeathA
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Copper
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Bronze
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_DeathA
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Bronze
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Bronze
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_DeathA
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Iron
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Bronze
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_DeathA
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Mithril
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Bronze
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Copper Mail/Bronze Mail/Iron Mail/Mithril Breastplate
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_DeathA
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Polar
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_DeathA
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Copper
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Polar
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_DeathA
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Bronze
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Polar
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_DeathA
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Iron
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Polar
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_DeathA
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Mithril
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Polar
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Bored
+{
+	SetSelector
+	{
+		CinematicLogic
+		SetSelector
+		{
+			TechLogic none/Medium Infantry/Heavy Infantry/Champion Infantry
+			SetSelector
+			{
+				TechLogic none/Copper Mail/Bronze Mail/Iron Mail/Mithril Breastplate
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_BoredA
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_BoredA
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Copper
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_BoredA
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Bronze
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_BoredA
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Iron
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_BoredA
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Mithril
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+			}
+			SetSelector
+			{
+				TechLogic none/Copper Mail/Bronze Mail/Iron Mail/Mithril Breastplate
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_BoredA
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Black
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_BoredA
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Copper
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Black
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_BoredA
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Bronze
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Black
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_BoredA
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Iron
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Black
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_BoredA
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Mithril
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Black
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+			}
+			SetSelector
+			{
+				TechLogic none/Copper Mail/Bronze Mail/Iron Mail/Mithril Breastplate
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_BoredA
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Bronze
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_BoredA
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Copper
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Bronze
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_BoredA
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Bronze
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Bronze
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_BoredA
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Iron
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Bronze
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_BoredA
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Mithril
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Bronze
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+			}
+			SetSelector
+			{
+				TechLogic none/Copper Mail/Bronze Mail/Iron Mail/Mithril Breastplate
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_BoredA
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Polar
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_BoredA
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Copper
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Polar
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_BoredA
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Bronze
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Polar
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_BoredA
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Iron
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Polar
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Ulfsark_BoredA
+						ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Mithril
+						ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Polar
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						Connect TopOfHead Head hotspot
+					}
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					VisualGranny Ulfsark_idleA
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Flail
+{
+	SetSelector
+	{
+		TechLogic none/Medium Infantry/Heavy Infantry/Champion Infantry
+		SetSelector
+		{
+			TechLogic none/Copper Mail/Bronze Mail/Iron Mail/Mithril Breastplate
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_FlailA
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_FlailA
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Copper
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_FlailA
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Bronze
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_FlailA
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Iron
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_FlailA
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Mithril
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Copper Mail/Bronze Mail/Iron Mail/Mithril Breastplate
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_FlailA
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Black
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_FlailA
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Copper
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Black
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_FlailA
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Bronze
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Black
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_FlailA
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Iron
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Black
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_FlailA
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Mithril
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Black
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Copper Mail/Bronze Mail/Iron Mail/Mithril Breastplate
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_FlailA
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Bronze
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_FlailA
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Copper
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Bronze
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_FlailA
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Bronze
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Bronze
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_FlailA
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Iron
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Bronze
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_FlailA
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Mithril
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Bronze
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Copper Mail/Bronze Mail/Iron Mail/Mithril Breastplate
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_FlailA
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Polar
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_FlailA
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Copper
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Polar
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_FlailA
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Bronze
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Polar
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_FlailA
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Iron
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Polar
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Ulfsark_FlailA
+					ReplaceTexture Infantry N Ulfsark Standard/Infantry N Ulfsark Mithril
+					ReplaceTexture Infantry N Ulfsark Head Standard/Infantry N Ulfsark Head Polar
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					Connect TopOfHead Head hotspot
+				}
+			}
+		}
+	}
+}
+//==============================================================================
+anim Cinematic
+{
+	SetSelector
+	{
+		set hotspot
+		{
+			name Ulfsark_aomsp28killmall
+			version
+			{
+				VisualGranny Ulfsark_aomsp28killmall
+			}
+		}
+	}
+}

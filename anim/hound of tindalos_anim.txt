@@ -1,0 +1,309 @@
+//==============================================================================
+// Dead Hound_anim.txt
+// By Cannibalh
+// 
+// BackChest / Backs - Fire / Mouth - FrontChest / Back Front
+// 0 -0.332 1.99
+//==============================================================================
+                           ____________________________________
+                          *                                    *
+                          *      Created by Cannibalh          *
+                          *____________________________________*
+
+
+//==============================================================================
+define setGlow
+{
+   SetSelector
+   {
+		civilizationLogic none/set
+		set hotspot
+		{
+			version
+			{
+			  Visualnone jimmy
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+			  Visualparticle SFX E Set Gaia animal
+			}
+		}		    
+   }
+}
+
+
+
+
+//==============================================================================
+define birthSFX
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle Eldritch_MythBirthEffect
+
+      }
+   }
+}
+
+//==============================================================================
+define flaira
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle sfx a vortex light bands finish
+      }
+   }
+}
+
+
+//==============================================================================
+define flairb
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle sfx a vortex light bands start
+      }
+   }
+}
+
+//==============================================================================
+define LargeRootGlow
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle Scenario LargeRoot Glow
+      }
+   }
+}
+
+//==============================================================================
+define LargeRootGlowB
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle Scenario LargeRoot GlowB
+      }
+   }
+}
+
+//==============================================================================
+define LargeRootGlowC
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle Scenario LargeRoot GlowC
+      }
+   }
+}
+
+
+
+//==============================================================================
+anim Flail
+{
+   SetSelector 
+   {
+      set hotspot
+      {
+         version
+         {
+            VisualGranny HadesScout_Idle
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim Birth
+{
+   SetSelector
+   {
+		set hotspot
+		{
+		  version
+		  {
+				VisualGranny HadesScout_Idle  
+			Connect HOTSPOT flaira hotspot
+			//Connect HITPOINTBAR flairb hotspot
+			Connect LEFTEAR LargeRootGlow hotspot
+				Connect LEFTFOOT LargeRootGlowB hotspot
+				Connect LEFTHAND LargeRootGlowC hotspot
+				connect HOTSPOT setGlow hotspot
+
+Connect ATTACHPOINT birthSFX hotspot
+
+		  }
+		}
+   }
+}
+
+//==============================================================================
+anim Idle
+{
+   SetSelector
+	{
+	   set hotspot
+	   {
+	      version
+	      {
+            VisualGranny HadesScout_Idle  
+			Connect HOTSPOT flaira hotspot
+			//Connect HITPOINTBAR flairb hotspot
+			Connect LEFTEAR LargeRootGlow hotspot
+				Connect LEFTFOOT LargeRootGlowB hotspot
+				Connect LEFTHAND LargeRootGlowC hotspot
+	      }
+	   }
+   }
+}
+
+//==============================================================================
+anim TeleportIn
+{
+   SetSelector
+	{
+	   set hotspot
+	   {
+	      version
+	      {
+            Visual None    
+			Connect HOTSPOT flaira hotspot
+			//Connect HITPOINTBAR flairb hotspot
+			Connect LEFTEAR LargeRootGlow hotspot
+				Connect LEFTFOOT LargeRootGlowB hotspot
+				Connect LEFTHAND LargeRootGlowC hotspot
+	      }
+	   }
+   }
+}
+
+//==============================================================================
+anim TeleportOut
+{
+   SetSelector
+	{
+	   set hotspot
+	   {
+	      version
+	      {
+            Visual None   
+			Connect HOTSPOT flaira hotspot
+			//Connect HITPOINTBAR flairb hotspot
+			Connect LEFTEAR LargeRootGlow hotspot
+				Connect LEFTFOOT LargeRootGlowB hotspot
+				Connect LEFTHAND LargeRootGlowC hotspot
+	      }
+	   }
+   }
+}
+
+//==============================================================================
+anim Bored
+{
+ 	SetSelector
+	{
+	   set hotspot
+	   {
+	      version
+	      {
+            VisualGranny HadesScout_Idle  
+			Connect HOTSPOT flaira hotspot
+			//Connect HITPOINTBAR flairb hotspot
+			Connect LEFTEAR LargeRootGlow hotspot
+				Connect LEFTFOOT LargeRootGlowB hotspot
+				Connect LEFTHAND LargeRootGlowC hotspot
+    
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim Attack
+{
+   SetSelector 
+   {
+      set hotspot
+      {
+         version
+         {
+				VisualGranny HadesScout_Attack  
+			Connect HOTSPOT flaira hotspot
+			//Connect HITPOINTBAR flairb hotspot
+			Connect LEFTEAR LargeRootGlow hotspot
+				Connect LEFTFOOT LargeRootGlowB hotspot
+				Connect LEFTHAND LargeRootGlowC hotspot
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+                  tag Attack 0.40 true   
+                  tag GenericSound 0.40 true   
+                  tag SpecificSoundSet 0.40 false SwordSwing checkVisible 
+//-- end auto generated section        
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim death
+{
+   SetSelector 
+   {
+      set hotspot
+      {
+         version
+         {
+				VisualGranny HadesScout_Death  
+			Connect HOTSPOT flaira hotspot
+			//Connect HITPOINTBAR flairb hotspot
+			Connect LEFTEAR LargeRootGlow hotspot
+				Connect LEFTFOOT LargeRootGlowB hotspot
+				Connect LEFTHAND LargeRootGlowC hotspot
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+               length 0.95
+//-- end auto generated section
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim Walk
+{
+   SetSelector
+   {
+		set hotspot
+		{
+		  version
+		  {
+				VisualGranny HadesScout_Run  
+			Connect HOTSPOT flaira hotspot
+			//Connect HITPOINTBAR flairb hotspot
+			Connect LEFTEAR LargeRootGlow hotspot
+				Connect LEFTFOOT LargeRootGlowB hotspot
+				Connect LEFTHAND LargeRootGlowC hotspot
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+                  tag SpecificSoundSet 0.22 false Bonesteps checkVisible
+                  tag SpecificSoundSet 0.36 false Bonesteps checkVisible 				  
+//-- end auto generated section
+		  }
+		}
+	}
+}

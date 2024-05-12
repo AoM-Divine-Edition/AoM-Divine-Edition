@@ -1,0 +1,581 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "AoM Model Editor/1.2.1.0": {
+        "dependencies": {
+          "AoMEngineLibrary": "11.3.0",
+          "AoMEngineLibrary.Graphics.Converters": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "PropertyTools.Wpf": "3.1.0",
+          "ReactiveUI.Events.WPF": "15.1.1",
+          "ReactiveUI.WPF": "18.4.1",
+          "Serilog.Extensions.Logging": "3.1.0",
+          "Serilog.Sinks.File": "5.0.0",
+          "Splat.Microsoft.Extensions.DependencyInjection": "14.4.1",
+          "Splat.Serilog": "14.4.1"
+        },
+        "runtime": {
+          "AoM Model Editor.dll": {}
+        }
+      },
+      "BCnEncoder.Net/2.0.3": {
+        "dependencies": {
+          "Microsoft.Toolkit.HighPerformance": "7.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/BCnEncoder.dll": {
+            "assemblyVersion": "2.0.3.0",
+            "fileVersion": "2.0.3.0"
+          }
+        }
+      },
+      "BCnEncoder.Net.ImageSharp/1.0.4": {
+        "dependencies": {
+          "BCnEncoder.Net": "2.0.3",
+          "SixLabors.ImageSharp": "1.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.1/BCnEncoder.NET.ImageSharp.dll": {
+            "assemblyVersion": "1.0.4.0",
+            "fileVersion": "1.0.4.0"
+          }
+        }
+      },
+      "CommunityToolkit.HighPerformance/8.0.0": {
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.HighPerformance.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.1"
+          }
+        }
+      },
+      "DynamicData/7.12.8": {
+        "dependencies": {
+          "System.Reactive": "5.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/DynamicData.dll": {
+            "assemblyVersion": "7.12.0.0",
+            "fileVersion": "7.12.8.22963"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging/2.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Options": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.17205"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/2.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.17205"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/2.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.17205"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/2.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.17205"
+          }
+        }
+      },
+      "Microsoft.Toolkit.HighPerformance/7.0.0": {
+        "runtime": {
+          "lib/net5.0/Microsoft.Toolkit.HighPerformance.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.1"
+          }
+        }
+      },
+      "Pharmacist.Common/2.0.8": {
+        "dependencies": {
+          "System.Reactive": "5.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/Pharmacist.Common.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.8.15338"
+          }
+        }
+      },
+      "PropertyTools/3.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/PropertyTools.dll": {
+            "assemblyVersion": "3.1.0.0",
+            "fileVersion": "3.1.0.0"
+          }
+        }
+      },
+      "PropertyTools.Wpf/3.1.0": {
+        "dependencies": {
+          "PropertyTools": "3.1.0",
+          "System.ComponentModel.Annotations": "4.6.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/PropertyTools.Wpf.dll": {
+            "assemblyVersion": "3.1.0.0",
+            "fileVersion": "3.1.0.0"
+          }
+        }
+      },
+      "ReactiveUI/18.4.1": {
+        "dependencies": {
+          "DynamicData": "7.12.8",
+          "Splat": "14.5.1"
+        },
+        "runtime": {
+          "lib/net6.0/ReactiveUI.dll": {
+            "assemblyVersion": "18.4.0.0",
+            "fileVersion": "18.4.1.23244"
+          }
+        }
+      },
+      "ReactiveUI.Events.WPF/15.1.1": {
+        "dependencies": {
+          "Pharmacist.Common": "2.0.8",
+          "System.Reactive": "5.0.0"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/ReactiveUI.Events.WPF.dll": {
+            "assemblyVersion": "15.1.0.0",
+            "fileVersion": "15.1.1.16107"
+          }
+        }
+      },
+      "ReactiveUI.WPF/18.4.1": {
+        "dependencies": {
+          "ReactiveUI": "18.4.1"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/ReactiveUI.Wpf.dll": {
+            "assemblyVersion": "18.4.0.0",
+            "fileVersion": "18.4.1.23244"
+          }
+        }
+      },
+      "Serilog/2.11.0": {
+        "runtime": {
+          "lib/net5.0/Serilog.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.11.0.0"
+          }
+        }
+      },
+      "Serilog.Extensions.Logging/3.1.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "2.0.0",
+          "Serilog": "2.11.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.Extensions.Logging.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "3.1.0.0"
+          }
+        }
+      },
+      "Serilog.Sinks.File/5.0.0": {
+        "dependencies": {
+          "Serilog": "2.11.0"
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.Sinks.File.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      },
+      "SharpGLTF.Core/1.0.0-alpha0027": {
+        "runtime": {
+          "lib/net6.0/SharpGLTF.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SharpGLTF.Toolkit/1.0.0-alpha0027": {
+        "dependencies": {
+          "SharpGLTF.Core": "1.0.0-alpha0027"
+        },
+        "runtime": {
+          "lib/net6.0/SharpGLTF.Toolkit.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SixLabors.ImageSharp/1.0.3": {
+        "runtime": {
+          "lib/netcoreapp3.1/SixLabors.ImageSharp.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.3.0"
+          }
+        }
+      },
+      "Splat/14.5.1": {
+        "runtime": {
+          "lib/net6.0/Splat.dll": {
+            "assemblyVersion": "14.5.0.0",
+            "fileVersion": "14.5.1.49054"
+          }
+        }
+      },
+      "Splat.Microsoft.Extensions.DependencyInjection/14.4.1": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Splat": "14.5.1"
+        },
+        "runtime": {
+          "lib/net6.0/Splat.Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "14.4.0.0",
+            "fileVersion": "14.4.1.53869"
+          }
+        }
+      },
+      "Splat.Serilog/14.4.1": {
+        "dependencies": {
+          "Serilog": "2.11.0",
+          "Splat": "14.5.1",
+          "System.Collections.Immutable": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Splat.Serilog.dll": {
+            "assemblyVersion": "14.4.0.0",
+            "fileVersion": "14.4.1.53869"
+          }
+        }
+      },
+      "System.Collections.Immutable/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        }
+      },
+      "System.ComponentModel.Annotations/4.6.0": {},
+      "System.IO.Packaging/6.0.0": {},
+      "System.Reactive/5.0.0": {
+        "runtime": {
+          "lib/net5.0/System.Reactive.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.1"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
+      "AoMEngineLibrary/11.3.0": {
+        "dependencies": {
+          "System.IO.Packaging": "6.0.0"
+        },
+        "runtime": {
+          "AoMEngineLibrary.dll": {}
+        }
+      },
+      "AoMEngineLibrary.Graphics.Converters/1.0.0": {
+        "dependencies": {
+          "AoMEngineLibrary": "11.3.0",
+          "BCnEncoder.Net.ImageSharp": "1.0.4",
+          "CommunityToolkit.HighPerformance": "8.0.0",
+          "SharpGLTF.Toolkit": "1.0.0-alpha0027"
+        },
+        "runtime": {
+          "AoMEngineLibrary.Graphics.Converters.dll": {}
+        }
+      },
+      "XmlCommentSerialization/1.0.5549.41667": {
+        "runtime": {
+          "XmlCommentSerialization.dll": {
+            "assemblyVersion": "1.0.5549.41667",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AoM Model Editor/1.2.1.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BCnEncoder.Net/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/Gi8QfpLvsFh2xxE32tsLou/G3/8GHO3Uo27/OuCU4dZDU08Z0UPL9HbkMp7897bGWeH3v8YojgVthid4/D4ow==",
+      "path": "bcnencoder.net/2.0.3",
+      "hashPath": "bcnencoder.net.2.0.3.nupkg.sha512"
+    },
+    "BCnEncoder.Net.ImageSharp/1.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-G50zpJepHsCCr7VVH/Eioh6AdBiVq48kznqye/pfyxXSdRahpzupXCshOfJ+YmtcD8A+WKjK4i8gmWSTY0txZA==",
+      "path": "bcnencoder.net.imagesharp/1.0.4",
+      "hashPath": "bcnencoder.net.imagesharp.1.0.4.nupkg.sha512"
+    },
+    "CommunityToolkit.HighPerformance/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-S5Iv1d5UJZNJLJbe/xzJmLqYJ2mhefbLAvhXCZEh3G4sFadUBuQZhQioE4oJG4enY69QMuJX3AX9+6P9rH1bMw==",
+      "path": "communitytoolkit.highperformance/8.0.0",
+      "hashPath": "communitytoolkit.highperformance.8.0.0.nupkg.sha512"
+    },
+    "DynamicData/7.12.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MIOpDgdFF7GgbuIfu2o70KJxV9dqtTyTMFrdwupdjQ7I0MIkpvbmvdcrsM66T8rCFL0FGye7BmURFYgaDTw7/w==",
+      "path": "dynamicdata/7.12.8",
+      "hashPath": "dynamicdata.7.12.8.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-k6PWQMuoBDGGHOQTtyois2u4AwyVcIwL2LaSLlTZQm2CYcJ1pxbt6jfAnpWmzENA/wfrYRI/X9DTLoUkE4AsLw==",
+      "path": "microsoft.extensions.dependencyinjection/6.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xlzi2IYREJH3/m6+lUrQlujzX8wDitm4QGnUu6kUXTQAWPuZY8i+ticFJbzfqaetLA6KR/rO6Ew/HuYD+bxifg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VP10syWV/vxYYMKgZ2eDESmUsz3gPxvBn5J6tkVN8lI4M+dF43RN8fWsEPbcAneDmZrHl3Pv23z05nmyGkJlpg==",
+      "path": "microsoft.extensions.logging/2.0.0",
+      "hashPath": "microsoft.extensions.logging.2.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6ZCllUYGFukkymSTx3Yr0G/ajRxoNJp7/FqSxSB4fGISST54ifBhgu4Nc0ItGi3i6DqwuNd8SUyObmiC++AO2Q==",
+      "path": "microsoft.extensions.logging.abstractions/2.0.0",
+      "hashPath": "microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sAKBgjl2gWsECBLLR9K54T7/uZaP2n9GhMYHay/oOLfvpvX0+iNAlQ2NJgVE352C9Fs5CDV3VbNTK8T2aNKQFA==",
+      "path": "microsoft.extensions.options/2.0.0",
+      "hashPath": "microsoft.extensions.options.2.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ukg53qNlqTrK38WA30b5qhw0GD7y3jdI9PHHASjdKyTcBHTevFM2o23tyk3pWCgAV27Bbkm+CPQ2zUe1ZOuYSA==",
+      "path": "microsoft.extensions.primitives/2.0.0",
+      "hashPath": "microsoft.extensions.primitives.2.0.0.nupkg.sha512"
+    },
+    "Microsoft.Toolkit.HighPerformance/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Pm74dPVVa7dPOV6AAbfju/r2jd4nNCAZG2Shtzc1udf+BRyL8H8pXItpuUtLRZYdMZ08T2aov+BUWdlL+4vhHw==",
+      "path": "microsoft.toolkit.highperformance/7.0.0",
+      "hashPath": "microsoft.toolkit.highperformance.7.0.0.nupkg.sha512"
+    },
+    "Pharmacist.Common/2.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NNiYvv2oTd18ckJMBt8zatCBPj0KwbzbxMuxgu45m20VtqvkvR6AborbOhkhmJC70iaSv3uLvhTnFExIJGDnQA==",
+      "path": "pharmacist.common/2.0.8",
+      "hashPath": "pharmacist.common.2.0.8.nupkg.sha512"
+    },
+    "PropertyTools/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NAbA0+9rXe3L372/A4QOuCt0UCw9iPKI4Hkeu8PycC9TSJmEpsAgRb/qdXaPLkE+Z3zT3n1lPIGL7Oi+WBltqg==",
+      "path": "propertytools/3.1.0",
+      "hashPath": "propertytools.3.1.0.nupkg.sha512"
+    },
+    "PropertyTools.Wpf/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-e1CyxgZ+6RUeEHXTU0+ozNgdQIYciouu4I/9ygSaGn6v8ftzJ/us/FOlZyHyhf7QNakGH0Jds6eMZ45CM3ES3w==",
+      "path": "propertytools.wpf/3.1.0",
+      "hashPath": "propertytools.wpf.3.1.0.nupkg.sha512"
+    },
+    "ReactiveUI/18.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uMFeRHeLc7IQ9rzl0Z6GIh4Zq3NN6DP3o8oHklslE5ZdrQncCJBNgaTR7D2yiaefbiMwduggGHphqDqfuIzz2A==",
+      "path": "reactiveui/18.4.1",
+      "hashPath": "reactiveui.18.4.1.nupkg.sha512"
+    },
+    "ReactiveUI.Events.WPF/15.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-s6/QDkSZnQmMxvZ/sKHMJSeDY5yZOGPY64Ezl1h5kclj6l/v7hRRbnWIpEFD60+thsTQVGJIilNxnQ5n2oBmoA==",
+      "path": "reactiveui.events.wpf/15.1.1",
+      "hashPath": "reactiveui.events.wpf.15.1.1.nupkg.sha512"
+    },
+    "ReactiveUI.WPF/18.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mKjsgcz9MgsqdrOUZSiK3gUbkHStiBaMAn64qx9CNvr8/KB3bkaGvuEuPn4oXo1luRf5lCV4fG0J0MfAEZxgIg==",
+      "path": "reactiveui.wpf/18.4.1",
+      "hashPath": "reactiveui.wpf.18.4.1.nupkg.sha512"
+    },
+    "Serilog/2.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ysv+hBzTul6Dp+Hvm10FlhJO3yMQcFKSAleus+LpiIzvNstpeV4Z7gGuIZ1OPNfIMulSHOjmLuGAEDKzpnV8ZQ==",
+      "path": "serilog/2.11.0",
+      "hashPath": "serilog.2.11.0.nupkg.sha512"
+    },
+    "Serilog.Extensions.Logging/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IWfem7wfrFbB3iw1OikqPFNPEzfayvDuN4WP7Ue1AVFskalMByeWk3QbtUXQR34SBkv1EbZ3AySHda/ErDgpcg==",
+      "path": "serilog.extensions.logging/3.1.0",
+      "hashPath": "serilog.extensions.logging.3.1.0.nupkg.sha512"
+    },
+    "Serilog.Sinks.File/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uwV5hdhWPwUH1szhO8PJpFiahqXmzPzJT/sOijH/kFgUx+cyoDTMM8MHD0adw9+Iem6itoibbUXHYslzXsLEAg==",
+      "path": "serilog.sinks.file/5.0.0",
+      "hashPath": "serilog.sinks.file.5.0.0.nupkg.sha512"
+    },
+    "SharpGLTF.Core/1.0.0-alpha0027": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RPv9c2ctq0PoZRMT/WXrZ07C5wWPXJw8AO23xdZWC4VofSMP1D4MKqUSs7Y/es8pczR4Nsk54wMpWvgaWXbriQ==",
+      "path": "sharpgltf.core/1.0.0-alpha0027",
+      "hashPath": "sharpgltf.core.1.0.0-alpha0027.nupkg.sha512"
+    },
+    "SharpGLTF.Toolkit/1.0.0-alpha0027": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7CCcP/trfk4idVjnCkpCqloMdVCk581fr4XCrGu98NwGF/pAHlMxN/Z9jFcKfiNs7p8xBjj5ZbQBXMKUKSzwRA==",
+      "path": "sharpgltf.toolkit/1.0.0-alpha0027",
+      "hashPath": "sharpgltf.toolkit.1.0.0-alpha0027.nupkg.sha512"
+    },
+    "SixLabors.ImageSharp/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oRmZEITad+0tL22ZfAbLps6doDV+Z0/oH0dtXLpIBwn1sgai3QxxDQPjohHiDeUp/CTzRKVrFFbc4ZITnL2UBg==",
+      "path": "sixlabors.imagesharp/1.0.3",
+      "hashPath": "sixlabors.imagesharp.1.0.3.nupkg.sha512"
+    },
+    "Splat/14.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2Xfgp26sWX6SHn2qpWK3W9EFgml6JZ32WPs/CzfYWBp1JTz2PUAso1HY2EdXV/GpkoQOvAkK6nGmlS/AsPz4Gw==",
+      "path": "splat/14.5.1",
+      "hashPath": "splat.14.5.1.nupkg.sha512"
+    },
+    "Splat.Microsoft.Extensions.DependencyInjection/14.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CyIXPu7uuAr3Ppj2rP1vkdPwckSEf4mO12RyFaeaqqWwR7tWQxErzmsoSU1wU6RNOyo9glLS+giXkpcanNFlFQ==",
+      "path": "splat.microsoft.extensions.dependencyinjection/14.4.1",
+      "hashPath": "splat.microsoft.extensions.dependencyinjection.14.4.1.nupkg.sha512"
+    },
+    "Splat.Serilog/14.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ia1wESNnx2MY04Vcp3IKdnBO1vuyxlmzz+o9+F7l87afB2LUWSzOudQ9I2DnB9qOaiCc5I9DWd/SgiPTKOjsvg==",
+      "path": "splat.serilog/14.4.1",
+      "hashPath": "splat.serilog.14.4.1.nupkg.sha512"
+    },
+    "System.Collections.Immutable/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-l4zZJ1WU2hqpQQHXz1rvC3etVZN+2DLmQMO79FhOTZHMn8tDRr+WU287sbomD0BETlmKDn0ygUgVy9k5xkkJdA==",
+      "path": "system.collections.immutable/6.0.0",
+      "hashPath": "system.collections.immutable.6.0.0.nupkg.sha512"
+    },
+    "System.ComponentModel.Annotations/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pOd+UhZ3X8xfwKDlgAzowUJNjp8VYVmOHZm++vCd0kq1HZ0zK3mNo2yRXjYgv7Ik/Xi43fmJfND2PLEsQSALCg==",
+      "path": "system.componentmodel.annotations/4.6.0",
+      "hashPath": "system.componentmodel.annotations.4.6.0.nupkg.sha512"
+    },
+    "System.IO.Packaging/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C7OkTRIjqIjAKu6ef/fuj8ynCZTPcTYZnvHaq48bniACgXXJogmEoIc56YCDNTc14xhsbLmgpS3KP+evbsUa2g==",
+      "path": "system.io.packaging/6.0.0",
+      "hashPath": "system.io.packaging.6.0.0.nupkg.sha512"
+    },
+    "System.Reactive/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-erBZjkQHWL9jpasCE/0qKAryzVBJFxGHVBAvgRN1bzM0q2s1S4oYREEEL0Vb+1kA/6BKb5FjUZMp5VXmy+gzkQ==",
+      "path": "system.reactive/5.0.0",
+      "hashPath": "system.reactive.5.0.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
+    "AoMEngineLibrary/11.3.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AoMEngineLibrary.Graphics.Converters/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "XmlCommentSerialization/1.0.5549.41667": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

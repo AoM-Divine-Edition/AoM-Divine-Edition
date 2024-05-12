@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="SolarFocus" type="TempUnit" techname="Solar Focus">
+	<activetime>18.0</activetime>
+	<placement forceonmap="1">full</placement>
+	<createunit quantity="1" radius="0" delay="0">Solar Focus</createunit>
+
+	<createunit quantity="1" radius="0" delay="2">Solar Focus</createunit>
+	<createunit quantity="5" minradius="3" maxradius="3" pattern="symmetric" norotate="" delay="2">Solar Focus</createunit>
+
+	<createunit quantity="1" radius="0" delay="4">Solar Focus</createunit>
+	<createunit quantity="5" minradius="3" maxradius="3" pattern="symmetric" norotate="" delay="4">Solar Focus</createunit>
+	<createunit quantity="10" minradius="6" maxradius="6" pattern="symmetric" norotate="" delay="4">Solar Focus</createunit>
+
+	<createunit quantity="1" radius="0" delay="6">Solar Focus</createunit>
+	<createunit quantity="5" minradius="3" maxradius="3" pattern="symmetric" norotate="" delay="6">Solar Focus</createunit>
+	<createunit quantity="10" minradius="6" maxradius="6" pattern="symmetric" norotate="" delay="6">Solar Focus</createunit>
+	<createunit quantity="15" minradius="9" maxradius="9" pattern="symmetric" norotate="" delay="6">Solar Focus</createunit>
+
+	<createunit quantity="1" radius="0" delay="8">Solar Focus</createunit>
+	<createunit quantity="5" minradius="3" maxradius="3" pattern="symmetric" norotate="" delay="8">Solar Focus</createunit>
+	<createunit quantity="10" minradius="6" maxradius="6" pattern="symmetric" norotate="" delay="8">Solar Focus</createunit>
+	<createunit quantity="15" minradius="9" maxradius="9" pattern="symmetric" norotate="" delay="8">Solar Focus</createunit>
+	<createunit quantity="20" minradius="12" maxradius="12" pattern="symmetric" norotate="" delay="8">Solar Focus</createunit>
+
+	<createunit quantity="1" radius="0" delay="10">Solar Focus</createunit>
+	<createunit quantity="5" minradius="3" maxradius="3" pattern="symmetric" norotate="" delay="10">Solar Focus</createunit>
+	<createunit quantity="10" minradius="6" maxradius="6" pattern="symmetric" norotate="" delay="10">Solar Focus</createunit>
+	<createunit quantity="15" minradius="9" maxradius="9" pattern="symmetric" norotate="" delay="10">Solar Focus</createunit>
+	<createunit quantity="20" minradius="12" maxradius="12" pattern="symmetric" norotate="" delay="10">Solar Focus</createunit>
+	<createunit quantity="25" minradius="15" maxradius="15" pattern="symmetric" norotate="" delay="10">Solar Focus</createunit>
+
+	<createunit quantity="1" radius="0" delay="10">Solar Focus</createunit>
+	<createunit quantity="5" minradius="3" maxradius="3" pattern="symmetric" norotate="" delay="12">Solar Focus</createunit>
+	<createunit quantity="10" minradius="6" maxradius="6" pattern="symmetric" norotate="" delay="12">Solar Focus</createunit>
+	<createunit quantity="15" minradius="9" maxradius="9" pattern="symmetric" norotate="" delay="12">Solar Focus</createunit>
+	<createunit quantity="20" minradius="12" maxradius="12" pattern="symmetric" norotate="" delay="12">Solar Focus</createunit>
+	<createunit quantity="25" minradius="15" maxradius="15" pattern="symmetric" norotate="" delay="12">Solar Focus</createunit>
+	<createunit quantity="30" minradius="18" maxradius="18" pattern="symmetric" norotate="" delay="12">Solar Focus</createunit>
+
+	<rangeindicatorprotoid radius="20.0" indicatorcount="10" speed="0.2">UI Range Indicator Egypt SFX</rangeindicatorprotoid>
+	<minimapeventtime sendalertto="ally">10.0</minimapeventtime>
+	<icon>improvement the end icon</icon>
+	<usedicon>improvement the end icon done</usedicon>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="Caster">VisionSwoosh</soundset>
+
+	<recharges>0</recharges>
+	<rechargetime>45 </rechargetime>
+</power>

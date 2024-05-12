@@ -1,0 +1,556 @@
+//==============================================================================
+// Prodromos_anim.txt
+//==============================================================================
+
+import bow_atlantean_anim.txt
+import Greek_Cavalry_Shield_anim.txt
+
+//==============================================================================
+define quiver
+{
+	set hotspot
+	{
+		version
+		{
+			Visual attachments c quiver
+		}
+	}
+}
+
+//==============================================================================
+define Head
+{
+	SetSelector
+	{
+		set hotspot
+		{
+			version
+			{
+				Visual Villager N feMale Head
+
+				ReplaceTexture villager n female head/L villager n female head
+
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Bored
+{
+	SetSelector
+	{
+		TechLogic none/Medium Akicita/Heavy Akicita/Champion Akicita
+		set hotspot
+		{
+			version
+			{
+				Visual Archer C Mounted Archer_BoredA
+				ReplaceTexture Archer C Mounted Archer Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Archer C Mounted Archer Horse Standard/Archer C Mounted Archer Horse Copper
+				ReplaceTexture Archer C Mounted Archer Head Standard/Archer C Mounted Archer Head Copper
+				connect RightHand Bow hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				connect BackChest Quiver hotspot
+			}
+			version
+			{
+				Visual Archer C Mounted Archer_BoredB
+				ReplaceTexture Archer C Mounted Archer Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Archer C Mounted Archer Horse Standard/Archer C Mounted Archer Horse Copper
+				ReplaceTexture Archer C Mounted Archer Head Standard/Archer C Mounted Archer Head Copper
+				connect RightHand Bow hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				connect BackChest Quiver hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Archer C Mounted Archer_BoredA
+				ReplaceTexture Archer C Mounted Archer Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Archer C Mounted Archer Horse Standard/Archer C Mounted Archer Horse Copper
+				ReplaceTexture Archer C Mounted Archer Head Standard/Archer C Mounted Archer Head Copper
+
+				connect RightHand Bow hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				connect BackChest Quiver hotspot
+			}
+			version
+			{
+				Visual Archer C Mounted Archer_BoredB
+				ReplaceTexture Archer C Mounted Archer Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Archer C Mounted Archer Horse Standard/Archer C Mounted Archer Horse Copper
+				ReplaceTexture Archer C Mounted Archer Head Standard/Archer C Mounted Archer Head Copper
+				connect RightHand Bow hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				connect BackChest Quiver hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Archer C Mounted Archer_BoredA
+
+				ReplaceTexture Archer C Mounted Archer Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Archer C Mounted Archer Horse Standard/Archer C Mounted Archer Horse Copper
+				ReplaceTexture Archer C Mounted Archer Head Standard/Archer C Mounted Archer Head Copper
+				connect RightHand Bow hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				connect BackChest Quiver hotspot
+			}
+			version
+			{
+				Visual Archer C Mounted Archer_BoredB
+
+				ReplaceTexture Archer C Mounted Archer Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Archer C Mounted Archer Horse Standard/Archer C Mounted Archer Horse Copper
+				ReplaceTexture Archer C Mounted Archer Head Standard/Archer C Mounted Archer Head Copper
+				connect RightHand Bow hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				connect BackChest Quiver hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Archer C Mounted Archer_BoredA
+
+				ReplaceTexture Archer C Mounted Archer Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Archer C Mounted Archer Horse Standard/Archer C Mounted Archer Horse Copper
+				ReplaceTexture Archer C Mounted Archer Head Standard/Archer C Mounted Archer Head Copper
+				connect RightHand Bow hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				connect BackChest Quiver hotspot
+			}
+			version
+			{
+				Visual Archer C Mounted Archer_BoredB
+
+				ReplaceTexture Archer C Mounted Archer Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Archer C Mounted Archer Horse Standard/Archer C Mounted Archer Horse Copper
+				ReplaceTexture Archer C Mounted Archer Head Standard/Archer C Mounted Archer Head Copper
+				connect RightHand Bow hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				connect BackChest Quiver hotspot
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Walk
+{
+	SetSelector
+	{
+		TechLogic none/Medium Akicita/Heavy Akicita/Champion Akicita
+		set hotspot
+		{
+			version
+			{  
+				Visual Archer C Mounted Archer_WalkA
+				ReplaceTexture Archer C Mounted Archer Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Archer C Mounted Archer Horse Standard/Archer C Mounted Archer Horse Copper
+				ReplaceTexture Archer C Mounted Archer Head Standard/Archer C Mounted Archer Head Copper
+				connect RightHand Bow hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				connect BackChest Quiver hotspot
+				tag FootstepLeft 0.00 true	
+				tag FootstepRight 0.50 true	
+				tag FootstepLeft 0.20 true	
+				tag FootstepRight 0.75 true
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Archer C Mounted Archer_WalkA
+
+				ReplaceTexture Archer C Mounted Archer Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Archer C Mounted Archer Horse Standard/Archer C Mounted Archer Horse Copper
+				ReplaceTexture Archer C Mounted Archer Head Standard/Archer C Mounted Archer Head Copper
+				connect RightHand Bow hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				connect BackChest Quiver hotspot
+				tag FootstepLeft 0.00 true	
+				tag FootstepRight 0.50 true	
+				tag FootstepLeft 0.20 true	
+				tag FootstepRight 0.75 true
+
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Archer C Mounted Archer_WalkA
+
+				ReplaceTexture Archer C Mounted Archer Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Archer C Mounted Archer Horse Standard/Archer C Mounted Archer Horse Copper
+				ReplaceTexture Archer C Mounted Archer Head Standard/Archer C Mounted Archer Head Copper
+				connect RightHand Bow hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				connect BackChest Quiver hotspot
+				tag FootstepLeft 0.00 true	
+				tag FootstepRight 0.50 true	
+				tag FootstepLeft 0.20 true	
+				tag FootstepRight 0.75 true
+
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Archer C Mounted Archer_WalkA
+
+				ReplaceTexture Archer C Mounted Archer Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Archer C Mounted Archer Horse Standard/Archer C Mounted Archer Horse Copper
+				ReplaceTexture Archer C Mounted Archer Head Standard/Archer C Mounted Archer Head Copper
+				connect RightHand Bow hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				connect BackChest Quiver hotspot
+				tag FootstepLeft 0.00 true	
+				tag FootstepRight 0.50 true	
+				tag FootstepLeft 0.20 true	
+				tag FootstepRight 0.75 true
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Death
+{
+	SetSelector
+	{
+		TechLogic none/Medium Akicita/Heavy Akicita/Champion Akicita
+		set hotspot
+		{
+			version
+			{
+				Visual Archer C Mounted Archer_DeathA
+				ReplaceTexture Archer C Mounted Archer Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Archer C Mounted Archer Horse Standard/Archer C Mounted Archer Horse Copper
+				ReplaceTexture Archer C Mounted Archer Head Standard/Archer C Mounted Archer Head Copper
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag SpecificSoundSet 0.61 false HeavyFall checkVisible 
+//-- end auto generated section
+				connect RightHand Bow hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				connect BackChest Quiver hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Archer C Mounted Archer_DeathA
+				ReplaceTexture Archer C Mounted Archer Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Archer C Mounted Archer Horse Standard/Archer C Mounted Archer Horse Copper
+				ReplaceTexture Archer C Mounted Archer Head Standard/Archer C Mounted Archer Head Copper
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag SpecificSoundSet 0.61 false HeavyFall checkVisible 
+//-- end auto generated section
+				
+				connect RightHand Bow hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				connect BackChest Quiver hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Archer C Mounted Archer_DeathA
+				ReplaceTexture Archer C Mounted Archer Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Archer C Mounted Archer Horse Standard/Archer C Mounted Archer Horse Copper
+				ReplaceTexture Archer C Mounted Archer Head Standard/Archer C Mounted Archer Head Copper
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag SpecificSoundSet 0.61 false HeavyFall checkVisible 
+//-- end auto generated section
+				
+				connect RightHand Bow hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				connect BackChest Quiver hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Archer C Mounted Archer_DeathA
+				ReplaceTexture Archer C Mounted Archer Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Archer C Mounted Archer Horse Standard/Archer C Mounted Archer Horse Copper
+				ReplaceTexture Archer C Mounted Archer Head Standard/Archer C Mounted Archer Head Copper
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag SpecificSoundSet 0.61 false HeavyFall checkVisible 
+//-- end auto generated section
+				
+				connect RightHand Bow hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				connect BackChest Quiver hotspot
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Idle
+{
+	SetSelector
+	{
+		TechLogic none/Medium Akicita/Heavy Akicita/Champion Akicita
+		set hotspot
+		{
+			version
+			{
+				Visual Archer C Mounted Archer_IdleA
+				ReplaceTexture Archer C Mounted Archer Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Archer C Mounted Archer Horse Standard/Archer C Mounted Archer Horse Copper
+				ReplaceTexture Archer C Mounted Archer Head Standard/Archer C Mounted Archer Head Copper
+				connect RightHand Bow hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				connect BackChest Quiver hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Archer C Mounted Archer_IdleA
+
+				ReplaceTexture Archer C Mounted Archer Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Archer C Mounted Archer Horse Standard/Archer C Mounted Archer Horse Copper
+				ReplaceTexture Archer C Mounted Archer Head Standard/Archer C Mounted Archer Head Copper
+				connect RightHand Bow hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				connect BackChest Quiver hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Archer C Mounted Archer_IdleA
+
+				ReplaceTexture Archer C Mounted Archer Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Archer C Mounted Archer Horse Standard/Archer C Mounted Archer Horse Copper
+				ReplaceTexture Archer C Mounted Archer Head Standard/Archer C Mounted Archer Head Copper
+				connect RightHand Bow hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				connect BackChest Quiver hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Archer C Mounted Archer_IdleA
+
+				ReplaceTexture Archer C Mounted Archer Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Archer C Mounted Archer Horse Standard/Archer C Mounted Archer Horse Copper
+				ReplaceTexture Archer C Mounted Archer Head Standard/Archer C Mounted Archer Head Copper
+				connect RightHand Bow hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				connect BackChest Quiver hotspot
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim RangedAttack
+{
+	SetSelector
+	{
+		TechLogic none/Medium Akicita/Heavy Akicita/Champion Akicita
+		set hotspot
+		{
+			version
+			{
+				Visual Archer C Mounted Archer_AttackA
+				ReplaceTexture Archer C Mounted Archer Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Archer C Mounted Archer Horse Standard/Archer C Mounted Archer Horse Copper
+				ReplaceTexture Archer C Mounted Archer Head Standard/Archer C Mounted Archer Head Copper
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag Attack 0.35 true	
+					tag GenericSound 0.33 true	
+					tag SpecificSoundSet 0.36 false Arrow checkVisible 
+//-- end auto generated section
+				connect RightHand Bow hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				connect BackChest Quiver hotspot
+
+Length 1.4
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Archer C Mounted Archer_AttackA
+				ReplaceTexture Archer C Mounted Archer Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Archer C Mounted Archer Horse Standard/Archer C Mounted Archer Horse Copper
+				ReplaceTexture Archer C Mounted Archer Head Standard/Archer C Mounted Archer Head Copper
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag Attack 0.35 true	
+					tag GenericSound 0.33 true	
+					tag SpecificSoundSet 0.36 false Arrow checkVisible 
+//-- end auto generated section
+				ReplaceTexture Archer C Mounted Archer Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Archer C Mounted Archer Horse Standard/Archer C Mounted Archer Horse Copper
+				connect RightHand Bow hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				connect BackChest Quiver hotspot
+Length 1.4
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Archer C Mounted Archer_AttackA
+				ReplaceTexture Archer C Mounted Archer Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Archer C Mounted Archer Horse Standard/Archer C Mounted Archer Horse Copper
+				ReplaceTexture Archer C Mounted Archer Head Standard/Archer C Mounted Archer Head Copper
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag Attack 0.35 true	
+					tag GenericSound 0.33 true	
+					tag SpecificSoundSet 0.36 false Arrow checkVisible 
+//-- end auto generated section
+				ReplaceTexture Archer C Mounted Archer Standard/Archer C Mounted Archer Bronze
+				ReplaceTexture Archer C Mounted Archer Horse Standard/Archer C Mounted Archer Horse Bronze
+				connect RightHand Bow hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				connect BackChest Quiver hotspot
+Length 1.4
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Archer C Mounted Archer_AttackA
+				ReplaceTexture Archer C Mounted Archer Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Archer C Mounted Archer Horse Standard/Archer C Mounted Archer Horse Copper
+				ReplaceTexture Archer C Mounted Archer Head Standard/Archer C Mounted Archer Head Copper
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag Attack 0.35 true	
+					tag GenericSound 0.33 true	
+					tag SpecificSoundSet 0.36 false Arrow checkVisible 
+//-- end auto generated section
+				ReplaceTexture Archer C Mounted Archer Standard/Archer C Mounted Archer Iron
+				ReplaceTexture Archer C Mounted Archer Horse Standard/Archer C Mounted Archer Horse Iron
+				connect RightHand Bow hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				connect BackChest Quiver hotspot
+Length `.4
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Flail
+{
+	SetSelector
+	{
+		TechLogic none/Medium Akicita/Heavy Akicita/Champion Akicita
+		set hotspot
+		{
+			version
+			{
+				Visual Archer C Mounted Archer_FlailA
+				ReplaceTexture Archer C Mounted Archer Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Archer C Mounted Archer Horse Standard/Archer C Mounted Archer Horse Copper
+				ReplaceTexture Archer C Mounted Archer Head Standard/Archer C Mounted Archer Head Copper
+				connect RightHand Bow hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				connect BackChest Quiver hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Archer C Mounted Archer_FlailA
+
+				ReplaceTexture Archer C Mounted Archer Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Archer C Mounted Archer Horse Standard/Archer C Mounted Archer Horse Copper
+				ReplaceTexture Archer C Mounted Archer Head Standard/Archer C Mounted Archer Head Copper
+				connect RightHand Bow hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				connect BackChest Quiver hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Archer C Mounted Archer_FlailA
+
+				ReplaceTexture Archer C Mounted Archer Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Archer C Mounted Archer Horse Standard/Archer C Mounted Archer Horse Copper
+				ReplaceTexture Archer C Mounted Archer Head Standard/Archer C Mounted Archer Head Copper
+				connect RightHand Bow hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				connect BackChest Quiver hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Archer C Mounted Archer_FlailA
+
+				ReplaceTexture Archer C Mounted Archer Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Archer C Mounted Archer Horse Standard/Archer C Mounted Archer Horse Copper
+				ReplaceTexture Archer C Mounted Archer Head Standard/Archer C Mounted Archer Head Copper
+				connect RightHand Bow hotspot
+				connect LeftForearm GreekCavalryShield hotspot
+				Connect TopOfHead Head hotspot
+				connect BackChest Quiver hotspot
+			}
+		}
+	}
+}

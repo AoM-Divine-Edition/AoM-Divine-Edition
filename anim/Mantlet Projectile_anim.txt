@@ -1,0 +1,69 @@
+/==============================================================================
+// arrow_anim.txt
+//==============================================================================
+
+//==============================================================================
+define fire
+{
+   set hotspot
+  {
+      version
+      {
+         Visualparticle SFX A Meteorite Trail Fire
+      }
+   }
+}
+
+
+//==============================================================================
+define pire
+{
+   set hotspot
+  {
+      version
+      {
+         Visualparticle SFX E Pharoah Projectile
+      }
+   }
+}
+
+//==============================================================================
+define Bolt
+{
+   set hotspot
+  {
+      version
+      {
+         Visualparticle sfx x tzim bolt
+      }
+   }
+}
+
+
+//==============================================================================
+define spark
+{
+   set hotspot
+  {
+      version
+      {
+         Visualparticle sfx a cursed ball
+      }
+   }
+}
+
+//==============================================================================
+anim Idle
+{
+   SetSelector
+   { 
+      set hotspot
+      {
+         version
+         {
+           			Visual aztec mantlet projectile a
+				
+         }
+      }
+   }
+}

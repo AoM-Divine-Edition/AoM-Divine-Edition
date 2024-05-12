@@ -1,0 +1,1 @@
+TextureCompiler -i input_example -o output_example

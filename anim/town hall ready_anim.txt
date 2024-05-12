@@ -1,0 +1,56 @@
+//==============================================================================
+// Well of Shadows_anim.txt
+//==============================================================================
+
+import Construction_defines_anim.txt
+
+define WellofUrdGlowA
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle sfx n well of urd water glow
+      }
+   }
+}
+
+//==============================================================================
+define WellofUrdMistA
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle sfx n well of urd water mist
+      }
+   }
+}
+
+//==============================================================================
+anim Idle
+{
+	SetSelector
+	{
+		ConstructionLogic 0 33 
+         	set hotspot
+        	{
+        	    version
+			{
+				Visual well of shadows
+				Connect LEFTFOOT WellofUrdGlowA hotspot
+				Connect LEFTEAR WellofUrdMistA hotspot
+			}
+        	 }
+        	 set hotspot
+        	 {
+
+			version
+			{
+				Visual well of shadows
+				//Connect LEFTFOOT WellofUrdGlowA hotspot
+				//Connect LEFTEAR WellofUrdMistA hotspot
+			}
+		}
+	}
+}

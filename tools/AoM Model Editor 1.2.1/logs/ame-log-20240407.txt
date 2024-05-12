@@ -1,0 +1,91 @@
+2024-04-07 09:04:38.122 -04:00 [INF] Loading brg file.
+2024-04-07 09:04:38.143 -04:00 [INF] Finished loading brg file.
+2024-04-07 09:05:11.730 -04:00 [INF] Saving brg file.
+2024-04-07 09:05:11.731 -04:00 [INF] Finished saving brg file.
+2024-04-07 09:19:55.343 -04:00 [INF] Loading brg file.
+2024-04-07 09:19:55.377 -04:00 [INF] Finished loading brg file.
+2024-04-07 09:20:00.516 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgDummyView property mainGroupBox is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-07 09:20:00.520 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgDummyView property frameUpDown is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-07 09:20:00.522 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgDummyView property frameTextBox is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-07 09:20:00.526 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgDummyView property rightVecControl is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-07 09:20:00.527 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgDummyView property upVecControl is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-07 09:20:00.528 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgDummyView property forwardVecControl is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-07 09:20:00.528 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgDummyView property positionVecControl is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-07 09:28:48.840 -04:00 [INF] Saving brg file.
+2024-04-07 09:28:48.840 -04:00 [INF] Finished saving brg file.
+2024-04-07 10:52:24.828 -04:00 [INF] Loading brg file.
+2024-04-07 10:52:24.848 -04:00 [INF] Finished loading brg file.
+2024-04-07 19:11:17.126 -04:00 [INF] Loading gltf file.
+2024-04-07 19:11:17.214 -04:00 [ERR] Failed to import gltf file as brg.
+System.IO.FileNotFoundException: Could not find file 'C:\Users\22jam\Downloads\CATHULU WIZARD\CATHULU WIZARD\cathulu wizardout0.bin'.
+File name: 'C:\Users\22jam\Downloads\CATHULU WIZARD\CATHULU WIZARD\cathulu wizardout0.bin'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.ReadAllBytes(String path)
+   at SharpGLTF.Schema2.ReadContext.<>c__DisplayClass2_0.<CreateFromDirectory>g___loadFile|1(String rawUri)
+   at SharpGLTF.Schema2.ReadContext.ReadAllBytesToEnd(String resourceName)
+   at SharpGLTF.Schema2.Buffer._LoadBinaryBufferUnchecked(String uri, ReadContext context)
+   at SharpGLTF.Schema2.ModelRoot._ResolveSatelliteDependencies(ReadContext context)
+   at SharpGLTF.Schema2.ReadContext._Read(ReadOnlyMemory`1 jsonUtf8Bytes)
+   at SharpGLTF.Schema2.ReadContext.ReadTextSchema2(Stream stream)
+   at SharpGLTF.Schema2.ReadContext.ReadSchema2(Stream stream)
+   at SharpGLTF.Schema2.ReadContext.ReadSchema2(String resourceName)
+   at SharpGLTF.Schema2.ModelRoot.Load(String filePath, ReadSettings settings)
+   at AoMModelEditor.Models.ModelsViewModel.ImportGltfToBrg()
+2024-04-07 19:36:54.744 -04:00 [INF] Loading gltf file.
+2024-04-07 19:36:54.864 -04:00 [INF] Finished loading gltf file.
+2024-04-07 19:36:55.163 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgGltfImportSettingsView property mainGroupBox is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-07 19:36:55.164 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgGltfImportSettingsView property sampleRateTextBox is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-07 19:36:59.795 -04:00 [INF] Converting gltf file to brg.
+2024-04-07 19:37:00.691 -04:00 [INF] Finished converting gltf file to brg.
+2024-04-07 19:37:00.691 -04:00 [INF] Loading brg file.
+2024-04-07 19:37:00.714 -04:00 [INF] Finished loading brg file.
+2024-04-07 19:37:55.791 -04:00 [INF] Loading gltf file.
+2024-04-07 19:37:55.853 -04:00 [INF] Finished loading gltf file.
+2024-04-07 19:38:00.861 -04:00 [INF] Converting gltf file to brg.
+2024-04-07 19:38:00.984 -04:00 [INF] Finished converting gltf file to brg.
+2024-04-07 19:38:00.985 -04:00 [INF] Loading brg file.
+2024-04-07 19:38:00.998 -04:00 [INF] Finished loading brg file.
+2024-04-07 19:38:06.975 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMeshView property mainGroupBox is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-07 19:38:06.975 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMeshView property vertCountTextBlock is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-07 19:38:06.976 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMeshView property faceCountTextBlock is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-07 19:38:06.976 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMeshView property dummyCountLabel is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-07 19:38:06.976 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMeshView property frameCountTextBlock is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-07 19:38:06.976 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMeshView property animLengthTextBlock is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-07 19:38:06.979 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMeshView property animTypeRadioList is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-07 19:38:06.982 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMeshView property interpTypeRadioList is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-07 19:38:06.983 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMeshView property hotspotPositionVecControl is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-07 19:38:06.983 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMeshView property massPositionVecControl is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-07 19:38:06.984 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMeshView property centerPositionVecControl is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-07 19:38:06.987 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMeshView property minExtentPositionVecControl is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-07 19:38:06.988 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMeshView property maxExtentPositionVecControl is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-07 19:38:06.988 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMeshView property flagsListBox is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-07 19:38:06.990 -04:00 [WRN] The class AoMModelEditor.Models.Brg.BrgMeshView property flags2ListBox is a POCO type and won't send change notifications, WhenAny will only return a single value!
+2024-04-07 19:38:32.671 -04:00 [INF] Saving brg file.
+2024-04-07 19:38:32.680 -04:00 [INF] Finished saving brg file.
+2024-04-07 20:11:14.227 -04:00 [INF] Loading gltf file.
+2024-04-07 20:11:14.308 -04:00 [INF] Finished loading gltf file.
+2024-04-07 20:11:19.065 -04:00 [INF] Converting gltf file to brg.
+2024-04-07 20:11:19.216 -04:00 [INF] Finished converting gltf file to brg.
+2024-04-07 20:11:19.216 -04:00 [INF] Loading brg file.
+2024-04-07 20:11:19.246 -04:00 [INF] Finished loading brg file.
+2024-04-07 20:13:20.932 -04:00 [INF] Saving brg file.
+2024-04-07 20:13:20.939 -04:00 [INF] Finished saving brg file.
+2024-04-07 20:26:11.270 -04:00 [INF] Loading gltf file.
+2024-04-07 20:26:11.342 -04:00 [INF] Finished loading gltf file.
+2024-04-07 20:26:16.510 -04:00 [INF] Converting gltf file to brg.
+2024-04-07 20:26:16.738 -04:00 [INF] Finished converting gltf file to brg.
+2024-04-07 20:26:16.738 -04:00 [INF] Loading brg file.
+2024-04-07 20:26:16.759 -04:00 [INF] Finished loading brg file.
+2024-04-07 20:26:22.208 -04:00 [INF] Saving brg file.
+2024-04-07 20:26:22.222 -04:00 [INF] Finished saving brg file.
+2024-04-07 20:32:45.060 -04:00 [INF] Loading gltf file.
+2024-04-07 20:32:45.132 -04:00 [INF] Finished loading gltf file.
+2024-04-07 20:32:48.301 -04:00 [INF] Converting gltf file to brg.
+2024-04-07 20:32:48.465 -04:00 [INF] Finished converting gltf file to brg.
+2024-04-07 20:32:48.465 -04:00 [INF] Loading brg file.
+2024-04-07 20:32:48.499 -04:00 [INF] Finished loading brg file.
+2024-04-07 20:32:53.989 -04:00 [INF] Saving brg file.
+2024-04-07 20:32:53.995 -04:00 [INF] Finished saving brg file.

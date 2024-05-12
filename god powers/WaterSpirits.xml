@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="WaterSpirits" type="TempUnit" techname="WaterSpirits">
+	<soundset type="StartSound" listenertype="IfOnScreenAll">ShipDeathSplash</soundset>
+	<activetime>-1</activetime>
+	<createunit quantity="1" radius="2" delay="0.0">Tar Giant</createunit>
+	<createunit quantity="1" radius="1" delay="0.0">Tar Giant</createunit>
+	<createunit quantity="1" radius="3" delay="0.0">Tar Giant</createunit>
+	<createunit quantity="1" radius="4" delay="0.0">Tar Giant</createunit>
+	<rangeindicatorprotoid radius="10.0" indicatorcount="5" speed="0.2">UI Range Indicator aztec</rangeindicatorprotoid>
+	<placement forceonmap="1">full</placement>
+	<icon>Ahuque GP Icon</icon>
+	<usedicon>Ahuque GP Icon</usedicon>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+</power>

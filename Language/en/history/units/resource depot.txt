@@ -1,0 +1,1 @@
+The Roman Resource Depot acts as a gathering point for Food, Wood and Gold. Build a Resource Depot close to Gold Mines, forests or Food sources you wish to gather. You may also research improvements at the Resource Depot that improve the speed at which these resources are gathered.

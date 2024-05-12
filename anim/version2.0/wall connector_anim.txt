@@ -1,0 +1,4329 @@
+//==============================================================================
+// Building WallConnector_anim.txt
+//==============================================================================
+
+//==============================================================================
+define Dust
+{
+	set hotspot
+	{
+		version
+		{
+			Visualparticle SFX A Building DustA
+		}
+	}  
+}
+//==============================================================================
+define NStone1
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Building N Stone Dam Stage1
+		}
+	}  
+}
+
+//==============================================================================
+define NStone2
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Building N Stone Dam Stage2
+		}
+	}  
+}
+
+//==============================================================================
+define NStone3
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Building N Stone Dam Stage3
+		}
+	}  
+}
+
+//==============================================================================
+define GStone1
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Building G Stone Dam Stage1
+		}
+	}  
+}
+
+//==============================================================================
+define GStone2
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Building G Stone Dam Stage2
+		}
+	}  
+}
+
+//==============================================================================
+define GStone3
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Building G Stone Dam Stage3
+		}
+	}  
+}
+
+//==============================================================================
+define GFort1
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Building G Fort Dam Stage1
+		}
+	}  
+}
+
+//==============================================================================
+define GFort2
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Building G Fort Dam Stage2
+		}
+	}  
+}
+
+//==============================================================================
+define GFort3
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Building G Fort Dam Stage3
+		}
+	}  
+}
+
+
+//==============================================================================
+define EStone1
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Building E Stone Dam Stage1
+		}
+	}  
+}
+
+//==============================================================================
+define EStone2
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Building E Stone Dam Stage2
+		}
+	}  
+}
+
+//==============================================================================
+define EStone3
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Building E Stone Dam Stage3
+		}
+	}  
+}
+
+//==============================================================================
+define EFort1
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Building E Fort Dam Stage1
+		}
+	}  
+}
+
+//==============================================================================
+define EFort2
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Building E Fort Dam Stage2
+		}
+	}  
+}
+
+//==============================================================================
+define EFort3
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Building E Fort Dam Stage3
+		}
+	}  
+}
+
+//==============================================================================
+define ECit1
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Building E Cit Dam Stage1
+		}
+	}  
+}
+
+//==============================================================================
+define ECit2
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Building E Cit Dam Stage2
+		}
+	}  
+}
+
+//==============================================================================
+define ECit3
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Building E Cit Dam Stage3
+		}
+	}  
+}
+
+//=============================================================================
+define Tage1
+{
+		set hotspot
+		{
+				version
+				{
+						Visual Aztec Wall Connector3
+						ReplaceTexture AztecGateway/AztecGatewayLight
+
+					}
+		}
+
+}
+
+//==============================================================================
+anim None
+{
+	SetSelector
+	{
+	TechLogic none/Aztec Civ
+    SetSelector
+    {
+		CultureLogic Egyptian/Greek/Norse/Atlantean/Chinese
+//---------------------------------Egyptian------------------------------------------//
+//---------------------------------first wall----------------------------------------//
+		SetSelector
+		{
+			TechLogic none/stone wall/fortified wall/citadel wall
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building WallConnector
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorWallA
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorGreekWallB
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorGreekWallB
+					}
+				}
+			}
+//---------------------------------second wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				setSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallConnector Age2
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallConnector Age2
+							connect chin EStone1 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallConnector Age2
+							connect chin EStone2 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallConnector Age2
+							connect chin EStone3 hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------third wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallConnector Age3
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallCon Stage1
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallCon Stage2
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallCon Stage3
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------Fourth wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallConnector Age4
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallConnector Age4
+							connect chin ECit1 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallConnector Age4
+							connect chin ECit2 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallConnector Age4
+							connect chin ECit3 hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+		}
+//---------------------------------Greek------------------------------------------//
+//---------------------------------first wall----------------------------------------//
+		SetSelector
+		{
+			TechLogic none/stone wall/fortified wall
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building WallConnector
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorWallA
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorGreekWallB
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorGreekWallB
+					}
+				}
+			}
+//---------------------------------second wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				setSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building G WallConnector
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G WallConnector
+							connect chin GStone1 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G WallConnector
+							connect chin GStone2 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G WallConnector
+							connect chin GStone3 hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+	//---------------------------------third wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				setSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building G fortifiedWall Connector
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G fortifiedWall Connector
+							connect chin GFort1 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G fortifiedWall Connector
+							connect chin GFort2 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G fortifiedWall Connector
+							connect chin GFort3 hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+		}
+//---------------------------------Norse------------------------------------------//
+//---------------------------------first wall----------------------------------------//
+		SetSelector
+		{
+			TechLogic none/stone wall
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building WallConnector
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorWallA
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorGreekWallB
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorGreekWallB
+					}
+				}
+			}
+//---------------------------------second wall----------------------------------------//
+			SetSelector
+			{
+				ConstructionLogic 0 33 66
+				SetSelector
+				{
+					damageLogic 0 25 50 75 
+					SetSelector
+					{
+						set hotspot
+						{
+							version
+							{
+								Visual Building N WallConnector
+							}
+						}
+					}
+					SetSelector
+					{
+						set hotspot
+						{
+							version
+							{
+								Visual Building N WallConnector
+								connect chin NStone1 hotspot
+							}
+						}
+					}
+					SetSelector
+					{
+						set hotspot
+						{
+							version
+							{
+								Visual Building N WallConnector
+								connect chin NStone2 hotspot
+							}
+						}
+					}
+					SetSelector
+					{
+						set hotspot
+						{
+							version
+							{
+								Visual Building N WallConnector
+								connect chin NStone3 hotspot
+							}
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+		}
+//================================Atlantis Wall==================================
+		SetSelector
+		{
+			TechLogic none/Stone wall/Bronze wall/Iron wall/Oreichalkos wall
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building WallConnector
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorWallA
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorGreekWallB
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorGreekWallB
+					}
+				}
+			}
+//---------------------------------second wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				setSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Stone Connector
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Stone Connector Stage 1 Destruction
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Stone Connector Stage 2 Destruction
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Stone Connector Stage 3 Destruction
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------third wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Bronze Connector
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Bronze Connector Stage 1 Death
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Bronze Connector Stage 2 Death
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Bronze Connector Stage 3 Death
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------Fourth wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Iron Connector
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Iron Connector Stage 1 Death
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Iron Connector Stage 2 Death
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Iron Connector Stage 3 Death
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------Fifth wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Oreichalkos Connector
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Oreichalkos Connector Stage 1 Death
+							//connect chin ECit1 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Oreichalkos Connector Stage 2 Death
+							//connect chin ECit2 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Oreichalkos Connector Stage 3 Death
+							//connect chin ECit3 hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+		}
+
+//---------------------------------Chinese------------------------------------------//
+//---------------------------------first wall----------------------------------------//
+		SetSelector
+		{
+			TechLogic none/earthen wall/stone wall/fortified wall/great wall
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building WallConnector
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorWallA
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorGreekWallB
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorGreekWallB
+					}
+				}
+			}
+//---------------------------------second wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				setSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Earthen Connector
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallConnector Age2
+							connect chin EStone1 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallConnector Age2
+							connect chin EStone2 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallConnector Age2
+							connect chin EStone3 hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------third wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Stone Connector
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallCon Stage1
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallCon Stage2
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallCon Stage3
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------Fourth wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Fortified Connector
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallConnector Age4
+							connect chin ECit1 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallConnector Age4
+							connect chin ECit2 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallConnector Age4
+							connect chin ECit3 hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------Fifth wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Great Connector
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallConnector Age4
+							connect chin ECit1 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallConnector Age4
+							connect chin ECit2 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallConnector Age4
+							connect chin ECit3 hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+		}
+	}
+	//---------------------------------first wall----------------------------------------//
+		SetSelector
+		{
+			TechLogic none/earthen wall/stone wall/fortified wall/great wall
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Aztec Wall Connector3
+						ReplaceTexture AztecGateway/AztecGatewayLight
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorWallA
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorGreekWallB
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorGreekWallB
+					}
+				}
+			}
+//---------------------------------second wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				setSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Aztec Wall Connector3
+							ReplaceTexture AztecGateway/AztecGatewayLight
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallConnector Age2
+							connect chin EStone1 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallConnector Age2
+							connect chin EStone2 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallConnector Age2
+							connect chin EStone3 hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------third wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Stone Connector
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallCon Stage1
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallCon Stage2
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallCon Stage3
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------Fourth wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Fortified Connector
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallConnector Age4
+							connect chin ECit1 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallConnector Age4
+							connect chin ECit2 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallConnector Age4
+							connect chin ECit3 hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------Fifth wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Great Connector
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallConnector Age4
+							connect chin ECit1 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallConnector Age4
+							connect chin ECit2 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallConnector Age4
+							connect chin ECit3 hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Idle
+{
+	SetSelector
+	{
+	TechLogic none/Aztec Civ
+    SetSelector
+    {
+		CultureLogic Egyptian/Greek/Norse/Atlantean/Chinese
+//---------------------------------Egyptian------------------------------------------//
+//---------------------------------first wall----------------------------------------//
+		SetSelector
+		{
+			TechLogic none/stone wall/fortified wall/citadel wall
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building WallConnector
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorWallA
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorGreekWallB
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorGreekWallB
+					}
+				}
+			}
+//---------------------------------second wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				setSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallConnector Age2
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallConnector Age2
+							connect chin EStone1 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallConnector Age2
+							connect chin EStone2 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallConnector Age2
+							connect chin EStone3 hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------third wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallConnector Age3
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallCon Stage1
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallCon Stage2
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallCon Stage3
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------Fourth wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallConnector Age4
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallConnector Age4
+							connect chin ECit1 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallConnector Age4
+							connect chin ECit2 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallConnector Age4
+							connect chin ECit3 hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+		}
+//---------------------------------Greek------------------------------------------//
+//---------------------------------first wall----------------------------------------//
+		SetSelector
+		{
+			TechLogic none/stone wall/fortified wall
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building WallConnector
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorWallA
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorGreekWallB
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorGreekWallB
+					}
+				}
+			}
+//---------------------------------second wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				setSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building G WallConnector
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G WallConnector
+							connect chin GStone1 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G WallConnector
+							connect chin GStone2 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G WallConnector
+							connect chin GStone3 hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+	//---------------------------------third wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				setSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building G fortifiedWall Connector
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G fortifiedWall Connector
+							connect chin GFort1 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G fortifiedWall Connector
+							connect chin GFort2 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building G fortifiedWall Connector
+							connect chin GFort3 hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+		}
+//---------------------------------Norse------------------------------------------//
+//---------------------------------first wall----------------------------------------//
+		SetSelector
+		{
+			TechLogic none/stone wall
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building WallConnector
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorWallA
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorGreekWallB
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorGreekWallB
+					}
+				}
+			}
+//---------------------------------second wall----------------------------------------//
+			SetSelector
+			{
+				ConstructionLogic 0 33 66
+				SetSelector
+				{
+					damageLogic 0 25 50 75 
+					SetSelector
+					{
+						set hotspot
+						{
+							version
+							{
+								Visual Building N WallConnector
+							}
+						}
+					}
+					SetSelector
+					{
+						set hotspot
+						{
+							version
+							{
+								Visual Building N WallConnector
+								connect chin NStone1 hotspot
+							}
+						}
+					}
+					SetSelector
+					{
+						set hotspot
+						{
+							version
+							{
+								Visual Building N WallConnector
+								connect chin NStone2 hotspot
+							}
+						}
+					}
+					SetSelector
+					{
+						set hotspot
+						{
+							version
+							{
+								Visual Building N WallConnector
+								connect chin NStone3 hotspot
+							}
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+		}
+//================================Atlantis Wall==================================
+		SetSelector
+		{
+			TechLogic none/Stone wall/Bronze wall/Iron wall/Oreichalkos wall
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building WallConnector
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorWallA
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorGreekWallB
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorGreekWallB
+					}
+				}
+			}
+//---------------------------------second wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				setSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Stone Connector
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Stone Connector Stage 1 Destruction
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Stone Connector Stage 2 Destruction
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Stone Connector Stage 3 Destruction
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------third wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Bronze Connector
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Bronze Connector Stage 1 Death
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Bronze Connector Stage 2 Death
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Bronze Connector Stage 3 Death
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------Fourth wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Iron Connector
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Iron Connector Stage 1 Death
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Iron Connector Stage 2 Death
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Iron Connector Stage 3 Death
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------Fifth wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Oreichalkos Connector
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Oreichalkos Connector Stage 1 Death
+							//connect chin ECit1 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Oreichalkos Connector Stage 2 Death
+							//connect chin ECit2 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Oreichalkos Connector Stage 3 Death
+							//connect chin ECit3 hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+		}
+
+//---------------------------------Chinese------------------------------------------//
+//---------------------------------first wall----------------------------------------//
+		SetSelector
+		{
+			TechLogic none/earthen wall/stone wall/fortified wall/great wall
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building WallConnector
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorWallA
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorGreekWallB
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorGreekWallB
+					}
+				}
+			}
+//---------------------------------second wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				setSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Earthen Connector
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Earthen Connector
+							connect chin EStone1 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Earthen Connector
+							connect chin EStone2 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Earthen Connector
+							connect chin EStone3 hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------third wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Stone Connector
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Stone Connector
+							connect chin ECit1 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Stone Connector
+							connect chin ECit2 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Stone Connector
+							connect chin ECit3 hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------Fourth wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Fortified Connector
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Fortified Connector
+							connect chin ECit1 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Fortified Connector
+							connect chin ECit2 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Fortified Connector
+							connect chin ECit3 hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------Fifth wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Great Connector
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Great Connector
+							connect chin ECit1 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Great Connector
+							connect chin ECit2 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Great Connector
+							connect chin ECit3 hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+		}
+	}
+	//---------------------------------first wall----------------------------------------//
+		SetSelector
+		{
+			TechLogic none/earthen wall/stone wall/fortified wall/great wall
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Aztec Wall Connector3
+						ReplaceTexture AztecGateway/AztecGatewayLight
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorWallA
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorGreekWallB
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorGreekWallB
+					}
+				}
+			}
+//---------------------------------second wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				setSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Aztec Wall Connector3
+							ReplaceTexture AztecGateway/AztecGatewayLight
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Earthen Connector
+							connect chin EStone1 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Earthen Connector
+							connect chin EStone2 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Earthen Connector
+							connect chin EStone3 hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------third wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Stone Connector
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Stone Connector
+							connect chin ECit1 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Stone Connector
+							connect chin ECit2 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Stone Connector
+							connect chin ECit3 hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------Fourth wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Fortified Connector
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Fortified Connector
+							connect chin ECit1 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Fortified Connector
+							connect chin ECit2 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Fortified Connector
+							connect chin ECit3 hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------Fifth wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					damageLogic 0 25 50 75 
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Great Connector
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Great Connector
+							connect chin ECit1 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Great Connector
+							connect chin ECit2 hotspot
+						}
+					}
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Great Connector
+							connect chin ECit3 hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Death
+{
+	SetSelector
+	{
+	TechLogic none/Aztec Civ
+    SetSelector
+    {
+		CultureLogic Egyptian/Greek/Norse/Atlantean/Chinese
+//---------------------------------Egyptian------------------------------------------//
+//---------------------------------first wall----------------------------------------//
+		SetSelector
+		{
+			TechLogic none/stone wall/fortified wall/citadel wall
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building WallConnector
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorWallA
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorGreekWallB
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorGreekWallB
+					}
+				}
+			}
+//---------------------------------second wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				setSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallConnector Age2_Death
+							connect hotspot dust hotspot
+							connect chin EStone3 hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------third wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallCon Stage3_Death
+							connect hotspot dust hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------Fourth wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building E WallConnector Age4_Death
+							connect hotspot dust hotspot
+							connect chin ECit3 hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+		}
+//---------------------------------Greek------------------------------------------//
+//---------------------------------first wall----------------------------------------//
+		SetSelector
+		{
+			TechLogic none/stone wall/fortified wall
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building WallConnector
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorWallA
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorGreekWallB
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorGreekWallB
+					}
+				}
+			}
+//---------------------------------second wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				setSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building G WallConnector_Death
+							connect hotspot dust hotspot
+							connect chin GStone3 hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+	//---------------------------------third wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				setSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building G fortifiedWall Connector_Death
+							connect hotspot dust hotspot
+							connect chin GFort3 hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+		}
+//---------------------------------Norse------------------------------------------//
+//---------------------------------first wall----------------------------------------//
+		SetSelector
+		{
+			TechLogic none/stone wall
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building WallConnector
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorWallA
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorGreekWallB
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorGreekWallB
+					}
+				}
+			}
+//---------------------------------second wall----------------------------------------//
+			SetSelector
+			{
+				ConstructionLogic 0 33 66
+				SetSelector
+				{
+					SetSelector
+					{
+						set hotspot
+						{
+							version
+							{
+								Visual Building N WallConnector_death
+								connect hotspot dust hotspot
+								connect chin NStone3 hotspot
+							}
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+		}
+//================================Atlantis Wall==================================
+		SetSelector
+		{
+			TechLogic none/Stone wall/Bronze wall/Iron wall/Oreichalkos wall
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building WallConnector
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorWallA
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorGreekWallB
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorGreekWallB
+					}
+				}
+			}
+//---------------------------------second wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				setSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Stone Connector Stage 4 Death
+							connect Smoke0 dust hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------third wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Bronze Connector Stage 4 Death
+							connect Smoke0 dust hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------Fourth wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Iron Connector Stage 4 Death
+							connect Smoke0 dust hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------Fifth wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building X Wall Oreichalkos Connector Stage 4 Death
+							connect Smoke0 dust hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+		}
+		
+//---------------------------------Chinese------------------------------------------//
+//---------------------------------first wall----------------------------------------//
+		SetSelector
+		{
+			TechLogic none/earthen wall/stone wall/fortified wall/great wall
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Building WallConnector
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorWallA
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorGreekWallB
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorGreekWallB
+					}
+				}
+			}
+//---------------------------------second wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				setSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Earthen Connector_Death
+							connect hotspot dust hotspot
+							connect chin EStone3 hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------third wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Stone Connector_Death
+							connect hotspot dust hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------Fourth wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Fortified Connector_Death
+							connect hotspot dust hotspot
+							connect chin ECit3 hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------Fifth wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Great Connector_Death
+							connect hotspot dust hotspot
+							connect chin ECit3 hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+		}
+	}
+	//---------------------------------first wall----------------------------------------//
+		SetSelector
+		{
+			TechLogic none/earthen wall/stone wall/fortified wall/great wall
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual GenericDestruction
+						Connect FOREHEAD Tage1 hotspot
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorWallA
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorGreekWallB
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building Construction ConnectorGreekWallB
+					}
+				}
+			}
+//---------------------------------second wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				setSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual GenericDestruction
+							Connect FOREHEAD Tage1 hotspot
+							connect hotspot dust hotspot
+							connect chin EStone3 hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------third wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Stone Connector_Death
+							connect hotspot dust hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------Fourth wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Fortified Connector_Death
+							connect hotspot dust hotspot
+							connect chin ECit3 hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+//---------------------------------Fifth wall----------------------------------------//
+			setSelector
+			{	  
+				ConstructionLogic 0 33 66 99
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building C Wall Great Connector_Death
+							connect hotspot dust hotspot
+							connect chin ECit3 hotspot
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorWallA
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallB
+						}
+					}
+				}
+				SetSelector
+				{
+					set hotspot
+					{
+						version
+						{
+							Visual Building Construction ConnectorGreekWallC
+						}
+					}
+				}
+			}
+		}
+	}
+}
+

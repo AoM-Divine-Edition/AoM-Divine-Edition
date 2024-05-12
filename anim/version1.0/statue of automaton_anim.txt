@@ -1,0 +1,32 @@
+//==============================================================================
+// Statue of Automaton_anim.txt
+//==============================================================================
+
+//==============================================================================
+anim Idle
+{
+	SetSelector 
+	{
+		CinematicLogic
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual World X Statue Automaton
+				}
+			}
+		}
+		SetSelector 
+		{
+			set hotspot
+			{
+				version
+				{
+					VisualGranny Autom_Statue
+				}
+			}
+		}
+	}
+}

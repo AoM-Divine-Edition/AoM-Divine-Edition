@@ -1,0 +1,183 @@
+//==============================================================================
+// lava bubble_anim.xt
+//==============================================================================
+
+
+//==============================================================================
+define firecrack
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle GP X Tartarian Gate Firecrack
+      }
+   }
+}
+
+//==============================================================================
+define fireburst
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle GP X Tartarian Gate Fireburst
+      }
+   }
+}
+
+//==============================================================================
+define Dirtcrack
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle GP X Tartarian Gate Dirtcrack
+      }
+   }
+}
+
+//==============================================================================
+define fireprebirth
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle GP X Tartarian Gate Fireprebirth
+      }
+   }
+}
+
+//==============================================================================
+define Blow
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle Special E Phoenix Burst Fire
+      }
+   }
+}
+
+//==============================================================================
+define birthDust
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle GP X Tartarian Gate Fireburst
+      }
+   }
+}
+
+//==============================================================================
+define LavaSpewlarge
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle GP X Tartarian Gate Fireburst
+      }
+   }
+}
+
+//==============================================================================
+define BiglavaVapor
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle GP X Tartarian Gate Fireburst
+      }
+   }  
+}
+
+//==============================================================================
+define LargeSmoke
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle GP X Tartarian Gate Fireburst
+      }
+   }  
+}
+
+//==============================================================================
+anim Idle
+{
+	SetSelector
+	{
+		set hotspot
+		{
+			version
+			{
+				Visualparticle GP X Tartarian Gate Firecrack
+				Connect Smoke0 LavaSpewlarge hotspot
+				Connect Smoke1 LavaSpewlarge hotspot
+				Connect Smoke2 LavaSpewlarge hotspot
+				Connect Hotspot LargeSmoke hotspot
+				Connect HotSpot BiglavaVapor hotspot
+				Connect HotSpot Blow hotspot
+				Connect HotSpot Lava hotspot
+				Connect HotSpot fireprebirth hotspot
+			}
+		}
+	}
+}
+
+
+//==============================================================================
+anim Birth
+{
+	SetSelector
+	{
+		set hotspot
+		{
+			version
+			{
+				Visual GP X Tartarian Gate Crack A
+				Connect HotSpot LavaSpewlarge hotspot
+				Connect HotSpot LargeSmoke hotspot
+				Connect HotSpot BirthDust hotspot
+				Connect Smoke0 LavaSpewlarge hotspot
+				Connect Smoke1 LavaSpewlarge hotspot
+				Connect Smoke2 LavaSpewlarge hotspot
+				Connect Hotspot LargeSmoke hotspot
+				Connect HotSpot BiglavaVapor hotspot
+				Connect HotSpot Blow hotspot
+				Connect HotSpot firecrack hotspot
+				Connect HotSpot fireprebirth hotspot
+				Connect HotSpot fireburst hotspot
+				Connect HotSpot Dirtcrack hotspot
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Death
+{
+	SetSelector
+	{
+		set hotspot
+		{
+			version
+			{
+				Visualparticle GP X Tartarian Gate Firecrack
+				Connect Hotspot LargeSmoke hotspot
+				Connect HotSpot LavaSpewlarge hotspot
+				Connect HotSpot BiglavaVapor hotspot
+				Connect HotSpot BirthDust hotspot
+			}
+		}
+	}
+}

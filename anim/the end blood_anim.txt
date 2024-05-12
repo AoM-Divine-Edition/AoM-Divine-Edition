@@ -1,0 +1,17 @@
+//==============================================================================
+// Scarab Blood_anim.txt
+//==============================================================================
+
+anim Idle
+{
+   SetSelector none 
+   {
+      set hotspot
+      {
+         version
+         {
+          	Visualparticle Special E Scarab Blood
+         }
+      }
+   }
+}

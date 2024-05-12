@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="TimeHunt" type="Vortex" techname="Time Hunt">
+	<activetime>-1 </activetime>
+	<initialdelay>0.0 </initialdelay>
+	<uniteffecttime>1.2 </uniteffecttime>
+	<dropintervalmin>0.1 </dropintervalmin>
+	<dropintervalmax>0.5 </dropintervalmax>
+	<ignoreradius>20.0 </ignoreradius>
+	<vortexstartproto>Vortex start</vortexstartproto>
+	<vortexfinishproto>Vortex finish</vortexfinishproto>
+	<vortexstartlinkedproto>Vortex start linked</vortexstartlinkedproto>
+	<vortexfinishlinkedproto>Vortex finish linked</vortexfinishlinkedproto>
+	<vortexlandingproto>Vortex landing</vortexlandingproto>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="Caster">VortexStart</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<liftsoundset>VortexLift</liftsoundset>
+	<dropsoundset>VortexDrop</dropsoundset>
+	<landsoundset>VortexLand</landsoundset>
+	<placement forceonmap="1">full</placement>
+	<abstractattacktargettype>Hound of Tindalos</abstractattacktargettype>
+	<reveallos radius="30.0">Revealer To Player</reveallos>
+	<unitaitype>Earthquake</unitaitype>
+	<recharges>0 </recharges>
+	<rechargetime>20 </rechargetime>
+
+
+	<icon>improvement time hunt icon</icon>
+	<usedicon>improvement time hunt used icon</usedicon>
+</power>

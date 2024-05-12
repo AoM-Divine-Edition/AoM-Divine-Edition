@@ -1,0 +1,36 @@
+//==============================================================================
+// Courtyard Plants_anim.txt
+//==============================================================================
+
+//==============================================================================
+anim idle
+{
+	SetSelector
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual TreeCocobola
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual TreeCocobolaB
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual TreeCocobolaC
+				
+			}
+		}
+	}
+}

@@ -1,0 +1,45 @@
+//==============================================================================
+// vortex_anim.txt
+//==============================================================================
+
+
+//==============================================================================
+define arealight
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle sfx a vortex area light
+      }
+   }
+}
+
+//==============================================================================
+define swirl
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle sfx a vortex swirl
+      }
+   }
+}
+
+//==============================================================================
+anim Idle
+{
+	SetSelector 
+	{
+		set hotspot
+		{
+			version
+			{
+				Visualnone test object
+				Connect ATTACHPOINT arealight hotspot
+				Connect ATTACHPOINT swirl hotspot
+			}
+		}
+	}
+}

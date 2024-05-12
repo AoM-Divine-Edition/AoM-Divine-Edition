@@ -1,0 +1,489 @@
+//==============================================================================
+// sIEGE CAMP_anim.txt
+//==============================================================================
+
+
+import Construction_defines_anim.txt
+
+//==============================================================================
+define Dust
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Building DustA
+      }
+   }  
+}
+
+//==============================================================================
+define empower
+{
+   SetSelector
+   {
+      EmpowerLogic
+      SetSelector
+      {
+         set hotspot
+         {
+            version
+            {
+               Visualnone Jimmy
+            }
+         }
+      }
+      SetSelector
+      {
+         set hotspot
+         {
+            version
+            {
+               Visualparticle SFX E Pharaoh Empower Large
+            }
+         }
+      }
+   }
+}
+
+//==============================================================================
+define CypressB
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Terrain G CypressB
+      }
+   }  
+}
+//==============================================================================
+define CypressA
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Terrain G CypressA
+      }
+   }  
+}
+//==============================================================================
+define Catapult
+{
+   SetSelector
+   {
+		TechLogic none/Engineers
+      set hotspot
+      {
+         version
+         {
+            Visual Building Beta G Siege Camp Catapult
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+            Visual Building Beta G Siege Camp Catapult
+ReplaceTexture Siege N Catapult Map/Siege N Catapult Map Iron
+         }
+      }
+   }
+}
+//==============================================================================
+define ACC1
+{
+   SetSelector
+   {
+		TechLogic none/Engineers
+      set hotspot
+      {
+         version
+         {
+            Visual Building Beta G Siege Camp ACC
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+            Visual Building Beta G Siege Camp ACC
+ReplaceTexture Siege Beta Ballista/Siege Beta Ballista Iron
+         }
+      }
+   }
+}
+//==============================================================================
+define ACC2
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Building Beta G Siege Camp Flag
+      }
+   }  
+}
+//==============================================================================
+anim idle
+{
+   SetSelector
+   {
+      TechLogic age 2/age 3/age 4
+ //---------------------------Age 2--------------------------------// 
+      SetSelector
+      {
+         ConstructionLogic 0 33 66
+         set hotspot
+         {
+            version
+            {
+             Visual Building Beta G Siege Camp_ClassicalAge
+                        connect hotspot ACC1 hotspot
+                        connect hotspot ACC2 hotspot
+                        connect Leftfoot CypressA hotspot
+                        connect Leftleg CypressB hotspot
+                        connect hotspot Catapult hotspot
+                        connect Rightfoot CypressA hotspot
+               connect ATTACHPOINT empower hotspot
+
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+               Visual Building Construction Large A
+		         connect attachpoint G_Long_Brick hotspot
+		         connect face G_Long_Brick hotspot
+		         connect chin G_Medium_Brick hotspot
+		         connect leftfoot G_Medium_Brick hotspot
+		         connect lefthand G_Small_Brick hotspot
+		         connect leftleg G_Small_Brick hotspot
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+               Visual Building Construction Large B
+		         connect attachpoint G_Long_Brick hotspot
+		         connect face G_Long_Brick hotspot
+		         connect chin G_Medium_Brick hotspot
+		         connect leftfoot G_Medium_Brick hotspot
+		         connect lefthand G_Small_Brick hotspot
+		         connect leftleg G_Small_Brick hotspot
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+               Visual Building Construction Large B
+		         connect attachpoint G_Long_Brick hotspot
+		         connect face G_Long_Brick hotspot
+		         connect chin G_Medium_Brick hotspot
+		         connect leftfoot G_Medium_Brick hotspot
+		         connect lefthand G_Small_Brick hotspot
+		         connect leftleg G_Small_Brick hotspot
+            }
+         }
+      }
+ //---------------------------Age 3--------------------------------// 
+      SetSelector
+      {
+         ConstructionLogic 0 33 66
+         set hotspot
+         {
+            version
+            {
+             Visual Building Beta G Siege Camp
+                        connect hotspot ACC1 hotspot
+                        connect hotspot ACC2 hotspot
+                        connect Leftfoot CypressA hotspot
+                        connect Leftleg CypressB hotspot
+                        connect hotspot Catapult hotspot
+                        connect Rightfoot CypressA hotspot
+               connect ATTACHPOINT empower hotspot
+
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+               Visual Building Construction Large A
+		         connect attachpoint G_Long_Brick hotspot
+		         connect face G_Long_Brick hotspot
+		         connect chin G_Medium_Brick hotspot
+		         connect leftfoot G_Medium_Brick hotspot
+		         connect lefthand G_Small_Brick hotspot
+		         connect leftleg G_Small_Brick hotspot
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+               Visual Building Construction Large B
+		         connect attachpoint G_Long_Brick hotspot
+		         connect face G_Long_Brick hotspot
+		         connect chin G_Medium_Brick hotspot
+		         connect leftfoot G_Medium_Brick hotspot
+		         connect lefthand G_Small_Brick hotspot
+		         connect leftleg G_Small_Brick hotspot
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+               Visual Building Construction Large B
+		         connect attachpoint G_Long_Brick hotspot
+		         connect face G_Long_Brick hotspot
+		         connect chin G_Medium_Brick hotspot
+		         connect leftfoot G_Medium_Brick hotspot
+		         connect lefthand G_Small_Brick hotspot
+		         connect leftleg G_Small_Brick hotspot
+            }
+         }
+      }
+    //---------------------------Age 4--------------------------------// 
+      SetSelector
+      {
+         ConstructionLogic 0 33 66
+         set hotspot
+         {
+            version
+            {
+             Visual Building Beta G Siege Camp_OlympicAge
+                        connect hotspot ACC1 hotspot
+                        connect hotspot ACC2 hotspot
+                        connect Leftfoot CypressA hotspot
+                        connect Leftleg CypressB hotspot
+                        connect hotspot Catapult hotspot
+                        connect Rightfoot CypressA hotspot
+               connect ATTACHPOINT empower hotspot
+
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+               Visual Building Construction Large A
+		         connect attachpoint G_Long_Brick hotspot
+		         connect face G_Long_Brick hotspot
+		         connect chin G_Medium_Brick hotspot
+		         connect leftfoot G_Medium_Brick hotspot
+		         connect lefthand G_Small_Brick hotspot
+		         connect leftleg G_Small_Brick hotspot
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+               Visual Building Construction Large B
+		         connect attachpoint G_Long_Brick hotspot
+		         connect face G_Long_Brick hotspot
+		         connect chin G_Medium_Brick hotspot
+		         connect leftfoot G_Medium_Brick hotspot
+		         connect lefthand G_Small_Brick hotspot
+		         connect leftleg G_Small_Brick hotspot
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+               Visual Building Construction Large B
+		         connect attachpoint G_Long_Brick hotspot
+		         connect face G_Long_Brick hotspot
+		         connect chin G_Medium_Brick hotspot
+		         connect leftfoot G_Medium_Brick hotspot
+		         connect lefthand G_Small_Brick hotspot
+		         connect leftleg G_Small_Brick hotspot
+            }
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim Death
+{
+   SetSelector
+   {
+      TechLogic age 2/age 3/age 4
+ //---------------------------Age 2--------------------------------// 
+      SetSelector
+      {
+         ConstructionLogic 0 33 66
+         set hotspot
+         {
+            version
+            {
+             Visual Building Beta G Siege Camp_ClassicalAgeDeath
+               connect Smoke0 Dust hotspot
+					connect Smoke1 Dust hotspot
+					connect Smoke2 Dust hotspot
+					connect Smoke3 Dust hotspot
+
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+               Visual Building Construction Large A
+		         connect attachpoint G_Long_Brick hotspot
+		         connect face G_Long_Brick hotspot
+		         connect chin G_Medium_Brick hotspot
+		         connect leftfoot G_Medium_Brick hotspot
+		         connect lefthand G_Small_Brick hotspot
+		         connect leftleg G_Small_Brick hotspot
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+               Visual Building Construction Large B
+		         connect attachpoint G_Long_Brick hotspot
+		         connect face G_Long_Brick hotspot
+		         connect chin G_Medium_Brick hotspot
+		         connect leftfoot G_Medium_Brick hotspot
+		         connect lefthand G_Small_Brick hotspot
+		         connect leftleg G_Small_Brick hotspot
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+               Visual Building Construction Large B
+		         connect attachpoint G_Long_Brick hotspot
+		         connect face G_Long_Brick hotspot
+		         connect chin G_Medium_Brick hotspot
+		         connect leftfoot G_Medium_Brick hotspot
+		         connect lefthand G_Small_Brick hotspot
+		         connect leftleg G_Small_Brick hotspot
+            }
+         }
+      }
+ //---------------------------Age 3--------------------------------// 
+      SetSelector
+      {
+         ConstructionLogic 0 33 66
+         set hotspot
+         {
+            version
+            {
+             Visual Building Beta G Siege Camp_Death
+               connect Smoke0 Dust hotspot
+					connect Smoke1 Dust hotspot
+					connect Smoke2 Dust hotspot
+					connect Smoke3 Dust hotspot
+
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+               Visual Building Construction Large A
+		         connect attachpoint G_Long_Brick hotspot
+		         connect face G_Long_Brick hotspot
+		         connect chin G_Medium_Brick hotspot
+		         connect leftfoot G_Medium_Brick hotspot
+		         connect lefthand G_Small_Brick hotspot
+		         connect leftleg G_Small_Brick hotspot
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+               Visual Building Construction Large B
+		         connect attachpoint G_Long_Brick hotspot
+		         connect face G_Long_Brick hotspot
+		         connect chin G_Medium_Brick hotspot
+		         connect leftfoot G_Medium_Brick hotspot
+		         connect lefthand G_Small_Brick hotspot
+		         connect leftleg G_Small_Brick hotspot
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+               Visual Building Construction Large B
+		         connect attachpoint G_Long_Brick hotspot
+		         connect face G_Long_Brick hotspot
+		         connect chin G_Medium_Brick hotspot
+		         connect leftfoot G_Medium_Brick hotspot
+		         connect lefthand G_Small_Brick hotspot
+		         connect leftleg G_Small_Brick hotspot
+            }
+         }
+      }
+    //---------------------------Age 4--------------------------------// 
+      SetSelector
+      {
+         ConstructionLogic 0 33 66
+         set hotspot
+         {
+            version
+            {
+             Visual Building Beta G Siege Camp_OlympicAgeDeath
+               connect Smoke0 Dust hotspot
+					connect Smoke1 Dust hotspot
+					connect Smoke2 Dust hotspot
+					connect Smoke3 Dust hotspot
+
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+               Visual Building Construction Large A
+		         connect attachpoint G_Long_Brick hotspot
+		         connect face G_Long_Brick hotspot
+		         connect chin G_Medium_Brick hotspot
+		         connect leftfoot G_Medium_Brick hotspot
+		         connect lefthand G_Small_Brick hotspot
+		         connect leftleg G_Small_Brick hotspot
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+               Visual Building Construction Large B
+		         connect attachpoint G_Long_Brick hotspot
+		         connect face G_Long_Brick hotspot
+		         connect chin G_Medium_Brick hotspot
+		         connect leftfoot G_Medium_Brick hotspot
+		         connect lefthand G_Small_Brick hotspot
+		         connect leftleg G_Small_Brick hotspot
+            }
+         }
+         set hotspot
+         {
+            version
+            {
+               Visual Building Construction Large B
+		         connect attachpoint G_Long_Brick hotspot
+		         connect face G_Long_Brick hotspot
+		         connect chin G_Medium_Brick hotspot
+		         connect leftfoot G_Medium_Brick hotspot
+		         connect lefthand G_Small_Brick hotspot
+		         connect leftleg G_Small_Brick hotspot
+            }
+         }
+      }
+   }
+}

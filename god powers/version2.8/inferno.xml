@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Inferno" type="inferno" techname="Inferno">
+	<BuildupTime>2.0</BuildupTime>
+	<ActiveTime>18.0</ActiveTime>
+	<Radius>30.0</Radius>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">Inferno</soundset>
+	<soundset type="ExistSound" listenertype="IfOnScreenAll" loop="1" positional="1">InfernoExist</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<UnitAIType>HandCombative</UnitAIType>
+	<placement forceonmap="1" enemy="">free</placement>
+	<powerblocker>30.0f</powerblocker>
+	<rangeindicatorprotoid radius="30.0" indicatorcount="10" speed="0.2">UI Range Indicator aztec</rangeindicatorprotoid>
+	<field>inferno field</field>
+	<UnitFlame>inferno unit flame</UnitFlame>
+	<GroundFlame>inferno fire ground</GroundFlame>
+	<GroundFlameStartTime>1.0</GroundFlameStartTime>
+	<GroundFlameEndTime>25.0</GroundFlameEndTime>
+	<GroundFlameMinRadius>0.0</GroundFlameMinRadius>
+	<GroundFlameMaxRadius>1.0</GroundFlameMaxRadius>
+	<MinGroundFlameTime>2.5</MinGroundFlameTime>
+	<MaxGroundFlameTime>3.5</MaxGroundFlameTime>
+	<MinGroundFlameSpeed>4.0</MinGroundFlameSpeed>
+	<MaxGroundFlameSpeed>6.0</MaxGroundFlameSpeed>
+	<FullAngle>90.0</FullAngle>
+	<MinAngleSpeed>10</MinAngleSpeed>
+	<MaxAngleSpeed>20</MaxAngleSpeed>
+	<MinAttackTime>0.1</MinAttackTime>
+	<MaxAttackTime>0.15</MaxAttackTime>
+	<Accuracy>1.0</Accuracy>
+	<playsbattlemusic></playsbattlemusic>
+	<camerashake duration="0.50" strength="0.25"></camerashake>
+	<gpdamagemodel>
+		<playerrelation>enemy</playerrelation>
+		<basedamagepercentunit>0.6</basedamagepercentunit>
+		<basedamagepercentvillager>0.25</basedamagepercentvillager>
+		<basedamagepercentbuilding>0.75</basedamagepercentbuilding>
+		<minhpdamageunit>1700</minhpdamageunit>
+		<minhpdamagevillager>450</minhpdamagevillager>
+		<minhpdamagebuilding>5000</minhpdamagebuilding>
+		<maxhpdamageunit>4800</maxhpdamageunit>
+		<maxhpdamagevillager>800</maxhpdamagevillager>
+		<maxhpdamagebuilding>9000</maxhpdamagebuilding>
+	</gpdamagemodel>
+	<gpdamagemodel>
+		<playerrelation>ally</playerrelation>
+		<basedamagepercentunit>0.25</basedamagepercentunit>
+		<basedamagepercentvillager>0.25</basedamagepercentvillager>
+		<basedamagepercentbuilding>0.25</basedamagepercentbuilding>
+		<minhpdamageunit>0</minhpdamageunit>
+		<minhpdamagevillager>0</minhpdamagevillager>
+		<minhpdamagebuilding>0</minhpdamagebuilding>
+		<maxhpdamageunit>0</maxhpdamageunit>
+		<maxhpdamagevillager>0</maxhpdamagevillager>
+		<maxhpdamagebuilding>0</maxhpdamagebuilding>
+	</gpdamagemodel>
+</power>
+

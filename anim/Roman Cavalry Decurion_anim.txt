@@ -1,0 +1,697 @@
+//==============================================================================
+// Hippikon_anim.txt
+//==============================================================================
+
+//==============================================================================
+define heroglow
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Hero Glow Small
+      }
+   }
+}
+
+//==============================================================================
+define soul
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Hero Soul
+      }
+   }
+}
+
+//==============================================================================
+define soulborn
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Hero SoulBorn
+      }
+   }
+}
+
+//==============================================================================
+define soulaurora
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Hero Soul Aurora
+      }
+   }
+}
+
+//==============================================================================
+define soulauroraborn
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Hero Soul AuroraBorn
+      }
+   }
+}
+
+//==============================================================================
+define heavenlight
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Hero Soul Heaven Light
+      }
+   }
+}
+
+//==============================================================================
+define soulbirth
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Hero Soul Birth
+      }
+   }
+}
+
+//==============================================================================
+define shield
+{
+   SetSelector
+   {
+		set hotspot
+		{
+			version
+			{
+				visual Attachments G Shield Small Iron
+				ReplaceTexture Attachments G Shield Copper/equitesshield
+			}
+		}
+	}
+}
+
+//==============================================================================
+define Head
+{
+   SetSelector
+   {
+      TechLogic none/Medium Cavalry/Heavy Cavalry/Champion Cavalry
+      set hotspot
+      {
+         version
+         {
+				Visual Infantry G Hoplite Head Iron
+	            ReplaceTexture Infantry g hoplite head iron/infantry g hypaspist head bronze
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				Visual Infantry G Hoplite Head Iron
+	            ReplaceTexture Infantry g hoplite head iron/infantry g hypaspist head bronze
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				Visual Infantry G Hoplite Head Iron
+	            ReplaceTexture Infantry g hoplite head iron/infantry g hypaspist head bronze
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				Visual Infantry G Hoplite Head Iron
+	            ReplaceTexture Infantry g hoplite head iron/infantry g hypaspist head bronze
+         }
+      }
+   }
+}
+
+//==============================================================================
+define AtlantisLance
+{
+	SetSelector
+	{
+		TechLogic none/Copper Weapons/Bronze Weapons/Iron Weapons
+		set hotspot
+		{
+			version
+			{
+				visual attachments x lance standard
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				visual attachments x lance Copper
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				visual attachments x lance Bronze
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				visual attachments x lance Iron
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Bored
+{
+
+   SetSelector
+   {
+      TechLogic none/Medium Cavalry/Heavy Cavalry/Champion Cavalry
+      set hotspot
+      {
+         version
+         {
+				Visual Cavalry G Prodromos_BoredA
+				ReplaceTexture Cavalry G Prodromos Standard/infantry r legionario standard
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry C Cataphract Horse Bronze
+				Connect TopOfHead Head hotspot
+				connect LeftForearm Shield hotspot
+				connect RIGHTHAND AtlantisLance hotspot
+				Connect FRONTABDOMEN heroglow hotspot
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				Visual Cavalry G Prodromos_BoredA
+				ReplaceTexture Cavalry G Prodromos Standard/infantry r legionario standard
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry C Cataphract Horse Bronze
+				Connect TopOfHead Head hotspot
+				connect LeftForearm Shield hotspot
+				connect RIGHTHAND AtlantisLance hotspot
+				Connect FRONTABDOMEN heroglow hotspot
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				Visual Cavalry G Prodromos_BoredA
+				ReplaceTexture Cavalry G Prodromos Standard/infantry r legionario standard
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry C Cataphract Horse Bronze
+				Connect TopOfHead Head hotspot
+				connect LeftForearm Shield hotspot
+				connect RIGHTHAND AtlantisLance hotspot
+				Connect FRONTABDOMEN heroglow hotspot
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				Visual Cavalry G Prodromos_BoredA
+				ReplaceTexture Cavalry G Prodromos Standard/infantry r legionario standard
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry C Cataphract Horse Bronze
+				Connect TopOfHead Head hotspot
+				connect LeftForearm Shield hotspot
+				connect RIGHTHAND AtlantisLance hotspot
+				Connect FRONTABDOMEN heroglow hotspot
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim Walk
+{
+   SetSelector
+   {
+      TechLogic none/Medium Cavalry/Heavy Cavalry/Champion Cavalry
+      set hotspot
+      {
+         version
+         {  
+			Visual Cavalry G Prodromos_WalkA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+            tag FootstepLeft 0.60 true   
+            tag FootstepRight 0.00 true   
+            tag FootstepLeft 0.95 true   
+            tag FootstepRight 0.55 true   
+//-- end auto generated section
+			ReplaceTexture Cavalry G Prodromos Standard/infantry r legionario standard
+			ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry C Cataphract Horse Bronze
+			Connect TopOfHead Head hotspot
+			connect LeftForearm Shield hotspot
+			connect RIGHTHAND AtlantisLance hotspot
+			Connect FRONTABDOMEN heroglow hotspot
+         }
+      }
+      set hotspot
+      {
+         version
+         {  
+			Visual Cavalry G Prodromos_WalkA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+            tag FootstepLeft 0.60 true   
+            tag FootstepRight 0.00 true   
+            tag FootstepLeft 0.95 true   
+            tag FootstepRight 0.55 true   
+//-- end auto generated section
+			ReplaceTexture Cavalry G Prodromos Standard/infantry r legionario standard
+			ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry C Cataphract Horse Bronze
+			Connect TopOfHead Head hotspot
+			connect LeftForearm Shield hotspot
+			connect RIGHTHAND AtlantisLance hotspot
+			Connect FRONTABDOMEN heroglow hotspot
+         }
+      }
+      set hotspot
+      {
+         version
+         {  
+			Visual Cavalry G Prodromos_WalkA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+            tag FootstepLeft 0.60 true   
+            tag FootstepRight 0.00 true   
+            tag FootstepLeft 0.95 true   
+            tag FootstepRight 0.55 true   
+//-- end auto generated section
+			ReplaceTexture Cavalry G Prodromos Standard/infantry r legionario standard
+			ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry C Cataphract Horse Bronze
+			Connect TopOfHead Head hotspot
+			connect LeftForearm Shield hotspot
+			connect RIGHTHAND AtlantisLance hotspot
+			Connect FRONTABDOMEN heroglow hotspot
+         }
+      }
+      set hotspot
+      {
+         version
+         {  
+			Visual Cavalry G Prodromos_WalkA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+            tag FootstepLeft 0.60 true   
+            tag FootstepRight 0.00 true   
+            tag FootstepLeft 0.95 true   
+            tag FootstepRight 0.55 true   
+//-- end auto generated section
+			ReplaceTexture Cavalry G Prodromos Standard/infantry r legionario standard
+			ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry C Cataphract Horse Bronze
+			Connect TopOfHead Head hotspot
+			connect LeftForearm Shield hotspot
+			connect RIGHTHAND AtlantisLance hotspot
+			Connect FRONTABDOMEN heroglow hotspot
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim Death
+{
+   SetSelector
+   {
+      TechLogic none/Medium Cavalry/Heavy Cavalry/Champion Cavalry
+      set hotspot
+      {
+         version
+         {
+				Visual Cavalry G Prodromos_DeathA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+            tag SpecificSoundSet 0.60 false HeavyFall checkVisible 
+//-- end auto generated section
+				ReplaceTexture Cavalry G Prodromos Standard/infantry r legionario standard
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry C Cataphract Horse Bronze
+				Connect TopOfHead Head hotspot
+				connect LeftForearm Shield hotspot
+				connect RIGHTHAND AtlantisLance hotspot
+				Connect FRONTABDOMEN heroglow hotspot
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				Visual Cavalry G Prodromos_DeathA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+            tag SpecificSoundSet 0.60 false HeavyFall checkVisible 
+//-- end auto generated section
+				ReplaceTexture Cavalry G Prodromos Standard/infantry r legionario standard
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry C Cataphract Horse Bronze
+				Connect TopOfHead Head hotspot
+				connect LeftForearm Shield hotspot
+				connect RIGHTHAND AtlantisLance hotspot
+				Connect FRONTABDOMEN heroglow hotspot
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				Visual Cavalry G Prodromos_DeathA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+            tag SpecificSoundSet 0.60 false HeavyFall checkVisible 
+//-- end auto generated section
+				ReplaceTexture Cavalry G Prodromos Standard/infantry r legionario standard
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry C Cataphract Horse Bronze
+				Connect TopOfHead Head hotspot
+				connect LeftForearm Shield hotspot
+				connect RIGHTHAND AtlantisLance hotspot
+				Connect FRONTABDOMEN heroglow hotspot
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				Visual Cavalry G Prodromos_DeathA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+            tag SpecificSoundSet 0.60 false HeavyFall checkVisible 
+//-- end auto generated section
+				ReplaceTexture Cavalry G Prodromos Standard/infantry r legionario standard
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry C Cataphract Horse Bronze
+				Connect TopOfHead Head hotspot
+				connect LeftForearm Shield hotspot
+				connect RIGHTHAND AtlantisLance hotspot
+				Connect FRONTABDOMEN heroglow hotspot
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim Idle
+{
+   SetSelector
+   {
+		TechLogic none/Medium Cavalry/Heavy Cavalry/Champion Cavalry
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos_IdleA
+				ReplaceTexture Cavalry G Prodromos Standard/infantry r legionario standard
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry C Cataphract Horse Bronze
+				Connect TopOfHead Head hotspot
+				connect LeftForearm Shield hotspot
+				connect RIGHTHAND AtlantisLance hotspot
+				Connect FRONTABDOMEN heroglow hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos_IdleA
+				ReplaceTexture Cavalry G Prodromos Standard/infantry r legionario standard
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry C Cataphract Horse Bronze
+				Connect TopOfHead Head hotspot
+				connect LeftForearm Shield hotspot
+				connect RIGHTHAND AtlantisLance hotspot
+				Connect FRONTABDOMEN heroglow hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos_IdleA
+				ReplaceTexture Cavalry G Prodromos Standard/infantry r legionario standard
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry C Cataphract Horse Bronze
+				Connect TopOfHead Head hotspot
+				connect LeftForearm Shield hotspot
+				connect RIGHTHAND AtlantisLance hotspot
+				Connect FRONTABDOMEN heroglow hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos_IdleA
+				ReplaceTexture Cavalry G Prodromos Standard/infantry r legionario standard
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry C Cataphract Horse Bronze
+				Connect TopOfHead Head hotspot
+				connect LeftForearm Shield hotspot
+				connect RIGHTHAND AtlantisLance hotspot
+				Connect FRONTABDOMEN heroglow hotspot
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Attack
+{
+   SetSelector
+   {
+      TechLogic none/Medium Cavalry/Heavy Cavalry/Champion Cavalry
+      set hotspot
+      {
+         version
+         {
+				Visual Cavalry G Prodromos_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+            tag Attack 0.77 true   
+            tag GenericSound 0.40 true   
+//-- end auto generated section
+				ReplaceTexture Cavalry G Prodromos Standard/infantry r legionario standard
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry C Cataphract Horse Bronze
+				Connect TopOfHead Head hotspot
+				connect LeftForearm Shield hotspot
+				connect RIGHTHAND AtlantisLance hotspot
+				Connect FRONTABDOMEN heroglow hotspot
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				Visual Cavalry G Prodromos_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+            tag Attack 0.77 true   
+            tag GenericSound 0.40 true   
+//-- end auto generated section
+				ReplaceTexture Cavalry G Prodromos Standard/infantry r legionario standard
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry C Cataphract Horse Bronze
+				Connect TopOfHead Head hotspot
+				connect LeftForearm Shield hotspot
+				connect RIGHTHAND AtlantisLance hotspot
+				Connect FRONTABDOMEN heroglow hotspot
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				Visual Cavalry G Prodromos_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+            tag Attack 0.77 true   
+            tag GenericSound 0.40 true   
+//-- end auto generated section
+				ReplaceTexture Cavalry G Prodromos Standard/infantry r legionario standard
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry C Cataphract Horse Bronze
+				Connect TopOfHead Head hotspot
+				connect LeftForearm Shield hotspot
+				connect RIGHTHAND AtlantisLance hotspot
+				Connect FRONTABDOMEN heroglow hotspot
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				Visual Cavalry G Prodromos_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+            tag Attack 0.77 true   
+            tag GenericSound 0.40 true   
+//-- end auto generated section
+				ReplaceTexture Cavalry G Prodromos Standard/infantry r legionario standard
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry C Cataphract Horse Bronze
+				Connect TopOfHead Head hotspot
+				connect LeftForearm Shield hotspot
+				connect RIGHTHAND AtlantisLance hotspot
+				Connect FRONTABDOMEN heroglow hotspot
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim RangedAttack
+{
+	SetSelector
+	{
+		TechLogic none/Medium Stable/Heavy Stable/Champion Stable
+		set hotspot
+		{
+			version
+			{
+				Visual Archer C Mounted Archer_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag Attack 0.71 true	
+					tag GenericSound 0.60 true	
+					tag SpecificSoundSet 0.67 false Arrow checkVisible 
+//-- end auto generated section
+                ReplaceTexture Archer C Mounted Archer Standard/infantry r legionario standard
+				ReplaceTexture Archer C Mounted Archer Horse Standard/Cavalry C Cataphract Horse Bronze
+				connect RightHand recurvebow hotspot
+				connect LeftForearm Shield hotspot
+				Connect TopOfHead Head hotspot
+				connect BackChest Quiver hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Archer C Mounted Archer_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag Attack 0.61 true	
+					tag GenericSound 0.60 true	
+					tag SpecificSoundSet 0.67 false Arrow checkVisible 
+//-- end auto generated section
+				ReplaceTexture Archer C Mounted Archer Standard/infantry r legionario standard
+				ReplaceTexture Archer C Mounted Archer Horse Standard/Cavalry C Cataphract Horse Bronze
+				connect RightHand recurvebow hotspot
+				connect LeftForearm Shield hotspot
+				Connect TopOfHead Head hotspot
+				connect BackChest Quiver hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Archer C Mounted Archer_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag Attack 0.61 true	
+					tag GenericSound 0.60 true	
+					tag SpecificSoundSet 0.67 false Arrow checkVisible 
+//-- end auto generated section
+				ReplaceTexture Archer C Mounted Archer Standard/infantry r legionario standard
+				ReplaceTexture Archer C Mounted Archer Horse Standard/Cavalry C Cataphract Horse Bronze
+				connect RightHand recurvebow hotspot
+				connect LeftForearm Shield hotspot
+				Connect TopOfHead Head hotspot
+				connect BackChest Quiver hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Archer C Mounted Archer_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag Attack 0.61 true	
+					tag GenericSound 0.60 true	
+					tag SpecificSoundSet 0.67 false Arrow checkVisible 
+//-- end auto generated section
+				ReplaceTexture Archer C Mounted Archer Standard/infantry r legionario standard
+				ReplaceTexture Archer C Mounted Archer Horse Standard/Cavalry C Cataphract Horse Bronze
+				connect RightHand recurvebow hotspot
+				connect LeftForearm Shield hotspot
+				Connect TopOfHead Head hotspot
+				connect BackChest Quiver hotspot
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Flail
+{
+   SetSelector
+   {
+      TechLogic none/Medium Cavalry/Heavy Cavalry/Champion Cavalry
+      set hotspot
+      {
+         version
+         {
+				Visual Cavalry G Prodromos_FlailA
+				ReplaceTexture Cavalry G Prodromos Standard/infantry r legionario standard
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry C Cataphract Horse Bronze
+				Connect TopOfHead Head hotspot
+				connect LeftForearm Shield hotspot
+				connect RIGHTHAND AtlantisLance hotspot
+				Connect FRONTABDOMEN heroglow hotspot
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				Visual Cavalry G Prodromos_FlailA
+				ReplaceTexture Cavalry G Prodromos Standard/infantry r legionario standard
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry C Cataphract Horse Bronze
+				Connect TopOfHead Head hotspot
+				connect LeftForearm Shield hotspot
+				connect RIGHTHAND AtlantisLance hotspot
+				Connect FRONTABDOMEN heroglow hotspot
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				Visual Cavalry G Prodromos_FlailA
+				ReplaceTexture Cavalry G Prodromos Standard/infantry r legionario standard
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry C Cataphract Horse Bronze
+				Connect TopOfHead Head hotspot
+				connect LeftForearm Shield hotspot
+				connect RIGHTHAND AtlantisLance hotspot
+				Connect FRONTABDOMEN heroglow hotspot
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+				Visual Cavalry G Prodromos_FlailA
+				ReplaceTexture Cavalry G Prodromos Standard/infantry r legionario standard
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry C Cataphract Horse Bronze
+				Connect TopOfHead Head hotspot
+				connect LeftForearm Shield hotspot
+				connect RIGHTHAND AtlantisLance hotspot
+				Connect FRONTABDOMEN heroglow hotspot
+         }
+      }
+   }
+}

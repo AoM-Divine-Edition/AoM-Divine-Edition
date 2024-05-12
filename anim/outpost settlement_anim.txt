@@ -1,0 +1,39 @@
+//==============================================================================
+anim Idle
+{
+	SetSelector 
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual LakotaTownCenter4
+			}
+		}
+
+	}
+}
+
+
+anim RangedAttack
+{
+	SetSelector 
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual LakotaTownCenter4
+			tag Attack 0.40 true
+                        tag GenericSound 0.40 true
+                        tag SpecificSoundSet 0.40 false Arrow checkVisible
+			}
+		}
+
+	}
+}
+
+
+                        

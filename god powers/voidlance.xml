@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Voidlance" type="TempUnit" techname="Voidlance">
+	<activetime>15.0</activetime>
+	<placement forceonmap="1">all</placement>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">GodPowerStart</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	
+	<rangeindicatorprotoid radius="5.0" indicatorcount="5" speed="0.2">UI Range Indicator Egypt SFX</rangeindicatorprotoid>
+	<createunit quantity="1"   minradius="0" maxradius="0" pattern="random"  delay="0.0">Voidblob Creature</createunit>
+	<createunit quantity="6"   minradius="0.5" maxradius="0.5" pattern="symmetric"  delay="1.0">Voidblob Creature</createunit>
+	<createunit quantity="10"  minradius="1.0" maxradius="1.0" pattern="symmetric"  delay="1.2">Voidblob Creature</createunit>
+	<createunit quantity="15"  minradius="1.5" maxradius="1.5" pattern="symmetric"  delay="1.4">Voidblob Creature</createunit>
+	<createunit quantity="20"  minradius="2.0" maxradius="2.0" pattern="symmetric"  delay="1.6">Voidblob Creature</createunit>
+	<createunit quantity="25"  minradius="2.3" maxradius="2.3" pattern="symmetric"  delay="1.8">Voidblob Creature</createunit>
+	<createunit quantity="30"  minradius="2.6" maxradius="2.6" pattern="symmetric"  delay="1.9">Voidblob Creature</createunit>
+	<createunit quantity="35"  minradius="3.0" maxradius="3.0" pattern="symmetric"  delay="2.0">Voidblob Creature</createunit>
+	
+	
+	
+	<icon>improvement void holes icon</icon>
+	<usedicon>improvement void holes used icon</usedicon>
+
+	<recharges>0</recharges>
+	<rechargetime>35</rechargetime>
+</power>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<power name="FruitOfTheGarden" type="flamingweapons" techname="Fruit of the Garden">
+	<placement>skip</placement>
+	<activetime>45</activetime>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">FrostWindLoop</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<powerplayerrelation>player</powerplayerrelation>
+	<tech>Fruit of the Garden Active</tech>
+	
+	<icon>improvement Fruit of the Garden icon</icon>
+	<usedicon>improvement Fruit of the Garden used icon</usedicon>
+</power>

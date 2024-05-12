@@ -1,0 +1,81 @@
+//==============================================================================
+// Fire Large_anim.txt
+//==============================================================================
+
+//==============================================================================
+define firehuge
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Generic Fire Huge
+      }
+   }
+}
+
+//==============================================================================
+define firehugebowl
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Generic Fire Huge Bowl
+      }
+   }
+}
+
+//==============================================================================
+define firebig
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Generic Fire Big
+      }
+   }
+}
+
+//==============================================================================
+define firebigbowl
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Generic Fire Big Bowl
+      }
+   }
+}
+
+//==============================================================================
+anim Idle
+{
+	SetSelector none 
+	{
+		VariationLogic
+		set hotspot
+		{
+		version
+			{
+			Visualnone jimmy
+			Connect ATTACHPOINT firebig hotspot
+			Connect ATTACHPOINT firebigbowl hotspot
+			}
+		}
+		set hotspot
+		{
+		version
+			{
+            Visualnone jimmy
+			Connect ATTACHPOINT firehuge hotspot
+			Connect ATTACHPOINT firehugebowl hotspot
+			}
+		}
+	}
+}
+
+
+    

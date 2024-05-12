@@ -1,0 +1,97 @@
+//==============================================================================
+// Meteor_anim.txt
+//==============================================================================
+
+//==============================================================================
+define FireTrail
+{
+	set hotspot
+	{
+		version
+		{
+			Visualparticle SFX A Meteorite Trail Fire
+		}
+	}
+}
+
+//==============================================================================
+define smokeTrail
+{
+	set hotspot
+	{
+		version
+		{
+			Visualparticle SFX A Meteorite Trail Smoke
+		}
+	}
+}
+
+
+//==============================================================================
+define dust
+{
+	set hotspot
+	{
+		version
+		{
+			Visualparticle SFX A Meteorite Dust
+		}
+	}
+}
+
+//==============================================================================
+define blast
+{
+	set hotspot
+	{
+		version
+		{
+			Visualparticle SFX A Meteorite shockwave
+		}
+	}
+}
+
+//==============================================================================
+define splat
+{
+	set hotspot
+	{
+		version
+		{
+			Visualparticle SFX A Meteorite Splat
+		}
+	}
+}
+
+//==============================================================================
+define splash
+{
+	set hotspot
+	{
+		version
+		{
+			Visualparticle SFX A Meteorite Splash
+		}
+	}
+}
+
+//==============================================================================
+anim Birth
+{
+	SetSelector
+	{
+		set hotspot
+		{
+			version
+			{
+				Visual World A Underworld Rock A
+				connect hotspot smokeTrail hotspot
+				connect hotspot FireTrail hotspot
+				connect hotspot blast hotspot
+				connect hotspot dust hotspot
+				connect hotspot Splash hotspot
+				connect hotspot Splat hotspot
+			}
+		}
+	}
+}

@@ -1,0 +1,32 @@
+//==============================================================================
+// cinematic block_anim.txt
+//==============================================================================
+
+anim Idle
+{
+	SetSelector
+	{
+		EditorModeLogic
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					VisualNone youregreat
+				}
+			}
+		}
+		SetSelector
+      		{
+			set hotspot
+			{
+				version
+				{
+					Visual cinematic block e
+				}
+			}
+      		}
+   	}
+}
+

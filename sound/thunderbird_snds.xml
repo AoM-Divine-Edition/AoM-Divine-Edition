@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ProtoUnitSoundDef>
+	<ProtoUnit name="Thunderbird">
+		<SoundType name="Select">
+			<soundset name="VermilionBirdSelect"></soundset>
+		</SoundType>
+		<SoundType name="Grunt">
+			<soundset name="VermilionBirdGrunt"></soundset>
+		</SoundType>
+		<SoundType name="Hit">
+			<DamageTypeLogic>
+				<choice name="Crush">
+					<soundset name="CrushFlesh"></soundset>
+				</choice>
+				<choice name="Fire">
+					<soundset name="HackFlesh"></soundset>
+				</choice>
+				<choice name="Hack">
+					<soundset name="HackFlesh"></soundset>
+				</choice>
+				<choice name="Pierce">
+					<soundset name="PierceFlesh"></soundset>
+				</choice>
+				<choice name="Slash">
+					<soundset name="HackFlesh"></soundset>
+				</choice>
+			</DamageTypeLogic>
+		</SoundType>
+		<SoundType name="Death">
+			<SoundSet name="VermilionBirdDeath"></SoundSet>
+		</SoundType>
+		<SoundType name="Creation">
+			<SoundSet name="MythUnitBirth"></SoundSet>
+		</SoundType>
+		<SoundType name="Acknowledge">
+			<targetlogic>
+				<choice name="default">
+					<soundset name="VermilionBirdAcknowledge"></soundset>
+				</choice>
+				<choice name="enemy">
+					<soundset name="VermilionBirdAttack"></soundset>
+				</choice>
+			</targetlogic>
+		</SoundType>
+	</ProtoUnit>
+</ProtoUnitSoundDef>

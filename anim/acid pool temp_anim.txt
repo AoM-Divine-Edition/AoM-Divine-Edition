@@ -1,0 +1,58 @@
+//==============================================================================
+// lava bubble_anim.xt
+//==============================================================================
+
+//==============================================================================
+define firebig
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX X Acid Fire Big
+      }
+   }
+}
+
+//==============================================================================
+define firebigbowl
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX x acid Big Bowl
+      }
+   }
+}
+
+//==============================================================================
+define lavabubblessmall
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle sfx x acid bubbles small
+      }
+   }
+}
+
+//==============================================================================
+anim Idle
+{
+	SetSelector none 
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visualnone jimmy //  sfx u lava ground small
+				Connect ATTACHPOINT lavabubblessmall hotspot
+				Connect ATTACHPOINT firebig hotspot
+				Connect ATTACHPOINT firebigbowl hotspot
+			}
+		}
+	}
+}

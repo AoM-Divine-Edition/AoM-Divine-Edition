@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Plague" type="swapunit" techname="Plague">
+	<activetime>3.0</activetime>
+	<radius>1.0</radius>
+	<placement forceonmap="1" matchtype="Cultist" ally="">unit</placement>
+	<powerplayerrelation>player</powerplayerrelation>
+	<minimapeventtime sendalertto="all">10.0</minimapeventtime>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">SOOPBirth</soundset>
+	<overallchance>1.0</overallchance>
+	<abstracttype swapto="Zombie Temp">Cultist</abstracttype>
+	<sfx>Osiris SFX</sfx>
+	<mutate></mutate>
+	<unittarget></unittarget>
+	<icon>improvement plague icon</icon>
+	<usedicon>improvement plague icon done</usedicon>
+
+	<recharges>0</recharges>
+	<rechargetime>60</rechargetime>
+</power>

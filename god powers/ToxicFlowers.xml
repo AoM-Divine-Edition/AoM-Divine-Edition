@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="ToxicFlowers" type="TempUnit" techname="Toxic Flowers">
+	<soundset type="StartSound" listenertype="IfOnScreenAll">WalkingWoodsBirth</soundset>
+	<activetime>-1</activetime>
+	<createunit quantity="1" radius="0" delay="0.0">Aztec Flower</createunit>
+	<createunit quantity="1" radius="1" delay="0.0">Aztec Flower</createunit>
+	<createunit quantity="1" radius="6" delay="0.0">Aztec Flower</createunit>
+	<createunit quantity="1" radius="5" delay="0.0">Aztec Flower</createunit>
+	<createunit quantity="1" radius="5" delay="0.0">Aztec Flower</createunit>
+	<createunit quantity="1" radius="7" delay="0.0">Aztec Flower</createunit>
+	<createunit quantity="1" radius="2" delay="0.0">Aztec Flower</createunit>
+	<createunit quantity="1" radius="3" delay="0.0">Aztec Flower</createunit>
+	<createunit quantity="1" radius="4" delay="0.0">Aztec Flowers</createunit>
+	<rangeindicatorprotoid radius="10.0" indicatorcount="5" speed="0.2">UI Range Indicator aztec</rangeindicatorprotoid>
+	<placement forceonmap="1">full</placement>
+	<icon>ToxicFlowersIcon</icon>
+	<usedicon>ToxicFlowersIcon</usedicon>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+</power>

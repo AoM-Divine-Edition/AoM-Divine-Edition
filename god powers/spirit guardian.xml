@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="SpiritGuardian" type="spy" techname="Spirit Guardian">
+	<activetime>-1</activetime>
+	<placement forceonmap="1" matchtype="LogicalTypeValidSpyTarget">unit</placement>
+	<spyproto>Spirit Guardian</spyproto>
+	<soundset type="StartSound" listenertype="Ally">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAlly">SpyBirth</soundset>
+	<soundset type="EndSound" listenertype="Ally">GodPowerEnd</soundset>
+	<minimapeventtime sendalertto="ally">10.0</minimapeventtime>
+	<icon>god power spy icon</icon>
+	<usedicon>god power spy icon done</usedicon>
+
+	<recharges>0</recharges>
+	<rechargetime>45 </rechargetime>
+</power>

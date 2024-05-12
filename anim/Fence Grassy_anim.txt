@@ -1,0 +1,44 @@
+//==============================================================================
+// Courtyard Plants_anim.txt
+//==============================================================================
+
+//==============================================================================
+anim idle
+{
+	SetSelector
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual fence pole
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual fence wall A
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual fence wall B
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual fence wall C
+				
+			}
+		}
+	}
+}

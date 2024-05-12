@@ -1,0 +1,106 @@
+//==============================================================================
+// Spear defines_anim.txt
+//==============================================================================
+
+//==============================================================================
+define Panic
+{
+	SetSelector
+	{
+		TechLogic none/Phobos Spear of Panic
+		set hotspot
+		{
+			version
+			{
+				Visualnone jimmy
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visualparticle SFX G Phobos Spear
+			}
+		}
+	}
+}
+
+//==============================================================================
+define Spear
+{
+	SetSelector
+	{
+		TechLogic none/Sarissa
+		SetSelector
+		{
+			TechLogic none/Copper Weapons/Bronze Weapons/Iron Weapons
+			set hotspot
+			{
+				version
+				{
+					Visual Attachments A Spear Standard
+					connect Hotspot Panic hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Attachments A Spear Copper
+					connect Hotspot Panic hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Attachments A Spear Bronze
+					connect Hotspot Panic hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Attachments A Spear Iron
+					connect Hotspot Panic hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Copper Weapons/Bronze Weapons/Iron Weapons
+			set hotspot
+			{
+				version
+				{
+					Visual Attachments G Sarissa Standard
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Attachments G Sarissa Standard
+					ReplaceTexture Attachments A Spear Standard/Attachments A Spear Copper
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Attachments G Sarissa Standard
+					ReplaceTexture Attachments A Spear Standard/Attachments A Spear Bronze
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Attachments G Sarissa Standard
+					ReplaceTexture Attachments A Spear Standard/Attachments A Spear Iron
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="RitualOfTheNewMoonA" type="TempUnit" techname="Ritual of the New Moon A">
+	<activetime>45</activetime>
+	<placement forceonmap="1">skip</placement>
+	<minimapeventtime sendalertto="ally">10.0</minimapeventtime>
+	<createunit quantity="50" minradius="0" maxradius="40" pattern="random" norotate="" delay="0.0">Black Birth Longlived</createunit>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAlly">SentinelBirth</soundset>
+	<icon>god power sentinel icon</icon>
+	<usedicon>god power sentinel icon done</usedicon>
+</power>

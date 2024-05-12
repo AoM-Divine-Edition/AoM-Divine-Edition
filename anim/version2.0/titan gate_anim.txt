@@ -1,0 +1,403 @@
+//==============================================================================
+// Greek Excavation_anim.txt
+//==============================================================================
+
+
+//==============================================================================
+define bush
+{
+   set hotspot
+   {
+      version
+      {
+         Visual AmazonFlo2
+      }
+   }
+}
+
+//==============================================================================
+define bushz
+{
+   set hotspot
+   {
+      version
+      {
+         Visual AmazonFlo4
+      }
+   }
+}
+
+//==============================================================================
+define amazon1
+{
+   set hotspot
+   {
+      version
+      {
+         Visual AmazonFlo3
+      }
+   }
+}
+
+//==============================================================================
+define amazon2
+{
+   set hotspot
+   {
+      version
+      {
+         Visual AmazonFlo1
+      }
+   }
+}
+
+//==============================================================================
+define flowers
+{
+   set hotspot
+   {
+      version
+      {
+         Visual FlowerBunch
+      }
+   }
+}
+
+//==============================================================================
+define Heavenlite
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle Scenario E Excavetion Heaven Light
+      }
+   }
+}
+
+//==============================================================================
+define ColumnA
+{
+   set hotspot
+   {
+      version
+      {
+         Visual World E Column BrokenB
+      }
+   }  
+}
+
+//==============================================================================
+define ColumnB
+{
+   set hotspot
+   {
+      version
+      {
+         Visual World E Column BrokenC
+      }
+   }  
+}
+
+//==============================================================================
+define ColumnC
+{
+   set hotspot
+   {
+      version
+      {
+         Visual World E Column BrokenD
+      }
+   }  
+}
+
+//==============================================================================
+define ColumnD
+{
+   set hotspot
+   {
+      version
+      {
+         Visual World E Column BrokenA
+      }
+   }  
+}
+
+//==============================================================================
+define SwordGlow
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Excavation Sword Glow
+      }
+   }  
+}
+
+//==============================================================================
+anim None
+{
+	SetSelector
+	{
+	TechLogic none/Aztec Civ
+    SetSelector
+    {
+		CultureLogic Egyptian/Greek/Norse/Atlantean/Chinese
+//-----------------------Egyptian---------------------
+		SetSelector
+		{
+			ConstructionLogic 00 35 70 100
+			set hotspot
+			{
+				version
+				{
+					Visual Building E Titan Gate Stage4
+					Connect LEFTFOOT SwordGlow hotspot
+					Connect LEFTFOOT Heavenlite hotspot
+				}
+			}	
+			set hotspot
+			{
+				version
+				{
+					Visual Building E Titan Gate Stage1
+					Connect LEFTFOOT SwordGlow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building E Titan Gate Stage2
+					Connect LEFTFOOT SwordGlow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building E Titan Gate Stage3
+					Connect LEFTFOOT SwordGlow hotspot
+				}
+			}				
+		}
+//----------------------Greek--------------------------
+		SetSelector
+		{
+			ConstructionLogic 00 35 70 100
+			set hotspot
+			{
+				version
+				{
+					Visual Building G Titan Gate Stage4
+					Connect LEFTFOOT SwordGlow hotspot
+					Connect LEFTFOOT Heavenlite hotspot
+				}
+			}	
+			set hotspot
+			{
+				version
+				{
+					Visual Building G Titan Gate Stage1
+					Connect LEFTFOOT SwordGlow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building G Titan Gate Stage2
+					Connect LEFTFOOT SwordGlow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building G Titan Gate Stage3
+					Connect LEFTFOOT SwordGlow hotspot
+				}
+			}				
+		}
+//---------------------Norse------------------------------
+		SetSelector
+		{
+			ConstructionLogic 00 35 70 100
+			set hotspot
+			{
+				version
+				{
+					Visual Building N Titan Gate Stage4
+					Connect LEFTFOOT SwordGlow hotspot
+					Connect LEFTFOOT Heavenlite hotspot
+				}
+			}	
+			set hotspot
+			{
+				version
+				{
+					Visual Building N Titan Gate Stage1
+					Connect LEFTFOOT SwordGlow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building N Titan Gate Stage2
+					Connect LEFTFOOT SwordGlow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building N Titan Gate Stage3
+					Connect LEFTFOOT SwordGlow hotspot
+				}
+			}				
+		}
+//-----------------------Atlantean--------------------------------
+		SetSelector
+		{
+			ConstructionLogic 00 35 70 100
+			set hotspot
+			{
+				version
+				{
+					Visual Building X Titan Gate Stage4
+					Connect LEFTFOOT SwordGlow hotspot
+					Connect LEFTFOOT Heavenlite hotspot
+				}
+			}	
+			set hotspot
+			{
+				version
+				{
+					Visual Building X Titan Gate Stage1
+					Connect LEFTFOOT SwordGlow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building X Titan Gate Stage2
+					Connect LEFTFOOT SwordGlow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building X Titan Gate Stage3
+					Connect LEFTFOOT SwordGlow hotspot
+				}
+			}				
+		}
+		//-----------------------Chinese--------------------------------
+		SetSelector
+		{
+			ConstructionLogic 00 35 70 100
+			set hotspot
+			{
+				version
+				{
+					Visual Building C Titan Gate Stage4
+					Connect LEFTFOOT SwordGlow hotspot
+					Connect LEFTFOOT Heavenlite hotspot
+				}
+			}	
+			set hotspot
+			{
+				version
+				{
+					Visual Building C Titan Gate Stage1
+					Connect LEFTFOOT SwordGlow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building C Titan Gate Stage2
+					Connect LEFTFOOT SwordGlow hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building C Titan Gate Stage3
+					Connect LEFTFOOT SwordGlow hotspot
+				}
+			}				
+		}
+	}
+	SetSelector
+		{
+			ConstructionLogic 00 35 70 100
+			set hotspot
+			{
+				version
+				{
+					Visual Aztec Titan Gate Stage4
+					Connect LEFTFOOT bush hotspot
+					Connect LEFTEAR bushz hotspot
+					Connect LEFTLEG Amazon hotspot
+					Connect LEFTHAND Amazon2 hotspot
+					Connect LEFTTHIGH flowers hotspot
+					Connect CHIN bushz hotspot
+					Connect BACKCHEST Amazon2 hotspot
+				}
+			}	
+			set hotspot
+			{
+				version
+				{
+					Visual Aztec Titan Gate Stage1
+					Connect LEFTFOOT bush hotspot
+					Connect LEFTEAR bushz hotspot
+					Connect LEFTLEG Amazon hotspot
+					Connect LEFTHAND Amazon2 hotspot
+					Connect LEFTTHIGH flowers hotspot
+					Connect CHIN bushz hotspot
+					Connect BACKCHEST Amazon2 hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Aztec Titan Gate Stage2
+					Connect LEFTFOOT bush hotspot
+					Connect LEFTEAR bushz hotspot
+					Connect LEFTLEG Amazon hotspot
+					Connect LEFTHAND Amazon2 hotspot
+					Connect LEFTTHIGH flowers hotspot
+					Connect CHIN bushz hotspot
+					Connect BACKCHEST Amazon2 hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Aztec Titan Gate Stage3
+					Connect LEFTFOOT bush hotspot
+					Connect LEFTEAR bushz hotspot
+					Connect LEFTLEG Amazon hotspot
+					Connect LEFTHAND Amazon2 hotspot
+					Connect LEFTTHIGH flowers hotspot
+					Connect CHIN bushz hotspot
+					Connect BACKCHEST Amazon2 hotspot
+				}
+			}				
+		}
+	}
+}
+
+
+
+

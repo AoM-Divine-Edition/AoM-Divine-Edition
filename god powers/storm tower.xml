@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="StormTower" type="TempUnit" techname="Storm Tower">
+	<activetime>-1</activetime>
+	<createunit quantity="1" radius="0.0" delay="0.0" norotate="">Storm Tower</createunit>
+	<placement forceonmap="1" losprotounit="Storm Tower">full</placement>
+	<placementprotounitid>Storm Tower</placementprotounitid>
+	<expandcheckplacementhull></expandcheckplacementhull>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="Caster">HesperidesTree</soundset>
+	<attachproto>Plenty Flare</attachproto>
+	<gatherrate rate="0.0f">favor</gatherrate>
+	<burstdelay>5.0f</burstdelay>
+	<minimapeventtime sendalertto="none">0.0</minimapeventtime>
+	<recharges>1 </recharges>
+	<rechargetime>60 </rechargetime>
+</power>
+

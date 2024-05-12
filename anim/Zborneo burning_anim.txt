@@ -1,0 +1,139 @@
+//==============================================================================
+// Oak tree_anim.txt
+//==============================================================================
+
+//==============================================================================
+define BurntEmbers
+{
+   SetSelector
+   {
+       VariationLogic
+       set hotspot
+       {
+          version
+          {
+             Visualparticle SFX A Forest Fire Embers
+          }
+       }
+   }
+}
+
+//==============================================================================
+define BurntSmoke
+{
+   SetSelector
+   {
+       VariationLogic
+       set hotspot
+       {
+          version
+          {
+             Visualparticle SFX A Forest Fire Tree Smoke
+          }
+       }
+   }
+}
+
+//==============================================================================
+define BurntFire
+{
+   SetSelector
+   {
+       set hotspot
+       {
+          version
+          {
+             Visualparticle SFX A Forest Fire Large
+          }
+          version
+          {
+             Visualparticle SFX A Forest Fire Small
+          }
+       }
+   }
+}
+
+//==============================================================================
+anim Idle
+{
+   SetSelector
+   {
+      VariationLogic
+      set hotspot
+      {
+         version
+         {
+            Visual BorneoUnderbrush
+			connect FIRE BurntFire hotspot
+			connect FIRE BurntSmoke hotspot
+			connect FIRE BurntEmbers hotspot
+         }
+      }      
+      set hotspot
+      {
+         version
+         {
+            Visual BorneoUnderbrush2
+			connect FIRE BurntFire hotspot
+			connect FIRE BurntSmoke hotspot
+			connect FIRE BurntEmbers hotspot
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+            Visual BorneoUnderbrush3
+			connect FIRE BurntFire hotspot
+			connect FIRE BurntSmoke hotspot
+			connect FIRE BurntEmbers hotspot
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+            Visual BorneoUnderbrush4
+			connect FIRE BurntFire hotspot
+			connect FIRE BurntSmoke hotspot
+			connect FIRE BurntEmbers hotspot
+         }
+      }      
+      set hotspot
+      {
+         version
+         {
+            Visual BorneoUnderbrush5
+			connect FIRE BurntFire hotspot
+			connect FIRE BurntSmoke hotspot
+			connect FIRE BurntEmbers hotspot
+         }
+      }
+      set hotspot
+      {
+         version
+         {
+            Visual BorneoUnderbrush6
+			connect FIRE BurntFire hotspot
+			connect FIRE BurntSmoke hotspot
+			connect FIRE BurntEmbers hotspot
+         }
+      }		 
+      set hotspot
+      {
+         version
+         {
+            Visual BorneoUnderbrush7
+         }
+      }      
+      set hotspot
+      {
+         version
+         {
+            Visual BorneoUnderbrush8
+         }
+      }	     
+   }
+}
+
+

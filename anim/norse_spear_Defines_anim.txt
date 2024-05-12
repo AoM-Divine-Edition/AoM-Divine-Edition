@@ -1,0 +1,63 @@
+//==============================================================================
+define Flame
+{
+	SetSelector
+	{
+		TechLogic none/Flaming Weapons Active
+		set hotspot
+		{
+			version
+			{
+				Visualnone jimmy
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visualparticle SFX A Flaming Spear
+			}
+		}
+	}
+}
+
+//==============================================================================
+define Spear
+{
+	SetSelector
+	{
+		TechLogic none/Copper Weapons/Bronze Weapons/Iron Weapons
+		set hotspot
+		{
+			version
+			{
+				Visual Attachments A Spear Standard
+				connect hotspot Flame hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Attachments N Spear Copper
+				connect hotspot Flame hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Attachments N Spear Bronze
+				connect hotspot Flame hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Attachments N Spear Iron
+				connect hotspot Flame hotspot
+			}
+		}
+	}
+}

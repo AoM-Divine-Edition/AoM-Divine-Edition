@@ -1,0 +1,1711 @@
+//==============================================================================
+// Turma_anim.txt
+//==============================================================================
+
+import atlantis_archer_shield_anim.txt
+
+//==============================================================================
+define ShieldDummy
+{
+	SetSelector
+	{
+		set hotspot
+		{
+			version
+			{
+				Visual attachments shield_dummy
+				connect BackAbdomen SmallAtlantisShield hotspot
+			}
+		}
+	}
+}
+
+//==============================================================================
+define Head
+{
+	SetSelector
+	{
+		TechLogic none/Medium Archers/Heavy Archers/Champion Archers
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry X Javelin Head Standard
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry X Javelin Head Copper
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry X Javelin Head Bronze
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry X Javelin Head Iron
+			}
+		}
+	}
+}
+
+//==============================================================================
+define Flame
+{
+	SetSelector
+	{
+		TechLogic none/Flaming Weapons Active
+		set hotspot
+		{
+			version
+			{
+				Visualnone jimmy
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visualparticle SFX A Flaming Spear
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Bored
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		setSelector
+		{
+			TechLogic none/copper weapons/bronze weapons/iron weapons
+			set hotspot	
+			{
+				version
+				{
+					Visual Cavalry X Javelin_BoredA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
+					Connect TopOfHead Head hotspot
+					connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot	
+			{
+				version
+				{
+					Visual Cavalry X Javelin_BoredA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot	
+			{
+				version
+				{
+					Visual Cavalry X Javelin_BoredA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot	
+			{
+				version
+				{
+					Visual Cavalry X Javelin_BoredA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}									
+		}
+		setSelector
+		{
+			TechLogic none/copper weapons/bronze weapons/iron weapons
+			set hotspot	
+			{		
+				version
+				{
+					Visual Cavalry X Javelin_BoredA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot	
+			{		
+				version
+				{
+					Visual Cavalry X Javelin_BoredA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot	
+			{		
+				version
+				{
+					Visual Cavalry X Javelin_BoredA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot	
+			{		
+				version
+				{
+					Visual Cavalry X Javelin_BoredA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}									
+		}
+		setSelector
+		{
+			TechLogic none/copper weapons/bronze weapons/iron weapons			
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_BoredA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_BoredA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_BoredA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_BoredA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}									
+		}
+		setSelector
+		{
+			TechLogic none/copper weapons/bronze weapons/iron weapons	
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_BoredA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_BoredA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_BoredA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_BoredA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}									
+		}
+	}
+}
+
+//==============================================================================
+anim Walk
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		setSelector
+		{
+			TechLogic none/copper weapons/bronze weapons/iron weapons
+			set hotspot	
+			{
+				version
+				{
+					Visual Cavalry X Javelin_WalkA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag FootstepLeft 0.00 true	
+					tag FootstepRight 0.50 true	
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.75 true	
+//-- end auto generated section
+				}
+			}
+			set hotspot	
+			{
+				version
+				{
+					Visual Cavalry X Javelin_WalkA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag FootstepLeft 0.00 true	
+					tag FootstepRight 0.50 true	
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.75 true	
+//-- end auto generated section
+				}
+			}
+			set hotspot	
+			{
+				version
+				{
+					Visual Cavalry X Javelin_WalkA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag FootstepLeft 0.00 true	
+					tag FootstepRight 0.50 true	
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.75 true	
+//-- end auto generated section
+				}
+			}
+			set hotspot	
+			{
+				version
+				{
+					Visual Cavalry X Javelin_WalkA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag FootstepLeft 0.00 true	
+					tag FootstepRight 0.50 true	
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.75 true	
+//-- end auto generated section
+				}
+			}									
+		}
+		setSelector
+		{
+			TechLogic none/copper weapons/bronze weapons/iron weapons
+			set hotspot	
+			{		
+				version
+				{
+					Visual Cavalry X Javelin_WalkA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag FootstepLeft 0.00 true	
+					tag FootstepRight 0.50 true	
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.75 true	
+//-- end auto generated section
+				}
+			}
+			set hotspot	
+			{		
+				version
+				{
+					Visual Cavalry X Javelin_WalkA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag FootstepLeft 0.00 true	
+					tag FootstepRight 0.50 true	
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.75 true	
+//-- end auto generated section
+				}
+			}
+			set hotspot	
+			{		
+				version
+				{
+					Visual Cavalry X Javelin_WalkA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag FootstepLeft 0.00 true	
+					tag FootstepRight 0.50 true	
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.75 true	
+//-- end auto generated section
+				}
+			}
+			set hotspot	
+			{		
+				version
+				{
+					Visual Cavalry X Javelin_WalkA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag FootstepLeft 0.00 true	
+					tag FootstepRight 0.50 true	
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.75 true	
+//-- end auto generated section
+				}
+			}									
+		}
+		setSelector
+		{
+			TechLogic none/copper weapons/bronze weapons/iron weapons			
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_WalkA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag FootstepLeft 0.00 true	
+					tag FootstepRight 0.50 true	
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.75 true	
+//-- end auto generated section
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_WalkA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag FootstepLeft 0.00 true	
+					tag FootstepRight 0.50 true	
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.75 true	
+//-- end auto generated section
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_WalkA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag FootstepLeft 0.00 true	
+					tag FootstepRight 0.50 true	
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.75 true	
+//-- end auto generated section
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_WalkA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag FootstepLeft 0.00 true	
+					tag FootstepRight 0.50 true	
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.75 true	
+//-- end auto generated section
+				}
+			}									
+		}
+		setSelector
+		{
+			TechLogic none/copper weapons/bronze weapons/iron weapons	
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_WalkA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag FootstepLeft 0.00 true	
+					tag FootstepRight 0.50 true	
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.75 true	
+//-- end auto generated section
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_WalkA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag FootstepLeft 0.00 true	
+					tag FootstepRight 0.50 true	
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.75 true	
+//-- end auto generated section
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_WalkA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag FootstepLeft 0.00 true	
+					tag FootstepRight 0.50 true	
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.75 true	
+//-- end auto generated section
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_WalkA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag FootstepLeft 0.00 true	
+					tag FootstepRight 0.50 true	
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.75 true	
+//-- end auto generated section
+				}
+			}									
+		}
+	}
+}
+
+//==============================================================================
+anim Death
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		SetSelector
+		{
+			TechLogic none/Copper weapons/Bronze weapons/Iron Weapons
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_DeathA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag SpecificSoundSet 0.61 false HeavyFall checkVisible 
+	//-- end auto generated section
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_DeathA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag SpecificSoundSet 0.61 false HeavyFall checkVisible 
+	//-- end auto generated section
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_DeathA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag SpecificSoundSet 0.61 false HeavyFall checkVisible 
+	//-- end auto generated section
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_DeathA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag SpecificSoundSet 0.61 false HeavyFall checkVisible 
+	//-- end auto generated section
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}									
+		}
+		SetSelector
+		{
+			TechLogic none/Copper weapons/Bronze weapons/Iron Weapons				
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_DeathA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag SpecificSoundSet 0.61 false HeavyFall checkVisible 
+	//-- end auto generated section
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_DeathA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag SpecificSoundSet 0.61 false HeavyFall checkVisible 
+	//-- end auto generated section
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_DeathA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag SpecificSoundSet 0.61 false HeavyFall checkVisible 
+	//-- end auto generated section
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_DeathA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag SpecificSoundSet 0.61 false HeavyFall checkVisible 
+	//-- end auto generated section
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}									
+		}
+		SetSelector
+		{
+			TechLogic none/Copper weapons/Bronze weapons/Iron Weapons		
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_DeathA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag SpecificSoundSet 0.61 false HeavyFall checkVisible 
+	//-- end auto generated section
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_DeathA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag SpecificSoundSet 0.61 false HeavyFall checkVisible 
+	//-- end auto generated section
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_DeathA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag SpecificSoundSet 0.61 false HeavyFall checkVisible 
+	//-- end auto generated section
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_DeathA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag SpecificSoundSet 0.61 false HeavyFall checkVisible 
+	//-- end auto generated section
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}									
+		}
+		SetSelector
+		{
+			TechLogic none/Copper weapons/Bronze weapons/Iron Weapons		
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_DeathA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag SpecificSoundSet 0.61 false HeavyFall checkVisible 
+	//-- end auto generated section
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_DeathA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag SpecificSoundSet 0.61 false HeavyFall checkVisible 
+	//-- end auto generated section
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_DeathA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag SpecificSoundSet 0.61 false HeavyFall checkVisible 
+	//-- end auto generated section
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_DeathA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag SpecificSoundSet 0.61 false HeavyFall checkVisible 
+	//-- end auto generated section
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}									
+		}
+	}
+}
+
+//==============================================================================
+anim Idle
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		SetSelector
+		{
+			TechLogic none/copper weapons/bronze weapons/iron weapons
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_IdleA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_IdleA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_IdleA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_IdleA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}									
+		}
+		SetSelector
+		{
+			TechLogic none/copper weapons/bronze weapons/iron weapons			
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_IdleA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_IdleA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_IdleA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_IdleA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}						
+			}			
+		}
+		SetSelector
+		{
+			TechLogic none/copper weapons/bronze weapons/iron weapons					
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_IdleA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_IdleA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_IdleA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_IdleA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}									
+		}
+		SetSelector
+		{
+			TechLogic none/copper weapons/bronze weapons/iron weapons		
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_IdleA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_IdleA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_IdleA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_IdleA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}									
+		}
+	}
+}
+
+//==============================================================================
+anim RangedAttack
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		SetSelector
+		{
+			TechLogic none/copper weapons/bronze weapons/iron weapons
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_AttackA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag Attack 0.53 true	
+					tag GenericSound 0.40 true	
+	//-- end auto generated section
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_AttackA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag Attack 0.53 true	
+					tag GenericSound 0.40 true	
+	//-- end auto generated section
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_AttackA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag Attack 0.53 true	
+					tag GenericSound 0.40 true	
+	//-- end auto generated section
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_AttackA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag Attack 0.53 true	
+					tag GenericSound 0.40 true	
+	//-- end auto generated section
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}									
+		}
+		SetSelector
+		{
+			TechLogic none/copper weapons/bronze weapons/iron weapons		
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_AttackA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag Attack 0.53 true	
+					tag GenericSound 0.40 true	
+	//-- end auto generated section
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_AttackA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag Attack 0.53 true	
+					tag GenericSound 0.40 true	
+	//-- end auto generated section
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_AttackA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag Attack 0.53 true	
+					tag GenericSound 0.40 true	
+	//-- end auto generated section
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_AttackA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag Attack 0.53 true	
+					tag GenericSound 0.40 true	
+	//-- end auto generated section
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}									
+		}
+		SetSelector
+		{
+			TechLogic none/copper weapons/bronze weapons/iron weapons		
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_AttackA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag Attack 0.53 true	
+					tag GenericSound 0.40 true	
+	//-- end auto generated section
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_AttackA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag Attack 0.53 true	
+					tag GenericSound 0.40 true	
+	//-- end auto generated section
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_AttackA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag Attack 0.53 true	
+					tag GenericSound 0.40 true	
+	//-- end auto generated section
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_AttackA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag Attack 0.53 true	
+					tag GenericSound 0.40 true	
+	//-- end auto generated section
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}									
+		}
+		SetSelector
+		{
+			TechLogic none/copper weapons/bronze weapons/iron weapons		
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_AttackA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag Attack 0.53 true	
+					tag GenericSound 0.40 true	
+	//-- end auto generated section
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_AttackA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag Attack 0.53 true	
+					tag GenericSound 0.40 true	
+	//-- end auto generated section
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_AttackA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag Attack 0.53 true	
+					tag GenericSound 0.40 true	
+	//-- end auto generated section
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_AttackA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+	//-- auto generated by the bang animation tool
+	//-- do not hand edit these values
+					tag Attack 0.53 true	
+					tag GenericSound 0.40 true	
+	//-- end auto generated section
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}									
+		}
+	}
+}
+
+//==============================================================================
+anim Flail
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		SetSelector
+		{
+			TechLogic none/copper weapons/bronze weapons/iron weapons
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_FlailA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_FlailA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_FlailA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_FlailA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}									
+		}
+		SetSelector
+		{
+			TechLogic none/copper weapons/bronze weapons/iron weapons		
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_FlailA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_FlailA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_FlailA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_FlailA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}									
+		}
+		SetSelector
+		{
+			TechLogic none/copper weapons/bronze weapons/iron weapons		
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_FlailA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_FlailA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_FlailA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_FlailA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}									
+		}
+		SetSelector
+		{
+			TechLogic none/copper weapons/bronze weapons/iron weapons		
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_FlailA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_FlailA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_FlailA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry X Javelin_FlailA
+					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					Connect TopOfHead Head hotspot
+				connect RightForearm ShieldDummy hotspot
+					connect LeftHand Flame hotspot
+				}
+			}									
+		}
+	}		
+}

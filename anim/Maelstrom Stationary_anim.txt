@@ -1,0 +1,115 @@
+//==============================================================================
+// Implode Sphere Effect_anim.txt
+//==============================================================================
+
+
+
+
+//==============================================================================
+define maelstrom
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Maelstrom3
+      }
+   }
+}
+//==============================================================================
+define ring
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle sfx a maelstrom
+      }
+   }
+}
+
+//==============================================================================
+define under
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle sfx a maelstrom under
+      }
+   }
+}
+
+//==============================================================================
+define spiralflair
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle sfx a vortex spiral start
+      }
+   }
+}
+
+//==============================================================================
+define lightbands
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle sfx a vortex light bands start
+      }
+   }
+}
+
+//==============================================================================
+define flair
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle sfx a vortex sunlight start
+      }
+   }
+}
+
+//==============================================================================
+anim Birth
+{
+	SetSelector 
+	{
+		set hotspot
+		{
+			version
+			{
+				Visual SFX A Tornado Main
+				Connect ATTACHPOINT ring hotspot
+				Connect ATTACHPOINT under hotspot
+				
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Idle
+{
+	SetSelector 
+	{
+		set hotspot
+		{
+			version
+			{
+				Visual SFX A Tornado Main
+				Connect ATTACHPOINT ring hotspot
+				Connect ATTACHPOINT under hotspot
+				Connect ATTACHPOINT maelstrom hotspot
+				
+			}
+		}
+	}
+}
+

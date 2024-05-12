@@ -1,0 +1,1762 @@
+//==============================================================================
+// War Chariot_anim.txt
+//==============================================================================
+
+import halberdier_weapon_anim.txt
+import Chinese_Castle_shield_anim.txt
+
+//==============================================================================
+define Fire
+{
+	TechLogic none/Flaming Weapons Active
+	set hotspot
+	{
+		version
+		{
+			Visualnone jimmy
+		}
+	}	
+	set hotspot
+	{
+		version
+		{
+			Visualparticle SFX A Flaming Sword
+		}
+	}
+}
+
+//==============================================================================
+define weaponInverted
+{
+	SetSelector
+	{		
+		TechLogic none/Copper Weapons/Bronze Weapons/Iron Weapons
+		set hotspot
+		{
+			version
+			{
+				Visual Attachments C Halberd Chariot
+				connect AttachPoint Fire hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Attachments C Ji Chariot
+				connect AttachPoint Fire hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Attachments C Ji Chariot
+				ReplaceTexture attachments c halberd copper/attachments c halberd Iron
+				ReplaceTexture attachment c halberd head copper/attachment c halberd head Iron
+				connect AttachPoint Fire hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Attachments C Ji Chariot
+				ReplaceTexture attachments c halberd copper/attachments c halberd Bronze
+				ReplaceTexture attachment c halberd head copper/attachment c halberd head Bronze
+				connect AttachPoint Fire hotspot
+			}
+		}
+	}
+}
+
+//==============================================================================
+define Wheel
+{
+	SetSelector
+	{
+		TechLogic none/Heavy Castle/Champion Castle
+		set hotspot
+		{
+			version
+			{
+				Visual attachments a wheel spoked
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Attachments C Wheel Heavy Chariots
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Attachments C Wheel Heavy Chariots
+			}
+		}
+	}
+}
+
+//==============================================================================
+define Head
+{
+	SetSelector
+	{
+		TechLogic none/Heavy Castle/Champion Castle
+		set hotspot
+		{
+			version
+			{
+				Visual Infantry C Halberdier Head Copper
+				ReplaceTexture Infantry C Halberdier Head Standard/Infantry C Halberdier Head Copper
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Infantry C Halberdier Head Bronze
+				ReplaceTexture Infantry C Halberdier Head Standard/Infantry C Halberdier Head Bronze
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Infantry C Halberdier Head Iron
+				ReplaceTexture Infantry C Halberdier Head Standard/Infantry C Halberdier Head Iron
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Idle
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		SetSelector
+		{
+			TechLogic none/Heavy Castle/Champion Castle
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-idleA
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Map
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-idleA
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Bronze
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Map
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Bronze
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-idleA
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Iron
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Map
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Iron
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Castle/Champion Castle
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-idleA
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-idleA
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Bronze
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Bronze
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-idleA
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Iron
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Iron
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Castle/Champion Castle
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-idleA
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Bronze
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-idleA
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Bronze
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Bronze
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Bronze
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-idleA
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Iron
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Bronze
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Iron
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Castle/Champion Castle
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-idleA
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Iron
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-idleA
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Bronze
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Iron
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Bronze
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-idleA
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Iron
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Iron
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Iron
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Bored
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		SetSelector
+		{
+			TechLogic none/Heavy Castle/Champion Castle
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-boredA
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Map
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-boredA
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Bronze
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Map
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Bronze
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-boredA
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Iron
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Map
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Iron
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Castle/Champion Castle
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-boredA
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-boredA
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Bronze
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Bronze
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-boredA
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Iron
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Iron
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Castle/Champion Castle
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-boredA
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Bronze
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-boredA
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Bronze
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Bronze
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Bronze
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-boredA
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Iron
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Bronze
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Iron
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Castle/Champion Castle
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-boredA
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Iron
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-boredA
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Bronze
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Iron
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Bronze
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-boredA
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Iron
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Iron
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Iron
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Walk
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		SetSelector
+		{
+			TechLogic none/Heavy Castle/Champion Castle
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-walkA
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Map
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.00 true	
+					tag FootstepLeft 0.80 true	
+					tag FootstepRight 0.10 true 
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-walkA
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Bronze
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Map
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Bronze
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.00 true	
+					tag FootstepLeft 0.80 true	
+					tag FootstepRight 0.10 true 
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-walkA
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Iron
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Map
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Iron
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.00 true	
+					tag FootstepLeft 0.80 true	
+					tag FootstepRight 0.10 true 
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Castle/Champion Castle
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-walkA
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.00 true	
+					tag FootstepLeft 0.80 true	
+					tag FootstepRight 0.10 true 
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-walkA
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Bronze
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Bronze
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.00 true	
+					tag FootstepLeft 0.80 true	
+					tag FootstepRight 0.10 true 
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-walkA
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Iron
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Iron
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.00 true	
+					tag FootstepLeft 0.80 true	
+					tag FootstepRight 0.10 true 
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Castle/Champion Castle
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-walkA
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Bronze
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.00 true	
+					tag FootstepLeft 0.80 true	
+					tag FootstepRight 0.10 true 
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-walkA
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Bronze
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Bronze
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Bronze
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.00 true	
+					tag FootstepLeft 0.80 true	
+					tag FootstepRight 0.10 true 
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-walkA
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Iron
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Bronze
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Iron
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.00 true	
+					tag FootstepLeft 0.80 true	
+					tag FootstepRight 0.10 true 
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Castle/Champion Castle
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-walkA
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Iron
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.00 true	
+					tag FootstepLeft 0.80 true	
+					tag FootstepRight 0.10 true 
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-walkA
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Bronze
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Iron
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Bronze
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.00 true	
+					tag FootstepLeft 0.80 true	
+					tag FootstepRight 0.10 true 
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-walkA
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Iron
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Iron
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Iron
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+					tag FootstepLeft 0.20 true	
+					tag FootstepRight 0.00 true	
+					tag FootstepLeft 0.80 true	
+					tag FootstepRight 0.10 true 
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Death
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		SetSelector
+		{
+			TechLogic none/Heavy Castle/Champion Castle
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-deathA
+					length 2.0
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.13 false SiegeTowerDeath checkVisible 
+					tag SpecificSoundSet 0.69 false HeavyFall checkVisible 
+//-- end auto generated section
+					connect RightHand weapon hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Map
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-deathA
+					length 2.0
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.13 false SiegeTowerDeath checkVisible 
+					tag SpecificSoundSet 0.69 false HeavyFall checkVisible 
+//-- end auto generated section
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Bronze
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Map
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Bronze
+					connect RightHand weapon hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-deathA
+					length 2.0
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.13 false SiegeTowerDeath checkVisible 
+					tag SpecificSoundSet 0.69 false HeavyFall checkVisible 
+//-- end auto generated section
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Iron
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Map
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Iron
+					connect RightHand weapon hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Castle/Champion Castle
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-deathA
+					length 2.0
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.13 false SiegeTowerDeath checkVisible 
+					tag SpecificSoundSet 0.69 false HeavyFall checkVisible 
+//-- end auto generated section
+					connect RightHand weapon hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-deathA
+					length 2.0
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.13 false SiegeTowerDeath checkVisible 
+					tag SpecificSoundSet 0.69 false HeavyFall checkVisible 
+//-- end auto generated section
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Bronze
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Bronze
+					connect RightHand weapon hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-deathA
+					length 2.0
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.13 false SiegeTowerDeath checkVisible 
+					tag SpecificSoundSet 0.69 false HeavyFall checkVisible 
+//-- end auto generated section
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Iron
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Iron
+					connect RightHand weapon hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Castle/Champion Castle
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-deathA
+					length 2.0
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.13 false SiegeTowerDeath checkVisible 
+					tag SpecificSoundSet 0.69 false HeavyFall checkVisible 
+//-- end auto generated section
+					connect RightHand weapon hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Bronze
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-deathA
+					length 2.0
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.13 false SiegeTowerDeath checkVisible 
+					tag SpecificSoundSet 0.69 false HeavyFall checkVisible 
+//-- end auto generated section
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Bronze
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Bronze
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Bronze
+					connect RightHand weapon hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-deathA
+					length 2.0
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.13 false SiegeTowerDeath checkVisible 
+					tag SpecificSoundSet 0.69 false HeavyFall checkVisible 
+//-- end auto generated section
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Iron
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Bronze
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Iron
+					connect RightHand weapon hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Castle/Champion Castle
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-deathA
+					length 2.0
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.13 false SiegeTowerDeath checkVisible 
+					tag SpecificSoundSet 0.69 false HeavyFall checkVisible 
+//-- end auto generated section
+					connect RightHand weapon hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Iron
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-deathA
+					length 2.0
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.13 false SiegeTowerDeath checkVisible 
+					tag SpecificSoundSet 0.69 false HeavyFall checkVisible 
+//-- end auto generated section
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Bronze
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Iron
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Bronze
+					connect RightHand weapon hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-deathA
+					length 2.0
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag SpecificSoundSet 0.13 false SiegeTowerDeath checkVisible 
+					tag SpecificSoundSet 0.69 false HeavyFall checkVisible 
+//-- end auto generated section
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Iron
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Iron
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Iron
+					connect RightHand weapon hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Attack
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		SetSelector
+		{
+			TechLogic none/Heavy Castle/Champion Castle
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-attackA
+					length 1.2
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag Attack 0.66 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.66 false Arrow checkVisible 
+//-- end auto generated section
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weaponInverted hotspot
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Map
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-attackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag Attack 0.66 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.66 false Arrow checkVisible 
+//-- end auto generated section
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Bronze
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Map
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Bronze
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weaponInverted hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-attackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag Attack 0.66 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.66 false Arrow checkVisible 
+//-- end auto generated section
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Iron
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Map
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Iron
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weaponInverted hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Castle/Champion Castle
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-attackA
+					length 1.2
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag Attack 0.66 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.66 false Arrow checkVisible 
+//-- end auto generated section
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weaponInverted hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-attackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag Attack 0.66 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.66 false Arrow checkVisible 
+//-- end auto generated section
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Bronze
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Bronze
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weaponInverted hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-attackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag Attack 0.66 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.66 false Arrow checkVisible 
+//-- end auto generated section
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Iron
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Iron
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weaponInverted hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Castle/Champion Castle
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-attackA
+					length 1.2
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag Attack 0.66 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.66 false Arrow checkVisible 
+//-- end auto generated section
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weaponInverted hotspot
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Bronze
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-attackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag Attack 0.66 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.66 false Arrow checkVisible 
+//-- end auto generated section
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Bronze
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Bronze
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Bronze
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weaponInverted hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-attackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag Attack 0.66 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.66 false Arrow checkVisible 
+//-- end auto generated section
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Iron
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Bronze
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Iron
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weaponInverted hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Castle/Champion Castle
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-attackA
+					length 1.2
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag Attack 0.66 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.66 false Arrow checkVisible 
+//-- end auto generated section
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weaponInverted hotspot
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Iron
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-attackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag Attack 0.66 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.66 false Arrow checkVisible 
+//-- end auto generated section
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Bronze
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Iron
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Bronze
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weaponInverted hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-attackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag Attack 0.66 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.66 false Arrow checkVisible 
+//-- end auto generated section
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Iron
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Iron
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Iron
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weaponInverted hotspot
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim RangedAttack
+{
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		SetSelector
+		{
+			TechLogic none/Heavy Castle/Champion Castle
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-attackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag Attack 0.66 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.66 false Arrow checkVisible 
+//-- end auto generated section
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Map
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-attackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag Attack 0.66 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.66 false Arrow checkVisible 
+//-- end auto generated section
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Bronze
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Map
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Bronze
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-attackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag Attack 0.66 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.66 false Arrow checkVisible 
+//-- end auto generated section
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Iron
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Map
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Iron
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Castle/Champion Castle
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-attackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag Attack 0.66 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.66 false Arrow checkVisible 
+//-- end auto generated section
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-attackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag Attack 0.66 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.66 false Arrow checkVisible 
+//-- end auto generated section
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Bronze
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Bronze
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-attackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag Attack 0.66 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.66 false Arrow checkVisible 
+//-- end auto generated section
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Iron
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Iron
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Castle/Champion Castle
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-attackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag Attack 0.66 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.66 false Arrow checkVisible 
+//-- end auto generated section
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Bronze
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-attackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag Attack 0.66 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.66 false Arrow checkVisible 
+//-- end auto generated section
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Bronze
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Bronze
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Bronze
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-attackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag Attack 0.66 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.66 false Arrow checkVisible 
+//-- end auto generated section
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Iron
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Bronze
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Iron
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Castle/Champion Castle
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-attackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag Attack 0.66 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.66 false Arrow checkVisible 
+//-- end auto generated section
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Iron
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-attackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag Attack 0.66 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.66 false Arrow checkVisible 
+//-- end auto generated section
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Bronze
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Iron
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Bronze
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-attackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+					tag Attack 0.66 true	
+					tag GenericSound 0.40 true	
+					tag SpecificSoundSet 0.66 false Arrow checkVisible 
+//-- end auto generated section
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Iron
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Iron
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Iron
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+anim Flail
+{
+
+	SetSelector
+	{
+		TechLogic none/Copper Mail/Bronze Mail/Iron Mail
+		SetSelector
+		{
+			TechLogic none/Heavy Castle/Champion Castle
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-walkA
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Map
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-walkA
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Bronze
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Map
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Bronze
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-walkA
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Iron
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Map
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Iron
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Castle/Champion Castle
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-walk
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-walkA
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Bronze
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Bronze
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-walkA
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Iron
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Iron
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Castle/Champion Castle
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-walkA
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Bronze
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-walkA
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Bronze
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Bronze
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Bronze
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-walkA
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Iron
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Bronze
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Iron
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			TechLogic none/Heavy Castle/Champion Castle
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-walkA
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Iron
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-walkA
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Bronze
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Iron
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Bronze
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Cavalry C War Chariot_Melee-walkA
+					ReplaceTexture Cavalry C Chariot Standard/Cavalry C Chariot Iron
+					ReplaceTexture Cavalry C Charioteer Standard/Cavalry C Charioteer Iron
+					ReplaceTexture Cavalry C Chariot Horse Standard/Cavalry C Chariot Horse Iron
+					connect LeftForearm ChineseCastleShield hotspot
+					Connect RightEar Wheel hotspot
+					Connect LeftEar Wheel hotspot
+					Connect Topofhead Head hotspot
+					connect RightHand weapon hotspot
+				}
+			}
+		}
+	}
+}
+

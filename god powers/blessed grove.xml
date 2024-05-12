@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="BlessedGrove" type="swapunit" techname="Blessed Grove">
+	<activetime>0.6</activetime>
+	<rangeindicatorprotoid radius="10.0" indicatorcount="6" speed="0.2">UI Range Indicator Norse SFX</rangeindicatorprotoid>
+	<radius>10.0</radius>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">WalkingWoodsBirth</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll" positional="">WalkingWoods</soundset>
+	<placement forceonmap="1" matchtype="Tree">full</placement>
+	<powerplayerrelation>all</powerplayerrelation>
+	<overallchance>1</overallchance>
+	<abstracttype swapto="Blessed Tree">Pine</abstracttype>
+	<abstracttype swapto="Blessed Tree">Gaia Forest Tree</abstracttype>
+	<abstracttype swapto="Blessed Tree">Palm</abstracttype>
+	<abstracttype swapto="Blessed Tree">Oak Tree</abstracttype>
+	<abstracttype swapto="Blessed Tree">Oak Autumn</abstracttype>
+	<abstracttype swapto="Blessed Tree">Pine Snow</abstracttype>
+	<abstracttype swapto="Blessed Tree">Pine Dead</abstracttype>
+	<abstracttype swapto="Blessed Tree">Ironwood</abstracttype>
+	<abstracttype swapto="Blessed Tree">Savannah Tree</abstracttype>
+	<abstracttype swapto="Blessed Tree">Marsh Tree</abstracttype>
+	<abstracttype swapto="Blessed Tree">Tundra Tree</abstracttype>
+	<abstracttype swapto="Blessed Tree">Jungle Tree</abstracttype>
+	<abstracttype swapto="Blessed Tree">Jungle Palm</abstracttype>
+	<abstracttype swapto="Blessed Tree">Bamboo Tree</abstracttype>
+	<swapdelay>0.5</swapdelay>
+	<convertunitstogodpowerplayer></convertunitstogodpowerplayer>
+	<convertusingminmax minswapamount="30" maxswapamount="30">Dummy</convertusingminmax>
+	<icon>god power walking woods icon</icon>
+	<usedicon>god power walking woods icon done</usedicon>
+</power>

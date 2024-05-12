@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Infect" type="swapunit" techname="Infect">
+	<activetime>-1</activetime>
+	<radius>3</radius>
+	<rangeindicatorprotoid radius="3.0" indicatorcount="8" speed="0.2">UI Range Indicator Greek SFX</rangeindicatorprotoid>
+	<placement forceonmap="1">skip</placement>
+	<convertusingminmax minswapamount="1" maxswapamount="1"></convertusingminmax>
+	<powerplayerrelation>enemy</powerplayerrelation>
+	<gpdamagemodel>
+		<playerrelation>enemy</playerrelation>
+		<basedamagepercentunit>0.4</basedamagepercentunit>
+		<basedamagepercentvillager>0.25</basedamagepercentvillager>
+		<basedamagepercentbuilding>0.0</basedamagepercentbuilding>
+		<minhpdamageunit>150</minhpdamageunit>
+		<minhpdamagevillager>150</minhpdamagevillager>
+		<minhpdamagebuilding>0</minhpdamagebuilding>
+		<maxhpdamageunit>1900</maxhpdamageunit>
+		<maxhpdamagevillager>1900</maxhpdamagevillager>
+		<maxhpdamagebuilding>0</maxhpdamagebuilding>
+	</gpdamagemodel>
+	<abstracttype swapto="Zombie Temp">AbstractVillager</abstracttype>
+	<abstracttype swapto="Zombie Temp">HumanSoldier</abstracttype>
+	<illegalabstracttype>Hero</illegalabstracttype>
+	<swapdelay>1.5</swapdelay>
+	<messagealertplayerrelation>ally</messagealertplayerrelation>
+	<swapenemyonly></swapenemyonly>
+	<icon>god power curse icon</icon>
+	<usedicon>god power curse icon done</usedicon>
+</power>

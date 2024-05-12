@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="DreamersInvocation" type="TempUnit" techname="Dreamers Invocation">
+	<activetime>45</activetime>
+	<placement forceonmap="1">skip</placement>
+	<minimapeventtime sendalertto="ally">10.0</minimapeventtime>
+	<createunit quantity="66" minradius="5" maxradius="25" pattern="random" norotate="" delay="0.0">Madman Real</createunit>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAlly">SentinelBirth</soundset>
+	<icon>god power sentinel icon</icon>
+	<usedicon>god power sentinel icon done</usedicon>
+</power>

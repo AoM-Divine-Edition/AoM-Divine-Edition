@@ -1,0 +1,73 @@
+//==============================================================================
+// Courtyard Plants_anim.txt
+//==============================================================================
+
+
+//==============================================================================
+define relic
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle Shine Relic Sun
+      }
+   }
+}
+
+//==============================================================================
+define shine
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle Sun Shine Planet
+      }
+   }
+}
+
+//==============================================================================
+define Glow
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle Sun Glow Planet
+      }
+   }
+}
+
+//==============================================================================
+anim Idle
+{
+
+  SetSelector
+   {
+      VariationLogic 
+      set hotspot
+      {
+         version
+         {
+				Visual NeptuneGreen
+				
+			
+         }
+      }
+	  set hotspot
+      {
+         version
+         {
+				Visual SolarSun
+				Connect ATTACHPOINT shine hotspot
+				Connect ATTACHPOINT Glow hotspot
+				Connect ATTACHPOINT shine hotspot
+				Connect ATTACHPOINT Glow hotspot
+				Connect ATTACHPOINT relic hotspot
+			
+         }
+      }
+      
+   }
+}

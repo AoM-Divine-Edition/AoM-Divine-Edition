@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="DarkestNight" type="Eclipse" techname="Darkest Night">
+	<activetime>30.0</activetime>
+	<builduptime>6.0</builduptime>
+	<shutdowntime>3.0</shutdowntime>
+	<powerblocker>-1</powerblocker>
+	<lightset>Night</lightset>
+	<tech>DarkestNight Active</tech>
+	<cricketsound>CricketLoop</cricketsound>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="All">wolfpack</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<placement forceonmap="1">full</placement>
+	<icon>DarkestNight Moon</icon>
+	<usedicon>DarkestNight Moon</usedicon>
+</power>
