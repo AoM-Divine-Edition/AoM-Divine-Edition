@@ -103,7 +103,11 @@ AProperGentleman (Project Lead) (Eldritch|Japanese|Roman Main Designer)
 
 HAMLET (Voice Actor)
 
+Janis/Javansi
+
 Kaoru 
+
+Morticio
 
 Nick3069 (Created the human soldier and myth unit upgraded textures and models from the Myth Unit Upgrade Pack and Human Units Visible Upgrades) (Never part of Divine Edition)
 
