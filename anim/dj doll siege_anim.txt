@@ -1,0 +1,106 @@
+//==============================================================================
+// Seige N Ram_anim.txt
+//==============================================================================
+
+
+//==============================================================================
+define Sword
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Attachments E Guardian Sword
+      }
+   }
+}
+
+
+//==============================================================================
+anim Death
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+
+
+					Visual scyllastandard_idle_large
+					connect LeftHand Sword hotspot
+					connect RightHand Sword hotspot
+					ReplaceTexture t_god_scylla_dif00/villager x crate empty
+            
+
+
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim Idle
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+            
+					Visual scyllastandard_idle_large
+					connect LeftHand Sword hotspot
+					connect RightHand Sword hotspot
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim walk
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+            
+
+
+					Visual scyllastandard_run_large
+					connect LeftHand Sword hotspot
+					connect RightHand Sword hotspot
+
+         }
+      }
+		
+   }
+}
+
+//==============================================================================
+anim attack
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+
+				Visual scyllastandard_attackc_large
+				connect LeftHand Sword hotspot
+				connect RightHand Sword hotspot
+				tag Attack 0.40 true   
+               		    	tag GenericSound 0.40 true
+				tag SpecificSoundSet 0.40 false SwordSwing checkVisible
+            
+
+
+         }
+      }
+   }
+}
+
+

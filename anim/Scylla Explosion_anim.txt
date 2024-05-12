@@ -1,0 +1,93 @@
+//==============================================================================
+// Scylla Explosion_anim.txt
+//==============================================================================
+
+
+                           ____________________________________
+                          |                                    |
+                          |      CREATED by WOLLIEWOLTAZ       |
+                          |____________________________________|
+//==============================================================================
+
+
+//==============================================================================
+//Particle Attachments
+//==============================================================================
+
+//==============================================================================
+define wave
+{
+		set hotspot
+		{
+			version
+			{
+			Visualparticle scylla shockwave
+			}
+		}
+}
+//==============================================================================
+define blast
+{
+		set hotspot
+		{
+			version
+			{
+			Visualparticle scylla shockblast
+			}
+		}
+}
+//==============================================================================
+anim Birth
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+			Visualparticle scylla shockwave
+			tag Attack 0.001 true
+			tag SpecificSoundSet 0.01 false HekaGigantesLand checkVisible
+			Connect ATTACHPOINT blast hotspot
+					
+         }
+      }
+   }
+}
+//==============================================================================
+anim Idle
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+			Visualparticle scylla shockwave
+			Connect ATTACHPOINT blast hotspot
+				
+         }
+      }
+   }
+}
+
+
+//==============================================================================
+anim death
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+			Visualparticle scylla shockwave
+			Connect ATTACHPOINT blast hotspot
+				
+         }
+      }
+   }
+}
+
+
+

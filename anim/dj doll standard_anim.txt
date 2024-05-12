@@ -1,0 +1,261 @@
+//==============================================================================
+// Scylla (Standard)_anim.txt
+//==============================================================================
+
+
+import Greek_Large_Shield_anim.txt
+import Hoplite_spear_defines_anim.txt
+
+
+define dagger
+{
+
+	set hotspot
+	{
+		version
+		{
+			Visual NXevildagger
+		}
+	}
+}
+
+//==============================================================================
+define Sword
+{
+	SetSelector
+	{
+		TechLogic none/Copper Weapons/Bronze Weapons/Iron Weapons
+		set hotspot
+		{
+			version
+			{
+				Visual Attachments X Double Sword Standard
+				connect Fire Flame hotspot
+			}
+		}			
+		set hotspot
+		{
+			version
+			{
+				Visual Attachments X Double Sword Copper
+				connect Fire Flame hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Attachments X Double Sword Bronze
+				connect Fire Flame hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Attachments X Double Sword Iron
+				connect Fire Flame hotspot
+			}
+		}
+	}	  
+}
+
+
+                           ____________________________________
+                          |                                    |
+                          |      CREATED by WOLLIEWOLTAZ       |
+                          |____________________________________|
+//==============================================================================
+//==============================================================================
+//Visuals/Replacetextures
+//==============================================================================
+//==============================================================================
+anim Birth
+{
+   SetSelector
+   {
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual scyllastandard_idle_small
+
+					connect LeftHand Spear hotspot
+					connect RightHand LargeGreekShield hotspot
+					ReplaceTexture t_god_scylla_dif00/villager x crate empty
+
+				}
+			}
+		}
+   }
+}
+//==============================================================================
+anim Idle
+{
+   SetSelector
+   {
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual scyllastandard_idle_small
+					connect LeftHand Spear hotspot
+					connect RightHand LargeGreekShield hotspot
+				}	
+			}
+		}
+   }
+}
+//==============================================================================
+anim Walk
+{
+   SetSelector
+   {
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual scyllastandard_run_small
+					connect LeftHand Spear hotspot
+					connect RightHand LargeGreekShield hotspot
+				}	
+			}
+		}  
+   }
+
+}
+
+
+//==============================================================================
+anim Attack
+{
+   SetSelector none
+   {
+      set hotspot
+      {
+         version
+         {
+				Visual scyllastandard_attacka_small
+					connect LeftHand Spear hotspot
+					connect RightHand LargeGreekShield hotspot
+				tag Attack 0.40 true   
+               		    	tag GenericSound 0.40 true
+				tag SpecificSoundSet 0.40 false SwordSwing checkVisible
+         }
+      }
+   }
+}
+      
+//==============================================================================
+anim Death
+{
+   SetSelector
+   {
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual scyllastandard_idle_small
+					connect LeftHand Spear hotspot
+					connect RightHand LargeGreekShield hotspot
+					ReplaceTexture t_god_scylla_dif00/villager x crate empty
+
+				}	
+			}
+		}
+   }
+}
+
+//==============================================================================
+anim Recover
+{
+   SetSelector
+   {
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual scyllastandard_idle_small
+					connect LeftHand Spear hotspot
+					connect RightHand LargeGreekShield hotspot
+					ReplaceTexture t_god_scylla_dif00/villager x crate empty
+
+				}	
+			}
+		}
+   }
+}
+
+//==============================================================================
+anim Flail
+{
+   SetSelector
+   {
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual scyllastandard_idle_small
+					connect LeftHand Spear hotspot
+					connect RightHand LargeGreekShield hotspot
+				}	
+			}
+		}
+   }
+}
+//==============================================================================
+anim Charging
+{
+   SetSelector
+   {
+set hotspot
+			{
+
+		version
+         {
+				Visual scyllastandard_attacka_small
+					connect LeftHand Spear hotspot
+					connect RightHand LargeGreekShield hotspot
+				tag Attack 0.40 true   
+               		    	tag GenericSound 0.40 true
+				tag SpecificSoundSet 0.40 false SwordSwing checkVisible
+         }
+}
+
+   }
+}
+
+
+//==============================================================================
+anim Heal
+{
+   SetSelector
+   {
+set hotspot
+			{
+
+		version
+         {
+				Visual scyllastandard_attacka_small
+					connect LeftHand Spear hotspot
+					connect RightHand LargeGreekShield hotspot
+				tag Attack 0.40 true   
+               		    	tag GenericSound 0.40 true
+				tag SpecificSoundSet 0.40 false SwordSwing checkVisible
+         }
+}
+
+   }
+}

@@ -1,0 +1,63 @@
+//==============================================================================
+// Scylla Projectile_anim.txt
+//==============================================================================
+
+//==============================================================================
+define Bolt
+{
+   set hotspot
+  {
+      version
+      {
+         Visualparticle SFX X Lampades Bolt
+      }
+   }
+}
+
+//==============================================================================
+anim Idle
+{
+   SetSelector
+   { 
+      set hotspot
+      {
+         version
+         {
+            Visualnone Jimmy
+				connect hotspot bolt hotspot
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim Bored
+{
+   SetSelector
+   { 
+      set hotspot
+      {
+         version
+         {
+            Visualnone Jimmy
+				connect hotspot bolt hotspot
+         }
+      }
+   }
+}
+//==============================================================================
+anim Death
+{
+   SetSelector
+   { 
+      set hotspot
+      {
+         version
+         {
+            Visualnone Jimmy
+				connect hotspot bolt hotspot
+				
+         }
+      }
+   }
+}
