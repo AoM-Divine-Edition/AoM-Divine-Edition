@@ -638,7 +638,7 @@ anim Build
          {
             version
             {
-               Visual Villager G male_sow
+               Visual townsfolk_male_sow
 					connect ATTACHPOINT basket hotspot
 					connect RightHand seeds hotspot
             }
@@ -692,7 +692,7 @@ anim Build
          {
             version
             {
-               Visual Villager G female_sow
+               Visual townsfolk_female_sow
 					connect Attachpoint basket hotspot
 					connect RightHand seeds hotspot
             }

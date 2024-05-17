@@ -111,7 +111,7 @@ anim Birth
                {
 				  Length 2.00
                   VisualGranny Deerman_Birth
-               tag SpecificSoundSet 0.40 false DeermanHowl checkVisible 
+               tag SpecificSoundSet 0.40 false WendigoScream checkVisible 
 connect HOTSPOT greekbirthSFX hotspot
 
                }
@@ -131,7 +131,7 @@ anim Death
                   VisualGranny Deerman_Death
 				Length 2.2
                   tag SpecificSoundSet 0.55 false HeavyFall checkVisible 
-                  tag SpecificSoundSet 0.10 false DeermanDeath checkVisible
+                  //tag SpecificSoundSet 0.10 false DeermanDeath checkVisible
                }
             }
         }
